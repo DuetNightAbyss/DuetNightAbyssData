@@ -50837,7 +50837,7 @@ C区 阿妮塔\
             },
         }
     end },
-    { MinKey = "UI_EffectQuality_Low", MaxKey = "UI_HOME_FORGING", Loader = function()
+    { MinKey = "UI_EffectQuality_Low", MaxKey = "UI_HIT_SCORE", Loader = function()
         return {
             ["UI_EffectQuality_Low"] = {
                 ["TextMapContent"] = "低",
@@ -51226,6 +51226,10 @@ C区 阿妮塔\
             ["UI_Fishing_TrackFishingSpot"] = {
                 ["TextMapContent"] = "追踪当前钓鱼点",
                 ["TextMapId"] = "UI_Fishing_TrackFishingSpot",
+            },
+            ["UI_Fishing_UnlockFishBook"] = {
+                ["TextMapContent"] = "解锁图鉴",
+                ["TextMapId"] = "UI_Fishing_UnlockFishBook",
             },
             ["UI_Fishing_UpdateTime"] = {
                 ["TextMapContent"] = "%s后钓鱼点刷新",
@@ -51635,14 +51639,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "击中敌人，获得积分×1。",
                 ["TextMapId"] = "UI_HIT_SCORE",
             },
+        }
+    end },
+    { MinKey = "UI_HOME_FORGING", MaxKey = "UI_Language_Switch_Voice", Loader = function()
+        return {
             ["UI_HOME_FORGING"] = {
                 ["TextMapContent"] = "休憩之所：铁匠皎皎处铸造",
                 ["TextMapId"] = "UI_HOME_FORGING",
             },
-        }
-    end },
-    { MinKey = "UI_HardBoss_Abandon_Text", MaxKey = "UI_Language_Text_Chinese", Loader = function()
-        return {
             ["UI_HardBoss_Abandon_Text"] = {
                 ["TextMapContent"] = "是否放弃挑战？",
                 ["TextMapId"] = "UI_HardBoss_Abandon_Text",
@@ -52439,14 +52443,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "语音",
                 ["TextMapId"] = "UI_Language_Switch_Voice",
             },
+        }
+    end },
+    { MinKey = "UI_Language_Text_Chinese", MaxKey = "UI_MOD_POLARITY_ADD_SUCCESS", Loader = function()
+        return {
             ["UI_Language_Text_Chinese"] = {
                 ["TextMapContent"] = "简体中文",
                 ["TextMapId"] = "UI_Language_Text_Chinese",
             },
-        }
-    end },
-    { MinKey = "UI_Language_Text_English", MaxKey = "UI_MOD_POLARITY_CHANGE", Loader = function()
-        return {
             ["UI_Language_Text_English"] = {
                 ["TextMapContent"] = "English（英语）",
                 ["TextMapId"] = "UI_Language_Text_English",
@@ -53243,14 +53247,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "趋向新增成功",
                 ["TextMapId"] = "UI_MOD_POLARITY_ADD_SUCCESS",
             },
+        }
+    end },
+    { MinKey = "UI_MOD_POLARITY_CHANGE", MaxKey = "UI_Npc_Name_Continue", Loader = function()
+        return {
             ["UI_MOD_POLARITY_CHANGE"] = {
                 ["TextMapContent"] = "调整趋向",
                 ["TextMapId"] = "UI_MOD_POLARITY_CHANGE",
             },
-        }
-    end },
-    { MinKey = "UI_MOD_POLARITY_CHANGE_SUCCESS", MaxKey = "UI_Npc_Name_Dafu", Loader = function()
-        return {
             ["UI_MOD_POLARITY_CHANGE_SUCCESS"] = {
                 ["TextMapContent"] = "趋向调整成功",
                 ["TextMapId"] = "UI_MOD_POLARITY_CHANGE_SUCCESS",
@@ -54048,14 +54052,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "继续前进",
                 ["TextMapId"] = "UI_Npc_Name_Continue",
             },
+        }
+    end },
+    { MinKey = "UI_Npc_Name_Dafu", MaxKey = "UI_OPTION_ACCOUNT", Loader = function()
+        return {
             ["UI_Npc_Name_Dafu"] = {
                 ["TextMapContent"] = "达芙涅",
                 ["TextMapId"] = "UI_Npc_Name_Dafu",
             },
-        }
-    end },
-    { MinKey = "UI_Npc_Name_Diaoxiang", MaxKey = "UI_OPTION_AUDIO", Loader = function()
-        return {
             ["UI_Npc_Name_Diaoxiang"] = {
                 ["TextMapContent"] = "雕像",
                 ["TextMapId"] = "UI_Npc_Name_Diaoxiang",
@@ -54852,14 +54856,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "账户",
                 ["TextMapId"] = "UI_OPTION_ACCOUNT",
             },
+        }
+    end },
+    { MinKey = "UI_OPTION_AUDIO", MaxKey = "UI_Pack", Loader = function()
+        return {
             ["UI_OPTION_AUDIO"] = {
                 ["TextMapContent"] = "声音",
                 ["TextMapId"] = "UI_OPTION_AUDIO",
             },
-        }
-    end },
-    { MinKey = "UI_OPTION_AimAssist", MaxKey = "UI_Pan_Push", Loader = function()
-        return {
             ["UI_OPTION_AimAssist"] = {
                 ["TextMapContent"] = "辅助瞄准",
                 ["TextMapId"] = "UI_OPTION_AimAssist",
@@ -55656,14 +55660,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "礼包",
                 ["TextMapId"] = "UI_Pack",
             },
+        }
+    end },
+    { MinKey = "UI_Pan_Push", MaxKey = "UI_REGISTER_WHOLE", Loader = function()
+        return {
             ["UI_Pan_Push"] = {
                 ["TextMapContent"] = "挪动",
                 ["TextMapId"] = "UI_Pan_Push",
             },
-        }
-    end },
-    { MinKey = "UI_Pan_Survey", MaxKey = "UI_RLArchiveTitle_Blessing", Loader = function()
-        return {
             ["UI_Pan_Survey"] = {
                 ["TextMapContent"] = "追踪",
                 ["TextMapId"] = "UI_Pan_Survey",
@@ -56460,14 +56464,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "观察全身",
                 ["TextMapId"] = "UI_REGISTER_WHOLE",
             },
+        }
+    end },
+    { MinKey = "UI_RLArchiveTitle_Blessing", MaxKey = "UI_SHOP_SUBTAB_NAME_MOD_MELEE", Loader = function()
+        return {
             ["UI_RLArchiveTitle_Blessing"] = {
                 ["TextMapContent"] = "烛芯",
                 ["TextMapId"] = "UI_RLArchiveTitle_Blessing",
             },
-        }
-    end },
-    { MinKey = "UI_RLArchiveTitle_Event", MaxKey = "UI_SHOP_SUBTAB_NAME_MOD_RANGE", Loader = function()
-        return {
             ["UI_RLArchiveTitle_Event"] = {
                 ["TextMapContent"] = "奇遇",
                 ["TextMapId"] = "UI_RLArchiveTitle_Event",
@@ -57266,14 +57270,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "近战魔之楔",
                 ["TextMapId"] = "UI_SHOP_SUBTAB_NAME_MOD_MELEE",
             },
+        }
+    end },
+    { MinKey = "UI_SHOP_SUBTAB_NAME_MOD_RANGE", MaxKey = "UI_Squad_Sigil2", Loader = function()
+        return {
             ["UI_SHOP_SUBTAB_NAME_MOD_RANGE"] = {
                 ["TextMapContent"] = "远程魔之楔",
                 ["TextMapId"] = "UI_SHOP_SUBTAB_NAME_MOD_RANGE",
             },
-        }
-    end },
-    { MinKey = "UI_SHOP_SUBTAB_NAME_PACK", MaxKey = "UI_Squad_SigilMiss_Toast", Loader = function()
-        return {
             ["UI_SHOP_SUBTAB_NAME_PACK"] = {
                 ["TextMapContent"] = "礼包",
                 ["TextMapId"] = "UI_SHOP_SUBTAB_NAME_PACK",
@@ -58070,14 +58074,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "协战同伴2",
                 ["TextMapId"] = "UI_Squad_Sigil2",
             },
+        }
+    end },
+    { MinKey = "UI_Squad_SigilMiss_Toast", MaxKey = "UI_Team_Refused_Friend", Loader = function()
+        return {
             ["UI_Squad_SigilMiss_Toast"] = {
                 ["TextMapContent"] = "请先装配协战同伴",
                 ["TextMapId"] = "UI_Squad_SigilMiss_Toast",
             },
-        }
-    end },
-    { MinKey = "UI_Squad_SwitchChar_Toast", MaxKey = "UI_Team_SomeOneBecomeLeader", Loader = function()
-        return {
             ["UI_Squad_SwitchChar_Toast"] = {
                 ["TextMapContent"] = "%s已替换至角色",
                 ["TextMapId"] = "UI_Squad_SwitchChar_Toast",
@@ -58883,14 +58887,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "好友拒绝了你的入队申请",
                 ["TextMapId"] = "UI_Team_Refused_Friend",
             },
+        }
+    end },
+    { MinKey = "UI_Team_SomeOneBecomeLeader", MaxKey = "UI_WEAPON_DESC_20598", Loader = function()
+        return {
             ["UI_Team_SomeOneBecomeLeader"] = {
                 ["TextMapContent"] = "%s 已成为队长",
                 ["TextMapId"] = "UI_Team_SomeOneBecomeLeader ",
             },
-        }
-    end },
-    { MinKey = "UI_Team_SomeOneKicked", MaxKey = "UI_WEAPON_DESC_20599", Loader = function()
-        return {
             ["UI_Team_SomeOneKicked"] = {
                 ["TextMapContent"] = "%s 被移出队伍",
                 ["TextMapId"] = "UI_Team_SomeOneKicked",
@@ -59697,14 +59701,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "应用了最新表面处理工艺制造而成的突击枪，是彪悍的先锋们惯用的武器。",
                 ["TextMapId"] = "UI_WEAPON_DESC_20598",
             },
+        }
+    end },
+    { MinKey = "UI_WEAPON_DESC_20599", MaxKey = "UI_Weapons_Carried", Loader = function()
+        return {
             ["UI_WEAPON_DESC_20599"] = {
                 ["TextMapContent"] = "由近些年最新冶炼和镀金工艺制作成的冲锋枪，是铁匠们通常推荐购买的款式。因其价廉物美，在阿特拉西亚的旅行者中很受欢迎。",
                 ["TextMapId"] = "UI_WEAPON_DESC_20599",
             },
-        }
-    end },
-    { MinKey = "UI_WEAPON_DESC_20601", MaxKey = "UI_Wiki_DefaultSearch", Loader = function()
-        return {
             ["UI_WEAPON_DESC_20601"] = {
                 ["TextMapContent"] = "茕茕之人，当汝沐浴于烈焰中，却甘愿只化为逐风的黄沙，此即为重生之刻。",
                 ["TextMapId"] = "UI_WEAPON_DESC_20601",
@@ -60513,14 +60517,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "武器已装配",
                 ["TextMapId"] = "UI_Weapons_Carried",
             },
+        }
+    end },
+    { MinKey = "UI_Wiki_DefaultSearch", MaxKey = "WikiText_10100601", Loader = function()
+        return {
             ["UI_Wiki_DefaultSearch"] = {
                 ["TextMapContent"] = "搜索词条标题...",
                 ["TextMapId"] = "UI_Wiki_DefaultSearch",
             },
-        }
-    end },
-    { MinKey = "UI_Wiki_Entrance", MaxKey = "WikiText_10100602", Loader = function()
-        return {
             ["UI_Wiki_Entrance"] = {
                 ["TextMapContent"] = "阿特拉西亚百科",
                 ["TextMapId"] = "UI_Wiki_Entrance",
@@ -61318,14 +61322,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "维护冰湖城安全和秩序的军队，隶属于第六军团。",
                 ["TextMapId"] = "WikiText_10100601",
             },
+        }
+    end },
+    { MinKey = "WikiText_10100602", MaxKey = "voice_ch_char_Baiheng_vo_gain_2", Loader = function()
+        return {
             ["WikiText_10100602"] = {
                 ["TextMapContent"] = "名义上负责保护冰湖城的全体市民，但实际执行任务时通常只关注和索拉之民相关的事务。部分成员甚至会以执行公务为由肆意欺压卡戎之民。",
                 ["TextMapId"] = "WikiText_10100602",
             },
-        }
-    end },
-    { MinKey = "WikiText_10100701", MaxKey = "voice_ch_char_Baiheng_vo_idle", Loader = function()
-        return {
             ["WikiText_10100701"] = {
                 ["TextMapContent"] = "海伯利亚帝国的官方学术机构。\
 海伯利亚的炼金术师曾经像所有地区的炼金术师那样，是一个远离社会生产、不为世俗所知的神秘职业。但在女皇柏罗娜二世设立皇家炼金院后，炼金术师在海伯利亚便逐渐演化成不一样的含义。\
@@ -62175,14 +62179,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "华胥药师，扶疏。虽说仍在见习，但大可放心将伤口托付于我，就算我学问不精，也总有治愈的办法。",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_gain_2",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Baiheng_vo_idle", MaxKey = "voice_ch_char_Kezhou_vo_revive", Loader = function()
+        return {
             ["voice_ch_char_Baiheng_vo_idle"] = {
                 ["TextMapContent"] = "嗯......晨间打扫后通风，午后四处喷洒烈酒，薄暮时再点几支香驱散蚊虫，只有这样才能保持室内洁净。",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_idle",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Baiheng_vo_lvup", MaxKey = "voice_ch_char_Kezhou_vo_skill01_r01", Loader = function()
-        return {
             ["voice_ch_char_Baiheng_vo_lvup"] = {
                 ["TextMapContent"] = "健康作息，定时锻炼，也是医者应尽的义务。",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_lvup",
@@ -62986,14 +62990,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "鹿死谁手，尚未可知。",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_revive",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Kezhou_vo_skill01_r01", MaxKey = "voice_ch_char_Nifu_vo_skill02_r03", Loader = function()
+        return {
             ["voice_ch_char_Kezhou_vo_skill01_r01"] = {
                 ["TextMapContent"] = "影如流星！",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_skill01_r01",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Kezhou_vo_skill01_r02", MaxKey = "voice_ch_char_Nifu_vo_topic_01_1", Loader = function()
-        return {
             ["voice_ch_char_Kezhou_vo_skill01_r02"] = {
                 ["TextMapContent"] = "留步于此！",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_skill01_r02",
@@ -63795,14 +63799,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "迷路的灵魂啊，请静听我的指引。",
                 ["TextMapId"] = "voice_ch_char_Nifu_vo_skill02_r03",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Nifu_vo_topic_01_1", MaxKey = "voice_ch_char_Tuosi_vo_topic_05_7", Loader = function()
+        return {
             ["voice_ch_char_Nifu_vo_topic_01_1"] = {
                 ["TextMapContent"] = "是的，在漫长的时间中，我在阿特拉西亚的各处旅行——或者流浪。我用双足丈量过这片土地的每一寸刻度，也用手指摩挲过它的每一缕纹理。",
                 ["TextMapId"] = "voice_ch_char_Nifu_vo_topic_01_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Nifu_vo_topic_01_2", MaxKey = "voice_ch_char_Tuosi_vo_victory", Loader = function()
-        return {
             ["voice_ch_char_Nifu_vo_topic_01_2"] = {
                 ["TextMapContent"] = "如果你走过足够多的地方，会觉得各处的风景并无太多差别。北境的飞雪，赫墨的砂砾，或者华胥的炊烟，无非也是另一种林间的薄雾而已。",
                 ["TextMapId"] = "voice_ch_char_Nifu_vo_topic_01_2",
@@ -64608,14 +64612,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "日出时分我累了，就躺在那袭绒毯上，枕着她的两膝，做了一个长长的梦。",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_topic_05_7",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Tuosi_vo_victory", MaxKey = "voice_ch_char_Zhiliu_vo_idle", Loader = function()
+        return {
             ["voice_ch_char_Tuosi_vo_victory"] = {
                 ["TextMapContent"] = "喜剧是智者的讥讽。",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_victory",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Tuosi_vo_welcome", MaxKey = "voice_ch_char_Zhiliu_vo_lvup", Loader = function()
-        return {
             ["voice_ch_char_Tuosi_vo_welcome"] = {
                 ["TextMapContent"] = "如今我扮演破碎的囚徒，而你是为我执掌枷锁的典狱长。",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_welcome",
@@ -65425,14 +65429,14 @@ C区 阿妮塔\
                 ["TextMapContent"] = "近来的日程我都让秘书推掉了。这几日，我只想与你待在一起，排却外界纷扰，体会此处的清净——这次是真心诚意，还是另有所图？不妨猜猜看吧。",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_idle",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Zhiliu_vo_lvup", MaxKey = "需求TID", Loader = function()
+        return {
             ["voice_ch_char_Zhiliu_vo_lvup"] = {
                 ["TextMapContent"] = "正如预料，一切都在掌握之中。",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_lvup",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Zhiliu_vo_revive", MaxKey = "需求TID", Loader = function()
-        return {
             ["voice_ch_char_Zhiliu_vo_revive"] = {
                 ["TextMapContent"] = "若以为一切已经结束，就太天真了。",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_revive",

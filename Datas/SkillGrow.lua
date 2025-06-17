@@ -39330,7 +39330,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 0,
 					Type = "Mod",
-					Value = 0.125,
+					Value = 0.03,
 				},
 			},
 			[1] = {
@@ -39360,7 +39360,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 1,
 					Type = "Mod",
-					Value = 0.25,
+					Value = 0.06,
 				},
 			},
 			[2] = {
@@ -39390,7 +39390,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 2,
 					Type = "Mod",
-					Value = 0.375,
+					Value = 0.09,
 				},
 			},
 			[3] = {
@@ -39420,7 +39420,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 3,
 					Type = "Mod",
-					Value = 0.5,
+					Value = 0.12,
 				},
 			},
 			[4] = {
@@ -39450,7 +39450,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 4,
 					Type = "Mod",
-					Value = 0.625,
+					Value = 0.15,
 				},
 			},
 			[5] = {
@@ -39480,7 +39480,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 5,
 					Type = "Mod",
-					Value = 0.75,
+					Value = 0.18,
 				},
 			},
 			[6] = {
@@ -39510,7 +39510,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 6,
 					Type = "Mod",
-					Value = 0.875,
+					Value = 0.21,
 				},
 			},
 			[7] = {
@@ -39540,7 +39540,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 7,
 					Type = "Mod",
-					Value = 1,
+					Value = 0.24,
 				},
 			},
 			[8] = {
@@ -39570,7 +39570,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 8,
 					Type = "Mod",
-					Value = 1.125,
+					Value = 0.27,
 				},
 			},
 			[9] = {
@@ -39600,7 +39600,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 9,
 					Type = "Mod",
-					Value = 1.25,
+					Value = 0.3,
 				},
 			},
 			[10] = {
@@ -39630,7 +39630,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 10,
 					Type = "Mod",
-					Value = 1.375,
+					Value = 0.33,
 				},
 			},
 		},
@@ -40990,7 +40990,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 0,
 					Type = "Mod",
-					Value = 0.125,
+					Value = 0.03,
 				},
 			},
 			[1] = {
@@ -41020,7 +41020,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 1,
 					Type = "Mod",
-					Value = 0.25,
+					Value = 0.06,
 				},
 			},
 			[2] = {
@@ -41050,7 +41050,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 2,
 					Type = "Mod",
-					Value = 0.375,
+					Value = 0.09,
 				},
 			},
 			[3] = {
@@ -41080,7 +41080,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 3,
 					Type = "Mod",
-					Value = 0.5,
+					Value = 0.12,
 				},
 			},
 			[4] = {
@@ -41110,7 +41110,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 4,
 					Type = "Mod",
-					Value = 0.625,
+					Value = 0.15,
 				},
 			},
 			[5] = {
@@ -41140,7 +41140,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 5,
 					Type = "Mod",
-					Value = 0.75,
+					Value = 0.18,
 				},
 			},
 			[6] = {
@@ -41170,7 +41170,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 6,
 					Type = "Mod",
-					Value = 0.875,
+					Value = 0.21,
 				},
 			},
 			[7] = {
@@ -41200,7 +41200,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 7,
 					Type = "Mod",
-					Value = 1,
+					Value = 0.24,
 				},
 			},
 			[8] = {
@@ -41230,7 +41230,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 8,
 					Type = "Mod",
-					Value = 1.125,
+					Value = 0.27,
 				},
 			},
 			[9] = {
@@ -41260,7 +41260,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 9,
 					Type = "Mod",
-					Value = 1.25,
+					Value = 0.3,
 				},
 			},
 			[10] = {
@@ -41290,7 +41290,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 10,
 					Type = "Mod",
-					Value = 1.375,
+					Value = 0.33,
 				},
 			},
 		},
@@ -42650,7 +42650,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 0,
 					Type = "Mod",
-					Value = 0.125,
+					Value = 0.03,
 				},
 			},
 			[1] = {
@@ -42680,7 +42680,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 1,
 					Type = "Mod",
-					Value = 0.25,
+					Value = 0.06,
 				},
 			},
 			[2] = {
@@ -42710,7 +42710,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 2,
 					Type = "Mod",
-					Value = 0.375,
+					Value = 0.09,
 				},
 			},
 			[3] = {
@@ -42740,7 +42740,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 3,
 					Type = "Mod",
-					Value = 0.5,
+					Value = 0.12,
 				},
 			},
 			[4] = {
@@ -42770,7 +42770,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 4,
 					Type = "Mod",
-					Value = 0.625,
+					Value = 0.15,
 				},
 			},
 			[5] = {
@@ -42800,7 +42800,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 5,
 					Type = "Mod",
-					Value = 0.75,
+					Value = 0.18,
 				},
 			},
 			[6] = {
@@ -42830,7 +42830,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 6,
 					Type = "Mod",
-					Value = 0.875,
+					Value = 0.21,
 				},
 			},
 			[7] = {
@@ -42860,7 +42860,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 7,
 					Type = "Mod",
-					Value = 1,
+					Value = 0.24,
 				},
 			},
 			[8] = {
@@ -42890,7 +42890,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 8,
 					Type = "Mod",
-					Value = 1.125,
+					Value = 0.27,
 				},
 			},
 			[9] = {
@@ -42920,7 +42920,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 9,
 					Type = "Mod",
-					Value = 1.25,
+					Value = 0.3,
 				},
 			},
 			[10] = {
@@ -42950,7 +42950,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 10,
 					Type = "Mod",
-					Value = 1.375,
+					Value = 0.33,
 				},
 			},
 		},
@@ -44156,7 +44156,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 0,
 					Type = "Mod",
-					Value = 0.125,
+					Value = 0.03,
 				},
 			},
 			[1] = {
@@ -44186,7 +44186,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 1,
 					Type = "Mod",
-					Value = 0.25,
+					Value = 0.06,
 				},
 			},
 			[2] = {
@@ -44216,7 +44216,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 2,
 					Type = "Mod",
-					Value = 0.375,
+					Value = 0.09,
 				},
 			},
 			[3] = {
@@ -44246,7 +44246,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 3,
 					Type = "Mod",
-					Value = 0.5,
+					Value = 0.12,
 				},
 			},
 			[4] = {
@@ -44276,7 +44276,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 4,
 					Type = "Mod",
-					Value = 0.625,
+					Value = 0.15,
 				},
 			},
 			[5] = {
@@ -44306,7 +44306,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 5,
 					Type = "Mod",
-					Value = 0.75,
+					Value = 0.18,
 				},
 			},
 			[6] = {
@@ -44336,7 +44336,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 6,
 					Type = "Mod",
-					Value = 0.875,
+					Value = 0.21,
 				},
 			},
 			[7] = {
@@ -44366,7 +44366,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 7,
 					Type = "Mod",
-					Value = 1,
+					Value = 0.24,
 				},
 			},
 			[8] = {
@@ -44396,7 +44396,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 8,
 					Type = "Mod",
-					Value = 1.125,
+					Value = 0.27,
 				},
 			},
 			[9] = {
@@ -44426,7 +44426,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 9,
 					Type = "Mod",
-					Value = 1.25,
+					Value = 0.3,
 				},
 			},
 			[10] = {
@@ -44456,7 +44456,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 10,
 					Type = "Mod",
-					Value = 1.375,
+					Value = 0.33,
 				},
 			},
 		},
@@ -45816,7 +45816,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 0,
 					Type = "Mod",
-					Value = 0.125,
+					Value = 0.03,
 				},
 			},
 			[1] = {
@@ -45846,7 +45846,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 1,
 					Type = "Mod",
-					Value = 0.25,
+					Value = 0.06,
 				},
 			},
 			[2] = {
@@ -45876,7 +45876,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 2,
 					Type = "Mod",
-					Value = 0.375,
+					Value = 0.09,
 				},
 			},
 			[3] = {
@@ -45906,7 +45906,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 3,
 					Type = "Mod",
-					Value = 0.5,
+					Value = 0.12,
 				},
 			},
 			[4] = {
@@ -45936,7 +45936,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 4,
 					Type = "Mod",
-					Value = 0.625,
+					Value = 0.15,
 				},
 			},
 			[5] = {
@@ -45966,7 +45966,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 5,
 					Type = "Mod",
-					Value = 0.75,
+					Value = 0.18,
 				},
 			},
 			[6] = {
@@ -45996,7 +45996,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 6,
 					Type = "Mod",
-					Value = 0.875,
+					Value = 0.21,
 				},
 			},
 			[7] = {
@@ -46026,7 +46026,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 7,
 					Type = "Mod",
-					Value = 1,
+					Value = 0.24,
 				},
 			},
 			[8] = {
@@ -46056,7 +46056,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 8,
 					Type = "Mod",
-					Value = 1.125,
+					Value = 0.27,
 				},
 			},
 			[9] = {
@@ -46086,7 +46086,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 9,
 					Type = "Mod",
-					Value = 1.25,
+					Value = 0.3,
 				},
 			},
 			[10] = {
@@ -46116,7 +46116,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 10,
 					Type = "Mod",
-					Value = 1.375,
+					Value = 0.33,
 				},
 			},
 		},
@@ -47476,7 +47476,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 0,
 					Type = "Mod",
-					Value = 0.125,
+					Value = 0.03,
 				},
 			},
 			[1] = {
@@ -47506,7 +47506,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 1,
 					Type = "Mod",
-					Value = 0.25,
+					Value = 0.06,
 				},
 			},
 			[2] = {
@@ -47536,7 +47536,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 2,
 					Type = "Mod",
-					Value = 0.375,
+					Value = 0.09,
 				},
 			},
 			[3] = {
@@ -47566,7 +47566,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 3,
 					Type = "Mod",
-					Value = 0.5,
+					Value = 0.12,
 				},
 			},
 			[4] = {
@@ -47596,7 +47596,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 4,
 					Type = "Mod",
-					Value = 0.625,
+					Value = 0.15,
 				},
 			},
 			[5] = {
@@ -47626,7 +47626,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 5,
 					Type = "Mod",
-					Value = 0.75,
+					Value = 0.18,
 				},
 			},
 			[6] = {
@@ -47656,7 +47656,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 6,
 					Type = "Mod",
-					Value = 0.875,
+					Value = 0.21,
 				},
 			},
 			[7] = {
@@ -47686,7 +47686,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 7,
 					Type = "Mod",
-					Value = 1,
+					Value = 0.24,
 				},
 			},
 			[8] = {
@@ -47716,7 +47716,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 8,
 					Type = "Mod",
-					Value = 1.125,
+					Value = 0.27,
 				},
 			},
 			[9] = {
@@ -47746,7 +47746,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 9,
 					Type = "Mod",
-					Value = 1.25,
+					Value = 0.3,
 				},
 			},
 			[10] = {
@@ -47776,7 +47776,7 @@ return ReadOnly("SkillGrow", {
 					Index = 4,
 					Level = 10,
 					Type = "Mod",
-					Value = 1.375,
+					Value = 0.33,
 				},
 			},
 		},

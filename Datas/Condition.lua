@@ -9275,7 +9275,11 @@ return ReadOnly("Condition", {
 	[40700101] = {
 		ConditionId = 40700101,
 		ConditionLogic = "OR",
-		ConditionMap = T.RT_50,
+		ConditionMap = {
+			DialogueHasRead = {
+				11011301,
+			},
+		},
 		Remark = "海伯利亚皇家军事学院",
 	},
 	[40700201] = {

@@ -20139,7 +20139,7 @@ local Data = {
             ["voice_jp_story_2001_200060_32153A8A_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/jp/story/2001",
                 ["SelectKey"] = "voice_jp_story_2001_200060_32153A8A_m",
-                ["SoundLength"] = 2400,
+                ["SoundLength"] = 3490,
             },
             ["voice_jp_story_2001_200060_32153AB4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/jp/story/2001",
@@ -20179,7 +20179,7 @@ local Data = {
             ["voice_jp_story_2001_200060_32153C2E_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/jp/story/2001",
                 ["SelectKey"] = "voice_jp_story_2001_200060_32153C2E_m",
-                ["SoundLength"] = 3490,
+                ["SoundLength"] = 2400,
             },
             ["voice_jp_story_2001_200060_32153C82"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/jp/story/2001",
