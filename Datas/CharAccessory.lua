@@ -1025,7 +1025,7 @@ return ReadOnly("CharAccessory", {
 		AccessorySocket = "Player_Part_Waist_R",
 		AccessoryType = "Waist",
 		Des = "UI_Accessory_Desc_30004",
-		Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Back_Lantern",
+		Icon = "Texture2D'/Game/UI/Texture/Dynamic/Atlas/Prop/Fashion/T_Fashion_Waist06.T_Fashion_Waist06'",
 		ModelPath = "/Game/Asset/Char/Player/Common/Part/Waist/Mesh/Player_Waist_Part04_SM",
 		Name = "UI_Accessory_Name_30004",
 		Sound = "SOUND_ITEM_JEWELRY",

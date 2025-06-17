@@ -1231,8 +1231,8 @@ return ReadOnly("CombatCondition", {
 	},
 	[600401] = {
 		ConditionVars = {
-			XY = 150,
-			Z = 70,
+			HalfHeight = 70,
+			Radius = 150,
 		},
 		FuncName = "IsAnySceneAroundBTTarget",
 		Id = 600401,

@@ -1509,7 +1509,7 @@ return ReadOnly("SkillGrow", {
 					Index = 1,
 					Level = 1,
 					Type = "BattlePet",
-					Value = 0.05,
+					Value = 0.15,
 				},
 			},
 			[2] = {
@@ -1518,7 +1518,7 @@ return ReadOnly("SkillGrow", {
 					Index = 1,
 					Level = 2,
 					Type = "BattlePet",
-					Value = 0.1,
+					Value = 0.15,
 				},
 			},
 			[3] = {
@@ -1526,6 +1526,15 @@ return ReadOnly("SkillGrow", {
 					ID = 1003,
 					Index = 1,
 					Level = 3,
+					Type = "BattlePet",
+					Value = 0.15,
+				},
+			},
+			[4] = {
+				[1] = {
+					ID = 1003,
+					Index = 1,
+					Level = 4,
 					Type = "BattlePet",
 					Value = 0.15,
 				},

@@ -4,8 +4,8 @@ return ReadOnly("ExamineInfo", {
 	["1.0"] = {
 		ChannelID = 56,
 		ExamineKey = "1.0",
-		HostNum = 2004,
-		IP = "47.98.107.164",
+		HostNum = 2002,
+		IP = "121.199.19.146",
 		Port = 8000,
 	},
 	["10.0"] = {
@@ -42,6 +42,9 @@ return ReadOnly("ExamineInfo", {
 	["2.0"] = {
 		ChannelID = 18,
 		ExamineKey = "2.0",
+		HostNum = 2002,
+		IP = "121.199.19.146",
+		Port = 8000,
 	},
 	["3.0"] = {
 		ChannelID = 46,
@@ -69,6 +72,9 @@ return ReadOnly("ExamineInfo", {
 	["6.0"] = {
 		ChannelID = 237,
 		ExamineKey = "6.0",
+		HostNum = 2002,
+		IP = "121.199.19.146",
+		Port = 8000,
 	},
 	["7.0"] = {
 		ChannelID = 269,

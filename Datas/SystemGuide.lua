@@ -164,7 +164,7 @@ return ReadOnly("SystemGuide", {
 		GuideStoryline = "Guide/Guide_Rouge.story",
 		IsInRegion = 1,
 		PlayerInControl = 1,
-		PreSysGuideId = 2058,
+		PreSysGuideId = 2039,
 		SysGuideId = 2023,
 	},
 	[2024] = {
@@ -240,6 +240,7 @@ return ReadOnly("SystemGuide", {
 		GuideStoryline = "Guide/Guide_GroupOnlineRule.story",
 		IsInRegion = 1,
 		PlayerInControl = 1,
+		PreSysGuideId = 2014,
 		SysGuideId = 2039,
 		UIUnlockRule = "FriendMain",
 	},
@@ -337,7 +338,7 @@ return ReadOnly("SystemGuide", {
 		GuideStoryline = "Guide/Guide_Sojourns.story",
 		IsInRegion = 1,
 		PlayerInControl = 1,
-		PreSysGuideId = 2014,
+		PreSysGuideId = 2023,
 		SysGuideId = 2058,
 	},
 	[2060] = {
@@ -410,7 +411,8 @@ return ReadOnly("SystemGuide", {
 		GuideEnd = 0,
 		GuideStoryline = "Guide/Guide_DungeonSec.story",
 		IsInRegion = 1,
-		PlayerInControl = 1,
+		OpenInterface = "StyleOfPlay",
+		PreSysGuideId = 2058,
 		SysGuideId = 2069,
 	},
 })

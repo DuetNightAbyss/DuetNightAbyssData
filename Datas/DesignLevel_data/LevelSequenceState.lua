@@ -136,112 +136,6 @@ return
                 }
             },
         {
-            ["RegionId"] = 101101,
-            ["SequenceStateRecorder"] = {
-                {
-                    ["RecorderId"] = 1,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 2,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 3,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 4,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 5,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 6,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    }
-                }
-            },
-        {
-            ["RegionId"] = 1041,
-            ["SequenceStateRecorder"] = {
-                {
-                    ["RecorderId"] = 1,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 2,
-                    ["SequenceState"] = {
-                        1,
-                        2
-                        }
-                    },
-                {
-                    ["RecorderId"] = 3,
-                    ["SequenceState"] = {
-                        1,
-                        2
-                        }
-                    },
-                {
-                    ["RecorderId"] = 4,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    }
-                }
-            },
-        {
-            ["RegionId"] = 1043,
-            ["SequenceStateRecorder"] = {
-                {
-                    ["RecorderId"] = 1,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 2,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    }
-                }
-            },
-        {
-            ["RegionId"] = 1044,
-            ["SequenceStateRecorder"] = {
-                {
-                    ["RecorderId"] = 1,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 2,
-                    ["SequenceState"] = {
-
-                        }
-                    }
-                }
-            },
-        {
             ["RegionId"] = 103201,
             ["SequenceStateRecorder"] = {
                 {
@@ -260,59 +154,6 @@ return
             },
         {
             ["RegionId"] = 104601,
-            ["SequenceStateRecorder"] = {
-                {
-                    ["RecorderId"] = 1,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 2,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 3,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 4,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 5,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 6,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 7,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 8,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    }
-                }
-            },
-        {
-            ["RegionId"] = 1046,
             ["SequenceStateRecorder"] = {
                 {
                     ["RecorderId"] = 1,
@@ -412,53 +253,6 @@ return
                 }
             },
         {
-            ["RegionId"] = 1042,
-            ["SequenceStateRecorder"] = {
-                {
-                    ["RecorderId"] = 1,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 2,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 3,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 4,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 5,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 6,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    },
-                {
-                    ["RecorderId"] = 7,
-                    ["SequenceState"] = {
-                        1
-                        }
-                    }
-                }
-            },
-        {
             ["RegionId"] = 101702,
             ["SequenceStateRecorder"] = {
                 {
@@ -511,10 +305,44 @@ return
                 }
             },
         {
-            ["RegionId"] = 101701,
+            ["RegionId"] = 101901,
             ["SequenceStateRecorder"] = {
                 {
                     ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 102101,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 1042,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
                     ["SequenceState"] = {
                         1
                         }
@@ -529,6 +357,216 @@ return
                     ["RecorderId"] = 4,
                     ["SequenceState"] = {
                         1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 5,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 6,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 7,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 102102,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 101108,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1,
+                        2
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1,
+                        2
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 101101,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 3,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 4,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 5,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 6,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 101103,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 1041,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 1043,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 1046,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 3,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 4,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 5,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 6,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 7,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 8,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 1044,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+
                         }
                     }
                 }
@@ -551,7 +589,7 @@ return
                 }
             },
         {
-            ["RegionId"] = 1017,
+            ["RegionId"] = 1021,
             ["SequenceStateRecorder"] = {
                 {
                     ["RecorderId"] = 1,
@@ -560,13 +598,24 @@ return
                         }
                     },
                 {
-                    ["RecorderId"] = 3,
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 1019,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
                     ["SequenceState"] = {
                         1
                         }
                     },
                 {
-                    ["RecorderId"] = 4,
+                    ["RecorderId"] = 2,
                     ["SequenceState"] = {
                         1
                         }
@@ -608,6 +657,78 @@ return
                     },
                 {
                     ["RecorderId"] = 6,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 7,
+                    ["SequenceState"] = {
+                        1,
+                        2
+                        }
+                    },
+                {
+                    ["RecorderId"] = 8,
+                    ["SequenceState"] = {
+                        1,
+                        2
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 1017,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 2,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 3,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 4,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    }
+                }
+            },
+        {
+            ["RegionId"] = 101701,
+            ["SequenceStateRecorder"] = {
+                {
+                    ["RecorderId"] = 1,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 3,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 4,
+                    ["SequenceState"] = {
+                        1
+                        }
+                    },
+                {
+                    ["RecorderId"] = 5,
                     ["SequenceState"] = {
                         1
                         }

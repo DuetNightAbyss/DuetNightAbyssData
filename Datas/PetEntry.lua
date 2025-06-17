@@ -76,9 +76,7 @@ return ReadOnly("PetEntry", {
 		IconS = "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_Pet_Attr_Battle_S.T_Armory_Pet_Attr_Battle_S",
 		PetEntryID = 10031,
 		PetEntryName = "UI_PetEntry_Title03",
-		PetEntryUPCount = 3,
-		PetEntryUPID = 10032,
-		Rarity = 3,
+		Rarity = 5,
 	},
 	[10032] = {
 		BattlePetID = 1003,
@@ -87,9 +85,7 @@ return ReadOnly("PetEntry", {
 		IconS = "/Game/UI/Texture/Dynamic/Atlas/Armory/T_Armory_Pet_Attr_Battle_S.T_Armory_Pet_Attr_Battle_S",
 		PetEntryID = 10032,
 		PetEntryName = "UI_PetEntry_Title03",
-		PetEntryUPCount = 3,
-		PetEntryUPID = 10033,
-		Rarity = 4,
+		Rarity = 5,
 	},
 	[10033] = {
 		BattlePetID = 1003,

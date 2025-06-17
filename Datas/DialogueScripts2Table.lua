@@ -6986,360 +6986,366 @@ T.RT_2132 = {
 	["Delay"] = T.RT_2131,
 }
 T.RT_2133 = {
+	["EventPath"] = "event:/bgm/mute",
+	["PlayType"] = "Play",
+	["RelatedRegionId"] = "101901",
+	["SoundType"] = "SOUND_BGM",
+}
+T.RT_2134 = {
+	["PlayOrStopBGM"] = T.RT_2133,
+}
+T.RT_2135 = {
 	["LookAtType"] = "TalkNpc",
 	["SpeakActorId"] = 220018,
 }
-T.RT_2134 = {
-	["DefaultLookAt"] = T.RT_2133,
-}
-T.RT_2135 = {
-	["ActorId"] = 220018,
-	["TargetPoint"] = "TargetPointheishang",
-	["Visibility"] = "Show",
-}
 T.RT_2136 = {
-	["SetLocation"] = T.RT_2135,
+	["DefaultLookAt"] = T.RT_2135,
 }
 T.RT_2137 = {
-	["ActorId"] = 220017,
-	["TargetPoint"] = "TargetPointbaobiao",
+	["ActorId"] = 220018,
+	["TargetPoint"] = "TargetPointheishang",
 	["Visibility"] = "Show",
 }
 T.RT_2138 = {
 	["SetLocation"] = T.RT_2137,
 }
 T.RT_2139 = {
-	[1] = T.RT_2138,
-	[2] = T.RT_2136,
+	["ActorId"] = 220017,
+	["TargetPoint"] = "TargetPointbaobiao",
+	["Visibility"] = "Show",
 }
 T.RT_2140 = {
-	["PARA"] = T.RT_2139,
+	["SetLocation"] = T.RT_2139,
 }
 T.RT_2141 = {
-	["TargetPosition"] = "44.601562,217.490723,62.183594,0.00012,-1.600218,-71.595497,15.726622,200.0,false,Manual,10.0",
+	[1] = T.RT_2140,
+	[2] = T.RT_2138,
 }
 T.RT_2142 = {
-	["CameraMoveTo"] = T.RT_2141,
+	["PARA"] = T.RT_2141,
 }
 T.RT_2143 = {
+	["TargetPosition"] = "44.601562,217.490723,62.183594,0.00012,-1.600218,-71.595497,15.726622,200.0,false,Manual,10.0",
+}
+T.RT_2144 = {
+	["CameraMoveTo"] = T.RT_2143,
+}
+T.RT_2145 = {
 	["LookAtType"] = "TalkNpc",
 	["SpeakActorId"] = 220017,
 }
-T.RT_2144 = {
-	["DefaultLookAt"] = T.RT_2143,
-}
-T.RT_2145 = {
-	["TargetPosition"] = "106.994141,123.456543,100.972656,0.000151,3.598861,150.192871,35.0,110.0,false,Manual,10.0",
-}
 T.RT_2146 = {
-	["CameraMoveTo"] = T.RT_2145,
+	["DefaultLookAt"] = T.RT_2145,
 }
 T.RT_2147 = {
-	["TargetPosition"] = "560.154297,-802.193359,279.550781,0.000253,-9.999116,-143.792313,16.499203,293.318726,false,Manual,10.0",
+	["TargetPosition"] = "106.994141,123.456543,100.972656,0.000151,3.598861,150.192871,35.0,110.0,false,Manual,10.0",
 }
 T.RT_2148 = {
 	["CameraMoveTo"] = T.RT_2147,
 }
 T.RT_2149 = {
-	[1] = T.RT_2148,
+	["EventPath"] = "event:/bgm/mute",
+	["PlayType"] = "Play",
+	["SoundType"] = "SOUND_BGM",
 }
 T.RT_2150 = {
-	["SEQ"] = T.RT_2149,
+	["PlayOrStopBGM"] = T.RT_2149,
 }
 T.RT_2151 = {
-	["LookAtType"] = "TalkNpc",
-	["SpeakActorId"] = 220010,
+	["EventPath"] = "event:/bgm/mute",
+	["PlayType"] = "Stop",
+	["SoundType"] = "SOUND_BGM",
 }
 T.RT_2152 = {
-	["DefaultLookAt"] = T.RT_2151,
+	["PlayOrStopBGM"] = T.RT_2151,
 }
 T.RT_2153 = {
-	["LookAtDescription"] = "220013:n(220010)",
+	["TargetPosition"] = "560.154297,-802.193359,279.550781,0.000253,-9.999116,-143.792313,16.499203,293.318726,false,Manual,10.0",
 }
 T.RT_2154 = {
-	["LookAt"] = T.RT_2153,
+	["CameraMoveTo"] = T.RT_2153,
 }
 T.RT_2155 = {
-	["LookAtDescription"] = "220013:n(210004)",
+	[1] = T.RT_2154,
 }
 T.RT_2156 = {
-	["LookAt"] = T.RT_2155,
+	["SEQ"] = T.RT_2155,
 }
 T.RT_2157 = {
 	["LookAtType"] = "TalkNpc",
-	["SpeakActorId"] = 220013,
+	["SpeakActorId"] = 220010,
 }
 T.RT_2158 = {
 	["DefaultLookAt"] = T.RT_2157,
 }
 T.RT_2159 = {
-	["TargetPosition"] = "384.564453,-1063.910156,267.257812,0.000237,1.200856,-178.396515,16.811571,94.200081,false,Manual,10.0",
+	["LookAtDescription"] = "220013:n(220010)",
 }
 T.RT_2160 = {
-	["CameraMoveTo"] = T.RT_2159,
+	["LookAt"] = T.RT_2159,
 }
 T.RT_2161 = {
-	["LookAtDescription"] = "220010:n(100001)",
+	["LookAtDescription"] = "220013:n(210004)",
 }
 T.RT_2162 = {
 	["LookAt"] = T.RT_2161,
 }
 T.RT_2163 = {
-	["TargetPosition"] = "553.703125,-1100.437012,284.296875,0.00003,-5.400234,171.997971,35.0,154.279373,false,Manual,10.0",
+	["LookAtType"] = "TalkNpc",
+	["SpeakActorId"] = 220013,
 }
 T.RT_2164 = {
-	["CameraMoveTo"] = T.RT_2163,
+	["DefaultLookAt"] = T.RT_2163,
 }
 T.RT_2165 = {
-	["TargetPosition"] = "499.769531,-1027.350098,244.871094,0.000025,4.200006,-167.398972,35.0,180.0,false,Manual,10.0",
+	["TargetPosition"] = "384.564453,-1063.910156,267.257812,0.000237,1.200856,-178.396515,16.811571,94.200081,false,Manual,10.0",
 }
 T.RT_2166 = {
 	["CameraMoveTo"] = T.RT_2165,
 }
 T.RT_2167 = {
-	["LookAtType"] = "TalkNpc",
-	["SpeakActorId"] = 220007,
+	["LookAtDescription"] = "220010:n(100001)",
 }
 T.RT_2168 = {
-	["DefaultLookAt"] = T.RT_2167,
+	["LookAt"] = T.RT_2167,
 }
 T.RT_2169 = {
-	["TargetPosition"] = "161.769897,-79.485352,117.7229,0.000066,-4.40024,-151.590179,22.448519,242.56015,false,Manual,10.0",
+	["TargetPosition"] = "553.703125,-1100.437012,284.296875,0.00003,-5.400234,171.997971,35.0,154.279373,false,Manual,10.0",
 }
 T.RT_2170 = {
 	["CameraMoveTo"] = T.RT_2169,
 }
 T.RT_2171 = {
-	[1] = T.RT_2170,
+	["TargetPosition"] = "499.769531,-1027.350098,244.871094,0.000025,4.200006,-167.398972,35.0,180.0,false,Manual,10.0",
 }
 T.RT_2172 = {
-	["SEQ"] = T.RT_2171,
+	["CameraMoveTo"] = T.RT_2171,
 }
 T.RT_2173 = {
-	[1] = T.RT_1878,
-	[2] = T.RT_2172,
+	["LookAtType"] = "TalkNpc",
+	["SpeakActorId"] = 220007,
 }
 T.RT_2174 = {
-	["Operations"] = T.RT_2173,
-	["bAllowClick"] = true,
+	["DefaultLookAt"] = T.RT_2173,
 }
 T.RT_2175 = {
-	["TargetPosition"] = "31.853027,-102.077637,84.098877,0.000049,-5.800292,-71.991196,29.938459,93.942909,false,Manual,10.0",
+	["TargetPosition"] = "161.769897,-79.485352,117.7229,0.000066,-4.40024,-151.590179,22.448519,242.56015,false,Manual,10.0",
 }
 T.RT_2176 = {
 	["CameraMoveTo"] = T.RT_2175,
 }
 T.RT_2177 = {
-	["LookAtType"] = "TalkNpc",
-	["SpeakActorId"] = 220006,
+	[1] = T.RT_2176,
 }
 T.RT_2178 = {
-	["DefaultLookAt"] = T.RT_2177,
+	["SEQ"] = T.RT_2177,
 }
 T.RT_2179 = {
-	[1] = T.RT_2178,
+	[1] = T.RT_1878,
+	[2] = T.RT_2178,
 }
 T.RT_2180 = {
 	["Operations"] = T.RT_2179,
 	["bAllowClick"] = true,
 }
 T.RT_2181 = {
+	["TargetPosition"] = "31.853027,-102.077637,84.098877,0.000049,-5.800292,-71.991196,29.938459,93.942909,false,Manual,10.0",
+}
+T.RT_2182 = {
+	["CameraMoveTo"] = T.RT_2181,
+}
+T.RT_2183 = {
+	["LookAtType"] = "TalkNpc",
+	["SpeakActorId"] = 220006,
+}
+T.RT_2184 = {
+	["DefaultLookAt"] = T.RT_2183,
+}
+T.RT_2185 = {
+	[1] = T.RT_2184,
+}
+T.RT_2186 = {
+	["Operations"] = T.RT_2185,
+	["bAllowClick"] = true,
+}
+T.RT_2187 = {
 	["LookAtType"] = "TalkNpc",
 	["SpeakActorId"] = 220005,
 }
-T.RT_2182 = {
-	["DefaultLookAt"] = T.RT_2181,
+T.RT_2188 = {
+	["DefaultLookAt"] = T.RT_2187,
 }
-T.RT_2183 = {
-	[1] = T.RT_2182,
+T.RT_2189 = {
+	[1] = T.RT_2188,
 }
-T.RT_2184 = {
-	["Operations"] = T.RT_2183,
+T.RT_2190 = {
+	["Operations"] = T.RT_2189,
 	["bAllowClick"] = true,
 }
-T.RT_2185 = {
+T.RT_2191 = {
 	["LookAtType"] = "TalkNpc",
 	["SpeakActorId"] = 220004,
 }
-T.RT_2186 = {
-	["DefaultLookAt"] = T.RT_2185,
-}
-T.RT_2187 = {
-	[1] = T.RT_2186,
-}
-T.RT_2188 = {
-	["Operations"] = T.RT_2187,
-	["bAllowClick"] = true,
-}
-T.RT_2189 = {
-	["LookAtType"] = "TalkNpc",
-	["SpeakActorId"] = 220003,
-}
-T.RT_2190 = {
-	["DefaultLookAt"] = T.RT_2189,
-}
-T.RT_2191 = {
-	[1] = T.RT_2190,
-}
 T.RT_2192 = {
-	["Operations"] = T.RT_2191,
-	["bAllowClick"] = true,
+	["DefaultLookAt"] = T.RT_2191,
 }
 T.RT_2193 = {
-	[1] = T.RT_2118,
+	[1] = T.RT_2192,
 }
 T.RT_2194 = {
 	["Operations"] = T.RT_2193,
 	["bAllowClick"] = true,
 }
 T.RT_2195 = {
-	["TurnToDescription"] = "200002:n(200003)",
+	["LookAtType"] = "TalkNpc",
+	["SpeakActorId"] = 220003,
 }
 T.RT_2196 = {
-	["TurnTo"] = T.RT_2195,
+	["DefaultLookAt"] = T.RT_2195,
 }
 T.RT_2197 = {
-	["DelaySeconds"] = 1.2,
+	[1] = T.RT_2196,
 }
 T.RT_2198 = {
-	["Delay"] = T.RT_2197,
+	["Operations"] = T.RT_2197,
+	["bAllowClick"] = true,
 }
 T.RT_2199 = {
+	[1] = T.RT_2118,
+}
+T.RT_2200 = {
+	["Operations"] = T.RT_2199,
+	["bAllowClick"] = true,
+}
+T.RT_2201 = {
+	["TurnToDescription"] = "200002:n(200003)",
+}
+T.RT_2202 = {
+	["TurnTo"] = T.RT_2201,
+}
+T.RT_2203 = {
+	["DelaySeconds"] = 1.2,
+}
+T.RT_2204 = {
+	["Delay"] = T.RT_2203,
+}
+T.RT_2205 = {
 	["ActorId"] = 200002,
 	["AnimationId"] = "Angry01_Start",
 	["Duration"] = 1,
 }
-T.RT_2200 = {
-	["PlayAnimation"] = T.RT_2199,
+T.RT_2206 = {
+	["PlayAnimation"] = T.RT_2205,
 }
-T.RT_2201 = {
+T.RT_2207 = {
 	["TargetPosition"] = "-45.210571,197.696289,77.765625,0.000129,2.198658,-96.015266,35.0,150.0,false,Manual,10.0",
 }
-T.RT_2202 = {
-	["CameraMoveTo"] = T.RT_2201,
+T.RT_2208 = {
+	["CameraMoveTo"] = T.RT_2207,
 }
-T.RT_2203 = {
-	[1] = T.RT_2202,
+T.RT_2209 = {
+	[1] = T.RT_2208,
 }
-T.RT_2204 = {
-	["SEQ"] = T.RT_2203,
+T.RT_2210 = {
+	["SEQ"] = T.RT_2209,
 }
-T.RT_2205 = {
+T.RT_2211 = {
 	["ActorId"] = 200002,
 	["MoveSpeed"] = 55,
 	["TargetPoint"] = "BP_NewTargetPoint120001Bai2",
 	["Visibility"] = "Show",
 }
-T.RT_2206 = {
-	["MoveTo"] = T.RT_2205,
+T.RT_2212 = {
+	["MoveTo"] = T.RT_2211,
 }
-T.RT_2207 = {
+T.RT_2213 = {
 	["ActorId"] = 200002,
 	["TargetPoint"] = "BP_NewTargetPoint120001Bai1",
 	["Visibility"] = "Show",
 }
-T.RT_2208 = {
-	["SetLocation"] = T.RT_2207,
+T.RT_2214 = {
+	["SetLocation"] = T.RT_2213,
 }
-T.RT_2209 = {
+T.RT_2215 = {
 	["TargetPosition"] = "-22.573975,438.977539,185.748047,0.000117,-16.201235,-99.214195,35.0,320.0,false,Manual,10.0",
 	["duration"] = 3,
 }
-T.RT_2210 = {
-	["CameraMoveTo"] = T.RT_2209,
-}
-T.RT_2211 = {
-	["TargetPosition"] = "-21.66626,444.298828,187.253906,0.000116,-15.801266,-100.413918,35.0,210.0,false,Manual,10.0",
-}
-T.RT_2212 = {
-	["CameraMoveTo"] = T.RT_2211,
-}
-T.RT_2213 = {
-	[1] = T.RT_2212,
-	[2] = T.RT_2210,
-}
-T.RT_2214 = {
-	["SEQ"] = T.RT_2213,
-}
-T.RT_2215 = {
-	["EventPath"] = "event:/sfx/common/story/ex01/searchcloth",
-	["PlayAs2D"] = true,
-}
 T.RT_2216 = {
-	["PlayNormalSound"] = T.RT_2215,
+	["CameraMoveTo"] = T.RT_2215,
 }
 T.RT_2217 = {
-	[1] = T.RT_2216,
+	["TargetPosition"] = "-21.66626,444.298828,187.253906,0.000116,-15.801266,-100.413918,35.0,210.0,false,Manual,10.0",
 }
 T.RT_2218 = {
-	["Operations"] = T.RT_2217,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_2217,
 }
 T.RT_2219 = {
-	["EventPath"] = "event:/sfx/common/story/ex01/signal_off",
-	["PlayAs2D"] = true,
+	[1] = T.RT_2218,
+	[2] = T.RT_2216,
 }
 T.RT_2220 = {
-	["PlayNormalSound"] = T.RT_2219,
+	["SEQ"] = T.RT_2219,
 }
 T.RT_2221 = {
-	["EventPath"] = "event:/sfx/common/story/ex01/signal_on",
+	["EventPath"] = "event:/sfx/common/story/ex01/searchcloth",
 	["PlayAs2D"] = true,
 }
 T.RT_2222 = {
 	["PlayNormalSound"] = T.RT_2221,
 }
 T.RT_2223 = {
-	["TargetPosition"] = "57.955078,110.975586,153.371094,0.000081,-6.79987,73.595589,31.194523,100000.0,false,Manual,22.0",
+	[1] = T.RT_2222,
 }
 T.RT_2224 = {
-	["CameraMoveTo"] = T.RT_2223,
-}
-T.RT_2225 = {
-	[1] = T.RT_2224,
-}
-T.RT_2226 = {
-	["SEQ"] = T.RT_2225,
-}
-T.RT_2227 = {
-	["TurnToDescription"] = "110018:n(110022)",
-}
-T.RT_2228 = {
-	["TurnTo"] = T.RT_2227,
-}
-T.RT_2229 = {
-	["LookAtDescription"] = "110018:n(110018)",
-}
-T.RT_2230 = {
-	["LookAt"] = T.RT_2229,
-}
-T.RT_2231 = {
-	["LookAtDescription"] = "110022:n(110018)",
-}
-T.RT_2232 = {
-	["LookAt"] = T.RT_2231,
-}
-T.RT_2233 = {
-	["TargetPosition"] = "13.287109,114.423828,114.03125,-0.000825,14.198904,-86.82589,17.134987,100000.0,false,Manual,22.0",
-}
-T.RT_2234 = {
-	["CameraMoveTo"] = T.RT_2233,
-}
-T.RT_2235 = {
-	[1] = T.RT_2234,
-}
-T.RT_2236 = {
-	["SEQ"] = T.RT_2235,
-}
-T.RT_2237 = {
-	[1] = T.RT_2236,
-}
-T.RT_2238 = {
-	["Operations"] = T.RT_2237,
+	["Operations"] = T.RT_2223,
 	["bAllowClick"] = true,
 }
+T.RT_2225 = {
+	["EventPath"] = "event:/sfx/common/story/ex01/signal_off",
+	["PlayAs2D"] = true,
+}
+T.RT_2226 = {
+	["PlayNormalSound"] = T.RT_2225,
+}
+T.RT_2227 = {
+	["EventPath"] = "event:/sfx/common/story/ex01/signal_on",
+	["PlayAs2D"] = true,
+}
+T.RT_2228 = {
+	["PlayNormalSound"] = T.RT_2227,
+}
+T.RT_2229 = {
+	["TargetPosition"] = "57.955078,110.975586,153.371094,0.000081,-6.79987,73.595589,31.194523,100000.0,false,Manual,22.0",
+}
+T.RT_2230 = {
+	["CameraMoveTo"] = T.RT_2229,
+}
+T.RT_2231 = {
+	[1] = T.RT_2230,
+}
+T.RT_2232 = {
+	["SEQ"] = T.RT_2231,
+}
+T.RT_2233 = {
+	["TurnToDescription"] = "110018:n(110022)",
+}
+T.RT_2234 = {
+	["TurnTo"] = T.RT_2233,
+}
+T.RT_2235 = {
+	["LookAtDescription"] = "110018:n(110018)",
+}
+T.RT_2236 = {
+	["LookAt"] = T.RT_2235,
+}
+T.RT_2237 = {
+	["LookAtDescription"] = "110022:n(110018)",
+}
+T.RT_2238 = {
+	["LookAt"] = T.RT_2237,
+}
 T.RT_2239 = {
-	["TargetPosition"] = "-4.504883,1095.012207,226.371094,-0.000824,-13.200255,-89.031578,17.134987,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "13.287109,114.423828,114.03125,-0.000825,14.198904,-86.82589,17.134987,100000.0,false,Manual,22.0",
 }
 T.RT_2240 = {
 	["CameraMoveTo"] = T.RT_2239,
@@ -7358,7 +7364,7 @@ T.RT_2244 = {
 	["bAllowClick"] = true,
 }
 T.RT_2245 = {
-	["TargetPosition"] = "-13.981445,564.373535,123.75,0.00011,3.399125,89.793884,17.134987,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "-4.504883,1095.012207,226.371094,-0.000824,-13.200255,-89.031578,17.134987,100000.0,false,Manual,22.0",
 }
 T.RT_2246 = {
 	["CameraMoveTo"] = T.RT_2245,
@@ -7377,355 +7383,354 @@ T.RT_2250 = {
 	["bAllowClick"] = true,
 }
 T.RT_2251 = {
-	["TurnToDescription"] = "110022:n(110005)",
+	["TargetPosition"] = "-13.981445,564.373535,123.75,0.00011,3.399125,89.793884,17.134987,100000.0,false,Manual,22.0",
 }
 T.RT_2252 = {
-	["TurnTo"] = T.RT_2251,
+	["CameraMoveTo"] = T.RT_2251,
 }
 T.RT_2253 = {
-	["TargetPosition"] = "-20.442005,40.117725,126.334839,0.000017,-0.000307,6.615975,50.000008,100000.0,false,DoNotOverride,2.8",
+	[1] = T.RT_2252,
 }
 T.RT_2254 = {
-	["CameraMoveTo"] = T.RT_2253,
+	["SEQ"] = T.RT_2253,
 }
 T.RT_2255 = {
-	["LookAtDescription"] = "110011:n(110010)",
+	[1] = T.RT_2254,
 }
 T.RT_2256 = {
-	["LookAt"] = T.RT_2255,
+	["Operations"] = T.RT_2255,
+	["bAllowClick"] = true,
 }
 T.RT_2257 = {
-	["ActorId"] = 110010,
-	["AnimationId"] = "Call_Start",
-	["Duration"] = 0,
+	["TurnToDescription"] = "110022:n(110005)",
 }
 T.RT_2258 = {
-	["PlayAnimation"] = T.RT_2257,
+	["TurnTo"] = T.RT_2257,
 }
 T.RT_2259 = {
-	["TargetPosition"] = "-1102.632935,-197.335449,128.499756,0.000169,-1.399683,12.991217,50.0,100000.0,false,DoNotOverride,22.0",
+	["TargetPosition"] = "-20.442005,40.117725,126.334839,0.000017,-0.000307,6.615975,50.000008,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_2260 = {
 	["CameraMoveTo"] = T.RT_2259,
 }
 T.RT_2261 = {
-	[1] = T.RT_2260,
+	["LookAtDescription"] = "110011:n(110010)",
 }
 T.RT_2262 = {
-	["SEQ"] = T.RT_2261,
+	["LookAt"] = T.RT_2261,
 }
 T.RT_2263 = {
-	["LookAtDescription"] = "110010:n(110010)",
+	["ActorId"] = 110010,
+	["AnimationId"] = "Call_Start",
+	["Duration"] = 0,
 }
 T.RT_2264 = {
-	["LookAt"] = T.RT_2263,
+	["PlayAnimation"] = T.RT_2263,
 }
 T.RT_2265 = {
-	["LookAtDescription"] = "110034:n(110010)",
+	["TargetPosition"] = "-1102.632935,-197.335449,128.499756,0.000169,-1.399683,12.991217,50.0,100000.0,false,DoNotOverride,22.0",
 }
 T.RT_2266 = {
-	["LookAt"] = T.RT_2265,
+	["CameraMoveTo"] = T.RT_2265,
 }
 T.RT_2267 = {
-	["LookAtDescription"] = "110010:n(110034)",
+	[1] = T.RT_2266,
 }
 T.RT_2268 = {
-	["LookAt"] = T.RT_2267,
+	["SEQ"] = T.RT_2267,
 }
 T.RT_2269 = {
-	["TurnToDescription"] = "110022:n(110010)",
+	["LookAtDescription"] = "110010:n(110010)",
 }
 T.RT_2270 = {
-	["TurnTo"] = T.RT_2269,
+	["LookAt"] = T.RT_2269,
 }
 T.RT_2271 = {
-	["LookAtDescription"] = "110022:n(110034)",
+	["LookAtDescription"] = "110034:n(110010)",
 }
 T.RT_2272 = {
 	["LookAt"] = T.RT_2271,
 }
 T.RT_2273 = {
-	["LookAtDescription"] = "110010:n(110022)",
+	["LookAtDescription"] = "110010:n(110034)",
 }
 T.RT_2274 = {
 	["LookAt"] = T.RT_2273,
 }
 T.RT_2275 = {
-	["LookAtDescription"] = "110022:n(110010)",
+	["TurnToDescription"] = "110022:n(110010)",
 }
 T.RT_2276 = {
-	["LookAt"] = T.RT_2275,
+	["TurnTo"] = T.RT_2275,
 }
 T.RT_2277 = {
-	["LookAtDescription"] = "110017:n(110010)",
+	["LookAtDescription"] = "110022:n(110034)",
 }
 T.RT_2278 = {
 	["LookAt"] = T.RT_2277,
 }
 T.RT_2279 = {
-	["LookAtDescription"] = "110034:n(110022)",
+	["LookAtDescription"] = "110010:n(110022)",
 }
 T.RT_2280 = {
 	["LookAt"] = T.RT_2279,
 }
 T.RT_2281 = {
-	["LookAtDescription"] = "110015:n(110010)",
+	["LookAtDescription"] = "110022:n(110010)",
 }
 T.RT_2282 = {
 	["LookAt"] = T.RT_2281,
 }
 T.RT_2283 = {
-	[1] = T.RT_790,
-	[2] = T.RT_2220,
+	["LookAtDescription"] = "110017:n(110010)",
 }
 T.RT_2284 = {
-	["SEQ"] = T.RT_2283,
+	["LookAt"] = T.RT_2283,
 }
 T.RT_2285 = {
+	["LookAtDescription"] = "110034:n(110022)",
+}
+T.RT_2286 = {
+	["LookAt"] = T.RT_2285,
+}
+T.RT_2287 = {
+	["LookAtDescription"] = "110015:n(110010)",
+}
+T.RT_2288 = {
+	["LookAt"] = T.RT_2287,
+}
+T.RT_2289 = {
+	[1] = T.RT_790,
+	[2] = T.RT_2226,
+}
+T.RT_2290 = {
+	["SEQ"] = T.RT_2289,
+}
+T.RT_2291 = {
 	["ActorId"] = 110010,
 	["AnimationId"] = "Call_Start",
 	["Duration"] = 1,
 }
-T.RT_2286 = {
-	["PlayAnimation"] = T.RT_2285,
-}
-T.RT_2287 = {
-	["TurnToDescription"] = "110020:n(110010)",
-}
-T.RT_2288 = {
-	["TurnTo"] = T.RT_2287,
-}
-T.RT_2289 = {
-	["LookAtDescription"] = "110020:n(110010)",
-}
-T.RT_2290 = {
-	["LookAt"] = T.RT_2289,
-}
-T.RT_2291 = {
-	[1] = T.RT_2222,
-}
 T.RT_2292 = {
-	["Operations"] = T.RT_2291,
-	["bAllowClick"] = true,
+	["PlayAnimation"] = T.RT_2291,
 }
 T.RT_2293 = {
-	["TargetPosition"] = "265.456055,32.926758,150.1875,0.000166,-3.200463,24.194214,28.0,310.596832,false,Manual,7.801928",
+	["TurnToDescription"] = "110020:n(110010)",
 }
 T.RT_2294 = {
-	["CameraMoveTo"] = T.RT_2293,
+	["TurnTo"] = T.RT_2293,
 }
 T.RT_2295 = {
-	[1] = T.RT_2294,
+	["LookAtDescription"] = "110020:n(110010)",
 }
 T.RT_2296 = {
-	["SEQ"] = T.RT_2295,
+	["LookAt"] = T.RT_2295,
 }
 T.RT_2297 = {
-	["LookAtDescription"] = "110018:n(110022)",
+	[1] = T.RT_2228,
 }
 T.RT_2298 = {
-	["LookAt"] = T.RT_2297,
+	["Operations"] = T.RT_2297,
+	["bAllowClick"] = true,
 }
 T.RT_2299 = {
-	["LookAtDescription"] = "110032:n(110005)",
+	["TargetPosition"] = "265.456055,32.926758,150.1875,0.000166,-3.200463,24.194214,28.0,310.596832,false,Manual,7.801928",
 }
 T.RT_2300 = {
-	["LookAt"] = T.RT_2299,
+	["CameraMoveTo"] = T.RT_2299,
 }
 T.RT_2301 = {
-	["LookAtDescription"] = "110032:n(110022)",
+	[1] = T.RT_2300,
 }
 T.RT_2302 = {
-	["LookAt"] = T.RT_2301,
+	["SEQ"] = T.RT_2301,
 }
 T.RT_2303 = {
-	["LookAtDescription"] = "110022:n(110032)",
+	["LookAtDescription"] = "110018:n(110022)",
 }
 T.RT_2304 = {
 	["LookAt"] = T.RT_2303,
 }
 T.RT_2305 = {
-	["LookAtDescription"] = "110005:n(110032)",
+	["LookAtDescription"] = "110032:n(110005)",
 }
 T.RT_2306 = {
 	["LookAt"] = T.RT_2305,
 }
 T.RT_2307 = {
+	["LookAtDescription"] = "110032:n(110022)",
+}
+T.RT_2308 = {
+	["LookAt"] = T.RT_2307,
+}
+T.RT_2309 = {
+	["LookAtDescription"] = "110022:n(110032)",
+}
+T.RT_2310 = {
+	["LookAt"] = T.RT_2309,
+}
+T.RT_2311 = {
+	["LookAtDescription"] = "110005:n(110032)",
+}
+T.RT_2312 = {
+	["LookAt"] = T.RT_2311,
+}
+T.RT_2313 = {
 	["EventPath"] = "event:/bgm/mute",
 	["PlayType"] = "Play",
 	["RelatedRegionId"] = 102104,
 	["SoundType"] = "SOUND_BGM",
 }
-T.RT_2308 = {
-	["PlayOrStopBGM"] = T.RT_2307,
+T.RT_2314 = {
+	["PlayOrStopBGM"] = T.RT_2313,
 }
-T.RT_2309 = {
+T.RT_2315 = {
 	["ActorId"] = 110005,
 	["State"] = "Sit",
 }
-T.RT_2310 = {
-	["SitOrStand"] = T.RT_2309,
+T.RT_2316 = {
+	["SitOrStand"] = T.RT_2315,
 }
-T.RT_2311 = {
+T.RT_2317 = {
 	["ActorId"] = 110022,
 	["State"] = "Sit",
 }
-T.RT_2312 = {
-	["SitOrStand"] = T.RT_2311,
-}
-T.RT_2313 = {
-	["LookAtDescription"] = "110005:n(110022)",
-}
-T.RT_2314 = {
-	["LookAt"] = T.RT_2313,
-}
-T.RT_2315 = {
-	["LookAtDescription"] = "110022:n(110005)",
-}
-T.RT_2316 = {
-	["LookAt"] = T.RT_2315,
-}
-T.RT_2317 = {
-	["LookAtDescription"] = "110005:n(110021)",
-}
 T.RT_2318 = {
-	["LookAt"] = T.RT_2317,
+	["SitOrStand"] = T.RT_2317,
 }
 T.RT_2319 = {
-	["LookAtDescription"] = "110022:n(110021)",
+	["LookAtDescription"] = "110005:n(110022)",
 }
 T.RT_2320 = {
 	["LookAt"] = T.RT_2319,
 }
 T.RT_2321 = {
+	["LookAtDescription"] = "110022:n(110005)",
+}
+T.RT_2322 = {
+	["LookAt"] = T.RT_2321,
+}
+T.RT_2323 = {
+	["LookAtDescription"] = "110005:n(110021)",
+}
+T.RT_2324 = {
+	["LookAt"] = T.RT_2323,
+}
+T.RT_2325 = {
+	["LookAtDescription"] = "110022:n(110021)",
+}
+T.RT_2326 = {
+	["LookAt"] = T.RT_2325,
+}
+T.RT_2327 = {
 	["ActorId"] = 110005,
 	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 1,
 }
-T.RT_2322 = {
-	["PlayAnimation"] = T.RT_2321,
+T.RT_2328 = {
+	["PlayAnimation"] = T.RT_2327,
 }
-T.RT_2323 = {
+T.RT_2329 = {
 	["ActorId"] = 110005,
 	["AnimationId"] = "Talk03_End",
 	["Duration"] = 1,
 }
-T.RT_2324 = {
-	["PlayAnimation"] = T.RT_2323,
+T.RT_2330 = {
+	["PlayAnimation"] = T.RT_2329,
 }
-T.RT_2325 = {
+T.RT_2331 = {
 	["ActorId"] = 110005,
 	["AnimationId"] = "Talk03_Start",
 	["Duration"] = 1,
 }
-T.RT_2326 = {
-	["PlayAnimation"] = T.RT_2325,
-}
-T.RT_2327 = {
-	["TargetPosition"] = "70.556641,275.821289,116.648438,0.000166,0.404306,-96.204208,35.0,298.040161,false,Manual,15.739686",
-}
-T.RT_2328 = {
-	["CameraMoveTo"] = T.RT_2327,
-}
-T.RT_2329 = {
-	[1] = T.RT_2328,
-}
-T.RT_2330 = {
-	["SEQ"] = T.RT_2329,
-}
-T.RT_2331 = {
-	[1] = T.RT_2330,
-}
 T.RT_2332 = {
-	["Operations"] = T.RT_2331,
-	["bAllowClick"] = true,
+	["PlayAnimation"] = T.RT_2331,
 }
 T.RT_2333 = {
-	["ActorId"] = 110005,
-	["AnimationId"] = "Explain02_End",
-	["Duration"] = 1,
+	["TargetPosition"] = "70.556641,275.821289,116.648438,0.000166,0.404306,-96.204208,35.0,298.040161,false,Manual,15.739686",
 }
 T.RT_2334 = {
-	["PlayAnimation"] = T.RT_2333,
+	["CameraMoveTo"] = T.RT_2333,
 }
 T.RT_2335 = {
-	["TargetPosition"] = "-5.238281,-133.301758,125.070312,0.001531,-4.805598,92.405151,36.903526,100000.0,false,Manual,22.0",
+	[1] = T.RT_2334,
 }
 T.RT_2336 = {
-	["CameraMoveTo"] = T.RT_2335,
+	["SEQ"] = T.RT_2335,
 }
 T.RT_2337 = {
-	[1] = T.RT_2004,
+	[1] = T.RT_2336,
 }
 T.RT_2338 = {
 	["Operations"] = T.RT_2337,
 	["bAllowClick"] = true,
 }
 T.RT_2339 = {
-	["ActorId"] = 110032,
-	["State"] = "Sit",
+	["ActorId"] = 110005,
+	["AnimationId"] = "Explain02_End",
+	["Duration"] = 1,
 }
 T.RT_2340 = {
-	["SitOrStand"] = T.RT_2339,
+	["PlayAnimation"] = T.RT_2339,
 }
 T.RT_2341 = {
-	["TargetPosition"] = "-11.319336,897.331055,144.578125,0.000127,5.398841,86.191856,17.134987,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "-5.238281,-133.301758,125.070312,0.001531,-4.805598,92.405151,36.903526,100000.0,false,Manual,22.0",
 }
 T.RT_2342 = {
 	["CameraMoveTo"] = T.RT_2341,
 }
 T.RT_2343 = {
-	[1] = T.RT_2342,
+	[1] = T.RT_2004,
 }
 T.RT_2344 = {
-	["SEQ"] = T.RT_2343,
-}
-T.RT_2345 = {
-	[1] = T.RT_2344,
-}
-T.RT_2346 = {
-	["Operations"] = T.RT_2345,
+	["Operations"] = T.RT_2343,
 	["bAllowClick"] = true,
 }
+T.RT_2345 = {
+	["ActorId"] = 110032,
+	["State"] = "Sit",
+}
+T.RT_2346 = {
+	["SitOrStand"] = T.RT_2345,
+}
 T.RT_2347 = {
-	["EventPath"] = "event:/sfx/common/story/ex01/poweron",
-	["PlayAs2D"] = true,
+	["TargetPosition"] = "-11.319336,897.331055,144.578125,0.000127,5.398841,86.191856,17.134987,100000.0,false,Manual,22.0",
 }
 T.RT_2348 = {
-	["StopNormalSound"] = T.RT_2347,
+	["CameraMoveTo"] = T.RT_2347,
 }
 T.RT_2349 = {
 	[1] = T.RT_2348,
 }
 T.RT_2350 = {
-	["Operations"] = T.RT_2349,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_2349,
 }
 T.RT_2351 = {
-	["PlayNormalSound"] = T.RT_2347,
+	[1] = T.RT_2350,
 }
 T.RT_2352 = {
-	["TargetPosition"] = "-68.808594,-818.875,282.347656,0.000035,-15.198877,68.960663,30.000002,100000.0,false,DoNotOverride,22.0",
+	["Operations"] = T.RT_2351,
+	["bAllowClick"] = true,
 }
 T.RT_2353 = {
-	["CameraMoveTo"] = T.RT_2352,
+	["EventPath"] = "event:/sfx/common/story/ex01/poweron",
+	["PlayAs2D"] = true,
 }
 T.RT_2354 = {
-	[1] = T.RT_2353,
+	["StopNormalSound"] = T.RT_2353,
 }
 T.RT_2355 = {
-	["SEQ"] = T.RT_2354,
+	[1] = T.RT_2354,
 }
 T.RT_2356 = {
-	["EventPath"] = "event:/bgm/cbt02/0043_story_empire",
-	["PlayType"] = "Play",
-	["SoundType"] = "SOUND_BGM",
+	["Operations"] = T.RT_2355,
+	["bAllowClick"] = true,
 }
 T.RT_2357 = {
-	["PlayOrStopBGM"] = T.RT_2356,
+	["PlayNormalSound"] = T.RT_2353,
 }
 T.RT_2358 = {
-	["TargetPosition"] = "52.292969,25.010664,127.544891,0.000135,6.718037,-16.930437,35.0,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "-68.808594,-818.875,282.347656,0.000035,-15.198877,68.960663,30.000002,100000.0,false,DoNotOverride,22.0",
 }
 T.RT_2359 = {
 	["CameraMoveTo"] = T.RT_2358,
@@ -7737,430 +7742,431 @@ T.RT_2361 = {
 	["SEQ"] = T.RT_2360,
 }
 T.RT_2362 = {
-	[1] = T.RT_2361,
+	["EventPath"] = "event:/bgm/cbt02/0043_story_empire",
+	["PlayType"] = "Play",
+	["SoundType"] = "SOUND_BGM",
 }
 T.RT_2363 = {
-	["Operations"] = T.RT_2362,
-	["bAllowClick"] = true,
+	["PlayOrStopBGM"] = T.RT_2362,
 }
 T.RT_2364 = {
-	["TargetPosition"] = "74.1875,-11.549334,140.752075,0.000139,2.317531,0.270602,35.0,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "52.292969,25.010664,127.544891,0.000135,6.718037,-16.930437,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_2365 = {
 	["CameraMoveTo"] = T.RT_2364,
 }
 T.RT_2366 = {
-	["TargetPosition"] = "39.349609,-74.855362,160.701706,0.000115,-7.799802,25.839321,35.0,100000.0,false,Manual,22.0",
+	[1] = T.RT_2365,
 }
 T.RT_2367 = {
-	["CameraMoveTo"] = T.RT_2366,
+	["SEQ"] = T.RT_2366,
 }
 T.RT_2368 = {
-	["ActorId"] = 110005,
-	["AnimationId"] = "Explain02_End",
-	["Duration"] = 2,
+	[1] = T.RT_2367,
 }
 T.RT_2369 = {
-	["PlayAnimation"] = T.RT_2368,
+	["Operations"] = T.RT_2368,
+	["bAllowClick"] = true,
 }
 T.RT_2370 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2369,
+	["TargetPosition"] = "74.1875,-11.549334,140.752075,0.000139,2.317531,0.270602,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_2371 = {
-	["SEQ"] = T.RT_2370,
+	["CameraMoveTo"] = T.RT_2370,
 }
 T.RT_2372 = {
-	["TargetPosition"] = "24.118896,279.948242,42.161743,0.000046,-3.600493,-154.483551,35.000011,498.106201,false,Manual,22.0",
+	["TargetPosition"] = "39.349609,-74.855362,160.701706,0.000115,-7.799802,25.839321,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_2373 = {
 	["CameraMoveTo"] = T.RT_2372,
 }
 T.RT_2374 = {
-	[1] = T.RT_2373,
+	["ActorId"] = 110005,
+	["AnimationId"] = "Explain02_End",
+	["Duration"] = 2,
 }
 T.RT_2375 = {
-	["SEQ"] = T.RT_2374,
+	["PlayAnimation"] = T.RT_2374,
 }
 T.RT_2376 = {
-	["TargetPosition"] = "-121.629395,166.033203,40.3479,0.000025,-1.599514,54.320049,35.000011,498.109375,false,Manual,22.0",
+	[1] = T.RT_150,
+	[2] = T.RT_2375,
 }
 T.RT_2377 = {
-	["CameraMoveTo"] = T.RT_2376,
+	["SEQ"] = T.RT_2376,
 }
 T.RT_2378 = {
-	[1] = T.RT_2377,
+	["TargetPosition"] = "24.118896,279.948242,42.161743,0.000046,-3.600493,-154.483551,35.000011,498.106201,false,Manual,22.0",
 }
 T.RT_2379 = {
-	["SEQ"] = T.RT_2378,
+	["CameraMoveTo"] = T.RT_2378,
 }
 T.RT_2380 = {
-	["ActorId"] = 110022,
-	["AnimationId"] = "Explain02_Start",
-	["Duration"] = 2,
+	[1] = T.RT_2379,
 }
 T.RT_2381 = {
-	["PlayAnimation"] = T.RT_2380,
+	["SEQ"] = T.RT_2380,
 }
 T.RT_2382 = {
-	["ActorId"] = 110022,
-	["AnimationId"] = "DisagreeHead",
-	["Duration"] = 2,
+	["TargetPosition"] = "-121.629395,166.033203,40.3479,0.000025,-1.599514,54.320049,35.000011,498.109375,false,Manual,22.0",
 }
 T.RT_2383 = {
-	["PlayAnimation"] = T.RT_2382,
+	["CameraMoveTo"] = T.RT_2382,
 }
 T.RT_2384 = {
-	["ActorId"] = 110005,
-	["AnimationId"] = "Explain02_Start",
-	["Duration"] = 2,
+	[1] = T.RT_2383,
 }
 T.RT_2385 = {
-	["PlayAnimation"] = T.RT_2384,
+	["SEQ"] = T.RT_2384,
 }
 T.RT_2386 = {
-	["ActorId"] = 110005,
-	["AnimationId"] = "DisagreeHead",
-	["Duration"] = 1,
+	["ActorId"] = 110022,
+	["AnimationId"] = "Explain02_Start",
+	["Duration"] = 2,
 }
 T.RT_2387 = {
 	["PlayAnimation"] = T.RT_2386,
 }
 T.RT_2388 = {
-	["ActorId"] = 110005,
-	["AnimationId"] = "Sigh_End",
+	["ActorId"] = 110022,
+	["AnimationId"] = "DisagreeHead",
 	["Duration"] = 2,
 }
 T.RT_2389 = {
 	["PlayAnimation"] = T.RT_2388,
 }
 T.RT_2390 = {
-	["ActorId"] = 110022,
-	["AnimationId"] = "AgreeHead",
-	["Duration"] = 1,
+	["ActorId"] = 110005,
+	["AnimationId"] = "Explain02_Start",
+	["Duration"] = 2,
 }
 T.RT_2391 = {
 	["PlayAnimation"] = T.RT_2390,
 }
 T.RT_2392 = {
-	["TargetPosition"] = "188.189941,22.199753,132.788391,0.000101,5.599874,20.424314,50.0,100000.0,false,DoNotOverride,2.8",
-}
-T.RT_2393 = {
-	["CameraMoveTo"] = T.RT_2392,
-}
-T.RT_2394 = {
-	[1] = T.RT_2393,
-}
-T.RT_2395 = {
-	["SEQ"] = T.RT_2394,
-}
-T.RT_2396 = {
-	["LookAtDescription"] = "110005:n(110005)",
-}
-T.RT_2397 = {
-	["LookAt"] = T.RT_2396,
-}
-T.RT_2398 = {
-	["ActorId"] = 110022,
+	["ActorId"] = 110005,
 	["AnimationId"] = "DisagreeHead",
 	["Duration"] = 1,
 }
+T.RT_2393 = {
+	["PlayAnimation"] = T.RT_2392,
+}
+T.RT_2394 = {
+	["ActorId"] = 110005,
+	["AnimationId"] = "Sigh_End",
+	["Duration"] = 2,
+}
+T.RT_2395 = {
+	["PlayAnimation"] = T.RT_2394,
+}
+T.RT_2396 = {
+	["ActorId"] = 110022,
+	["AnimationId"] = "AgreeHead",
+	["Duration"] = 1,
+}
+T.RT_2397 = {
+	["PlayAnimation"] = T.RT_2396,
+}
+T.RT_2398 = {
+	["TargetPosition"] = "188.189941,22.199753,132.788391,0.000101,5.599874,20.424314,50.0,100000.0,false,DoNotOverride,2.8",
+}
 T.RT_2399 = {
-	["PlayAnimation"] = T.RT_2398,
+	["CameraMoveTo"] = T.RT_2398,
 }
 T.RT_2400 = {
-	[1] = T.RT_146,
-	[2] = T.RT_2399,
+	[1] = T.RT_2399,
 }
 T.RT_2401 = {
 	["SEQ"] = T.RT_2400,
 }
 T.RT_2402 = {
-	["DelaySeconds"] = 1.3,
+	["LookAtDescription"] = "110005:n(110005)",
 }
 T.RT_2403 = {
-	["Delay"] = T.RT_2402,
+	["LookAt"] = T.RT_2402,
 }
 T.RT_2404 = {
-	["TurnToDescription"] = "110005:n(110022)",
+	["ActorId"] = 110022,
+	["AnimationId"] = "DisagreeHead",
+	["Duration"] = 1,
 }
 T.RT_2405 = {
-	["TurnTo"] = T.RT_2404,
+	["PlayAnimation"] = T.RT_2404,
 }
 T.RT_2406 = {
-	["TargetPosition"] = "-115.764587,-253.871094,-34.510376,-5.000005,12.998785,112.919823,35.0,100000.0,false,Manual,22.0",
+	[1] = T.RT_146,
+	[2] = T.RT_2405,
 }
 T.RT_2407 = {
-	["CameraMoveTo"] = T.RT_2406,
+	["SEQ"] = T.RT_2406,
 }
 T.RT_2408 = {
-	[1] = T.RT_2407,
+	["DelaySeconds"] = 1.3,
 }
 T.RT_2409 = {
-	["SEQ"] = T.RT_2408,
+	["Delay"] = T.RT_2408,
 }
 T.RT_2410 = {
+	["TurnToDescription"] = "110005:n(110022)",
+}
+T.RT_2411 = {
+	["TurnTo"] = T.RT_2410,
+}
+T.RT_2412 = {
+	["TargetPosition"] = "-115.764587,-253.871094,-34.510376,-5.000005,12.998785,112.919823,35.0,100000.0,false,Manual,22.0",
+}
+T.RT_2413 = {
+	["CameraMoveTo"] = T.RT_2412,
+}
+T.RT_2414 = {
+	[1] = T.RT_2413,
+}
+T.RT_2415 = {
+	["SEQ"] = T.RT_2414,
+}
+T.RT_2416 = {
 	["EventPath"] = "event:/sfx/common/story/ex01/evilvo",
 	["PlayAs2D"] = true,
 }
-T.RT_2411 = {
-	["PlayNormalSound"] = T.RT_2410,
-}
-T.RT_2412 = {
-	[1] = T.RT_2411,
-}
-T.RT_2413 = {
-	["Operations"] = T.RT_2412,
-	["bAllowClick"] = true,
-}
-T.RT_2414 = {
-	["ActorId"] = 110010,
-	["AnimationId"] = "Talk01_End",
-	["Duration"] = 0,
-}
-T.RT_2415 = {
-	["PlayAnimation"] = T.RT_2414,
-}
-T.RT_2416 = {
-	["TargetPosition"] = "-62.074799,-566.730469,491.808014,-0.001556,-31.999592,75.647636,16.661533,100000.0,false,Manual,22.0",
-}
 T.RT_2417 = {
-	["CameraMoveTo"] = T.RT_2416,
+	["PlayNormalSound"] = T.RT_2416,
 }
 T.RT_2418 = {
 	[1] = T.RT_2417,
 }
 T.RT_2419 = {
-	["SEQ"] = T.RT_2418,
+	["Operations"] = T.RT_2418,
+	["bAllowClick"] = true,
 }
 T.RT_2420 = {
-	["TurnToDescription"] = "110010:n(110011)",
+	["ActorId"] = 110010,
+	["AnimationId"] = "Talk01_End",
+	["Duration"] = 0,
 }
 T.RT_2421 = {
-	["TurnTo"] = T.RT_2420,
+	["PlayAnimation"] = T.RT_2420,
 }
 T.RT_2422 = {
-	["LookAtDescription"] = "110011:n(110011)",
+	["TargetPosition"] = "-62.074799,-566.730469,491.808014,-0.001556,-31.999592,75.647636,16.661533,100000.0,false,Manual,22.0",
 }
 T.RT_2423 = {
-	["LookAt"] = T.RT_2422,
+	["CameraMoveTo"] = T.RT_2422,
 }
 T.RT_2424 = {
-	["DelaySeconds"] = 12,
+	[1] = T.RT_2423,
 }
 T.RT_2425 = {
-	["Delay"] = T.RT_2424,
+	["SEQ"] = T.RT_2424,
 }
 T.RT_2426 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2276,
+	["TurnToDescription"] = "110010:n(110011)",
 }
 T.RT_2427 = {
-	["SEQ"] = T.RT_2426,
+	["TurnTo"] = T.RT_2426,
 }
 T.RT_2428 = {
-	["TargetPosition"] = "-19.162842,-424.105469,1.078369,0.000127,2.201131,-167.985657,45.0,84.929688,false,Manual,22.0",
-	["duration"] = 8,
+	["LookAtDescription"] = "110011:n(110011)",
 }
 T.RT_2429 = {
-	["CameraMoveTo"] = T.RT_2428,
+	["LookAt"] = T.RT_2428,
 }
 T.RT_2430 = {
-	["TargetPosition"] = "-19.162842,-424.105469,1.078369,0.000126,-6.598905,-167.987076,45.0,84.929688,false,Manual,22.0",
-	["duration"] = 0,
+	["DelaySeconds"] = 12,
 }
 T.RT_2431 = {
-	["CameraMoveTo"] = T.RT_2430,
+	["Delay"] = T.RT_2430,
 }
 T.RT_2432 = {
-	[1] = T.RT_1582,
-	[2] = T.RT_2431,
+	[1] = T.RT_150,
+	[2] = T.RT_2282,
 }
 T.RT_2433 = {
 	["SEQ"] = T.RT_2432,
 }
 T.RT_2434 = {
-	[1] = T.RT_2433,
-	[2] = T.RT_2429,
-	[3] = T.RT_2274,
-	[4] = T.RT_2427,
+	["TargetPosition"] = "-19.162842,-424.105469,1.078369,0.000127,2.201131,-167.985657,45.0,84.929688,false,Manual,22.0",
+	["duration"] = 8,
 }
 T.RT_2435 = {
-	["SEQ"] = T.RT_2434,
+	["CameraMoveTo"] = T.RT_2434,
 }
 T.RT_2436 = {
-	["TargetPosition"] = "517.087524,-666.365234,237.151978,0.000105,-20.199055,155.408112,20.072239,84.929688,false,Manual,22.0",
-	["duration"] = 20,
+	["TargetPosition"] = "-19.162842,-424.105469,1.078369,0.000126,-6.598905,-167.987076,45.0,84.929688,false,Manual,22.0",
+	["duration"] = 0,
 }
 T.RT_2437 = {
 	["CameraMoveTo"] = T.RT_2436,
 }
 T.RT_2438 = {
-	["TargetPosition"] = "578.011597,-377.267578,237.151978,0.000106,-20.799086,178.209442,20.072239,84.929688,false,Manual,22.0",
+	[1] = T.RT_1582,
+	[2] = T.RT_2437,
 }
 T.RT_2439 = {
-	["CameraMoveTo"] = T.RT_2438,
+	["SEQ"] = T.RT_2438,
 }
 T.RT_2440 = {
 	[1] = T.RT_2439,
-	[2] = T.RT_2437,
+	[2] = T.RT_2435,
+	[3] = T.RT_2280,
+	[4] = T.RT_2433,
 }
 T.RT_2441 = {
 	["SEQ"] = T.RT_2440,
 }
 T.RT_2442 = {
-	[1] = T.RT_2441,
-	[2] = T.RT_2435,
+	["TargetPosition"] = "517.087524,-666.365234,237.151978,0.000105,-20.199055,155.408112,20.072239,84.929688,false,Manual,22.0",
+	["duration"] = 20,
 }
 T.RT_2443 = {
-	["Operations"] = T.RT_2442,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_2442,
 }
 T.RT_2444 = {
-	["TargetPosition"] = "-172.0177,-358.59375,38.439209,0.000213,-15.202054,69.195915,43.030418,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "578.011597,-377.267578,237.151978,0.000106,-20.799086,178.209442,20.072239,84.929688,false,Manual,22.0",
 }
 T.RT_2445 = {
 	["CameraMoveTo"] = T.RT_2444,
 }
 T.RT_2446 = {
-	["TargetPosition"] = "1207.821289,-24.046875,792.712402,0.000088,-26.998186,-160.388702,23.655027,683.847168,false,Manual,22.0",
+	[1] = T.RT_2445,
+	[2] = T.RT_2443,
 }
 T.RT_2447 = {
-	["CameraMoveTo"] = T.RT_2446,
+	["SEQ"] = T.RT_2446,
 }
 T.RT_2448 = {
+	[1] = T.RT_2447,
+	[2] = T.RT_2441,
+}
+T.RT_2449 = {
+	["Operations"] = T.RT_2448,
+	["bAllowClick"] = true,
+}
+T.RT_2450 = {
+	["TargetPosition"] = "-172.0177,-358.59375,38.439209,0.000213,-15.202054,69.195915,43.030418,100000.0,false,Manual,22.0",
+}
+T.RT_2451 = {
+	["CameraMoveTo"] = T.RT_2450,
+}
+T.RT_2452 = {
+	["TargetPosition"] = "1207.821289,-24.046875,792.712402,0.000088,-26.998186,-160.388702,23.655027,683.847168,false,Manual,22.0",
+}
+T.RT_2453 = {
+	["CameraMoveTo"] = T.RT_2452,
+}
+T.RT_2454 = {
 	["ActorId"] = 110010,
 	["AnimationId"] = "Talk03_Start",
 	["Duration"] = 3,
 }
-T.RT_2449 = {
-	["PlayAnimation"] = T.RT_2448,
-}
-T.RT_2450 = {
-	[1] = T.RT_2351,
-}
-T.RT_2451 = {
-	["Operations"] = T.RT_2450,
-	["bAllowClick"] = true,
-}
-T.RT_2452 = {
-	["TurnToDescription"] = "110010:n(110022)",
-}
-T.RT_2453 = {
-	["TurnTo"] = T.RT_2452,
-}
-T.RT_2454 = {
-	["TargetPosition"] = "27.647247,-73.736328,81.884186,0.000202,3.20034,2.81273,28.000008,225.630493,false,Manual,10.489336",
-}
 T.RT_2455 = {
-	["CameraMoveTo"] = T.RT_2454,
+	["PlayAnimation"] = T.RT_2454,
 }
 T.RT_2456 = {
-	[1] = T.RT_2455,
+	[1] = T.RT_2357,
 }
 T.RT_2457 = {
-	["SEQ"] = T.RT_2456,
-}
-T.RT_2458 = {
-	[1] = T.RT_2457,
-}
-T.RT_2459 = {
-	["Operations"] = T.RT_2458,
+	["Operations"] = T.RT_2456,
 	["bAllowClick"] = true,
 }
+T.RT_2458 = {
+	["TurnToDescription"] = "110010:n(110022)",
+}
+T.RT_2459 = {
+	["TurnTo"] = T.RT_2458,
+}
 T.RT_2460 = {
-	["LookAtDescription"] = "110022:n(110022)",
+	["TargetPosition"] = "27.647247,-73.736328,81.884186,0.000202,3.20034,2.81273,28.000008,225.630493,false,Manual,10.489336",
 }
 T.RT_2461 = {
-	["LookAt"] = T.RT_2460,
+	["CameraMoveTo"] = T.RT_2460,
 }
 T.RT_2462 = {
+	[1] = T.RT_2461,
+}
+T.RT_2463 = {
+	["SEQ"] = T.RT_2462,
+}
+T.RT_2464 = {
+	[1] = T.RT_2463,
+}
+T.RT_2465 = {
+	["Operations"] = T.RT_2464,
+	["bAllowClick"] = true,
+}
+T.RT_2466 = {
+	["LookAtDescription"] = "110022:n(110022)",
+}
+T.RT_2467 = {
+	["LookAt"] = T.RT_2466,
+}
+T.RT_2468 = {
 	["TargetPosition"] = "-622.919128,319.203278,101.787903,0.000002,0.999468,49.42717,35.000008,100000.0,false,DoNotOverride,22.0",
 	["duration"] = 10,
 }
-T.RT_2463 = {
-	["CameraMoveTo"] = T.RT_2462,
+T.RT_2469 = {
+	["CameraMoveTo"] = T.RT_2468,
 }
-T.RT_2464 = {
+T.RT_2470 = {
 	["TargetPosition"] = "-604.107727,306.536285,101.833496,0.000002,0.999468,49.42717,35.000008,100000.0,false,DoNotOverride,22.0",
 }
-T.RT_2465 = {
-	["CameraMoveTo"] = T.RT_2464,
+T.RT_2471 = {
+	["CameraMoveTo"] = T.RT_2470,
 }
-T.RT_2466 = {
-	[1] = T.RT_2465,
-	[2] = T.RT_2463,
+T.RT_2472 = {
+	[1] = T.RT_2471,
+	[2] = T.RT_2469,
 }
-T.RT_2467 = {
-	["SEQ"] = T.RT_2466,
+T.RT_2473 = {
+	["SEQ"] = T.RT_2472,
 }
-T.RT_2468 = {
+T.RT_2474 = {
 	["ActorId"] = 110010,
 	["AnimationId"] = "Talk02_End",
 	["Duration"] = 0,
 }
-T.RT_2469 = {
-	["PlayAnimation"] = T.RT_2468,
+T.RT_2475 = {
+	["PlayAnimation"] = T.RT_2474,
 }
-T.RT_2470 = {
+T.RT_2476 = {
 	["ActorId"] = 110010,
 	["AnimationId"] = "Talk01_Start",
 	["Duration"] = 3,
 }
-T.RT_2471 = {
-	["PlayAnimation"] = T.RT_2470,
-}
-T.RT_2472 = {
-	["TurnToDescription"] = "110016:n(110010)",
-}
-T.RT_2473 = {
-	["TurnTo"] = T.RT_2472,
-}
-T.RT_2474 = {
-	["TurnToDescription"] = "110016:n(110022)",
-}
-T.RT_2475 = {
-	["TurnTo"] = T.RT_2474,
-}
-T.RT_2476 = {
-	["DelaySeconds"] = 9,
-}
 T.RT_2477 = {
-	["Delay"] = T.RT_2476,
+	["PlayAnimation"] = T.RT_2476,
 }
 T.RT_2478 = {
-	["LookAtDescription"] = "110016:n(110010)",
+	["TurnToDescription"] = "110016:n(110010)",
 }
 T.RT_2479 = {
-	["LookAt"] = T.RT_2478,
+	["TurnTo"] = T.RT_2478,
 }
 T.RT_2480 = {
-	["LookAtDescription"] = "110010:n(110020)",
+	["TurnToDescription"] = "110016:n(110022)",
 }
 T.RT_2481 = {
-	["LookAt"] = T.RT_2480,
+	["TurnTo"] = T.RT_2480,
 }
 T.RT_2482 = {
-	["TargetPosition"] = "36.704773,-12.279297,139.930115,0.000127,-6.395844,109.990677,15.610328,100000.0,false,Manual,22.0",
+	["DelaySeconds"] = 9,
 }
 T.RT_2483 = {
-	["CameraMoveTo"] = T.RT_2482,
+	["Delay"] = T.RT_2482,
 }
 T.RT_2484 = {
-	[1] = T.RT_2483,
+	["LookAtDescription"] = "110016:n(110010)",
 }
 T.RT_2485 = {
-	["SEQ"] = T.RT_2484,
+	["LookAt"] = T.RT_2484,
 }
 T.RT_2486 = {
-	[1] = T.RT_2485,
+	["LookAtDescription"] = "110010:n(110020)",
 }
 T.RT_2487 = {
-	["Operations"] = T.RT_2486,
-	["bAllowClick"] = true,
+	["LookAt"] = T.RT_2486,
 }
 T.RT_2488 = {
-	["TargetPosition"] = "46.395996,104.947266,140.937012,0.000127,-5.595858,-100.208458,15.610328,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "36.704773,-12.279297,139.930115,0.000127,-6.395844,109.990677,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2489 = {
 	["CameraMoveTo"] = T.RT_2488,
@@ -8172,117 +8178,118 @@ T.RT_2491 = {
 	["SEQ"] = T.RT_2490,
 }
 T.RT_2492 = {
-	["TargetPosition"] = "24.656494,7.404297,190.805542,-0.002769,-61.608364,102.005478,15.610328,100000.0,false,Manual,22.0",
+	[1] = T.RT_2491,
 }
 T.RT_2493 = {
-	["CameraMoveTo"] = T.RT_2492,
+	["Operations"] = T.RT_2492,
+	["bAllowClick"] = true,
 }
 T.RT_2494 = {
-	[1] = T.RT_2493,
+	["TargetPosition"] = "46.395996,104.947266,140.937012,0.000127,-5.595858,-100.208458,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2495 = {
-	["SEQ"] = T.RT_2494,
+	["CameraMoveTo"] = T.RT_2494,
 }
 T.RT_2496 = {
 	[1] = T.RT_2495,
 }
 T.RT_2497 = {
-	["Operations"] = T.RT_2496,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_2496,
 }
 T.RT_2498 = {
-	["EventPath"] = "event:/sfx/common/story/ex01/kill",
-	["PlayAs2D"] = true,
+	["TargetPosition"] = "24.656494,7.404297,190.805542,-0.002769,-61.608364,102.005478,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2499 = {
-	["PlayNormalSound"] = T.RT_2498,
+	["CameraMoveTo"] = T.RT_2498,
 }
 T.RT_2500 = {
-	["MaterailInstance"] = "MaterialInstanceConstant'/Game/Asset/Effect/Material/Post/m_blur_003.m_blur_003'",
+	[1] = T.RT_2499,
 }
 T.RT_2501 = {
-	["PostProcess"] = T.RT_2500,
+	["SEQ"] = T.RT_2500,
 }
 T.RT_2502 = {
-	[1] = T.RT_2499,
+	[1] = T.RT_2501,
 }
 T.RT_2503 = {
 	["Operations"] = T.RT_2502,
 	["bAllowClick"] = true,
 }
 T.RT_2504 = {
-	[1] = T.RT_2411,
-	[2] = T.RT_2501,
+	["EventPath"] = "event:/sfx/common/story/ex01/kill",
+	["PlayAs2D"] = true,
 }
 T.RT_2505 = {
-	["PARA"] = T.RT_2504,
+	["PlayNormalSound"] = T.RT_2504,
 }
 T.RT_2506 = {
-	[1] = T.RT_2505,
+	["MaterailInstance"] = "MaterialInstanceConstant'/Game/Asset/Effect/Material/Post/m_blur_003.m_blur_003'",
 }
 T.RT_2507 = {
-	["Operations"] = T.RT_2506,
-	["bAllowClick"] = true,
+	["PostProcess"] = T.RT_2506,
 }
 T.RT_2508 = {
-	["LookAtDescription"] = "110009:n(110022)",
+	[1] = T.RT_2505,
 }
 T.RT_2509 = {
-	["LookAt"] = T.RT_2508,
+	["Operations"] = T.RT_2508,
+	["bAllowClick"] = true,
 }
 T.RT_2510 = {
-	["LookAtDescription"] = "110022:n(110009)",
+	[1] = T.RT_2417,
+	[2] = T.RT_2507,
 }
 T.RT_2511 = {
-	["LookAt"] = T.RT_2510,
+	["PARA"] = T.RT_2510,
 }
 T.RT_2512 = {
 	[1] = T.RT_2511,
-	[2] = T.RT_2509,
-	[3] = T.RT_2491,
 }
 T.RT_2513 = {
 	["Operations"] = T.RT_2512,
 	["bAllowClick"] = true,
 }
 T.RT_2514 = {
-	["MaterailInstance"] = "None",
+	["LookAtDescription"] = "110009:n(110022)",
 }
 T.RT_2515 = {
-	["PostProcess"] = T.RT_2514,
+	["LookAt"] = T.RT_2514,
 }
 T.RT_2516 = {
-	["TargetPosition"] = "33.734253,-64.03418,144.24231,0.000127,-8.396057,-89.809433,15.610328,100000.0,false,Manual,22.0",
+	["LookAtDescription"] = "110022:n(110009)",
 }
 T.RT_2517 = {
-	["CameraMoveTo"] = T.RT_2516,
+	["LookAt"] = T.RT_2516,
 }
 T.RT_2518 = {
 	[1] = T.RT_2517,
+	[2] = T.RT_2515,
+	[3] = T.RT_2497,
 }
 T.RT_2519 = {
-	["SEQ"] = T.RT_2518,
+	["Operations"] = T.RT_2518,
+	["bAllowClick"] = true,
 }
 T.RT_2520 = {
-	["TargetPosition"] = "102.455261,62.206543,136.78009,-0.002777,-5.805298,-161.384064,15.610328,100000.0,false,Manual,22.0",
+	["MaterailInstance"] = "None",
 }
 T.RT_2521 = {
-	["CameraMoveTo"] = T.RT_2520,
+	["PostProcess"] = T.RT_2520,
 }
 T.RT_2522 = {
-	[1] = T.RT_2521,
+	["TargetPosition"] = "33.734253,-64.03418,144.24231,0.000127,-8.396057,-89.809433,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2523 = {
-	["SEQ"] = T.RT_2522,
+	["CameraMoveTo"] = T.RT_2522,
 }
 T.RT_2524 = {
-	["LookAtDescription"] = "110022:n(110015)",
+	[1] = T.RT_2523,
 }
 T.RT_2525 = {
-	["LookAt"] = T.RT_2524,
+	["SEQ"] = T.RT_2524,
 }
 T.RT_2526 = {
-	["TargetPosition"] = "26.343567,-50.445801,139.083374,0.000235,-3.599824,-87.616158,15.610328,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "102.455261,62.206543,136.78009,-0.002777,-5.805298,-161.384064,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2527 = {
 	["CameraMoveTo"] = T.RT_2526,
@@ -8294,13 +8301,13 @@ T.RT_2529 = {
 	["SEQ"] = T.RT_2528,
 }
 T.RT_2530 = {
-	["TurnToDescription"] = "110015:n(110009)",
+	["LookAtDescription"] = "110022:n(110015)",
 }
 T.RT_2531 = {
-	["TurnTo"] = T.RT_2530,
+	["LookAt"] = T.RT_2530,
 }
 T.RT_2532 = {
-	["TargetPosition"] = "43.091187,-31.208008,198.673462,-0.002777,-40.807617,-92.394653,15.610328,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "26.343567,-50.445801,139.083374,0.000235,-3.599824,-87.616158,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2533 = {
 	["CameraMoveTo"] = T.RT_2532,
@@ -8312,1291 +8319,1285 @@ T.RT_2535 = {
 	["SEQ"] = T.RT_2534,
 }
 T.RT_2536 = {
-	["TargetPosition"] = "43.891602,-38.074707,137.0,0.000126,-3.595849,-95.809387,15.610328,100000.0,false,Manual,22.0",
+	["TurnToDescription"] = "110015:n(110009)",
 }
 T.RT_2537 = {
-	["CameraMoveTo"] = T.RT_2536,
+	["TurnTo"] = T.RT_2536,
 }
 T.RT_2538 = {
-	[1] = T.RT_2537,
+	["TargetPosition"] = "43.091187,-31.208008,198.673462,-0.002777,-40.807617,-92.394653,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2539 = {
-	["SEQ"] = T.RT_2538,
+	["CameraMoveTo"] = T.RT_2538,
 }
 T.RT_2540 = {
 	[1] = T.RT_2539,
 }
 T.RT_2541 = {
-	["Operations"] = T.RT_2540,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_2540,
 }
 T.RT_2542 = {
-	["ActorId"] = 110009,
-	["AnimationId"] = "DisagreeHead",
-	["Duration"] = 1,
+	["TargetPosition"] = "43.891602,-38.074707,137.0,0.000126,-3.595849,-95.809387,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2543 = {
-	["PlayAnimation"] = T.RT_2542,
+	["CameraMoveTo"] = T.RT_2542,
 }
 T.RT_2544 = {
-	[1] = T.RT_146,
-	[2] = T.RT_2543,
+	[1] = T.RT_2543,
 }
 T.RT_2545 = {
 	["SEQ"] = T.RT_2544,
 }
 T.RT_2546 = {
-	[1] = T.RT_2509,
-	[2] = T.RT_2545,
+	[1] = T.RT_2545,
 }
 T.RT_2547 = {
-	["SEQ"] = T.RT_2546,
+	["Operations"] = T.RT_2546,
+	["bAllowClick"] = true,
 }
 T.RT_2548 = {
-	["TargetPosition"] = "43.891602,-38.074707,147.079895,0.000124,-3.395847,-96.609337,15.610328,100000.0,false,Manual,22.0",
+	["ActorId"] = 110009,
+	["AnimationId"] = "DisagreeHead",
+	["Duration"] = 1,
 }
 T.RT_2549 = {
-	["CameraMoveTo"] = T.RT_2548,
+	["PlayAnimation"] = T.RT_2548,
 }
 T.RT_2550 = {
-	[1] = T.RT_2549,
+	[1] = T.RT_146,
+	[2] = T.RT_2549,
 }
 T.RT_2551 = {
 	["SEQ"] = T.RT_2550,
 }
 T.RT_2552 = {
-	[1] = T.RT_2509,
-	[2] = T.RT_2511,
-	[3] = T.RT_2491,
-	[4] = T.RT_2547,
+	[1] = T.RT_2515,
+	[2] = T.RT_2551,
 }
 T.RT_2553 = {
-	["Operations"] = T.RT_2552,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_2552,
 }
 T.RT_2554 = {
-	["LookAtDescription"] = "110009:n(110015)",
+	["TargetPosition"] = "43.891602,-38.074707,147.079895,0.000124,-3.395847,-96.609337,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2555 = {
-	["LookAt"] = T.RT_2554,
+	["CameraMoveTo"] = T.RT_2554,
 }
 T.RT_2556 = {
-	["TargetPosition"] = "34.397705,-50.057129,153.101196,0.00008,-21.000883,-89.393784,15.610328,100000.0,false,Manual,22.0",
+	[1] = T.RT_2555,
 }
 T.RT_2557 = {
-	["CameraMoveTo"] = T.RT_2556,
+	["SEQ"] = T.RT_2556,
 }
 T.RT_2558 = {
-	[1] = T.RT_2557,
+	[1] = T.RT_2515,
+	[2] = T.RT_2517,
+	[3] = T.RT_2497,
+	[4] = T.RT_2553,
 }
 T.RT_2559 = {
-	["SEQ"] = T.RT_2558,
+	["Operations"] = T.RT_2558,
+	["bAllowClick"] = true,
 }
 T.RT_2560 = {
-	["TargetPosition"] = "-13.794922,-59.895142,111.804016,0.000078,20.79701,-163.038177,22.0,100000.0,false,DoNotOverride,5.0",
+	["LookAtDescription"] = "110009:n(110015)",
 }
 T.RT_2561 = {
-	["CameraMoveTo"] = T.RT_2560,
+	["LookAt"] = T.RT_2560,
 }
 T.RT_2562 = {
-	["ActorId"] = 110010,
-	["AnimationId"] = "Call_End",
-	["Duration"] = 1,
+	["TargetPosition"] = "34.397705,-50.057129,153.101196,0.00008,-21.000883,-89.393784,15.610328,100000.0,false,Manual,22.0",
 }
 T.RT_2563 = {
-	["PlayAnimation"] = T.RT_2562,
+	["CameraMoveTo"] = T.RT_2562,
 }
 T.RT_2564 = {
-	["LookAtDescription"] = "110016:n(110022)",
+	[1] = T.RT_2563,
 }
 T.RT_2565 = {
-	["LookAt"] = T.RT_2564,
+	["SEQ"] = T.RT_2564,
 }
 T.RT_2566 = {
-	["TargetPosition"] = "-378.834961,175.632812,127.54126,0.000143,-0.600647,-49.198372,35.0,100000.0,false,DoNotOverride,2.8",
+	["TargetPosition"] = "-13.794922,-59.895142,111.804016,0.000078,20.79701,-163.038177,22.0,100000.0,false,DoNotOverride,5.0",
 }
 T.RT_2567 = {
 	["CameraMoveTo"] = T.RT_2566,
 }
 T.RT_2568 = {
-	[1] = T.RT_2567,
+	["ActorId"] = 110010,
+	["AnimationId"] = "Call_End",
+	["Duration"] = 1,
 }
 T.RT_2569 = {
-	["SEQ"] = T.RT_2568,
+	["PlayAnimation"] = T.RT_2568,
 }
 T.RT_2570 = {
-	["LookAtDescription"] = "110022:n(110043)",
+	["LookAtDescription"] = "110016:n(110022)",
 }
 T.RT_2571 = {
 	["LookAt"] = T.RT_2570,
 }
 T.RT_2572 = {
-	["LookAtDescription"] = "110022:n(110016)",
+	["TargetPosition"] = "-378.834961,175.632812,127.54126,0.000143,-0.600647,-49.198372,35.0,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_2573 = {
-	["LookAt"] = T.RT_2572,
+	["CameraMoveTo"] = T.RT_2572,
 }
 T.RT_2574 = {
-	["LookAtDescription"] = "110016:n(110017)",
+	[1] = T.RT_2573,
 }
 T.RT_2575 = {
-	["LookAt"] = T.RT_2574,
+	["SEQ"] = T.RT_2574,
 }
 T.RT_2576 = {
-	["DelaySeconds"] = 0.7,
+	["LookAtDescription"] = "110022:n(110043)",
 }
 T.RT_2577 = {
-	["Delay"] = T.RT_2576,
+	["LookAt"] = T.RT_2576,
 }
 T.RT_2578 = {
-	["LookAtDescription"] = "110043:n(110016)",
+	["LookAtDescription"] = "110022:n(110016)",
 }
 T.RT_2579 = {
 	["LookAt"] = T.RT_2578,
 }
 T.RT_2580 = {
-	["LookAtDescription"] = "110043:n(110022)",
+	["LookAtDescription"] = "110016:n(110017)",
 }
 T.RT_2581 = {
 	["LookAt"] = T.RT_2580,
 }
 T.RT_2582 = {
-	[1] = T.RT_2577,
-	[2] = T.RT_2581,
+	["DelaySeconds"] = 0.7,
 }
 T.RT_2583 = {
-	["SEQ"] = T.RT_2582,
+	["Delay"] = T.RT_2582,
 }
 T.RT_2584 = {
-	["TargetPosition"] = "-181.621094,-252.833984,145.863159,0.000073,-6.399867,113.59568,35.0,100000.0,false,DoNotOverride,2.8",
+	["LookAtDescription"] = "110043:n(110016)",
 }
 T.RT_2585 = {
-	["CameraMoveTo"] = T.RT_2584,
+	["LookAt"] = T.RT_2584,
 }
 T.RT_2586 = {
-	[1] = T.RT_2585,
+	["LookAtDescription"] = "110043:n(110022)",
 }
 T.RT_2587 = {
-	["SEQ"] = T.RT_2586,
+	["LookAt"] = T.RT_2586,
 }
 T.RT_2588 = {
-	["TargetPosition"] = "-558.492188,754.226562,95.165283,0.000043,-0.799474,-74.202431,35.0,100000.0,false,DoNotOverride,2.8",
+	[1] = T.RT_2583,
+	[2] = T.RT_2587,
 }
 T.RT_2589 = {
-	["CameraMoveTo"] = T.RT_2588,
+	["SEQ"] = T.RT_2588,
 }
 T.RT_2590 = {
-	[1] = T.RT_2589,
+	["TargetPosition"] = "-181.621094,-252.833984,145.863159,0.000073,-6.399867,113.59568,35.0,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_2591 = {
-	["SEQ"] = T.RT_2590,
+	["CameraMoveTo"] = T.RT_2590,
 }
 T.RT_2592 = {
-	[1] = T.RT_2220,
+	[1] = T.RT_2591,
 }
 T.RT_2593 = {
-	["Operations"] = T.RT_2592,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_2592,
 }
 T.RT_2594 = {
-	["EventPath"] = "event:/sfx/common/story/ex01/call_02",
-	["PlayAs2D"] = true,
+	["TargetPosition"] = "-558.492188,754.226562,95.165283,0.000043,-0.799474,-74.202431,35.0,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_2595 = {
-	["PlayNormalSound"] = T.RT_2594,
+	["CameraMoveTo"] = T.RT_2594,
 }
 T.RT_2596 = {
 	[1] = T.RT_2595,
 }
 T.RT_2597 = {
-	["Operations"] = T.RT_2596,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_2596,
 }
 T.RT_2598 = {
-	["TargetPosition"] = "-111.863281,-36.107422,127.6828,-2.0,-4.799799,-34.392021,28.0,62.163586,false,DoNotOverride,10.0",
-	["duration"] = 15,
+	[1] = T.RT_2226,
 }
 T.RT_2599 = {
-	["CameraMoveTo"] = T.RT_2598,
+	["Operations"] = T.RT_2598,
+	["bAllowClick"] = true,
 }
 T.RT_2600 = {
-	["TargetPosition"] = "-120.756348,-24.742188,128.990662,-2.0,-4.799799,-34.392021,28.0,62.163586,false,DoNotOverride,10.0",
+	["EventPath"] = "event:/sfx/common/story/ex01/call_02",
+	["PlayAs2D"] = true,
 }
 T.RT_2601 = {
-	["CameraMoveTo"] = T.RT_2600,
+	["PlayNormalSound"] = T.RT_2600,
 }
 T.RT_2602 = {
 	[1] = T.RT_2601,
-	[2] = T.RT_2599,
 }
 T.RT_2603 = {
-	["SEQ"] = T.RT_2602,
-}
-T.RT_2604 = {
-	[1] = T.RT_2603,
-}
-T.RT_2605 = {
-	["Operations"] = T.RT_2604,
+	["Operations"] = T.RT_2602,
 	["bAllowClick"] = true,
 }
+T.RT_2604 = {
+	["TargetPosition"] = "-111.863281,-36.107422,127.6828,-2.0,-4.799799,-34.392021,28.0,62.163586,false,DoNotOverride,10.0",
+	["duration"] = 15,
+}
+T.RT_2605 = {
+	["CameraMoveTo"] = T.RT_2604,
+}
 T.RT_2606 = {
-	["TargetPosition"] = "164.222687,237.304657,109.296448,0.000032,-6.399136,-128.388397,35.0,100000.0,false,DoNotOverride,2.8",
+	["TargetPosition"] = "-120.756348,-24.742188,128.990662,-2.0,-4.799799,-34.392021,28.0,62.163586,false,DoNotOverride,10.0",
 }
 T.RT_2607 = {
 	["CameraMoveTo"] = T.RT_2606,
 }
 T.RT_2608 = {
+	[1] = T.RT_2607,
+	[2] = T.RT_2605,
+}
+T.RT_2609 = {
+	["SEQ"] = T.RT_2608,
+}
+T.RT_2610 = {
+	[1] = T.RT_2609,
+}
+T.RT_2611 = {
+	["Operations"] = T.RT_2610,
+	["bAllowClick"] = true,
+}
+T.RT_2612 = {
+	["TargetPosition"] = "164.222687,237.304657,109.296448,0.000032,-6.399136,-128.388397,35.0,100000.0,false,DoNotOverride,2.8",
+}
+T.RT_2613 = {
+	["CameraMoveTo"] = T.RT_2612,
+}
+T.RT_2614 = {
 	["EventPath"] = "event:/bgm/mute",
 	["PlayType"] = "Play",
 	["RelatedRegionId"] = 102101,
 	["SoundType"] = "SOUND_BGM",
 }
-T.RT_2609 = {
-	["PlayOrStopBGM"] = T.RT_2608,
-}
-T.RT_2610 = {
-	["TargetPosition"] = "170.827637,-188.957031,121.458923,0.000164,-2.399261,154.39566,28.0,100000.0,false,DoNotOverride,2.8",
-}
-T.RT_2611 = {
-	["CameraMoveTo"] = T.RT_2610,
-}
-T.RT_2612 = {
-	[1] = T.RT_2611,
-}
-T.RT_2613 = {
-	["SEQ"] = T.RT_2612,
-}
-T.RT_2614 = {
-	[1] = T.RT_2274,
-	[2] = T.RT_2613,
-}
 T.RT_2615 = {
-	["Operations"] = T.RT_2614,
-	["bAllowClick"] = true,
+	["PlayOrStopBGM"] = T.RT_2614,
 }
 T.RT_2616 = {
-	["TargetPosition"] = "-782.422363,-221.78125,310.503784,-2.0,-16.999992,14.006827,28.0,261.438629,false,DoNotOverride,3.0",
-	["duration"] = 8,
+	["TargetPosition"] = "170.827637,-188.957031,121.458923,0.000164,-2.399261,154.39566,28.0,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_2617 = {
 	["CameraMoveTo"] = T.RT_2616,
 }
 T.RT_2618 = {
-	["TargetPosition"] = "-885.801758,-247.560547,331.117859,-2.0,-16.999998,14.005773,28.0,261.438629,false,DoNotOverride,3.0",
+	[1] = T.RT_2617,
 }
 T.RT_2619 = {
-	["CameraMoveTo"] = T.RT_2618,
+	["SEQ"] = T.RT_2618,
 }
 T.RT_2620 = {
-	[1] = T.RT_2619,
-	[2] = T.RT_2617,
+	[1] = T.RT_2280,
+	[2] = T.RT_2619,
 }
 T.RT_2621 = {
-	["SEQ"] = T.RT_2620,
-}
-T.RT_2622 = {
-	[1] = T.RT_2621,
-}
-T.RT_2623 = {
-	["Operations"] = T.RT_2622,
+	["Operations"] = T.RT_2620,
 	["bAllowClick"] = true,
 }
+T.RT_2622 = {
+	["TargetPosition"] = "-782.422363,-221.78125,310.503784,-2.0,-16.999992,14.006827,28.0,261.438629,false,DoNotOverride,3.0",
+	["duration"] = 8,
+}
+T.RT_2623 = {
+	["CameraMoveTo"] = T.RT_2622,
+}
 T.RT_2624 = {
+	["TargetPosition"] = "-885.801758,-247.560547,331.117859,-2.0,-16.999998,14.005773,28.0,261.438629,false,DoNotOverride,3.0",
+}
+T.RT_2625 = {
+	["CameraMoveTo"] = T.RT_2624,
+}
+T.RT_2626 = {
+	[1] = T.RT_2625,
+	[2] = T.RT_2623,
+}
+T.RT_2627 = {
+	["SEQ"] = T.RT_2626,
+}
+T.RT_2628 = {
+	[1] = T.RT_2627,
+}
+T.RT_2629 = {
+	["Operations"] = T.RT_2628,
+	["bAllowClick"] = true,
+}
+T.RT_2630 = {
 	["ActorId"] = 110022,
 	["AnimationId"] = "Talk02_End",
 	["Duration"] = 1,
 }
-T.RT_2625 = {
-	["PlayAnimation"] = T.RT_2624,
+T.RT_2631 = {
+	["PlayAnimation"] = T.RT_2630,
 }
-T.RT_2626 = {
+T.RT_2632 = {
 	["EventPath"] = "event:/sfx/common/story/ex01/console",
 	["PlayAs2D"] = true,
 }
-T.RT_2627 = {
-	["PlayNormalSound"] = T.RT_2626,
-}
-T.RT_2628 = {
-	["LookAtDescription"] = "110010:p(0801)",
-}
-T.RT_2629 = {
-	["LookAt"] = T.RT_2628,
-}
-T.RT_2630 = {
-	["TargetPosition"] = "-355.890594,-53.332031,205.147339,0.000997,-13.996395,28.976284,35.0,469.235657,false,Manual,3.337645",
-}
-T.RT_2631 = {
-	["CameraMoveTo"] = T.RT_2630,
-}
-T.RT_2632 = {
-	["LookAtDescription"] = "110022:n(110020)",
-}
 T.RT_2633 = {
-	["LookAt"] = T.RT_2632,
+	["PlayNormalSound"] = T.RT_2632,
 }
 T.RT_2634 = {
-	["LookAtDescription"] = "110022:p(0801)",
+	["LookAtDescription"] = "110010:p(0801)",
 }
 T.RT_2635 = {
 	["LookAt"] = T.RT_2634,
 }
 T.RT_2636 = {
-	["LookAtDescription"] = "110005:n(110010)",
+	["TargetPosition"] = "-355.890594,-53.332031,205.147339,0.000997,-13.996395,28.976284,35.0,469.235657,false,Manual,3.337645",
 }
 T.RT_2637 = {
-	["LookAt"] = T.RT_2636,
+	["CameraMoveTo"] = T.RT_2636,
 }
 T.RT_2638 = {
-	["LookAtDescription"] = "110010:n(110005)",
+	["LookAtDescription"] = "110022:n(110020)",
 }
 T.RT_2639 = {
 	["LookAt"] = T.RT_2638,
 }
 T.RT_2640 = {
-	[1] = T.RT_2639,
+	["LookAtDescription"] = "110022:p(0801)",
 }
 T.RT_2641 = {
-	["SEQ"] = T.RT_2640,
+	["LookAt"] = T.RT_2640,
 }
 T.RT_2642 = {
+	["LookAtDescription"] = "110005:n(110010)",
+}
+T.RT_2643 = {
+	["LookAt"] = T.RT_2642,
+}
+T.RT_2644 = {
+	["LookAtDescription"] = "110010:n(110005)",
+}
+T.RT_2645 = {
+	["LookAt"] = T.RT_2644,
+}
+T.RT_2646 = {
+	[1] = T.RT_2645,
+}
+T.RT_2647 = {
+	["SEQ"] = T.RT_2646,
+}
+T.RT_2648 = {
 	["EventPath"] = "event:/snapshot/story/ex01_vo_behind_door",
 	["PlayAs2D"] = true,
 }
-T.RT_2643 = {
+T.RT_2649 = {
 	["TargetPosition"] = "-346.34375,-87.652344,150.890503,0.000338,-7.800048,30.019533,35.0,100000.0,false,Manual,22.0",
 }
-T.RT_2644 = {
-	["CameraMoveTo"] = T.RT_2643,
+T.RT_2650 = {
+	["CameraMoveTo"] = T.RT_2649,
 }
-T.RT_2645 = {
+T.RT_2651 = {
 	["ActorId"] = 110005,
 	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 3,
 }
-T.RT_2646 = {
-	["PlayAnimation"] = T.RT_2645,
+T.RT_2652 = {
+	["PlayAnimation"] = T.RT_2651,
 }
-T.RT_2647 = {
+T.RT_2653 = {
 	["TargetPosition"] = "87.443359,-59.851562,132.342285,0.000173,-0.600893,160.005676,35.000008,196.017685,false,Manual,22.0",
 }
-T.RT_2648 = {
-	["CameraMoveTo"] = T.RT_2647,
+T.RT_2654 = {
+	["CameraMoveTo"] = T.RT_2653,
 }
-T.RT_2649 = {
-	[1] = T.RT_2648,
+T.RT_2655 = {
+	[1] = T.RT_2654,
 }
-T.RT_2650 = {
-	["SEQ"] = T.RT_2649,
+T.RT_2656 = {
+	["SEQ"] = T.RT_2655,
 }
-T.RT_2651 = {
+T.RT_2657 = {
 	["LookAtType"] = "Self",
 	["SpeakActorId"] = 110022,
 }
-T.RT_2652 = {
-	["DefaultLookAt"] = T.RT_2651,
-}
-T.RT_2653 = {
-	[1] = T.RT_2652,
-}
-T.RT_2654 = {
-	["Operations"] = T.RT_2653,
-	["bAllowClick"] = true,
-}
-T.RT_2655 = {
-	["LookAtType"] = "Self",
-}
-T.RT_2656 = {
-	["DefaultLookAt"] = T.RT_2655,
-}
-T.RT_2657 = {
-	["TargetPosition"] = "67.539062,-1123.730225,550.733276,0.000081,-22.799314,91.999741,35.0,1000.0,false,Manual,2.8",
-}
 T.RT_2658 = {
-	["CameraMoveTo"] = T.RT_2657,
+	["DefaultLookAt"] = T.RT_2657,
 }
 T.RT_2659 = {
 	[1] = T.RT_2658,
 }
 T.RT_2660 = {
-	["SEQ"] = T.RT_2659,
+	["Operations"] = T.RT_2659,
+	["bAllowClick"] = true,
 }
 T.RT_2661 = {
+	["LookAtType"] = "Self",
+}
+T.RT_2662 = {
+	["DefaultLookAt"] = T.RT_2661,
+}
+T.RT_2663 = {
+	["TargetPosition"] = "67.539062,-1123.730225,550.733276,0.000081,-22.799314,91.999741,35.0,1000.0,false,Manual,2.8",
+}
+T.RT_2664 = {
+	["CameraMoveTo"] = T.RT_2663,
+}
+T.RT_2665 = {
+	[1] = T.RT_2664,
+}
+T.RT_2666 = {
+	["SEQ"] = T.RT_2665,
+}
+T.RT_2667 = {
 	["ActorId"] = 200006,
 	["AnimationId"] = "Explain02_End",
 	["Duration"] = 1,
 }
-T.RT_2662 = {
-	["PlayAnimation"] = T.RT_2661,
+T.RT_2668 = {
+	["PlayAnimation"] = T.RT_2667,
 }
-T.RT_2663 = {
+T.RT_2669 = {
 	["ActorId"] = 200006,
 	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 1,
 }
-T.RT_2664 = {
-	["PlayAnimation"] = T.RT_2663,
-}
-T.RT_2665 = {
-	["DelaySeconds"] = 9.2,
-}
-T.RT_2666 = {
-	["Delay"] = T.RT_2665,
-}
-T.RT_2667 = {
-	["DelaySeconds"] = 9.1,
-}
-T.RT_2668 = {
-	["Delay"] = T.RT_2667,
-}
-T.RT_2669 = {
-	["DelaySeconds"] = 12.6,
-}
 T.RT_2670 = {
-	["Delay"] = T.RT_2669,
+	["PlayAnimation"] = T.RT_2669,
 }
 T.RT_2671 = {
-	["DelaySeconds"] = 8.4,
+	["DelaySeconds"] = 9.2,
 }
 T.RT_2672 = {
 	["Delay"] = T.RT_2671,
 }
 T.RT_2673 = {
-	["DelaySeconds"] = 5.7,
+	["DelaySeconds"] = 9.1,
 }
 T.RT_2674 = {
 	["Delay"] = T.RT_2673,
 }
 T.RT_2675 = {
-	["DelaySeconds"] = 5.6,
+	["DelaySeconds"] = 12.6,
 }
 T.RT_2676 = {
 	["Delay"] = T.RT_2675,
 }
 T.RT_2677 = {
+	["DelaySeconds"] = 8.4,
+}
+T.RT_2678 = {
+	["Delay"] = T.RT_2677,
+}
+T.RT_2679 = {
+	["DelaySeconds"] = 5.7,
+}
+T.RT_2680 = {
+	["Delay"] = T.RT_2679,
+}
+T.RT_2681 = {
+	["DelaySeconds"] = 5.6,
+}
+T.RT_2682 = {
+	["Delay"] = T.RT_2681,
+}
+T.RT_2683 = {
 	["ActorId"] = 200076,
 	["AnimationId"] = "Talk02_Start",
 	["Duration"] = 1,
 }
-T.RT_2678 = {
-	["PlayAnimation"] = T.RT_2677,
-}
-T.RT_2679 = {
-	["TargetPosition"] = "387.574219,661.242188,-23.070312,-5.000002,19.999989,-120.000328,10.0,74.025841,false,Manual,1.2",
-}
-T.RT_2680 = {
-	["CameraMoveTo"] = T.RT_2679,
-}
-T.RT_2681 = {
-	["LookAtDescription"] = "200076:n(100001)",
-}
-T.RT_2682 = {
-	["LookAt"] = T.RT_2681,
-}
-T.RT_2683 = {
-	["LookAtDescription"] = "200076:n(200076)",
-}
 T.RT_2684 = {
-	["LookAt"] = T.RT_2683,
+	["PlayAnimation"] = T.RT_2683,
 }
 T.RT_2685 = {
-	["LookAtDescription"] = "100001:n(200076)",
+	["TargetPosition"] = "387.574219,661.242188,-23.070312,-5.000002,19.999989,-120.000328,10.0,74.025841,false,Manual,1.2",
 }
 T.RT_2686 = {
-	["LookAt"] = T.RT_2685,
+	["CameraMoveTo"] = T.RT_2685,
 }
 T.RT_2687 = {
-	["TargetPosition"] = "1736.922852,1709.017578,87.03125,0.000083,-1.999995,-138.00174,50.0,655.091675,false,Manual,5.0",
+	["LookAtDescription"] = "200076:n(100001)",
 }
 T.RT_2688 = {
-	["CameraMoveTo"] = T.RT_2687,
+	["LookAt"] = T.RT_2687,
 }
 T.RT_2689 = {
-	["DelaySeconds"] = 2.7,
+	["LookAtDescription"] = "200076:n(200076)",
 }
 T.RT_2690 = {
-	["Delay"] = T.RT_2689,
+	["LookAt"] = T.RT_2689,
 }
 T.RT_2691 = {
-	["DelaySeconds"] = 2.6,
+	["LookAtDescription"] = "100001:n(200076)",
 }
 T.RT_2692 = {
-	["Delay"] = T.RT_2691,
+	["LookAt"] = T.RT_2691,
 }
 T.RT_2693 = {
-	["DelaySeconds"] = 6.4,
+	["TargetPosition"] = "1736.922852,1709.017578,87.03125,0.000083,-1.999995,-138.00174,50.0,655.091675,false,Manual,5.0",
 }
 T.RT_2694 = {
-	["Delay"] = T.RT_2693,
+	["CameraMoveTo"] = T.RT_2693,
 }
 T.RT_2695 = {
-	["LookAtDescription"] = "200027:n(200027)",
+	["DelaySeconds"] = 2.7,
 }
 T.RT_2696 = {
-	["LookAt"] = T.RT_2695,
+	["Delay"] = T.RT_2695,
 }
 T.RT_2697 = {
-	["EventPath"] = "event:/sfx/common/story/01/camera_focus",
-	["PlayAs2D"] = true,
+	["DelaySeconds"] = 2.6,
 }
 T.RT_2698 = {
-	["PlayNormalSound"] = T.RT_2697,
+	["Delay"] = T.RT_2697,
 }
 T.RT_2699 = {
-	["ActorId"] = 200006,
-	["AnimationId"] = "Think_Start",
-	["Duration"] = 1,
+	["DelaySeconds"] = 6.4,
 }
 T.RT_2700 = {
-	["PlayAnimation"] = T.RT_2699,
+	["Delay"] = T.RT_2699,
 }
 T.RT_2701 = {
-	["LookAtDescription"] = "200006:n(100001)",
+	["LookAtDescription"] = "200027:n(200027)",
 }
 T.RT_2702 = {
 	["LookAt"] = T.RT_2701,
 }
 T.RT_2703 = {
+	["EventPath"] = "event:/sfx/common/story/01/camera_focus",
+	["PlayAs2D"] = true,
+}
+T.RT_2704 = {
+	["PlayNormalSound"] = T.RT_2703,
+}
+T.RT_2705 = {
+	["ActorId"] = 200006,
+	["AnimationId"] = "Think_Start",
+	["Duration"] = 1,
+}
+T.RT_2706 = {
+	["PlayAnimation"] = T.RT_2705,
+}
+T.RT_2707 = {
+	["LookAtDescription"] = "200006:n(100001)",
+}
+T.RT_2708 = {
+	["LookAt"] = T.RT_2707,
+}
+T.RT_2709 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 1,
 }
-T.RT_2704 = {
-	["PlayAnimation"] = T.RT_2703,
-}
-T.RT_2705 = {
-	["LookAtDescription"] = "100001:n(200006)",
-}
-T.RT_2706 = {
-	["LookAt"] = T.RT_2705,
-}
-T.RT_2707 = {
-	["TargetPosition"] = "155.228516,22.714844,70.824219,-2.500001,22.099062,-178.698868,20.0,144.087921,false,Manual,4.428154",
-}
-T.RT_2708 = {
-	["CameraMoveTo"] = T.RT_2707,
-}
-T.RT_2709 = {
-	["TargetPosition"] = "409.0625,59.248047,1.302734,0.000228,13.598858,-173.415344,35.0,399.548279,false,Manual,1.2",
-}
 T.RT_2710 = {
-	["CameraMoveTo"] = T.RT_2709,
+	["PlayAnimation"] = T.RT_2709,
 }
 T.RT_2711 = {
+	["LookAtDescription"] = "100001:n(200006)",
+}
+T.RT_2712 = {
+	["LookAt"] = T.RT_2711,
+}
+T.RT_2713 = {
+	["TargetPosition"] = "155.228516,22.714844,70.824219,-2.500001,22.099062,-178.698868,20.0,144.087921,false,Manual,4.428154",
+}
+T.RT_2714 = {
+	["CameraMoveTo"] = T.RT_2713,
+}
+T.RT_2715 = {
+	["TargetPosition"] = "409.0625,59.248047,1.302734,0.000228,13.598858,-173.415344,35.0,399.548279,false,Manual,1.2",
+}
+T.RT_2716 = {
+	["CameraMoveTo"] = T.RT_2715,
+}
+T.RT_2717 = {
 	["ActorId"] = 200006,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 1,
 }
-T.RT_2712 = {
-	["PlayAnimation"] = T.RT_2711,
-}
-T.RT_2713 = {
-	["DelaySeconds"] = 7.6,
-}
-T.RT_2714 = {
-	["Delay"] = T.RT_2713,
-}
-T.RT_2715 = {
-	["DelaySeconds"] = 11,
-}
-T.RT_2716 = {
-	["Delay"] = T.RT_2715,
-}
-T.RT_2717 = {
-	["LookAtDescription"] = "200006:n(200006)",
-}
 T.RT_2718 = {
-	["LookAt"] = T.RT_2717,
+	["PlayAnimation"] = T.RT_2717,
 }
 T.RT_2719 = {
+	["DelaySeconds"] = 7.6,
+}
+T.RT_2720 = {
+	["Delay"] = T.RT_2719,
+}
+T.RT_2721 = {
+	["DelaySeconds"] = 11,
+}
+T.RT_2722 = {
+	["Delay"] = T.RT_2721,
+}
+T.RT_2723 = {
+	["LookAtDescription"] = "200006:n(200006)",
+}
+T.RT_2724 = {
+	["LookAt"] = T.RT_2723,
+}
+T.RT_2725 = {
 	["EventPath"] = "event:/bgm/cbt02/0039_story_saiqi_see_flower",
 	["PlayType"] = "Play",
 	["SoundType"] = "SOUND_BGM",
 }
-T.RT_2720 = {
-	["PlayOrStopBGM"] = T.RT_2719,
+T.RT_2726 = {
+	["PlayOrStopBGM"] = T.RT_2725,
 }
-T.RT_2721 = {
+T.RT_2727 = {
 	["ActorId"] = 200002,
 	["AnimationId"] = "Talk01_Start",
 	["Duration"] = 1,
 }
-T.RT_2722 = {
-	["PlayAnimation"] = T.RT_2721,
+T.RT_2728 = {
+	["PlayAnimation"] = T.RT_2727,
 }
-T.RT_2723 = {
+T.RT_2729 = {
 	["ActorId"] = 200002,
 	["AnimationId"] = "Confident_End",
 	["Duration"] = 1,
 }
-T.RT_2724 = {
-	["PlayAnimation"] = T.RT_2723,
-}
-T.RT_2725 = {
-	["TurnToDescription"] = "100001:p(-120)",
-}
-T.RT_2726 = {
-	["TurnTo"] = T.RT_2725,
-}
-T.RT_2727 = {
-	["LookAtDescription"] = "200011:n(100001)",
-}
-T.RT_2728 = {
-	["LookAt"] = T.RT_2727,
-}
-T.RT_2729 = {
-	["LookAtDescription"] = "100001:n(200011)",
-}
 T.RT_2730 = {
-	["LookAt"] = T.RT_2729,
+	["PlayAnimation"] = T.RT_2729,
 }
 T.RT_2731 = {
+	["TurnToDescription"] = "100001:p(-120)",
+}
+T.RT_2732 = {
+	["TurnTo"] = T.RT_2731,
+}
+T.RT_2733 = {
+	["LookAtDescription"] = "200011:n(100001)",
+}
+T.RT_2734 = {
+	["LookAt"] = T.RT_2733,
+}
+T.RT_2735 = {
+	["LookAtDescription"] = "100001:n(200011)",
+}
+T.RT_2736 = {
+	["LookAt"] = T.RT_2735,
+}
+T.RT_2737 = {
 	["ActorId"] = 200002,
 	["AnimationId"] = "Talk03_Start",
 	["Duration"] = 1,
 }
-T.RT_2732 = {
-	["PlayAnimation"] = T.RT_2731,
-}
-T.RT_2733 = {
-	["TurnToDescription"] = "100001:p(-90)",
-}
-T.RT_2734 = {
-	["TurnTo"] = T.RT_2733,
-}
-T.RT_2735 = {
-	["DelaySeconds"] = 3.8,
-}
-T.RT_2736 = {
-	["Delay"] = T.RT_2735,
-}
-T.RT_2737 = {
-	["LookAtDescription"] = "100001:n(200053)",
-}
 T.RT_2738 = {
-	["LookAt"] = T.RT_2737,
+	["PlayAnimation"] = T.RT_2737,
 }
 T.RT_2739 = {
-	["DelaySeconds"] = 4.3,
+	["TurnToDescription"] = "100001:p(-90)",
 }
 T.RT_2740 = {
-	["Delay"] = T.RT_2739,
+	["TurnTo"] = T.RT_2739,
 }
 T.RT_2741 = {
-	["DelaySeconds"] = 5.9,
+	["DelaySeconds"] = 3.8,
 }
 T.RT_2742 = {
 	["Delay"] = T.RT_2741,
 }
 T.RT_2743 = {
-	["LookAtDescription"] = "200002:n(200053)",
+	["LookAtDescription"] = "100001:n(200053)",
 }
 T.RT_2744 = {
 	["LookAt"] = T.RT_2743,
 }
 T.RT_2745 = {
-	["TargetPosition"] = "20.944265,130.493118,127.817627,0.000104,-2.599857,-63.003014,20.0,124.611694,false,Manual,2.2",
+	["DelaySeconds"] = 4.3,
 }
 T.RT_2746 = {
-	["CameraMoveTo"] = T.RT_2745,
+	["Delay"] = T.RT_2745,
 }
 T.RT_2747 = {
-	["LookAtDescription"] = "200002:n(200011)",
+	["DelaySeconds"] = 5.9,
 }
 T.RT_2748 = {
-	["LookAt"] = T.RT_2747,
+	["Delay"] = T.RT_2747,
 }
 T.RT_2749 = {
-	["LookAtDescription"] = "200011:n(200011)",
+	["LookAtDescription"] = "200002:n(200053)",
 }
 T.RT_2750 = {
 	["LookAt"] = T.RT_2749,
 }
 T.RT_2751 = {
-	["ActorId"] = 200011,
-	["AnimationId"] = "AgreeHead",
-	["Duration"] = 1,
+	["TargetPosition"] = "20.944265,130.493118,127.817627,0.000104,-2.599857,-63.003014,20.0,124.611694,false,Manual,2.2",
 }
 T.RT_2752 = {
-	["PlayAnimation"] = T.RT_2751,
+	["CameraMoveTo"] = T.RT_2751,
 }
 T.RT_2753 = {
-	["TargetPosition"] = "149.374084,-212.37793,149.679443,0.000167,-8.197599,165.573959,30.0,208.790619,false,Manual,2.5",
+	["LookAtDescription"] = "200002:n(200011)",
 }
 T.RT_2754 = {
-	["CameraMoveTo"] = T.RT_2753,
+	["LookAt"] = T.RT_2753,
 }
 T.RT_2755 = {
-	[1] = T.RT_2754,
+	["LookAtDescription"] = "200011:n(200011)",
 }
 T.RT_2756 = {
-	["SEQ"] = T.RT_2755,
+	["LookAt"] = T.RT_2755,
 }
 T.RT_2757 = {
 	["ActorId"] = 200011,
-	["AnimationId"] = "Explain01_Start",
+	["AnimationId"] = "AgreeHead",
 	["Duration"] = 1,
 }
 T.RT_2758 = {
 	["PlayAnimation"] = T.RT_2757,
 }
 T.RT_2759 = {
-	["LookAtDescription"] = "200011:n(200054)",
+	["TargetPosition"] = "149.374084,-212.37793,149.679443,0.000167,-8.197599,165.573959,30.0,208.790619,false,Manual,2.5",
 }
 T.RT_2760 = {
-	["LookAt"] = T.RT_2759,
+	["CameraMoveTo"] = T.RT_2759,
 }
 T.RT_2761 = {
-	["LookAtDescription"] = "100001:n(200054)",
+	[1] = T.RT_2760,
 }
 T.RT_2762 = {
-	["LookAt"] = T.RT_2761,
+	["SEQ"] = T.RT_2761,
 }
 T.RT_2763 = {
-	["LookAtDescription"] = "200054:n(200011)",
+	["ActorId"] = 200011,
+	["AnimationId"] = "Explain01_Start",
+	["Duration"] = 1,
 }
 T.RT_2764 = {
-	["LookAt"] = T.RT_2763,
+	["PlayAnimation"] = T.RT_2763,
 }
 T.RT_2765 = {
-	["LookAtDescription"] = "200011:n(200002)",
+	["LookAtDescription"] = "200011:n(200054)",
 }
 T.RT_2766 = {
 	["LookAt"] = T.RT_2765,
 }
 T.RT_2767 = {
-	["EventPath"] = "event:/bgm/mute",
-	["PlayType"] = "Play",
-	["SoundType"] = "SOUND_BGM",
+	["LookAtDescription"] = "100001:n(200054)",
 }
 T.RT_2768 = {
-	["PlayOrStopBGM"] = T.RT_2767,
+	["LookAt"] = T.RT_2767,
 }
 T.RT_2769 = {
-	[1] = T.RT_2768,
+	["LookAtDescription"] = "200054:n(200011)",
 }
 T.RT_2770 = {
-	["Operations"] = T.RT_2769,
-	["bAllowClick"] = true,
+	["LookAt"] = T.RT_2769,
 }
 T.RT_2771 = {
+	["LookAtDescription"] = "200011:n(200002)",
+}
+T.RT_2772 = {
+	["LookAt"] = T.RT_2771,
+}
+T.RT_2773 = {
+	[1] = T.RT_2150,
+}
+T.RT_2774 = {
+	["Operations"] = T.RT_2773,
+	["bAllowClick"] = true,
+}
+T.RT_2775 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "Think_End",
 	["Duration"] = 1,
 }
-T.RT_2772 = {
-	["PlayAnimation"] = T.RT_2771,
-}
-T.RT_2773 = {
-	["TurnToDescription"] = "100001:n(200019)",
-}
-T.RT_2774 = {
-	["TurnTo"] = T.RT_2773,
-}
-T.RT_2775 = {
-	["LookAtDescription"] = "100001:n(200019)",
-}
 T.RT_2776 = {
-	["LookAt"] = T.RT_2775,
+	["PlayAnimation"] = T.RT_2775,
 }
 T.RT_2777 = {
+	["TurnToDescription"] = "100001:n(200019)",
+}
+T.RT_2778 = {
+	["TurnTo"] = T.RT_2777,
+}
+T.RT_2779 = {
+	["LookAtDescription"] = "100001:n(200019)",
+}
+T.RT_2780 = {
+	["LookAt"] = T.RT_2779,
+}
+T.RT_2781 = {
 	["EventPath"] = "event:/sfx/common/story/01/open_door",
 	["PlayAs2D"] = false,
 }
-T.RT_2778 = {
-	["PlayNormalSound"] = T.RT_2777,
-}
-T.RT_2779 = {
-	[1] = T.RT_1366,
-	[2] = T.RT_2778,
-}
-T.RT_2780 = {
-	["SEQ"] = T.RT_2779,
-}
-T.RT_2781 = {
-	["LookAtDescription"] = "200021:n(200021)",
-}
 T.RT_2782 = {
-	["LookAt"] = T.RT_2781,
+	["PlayNormalSound"] = T.RT_2781,
 }
 T.RT_2783 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Confident_Start",
-	["Duration"] = 1,
+	[1] = T.RT_1366,
+	[2] = T.RT_2782,
 }
 T.RT_2784 = {
-	["PlayAnimation"] = T.RT_2783,
+	["SEQ"] = T.RT_2783,
 }
 T.RT_2785 = {
-	["TurnToDescription"] = "200021:p(45)",
+	["LookAtDescription"] = "200021:n(200021)",
 }
 T.RT_2786 = {
-	["TurnTo"] = T.RT_2785,
+	["LookAt"] = T.RT_2785,
 }
 T.RT_2787 = {
 	["ActorId"] = 200021,
-	["AnimationId"] = "Talk03_Start",
+	["AnimationId"] = "Confident_Start",
 	["Duration"] = 1,
 }
 T.RT_2788 = {
 	["PlayAnimation"] = T.RT_2787,
 }
 T.RT_2789 = {
-	["TurnToDescription"] = "100001:n(200021)",
+	["TurnToDescription"] = "200021:p(45)",
 }
 T.RT_2790 = {
 	["TurnTo"] = T.RT_2789,
 }
 T.RT_2791 = {
-	["LookAtDescription"] = "200021:n(100001)",
+	["ActorId"] = 200021,
+	["AnimationId"] = "Talk03_Start",
+	["Duration"] = 1,
 }
 T.RT_2792 = {
-	["LookAt"] = T.RT_2791,
+	["PlayAnimation"] = T.RT_2791,
 }
 T.RT_2793 = {
-	["TargetPosition"] = "-533.734375,-208.980469,70.899597,0.000014,-13.599849,45.400936,25.0,501.349915,false,Manual,1.2",
+	["TurnToDescription"] = "100001:n(200021)",
 }
 T.RT_2794 = {
-	["CameraMoveTo"] = T.RT_2793,
+	["TurnTo"] = T.RT_2793,
 }
 T.RT_2795 = {
-	[1] = T.RT_2577,
-	[2] = T.RT_1732,
+	["LookAtDescription"] = "200021:n(100001)",
 }
 T.RT_2796 = {
-	["SEQ"] = T.RT_2795,
+	["LookAt"] = T.RT_2795,
 }
 T.RT_2797 = {
+	["TargetPosition"] = "-533.734375,-208.980469,70.899597,0.000014,-13.599849,45.400936,25.0,501.349915,false,Manual,1.2",
+}
+T.RT_2798 = {
+	["CameraMoveTo"] = T.RT_2797,
+}
+T.RT_2799 = {
+	[1] = T.RT_2583,
+	[2] = T.RT_1732,
+}
+T.RT_2800 = {
+	["SEQ"] = T.RT_2799,
+}
+T.RT_2801 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "Explain02_End",
 	["Duration"] = 1,
 }
-T.RT_2798 = {
-	["PlayAnimation"] = T.RT_2797,
+T.RT_2802 = {
+	["PlayAnimation"] = T.RT_2801,
 }
-T.RT_2799 = {
+T.RT_2803 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 1,
 }
-T.RT_2800 = {
-	["PlayAnimation"] = T.RT_2799,
-}
-T.RT_2801 = {
-	["LookAtDescription"] = "100001:n(100012)",
-}
-T.RT_2802 = {
-	["LookAt"] = T.RT_2801,
-}
-T.RT_2803 = {
-	["TargetPosition"] = "-183.619537,131.220978,38.473633,5.000565,15.599455,0.783449,50.0,432.203857,false,Manual,4.0",
-}
 T.RT_2804 = {
-	["CameraMoveTo"] = T.RT_2803,
+	["PlayAnimation"] = T.RT_2803,
 }
 T.RT_2805 = {
-	[1] = T.RT_146,
-	[2] = T.RT_1860,
+	["LookAtDescription"] = "100001:n(100012)",
 }
 T.RT_2806 = {
-	["SEQ"] = T.RT_2805,
+	["LookAt"] = T.RT_2805,
 }
 T.RT_2807 = {
-	["TargetPosition"] = "198.253006,139.13324,103.609375,-1.5,-10.199221,-175.220154,35.0,178.229309,false,Manual,3.0",
+	["TargetPosition"] = "-183.619537,131.220978,38.473633,5.000565,15.599455,0.783449,50.0,432.203857,false,Manual,4.0",
 }
 T.RT_2808 = {
 	["CameraMoveTo"] = T.RT_2807,
 }
 T.RT_2809 = {
-	["TurnToDescription"] = "200002:p(50)",
+	[1] = T.RT_146,
+	[2] = T.RT_1860,
 }
 T.RT_2810 = {
-	["TurnTo"] = T.RT_2809,
+	["SEQ"] = T.RT_2809,
 }
 T.RT_2811 = {
-	["LookAtDescription"] = "200002:n(200021)",
+	["TargetPosition"] = "198.253006,139.13324,103.609375,-1.5,-10.199221,-175.220154,35.0,178.229309,false,Manual,3.0",
 }
 T.RT_2812 = {
-	["LookAt"] = T.RT_2811,
+	["CameraMoveTo"] = T.RT_2811,
 }
 T.RT_2813 = {
-	["LookAtDescription"] = "100304:n(700108)",
+	["TurnToDescription"] = "200002:p(50)",
 }
 T.RT_2814 = {
-	["LookAt"] = T.RT_2813,
+	["TurnTo"] = T.RT_2813,
 }
 T.RT_2815 = {
+	["LookAtDescription"] = "200002:n(200021)",
+}
+T.RT_2816 = {
+	["LookAt"] = T.RT_2815,
+}
+T.RT_2817 = {
+	["LookAtDescription"] = "100304:n(700108)",
+}
+T.RT_2818 = {
+	["LookAt"] = T.RT_2817,
+}
+T.RT_2819 = {
 	["ActorId"] = 100304,
 	["Duration"] = 0.5,
 }
-T.RT_2816 = {
-	["StopTalkGroup"] = T.RT_2815,
+T.RT_2820 = {
+	["StopTalkGroup"] = T.RT_2819,
 }
-T.RT_2817 = {
+T.RT_2821 = {
 	["TurnToDescription"] = "100304:n(700108)",
 }
-T.RT_2818 = {
-	["TurnTo"] = T.RT_2817,
+T.RT_2822 = {
+	["TurnTo"] = T.RT_2821,
 }
-T.RT_2819 = {
+T.RT_2823 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Explain02_End",
 	["Duration"] = 1,
 }
-T.RT_2820 = {
-	["PlayAnimation"] = T.RT_2819,
-}
-T.RT_2821 = {
-	["LookAtDescription"] = "100304:n(100001)",
-}
-T.RT_2822 = {
-	["LookAt"] = T.RT_2821,
-}
-T.RT_2823 = {
-	["TargetPosition"] = "-245.135742,-238.277344,127.15332,0.000531,-2.499965,-156.154999,16.0,165.460846,false,Manual,1.90943",
-}
 T.RT_2824 = {
-	["CameraMoveTo"] = T.RT_2823,
+	["PlayAnimation"] = T.RT_2823,
 }
 T.RT_2825 = {
-	["LookAtDescription"] = "700108:n(100304)",
+	["LookAtDescription"] = "100304:n(100001)",
 }
 T.RT_2826 = {
 	["LookAt"] = T.RT_2825,
 }
 T.RT_2827 = {
-	["LookAtDescription"] = "700108:n(100001)",
+	["TargetPosition"] = "-245.135742,-238.277344,127.15332,0.000531,-2.499965,-156.154999,16.0,165.460846,false,Manual,1.90943",
 }
 T.RT_2828 = {
-	["LookAt"] = T.RT_2827,
+	["CameraMoveTo"] = T.RT_2827,
 }
 T.RT_2829 = {
-	["LookAtDescription"] = "100001:n(700065)",
+	["LookAtDescription"] = "700108:n(100304)",
 }
 T.RT_2830 = {
 	["LookAt"] = T.RT_2829,
 }
 T.RT_2831 = {
-	["LookAtDescription"] = "100001:n(100304)",
+	["LookAtDescription"] = "700108:n(100001)",
 }
 T.RT_2832 = {
 	["LookAt"] = T.RT_2831,
 }
 T.RT_2833 = {
-	["TargetPosition"] = "-139.688477,-91.050781,121.101562,-4.000003,8.402478,-13.154885,35.0,104.579765,false,Manual,4.0",
+	["LookAtDescription"] = "100001:n(700065)",
 }
 T.RT_2834 = {
-	["CameraMoveTo"] = T.RT_2833,
+	["LookAt"] = T.RT_2833,
 }
 T.RT_2835 = {
+	["LookAtDescription"] = "100001:n(100304)",
+}
+T.RT_2836 = {
+	["LookAt"] = T.RT_2835,
+}
+T.RT_2837 = {
+	["TargetPosition"] = "-139.688477,-91.050781,121.101562,-4.000003,8.402478,-13.154885,35.0,104.579765,false,Manual,4.0",
+}
+T.RT_2838 = {
+	["CameraMoveTo"] = T.RT_2837,
+}
+T.RT_2839 = {
 	["ActorId"] = 700065,
 	["TargetPoint"] = "P101130soldier2",
 	["Visibility"] = "Show",
 }
-T.RT_2836 = {
-	["SetLocation"] = T.RT_2835,
-}
-T.RT_2837 = {
-	["LookAtDescription"] = "200021:n(100304)",
-}
-T.RT_2838 = {
-	["LookAt"] = T.RT_2837,
-}
-T.RT_2839 = {
-	["LookAtDescription"] = "100304:n(200021)",
-}
 T.RT_2840 = {
-	["LookAt"] = T.RT_2839,
+	["SetLocation"] = T.RT_2839,
 }
 T.RT_2841 = {
-	["LookAtDescription"] = "200002:n(100304)",
+	["LookAtDescription"] = "200021:n(100304)",
 }
 T.RT_2842 = {
 	["LookAt"] = T.RT_2841,
 }
 T.RT_2843 = {
-	["TurnToDescription"] = "200002:n(100304)",
+	["LookAtDescription"] = "100304:n(200021)",
 }
 T.RT_2844 = {
-	["TurnTo"] = T.RT_2843,
+	["LookAt"] = T.RT_2843,
 }
 T.RT_2845 = {
-	["LookAtDescription"] = "100001:n(200058)",
+	["LookAtDescription"] = "200002:n(100304)",
 }
 T.RT_2846 = {
 	["LookAt"] = T.RT_2845,
 }
 T.RT_2847 = {
-	["TargetPosition"] = "-70.697266,-96.457031,152.484375,5.000004,-20.199968,-5.760443,35.0,43.059116,false,Manual,8.0",
+	["TurnToDescription"] = "200002:n(100304)",
 }
 T.RT_2848 = {
-	["CameraMoveTo"] = T.RT_2847,
+	["TurnTo"] = T.RT_2847,
 }
 T.RT_2849 = {
-	["LookAtDescription"] = "100304:n(100304)",
+	["LookAtDescription"] = "100001:n(200058)",
 }
 T.RT_2850 = {
 	["LookAt"] = T.RT_2849,
 }
 T.RT_2851 = {
-	["TurnToDescription"] = "100304:p(180)",
+	["TargetPosition"] = "-70.697266,-96.457031,152.484375,5.000004,-20.199968,-5.760443,35.0,43.059116,false,Manual,8.0",
 }
 T.RT_2852 = {
-	["TurnTo"] = T.RT_2851,
+	["CameraMoveTo"] = T.RT_2851,
 }
 T.RT_2853 = {
+	["LookAtDescription"] = "100304:n(100304)",
+}
+T.RT_2854 = {
+	["LookAt"] = T.RT_2853,
+}
+T.RT_2855 = {
+	["TurnToDescription"] = "100304:p(180)",
+}
+T.RT_2856 = {
+	["TurnTo"] = T.RT_2855,
+}
+T.RT_2857 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Explain01_End",
 	["Duration"] = 1,
 }
-T.RT_2854 = {
-	["PlayAnimation"] = T.RT_2853,
+T.RT_2858 = {
+	["PlayAnimation"] = T.RT_2857,
 }
-T.RT_2855 = {
+T.RT_2859 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 1,
 }
-T.RT_2856 = {
-	["PlayAnimation"] = T.RT_2855,
-}
-T.RT_2857 = {
-	[1] = T.RT_2822,
-}
-T.RT_2858 = {
-	["DelaySeconds"] = 3.7,
-}
-T.RT_2859 = {
-	["Delay"] = T.RT_2858,
-}
 T.RT_2860 = {
-	["TargetPosition"] = "-241.869141,-275.507812,130.599609,0.000426,0.0,146.399841,35.0,52.50996,false,Manual,5.0",
+	["PlayAnimation"] = T.RT_2859,
 }
 T.RT_2861 = {
-	["CameraMoveTo"] = T.RT_2860,
+	[1] = T.RT_2826,
 }
 T.RT_2862 = {
-	["LookAtDescription"] = "700108:n(200021)",
+	["DelaySeconds"] = 3.7,
 }
 T.RT_2863 = {
-	["LookAt"] = T.RT_2862,
+	["Delay"] = T.RT_2862,
 }
 T.RT_2864 = {
-	[1] = T.RT_146,
-	[2] = T.RT_2822,
+	["TargetPosition"] = "-241.869141,-275.507812,130.599609,0.000426,0.0,146.399841,35.0,52.50996,false,Manual,5.0",
 }
 T.RT_2865 = {
-	["SEQ"] = T.RT_2864,
+	["CameraMoveTo"] = T.RT_2864,
 }
 T.RT_2866 = {
-	["ActorId"] = 100304,
-	["AnimationId"] = "Think_End",
-	["Duration"] = 1,
+	["LookAtDescription"] = "700108:n(200021)",
 }
 T.RT_2867 = {
-	["PlayAnimation"] = T.RT_2866,
+	["LookAt"] = T.RT_2866,
 }
 T.RT_2868 = {
-	["TargetPosition"] = "-21.274414,-17.730469,38.473633,0.000534,9.803083,-134.377579,25.0,462.620239,false,Manual,1.2",
+	[1] = T.RT_146,
+	[2] = T.RT_2826,
 }
 T.RT_2869 = {
-	["CameraMoveTo"] = T.RT_2868,
+	["SEQ"] = T.RT_2868,
 }
 T.RT_2870 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "DisagreeHead",
+	["ActorId"] = 100304,
+	["AnimationId"] = "Think_End",
 	["Duration"] = 1,
 }
 T.RT_2871 = {
 	["PlayAnimation"] = T.RT_2870,
 }
 T.RT_2872 = {
-	[1] = T.RT_1144,
-	[2] = T.RT_2871,
+	["TargetPosition"] = "-21.274414,-17.730469,38.473633,0.000534,9.803083,-134.377579,25.0,462.620239,false,Manual,1.2",
 }
 T.RT_2873 = {
-	["SEQ"] = T.RT_2872,
+	["CameraMoveTo"] = T.RT_2872,
 }
 T.RT_2874 = {
-	["TurnToDescription"] = "100001:n(100304)",
+	["ActorId"] = 200021,
+	["AnimationId"] = "DisagreeHead",
+	["Duration"] = 1,
 }
 T.RT_2875 = {
-	["TurnTo"] = T.RT_2874,
+	["PlayAnimation"] = T.RT_2874,
 }
 T.RT_2876 = {
-	["TargetPosition"] = "-0.780273,466.824219,69.349609,0.000274,6.398364,-30.447647,30.0,69.7416,false,Manual,10.038425",
+	[1] = T.RT_1144,
+	[2] = T.RT_2875,
 }
 T.RT_2877 = {
-	["CameraMoveTo"] = T.RT_2876,
+	["SEQ"] = T.RT_2876,
 }
 T.RT_2878 = {
-	[1] = T.RT_2877,
+	["TurnToDescription"] = "100001:n(100304)",
 }
 T.RT_2879 = {
-	["SEQ"] = T.RT_2878,
+	["TurnTo"] = T.RT_2878,
 }
 T.RT_2880 = {
-	[1] = T.RT_2879,
+	["TargetPosition"] = "-0.780273,466.824219,69.349609,0.000274,6.398364,-30.447647,30.0,69.7416,false,Manual,10.038425",
 }
 T.RT_2881 = {
-	["Operations"] = T.RT_2880,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_2880,
 }
 T.RT_2882 = {
-	["TurnToDescription"] = "200002:n(200021)",
+	[1] = T.RT_2881,
 }
 T.RT_2883 = {
-	["TurnTo"] = T.RT_2882,
+	["SEQ"] = T.RT_2882,
 }
 T.RT_2884 = {
-	["EventPath"] = "event:/bgm/mute",
-	["PlayType"] = "Stop",
-	["SoundType"] = "SOUND_BGM",
+	[1] = T.RT_2883,
 }
 T.RT_2885 = {
-	["PlayOrStopBGM"] = T.RT_2884,
+	["Operations"] = T.RT_2884,
+	["bAllowClick"] = true,
 }
 T.RT_2886 = {
-	["SetRotationDescription"] = "200052:p(-180)",
+	["TurnToDescription"] = "200002:n(200021)",
 }
 T.RT_2887 = {
-	["SetRotation"] = T.RT_2886,
+	["TurnTo"] = T.RT_2886,
 }
 T.RT_2888 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2718,
+	["EventPath"] = "event:/bgm/cbt02/0063_story_saiqi_last_word",
+	["PlayType"] = "Play",
+	["SoundType"] = "SOUND_BGM",
 }
 T.RT_2889 = {
-	["SEQ"] = T.RT_2888,
+	["PlayOrStopBGM"] = T.RT_2888,
 }
 T.RT_2890 = {
-	["LookAtDescription"] = "200045:n(100001)",
+	["SetRotationDescription"] = "200052:p(-180)",
 }
 T.RT_2891 = {
-	["LookAt"] = T.RT_2890,
+	["SetRotation"] = T.RT_2890,
 }
 T.RT_2892 = {
-	["TurnToDescription"] = "200021:p(170)",
+	[1] = T.RT_150,
+	[2] = T.RT_2724,
 }
 T.RT_2893 = {
-	["TurnTo"] = T.RT_2892,
+	["SEQ"] = T.RT_2892,
 }
 T.RT_2894 = {
+	["LookAtDescription"] = "200045:n(100001)",
+}
+T.RT_2895 = {
+	["LookAt"] = T.RT_2894,
+}
+T.RT_2896 = {
+	["TurnToDescription"] = "200021:p(170)",
+}
+T.RT_2897 = {
+	["TurnTo"] = T.RT_2896,
+}
+T.RT_2898 = {
 	["ActorId"] = 200002,
 	["AnimationId"] = "Sigh_Start",
 	["Duration"] = 1,
 }
-T.RT_2895 = {
-	["PlayAnimation"] = T.RT_2894,
+T.RT_2899 = {
+	["PlayAnimation"] = T.RT_2898,
 }
-T.RT_2896 = {
+T.RT_2900 = {
 	["LookAtDescription"] = "200005:n(200005)",
 }
-T.RT_2897 = {
-	["LookAt"] = T.RT_2896,
+T.RT_2901 = {
+	["LookAt"] = T.RT_2900,
 }
-T.RT_2898 = {
+T.RT_2902 = {
 	["ActorId"] = 200021,
 	["TargetPoint"] = "P101108Aote4",
 	["Visibility"] = "Show",
 }
-T.RT_2899 = {
-	["SetLocation"] = T.RT_2898,
-}
-T.RT_2900 = {
-	["TargetPosition"] = "133.324219,61.090759,73.597656,0.000037,-17.799957,33.006298,18.0,64.625702,false,Manual,3.0",
-}
-T.RT_2901 = {
-	["CameraMoveTo"] = T.RT_2900,
-}
-T.RT_2902 = {
-	["LookAtDescription"] = "200005:p(P10110802)",
-}
 T.RT_2903 = {
-	["LookAt"] = T.RT_2902,
+	["SetLocation"] = T.RT_2902,
 }
 T.RT_2904 = {
+	["TargetPosition"] = "133.324219,61.090759,73.597656,0.000037,-17.799957,33.006298,18.0,64.625702,false,Manual,3.0",
+}
+T.RT_2905 = {
+	["CameraMoveTo"] = T.RT_2904,
+}
+T.RT_2906 = {
+	["LookAtDescription"] = "200005:p(P10110802)",
+}
+T.RT_2907 = {
+	["LookAt"] = T.RT_2906,
+}
+T.RT_2908 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 1,
 }
-T.RT_2905 = {
-	["PlayAnimation"] = T.RT_2904,
-}
-T.RT_2906 = {
-	["SetRotationDescription"] = "200021:n(200005)",
-}
-T.RT_2907 = {
-	["SetRotation"] = T.RT_2906,
-}
-T.RT_2908 = {
-	["DelaySeconds"] = 6.6,
-}
 T.RT_2909 = {
-	["Delay"] = T.RT_2908,
+	["PlayAnimation"] = T.RT_2908,
 }
 T.RT_2910 = {
+	["SetRotationDescription"] = "200021:n(200005)",
+}
+T.RT_2911 = {
+	["SetRotation"] = T.RT_2910,
+}
+T.RT_2912 = {
+	["DelaySeconds"] = 6.6,
+}
+T.RT_2913 = {
+	["Delay"] = T.RT_2912,
+}
+T.RT_2914 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "Sigh_Start",
 	["Duration"] = 1,
 }
-T.RT_2911 = {
-	["PlayAnimation"] = T.RT_2910,
-}
-T.RT_2912 = {
-	["LookAtDescription"] = "200061:n(200061)",
-}
-T.RT_2913 = {
-	["LookAt"] = T.RT_2912,
-}
-T.RT_2914 = {
-	["LookAtDescription"] = "200061:n(200005)",
-}
 T.RT_2915 = {
-	["LookAt"] = T.RT_2914,
+	["PlayAnimation"] = T.RT_2914,
 }
 T.RT_2916 = {
-	["LookAtDescription"] = "200061:n(200002)",
+	["LookAtDescription"] = "200061:n(200061)",
 }
 T.RT_2917 = {
 	["LookAt"] = T.RT_2916,
 }
 T.RT_2918 = {
-	["DelaySeconds"] = 1.4,
+	["LookAtDescription"] = "200061:n(200005)",
 }
 T.RT_2919 = {
-	["Delay"] = T.RT_2918,
+	["LookAt"] = T.RT_2918,
 }
 T.RT_2920 = {
-	["TurnToDescription"] = "200002:n(200005)",
+	["LookAtDescription"] = "200061:n(200002)",
 }
 T.RT_2921 = {
-	["TurnTo"] = T.RT_2920,
+	["LookAt"] = T.RT_2920,
 }
 T.RT_2922 = {
-	["LookAtDescription"] = "200021:n(200005)",
+	["DelaySeconds"] = 1.4,
 }
 T.RT_2923 = {
-	["LookAt"] = T.RT_2922,
+	["Delay"] = T.RT_2922,
 }
 T.RT_2924 = {
-	["ActorId"] = 200019,
-	["AnimationId"] = "Disagree",
-	["Duration"] = 1,
+	["TurnToDescription"] = "200002:n(200005)",
 }
 T.RT_2925 = {
-	["PlayAnimation"] = T.RT_2924,
+	["TurnTo"] = T.RT_2924,
 }
 T.RT_2926 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Think_Start",
-	["Duration"] = 1,
+	["LookAtDescription"] = "200021:n(200005)",
 }
 T.RT_2927 = {
-	["PlayAnimation"] = T.RT_2926,
+	["LookAt"] = T.RT_2926,
 }
 T.RT_2928 = {
-	["ActorId"] = 200002,
-	["AnimationId"] = "Sigh_End",
+	["ActorId"] = 200019,
+	["AnimationId"] = "Disagree",
 	["Duration"] = 1,
 }
 T.RT_2929 = {
@@ -9604,40 +9605,44 @@ T.RT_2929 = {
 }
 T.RT_2930 = {
 	["ActorId"] = 200021,
-	["AnimationId"] = "Explain01_Start",
+	["AnimationId"] = "Think_Start",
 	["Duration"] = 1,
 }
 T.RT_2931 = {
 	["PlayAnimation"] = T.RT_2930,
 }
 T.RT_2932 = {
-	["LookAtDescription"] = "200021:n(200002)",
+	["ActorId"] = 200002,
+	["AnimationId"] = "Sigh_End",
+	["Duration"] = 1,
 }
 T.RT_2933 = {
-	["LookAt"] = T.RT_2932,
+	["PlayAnimation"] = T.RT_2932,
 }
 T.RT_2934 = {
+	["ActorId"] = 200021,
+	["AnimationId"] = "Explain01_Start",
+	["Duration"] = 1,
+}
+T.RT_2935 = {
+	["PlayAnimation"] = T.RT_2934,
+}
+T.RT_2936 = {
+	["LookAtDescription"] = "200021:n(200002)",
+}
+T.RT_2937 = {
+	["LookAt"] = T.RT_2936,
+}
+T.RT_2938 = {
 	["EventPath"] = "event:/bgm/cbt02/0051_story_danger",
 	["PlayType"] = "Play",
 	["SoundType"] = "SOUND_BGM",
 }
-T.RT_2935 = {
-	["PlayOrStopBGM"] = T.RT_2934,
-}
-T.RT_2936 = {
-	["TargetPosition"] = "785.928955,324.125488,129.826904,0.00017,3.7996,-138.035309,30.0,310.031403,false,Manual,3.5",
-}
-T.RT_2937 = {
-	["CameraMoveTo"] = T.RT_2936,
-}
-T.RT_2938 = {
-	[1] = T.RT_2937,
-}
 T.RT_2939 = {
-	["SEQ"] = T.RT_2938,
+	["PlayOrStopBGM"] = T.RT_2938,
 }
 T.RT_2940 = {
-	["TargetPosition"] = "761.169983,251.908691,141.029297,0.000148,3.7996,-138.03949,30.0,200.0,false,Manual,2.0",
+	["TargetPosition"] = "785.928955,324.125488,129.826904,0.00017,3.7996,-138.035309,30.0,310.031403,false,Manual,3.5",
 }
 T.RT_2941 = {
 	["CameraMoveTo"] = T.RT_2940,
@@ -9649,24 +9654,20 @@ T.RT_2943 = {
 	["SEQ"] = T.RT_2942,
 }
 T.RT_2944 = {
-	["ActorId"] = 100001,
-	["AnimationId"] = "DisagreeHead",
-	["Duration"] = 2,
+	["TargetPosition"] = "761.169983,251.908691,141.029297,0.000148,3.7996,-138.03949,30.0,200.0,false,Manual,2.0",
 }
 T.RT_2945 = {
-	["PlayAnimation"] = T.RT_2944,
+	["CameraMoveTo"] = T.RT_2944,
 }
 T.RT_2946 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Talk02_End",
-	["Duration"] = 2,
+	[1] = T.RT_2945,
 }
 T.RT_2947 = {
-	["PlayAnimation"] = T.RT_2946,
+	["SEQ"] = T.RT_2946,
 }
 T.RT_2948 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Talk02_Start",
+	["ActorId"] = 100001,
+	["AnimationId"] = "DisagreeHead",
 	["Duration"] = 2,
 }
 T.RT_2949 = {
@@ -9674,54 +9675,58 @@ T.RT_2949 = {
 }
 T.RT_2950 = {
 	["ActorId"] = 200021,
-	["AnimationId"] = "Confident_End",
+	["AnimationId"] = "Talk02_End",
 	["Duration"] = 2,
 }
 T.RT_2951 = {
 	["PlayAnimation"] = T.RT_2950,
 }
 T.RT_2952 = {
-	["ActorId"] = 200004,
-	["AnimationId"] = "Sigh_Start",
-	["Duration"] = 1,
+	["ActorId"] = 200021,
+	["AnimationId"] = "Talk02_Start",
+	["Duration"] = 2,
 }
 T.RT_2953 = {
 	["PlayAnimation"] = T.RT_2952,
 }
 T.RT_2954 = {
-	["TargetPosition"] = "90.3125,227.423828,131.78418,0.000109,1.998479,-111.225136,35.0,754.06427,false,Manual,2.8",
+	["ActorId"] = 200021,
+	["AnimationId"] = "Confident_End",
+	["Duration"] = 2,
 }
 T.RT_2955 = {
-	["CameraMoveTo"] = T.RT_2954,
+	["PlayAnimation"] = T.RT_2954,
 }
 T.RT_2956 = {
-	[1] = T.RT_2955,
+	["ActorId"] = 200004,
+	["AnimationId"] = "Sigh_Start",
+	["Duration"] = 1,
 }
 T.RT_2957 = {
-	["SEQ"] = T.RT_2956,
+	["PlayAnimation"] = T.RT_2956,
 }
 T.RT_2958 = {
+	["TargetPosition"] = "90.3125,227.423828,131.78418,0.000109,1.998479,-111.225136,35.0,754.06427,false,Manual,2.8",
+}
+T.RT_2959 = {
+	["CameraMoveTo"] = T.RT_2958,
+}
+T.RT_2960 = {
+	[1] = T.RT_2959,
+}
+T.RT_2961 = {
+	["SEQ"] = T.RT_2960,
+}
+T.RT_2962 = {
 	["ActorId"] = 200004,
 	["AnimationId"] = "Think_Start",
 	["Duration"] = 1,
 }
-T.RT_2959 = {
-	["PlayAnimation"] = T.RT_2958,
-}
-T.RT_2960 = {
-	["TargetPosition"] = "46.548828,76.217773,157.121094,0.000122,3.798486,-103.62146,35.0,182.242599,false,Manual,4.0",
-}
-T.RT_2961 = {
-	["CameraMoveTo"] = T.RT_2960,
-}
-T.RT_2962 = {
-	[1] = T.RT_2961,
-}
 T.RT_2963 = {
-	["SEQ"] = T.RT_2962,
+	["PlayAnimation"] = T.RT_2962,
 }
 T.RT_2964 = {
-	["TargetPosition"] = "195.458984,381.847656,140.132812,0.000112,-2.601489,-116.221428,35.0,100000.0,false,Disable,2.8",
+	["TargetPosition"] = "46.548828,76.217773,157.121094,0.000122,3.798486,-103.62146,35.0,182.242599,false,Manual,4.0",
 }
 T.RT_2965 = {
 	["CameraMoveTo"] = T.RT_2964,
@@ -9733,685 +9738,681 @@ T.RT_2967 = {
 	["SEQ"] = T.RT_2966,
 }
 T.RT_2968 = {
-	["TargetPosition"] = "65.402344,207.889648,137.988281,0.00012,3.300286,-107.99794,40.0,278.887787,false,Manual,3.0",
+	["TargetPosition"] = "195.458984,381.847656,140.132812,0.000112,-2.601489,-116.221428,35.0,100000.0,false,Disable,2.8",
 }
 T.RT_2969 = {
 	["CameraMoveTo"] = T.RT_2968,
 }
 T.RT_2970 = {
+	[1] = T.RT_2969,
+}
+T.RT_2971 = {
+	["SEQ"] = T.RT_2970,
+}
+T.RT_2972 = {
+	["TargetPosition"] = "65.402344,207.889648,137.988281,0.00012,3.300286,-107.99794,40.0,278.887787,false,Manual,3.0",
+}
+T.RT_2973 = {
+	["CameraMoveTo"] = T.RT_2972,
+}
+T.RT_2974 = {
 	["ActorId"] = 100001,
 	["MoveSpeed"] = 30,
 	["TargetPoint"] = "P101102Nvzhu1",
 	["Visibility"] = "Show",
 }
-T.RT_2971 = {
-	["MoveTo"] = T.RT_2970,
-}
-T.RT_2972 = {
-	["LookAtDescription"] = "200004:n(100001)",
-}
-T.RT_2973 = {
-	["LookAt"] = T.RT_2972,
-}
-T.RT_2974 = {
-	["LookAtDescription"] = "200004:p(P101102Bag)",
-}
 T.RT_2975 = {
-	["LookAt"] = T.RT_2974,
+	["MoveTo"] = T.RT_2974,
 }
 T.RT_2976 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2973,
+	["LookAtDescription"] = "200004:n(100001)",
 }
 T.RT_2977 = {
-	["SEQ"] = T.RT_2976,
+	["LookAt"] = T.RT_2976,
 }
 T.RT_2978 = {
+	["LookAtDescription"] = "200004:p(P101102Bag)",
+}
+T.RT_2979 = {
+	["LookAt"] = T.RT_2978,
+}
+T.RT_2980 = {
+	[1] = T.RT_150,
+	[2] = T.RT_2977,
+}
+T.RT_2981 = {
+	["SEQ"] = T.RT_2980,
+}
+T.RT_2982 = {
 	["ActorId"] = 200004,
 	["AnimationId"] = "Talk02_Start",
 	["Duration"] = 1,
 }
-T.RT_2979 = {
-	["PlayAnimation"] = T.RT_2978,
-}
-T.RT_2980 = {
-	["TargetPosition"] = "64.498047,198.828125,133.768555,0.000109,3.998454,-108.227692,35.0,311.117737,false,Manual,4.0",
-}
-T.RT_2981 = {
-	["CameraMoveTo"] = T.RT_2980,
-}
-T.RT_2982 = {
-	[1] = T.RT_2981,
-}
 T.RT_2983 = {
-	["SEQ"] = T.RT_2982,
+	["PlayAnimation"] = T.RT_2982,
 }
 T.RT_2984 = {
-	[1] = T.RT_2983,
+	["TargetPosition"] = "64.498047,198.828125,133.768555,0.000109,3.998454,-108.227692,35.0,311.117737,false,Manual,4.0",
 }
 T.RT_2985 = {
-	["Operations"] = T.RT_2984,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_2984,
 }
 T.RT_2986 = {
-	["LookAtDescription"] = "100001:n(200004)",
+	[1] = T.RT_2985,
 }
 T.RT_2987 = {
-	["LookAt"] = T.RT_2986,
+	["SEQ"] = T.RT_2986,
 }
 T.RT_2988 = {
-	["TurnToDescription"] = "200027:n(200005)",
+	[1] = T.RT_2987,
 }
 T.RT_2989 = {
-	["TurnTo"] = T.RT_2988,
+	["Operations"] = T.RT_2988,
+	["bAllowClick"] = true,
 }
 T.RT_2990 = {
-	["TargetPosition"] = "-419.101562,-398.800781,144.849609,0.000189,-1.200276,90.294189,75.0,419.979156,false,Manual,5.40951",
+	["LookAtDescription"] = "100001:n(200004)",
 }
 T.RT_2991 = {
-	["CameraMoveTo"] = T.RT_2990,
+	["LookAt"] = T.RT_2990,
 }
 T.RT_2992 = {
-	["LookAtDescription"] = "200027:n(200005)",
+	["TurnToDescription"] = "200027:n(200005)",
 }
 T.RT_2993 = {
-	["LookAt"] = T.RT_2992,
+	["TurnTo"] = T.RT_2992,
 }
 T.RT_2994 = {
-	["LookAtDescription"] = "100001:n(200005)",
+	["TargetPosition"] = "-419.101562,-398.800781,144.849609,0.000189,-1.200276,90.294189,75.0,419.979156,false,Manual,5.40951",
 }
 T.RT_2995 = {
-	["LookAt"] = T.RT_2994,
+	["CameraMoveTo"] = T.RT_2994,
 }
 T.RT_2996 = {
-	["TurnToDescription"] = "200027:p(-45)",
+	["LookAtDescription"] = "200027:n(200005)",
 }
 T.RT_2997 = {
-	["TurnTo"] = T.RT_2996,
+	["LookAt"] = T.RT_2996,
 }
 T.RT_2998 = {
-	["TargetPosition"] = "115.863281,137.515625,84.004883,0.000361,-3.599892,-174.599625,35.0,222.15242,false,Manual,3.0",
+	["LookAtDescription"] = "100001:n(200005)",
 }
 T.RT_2999 = {
-	["CameraMoveTo"] = T.RT_2998,
+	["LookAt"] = T.RT_2998,
 }
 T.RT_3000 = {
-	["TurnToDescription"] = "200027:p(45)",
+	["TurnToDescription"] = "200027:p(-45)",
 }
 T.RT_3001 = {
 	["TurnTo"] = T.RT_3000,
 }
 T.RT_3002 = {
-	["TurnToDescription"] = "100001:p(-45)",
+	["TargetPosition"] = "115.863281,137.515625,84.004883,0.000361,-3.599892,-174.599625,35.0,222.15242,false,Manual,3.0",
 }
 T.RT_3003 = {
-	["TurnTo"] = T.RT_3002,
+	["CameraMoveTo"] = T.RT_3002,
 }
 T.RT_3004 = {
-	["TargetPosition"] = "-193.007812,137.34375,119.354492,0.00026,-13.500005,-4.885199,40.0,210.88031,false,Manual,6.361443",
+	["TurnToDescription"] = "200027:p(45)",
 }
 T.RT_3005 = {
-	["CameraMoveTo"] = T.RT_3004,
+	["TurnTo"] = T.RT_3004,
 }
 T.RT_3006 = {
-	["TargetPosition"] = "104.378906,-6.691406,54.246094,0.00026,5.999337,139.119324,35.0,255.16095,false,Manual,3.028017",
+	["TurnToDescription"] = "100001:p(-45)",
 }
 T.RT_3007 = {
-	["CameraMoveTo"] = T.RT_3006,
+	["TurnTo"] = T.RT_3006,
 }
 T.RT_3008 = {
-	[1] = T.RT_3007,
+	["TargetPosition"] = "-193.007812,137.34375,119.354492,0.00026,-13.500005,-4.885199,40.0,210.88031,false,Manual,6.361443",
 }
 T.RT_3009 = {
-	["SEQ"] = T.RT_3008,
+	["CameraMoveTo"] = T.RT_3008,
 }
 T.RT_3010 = {
+	["TargetPosition"] = "104.378906,-6.691406,54.246094,0.00026,5.999337,139.119324,35.0,255.16095,false,Manual,3.028017",
+}
+T.RT_3011 = {
+	["CameraMoveTo"] = T.RT_3010,
+}
+T.RT_3012 = {
+	[1] = T.RT_3011,
+}
+T.RT_3013 = {
+	["SEQ"] = T.RT_3012,
+}
+T.RT_3014 = {
 	["ActorId"] = 200006,
 	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 2,
 }
-T.RT_3011 = {
-	["PlayAnimation"] = T.RT_3010,
+T.RT_3015 = {
+	["PlayAnimation"] = T.RT_3014,
 }
-T.RT_3012 = {
+T.RT_3016 = {
 	["ActorId"] = 200006,
 	["AnimationId"] = "DisagreeHead",
 	["Duration"] = 2,
 }
-T.RT_3013 = {
-	["PlayAnimation"] = T.RT_3012,
-}
-T.RT_3014 = {
-	["TargetPosition"] = "9.070312,25.001953,57.339844,0.000264,12.599274,135.718796,35.0,184.119568,false,Manual,1.2",
-}
-T.RT_3015 = {
-	["CameraMoveTo"] = T.RT_3014,
-}
-T.RT_3016 = {
-	[1] = T.RT_3015,
-}
 T.RT_3017 = {
-	["SEQ"] = T.RT_3016,
+	["PlayAnimation"] = T.RT_3016,
 }
 T.RT_3018 = {
+	["TargetPosition"] = "9.070312,25.001953,57.339844,0.000264,12.599274,135.718796,35.0,184.119568,false,Manual,1.2",
+}
+T.RT_3019 = {
+	["CameraMoveTo"] = T.RT_3018,
+}
+T.RT_3020 = {
+	[1] = T.RT_3019,
+}
+T.RT_3021 = {
+	["SEQ"] = T.RT_3020,
+}
+T.RT_3022 = {
 	["ActorId"] = 200006,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 2,
 }
-T.RT_3019 = {
-	["PlayAnimation"] = T.RT_3018,
-}
-T.RT_3020 = {
-	["ActorId"] = 200006,
-	["AnimationId"] = "DisagreeHead",
-	["Duration"] = 1,
-}
-T.RT_3021 = {
-	["PlayAnimation"] = T.RT_3020,
-}
-T.RT_3022 = {
-	["LookAtDescription"] = "200006:n(200005)",
-}
 T.RT_3023 = {
-	["LookAt"] = T.RT_3022,
+	["PlayAnimation"] = T.RT_3022,
 }
 T.RT_3024 = {
-	["ActorId"] = 200005,
-	["AnimationId"] = "Angry01_Start",
+	["ActorId"] = 200006,
+	["AnimationId"] = "DisagreeHead",
 	["Duration"] = 1,
 }
 T.RT_3025 = {
 	["PlayAnimation"] = T.RT_3024,
 }
 T.RT_3026 = {
-	["LookAtDescription"] = "200005:n(100001)",
+	["LookAtDescription"] = "200006:n(200005)",
 }
 T.RT_3027 = {
 	["LookAt"] = T.RT_3026,
 }
 T.RT_3028 = {
-	["TargetPosition"] = "-12.126953,19.546143,157.792969,0.000312,-1.000206,-44.196373,30.0,93.438416,false,Manual,4.824773",
+	["ActorId"] = 200005,
+	["AnimationId"] = "Angry01_Start",
+	["Duration"] = 1,
 }
 T.RT_3029 = {
-	["CameraMoveTo"] = T.RT_3028,
+	["PlayAnimation"] = T.RT_3028,
 }
 T.RT_3030 = {
-	[1] = T.RT_1144,
-	[2] = T.RT_2995,
+	["LookAtDescription"] = "200005:n(100001)",
 }
 T.RT_3031 = {
-	["SEQ"] = T.RT_3030,
+	["LookAt"] = T.RT_3030,
 }
 T.RT_3032 = {
+	["TargetPosition"] = "-12.126953,19.546143,157.792969,0.000312,-1.000206,-44.196373,30.0,93.438416,false,Manual,4.824773",
+}
+T.RT_3033 = {
+	["CameraMoveTo"] = T.RT_3032,
+}
+T.RT_3034 = {
+	[1] = T.RT_1144,
+	[2] = T.RT_2999,
+}
+T.RT_3035 = {
+	["SEQ"] = T.RT_3034,
+}
+T.RT_3036 = {
 	["ActorId"] = 200006,
 	["AnimationId"] = "Talk02_Start",
 	["Duration"] = 1,
 }
-T.RT_3033 = {
-	["PlayAnimation"] = T.RT_3032,
-}
-T.RT_3034 = {
-	["LookAtDescription"] = "200006:p(P101093Saiqi1)",
-}
-T.RT_3035 = {
-	["LookAt"] = T.RT_3034,
-}
-T.RT_3036 = {
-	[1] = T.RT_146,
-	[2] = T.RT_2800,
-}
 T.RT_3037 = {
-	["SEQ"] = T.RT_3036,
+	["PlayAnimation"] = T.RT_3036,
 }
 T.RT_3038 = {
-	["TurnToDescription"] = "100001:n(200006)",
+	["LookAtDescription"] = "200006:p(P101093Saiqi1)",
 }
 T.RT_3039 = {
-	["TurnTo"] = T.RT_3038,
+	["LookAt"] = T.RT_3038,
 }
 T.RT_3040 = {
-	["TurnToDescription"] = "100001:n(200005)",
+	[1] = T.RT_146,
+	[2] = T.RT_2804,
 }
 T.RT_3041 = {
-	["TurnTo"] = T.RT_3040,
+	["SEQ"] = T.RT_3040,
 }
 T.RT_3042 = {
+	["TurnToDescription"] = "100001:n(200006)",
+}
+T.RT_3043 = {
+	["TurnTo"] = T.RT_3042,
+}
+T.RT_3044 = {
+	["TurnToDescription"] = "100001:n(200005)",
+}
+T.RT_3045 = {
+	["TurnTo"] = T.RT_3044,
+}
+T.RT_3046 = {
 	["EventPath"] = "event:/bgm/cbt02/0050_story_saiqi_grow_flower",
 	["PlayType"] = "Play",
 	["SoundType"] = "SOUND_BGM",
 }
-T.RT_3043 = {
-	["PlayOrStopBGM"] = T.RT_3042,
+T.RT_3047 = {
+	["PlayOrStopBGM"] = T.RT_3046,
 }
-T.RT_3044 = {
+T.RT_3048 = {
 	["TargetPosition"] = "-150.984375,50.667725,86.152344,0.0,3.399904,0.0,20.0,319.356598,false,Manual,2.8",
 	["duration"] = 0,
 }
-T.RT_3045 = {
-	["CameraMoveTo"] = T.RT_3044,
-}
-T.RT_3046 = {
-	[1] = T.RT_462,
-	[2] = T.RT_3045,
-}
-T.RT_3047 = {
-	["SEQ"] = T.RT_3046,
-}
-T.RT_3048 = {
-	["ActorId"] = 200021,
-	["MoveSpeed"] = 90,
-	["TargetPoint"] = "P10108905",
-	["Visibility"] = "Show",
-}
 T.RT_3049 = {
-	["MoveTo"] = T.RT_3048,
+	["CameraMoveTo"] = T.RT_3048,
 }
 T.RT_3050 = {
-	[1] = T.RT_146,
+	[1] = T.RT_462,
 	[2] = T.RT_3049,
 }
 T.RT_3051 = {
 	["SEQ"] = T.RT_3050,
 }
 T.RT_3052 = {
-	["LookAtDescription"] = "200021:p(P10108907)",
+	["ActorId"] = 200021,
+	["MoveSpeed"] = 90,
+	["TargetPoint"] = "P10108905",
+	["Visibility"] = "Show",
 }
 T.RT_3053 = {
-	["LookAt"] = T.RT_3052,
+	["MoveTo"] = T.RT_3052,
 }
 T.RT_3054 = {
-	["TargetPosition"] = "35.041016,-1.032471,173.978516,0.0,0.0,112.998962,35.0,340.916382,false,Manual,2.8",
+	[1] = T.RT_146,
+	[2] = T.RT_3053,
 }
 T.RT_3055 = {
-	["CameraMoveTo"] = T.RT_3054,
+	["SEQ"] = T.RT_3054,
 }
 T.RT_3056 = {
-	[1] = T.RT_3055,
+	["LookAtDescription"] = "200021:p(P10108907)",
 }
 T.RT_3057 = {
-	["SEQ"] = T.RT_3056,
+	["LookAt"] = T.RT_3056,
 }
 T.RT_3058 = {
-	["LookAtDescription"] = "200021:p(P10108905)",
+	["TargetPosition"] = "35.041016,-1.032471,173.978516,0.0,0.0,112.998962,35.0,340.916382,false,Manual,2.8",
 }
 T.RT_3059 = {
-	["LookAt"] = T.RT_3058,
+	["CameraMoveTo"] = T.RT_3058,
 }
 T.RT_3060 = {
-	["TurnToDescription"] = "200021:p(-120)",
+	[1] = T.RT_3059,
 }
 T.RT_3061 = {
-	["TurnTo"] = T.RT_3060,
+	["SEQ"] = T.RT_3060,
 }
 T.RT_3062 = {
-	["TurnToDescription"] = "200021:p(-90)",
+	["LookAtDescription"] = "200021:p(P10108905)",
 }
 T.RT_3063 = {
-	["TurnTo"] = T.RT_3062,
+	["LookAt"] = T.RT_3062,
 }
 T.RT_3064 = {
-	["DelaySeconds"] = 0.8,
+	["TurnToDescription"] = "200021:p(-120)",
 }
 T.RT_3065 = {
-	["Delay"] = T.RT_3064,
+	["TurnTo"] = T.RT_3064,
 }
 T.RT_3066 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2911,
+	["TurnToDescription"] = "200021:p(-90)",
 }
 T.RT_3067 = {
-	["SEQ"] = T.RT_3066,
+	["TurnTo"] = T.RT_3066,
 }
 T.RT_3068 = {
+	["DelaySeconds"] = 0.8,
+}
+T.RT_3069 = {
+	["Delay"] = T.RT_3068,
+}
+T.RT_3070 = {
+	[1] = T.RT_150,
+	[2] = T.RT_2915,
+}
+T.RT_3071 = {
+	["SEQ"] = T.RT_3070,
+}
+T.RT_3072 = {
 	["TargetPosition"] = "325.628906,-58.82373,121.371094,0.000113,4.399803,111.588264,25.0,221.388763,false,Manual,3.329002",
 	["duration"] = 4,
 }
-T.RT_3069 = {
-	["CameraMoveTo"] = T.RT_3068,
-}
-T.RT_3070 = {
-	["TargetPosition"] = "325.628906,-58.82373,116.970703,0.000113,4.399803,111.588264,25.0,221.388763,false,Manual,3.329002",
-}
-T.RT_3071 = {
-	["CameraMoveTo"] = T.RT_3070,
-}
-T.RT_3072 = {
-	[1] = T.RT_3071,
-	[2] = T.RT_3069,
-}
 T.RT_3073 = {
-	["SEQ"] = T.RT_3072,
+	["CameraMoveTo"] = T.RT_3072,
 }
 T.RT_3074 = {
-	[1] = T.RT_2782,
-	[2] = T.RT_3073,
-	[3] = T.RT_3067,
+	["TargetPosition"] = "325.628906,-58.82373,116.970703,0.000113,4.399803,111.588264,25.0,221.388763,false,Manual,3.329002",
 }
 T.RT_3075 = {
-	["Operations"] = T.RT_3074,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3074,
 }
 T.RT_3076 = {
+	[1] = T.RT_3075,
+	[2] = T.RT_3073,
+}
+T.RT_3077 = {
+	["SEQ"] = T.RT_3076,
+}
+T.RT_3078 = {
+	[1] = T.RT_2786,
+	[2] = T.RT_3077,
+	[3] = T.RT_3071,
+}
+T.RT_3079 = {
+	["Operations"] = T.RT_3078,
+	["bAllowClick"] = true,
+}
+T.RT_3080 = {
 	["EventPath"] = "event:/bgm/cbt01/0035_atomos_thrill",
 	["Key"] = "ToEnd",
 	["PlayType"] = "Play",
 	["SoundType"] = "SOUND_BGM",
 	["Value"] = 1,
 }
-T.RT_3077 = {
-	["PlayOrStopBGM"] = T.RT_3076,
+T.RT_3081 = {
+	["PlayOrStopBGM"] = T.RT_3080,
 }
-T.RT_3078 = {
+T.RT_3082 = {
 	["Blend"] = "easeInOutQuad",
 	["TargetPosition"] = "-356.363281,-521.599854,11.460938,0.000115,3.399795,55.999966,35.0,245.7789,false,Manual,4.635447",
 	["duration"] = 4,
 }
-T.RT_3079 = {
-	["CameraMoveTo"] = T.RT_3078,
-}
-T.RT_3080 = {
-	["TargetPosition"] = "-362.359375,-517.817139,11.460938,0.000115,3.399795,57.799927,35.0,128.886658,false,Manual,4.715463",
-}
-T.RT_3081 = {
-	["CameraMoveTo"] = T.RT_3080,
-}
-T.RT_3082 = {
-	[1] = T.RT_3081,
-	[2] = T.RT_3079,
-}
 T.RT_3083 = {
-	["SEQ"] = T.RT_3082,
+	["CameraMoveTo"] = T.RT_3082,
 }
 T.RT_3084 = {
-	[1] = T.RT_3083,
-	[2] = T.RT_3077,
+	["TargetPosition"] = "-362.359375,-517.817139,11.460938,0.000115,3.399795,57.799927,35.0,128.886658,false,Manual,4.715463",
 }
 T.RT_3085 = {
-	["Operations"] = T.RT_3084,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3084,
 }
 T.RT_3086 = {
-	["TargetPosition"] = "-274.945312,-805.239624,232.541016,0.000004,3.399733,0.199775,20.0,202.959305,false,Manual,2.8",
-	["duration"] = 4,
+	[1] = T.RT_3085,
+	[2] = T.RT_3083,
 }
 T.RT_3087 = {
-	["CameraMoveTo"] = T.RT_3086,
+	["SEQ"] = T.RT_3086,
 }
 T.RT_3088 = {
-	[1] = T.RT_1762,
-	[2] = T.RT_3087,
+	[1] = T.RT_3087,
+	[2] = T.RT_3081,
 }
 T.RT_3089 = {
-	["SEQ"] = T.RT_3088,
+	["Operations"] = T.RT_3088,
+	["bAllowClick"] = true,
 }
 T.RT_3090 = {
-	["TargetPosition"] = "-239.359375,-805.114624,234.648438,0.000004,3.399733,0.199775,20.0,202.959305,false,Manual,2.8",
-	["duration"] = 0,
+	["TargetPosition"] = "-274.945312,-805.239624,232.541016,0.000004,3.399733,0.199775,20.0,202.959305,false,Manual,2.8",
+	["duration"] = 4,
 }
 T.RT_3091 = {
 	["CameraMoveTo"] = T.RT_3090,
 }
 T.RT_3092 = {
-	[1] = T.RT_1246,
+	[1] = T.RT_1762,
 	[2] = T.RT_3091,
 }
 T.RT_3093 = {
 	["SEQ"] = T.RT_3092,
 }
 T.RT_3094 = {
-	[1] = T.RT_3093,
-	[2] = T.RT_3089,
+	["TargetPosition"] = "-239.359375,-805.114624,234.648438,0.000004,3.399733,0.199775,20.0,202.959305,false,Manual,2.8",
+	["duration"] = 0,
 }
 T.RT_3095 = {
-	["PARA"] = T.RT_3094,
+	["CameraMoveTo"] = T.RT_3094,
 }
 T.RT_3096 = {
+	[1] = T.RT_1246,
+	[2] = T.RT_3095,
+}
+T.RT_3097 = {
+	["SEQ"] = T.RT_3096,
+}
+T.RT_3098 = {
+	[1] = T.RT_3097,
+	[2] = T.RT_3093,
+}
+T.RT_3099 = {
+	["PARA"] = T.RT_3098,
+}
+T.RT_3100 = {
 	["Blend"] = "easeInQuad",
 	["TargetPosition"] = "-60.400391,-804.493286,220.005859,0.000004,3.399733,0.199775,35.0,202.959305,false,Manual,2.8",
 	["duration"] = 3,
 }
-T.RT_3097 = {
-	["CameraMoveTo"] = T.RT_3096,
-}
-T.RT_3098 = {
-	["TargetPosition"] = "-52.710938,-804.46936,220.482422,0.000004,3.399733,0.199775,35.0,202.959305,false,Manual,2.8",
-}
-T.RT_3099 = {
-	["CameraMoveTo"] = T.RT_3098,
-}
-T.RT_3100 = {
-	[1] = T.RT_3099,
-	[2] = T.RT_3097,
-}
 T.RT_3101 = {
-	["SEQ"] = T.RT_3100,
+	["CameraMoveTo"] = T.RT_3100,
 }
 T.RT_3102 = {
-	[1] = T.RT_3101,
-	[2] = T.RT_3095,
+	["TargetPosition"] = "-52.710938,-804.46936,220.482422,0.000004,3.399733,0.199775,35.0,202.959305,false,Manual,2.8",
 }
 T.RT_3103 = {
-	["Operations"] = T.RT_3102,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3102,
 }
 T.RT_3104 = {
-	["TargetPosition"] = "-150.984375,50.667725,86.152344,0.0,3.399904,0.0,20.0,319.356598,false,Manual,2.8",
+	[1] = T.RT_3103,
+	[2] = T.RT_3101,
 }
 T.RT_3105 = {
-	["CameraMoveTo"] = T.RT_3104,
+	["SEQ"] = T.RT_3104,
 }
 T.RT_3106 = {
 	[1] = T.RT_3105,
+	[2] = T.RT_3099,
 }
 T.RT_3107 = {
-	["SEQ"] = T.RT_3106,
-}
-T.RT_3108 = {
-	[1] = T.RT_3107,
-}
-T.RT_3109 = {
-	["Operations"] = T.RT_3108,
+	["Operations"] = T.RT_3106,
 	["bAllowClick"] = true,
 }
+T.RT_3108 = {
+	["TargetPosition"] = "-150.984375,50.667725,86.152344,0.0,3.399904,0.0,20.0,319.356598,false,Manual,2.8",
+}
+T.RT_3109 = {
+	["CameraMoveTo"] = T.RT_3108,
+}
 T.RT_3110 = {
+	[1] = T.RT_3109,
+}
+T.RT_3111 = {
+	["SEQ"] = T.RT_3110,
+}
+T.RT_3112 = {
+	[1] = T.RT_3111,
+}
+T.RT_3113 = {
+	["Operations"] = T.RT_3112,
+	["bAllowClick"] = true,
+}
+T.RT_3114 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "Sigh_End",
 	["Duration"] = 1,
 }
-T.RT_3111 = {
-	["PlayAnimation"] = T.RT_3110,
+T.RT_3115 = {
+	["PlayAnimation"] = T.RT_3114,
 }
-T.RT_3112 = {
+T.RT_3116 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "Sigh_End",
 	["Duration"] = 1,
 }
-T.RT_3113 = {
-	["PlayAnimation"] = T.RT_3112,
-}
-T.RT_3114 = {
-	["DelaySeconds"] = 0.4,
-}
-T.RT_3115 = {
-	["Delay"] = T.RT_3114,
-}
-T.RT_3116 = {
-	["LookAtDescription"] = "200002:p(P10108701)",
-}
 T.RT_3117 = {
-	["LookAt"] = T.RT_3116,
+	["PlayAnimation"] = T.RT_3116,
 }
 T.RT_3118 = {
-	["LookAtDescription"] = "100001:p(P10108701)",
+	["DelaySeconds"] = 0.4,
 }
 T.RT_3119 = {
-	["LookAt"] = T.RT_3118,
+	["Delay"] = T.RT_3118,
 }
 T.RT_3120 = {
-	["EventPath"] = "event:/sfx/common/story/01/bai_enter_water",
-	["PlayAs2D"] = false,
+	["LookAtDescription"] = "200002:p(P10108701)",
 }
 T.RT_3121 = {
-	["PlayNormalSound"] = T.RT_3120,
+	["LookAt"] = T.RT_3120,
 }
 T.RT_3122 = {
-	["LookAtDescription"] = "200002:p(P10108607)",
+	["LookAtDescription"] = "100001:p(P10108701)",
 }
 T.RT_3123 = {
 	["LookAt"] = T.RT_3122,
 }
 T.RT_3124 = {
-	["DelaySeconds"] = 6.8,
+	["EventPath"] = "event:/sfx/common/story/01/bai_enter_water",
+	["PlayAs2D"] = false,
 }
 T.RT_3125 = {
-	["Delay"] = T.RT_3124,
+	["PlayNormalSound"] = T.RT_3124,
 }
 T.RT_3126 = {
-	["DelaySeconds"] = 3.3,
+	["LookAtDescription"] = "200002:p(P10108607)",
 }
 T.RT_3127 = {
-	["Delay"] = T.RT_3126,
+	["LookAt"] = T.RT_3126,
 }
 T.RT_3128 = {
-	["LookAtDescription"] = "200002:n(200005)",
+	["DelaySeconds"] = 6.8,
 }
 T.RT_3129 = {
-	["LookAt"] = T.RT_3128,
+	["Delay"] = T.RT_3128,
 }
 T.RT_3130 = {
-	["LookAtDescription"] = "200021:n(200064)",
+	["DelaySeconds"] = 3.3,
 }
 T.RT_3131 = {
-	["LookAt"] = T.RT_3130,
+	["Delay"] = T.RT_3130,
 }
 T.RT_3132 = {
+	["LookAtDescription"] = "200002:n(200005)",
+}
+T.RT_3133 = {
+	["LookAt"] = T.RT_3132,
+}
+T.RT_3134 = {
+	["LookAtDescription"] = "200021:n(200064)",
+}
+T.RT_3135 = {
+	["LookAt"] = T.RT_3134,
+}
+T.RT_3136 = {
 	["EventPath"] = "event:/bgm/cbt01/0033_story_humour",
 	["PlayType"] = "Play",
 	["SoundType"] = "SOUND_BGM",
 }
-T.RT_3133 = {
-	["PlayOrStopBGM"] = T.RT_3132,
-}
-T.RT_3134 = {
-	["TargetPosition"] = "191.621094,-89.93457,109.277344,0.000199,6.198478,148.808563,35.0,401.024139,false,Manual,11.157635",
-}
-T.RT_3135 = {
-	["CameraMoveTo"] = T.RT_3134,
-}
-T.RT_3136 = {
-	[1] = T.RT_3135,
-}
 T.RT_3137 = {
-	["SEQ"] = T.RT_3136,
+	["PlayOrStopBGM"] = T.RT_3136,
 }
 T.RT_3138 = {
-	[1] = T.RT_3137,
+	["TargetPosition"] = "191.621094,-89.93457,109.277344,0.000199,6.198478,148.808563,35.0,401.024139,false,Manual,11.157635",
 }
 T.RT_3139 = {
-	["Operations"] = T.RT_3138,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3138,
 }
 T.RT_3140 = {
+	[1] = T.RT_3139,
+}
+T.RT_3141 = {
+	["SEQ"] = T.RT_3140,
+}
+T.RT_3142 = {
+	[1] = T.RT_3141,
+}
+T.RT_3143 = {
+	["Operations"] = T.RT_3142,
+	["bAllowClick"] = true,
+}
+T.RT_3144 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "Talk01_End",
 	["Duration"] = 1,
 }
-T.RT_3141 = {
-	["PlayAnimation"] = T.RT_3140,
+T.RT_3145 = {
+	["PlayAnimation"] = T.RT_3144,
 }
-T.RT_3142 = {
+T.RT_3146 = {
 	["Blend"] = "easeInQuad",
 	["TargetPosition"] = "2002.980469,1612.253418,889.958008,0.0,-16.499994,-149.399673,25.0,489.882812,false,DoNotOverride,1.2",
 	["duration"] = 8,
 }
-T.RT_3143 = {
-	["CameraMoveTo"] = T.RT_3142,
-}
-T.RT_3144 = {
-	["TargetPosition"] = "1879.394531,1539.175781,889.682617,0.0,-16.500002,-149.399582,25.0,198.626984,false,DoNotOverride,4.0",
-}
-T.RT_3145 = {
-	["CameraMoveTo"] = T.RT_3144,
-}
-T.RT_3146 = {
-	[1] = T.RT_3145,
-	[2] = T.RT_3143,
-}
 T.RT_3147 = {
-	["SEQ"] = T.RT_3146,
+	["CameraMoveTo"] = T.RT_3146,
 }
 T.RT_3148 = {
-	[1] = T.RT_3147,
+	["TargetPosition"] = "1879.394531,1539.175781,889.682617,0.0,-16.500002,-149.399582,25.0,198.626984,false,DoNotOverride,4.0",
 }
 T.RT_3149 = {
-	["Operations"] = T.RT_3148,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3148,
 }
 T.RT_3150 = {
-	["TargetPosition"] = "170.976562,-67.447021,115.106934,0.000169,6.0,152.0,35.0,198.626984,false,Manual,4.0",
+	[1] = T.RT_3149,
+	[2] = T.RT_3147,
 }
 T.RT_3151 = {
-	["CameraMoveTo"] = T.RT_3150,
+	["SEQ"] = T.RT_3150,
 }
 T.RT_3152 = {
 	[1] = T.RT_3151,
 }
 T.RT_3153 = {
-	["SEQ"] = T.RT_3152,
-}
-T.RT_3154 = {
-	[1] = T.RT_3153,
-}
-T.RT_3155 = {
-	["Operations"] = T.RT_3154,
+	["Operations"] = T.RT_3152,
 	["bAllowClick"] = true,
 }
+T.RT_3154 = {
+	["TargetPosition"] = "170.976562,-67.447021,115.106934,0.000169,6.0,152.0,35.0,198.626984,false,Manual,4.0",
+}
+T.RT_3155 = {
+	["CameraMoveTo"] = T.RT_3154,
+}
 T.RT_3156 = {
-	["TargetPosition"] = "-29.411133,593.171387,18.685547,-0.0,6.0,-89.999939,20.0,210.882507,false,Manual,6.0",
+	[1] = T.RT_3155,
 }
 T.RT_3157 = {
-	["CameraMoveTo"] = T.RT_3156,
+	["SEQ"] = T.RT_3156,
 }
 T.RT_3158 = {
-	["LookAtDescription"] = "100005:n(100005)",
+	[1] = T.RT_3157,
 }
 T.RT_3159 = {
-	["LookAt"] = T.RT_3158,
+	["Operations"] = T.RT_3158,
+	["bAllowClick"] = true,
 }
 T.RT_3160 = {
-	["ActorId"] = 100006,
-	["AnimationId"] = "Talk02_End",
-	["Duration"] = 1,
+	["TargetPosition"] = "-29.411133,593.171387,18.685547,-0.0,6.0,-89.999939,20.0,210.882507,false,Manual,6.0",
 }
 T.RT_3161 = {
-	["PlayAnimation"] = T.RT_3160,
+	["CameraMoveTo"] = T.RT_3160,
 }
 T.RT_3162 = {
-	[1] = T.RT_1726,
-	[2] = T.RT_3161,
+	["LookAtDescription"] = "100005:n(100005)",
 }
 T.RT_3163 = {
-	["SEQ"] = T.RT_3162,
+	["LookAt"] = T.RT_3162,
 }
 T.RT_3164 = {
 	["ActorId"] = 100006,
-	["AnimationId"] = "Talk02_Start",
+	["AnimationId"] = "Talk02_End",
 	["Duration"] = 1,
 }
 T.RT_3165 = {
 	["PlayAnimation"] = T.RT_3164,
 }
 T.RT_3166 = {
-	["ActorId"] = 100006,
-	["AnimationId"] = "Explain02_Start",
-	["Duration"] = 1,
+	[1] = T.RT_1726,
+	[2] = T.RT_3165,
 }
 T.RT_3167 = {
-	["PlayAnimation"] = T.RT_3166,
+	["SEQ"] = T.RT_3166,
 }
 T.RT_3168 = {
 	["ActorId"] = 100006,
-	["AnimationId"] = "Shock_End",
+	["AnimationId"] = "Talk02_Start",
 	["Duration"] = 1,
 }
 T.RT_3169 = {
@@ -10419,15 +10420,15 @@ T.RT_3169 = {
 }
 T.RT_3170 = {
 	["ActorId"] = 100006,
-	["AnimationId"] = "Shock_Start",
+	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 1,
 }
 T.RT_3171 = {
 	["PlayAnimation"] = T.RT_3170,
 }
 T.RT_3172 = {
-	["ActorId"] = 100005,
-	["AnimationId"] = "Explain01_Start",
+	["ActorId"] = 100006,
+	["AnimationId"] = "Shock_End",
 	["Duration"] = 1,
 }
 T.RT_3173 = {
@@ -10435,155 +10436,159 @@ T.RT_3173 = {
 }
 T.RT_3174 = {
 	["ActorId"] = 100006,
-	["AnimationId"] = "Explain01_Start",
+	["AnimationId"] = "Shock_Start",
 	["Duration"] = 1,
 }
 T.RT_3175 = {
 	["PlayAnimation"] = T.RT_3174,
 }
 T.RT_3176 = {
-	["TargetPosition"] = "38.334961,98.454102,147.033691,0.0,0.0,-102.398956,35.0,175.0,false,Manual,3.0",
-}
-T.RT_3177 = {
-	["CameraMoveTo"] = T.RT_3176,
-}
-T.RT_3178 = {
-	[1] = T.RT_3177,
-}
-T.RT_3179 = {
-	["SEQ"] = T.RT_3178,
-}
-T.RT_3180 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Explain01_End",
+	["ActorId"] = 100005,
+	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 1,
 }
+T.RT_3177 = {
+	["PlayAnimation"] = T.RT_3176,
+}
+T.RT_3178 = {
+	["ActorId"] = 100006,
+	["AnimationId"] = "Explain01_Start",
+	["Duration"] = 1,
+}
+T.RT_3179 = {
+	["PlayAnimation"] = T.RT_3178,
+}
+T.RT_3180 = {
+	["TargetPosition"] = "38.334961,98.454102,147.033691,0.0,0.0,-102.398956,35.0,175.0,false,Manual,3.0",
+}
 T.RT_3181 = {
-	["PlayAnimation"] = T.RT_3180,
+	["CameraMoveTo"] = T.RT_3180,
 }
 T.RT_3182 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2772,
+	[1] = T.RT_3181,
 }
 T.RT_3183 = {
 	["SEQ"] = T.RT_3182,
 }
 T.RT_3184 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2927,
+	["ActorId"] = 200021,
+	["AnimationId"] = "Explain01_End",
+	["Duration"] = 1,
 }
 T.RT_3185 = {
-	["SEQ"] = T.RT_3184,
+	["PlayAnimation"] = T.RT_3184,
 }
 T.RT_3186 = {
-	[1] = T.RT_3185,
-	[2] = T.RT_3183,
+	[1] = T.RT_150,
+	[2] = T.RT_2776,
 }
 T.RT_3187 = {
 	["SEQ"] = T.RT_3186,
 }
 T.RT_3188 = {
+	[1] = T.RT_150,
+	[2] = T.RT_2931,
+}
+T.RT_3189 = {
+	["SEQ"] = T.RT_3188,
+}
+T.RT_3190 = {
+	[1] = T.RT_3189,
+	[2] = T.RT_3187,
+}
+T.RT_3191 = {
+	["SEQ"] = T.RT_3190,
+}
+T.RT_3192 = {
 	["LookAtType"] = "TalkNpc",
 	["SpeakActorId"] = 700049,
 }
-T.RT_3189 = {
-	["DefaultLookAt"] = T.RT_3188,
+T.RT_3193 = {
+	["DefaultLookAt"] = T.RT_3192,
 }
-T.RT_3190 = {
+T.RT_3194 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 2,
-}
-T.RT_3191 = {
-	["PlayAnimation"] = T.RT_3190,
-}
-T.RT_3192 = {
-	["ActorId"] = 200019,
-	["AnimationId"] = "Talk01_Start",
-	["Duration"] = 1,
-}
-T.RT_3193 = {
-	["PlayAnimation"] = T.RT_3192,
-}
-T.RT_3194 = {
-	["ActorId"] = 200019,
-	["AnimationId"] = "Explain01_Start",
-	["Duration"] = 1,
 }
 T.RT_3195 = {
 	["PlayAnimation"] = T.RT_3194,
 }
 T.RT_3196 = {
-	["TurnToDescription"] = "200006:n(100001)",
+	["ActorId"] = 200019,
+	["AnimationId"] = "Talk01_Start",
+	["Duration"] = 1,
 }
 T.RT_3197 = {
-	["TurnTo"] = T.RT_3196,
+	["PlayAnimation"] = T.RT_3196,
 }
 T.RT_3198 = {
-	["TargetPosition"] = "-13.580078,-88.732422,148.808594,-0.999969,-1.999019,65.002243,35.0,161.954697,false,Manual,3.0",
+	["ActorId"] = 200019,
+	["AnimationId"] = "Explain01_Start",
+	["Duration"] = 1,
 }
 T.RT_3199 = {
-	["CameraMoveTo"] = T.RT_3198,
+	["PlayAnimation"] = T.RT_3198,
 }
 T.RT_3200 = {
-	[1] = T.RT_3199,
+	["TurnToDescription"] = "200006:n(100001)",
 }
 T.RT_3201 = {
-	["SEQ"] = T.RT_3200,
+	["TurnTo"] = T.RT_3200,
 }
 T.RT_3202 = {
-	[1] = T.RT_3201,
+	["TargetPosition"] = "-13.580078,-88.732422,148.808594,-0.999969,-1.999019,65.002243,35.0,161.954697,false,Manual,3.0",
 }
 T.RT_3203 = {
-	["Operations"] = T.RT_3202,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3202,
 }
 T.RT_3204 = {
-	["LookAtDescription"] = "200006:p(P101070Saiqi2)",
+	[1] = T.RT_3203,
 }
 T.RT_3205 = {
-	["LookAt"] = T.RT_3204,
+	["SEQ"] = T.RT_3204,
 }
 T.RT_3206 = {
-	[1] = T.RT_146,
-	[2] = T.RT_3205,
+	[1] = T.RT_3205,
 }
 T.RT_3207 = {
-	["SEQ"] = T.RT_3206,
+	["Operations"] = T.RT_3206,
+	["bAllowClick"] = true,
 }
 T.RT_3208 = {
-	["TargetPosition"] = "81.181641,47.311279,151.771484,0.000126,0.800116,-146.391769,45.0,155.923965,false,Manual,3.0",
+	["LookAtDescription"] = "200006:p(P101070Saiqi2)",
 }
 T.RT_3209 = {
-	["CameraMoveTo"] = T.RT_3208,
+	["LookAt"] = T.RT_3208,
 }
 T.RT_3210 = {
-	[1] = T.RT_3209,
+	[1] = T.RT_146,
+	[2] = T.RT_3209,
 }
 T.RT_3211 = {
 	["SEQ"] = T.RT_3210,
 }
 T.RT_3212 = {
-	[1] = T.RT_3211,
+	["TargetPosition"] = "81.181641,47.311279,151.771484,0.000126,0.800116,-146.391769,45.0,155.923965,false,Manual,3.0",
 }
 T.RT_3213 = {
-	["Operations"] = T.RT_3212,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3212,
 }
 T.RT_3214 = {
-	["TargetPosition"] = "236.90625,88.847168,150.599609,0.000127,-1.399902,-162.190994,45.0,274.397491,false,Manual,3.11719",
+	[1] = T.RT_3213,
 }
 T.RT_3215 = {
-	["CameraMoveTo"] = T.RT_3214,
+	["SEQ"] = T.RT_3214,
 }
 T.RT_3216 = {
 	[1] = T.RT_3215,
 }
 T.RT_3217 = {
-	["SEQ"] = T.RT_3216,
+	["Operations"] = T.RT_3216,
+	["bAllowClick"] = true,
 }
 T.RT_3218 = {
-	["TargetPosition"] = "-74.501953,-161.229248,146.148438,-0.999969,-1.999053,65.00071,35.0,223.056076,false,Manual,3.0",
+	["TargetPosition"] = "236.90625,88.847168,150.599609,0.000127,-1.399902,-162.190994,45.0,274.397491,false,Manual,3.11719",
 }
 T.RT_3219 = {
 	["CameraMoveTo"] = T.RT_3218,
@@ -10595,131 +10600,131 @@ T.RT_3221 = {
 	["SEQ"] = T.RT_3220,
 }
 T.RT_3222 = {
-	[1] = T.RT_3221,
+	["TargetPosition"] = "-74.501953,-161.229248,146.148438,-0.999969,-1.999053,65.00071,35.0,223.056076,false,Manual,3.0",
 }
 T.RT_3223 = {
-	["Operations"] = T.RT_3222,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3222,
 }
 T.RT_3224 = {
-	["LookAtDescription"] = "200006:n(200045)",
+	[1] = T.RT_3223,
 }
 T.RT_3225 = {
-	["LookAt"] = T.RT_3224,
+	["SEQ"] = T.RT_3224,
 }
 T.RT_3226 = {
-	["LookAtDescription"] = "100001:n(200059)",
+	[1] = T.RT_3225,
 }
 T.RT_3227 = {
-	["LookAt"] = T.RT_3226,
+	["Operations"] = T.RT_3226,
+	["bAllowClick"] = true,
 }
 T.RT_3228 = {
-	["ActorId"] = 100001,
-	["AnimationId"] = "AgreeHead",
-	["Duration"] = 1,
+	["LookAtDescription"] = "200006:n(200045)",
 }
 T.RT_3229 = {
-	["PlayAnimation"] = T.RT_3228,
+	["LookAt"] = T.RT_3228,
 }
 T.RT_3230 = {
-	["DelaySeconds"] = 0.9,
+	["LookAtDescription"] = "100001:n(200059)",
 }
 T.RT_3231 = {
-	["Delay"] = T.RT_3230,
+	["LookAt"] = T.RT_3230,
 }
 T.RT_3232 = {
 	["ActorId"] = 100001,
-	["AnimationId"] = "Talk03_End",
+	["AnimationId"] = "AgreeHead",
 	["Duration"] = 1,
 }
 T.RT_3233 = {
 	["PlayAnimation"] = T.RT_3232,
 }
 T.RT_3234 = {
-	["LookAtDescription"] = "100001:p(P10106701)",
+	["DelaySeconds"] = 0.9,
 }
 T.RT_3235 = {
-	["LookAt"] = T.RT_3234,
+	["Delay"] = T.RT_3234,
 }
 T.RT_3236 = {
-	["TurnToDescription"] = "100001:p(120)",
+	["ActorId"] = 100001,
+	["AnimationId"] = "Talk03_End",
+	["Duration"] = 1,
 }
 T.RT_3237 = {
-	["TurnTo"] = T.RT_3236,
+	["PlayAnimation"] = T.RT_3236,
 }
 T.RT_3238 = {
+	["LookAtDescription"] = "100001:p(P10106701)",
+}
+T.RT_3239 = {
+	["LookAt"] = T.RT_3238,
+}
+T.RT_3240 = {
+	["TurnToDescription"] = "100001:p(120)",
+}
+T.RT_3241 = {
+	["TurnTo"] = T.RT_3240,
+}
+T.RT_3242 = {
 	["EventPath"] = "event:/sfx/common/story/01/konck_door_nvzhu",
 	["PlayAs2D"] = false,
 }
-T.RT_3239 = {
-	["PlayNormalSound"] = T.RT_3238,
-}
-T.RT_3240 = {
-	["ActorId"] = 100001,
-	["AnimationId"] = "Angry01_End",
-	["Duration"] = 1,
-}
-T.RT_3241 = {
-	["PlayAnimation"] = T.RT_3240,
-}
-T.RT_3242 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "AgreeHead",
-	["Duration"] = 2,
-}
 T.RT_3243 = {
-	["PlayAnimation"] = T.RT_3242,
+	["PlayNormalSound"] = T.RT_3242,
 }
 T.RT_3244 = {
 	["ActorId"] = 100001,
-	["AnimationId"] = "Explain01_End",
+	["AnimationId"] = "Angry01_End",
 	["Duration"] = 1,
 }
 T.RT_3245 = {
 	["PlayAnimation"] = T.RT_3244,
 }
 T.RT_3246 = {
-	["TargetPosition"] = "105.156982,31.368164,169.921875,0.000128,-8.398947,-131.696854,35.0,178.265579,false,Manual,3.628265",
+	["ActorId"] = 200021,
+	["AnimationId"] = "AgreeHead",
+	["Duration"] = 2,
 }
 T.RT_3247 = {
-	["CameraMoveTo"] = T.RT_3246,
+	["PlayAnimation"] = T.RT_3246,
 }
 T.RT_3248 = {
-	[1] = T.RT_1366,
-	[2] = T.RT_2788,
-}
-T.RT_3249 = {
-	["SEQ"] = T.RT_3248,
-}
-T.RT_3250 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Talk01_Start",
+	["ActorId"] = 100001,
+	["AnimationId"] = "Explain01_End",
 	["Duration"] = 1,
 }
+T.RT_3249 = {
+	["PlayAnimation"] = T.RT_3248,
+}
+T.RT_3250 = {
+	["TargetPosition"] = "105.156982,31.368164,169.921875,0.000128,-8.398947,-131.696854,35.0,178.265579,false,Manual,3.628265",
+}
 T.RT_3251 = {
-	["PlayAnimation"] = T.RT_3250,
+	["CameraMoveTo"] = T.RT_3250,
 }
 T.RT_3252 = {
-	[1] = T.RT_146,
-	[2] = T.RT_3229,
+	[1] = T.RT_1366,
+	[2] = T.RT_2792,
 }
 T.RT_3253 = {
 	["SEQ"] = T.RT_3252,
 }
 T.RT_3254 = {
-	["TargetPosition"] = "-113.647461,-178.358398,144.197266,0.000174,3.999752,51.800861,35.0,272.898132,false,Manual,3.476349",
+	["ActorId"] = 200021,
+	["AnimationId"] = "Talk01_Start",
+	["Duration"] = 1,
 }
 T.RT_3255 = {
-	["CameraMoveTo"] = T.RT_3254,
+	["PlayAnimation"] = T.RT_3254,
 }
 T.RT_3256 = {
-	[1] = T.RT_3255,
+	[1] = T.RT_146,
+	[2] = T.RT_3233,
 }
 T.RT_3257 = {
 	["SEQ"] = T.RT_3256,
 }
 T.RT_3258 = {
-	["TargetPosition"] = "13.422852,183.250977,208.551758,0.000203,-14.999955,-87.998405,40.0,228.195572,false,Manual,3.498171",
+	["TargetPosition"] = "-113.647461,-178.358398,144.197266,0.000174,3.999752,51.800861,35.0,272.898132,false,Manual,3.476349",
 }
 T.RT_3259 = {
 	["CameraMoveTo"] = T.RT_3258,
@@ -10731,405 +10736,405 @@ T.RT_3261 = {
 	["SEQ"] = T.RT_3260,
 }
 T.RT_3262 = {
-	[1] = T.RT_3261,
+	["TargetPosition"] = "13.422852,183.250977,208.551758,0.000203,-14.999955,-87.998405,40.0,228.195572,false,Manual,3.498171",
 }
 T.RT_3263 = {
-	["Operations"] = T.RT_3262,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3262,
 }
 T.RT_3264 = {
+	[1] = T.RT_3263,
+}
+T.RT_3265 = {
+	["SEQ"] = T.RT_3264,
+}
+T.RT_3266 = {
+	[1] = T.RT_3265,
+}
+T.RT_3267 = {
+	["Operations"] = T.RT_3266,
+	["bAllowClick"] = true,
+}
+T.RT_3268 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "Talk03_End",
 	["Duration"] = 1,
 }
-T.RT_3265 = {
-	["PlayAnimation"] = T.RT_3264,
-}
-T.RT_3266 = {
-	["TargetPosition"] = "1.409424,177.989258,193.487305,0.000144,-12.400058,-82.534477,30.0,315.887299,false,Manual,2.2",
-}
-T.RT_3267 = {
-	["CameraMoveTo"] = T.RT_3266,
-}
-T.RT_3268 = {
-	[1] = T.RT_3267,
-}
 T.RT_3269 = {
-	["SEQ"] = T.RT_3268,
+	["PlayAnimation"] = T.RT_3268,
 }
 T.RT_3270 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Talk02_End",
-	["Duration"] = 1,
+	["TargetPosition"] = "1.409424,177.989258,193.487305,0.000144,-12.400058,-82.534477,30.0,315.887299,false,Manual,2.2",
 }
 T.RT_3271 = {
-	["PlayAnimation"] = T.RT_3270,
+	["CameraMoveTo"] = T.RT_3270,
 }
 T.RT_3272 = {
-	[1] = T.RT_140,
-	[2] = T.RT_2931,
+	[1] = T.RT_3271,
 }
 T.RT_3273 = {
 	["SEQ"] = T.RT_3272,
 }
 T.RT_3274 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2949,
+	["ActorId"] = 200021,
+	["AnimationId"] = "Talk02_End",
+	["Duration"] = 1,
 }
 T.RT_3275 = {
-	["SEQ"] = T.RT_3274,
+	["PlayAnimation"] = T.RT_3274,
 }
 T.RT_3276 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Explain01_Start",
-	["Duration"] = 2,
+	[1] = T.RT_140,
+	[2] = T.RT_2935,
 }
 T.RT_3277 = {
-	["PlayAnimation"] = T.RT_3276,
+	["SEQ"] = T.RT_3276,
 }
 T.RT_3278 = {
-	["TargetPosition"] = "-134.704102,-202.952148,138.852539,0.000154,3.5,48.999985,35.0,272.898132,false,Manual,2.264544",
+	[1] = T.RT_150,
+	[2] = T.RT_2953,
 }
 T.RT_3279 = {
-	["CameraMoveTo"] = T.RT_3278,
+	["SEQ"] = T.RT_3278,
 }
 T.RT_3280 = {
 	["ActorId"] = 200021,
-	["AnimationId"] = "DisagreeHead",
+	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 2,
 }
 T.RT_3281 = {
 	["PlayAnimation"] = T.RT_3280,
 }
 T.RT_3282 = {
-	["LookAtDescription"] = "200020:n(100001)",
+	["TargetPosition"] = "-134.704102,-202.952148,138.852539,0.000154,3.5,48.999985,35.0,272.898132,false,Manual,2.264544",
 }
 T.RT_3283 = {
-	["LookAt"] = T.RT_3282,
+	["CameraMoveTo"] = T.RT_3282,
 }
 T.RT_3284 = {
-	["LookAtDescription"] = "200020:n(200021)",
+	["ActorId"] = 200021,
+	["AnimationId"] = "DisagreeHead",
+	["Duration"] = 2,
 }
 T.RT_3285 = {
-	["LookAt"] = T.RT_3284,
+	["PlayAnimation"] = T.RT_3284,
 }
 T.RT_3286 = {
-	["LookAtDescription"] = "200021:n(200020)",
+	["LookAtDescription"] = "200020:n(100001)",
 }
 T.RT_3287 = {
 	["LookAt"] = T.RT_3286,
 }
 T.RT_3288 = {
-	["LookAtDescription"] = "100001:n(200020)",
+	["LookAtDescription"] = "200020:n(200021)",
 }
 T.RT_3289 = {
 	["LookAt"] = T.RT_3288,
 }
 T.RT_3290 = {
-	[1] = T.RT_858,
-	[2] = T.RT_3283,
+	["LookAtDescription"] = "200021:n(200020)",
 }
 T.RT_3291 = {
-	["SEQ"] = T.RT_3290,
+	["LookAt"] = T.RT_3290,
 }
 T.RT_3292 = {
-	["TargetPosition"] = "-86.712738,-113.958984,142.171875,0.000113,0.0,7.803266,50.0,631.13501,false,DoNotOverride,3.68275",
+	["LookAtDescription"] = "100001:n(200020)",
 }
 T.RT_3293 = {
-	["CameraMoveTo"] = T.RT_3292,
+	["LookAt"] = T.RT_3292,
 }
 T.RT_3294 = {
-	["TargetPosition"] = "350.752411,233.867188,140.613281,0.00013,-2.589482,-99.624321,50.0,393.914001,false,Manual,3.873447",
+	[1] = T.RT_858,
+	[2] = T.RT_3287,
 }
 T.RT_3295 = {
-	["CameraMoveTo"] = T.RT_3294,
+	["SEQ"] = T.RT_3294,
 }
 T.RT_3296 = {
-	[1] = T.RT_3295,
+	["TargetPosition"] = "-86.712738,-113.958984,142.171875,0.000113,0.0,7.803266,50.0,631.13501,false,DoNotOverride,3.68275",
 }
 T.RT_3297 = {
-	["SEQ"] = T.RT_3296,
+	["CameraMoveTo"] = T.RT_3296,
 }
 T.RT_3298 = {
-	["LookAtDescription"] = "100001:p(P101062)",
+	["TargetPosition"] = "350.752411,233.867188,140.613281,0.00013,-2.589482,-99.624321,50.0,393.914001,false,Manual,3.873447",
 }
 T.RT_3299 = {
-	["LookAt"] = T.RT_3298,
+	["CameraMoveTo"] = T.RT_3298,
 }
 T.RT_3300 = {
-	[1] = T.RT_1116,
+	[1] = T.RT_3299,
 }
 T.RT_3301 = {
-	["Operations"] = T.RT_3300,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_3300,
 }
 T.RT_3302 = {
-	["LookAtDescription"] = "100001:p(P101060Cake)",
+	["LookAtDescription"] = "100001:p(P101062)",
 }
 T.RT_3303 = {
 	["LookAt"] = T.RT_3302,
 }
 T.RT_3304 = {
+	[1] = T.RT_1116,
+}
+T.RT_3305 = {
+	["Operations"] = T.RT_3304,
+	["bAllowClick"] = true,
+}
+T.RT_3306 = {
+	["LookAtDescription"] = "100001:p(P101060Cake)",
+}
+T.RT_3307 = {
+	["LookAt"] = T.RT_3306,
+}
+T.RT_3308 = {
 	["ActorId"] = 200020,
 	["AnimationId"] = "Sigh_Start",
 	["Duration"] = 0.1,
 }
-T.RT_3305 = {
-	["PlayAnimation"] = T.RT_3304,
-}
-T.RT_3306 = {
-	["TurnToDescription"] = "200021:n(200020)",
-}
-T.RT_3307 = {
-	["TurnTo"] = T.RT_3306,
-}
-T.RT_3308 = {
-	["LookAtDescription"] = "200021:p(P101060Cake)",
-}
 T.RT_3309 = {
-	["LookAt"] = T.RT_3308,
+	["PlayAnimation"] = T.RT_3308,
 }
 T.RT_3310 = {
-	["LookAtDescription"] = "200020:p(P101060Cake)",
+	["TurnToDescription"] = "200021:n(200020)",
 }
 T.RT_3311 = {
-	["LookAt"] = T.RT_3310,
+	["TurnTo"] = T.RT_3310,
 }
 T.RT_3312 = {
-	["LookAtDescription"] = "200059:n(200005)",
+	["LookAtDescription"] = "200021:p(P101060Cake)",
 }
 T.RT_3313 = {
 	["LookAt"] = T.RT_3312,
 }
 T.RT_3314 = {
+	["LookAtDescription"] = "200020:p(P101060Cake)",
+}
+T.RT_3315 = {
+	["LookAt"] = T.RT_3314,
+}
+T.RT_3316 = {
+	["LookAtDescription"] = "200059:n(200005)",
+}
+T.RT_3317 = {
+	["LookAt"] = T.RT_3316,
+}
+T.RT_3318 = {
 	["ActorId"] = 200005,
 	["AnimationId"] = "Disagree",
 	["Duration"] = 1,
 }
-T.RT_3315 = {
-	["PlayAnimation"] = T.RT_3314,
+T.RT_3319 = {
+	["PlayAnimation"] = T.RT_3318,
 }
-T.RT_3316 = {
+T.RT_3320 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "Angry01_Start",
 	["Duration"] = 2.5,
 }
-T.RT_3317 = {
-	["PlayAnimation"] = T.RT_3316,
-}
-T.RT_3318 = {
-	[1] = T.RT_140,
-	[2] = T.RT_3317,
-}
-T.RT_3319 = {
-	["SEQ"] = T.RT_3318,
-}
-T.RT_3320 = {
-	[1] = T.RT_3319,
-	[2] = T.RT_3241,
-	[3] = T.RT_2800,
-}
 T.RT_3321 = {
-	["SEQ"] = T.RT_3320,
+	["PlayAnimation"] = T.RT_3320,
 }
 T.RT_3322 = {
+	[1] = T.RT_140,
+	[2] = T.RT_3321,
+}
+T.RT_3323 = {
+	["SEQ"] = T.RT_3322,
+}
+T.RT_3324 = {
+	[1] = T.RT_3323,
+	[2] = T.RT_3245,
+	[3] = T.RT_2804,
+}
+T.RT_3325 = {
+	["SEQ"] = T.RT_3324,
+}
+T.RT_3326 = {
 	["TargetPosition"] = "-240.327148,547.585449,119.480957,0.000139,-1.999995,-67.500137,35.0,455.538696,false,Manual,2.0",
 	["duration"] = 12,
 }
-T.RT_3323 = {
-	["CameraMoveTo"] = T.RT_3322,
-}
-T.RT_3324 = {
-	["TargetPosition"] = "-230.548828,551.396973,103.383789,0.00009,-0.400024,-68.594971,35.0,455.538696,false,Manual,2.0",
-}
-T.RT_3325 = {
-	["CameraMoveTo"] = T.RT_3324,
-}
-T.RT_3326 = {
-	[1] = T.RT_3325,
-	[2] = T.RT_3323,
-}
 T.RT_3327 = {
-	["SEQ"] = T.RT_3326,
+	["CameraMoveTo"] = T.RT_3326,
 }
 T.RT_3328 = {
-	[1] = T.RT_3327,
-	[2] = T.RT_3321,
+	["TargetPosition"] = "-230.548828,551.396973,103.383789,0.00009,-0.400024,-68.594971,35.0,455.538696,false,Manual,2.0",
 }
 T.RT_3329 = {
-	["Operations"] = T.RT_3328,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3328,
 }
 T.RT_3330 = {
-	["DelaySeconds"] = 8.5,
+	[1] = T.RT_3329,
+	[2] = T.RT_3327,
 }
 T.RT_3331 = {
-	["Delay"] = T.RT_3330,
+	["SEQ"] = T.RT_3330,
 }
 T.RT_3332 = {
-	["LookAtDescription"] = "200059:p(P10105807)",
+	[1] = T.RT_3331,
+	[2] = T.RT_3325,
 }
 T.RT_3333 = {
-	["LookAt"] = T.RT_3332,
+	["Operations"] = T.RT_3332,
+	["bAllowClick"] = true,
 }
 T.RT_3334 = {
+	["DelaySeconds"] = 8.5,
+}
+T.RT_3335 = {
+	["Delay"] = T.RT_3334,
+}
+T.RT_3336 = {
+	["LookAtDescription"] = "200059:p(P10105807)",
+}
+T.RT_3337 = {
+	["LookAt"] = T.RT_3336,
+}
+T.RT_3338 = {
 	["ActorId"] = 100001,
 	["TargetPoint"] = "P10105801Nvzhu2",
 	["Visibility"] = "Show",
 }
-T.RT_3335 = {
-	["SetLocation"] = T.RT_3334,
+T.RT_3339 = {
+	["SetLocation"] = T.RT_3338,
 }
-T.RT_3336 = {
+T.RT_3340 = {
 	["ActorId"] = 200005,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 1,
 }
-T.RT_3337 = {
-	["PlayAnimation"] = T.RT_3336,
-}
-T.RT_3338 = {
-	["TurnToDescription"] = "200005:n(200059)",
-}
-T.RT_3339 = {
-	["TurnTo"] = T.RT_3338,
-}
-T.RT_3340 = {
-	["SetRotationDescription"] = "200002:n(200021)",
-}
 T.RT_3341 = {
-	["SetRotation"] = T.RT_3340,
+	["PlayAnimation"] = T.RT_3340,
 }
 T.RT_3342 = {
-	["LookAtDescription"] = "200006:n(200021)",
+	["TurnToDescription"] = "200005:n(200059)",
 }
 T.RT_3343 = {
-	["LookAt"] = T.RT_3342,
+	["TurnTo"] = T.RT_3342,
 }
 T.RT_3344 = {
-	["LookAtDescription"] = "200021:n(200061)",
+	["SetRotationDescription"] = "200002:n(200021)",
 }
 T.RT_3345 = {
-	["LookAt"] = T.RT_3344,
+	["SetRotation"] = T.RT_3344,
 }
 T.RT_3346 = {
-	["TargetPosition"] = "42.169922,-251.294922,210.367188,0.001326,-19.999907,109.319183,35.0,210.591583,false,Manual,10.0",
+	["LookAtDescription"] = "200006:n(200021)",
 }
 T.RT_3347 = {
-	["CameraMoveTo"] = T.RT_3346,
+	["LookAt"] = T.RT_3346,
 }
 T.RT_3348 = {
-	["LookAtDescription"] = "200061:n(200021)",
+	["LookAtDescription"] = "200021:n(200061)",
 }
 T.RT_3349 = {
 	["LookAt"] = T.RT_3348,
 }
 T.RT_3350 = {
-	["TurnToDescription"] = "200021:n(200061)",
+	["TargetPosition"] = "42.169922,-251.294922,210.367188,0.001326,-19.999907,109.319183,35.0,210.591583,false,Manual,10.0",
 }
 T.RT_3351 = {
-	["TurnTo"] = T.RT_3350,
+	["CameraMoveTo"] = T.RT_3350,
 }
 T.RT_3352 = {
-	["LookAtDescription"] = "200002:n(200061)",
+	["LookAtDescription"] = "200061:n(200021)",
 }
 T.RT_3353 = {
 	["LookAt"] = T.RT_3352,
 }
 T.RT_3354 = {
+	["TurnToDescription"] = "200021:n(200061)",
+}
+T.RT_3355 = {
+	["TurnTo"] = T.RT_3354,
+}
+T.RT_3356 = {
+	["LookAtDescription"] = "200002:n(200061)",
+}
+T.RT_3357 = {
+	["LookAt"] = T.RT_3356,
+}
+T.RT_3358 = {
 	["ActorId"] = 200002,
 	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 1,
 }
-T.RT_3355 = {
-	["PlayAnimation"] = T.RT_3354,
-}
-T.RT_3356 = {
-	["TurnToDescription"] = "200021:n(200002)",
-}
-T.RT_3357 = {
-	["TurnTo"] = T.RT_3356,
-}
-T.RT_3358 = {
-	["LookAtDescription"] = "200006:n(200002)",
-}
 T.RT_3359 = {
-	["LookAt"] = T.RT_3358,
+	["PlayAnimation"] = T.RT_3358,
 }
 T.RT_3360 = {
-	["SetRotationDescription"] = "200061:n(200021)",
+	["TurnToDescription"] = "200021:n(200002)",
 }
 T.RT_3361 = {
-	["SetRotation"] = T.RT_3360,
+	["TurnTo"] = T.RT_3360,
 }
 T.RT_3362 = {
-	["ActorId"] = 200002,
-	["AnimationId"] = "Think_Start",
-	["Duration"] = 2.7,
+	["LookAtDescription"] = "200006:n(200002)",
 }
 T.RT_3363 = {
-	["PlayAnimation"] = T.RT_3362,
+	["LookAt"] = T.RT_3362,
 }
 T.RT_3364 = {
-	["SetRotationDescription"] = "200006:n(200021)",
+	["SetRotationDescription"] = "200061:n(200021)",
 }
 T.RT_3365 = {
 	["SetRotation"] = T.RT_3364,
 }
 T.RT_3366 = {
-	[1] = T.RT_1726,
-	[2] = T.RT_2933,
+	["ActorId"] = 200002,
+	["AnimationId"] = "Think_Start",
+	["Duration"] = 2.7,
 }
 T.RT_3367 = {
-	["SEQ"] = T.RT_3366,
+	["PlayAnimation"] = T.RT_3366,
 }
 T.RT_3368 = {
-	["DelaySeconds"] = 0.2,
+	["SetRotationDescription"] = "200006:n(200021)",
 }
 T.RT_3369 = {
-	["Delay"] = T.RT_3368,
+	["SetRotation"] = T.RT_3368,
 }
 T.RT_3370 = {
-	[1] = T.RT_1144,
-	[2] = T.RT_3345,
+	[1] = T.RT_1726,
+	[2] = T.RT_2937,
 }
 T.RT_3371 = {
 	["SEQ"] = T.RT_3370,
 }
 T.RT_3372 = {
+	["DelaySeconds"] = 0.2,
+}
+T.RT_3373 = {
+	["Delay"] = T.RT_3372,
+}
+T.RT_3374 = {
+	[1] = T.RT_1144,
+	[2] = T.RT_3349,
+}
+T.RT_3375 = {
+	["SEQ"] = T.RT_3374,
+}
+T.RT_3376 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "DisagreeHead",
 	["Duration"] = 0.5,
 }
-T.RT_3373 = {
-	["PlayAnimation"] = T.RT_3372,
-}
-T.RT_3374 = {
-	["TargetPosition"] = "-475.609375,-517.095703,253.533203,0.001249,-9.999997,43.919071,80.000023,100000.0,false,DoNotOverride,2.8",
-}
-T.RT_3375 = {
-	["CameraMoveTo"] = T.RT_3374,
-}
-T.RT_3376 = {
-	["LookAtDescription"] = "200021:n(200006)",
-}
 T.RT_3377 = {
-	["LookAt"] = T.RT_3376,
+	["PlayAnimation"] = T.RT_3376,
 }
 T.RT_3378 = {
-	["TargetPosition"] = "-480.259766,-516.199219,249.49707,0.001249,-9.999997,43.919125,80.000023,100000.0,false,DoNotOverride,2.8",
+	["TargetPosition"] = "-475.609375,-517.095703,253.533203,0.001249,-9.999997,43.919071,80.000023,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_3379 = {
 	["CameraMoveTo"] = T.RT_3378,
 }
 T.RT_3380 = {
-	[1] = T.RT_3379,
+	["LookAtDescription"] = "200021:n(200006)",
 }
 T.RT_3381 = {
-	["SEQ"] = T.RT_3380,
+	["LookAt"] = T.RT_3380,
 }
 T.RT_3382 = {
-	["TargetPosition"] = "60.939453,-435.119629,142.17627,0.000095,-5.199584,100.05822,30.0,168.419693,false,Manual,5.0",
+	["TargetPosition"] = "-480.259766,-516.199219,249.49707,0.001249,-9.999997,43.919125,80.000023,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_3383 = {
 	["CameraMoveTo"] = T.RT_3382,
@@ -11141,817 +11146,818 @@ T.RT_3385 = {
 	["SEQ"] = T.RT_3384,
 }
 T.RT_3386 = {
-	["LookAtDescription"] = "200002:n(200006)",
+	["TargetPosition"] = "60.939453,-435.119629,142.17627,0.000095,-5.199584,100.05822,30.0,168.419693,false,Manual,5.0",
 }
 T.RT_3387 = {
-	["LookAt"] = T.RT_3386,
+	["CameraMoveTo"] = T.RT_3386,
 }
 T.RT_3388 = {
+	[1] = T.RT_3387,
+}
+T.RT_3389 = {
+	["SEQ"] = T.RT_3388,
+}
+T.RT_3390 = {
+	["LookAtDescription"] = "200002:n(200006)",
+}
+T.RT_3391 = {
+	["LookAt"] = T.RT_3390,
+}
+T.RT_3392 = {
 	["LookAtType"] = "TalkNpc",
 	["SpeakActorId"] = 200006,
 }
-T.RT_3389 = {
-	["DefaultLookAt"] = T.RT_3388,
+T.RT_3393 = {
+	["DefaultLookAt"] = T.RT_3392,
 }
-T.RT_3390 = {
+T.RT_3394 = {
 	["ActorId"] = 200002,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 0.5,
-}
-T.RT_3391 = {
-	["PlayAnimation"] = T.RT_3390,
-}
-T.RT_3392 = {
-	["TurnToDescription"] = "200002:n(200006)",
-}
-T.RT_3393 = {
-	["TurnTo"] = T.RT_3392,
-}
-T.RT_3394 = {
-	["ActorId"] = 200003,
-	["AnimationId"] = "Talk02_End",
-	["Duration"] = 1,
 }
 T.RT_3395 = {
 	["PlayAnimation"] = T.RT_3394,
 }
 T.RT_3396 = {
+	["TurnToDescription"] = "200002:n(200006)",
+}
+T.RT_3397 = {
+	["TurnTo"] = T.RT_3396,
+}
+T.RT_3398 = {
+	["ActorId"] = 200003,
+	["AnimationId"] = "Talk02_End",
+	["Duration"] = 1,
+}
+T.RT_3399 = {
+	["PlayAnimation"] = T.RT_3398,
+}
+T.RT_3400 = {
 	["ActorId"] = 200003,
 	["AnimationId"] = "Talk02_Start",
 	["Duration"] = 1,
 }
-T.RT_3397 = {
-	["PlayAnimation"] = T.RT_3396,
-}
-T.RT_3398 = {
-	["TargetPosition"] = "259.278076,116.387695,137.603516,0.001216,-0.898272,38.841999,25.0,100000.0,false,DoNotOverride,2.8",
-}
-T.RT_3399 = {
-	["CameraMoveTo"] = T.RT_3398,
-}
-T.RT_3400 = {
-	[1] = T.RT_3399,
-}
 T.RT_3401 = {
-	["SEQ"] = T.RT_3400,
+	["PlayAnimation"] = T.RT_3400,
 }
 T.RT_3402 = {
-	["DelaySeconds"] = 5.3,
+	["TargetPosition"] = "259.278076,116.387695,137.603516,0.001216,-0.898272,38.841999,25.0,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_3403 = {
-	["Delay"] = T.RT_3402,
+	["CameraMoveTo"] = T.RT_3402,
 }
 T.RT_3404 = {
-	["TurnToDescription"] = "200065:n(200003)",
+	[1] = T.RT_3403,
 }
 T.RT_3405 = {
-	["TurnTo"] = T.RT_3404,
+	["SEQ"] = T.RT_3404,
 }
 T.RT_3406 = {
-	["LookAtDescription"] = "100001:n(200065)",
+	["DelaySeconds"] = 5.3,
 }
 T.RT_3407 = {
-	["LookAt"] = T.RT_3406,
+	["Delay"] = T.RT_3406,
 }
 T.RT_3408 = {
+	["TurnToDescription"] = "200065:n(200003)",
+}
+T.RT_3409 = {
+	["TurnTo"] = T.RT_3408,
+}
+T.RT_3410 = {
+	["LookAtDescription"] = "100001:n(200065)",
+}
+T.RT_3411 = {
+	["LookAt"] = T.RT_3410,
+}
+T.RT_3412 = {
 	["ActorId"] = 200065,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 1,
 }
-T.RT_3409 = {
-	["PlayAnimation"] = T.RT_3408,
-}
-T.RT_3410 = {
-	["TurnToDescription"] = "100001:n(200065)",
-}
-T.RT_3411 = {
-	["TurnTo"] = T.RT_3410,
-}
-T.RT_3412 = {
-	["LookAtDescription"] = "200006:n(200065)",
-}
 T.RT_3413 = {
-	["LookAt"] = T.RT_3412,
+	["PlayAnimation"] = T.RT_3412,
 }
 T.RT_3414 = {
-	["TurnToDescription"] = "200065:n(100001)",
+	["TurnToDescription"] = "100001:n(200065)",
 }
 T.RT_3415 = {
 	["TurnTo"] = T.RT_3414,
 }
 T.RT_3416 = {
-	["LookAtDescription"] = "200065:n(100001)",
+	["LookAtDescription"] = "200006:n(200065)",
 }
 T.RT_3417 = {
 	["LookAt"] = T.RT_3416,
 }
 T.RT_3418 = {
-	["ActorId"] = 200065,
-	["AnimationId"] = "Explain01_End",
-	["Duration"] = 1,
+	["TurnToDescription"] = "200065:n(100001)",
 }
 T.RT_3419 = {
-	["PlayAnimation"] = T.RT_3418,
+	["TurnTo"] = T.RT_3418,
 }
 T.RT_3420 = {
-	["LookAtType"] = "TalkNpc",
-	["SpeakActorId"] = 200065,
+	["LookAtDescription"] = "200065:n(100001)",
 }
 T.RT_3421 = {
-	["DefaultLookAt"] = T.RT_3420,
+	["LookAt"] = T.RT_3420,
 }
 T.RT_3422 = {
-	["ActorId"] = 200003,
-	["AnimationId"] = "Talk03_End",
+	["ActorId"] = 200065,
+	["AnimationId"] = "Explain01_End",
 	["Duration"] = 1,
 }
 T.RT_3423 = {
 	["PlayAnimation"] = T.RT_3422,
 }
 T.RT_3424 = {
-	["ActorId"] = 200003,
-	["AnimationId"] = "Agree",
-	["Duration"] = 1,
+	["LookAtType"] = "TalkNpc",
+	["SpeakActorId"] = 200065,
 }
 T.RT_3425 = {
-	["PlayAnimation"] = T.RT_3424,
+	["DefaultLookAt"] = T.RT_3424,
 }
 T.RT_3426 = {
-	["ActorId"] = 200065,
-	["AnimationId"] = "Sigh_Start",
+	["ActorId"] = 200003,
+	["AnimationId"] = "Talk03_End",
 	["Duration"] = 1,
 }
 T.RT_3427 = {
 	["PlayAnimation"] = T.RT_3426,
 }
 T.RT_3428 = {
-	["LookAtDescription"] = "200003:n(200065)",
+	["ActorId"] = 200003,
+	["AnimationId"] = "Agree",
+	["Duration"] = 1,
 }
 T.RT_3429 = {
-	["LookAt"] = T.RT_3428,
+	["PlayAnimation"] = T.RT_3428,
 }
 T.RT_3430 = {
-	["ActorId"] = 200003,
-	["AnimationId"] = "Think_Start",
+	["ActorId"] = 200065,
+	["AnimationId"] = "Sigh_Start",
 	["Duration"] = 1,
 }
 T.RT_3431 = {
 	["PlayAnimation"] = T.RT_3430,
 }
 T.RT_3432 = {
-	["LookAtDescription"] = "200002:n(200065)",
+	["LookAtDescription"] = "200003:n(200065)",
 }
 T.RT_3433 = {
 	["LookAt"] = T.RT_3432,
 }
 T.RT_3434 = {
-	["TurnToDescription"] = "100001:n(200011)",
+	["ActorId"] = 200003,
+	["AnimationId"] = "Think_Start",
+	["Duration"] = 1,
 }
 T.RT_3435 = {
-	["TurnTo"] = T.RT_3434,
+	["PlayAnimation"] = T.RT_3434,
 }
 T.RT_3436 = {
-	["TargetPosition"] = "-116.816406,267.475586,135.428131,0.000005,-4.058074,-59.957489,35.000008,1.5,false,Disable,1.2",
+	["LookAtDescription"] = "200002:n(200065)",
 }
 T.RT_3437 = {
-	["CameraMoveTo"] = T.RT_3436,
+	["LookAt"] = T.RT_3436,
 }
 T.RT_3438 = {
-	[1] = T.RT_3437,
+	["TurnToDescription"] = "100001:n(200011)",
 }
 T.RT_3439 = {
-	["SEQ"] = T.RT_3438,
+	["TurnTo"] = T.RT_3438,
 }
 T.RT_3440 = {
-	["LookAtDescription"] = "200003:n(200003)",
+	["TargetPosition"] = "-116.816406,267.475586,135.428131,0.000005,-4.058074,-59.957489,35.000008,1.5,false,Disable,1.2",
 }
 T.RT_3441 = {
-	["LookAt"] = T.RT_3440,
+	["CameraMoveTo"] = T.RT_3440,
 }
 T.RT_3442 = {
-	["TargetPosition"] = "-149.457031,53.760742,152.14772,0.000171,-7.199832,-10.806184,30.0,281.974091,false,Manual,2.793246",
+	[1] = T.RT_3441,
 }
 T.RT_3443 = {
-	["CameraMoveTo"] = T.RT_3442,
+	["SEQ"] = T.RT_3442,
 }
 T.RT_3444 = {
-	["LookAtDescription"] = "200003:n(200011)",
+	["LookAtDescription"] = "200003:n(200003)",
 }
 T.RT_3445 = {
 	["LookAt"] = T.RT_3444,
 }
 T.RT_3446 = {
-	["TargetPosition"] = "415.427734,94.491211,401.934753,8.000882,-38.599918,-167.192322,20.0,100000.0,false,Disable,2.8",
+	["TargetPosition"] = "-149.457031,53.760742,152.14772,0.000171,-7.199832,-10.806184,30.0,281.974091,false,Manual,2.793246",
 }
 T.RT_3447 = {
 	["CameraMoveTo"] = T.RT_3446,
 }
 T.RT_3448 = {
-	["LookAtDescription"] = "200003:n(200053)",
+	["LookAtDescription"] = "200003:n(200011)",
 }
 T.RT_3449 = {
 	["LookAt"] = T.RT_3448,
 }
 T.RT_3450 = {
-	["LookAtDescription"] = "200011:n(200003)",
+	["TargetPosition"] = "415.427734,94.491211,401.934753,8.000882,-38.599918,-167.192322,20.0,100000.0,false,Disable,2.8",
 }
 T.RT_3451 = {
-	["LookAt"] = T.RT_3450,
+	["CameraMoveTo"] = T.RT_3450,
 }
 T.RT_3452 = {
-	["LookAtDescription"] = "200053:n(200003)",
+	["LookAtDescription"] = "200003:n(200053)",
 }
 T.RT_3453 = {
 	["LookAt"] = T.RT_3452,
 }
 T.RT_3454 = {
+	["LookAtDescription"] = "200011:n(200003)",
+}
+T.RT_3455 = {
+	["LookAt"] = T.RT_3454,
+}
+T.RT_3456 = {
+	["LookAtDescription"] = "200053:n(200003)",
+}
+T.RT_3457 = {
+	["LookAt"] = T.RT_3456,
+}
+T.RT_3458 = {
 	["ActorId"] = 200002,
 	["TargetPoint"] = "101032Bai1",
 	["Visibility"] = "Show",
 }
-T.RT_3455 = {
-	["SetLocation"] = T.RT_3454,
-}
-T.RT_3456 = {
-	["TurnToDescription"] = "200011:n(200003)",
-}
-T.RT_3457 = {
-	["TurnTo"] = T.RT_3456,
-}
-T.RT_3458 = {
-	["LookAtDescription"] = "200014:n(200003)",
-}
 T.RT_3459 = {
-	["LookAt"] = T.RT_3458,
+	["SetLocation"] = T.RT_3458,
 }
 T.RT_3460 = {
-	["DelaySeconds"] = 13,
+	["TurnToDescription"] = "200011:n(200003)",
 }
 T.RT_3461 = {
-	["Delay"] = T.RT_3460,
+	["TurnTo"] = T.RT_3460,
 }
 T.RT_3462 = {
-	[1] = T.RT_3369,
-	[2] = T.RT_1598,
+	["LookAtDescription"] = "200014:n(200003)",
 }
 T.RT_3463 = {
-	["SEQ"] = T.RT_3462,
+	["LookAt"] = T.RT_3462,
 }
 T.RT_3464 = {
-	["LookAtDescription"] = "200061:n(200011)",
+	["DelaySeconds"] = 13,
 }
 T.RT_3465 = {
-	["LookAt"] = T.RT_3464,
+	["Delay"] = T.RT_3464,
 }
 T.RT_3466 = {
-	["TargetPosition"] = "-328.773987,-167.959961,134.214844,0.001226,0.0,28.499939,50.0,499.398407,false,Manual,10.0",
+	[1] = T.RT_3373,
+	[2] = T.RT_1598,
 }
 T.RT_3467 = {
-	["CameraMoveTo"] = T.RT_3466,
+	["SEQ"] = T.RT_3466,
 }
 T.RT_3468 = {
-	[1] = T.RT_3467,
+	["LookAtDescription"] = "200061:n(200011)",
 }
 T.RT_3469 = {
-	["SEQ"] = T.RT_3468,
+	["LookAt"] = T.RT_3468,
 }
 T.RT_3470 = {
+	["TargetPosition"] = "-328.773987,-167.959961,134.214844,0.001226,0.0,28.499939,50.0,499.398407,false,Manual,10.0",
+}
+T.RT_3471 = {
+	["CameraMoveTo"] = T.RT_3470,
+}
+T.RT_3472 = {
+	[1] = T.RT_3471,
+}
+T.RT_3473 = {
+	["SEQ"] = T.RT_3472,
+}
+T.RT_3474 = {
 	["ActorId"] = 200003,
 	["AnimationId"] = "Confident_Start",
 	["Duration"] = 1,
 }
-T.RT_3471 = {
-	["PlayAnimation"] = T.RT_3470,
+T.RT_3475 = {
+	["PlayAnimation"] = T.RT_3474,
 }
-T.RT_3472 = {
+T.RT_3476 = {
 	["ActorId"] = 200003,
 	["AnimationId"] = "Think_End",
 	["Duration"] = 1.5,
 }
-T.RT_3473 = {
-	["PlayAnimation"] = T.RT_3472,
-}
-T.RT_3474 = {
-	["TargetPosition"] = "-109.342285,-78.164062,166.683594,0.00123,-3.99997,36.028351,50.0,253.714981,false,Manual,3.5",
-}
-T.RT_3475 = {
-	["CameraMoveTo"] = T.RT_3474,
-}
-T.RT_3476 = {
-	[1] = T.RT_3475,
-}
 T.RT_3477 = {
-	["SEQ"] = T.RT_3476,
+	["PlayAnimation"] = T.RT_3476,
 }
 T.RT_3478 = {
-	["TargetPosition"] = "-333.514038,-121.844727,145.634766,0.00124,-3.399966,18.240271,50.0,264.189575,false,Manual,4.109556",
+	["TargetPosition"] = "-109.342285,-78.164062,166.683594,0.00123,-3.99997,36.028351,50.0,253.714981,false,Manual,3.5",
 }
 T.RT_3479 = {
 	["CameraMoveTo"] = T.RT_3478,
 }
 T.RT_3480 = {
-	["LookAtDescription"] = "200003:n(200006)",
+	[1] = T.RT_3479,
 }
 T.RT_3481 = {
-	["LookAt"] = T.RT_3480,
+	["SEQ"] = T.RT_3480,
 }
 T.RT_3482 = {
-	["TargetPosition"] = "78.0,-7.4375,131.521484,0.000191,-2.398646,-161.013702,35.000008,175.980392,false,Manual,4.0",
+	["TargetPosition"] = "-333.514038,-121.844727,145.634766,0.00124,-3.399966,18.240271,50.0,264.189575,false,Manual,4.109556",
 }
 T.RT_3483 = {
 	["CameraMoveTo"] = T.RT_3482,
 }
 T.RT_3484 = {
-	[1] = T.RT_3483,
+	["LookAtDescription"] = "200003:n(200006)",
 }
 T.RT_3485 = {
-	["SEQ"] = T.RT_3484,
+	["LookAt"] = T.RT_3484,
 }
 T.RT_3486 = {
+	["TargetPosition"] = "78.0,-7.4375,131.521484,0.000191,-2.398646,-161.013702,35.000008,175.980392,false,Manual,4.0",
+}
+T.RT_3487 = {
+	["CameraMoveTo"] = T.RT_3486,
+}
+T.RT_3488 = {
+	[1] = T.RT_3487,
+}
+T.RT_3489 = {
+	["SEQ"] = T.RT_3488,
+}
+T.RT_3490 = {
 	["ActorId"] = 200002,
 	["AnimationId"] = "Angry01_Start",
 	["Duration"] = 3,
 }
-T.RT_3487 = {
-	["PlayAnimation"] = T.RT_3486,
-}
-T.RT_3488 = {
-	["TargetPosition"] = "-85.210022,-110.973267,156.546204,0.001204,-6.999967,57.999954,35.000008,200.0,false,Manual,4.0",
-}
-T.RT_3489 = {
-	["CameraMoveTo"] = T.RT_3488,
-}
-T.RT_3490 = {
-	[1] = T.RT_3489,
-}
 T.RT_3491 = {
-	["SEQ"] = T.RT_3490,
+	["PlayAnimation"] = T.RT_3490,
 }
 T.RT_3492 = {
-	["TargetPosition"] = "145.36499,-36.702515,151.105896,0.001281,-4.999971,106.612404,50.000008,334.218689,false,Manual,4.0",
+	["TargetPosition"] = "-85.210022,-110.973267,156.546204,0.001204,-6.999967,57.999954,35.000008,200.0,false,Manual,4.0",
 }
 T.RT_3493 = {
 	["CameraMoveTo"] = T.RT_3492,
 }
 T.RT_3494 = {
-	["TargetPosition"] = "-104.615982,62.744629,161.785751,0.001225,-15.299227,-48.170513,20.0,100000.0,false,DoNotOverride,2.8",
+	[1] = T.RT_3493,
 }
 T.RT_3495 = {
-	["CameraMoveTo"] = T.RT_3494,
+	["SEQ"] = T.RT_3494,
 }
 T.RT_3496 = {
-	["TargetPosition"] = "8.226379,-246.166138,155.596436,0.001133,-7.899871,85.625313,35.0,246.598358,false,Manual,6.0",
+	["TargetPosition"] = "145.36499,-36.702515,151.105896,0.001281,-4.999971,106.612404,50.000008,334.218689,false,Manual,4.0",
 }
 T.RT_3497 = {
 	["CameraMoveTo"] = T.RT_3496,
 }
 T.RT_3498 = {
-	[1] = T.RT_3497,
+	["TargetPosition"] = "-104.615982,62.744629,161.785751,0.001225,-15.299227,-48.170513,20.0,100000.0,false,DoNotOverride,2.8",
 }
 T.RT_3499 = {
-	["SEQ"] = T.RT_3498,
+	["CameraMoveTo"] = T.RT_3498,
 }
 T.RT_3500 = {
-	["TargetPosition"] = "-102.0,-349.504883,131.269287,-0.002289,-2.799988,59.999992,25.0,479.922729,false,DoNotOverride,2.8",
+	["TargetPosition"] = "8.226379,-246.166138,155.596436,0.001133,-7.899871,85.625313,35.0,246.598358,false,Manual,6.0",
 }
 T.RT_3501 = {
 	["CameraMoveTo"] = T.RT_3500,
 }
 T.RT_3502 = {
-	["TargetPosition"] = "15.317871,-74.15625,139.091187,-0.002319,-2.64999,-82.499985,30.0,162.383057,false,Manual,4.218406",
+	[1] = T.RT_3501,
 }
 T.RT_3503 = {
-	["CameraMoveTo"] = T.RT_3502,
+	["SEQ"] = T.RT_3502,
 }
 T.RT_3504 = {
-	["TargetPosition"] = "-51.333008,249.566406,169.091431,0.001168,-13.29999,-74.955788,35.000008,216.793228,false,Manual,10.0",
+	["TargetPosition"] = "-102.0,-349.504883,131.269287,-0.002289,-2.799988,59.999992,25.0,479.922729,false,DoNotOverride,2.8",
 }
 T.RT_3505 = {
 	["CameraMoveTo"] = T.RT_3504,
 }
 T.RT_3506 = {
-	["TargetPosition"] = "-62.207764,3.567383,128.807129,0.001185,6.999994,66.000801,35.000008,228.817383,false,Manual,10.0",
+	["EventPath"] = "event:/bgm/cbt02/0044_story_first_meet_saiqi_loop",
+	["PlayType"] = "Play",
+	["SoundType"] = "SOUND_BGM",
 }
 T.RT_3507 = {
-	["CameraMoveTo"] = T.RT_3506,
+	["PlayOrStopBGM"] = T.RT_3506,
 }
 T.RT_3508 = {
-	["LookAtDescription"] = "100001:p(P10101202)",
+	["TargetPosition"] = "15.317871,-74.15625,139.091187,-0.002319,-2.64999,-82.499985,30.0,162.383057,false,Manual,4.218406",
 }
 T.RT_3509 = {
-	["LookAt"] = T.RT_3508,
+	["CameraMoveTo"] = T.RT_3508,
 }
 T.RT_3510 = {
-	["TargetPosition"] = "549.845703,44.259766,152.453613,0.00125,-3.698793,-176.199417,50.0,661.213013,false,Manual,8.0",
+	["TargetPosition"] = "-51.333008,249.566406,169.091431,0.001168,-13.29999,-74.955788,35.000008,216.793228,false,Manual,10.0",
 }
 T.RT_3511 = {
 	["CameraMoveTo"] = T.RT_3510,
 }
 T.RT_3512 = {
-	["TargetPosition"] = "243.654297,-17.984863,184.813477,0.00001,-12.0,-177.54332,40.0,144.905365,false,Manual,5.0",
+	["TargetPosition"] = "-62.207764,3.567383,128.807129,0.001185,6.999994,66.000801,35.000008,228.817383,false,Manual,10.0",
 }
 T.RT_3513 = {
 	["CameraMoveTo"] = T.RT_3512,
 }
 T.RT_3514 = {
-	["TurnToDescription"] = "200003:p(200)",
+	["LookAtDescription"] = "100001:p(P10101202)",
 }
 T.RT_3515 = {
-	["TurnTo"] = T.RT_3514,
+	["LookAt"] = T.RT_3514,
 }
 T.RT_3516 = {
-	["TargetPosition"] = "-196.237305,-18.549316,146.658691,0.001187,-2.999962,0.843019,35.000008,264.133331,false,Manual,6.0",
+	["TargetPosition"] = "549.845703,44.259766,152.453613,0.00125,-3.698793,-176.199417,50.0,661.213013,false,Manual,8.0",
 }
 T.RT_3517 = {
 	["CameraMoveTo"] = T.RT_3516,
 }
 T.RT_3518 = {
-	[1] = T.RT_3517,
+	["TargetPosition"] = "243.654297,-17.984863,184.813477,0.00001,-12.0,-177.54332,40.0,144.905365,false,Manual,5.0",
 }
 T.RT_3519 = {
-	["SEQ"] = T.RT_3518,
+	["CameraMoveTo"] = T.RT_3518,
 }
 T.RT_3520 = {
+	["TurnToDescription"] = "200003:p(200)",
+}
+T.RT_3521 = {
+	["TurnTo"] = T.RT_3520,
+}
+T.RT_3522 = {
+	["TargetPosition"] = "-196.237305,-18.549316,146.658691,0.001187,-2.999962,0.843019,35.000008,264.133331,false,Manual,6.0",
+}
+T.RT_3523 = {
+	["CameraMoveTo"] = T.RT_3522,
+}
+T.RT_3524 = {
+	[1] = T.RT_3523,
+}
+T.RT_3525 = {
+	["SEQ"] = T.RT_3524,
+}
+T.RT_3526 = {
 	[1] = T.RT_1366,
 	[2] = T.RT_1732,
 }
-T.RT_3521 = {
-	["SEQ"] = T.RT_3520,
-}
-T.RT_3522 = {
-	["LookAtDescription"] = "200003:n(200002)",
-}
-T.RT_3523 = {
-	["LookAt"] = T.RT_3522,
-}
-T.RT_3524 = {
-	["LookAtDescription"] = "100001:n(200071)",
-}
-T.RT_3525 = {
-	["LookAt"] = T.RT_3524,
-}
-T.RT_3526 = {
-	["LookAtDescription"] = "200002:n(200071)",
-}
 T.RT_3527 = {
-	["LookAt"] = T.RT_3526,
+	["SEQ"] = T.RT_3526,
 }
 T.RT_3528 = {
-	["LookAtDescription"] = "200003:n(200071)",
+	["LookAtDescription"] = "200003:n(200002)",
 }
 T.RT_3529 = {
 	["LookAt"] = T.RT_3528,
 }
 T.RT_3530 = {
-	["LookAtDescription"] = "200071:n(200003)",
+	["LookAtDescription"] = "100001:n(200071)",
 }
 T.RT_3531 = {
 	["LookAt"] = T.RT_3530,
 }
 T.RT_3532 = {
+	["LookAtDescription"] = "200002:n(200071)",
+}
+T.RT_3533 = {
+	["LookAt"] = T.RT_3532,
+}
+T.RT_3534 = {
+	["LookAtDescription"] = "200003:n(200071)",
+}
+T.RT_3535 = {
+	["LookAt"] = T.RT_3534,
+}
+T.RT_3536 = {
+	["LookAtDescription"] = "200071:n(200003)",
+}
+T.RT_3537 = {
+	["LookAt"] = T.RT_3536,
+}
+T.RT_3538 = {
 	["ActorId"] = 200002,
 	["TargetPoint"] = "P101006Bai",
 	["Visibility"] = "Show",
 }
-T.RT_3533 = {
-	["SetLocation"] = T.RT_3532,
+T.RT_3539 = {
+	["SetLocation"] = T.RT_3538,
 }
-T.RT_3534 = {
+T.RT_3540 = {
 	["LookAtType"] = "TalkNpc",
 	["SpeakActorId"] = 200071,
 }
-T.RT_3535 = {
-	["DefaultLookAt"] = T.RT_3534,
-}
-T.RT_3536 = {
-	["TargetPosition"] = "35.073242,71.52002,125.367188,0.001229,5.301156,-38.49934,25.0,160.39801,false,Manual,3.0",
-}
-T.RT_3537 = {
-	["CameraMoveTo"] = T.RT_3536,
-}
-T.RT_3538 = {
-	["LookAtDescription"] = "200071:n(100001)",
-}
-T.RT_3539 = {
-	["LookAt"] = T.RT_3538,
-}
-T.RT_3540 = {
-	["TargetPosition"] = "318.783203,25.541016,175.118164,0.001212,-9.69867,-171.999939,35.0,431.538452,false,Manual,4.0",
-}
 T.RT_3541 = {
-	["CameraMoveTo"] = T.RT_3540,
+	["DefaultLookAt"] = T.RT_3540,
 }
 T.RT_3542 = {
-	[1] = T.RT_3541,
+	["TargetPosition"] = "35.073242,71.52002,125.367188,0.001229,5.301156,-38.49934,25.0,160.39801,false,Manual,3.0",
 }
 T.RT_3543 = {
-	["SEQ"] = T.RT_3542,
+	["CameraMoveTo"] = T.RT_3542,
 }
 T.RT_3544 = {
-	["ActorId"] = 100001,
-	["TargetPoint"] = "P101006Player",
-	["Visibility"] = "Show",
+	["LookAtDescription"] = "200071:n(100001)",
 }
 T.RT_3545 = {
-	["SetLocation"] = T.RT_3544,
+	["LookAt"] = T.RT_3544,
 }
 T.RT_3546 = {
-	["ActorId"] = 200003,
-	["TargetPoint"] = "P101006Kami",
-	["Visibility"] = "Show",
+	["TargetPosition"] = "318.783203,25.541016,175.118164,0.001212,-9.69867,-171.999939,35.0,431.538452,false,Manual,4.0",
 }
 T.RT_3547 = {
-	["SetLocation"] = T.RT_3546,
+	["CameraMoveTo"] = T.RT_3546,
 }
 T.RT_3548 = {
-	[1] = T.RT_3533,
-	[2] = T.RT_3547,
-	[3] = T.RT_3545,
+	[1] = T.RT_3547,
 }
 T.RT_3549 = {
 	["SEQ"] = T.RT_3548,
 }
 T.RT_3550 = {
-	["ActorId"] = 200071,
-	["AnimationId"] = "Talk02_Start",
-	["Duration"] = 1,
+	["ActorId"] = 100001,
+	["TargetPoint"] = "P101006Player",
+	["Visibility"] = "Show",
 }
 T.RT_3551 = {
-	["PlayAnimation"] = T.RT_3550,
+	["SetLocation"] = T.RT_3550,
 }
 T.RT_3552 = {
-	["ActorId"] = 200002,
-	["AnimationId"] = "Explain01_Start",
-	["Duration"] = 0.1,
+	["ActorId"] = 200003,
+	["TargetPoint"] = "P101006Kami",
+	["Visibility"] = "Show",
 }
 T.RT_3553 = {
-	["PlayAnimation"] = T.RT_3552,
+	["SetLocation"] = T.RT_3552,
 }
 T.RT_3554 = {
-	[1] = T.RT_150,
+	[1] = T.RT_3539,
 	[2] = T.RT_3553,
+	[3] = T.RT_3551,
 }
 T.RT_3555 = {
 	["SEQ"] = T.RT_3554,
 }
 T.RT_3556 = {
-	["ActorId"] = 200002,
-	["AnimationId"] = "Confident_Start",
-	["Duration"] = 2,
+	["ActorId"] = 200071,
+	["AnimationId"] = "Talk02_Start",
+	["Duration"] = 1,
 }
 T.RT_3557 = {
 	["PlayAnimation"] = T.RT_3556,
 }
 T.RT_3558 = {
-	["TargetPosition"] = "253.003906,246.114502,189.402344,0.000098,-18.499956,57.499752,35.0,354.619659,false,Manual,6.0",
+	["ActorId"] = 200002,
+	["AnimationId"] = "Explain01_Start",
+	["Duration"] = 0.1,
 }
 T.RT_3559 = {
-	["CameraMoveTo"] = T.RT_3558,
+	["PlayAnimation"] = T.RT_3558,
 }
 T.RT_3560 = {
-	[1] = T.RT_3559,
+	[1] = T.RT_150,
+	[2] = T.RT_3559,
 }
 T.RT_3561 = {
 	["SEQ"] = T.RT_3560,
 }
 T.RT_3562 = {
-	["TargetPosition"] = "338.273438,401.17749,114.637207,0.000239,-8.396604,68.781586,35.0,166.80806,false,Manual,4.0",
+	["ActorId"] = 200002,
+	["AnimationId"] = "Confident_Start",
+	["Duration"] = 2,
 }
 T.RT_3563 = {
-	["CameraMoveTo"] = T.RT_3562,
+	["PlayAnimation"] = T.RT_3562,
 }
 T.RT_3564 = {
-	[1] = T.RT_3563,
+	["TargetPosition"] = "253.003906,246.114502,189.402344,0.000098,-18.499956,57.499752,35.0,354.619659,false,Manual,6.0",
 }
 T.RT_3565 = {
-	["SEQ"] = T.RT_3564,
+	["CameraMoveTo"] = T.RT_3564,
 }
 T.RT_3566 = {
-	["TurnToDescription"] = "200002:p(-120)",
+	[1] = T.RT_3565,
 }
 T.RT_3567 = {
-	["TurnTo"] = T.RT_3566,
+	["SEQ"] = T.RT_3566,
 }
 T.RT_3568 = {
-	["TargetPosition"] = "-22.671875,234.560547,176.765625,0.00112,-9.999943,-80.167923,40.0,330.076355,false,Manual,2.602004",
+	["TargetPosition"] = "338.273438,401.17749,114.637207,0.000239,-8.396604,68.781586,35.0,166.80806,false,Manual,4.0",
 }
 T.RT_3569 = {
 	["CameraMoveTo"] = T.RT_3568,
 }
 T.RT_3570 = {
+	[1] = T.RT_3569,
+}
+T.RT_3571 = {
+	["SEQ"] = T.RT_3570,
+}
+T.RT_3572 = {
+	["TurnToDescription"] = "200002:p(-120)",
+}
+T.RT_3573 = {
+	["TurnTo"] = T.RT_3572,
+}
+T.RT_3574 = {
+	["TargetPosition"] = "-22.671875,234.560547,176.765625,0.00112,-9.999943,-80.167923,40.0,330.076355,false,Manual,2.602004",
+}
+T.RT_3575 = {
+	["CameraMoveTo"] = T.RT_3574,
+}
+T.RT_3576 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "Angry01_Start",
 	["Duration"] = 1.5,
 }
-T.RT_3571 = {
-	["PlayAnimation"] = T.RT_3570,
+T.RT_3577 = {
+	["PlayAnimation"] = T.RT_3576,
 }
-T.RT_3572 = {
+T.RT_3578 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "Angry01_Start",
 	["Duration"] = 5,
 }
-T.RT_3573 = {
-	["PlayAnimation"] = T.RT_3572,
-}
-T.RT_3574 = {
-	["ActorId"] = 100001,
-	["AnimationId"] = "Shock_End",
-	["Duration"] = 2,
-}
-T.RT_3575 = {
-	["PlayAnimation"] = T.RT_3574,
-}
-T.RT_3576 = {
-	["LookAtDescription"] = "100001:n(100356)",
-}
-T.RT_3577 = {
-	["LookAt"] = T.RT_3576,
-}
-T.RT_3578 = {
-	["ActorId"] = 100304,
-	["TargetPoint"] = "TargetPoint_lise_move2",
-	["Visibility"] = "Show",
-}
 T.RT_3579 = {
-	["SetLocation"] = T.RT_3578,
+	["PlayAnimation"] = T.RT_3578,
 }
 T.RT_3580 = {
-	["ActorId"] = 200022,
-	["AnimationId"] = "Confident_Start",
+	["ActorId"] = 100001,
+	["AnimationId"] = "Shock_End",
 	["Duration"] = 2,
 }
 T.RT_3581 = {
 	["PlayAnimation"] = T.RT_3580,
 }
 T.RT_3582 = {
+	["LookAtDescription"] = "100001:n(100356)",
+}
+T.RT_3583 = {
+	["LookAt"] = T.RT_3582,
+}
+T.RT_3584 = {
+	["ActorId"] = 100304,
+	["TargetPoint"] = "TargetPoint_lise_move2",
+	["Visibility"] = "Show",
+}
+T.RT_3585 = {
+	["SetLocation"] = T.RT_3584,
+}
+T.RT_3586 = {
+	["ActorId"] = 200022,
+	["AnimationId"] = "Confident_Start",
+	["Duration"] = 2,
+}
+T.RT_3587 = {
+	["PlayAnimation"] = T.RT_3586,
+}
+T.RT_3588 = {
 	["TargetPosition"] = "-128.050293,-195.099609,164.166016,0.000189,-7.199948,77.800987,35.000008,100000.0,false,DoNotOverride,22.0",
 	["duration"] = 10,
 }
-T.RT_3583 = {
-	["CameraMoveTo"] = T.RT_3582,
-}
-T.RT_3584 = {
-	["TargetPosition"] = "-123.92627,-195.885742,164.166016,0.000187,-7.199948,79.201241,35.000008,100000.0,false,DoNotOverride,22.0",
-}
-T.RT_3585 = {
-	["CameraMoveTo"] = T.RT_3584,
-}
-T.RT_3586 = {
-	[1] = T.RT_3585,
-	[2] = T.RT_3583,
-}
-T.RT_3587 = {
-	["SEQ"] = T.RT_3586,
-}
-T.RT_3588 = {
-	[1] = T.RT_462,
-	[2] = T.RT_3581,
-}
 T.RT_3589 = {
-	["SEQ"] = T.RT_3588,
+	["CameraMoveTo"] = T.RT_3588,
 }
 T.RT_3590 = {
-	["ActorId"] = 100304,
-	["AnimationId"] = "Explain02_Start",
-	["Duration"] = 2,
+	["TargetPosition"] = "-123.92627,-195.885742,164.166016,0.000187,-7.199948,79.201241,35.000008,100000.0,false,DoNotOverride,22.0",
 }
 T.RT_3591 = {
-	["PlayAnimation"] = T.RT_3590,
+	["CameraMoveTo"] = T.RT_3590,
 }
 T.RT_3592 = {
-	[1] = T.RT_150,
-	[2] = T.RT_3591,
+	[1] = T.RT_3591,
+	[2] = T.RT_3589,
 }
 T.RT_3593 = {
 	["SEQ"] = T.RT_3592,
 }
 T.RT_3594 = {
-	["ActorId"] = 100304,
-	["AnimationId"] = "Talk01_End",
-	["Duration"] = 2,
+	[1] = T.RT_462,
+	[2] = T.RT_3587,
 }
 T.RT_3595 = {
-	["PlayAnimation"] = T.RT_3594,
+	["SEQ"] = T.RT_3594,
 }
 T.RT_3596 = {
 	["ActorId"] = 100304,
-	["AnimationId"] = "Talk02_End",
+	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 2,
 }
 T.RT_3597 = {
 	["PlayAnimation"] = T.RT_3596,
 }
 T.RT_3598 = {
-	["ActorId"] = 100312,
-	["AnimationId"] = "Talk01_Start",
-	["Duration"] = 2,
+	[1] = T.RT_150,
+	[2] = T.RT_3597,
 }
 T.RT_3599 = {
-	["PlayAnimation"] = T.RT_3598,
+	["SEQ"] = T.RT_3598,
 }
 T.RT_3600 = {
-	["ActorId"] = 100318,
-	["AnimationId"] = "Explain01_Start",
+	["ActorId"] = 100304,
+	["AnimationId"] = "Talk01_End",
 	["Duration"] = 2,
 }
 T.RT_3601 = {
 	["PlayAnimation"] = T.RT_3600,
 }
 T.RT_3602 = {
-	["LookAtDescription"] = "100327:n(100327)",
+	["ActorId"] = 100304,
+	["AnimationId"] = "Talk02_End",
+	["Duration"] = 2,
 }
 T.RT_3603 = {
-	["LookAt"] = T.RT_3602,
+	["PlayAnimation"] = T.RT_3602,
 }
 T.RT_3604 = {
-	["TurnToDescription"] = "100304:p(120)",
+	["ActorId"] = 100312,
+	["AnimationId"] = "Talk01_Start",
+	["Duration"] = 2,
 }
 T.RT_3605 = {
-	["TurnTo"] = T.RT_3604,
+	["PlayAnimation"] = T.RT_3604,
 }
 T.RT_3606 = {
-	["LookAtDescription"] = "100310:n(100304)",
+	["ActorId"] = 100318,
+	["AnimationId"] = "Explain01_Start",
+	["Duration"] = 2,
 }
 T.RT_3607 = {
-	["LookAt"] = T.RT_3606,
+	["PlayAnimation"] = T.RT_3606,
 }
 T.RT_3608 = {
-	["TargetPosition"] = "958.005859,-731.924072,9.550781,10.837217,7.979532,176.102386,35.000008,100000.0,false,Manual,22.0",
+	["LookAtDescription"] = "100327:n(100327)",
 }
 T.RT_3609 = {
-	["CameraMoveTo"] = T.RT_3608,
+	["LookAt"] = T.RT_3608,
 }
 T.RT_3610 = {
-	["TargetPosition"] = "-110.488281,-797.578308,270.390625,0.000107,-24.023741,24.69591,35.000008,100000.0,false,Manual,3.0",
+	["TurnToDescription"] = "100304:p(120)",
 }
 T.RT_3611 = {
-	["CameraMoveTo"] = T.RT_3610,
+	["TurnTo"] = T.RT_3610,
 }
 T.RT_3612 = {
-	[1] = T.RT_3611,
+	["LookAtDescription"] = "100310:n(100304)",
 }
 T.RT_3613 = {
-	["SEQ"] = T.RT_3612,
+	["LookAt"] = T.RT_3612,
 }
 T.RT_3614 = {
-	["TargetPosition"] = "325.855469,-402.418182,66.191406,0.000048,18.98509,-122.533447,35.0,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "958.005859,-731.924072,9.550781,10.837217,7.979532,176.102386,35.000008,100000.0,false,Manual,22.0",
 }
 T.RT_3615 = {
 	["CameraMoveTo"] = T.RT_3614,
 }
 T.RT_3616 = {
-	[1] = T.RT_3615,
+	["TargetPosition"] = "-110.488281,-797.578308,270.390625,0.000107,-24.023741,24.69591,35.000008,100000.0,false,Manual,3.0",
 }
 T.RT_3617 = {
-	["SEQ"] = T.RT_3616,
+	["CameraMoveTo"] = T.RT_3616,
 }
 T.RT_3618 = {
 	[1] = T.RT_3617,
 }
 T.RT_3619 = {
-	["Operations"] = T.RT_3618,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_3618,
 }
 T.RT_3620 = {
-	["LookAtDescription"] = "200021:n(100327)",
+	["TargetPosition"] = "325.855469,-402.418182,66.191406,0.000048,18.98509,-122.533447,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_3621 = {
-	["LookAt"] = T.RT_3620,
+	["CameraMoveTo"] = T.RT_3620,
 }
 T.RT_3622 = {
-	["LookAtDescription"] = "100327:n(100001)",
+	[1] = T.RT_3621,
 }
 T.RT_3623 = {
-	["LookAt"] = T.RT_3622,
+	["SEQ"] = T.RT_3622,
 }
 T.RT_3624 = {
-	["LookAtDescription"] = "100001:n(100327)",
+	[1] = T.RT_3623,
 }
 T.RT_3625 = {
-	["LookAt"] = T.RT_3624,
-}
-T.RT_3626 = {
-	["TargetPosition"] = "-259.947266,-818.521729,315.210938,0.000147,-22.420839,16.259014,35.000008,662.324829,false,Manual,2.8",
-}
-T.RT_3627 = {
-	["CameraMoveTo"] = T.RT_3626,
-}
-T.RT_3628 = {
-	[1] = T.RT_3627,
-}
-T.RT_3629 = {
-	["SEQ"] = T.RT_3628,
-}
-T.RT_3630 = {
-	[1] = T.RT_3629,
-}
-T.RT_3631 = {
-	["Operations"] = T.RT_3630,
+	["Operations"] = T.RT_3624,
 	["bAllowClick"] = true,
 }
+T.RT_3626 = {
+	["LookAtDescription"] = "200021:n(100327)",
+}
+T.RT_3627 = {
+	["LookAt"] = T.RT_3626,
+}
+T.RT_3628 = {
+	["LookAtDescription"] = "100327:n(100001)",
+}
+T.RT_3629 = {
+	["LookAt"] = T.RT_3628,
+}
+T.RT_3630 = {
+	["LookAtDescription"] = "100001:n(100327)",
+}
+T.RT_3631 = {
+	["LookAt"] = T.RT_3630,
+}
 T.RT_3632 = {
-	["TargetPosition"] = "271.599609,-478.551727,99.578125,0.000144,17.773592,-123.305641,35.000008,327.027893,false,Manual,2.8",
+	["TargetPosition"] = "-259.947266,-818.521729,315.210938,0.000147,-22.420839,16.259014,35.000008,662.324829,false,Manual,2.8",
 }
 T.RT_3633 = {
 	["CameraMoveTo"] = T.RT_3632,
@@ -11963,158 +11969,159 @@ T.RT_3635 = {
 	["SEQ"] = T.RT_3634,
 }
 T.RT_3636 = {
-	["TargetPosition"] = "358.03125,-220.209595,5.21875,-6.00004,13.175885,-120.300591,25.000002,100000.0,false,Manual,22.0",
+	[1] = T.RT_3635,
 }
 T.RT_3637 = {
-	["CameraMoveTo"] = T.RT_3636,
+	["Operations"] = T.RT_3636,
+	["bAllowClick"] = true,
 }
 T.RT_3638 = {
-	[1] = T.RT_3637,
+	["TargetPosition"] = "271.599609,-478.551727,99.578125,0.000144,17.773592,-123.305641,35.000008,327.027893,false,Manual,2.8",
 }
 T.RT_3639 = {
-	["SEQ"] = T.RT_3638,
+	["CameraMoveTo"] = T.RT_3638,
 }
 T.RT_3640 = {
-	["TargetPosition"] = "-62.017578,-768.642212,37.953125,0.000097,13.98311,24.313583,35.000008,238.912354,false,Manual,2.8",
+	[1] = T.RT_3639,
 }
 T.RT_3641 = {
-	["CameraMoveTo"] = T.RT_3640,
+	["SEQ"] = T.RT_3640,
 }
 T.RT_3642 = {
-	[1] = T.RT_3641,
+	["TargetPosition"] = "358.03125,-220.209595,5.21875,-6.00004,13.175885,-120.300591,25.000002,100000.0,false,Manual,22.0",
 }
 T.RT_3643 = {
-	["SEQ"] = T.RT_3642,
+	["CameraMoveTo"] = T.RT_3642,
 }
 T.RT_3644 = {
-	["TargetPosition"] = "419.052734,-634.423706,131.730469,0.00007,1.174369,175.702454,35.000011,100000.0,false,Manual,22.0",
+	[1] = T.RT_3643,
 }
 T.RT_3645 = {
-	["CameraMoveTo"] = T.RT_3644,
+	["SEQ"] = T.RT_3644,
 }
 T.RT_3646 = {
-	[1] = T.RT_3645,
+	["TargetPosition"] = "-62.017578,-768.642212,37.953125,0.000097,13.98311,24.313583,35.000008,238.912354,false,Manual,2.8",
 }
 T.RT_3647 = {
-	["SEQ"] = T.RT_3646,
+	["CameraMoveTo"] = T.RT_3646,
 }
 T.RT_3648 = {
-	["TargetPosition"] = "765.701172,-585.869751,16.382812,0.000056,7.381713,-170.735001,35.0,100000.0,false,Manual,22.0",
+	[1] = T.RT_3647,
 }
 T.RT_3649 = {
-	["CameraMoveTo"] = T.RT_3648,
+	["SEQ"] = T.RT_3648,
 }
 T.RT_3650 = {
-	[1] = T.RT_3649,
+	["TargetPosition"] = "419.052734,-634.423706,131.730469,0.00007,1.174369,175.702454,35.000011,100000.0,false,Manual,22.0",
 }
 T.RT_3651 = {
-	["SEQ"] = T.RT_3650,
+	["CameraMoveTo"] = T.RT_3650,
 }
 T.RT_3652 = {
-	["LookAtDescription"] = "100304:n(100327)",
+	[1] = T.RT_3651,
 }
 T.RT_3653 = {
-	["LookAt"] = T.RT_3652,
+	["SEQ"] = T.RT_3652,
 }
 T.RT_3654 = {
-	["TargetPosition"] = "57.617188,-266.536926,76.441406,0.000157,15.18672,-106.154465,25.000002,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "765.701172,-585.869751,16.382812,0.000056,7.381713,-170.735001,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_3655 = {
 	["CameraMoveTo"] = T.RT_3654,
 }
 T.RT_3656 = {
-	["LookAtDescription"] = "100327:n(100304)",
+	[1] = T.RT_3655,
 }
 T.RT_3657 = {
-	["LookAt"] = T.RT_3656,
+	["SEQ"] = T.RT_3656,
 }
 T.RT_3658 = {
-	["TargetPosition"] = "94.964844,-69.758667,103.863281,7.231426,-8.009886,105.632515,50.000011,100000.0,false,Manual,22.0",
+	["LookAtDescription"] = "100304:n(100327)",
 }
 T.RT_3659 = {
-	["CameraMoveTo"] = T.RT_3658,
+	["LookAt"] = T.RT_3658,
 }
 T.RT_3660 = {
-	[1] = T.RT_3659,
+	["TargetPosition"] = "57.617188,-266.536926,76.441406,0.000157,15.18672,-106.154465,25.000002,100000.0,false,Manual,22.0",
 }
 T.RT_3661 = {
-	["SEQ"] = T.RT_3660,
+	["CameraMoveTo"] = T.RT_3660,
 }
 T.RT_3662 = {
-	[1] = T.RT_3661,
+	["LookAtDescription"] = "100327:n(100304)",
 }
 T.RT_3663 = {
-	["Operations"] = T.RT_3662,
-	["bAllowClick"] = true,
+	["LookAt"] = T.RT_3662,
 }
 T.RT_3664 = {
-	["LookAtDescription"] = "100327:n(100310)",
+	["TargetPosition"] = "94.964844,-69.758667,103.863281,7.231426,-8.009886,105.632515,50.000011,100000.0,false,Manual,22.0",
 }
 T.RT_3665 = {
-	["LookAt"] = T.RT_3664,
+	["CameraMoveTo"] = T.RT_3664,
 }
 T.RT_3666 = {
-	["LookAtDescription"] = "200021:n(100310)",
+	[1] = T.RT_3665,
 }
 T.RT_3667 = {
-	["LookAt"] = T.RT_3666,
+	["SEQ"] = T.RT_3666,
 }
 T.RT_3668 = {
-	["LookAtDescription"] = "100001:n(100310)",
+	[1] = T.RT_3667,
 }
 T.RT_3669 = {
-	["LookAt"] = T.RT_3668,
+	["Operations"] = T.RT_3668,
+	["bAllowClick"] = true,
 }
 T.RT_3670 = {
-	["LookAtDescription"] = "100304:n(100310)",
+	["LookAtDescription"] = "100327:n(100310)",
 }
 T.RT_3671 = {
 	["LookAt"] = T.RT_3670,
 }
 T.RT_3672 = {
-	["TargetPosition"] = "-161.447266,-786.827393,304.128906,0.000024,-24.4046,19.585703,35.0,6522.728027,false,Manual,2.8",
+	["LookAtDescription"] = "200021:n(100310)",
 }
 T.RT_3673 = {
-	["CameraMoveTo"] = T.RT_3672,
+	["LookAt"] = T.RT_3672,
 }
 T.RT_3674 = {
-	[1] = T.RT_3673,
+	["LookAtDescription"] = "100001:n(100310)",
 }
 T.RT_3675 = {
-	["SEQ"] = T.RT_3674,
+	["LookAt"] = T.RT_3674,
 }
 T.RT_3676 = {
-	["TurnToDescription"] = "200021:n(100001)",
+	["LookAtDescription"] = "100304:n(100310)",
 }
 T.RT_3677 = {
-	["TurnTo"] = T.RT_3676,
+	["LookAt"] = T.RT_3676,
 }
 T.RT_3678 = {
-	["LookAtDescription"] = "100304:p(lise_ditou)",
+	["TargetPosition"] = "-161.447266,-786.827393,304.128906,0.000024,-24.4046,19.585703,35.0,6522.728027,false,Manual,2.8",
 }
 T.RT_3679 = {
-	["LookAt"] = T.RT_3678,
+	["CameraMoveTo"] = T.RT_3678,
 }
 T.RT_3680 = {
-	["TargetPosition"] = "99.798828,366.275879,188.148438,0.000071,-8.005063,-109.145584,20.0,100000.0,false,Manual,22.0",
+	[1] = T.RT_3679,
 }
 T.RT_3681 = {
-	["CameraMoveTo"] = T.RT_3680,
+	["SEQ"] = T.RT_3680,
 }
 T.RT_3682 = {
-	[1] = T.RT_3681,
+	["TurnToDescription"] = "200021:n(100001)",
 }
 T.RT_3683 = {
-	["SEQ"] = T.RT_3682,
+	["TurnTo"] = T.RT_3682,
 }
 T.RT_3684 = {
-	["TargetPosition"] = "-0.925781,-102.438721,6.324219,0.000062,27.593143,90.266426,35.0,100000.0,false,Manual,22.0",
+	["LookAtDescription"] = "100304:p(lise_ditou)",
 }
 T.RT_3685 = {
-	["CameraMoveTo"] = T.RT_3684,
+	["LookAt"] = T.RT_3684,
 }
 T.RT_3686 = {
-	["TargetPosition"] = "67.845703,-302.296021,112.21875,0.00005,11.194864,-117.729912,35.0,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "99.798828,366.275879,188.148438,0.000071,-8.005063,-109.145584,20.0,100000.0,false,Manual,22.0",
 }
 T.RT_3687 = {
 	["CameraMoveTo"] = T.RT_3686,
@@ -12126,715 +12133,710 @@ T.RT_3689 = {
 	["SEQ"] = T.RT_3688,
 }
 T.RT_3690 = {
-	["TargetPosition"] = "83.970703,135.913513,189.65625,-15.104161,-1.798279,142.222046,20.0,175.398438,false,Manual,2.8",
+	["TargetPosition"] = "-0.925781,-102.438721,6.324219,0.000062,27.593143,90.266426,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_3691 = {
 	["CameraMoveTo"] = T.RT_3690,
 }
 T.RT_3692 = {
-	["LookAtDescription"] = "200002:n(100327)",
+	["TargetPosition"] = "67.845703,-302.296021,112.21875,0.00005,11.194864,-117.729912,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_3693 = {
-	["LookAt"] = T.RT_3692,
+	["CameraMoveTo"] = T.RT_3692,
 }
 T.RT_3694 = {
-	["TargetPosition"] = "198.80957,-348.649414,122.465942,0.000148,16.993544,-28.586533,35.0,302.68161,false,Manual,2.8",
+	[1] = T.RT_3693,
 }
 T.RT_3695 = {
-	["CameraMoveTo"] = T.RT_3694,
+	["SEQ"] = T.RT_3694,
 }
 T.RT_3696 = {
-	[1] = T.RT_3695,
+	["TargetPosition"] = "83.970703,135.913513,189.65625,-15.104161,-1.798279,142.222046,20.0,175.398438,false,Manual,2.8",
 }
 T.RT_3697 = {
-	["SEQ"] = T.RT_3696,
+	["CameraMoveTo"] = T.RT_3696,
 }
 T.RT_3698 = {
-	[1] = T.RT_3697,
+	["LookAtDescription"] = "200002:n(100327)",
 }
 T.RT_3699 = {
-	["Operations"] = T.RT_3698,
-	["bAllowClick"] = true,
+	["LookAt"] = T.RT_3698,
 }
 T.RT_3700 = {
-	["LookAtDescription"] = "100327:n(100328)",
+	["TargetPosition"] = "198.80957,-348.649414,122.465942,0.000148,16.993544,-28.586533,35.0,302.68161,false,Manual,2.8",
 }
 T.RT_3701 = {
-	["LookAt"] = T.RT_3700,
+	["CameraMoveTo"] = T.RT_3700,
 }
 T.RT_3702 = {
 	[1] = T.RT_3701,
 }
 T.RT_3703 = {
-	["Operations"] = T.RT_3702,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_3702,
 }
 T.RT_3704 = {
-	["TurnToDescription"] = "100327:n(100328)",
+	[1] = T.RT_3703,
 }
 T.RT_3705 = {
-	["TurnTo"] = T.RT_3704,
-}
-T.RT_3706 = {
-	["TargetPosition"] = "-175.524414,-46.025391,174.825195,0.000142,13.397614,-14.601909,35.000008,783.867188,false,Manual,22.0",
-}
-T.RT_3707 = {
-	["CameraMoveTo"] = T.RT_3706,
-}
-T.RT_3708 = {
-	["TargetPosition"] = "478.72168,-735.574219,230.471252,3.600141,-3.001281,107.550369,35.000011,927.345459,false,Manual,2.8",
-}
-T.RT_3709 = {
-	["CameraMoveTo"] = T.RT_3708,
-}
-T.RT_3710 = {
-	[1] = T.RT_3709,
-}
-T.RT_3711 = {
-	["SEQ"] = T.RT_3710,
-}
-T.RT_3712 = {
-	[1] = T.RT_3711,
-}
-T.RT_3713 = {
-	["Operations"] = T.RT_3712,
+	["Operations"] = T.RT_3704,
 	["bAllowClick"] = true,
 }
+T.RT_3706 = {
+	["LookAtDescription"] = "100327:n(100328)",
+}
+T.RT_3707 = {
+	["LookAt"] = T.RT_3706,
+}
+T.RT_3708 = {
+	[1] = T.RT_3707,
+}
+T.RT_3709 = {
+	["Operations"] = T.RT_3708,
+	["bAllowClick"] = true,
+}
+T.RT_3710 = {
+	["TurnToDescription"] = "100327:n(100328)",
+}
+T.RT_3711 = {
+	["TurnTo"] = T.RT_3710,
+}
+T.RT_3712 = {
+	["TargetPosition"] = "-175.524414,-46.025391,174.825195,0.000142,13.397614,-14.601909,35.000008,783.867188,false,Manual,22.0",
+}
+T.RT_3713 = {
+	["CameraMoveTo"] = T.RT_3712,
+}
 T.RT_3714 = {
-	["TargetPosition"] = "-136.168945,-70.729492,256.653992,0.000103,-5.599819,-33.83028,35.000008,999.181396,false,Manual,2.8",
+	["TargetPosition"] = "478.72168,-735.574219,230.471252,3.600141,-3.001281,107.550369,35.000011,927.345459,false,Manual,2.8",
 }
 T.RT_3715 = {
 	["CameraMoveTo"] = T.RT_3714,
 }
 T.RT_3716 = {
-	["TargetPosition"] = "145.246094,50.835938,159.95459,0.000014,-7.221675,-164.220459,35.000008,100000.0,false,Manual,13.900117",
+	[1] = T.RT_3715,
 }
 T.RT_3717 = {
-	["CameraMoveTo"] = T.RT_3716,
+	["SEQ"] = T.RT_3716,
 }
 T.RT_3718 = {
 	[1] = T.RT_3717,
 }
 T.RT_3719 = {
-	["SEQ"] = T.RT_3718,
-}
-T.RT_3720 = {
-	["Operations"] = T.RT_2857,
+	["Operations"] = T.RT_3718,
 	["bAllowClick"] = true,
 }
+T.RT_3720 = {
+	["TargetPosition"] = "-136.168945,-70.729492,256.653992,0.000103,-5.599819,-33.83028,35.000008,999.181396,false,Manual,2.8",
+}
 T.RT_3721 = {
-	["TargetPosition"] = "-314.120422,323.028412,138.915283,0.0001,-2.600881,-44.171185,30.000002,100000.0,false,Manual,22.0",
+	["CameraMoveTo"] = T.RT_3720,
 }
 T.RT_3722 = {
-	["CameraMoveTo"] = T.RT_3721,
+	["TargetPosition"] = "145.246094,50.835938,159.95459,0.000014,-7.221675,-164.220459,35.000008,100000.0,false,Manual,13.900117",
 }
 T.RT_3723 = {
-	[1] = T.RT_3722,
+	["CameraMoveTo"] = T.RT_3722,
 }
 T.RT_3724 = {
-	["SEQ"] = T.RT_3723,
+	[1] = T.RT_3723,
 }
 T.RT_3725 = {
-	[1] = T.RT_2792,
-	[2] = T.RT_1700,
-	[3] = T.RT_2822,
-	[4] = T.RT_1860,
+	["SEQ"] = T.RT_3724,
 }
 T.RT_3726 = {
-	["Operations"] = T.RT_3725,
+	["Operations"] = T.RT_2861,
 	["bAllowClick"] = true,
 }
 T.RT_3727 = {
-	["LookAtDescription"] = "100304:n(200002)",
+	["TargetPosition"] = "-314.120422,323.028412,138.915283,0.0001,-2.600881,-44.171185,30.000002,100000.0,false,Manual,22.0",
 }
 T.RT_3728 = {
-	["LookAt"] = T.RT_3727,
+	["CameraMoveTo"] = T.RT_3727,
 }
 T.RT_3729 = {
-	["TurnToDescription"] = "100304:n(100001)",
+	[1] = T.RT_3728,
 }
 T.RT_3730 = {
-	["TurnTo"] = T.RT_3729,
+	["SEQ"] = T.RT_3729,
 }
 T.RT_3731 = {
+	[1] = T.RT_2796,
+	[2] = T.RT_1700,
+	[3] = T.RT_2826,
+	[4] = T.RT_1860,
+}
+T.RT_3732 = {
+	["Operations"] = T.RT_3731,
+	["bAllowClick"] = true,
+}
+T.RT_3733 = {
+	["LookAtDescription"] = "100304:n(200002)",
+}
+T.RT_3734 = {
+	["LookAt"] = T.RT_3733,
+}
+T.RT_3735 = {
+	["TurnToDescription"] = "100304:n(100001)",
+}
+T.RT_3736 = {
+	["TurnTo"] = T.RT_3735,
+}
+T.RT_3737 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Explain02_Start",
 	["Duration"] = 1,
 }
-T.RT_3732 = {
-	["PlayAnimation"] = T.RT_3731,
+T.RT_3738 = {
+	["PlayAnimation"] = T.RT_3737,
 }
-T.RT_3733 = {
+T.RT_3739 = {
 	[1] = T.RT_140,
-	[2] = T.RT_3732,
+	[2] = T.RT_3738,
 }
-T.RT_3734 = {
-	["SEQ"] = T.RT_3733,
+T.RT_3740 = {
+	["SEQ"] = T.RT_3739,
 }
-T.RT_3735 = {
+T.RT_3741 = {
 	["LookAtDescription"] = "\
 200021:n(100304)",
 }
-T.RT_3736 = {
-	["LookAt"] = T.RT_3735,
+T.RT_3742 = {
+	["LookAt"] = T.RT_3741,
 }
-T.RT_3737 = {
+T.RT_3743 = {
 	["ActorId"] = 100001,
 	["TargetPoint"] = "TargetPoint_cp2fixsimple47_nvzhuHide",
 	["Visibility"] = "Show",
 }
-T.RT_3738 = {
-	["SetLocation"] = T.RT_3737,
+T.RT_3744 = {
+	["SetLocation"] = T.RT_3743,
 }
-T.RT_3739 = {
+T.RT_3745 = {
 	["ActorId"] = 100001,
 	["TargetPoint"] = "TargetPoint_cp2fixsimple47_nvzhuHide",
 	["Visibility"] = "Hide",
 }
-T.RT_3740 = {
-	["SetLocation"] = T.RT_3739,
+T.RT_3746 = {
+	["SetLocation"] = T.RT_3745,
 }
-T.RT_3741 = {
+T.RT_3747 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "DisagreeHead",
 	["Duration"] = 3,
 }
-T.RT_3742 = {
-	["PlayAnimation"] = T.RT_3741,
+T.RT_3748 = {
+	["PlayAnimation"] = T.RT_3747,
 }
-T.RT_3743 = {
+T.RT_3749 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "ExplainTwo_Start",
 	["Duration"] = 1,
 }
-T.RT_3744 = {
-	["PlayAnimation"] = T.RT_3743,
-}
-T.RT_3745 = {
-	["TurnToDescription"] = "200021:n(100304)",
-}
-T.RT_3746 = {
-	["TurnTo"] = T.RT_3745,
-}
-T.RT_3747 = {
-	["LookAtDescription"] = "\
-100304:n(100304)",
-}
-T.RT_3748 = {
-	["LookAt"] = T.RT_3747,
-}
-T.RT_3749 = {
-	["LookAtDescription"] = "\
-100304:n(200021)",
-}
 T.RT_3750 = {
-	["LookAt"] = T.RT_3749,
+	["PlayAnimation"] = T.RT_3749,
 }
 T.RT_3751 = {
-	["LookAtDescription"] = "\
-200002:n(200021)",
+	["TurnToDescription"] = "200021:n(100304)",
 }
 T.RT_3752 = {
-	["LookAt"] = T.RT_3751,
+	["TurnTo"] = T.RT_3751,
 }
 T.RT_3753 = {
 	["LookAtDescription"] = "\
-200021:n(100001)",
+100304:n(100304)",
 }
 T.RT_3754 = {
 	["LookAt"] = T.RT_3753,
 }
 T.RT_3755 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2822,
+	["LookAtDescription"] = "\
+100304:n(200021)",
 }
 T.RT_3756 = {
-	["SEQ"] = T.RT_3755,
+	["LookAt"] = T.RT_3755,
 }
 T.RT_3757 = {
-	["LookAtDescription"] = "100001:p(TargetPoint_nvzhu_watch1)",
+	["LookAtDescription"] = "\
+200002:n(200021)",
 }
 T.RT_3758 = {
 	["LookAt"] = T.RT_3757,
 }
 T.RT_3759 = {
-	["TurnToDescription"] = "100001:p(45)",
+	["LookAtDescription"] = "\
+200021:n(100001)",
 }
 T.RT_3760 = {
-	["TurnTo"] = T.RT_3759,
+	["LookAt"] = T.RT_3759,
 }
 T.RT_3761 = {
+	[1] = T.RT_150,
+	[2] = T.RT_2826,
+}
+T.RT_3762 = {
+	["SEQ"] = T.RT_3761,
+}
+T.RT_3763 = {
+	["LookAtDescription"] = "100001:p(TargetPoint_nvzhu_watch1)",
+}
+T.RT_3764 = {
+	["LookAt"] = T.RT_3763,
+}
+T.RT_3765 = {
+	["TurnToDescription"] = "100001:p(45)",
+}
+T.RT_3766 = {
+	["TurnTo"] = T.RT_3765,
+}
+T.RT_3767 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Talk03ToThink_Start",
 	["Duration"] = 2,
 }
-T.RT_3762 = {
-	["PlayAnimation"] = T.RT_3761,
+T.RT_3768 = {
+	["PlayAnimation"] = T.RT_3767,
 }
-T.RT_3763 = {
+T.RT_3769 = {
 	[1] = T.RT_150,
-	[2] = T.RT_3762,
+	[2] = T.RT_3768,
 }
-T.RT_3764 = {
-	["SEQ"] = T.RT_3763,
+T.RT_3770 = {
+	["SEQ"] = T.RT_3769,
 }
-T.RT_3765 = {
+T.RT_3771 = {
 	["LookAtDescription"] = "\
 100001:n(200021)",
 }
-T.RT_3766 = {
-	["LookAt"] = T.RT_3765,
-}
-T.RT_3767 = {
-	["LookAtDescription"] = "\
-100001:n(100304)",
-}
-T.RT_3768 = {
-	["LookAt"] = T.RT_3767,
-}
-T.RT_3769 = {
-	["ActorId"] = 100310,
-	["AnimationId"] = "Talk01_End",
-	["Duration"] = 1,
-}
-T.RT_3770 = {
-	["PlayAnimation"] = T.RT_3769,
-}
-T.RT_3771 = {
-	["TurnToDescription"] = "100310:n(100304)",
-}
 T.RT_3772 = {
-	["TurnTo"] = T.RT_3771,
+	["LookAt"] = T.RT_3771,
 }
 T.RT_3773 = {
 	["LookAtDescription"] = "\
-200021:n(100310)",
+100001:n(100304)",
 }
 T.RT_3774 = {
 	["LookAt"] = T.RT_3773,
 }
 T.RT_3775 = {
+	["ActorId"] = 100310,
+	["AnimationId"] = "Talk01_End",
+	["Duration"] = 1,
+}
+T.RT_3776 = {
+	["PlayAnimation"] = T.RT_3775,
+}
+T.RT_3777 = {
+	["TurnToDescription"] = "100310:n(100304)",
+}
+T.RT_3778 = {
+	["TurnTo"] = T.RT_3777,
+}
+T.RT_3779 = {
+	["LookAtDescription"] = "\
+200021:n(100310)",
+}
+T.RT_3780 = {
+	["LookAt"] = T.RT_3779,
+}
+T.RT_3781 = {
 	["LookAtDescription"] = "\
 200002:n(100310)",
 }
-T.RT_3776 = {
-	["LookAt"] = T.RT_3775,
+T.RT_3782 = {
+	["LookAt"] = T.RT_3781,
 }
-T.RT_3777 = {
+T.RT_3783 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "ScratchHead_End",
 	["Duration"] = 1,
 }
-T.RT_3778 = {
-	["PlayAnimation"] = T.RT_3777,
+T.RT_3784 = {
+	["PlayAnimation"] = T.RT_3783,
 }
-T.RT_3779 = {
+T.RT_3785 = {
 	["ActorId"] = 100001,
 	["AnimationId"] = "ScratchHead_Start",
 	["Duration"] = 1,
 }
-T.RT_3780 = {
-	["PlayAnimation"] = T.RT_3779,
+T.RT_3786 = {
+	["PlayAnimation"] = T.RT_3785,
 }
-T.RT_3781 = {
+T.RT_3787 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Explain01_Start",
 	["Duration"] = 2,
 }
-T.RT_3782 = {
-	["PlayAnimation"] = T.RT_3781,
+T.RT_3788 = {
+	["PlayAnimation"] = T.RT_3787,
 }
-T.RT_3783 = {
+T.RT_3789 = {
 	["TargetPosition"] = "-143.925781,-103.977539,114.421875,0.000248,0.19757,56.071625,35.0,198.150391,false,DoNotOverride,2.669626",
 	["duration"] = 10,
 }
-T.RT_3784 = {
-	["CameraMoveTo"] = T.RT_3783,
+T.RT_3790 = {
+	["CameraMoveTo"] = T.RT_3789,
 }
-T.RT_3785 = {
+T.RT_3791 = {
 	["TargetPosition"] = "-148.388672,-100.708008,114.421875,0.000248,0.19757,54.071712,35.0,198.150391,false,DoNotOverride,2.669626",
 }
-T.RT_3786 = {
-	["CameraMoveTo"] = T.RT_3785,
+T.RT_3792 = {
+	["CameraMoveTo"] = T.RT_3791,
 }
-T.RT_3787 = {
-	[1] = T.RT_3786,
-	[2] = T.RT_3784,
+T.RT_3793 = {
+	[1] = T.RT_3792,
+	[2] = T.RT_3790,
 }
-T.RT_3788 = {
-	["SEQ"] = T.RT_3787,
+T.RT_3794 = {
+	["SEQ"] = T.RT_3793,
 }
-T.RT_3789 = {
+T.RT_3795 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Talk03_End",
 	["Duration"] = 2,
-}
-T.RT_3790 = {
-	["PlayAnimation"] = T.RT_3789,
-}
-T.RT_3791 = {
-	[1] = T.RT_462,
-	[2] = T.RT_3790,
-}
-T.RT_3792 = {
-	["SEQ"] = T.RT_3791,
-}
-T.RT_3793 = {
-	["LookAtDescription"] = "\
-100304:n(100310)",
-}
-T.RT_3794 = {
-	["LookAt"] = T.RT_3793,
-}
-T.RT_3795 = {
-	["ActorId"] = 100310,
-	["AnimationId"] = "Talk03_End",
-	["Duration"] = 1,
 }
 T.RT_3796 = {
 	["PlayAnimation"] = T.RT_3795,
 }
 T.RT_3797 = {
-	["TurnToDescription"] = "100310:n(200021)",
+	[1] = T.RT_462,
+	[2] = T.RT_3796,
 }
 T.RT_3798 = {
-	["TurnTo"] = T.RT_3797,
+	["SEQ"] = T.RT_3797,
 }
 T.RT_3799 = {
 	["LookAtDescription"] = "\
-100323:n(100310)",
+100304:n(100310)",
 }
 T.RT_3800 = {
 	["LookAt"] = T.RT_3799,
 }
 T.RT_3801 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "ExplainTwo_Start",
+	["ActorId"] = 100310,
+	["AnimationId"] = "Talk03_End",
 	["Duration"] = 1,
 }
 T.RT_3802 = {
 	["PlayAnimation"] = T.RT_3801,
 }
 T.RT_3803 = {
-	["LookAtDescription"] = "\
-200021:n(200022)",
+	["TurnToDescription"] = "100310:n(200021)",
 }
 T.RT_3804 = {
-	["LookAt"] = T.RT_3803,
+	["TurnTo"] = T.RT_3803,
 }
 T.RT_3805 = {
-	["LookAtDescription"] = "100001:n(200022)",
+	["LookAtDescription"] = "\
+100323:n(100310)",
 }
 T.RT_3806 = {
 	["LookAt"] = T.RT_3805,
 }
 T.RT_3807 = {
-	["LookAtDescription"] = "100361:n(100001)",
+	["ActorId"] = 200021,
+	["AnimationId"] = "ExplainTwo_Start",
+	["Duration"] = 1,
 }
 T.RT_3808 = {
-	["LookAt"] = T.RT_3807,
+	["PlayAnimation"] = T.RT_3807,
 }
 T.RT_3809 = {
-	["LookAtDescription"] = "100001:n(100361)",
+	["LookAtDescription"] = "\
+200021:n(200022)",
 }
 T.RT_3810 = {
 	["LookAt"] = T.RT_3809,
 }
 T.RT_3811 = {
-	["LookAtDescription"] = "200022:n(200022)",
+	["LookAtDescription"] = "100001:n(200022)",
 }
 T.RT_3812 = {
 	["LookAt"] = T.RT_3811,
 }
 T.RT_3813 = {
-	["LookAtDescription"] = "200022:n(100001)",
+	["LookAtDescription"] = "100361:n(100001)",
 }
 T.RT_3814 = {
 	["LookAt"] = T.RT_3813,
 }
 T.RT_3815 = {
-	["LookAtDescription"] = "200021:n(100361)",
+	["LookAtDescription"] = "100001:n(100361)",
 }
 T.RT_3816 = {
 	["LookAt"] = T.RT_3815,
 }
 T.RT_3817 = {
-	["LookAtDescription"] = "100361:n(200021)",
+	["LookAtDescription"] = "200022:n(200022)",
 }
 T.RT_3818 = {
 	["LookAt"] = T.RT_3817,
 }
 T.RT_3819 = {
-	["LookAtDescription"] = "100361:p(cp2fixsimple34_liseWatch1)",
+	["LookAtDescription"] = "200022:n(100001)",
 }
 T.RT_3820 = {
 	["LookAt"] = T.RT_3819,
 }
 T.RT_3821 = {
-	["ActorId"] = 200021,
-	["MoveSpeed"] = 70,
-	["TargetPoint"] = "cp2fixsimple34_aoteMove1",
-	["Visibility"] = "Show",
+	["LookAtDescription"] = "200021:n(100361)",
 }
 T.RT_3822 = {
-	["MoveTo"] = T.RT_3821,
+	["LookAt"] = T.RT_3821,
 }
 T.RT_3823 = {
-	["LookAtDescription"] = "\
-100361:n(100001)",
+	["LookAtDescription"] = "100361:n(200021)",
 }
 T.RT_3824 = {
 	["LookAt"] = T.RT_3823,
 }
 T.RT_3825 = {
+	["LookAtDescription"] = "100361:p(cp2fixsimple34_liseWatch1)",
+}
+T.RT_3826 = {
+	["LookAt"] = T.RT_3825,
+}
+T.RT_3827 = {
+	["ActorId"] = 200021,
+	["MoveSpeed"] = 70,
+	["TargetPoint"] = "cp2fixsimple34_aoteMove1",
+	["Visibility"] = "Show",
+}
+T.RT_3828 = {
+	["MoveTo"] = T.RT_3827,
+}
+T.RT_3829 = {
+	["LookAtDescription"] = "\
+100361:n(100001)",
+}
+T.RT_3830 = {
+	["LookAt"] = T.RT_3829,
+}
+T.RT_3831 = {
 	["TargetPosition"] = "36.460938,163.713867,131.796875,0.000142,3.79891,-110.804428,35.000011,624.438599,false,DoNotOverride,2.005455",
 	["duration"] = 10,
 }
-T.RT_3826 = {
-	["CameraMoveTo"] = T.RT_3825,
+T.RT_3832 = {
+	["CameraMoveTo"] = T.RT_3831,
 }
-T.RT_3827 = {
+T.RT_3833 = {
 	["TargetPosition"] = "30.054688,165.621094,131.796875,0.000142,3.79891,-107.404633,35.000011,624.438599,false,DoNotOverride,2.005455",
 }
-T.RT_3828 = {
-	["CameraMoveTo"] = T.RT_3827,
+T.RT_3834 = {
+	["CameraMoveTo"] = T.RT_3833,
 }
-T.RT_3829 = {
-	[1] = T.RT_3828,
-	[2] = T.RT_3826,
+T.RT_3835 = {
+	[1] = T.RT_3834,
+	[2] = T.RT_3832,
 }
-T.RT_3830 = {
-	["SEQ"] = T.RT_3829,
+T.RT_3836 = {
+	["SEQ"] = T.RT_3835,
 }
-T.RT_3831 = {
+T.RT_3837 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "ConfidentLRToTalk01_End",
 	["Duration"] = 2,
 }
-T.RT_3832 = {
-	["PlayAnimation"] = T.RT_3831,
+T.RT_3838 = {
+	["PlayAnimation"] = T.RT_3837,
 }
-T.RT_3833 = {
+T.RT_3839 = {
 	["ActorId"] = 200002,
 	["TargetPoint"] = "Point02",
 	["Visibility"] = "Hide",
 }
-T.RT_3834 = {
-	["SetLocation"] = T.RT_3833,
+T.RT_3840 = {
+	["SetLocation"] = T.RT_3839,
 }
-T.RT_3835 = {
+T.RT_3841 = {
 	["LookAtDescription"] = "200021:p(Point04)",
 }
-T.RT_3836 = {
-	["LookAt"] = T.RT_3835,
+T.RT_3842 = {
+	["LookAt"] = T.RT_3841,
 }
-T.RT_3837 = {
+T.RT_3843 = {
 	["TargetPosition"] = "322.354492,-50.202484,97.0,0.000241,5.990158,147.491592,35.000008,216.320572,false,DoNotOverride,3.374357",
 	["duration"] = 10,
 }
-T.RT_3838 = {
-	["CameraMoveTo"] = T.RT_3837,
-}
-T.RT_3839 = {
-	["TargetPosition"] = "326.638672,-43.474365,97.0,0.000241,5.990158,147.491592,35.000008,216.320572,false,DoNotOverride,3.374357",
-}
-T.RT_3840 = {
-	["CameraMoveTo"] = T.RT_3839,
-}
-T.RT_3841 = {
-	[1] = T.RT_3840,
-	[2] = T.RT_3838,
-}
-T.RT_3842 = {
-	["SEQ"] = T.RT_3841,
-}
-T.RT_3843 = {
-	[1] = T.RT_3842,
-}
 T.RT_3844 = {
-	["Operations"] = T.RT_3843,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3843,
 }
 T.RT_3845 = {
-	["SetRotationDescription"] = "200002:n(100360)",
+	["TargetPosition"] = "326.638672,-43.474365,97.0,0.000241,5.990158,147.491592,35.000008,216.320572,false,DoNotOverride,3.374357",
 }
 T.RT_3846 = {
-	["SetRotation"] = T.RT_3845,
+	["CameraMoveTo"] = T.RT_3845,
 }
 T.RT_3847 = {
+	[1] = T.RT_3846,
+	[2] = T.RT_3844,
+}
+T.RT_3848 = {
+	["SEQ"] = T.RT_3847,
+}
+T.RT_3849 = {
+	[1] = T.RT_3848,
+}
+T.RT_3850 = {
+	["Operations"] = T.RT_3849,
+	["bAllowClick"] = true,
+}
+T.RT_3851 = {
+	["SetRotationDescription"] = "200002:n(100360)",
+}
+T.RT_3852 = {
+	["SetRotation"] = T.RT_3851,
+}
+T.RT_3853 = {
 	["ActorId"] = 200002,
 	["TargetPoint"] = "cp2fixsimple24_27-29_34-35Point02",
 	["Visibility"] = "Show",
 }
-T.RT_3848 = {
-	["SetLocation"] = T.RT_3847,
-}
-T.RT_3849 = {
-	["LookAtDescription"] = "200021:n(100360)",
-}
-T.RT_3850 = {
-	["LookAt"] = T.RT_3849,
-}
-T.RT_3851 = {
-	["LookAtDescription"] = "200002:n(100360)",
-}
-T.RT_3852 = {
-	["LookAt"] = T.RT_3851,
-}
-T.RT_3853 = {
-	["LookAtDescription"] = "100001:n(100360)",
-}
 T.RT_3854 = {
-	["LookAt"] = T.RT_3853,
+	["SetLocation"] = T.RT_3853,
 }
 T.RT_3855 = {
-	["TurnToDescription"] = "100358:n(100304)",
+	["LookAtDescription"] = "200021:n(100360)",
 }
 T.RT_3856 = {
-	["TurnTo"] = T.RT_3855,
+	["LookAt"] = T.RT_3855,
 }
 T.RT_3857 = {
-	["LookAtDescription"] = "100358:n(100304)",
+	["LookAtDescription"] = "200002:n(100360)",
 }
 T.RT_3858 = {
 	["LookAt"] = T.RT_3857,
 }
 T.RT_3859 = {
-	["TurnToDescription"] = "100304:n(100358)",
+	["LookAtDescription"] = "100001:n(100360)",
 }
 T.RT_3860 = {
-	["TurnTo"] = T.RT_3859,
+	["LookAt"] = T.RT_3859,
 }
 T.RT_3861 = {
-	["LookAtDescription"] = "100358:n(100358)",
+	["TurnToDescription"] = "100358:n(100304)",
 }
 T.RT_3862 = {
-	["LookAt"] = T.RT_3861,
+	["TurnTo"] = T.RT_3861,
 }
 T.RT_3863 = {
-	["ActorId"] = 100359,
-	["AnimationId"] = "Explain02_End",
-	["Duration"] = 2,
+	["LookAtDescription"] = "100358:n(100304)",
 }
 T.RT_3864 = {
-	["PlayAnimation"] = T.RT_3863,
+	["LookAt"] = T.RT_3863,
 }
 T.RT_3865 = {
-	[1] = T.RT_150,
-	[2] = T.RT_2951,
+	["TurnToDescription"] = "100304:n(100358)",
 }
 T.RT_3866 = {
-	["SEQ"] = T.RT_3865,
+	["TurnTo"] = T.RT_3865,
 }
 T.RT_3867 = {
-	["LookAtDescription"] = "200021:n(100311)",
+	["LookAtDescription"] = "100358:n(100358)",
 }
 T.RT_3868 = {
 	["LookAt"] = T.RT_3867,
 }
 T.RT_3869 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Confident_Start",
+	["ActorId"] = 100359,
+	["AnimationId"] = "Explain02_End",
 	["Duration"] = 2,
 }
 T.RT_3870 = {
 	["PlayAnimation"] = T.RT_3869,
 }
 T.RT_3871 = {
+	[1] = T.RT_150,
+	[2] = T.RT_2955,
+}
+T.RT_3872 = {
+	["SEQ"] = T.RT_3871,
+}
+T.RT_3873 = {
+	["LookAtDescription"] = "200021:n(100311)",
+}
+T.RT_3874 = {
+	["LookAt"] = T.RT_3873,
+}
+T.RT_3875 = {
+	["ActorId"] = 200021,
+	["AnimationId"] = "Confident_Start",
+	["Duration"] = 2,
+}
+T.RT_3876 = {
+	["PlayAnimation"] = T.RT_3875,
+}
+T.RT_3877 = {
 	["ActorId"] = 200021,
 	["AnimationId"] = "Sigh_End",
 	["Duration"] = 2,
 }
-T.RT_3872 = {
-	["PlayAnimation"] = T.RT_3871,
+T.RT_3878 = {
+	["PlayAnimation"] = T.RT_3877,
 }
-T.RT_3873 = {
+T.RT_3879 = {
 	[1] = T.RT_150,
-	[2] = T.RT_3872,
+	[2] = T.RT_3878,
 }
-T.RT_3874 = {
-	["SEQ"] = T.RT_3873,
+T.RT_3880 = {
+	["SEQ"] = T.RT_3879,
 }
-T.RT_3875 = {
+T.RT_3881 = {
 	["LookAtDescription"] = "200002:n(100311)",
 }
-T.RT_3876 = {
-	["LookAt"] = T.RT_3875,
+T.RT_3882 = {
+	["LookAt"] = T.RT_3881,
 }
-T.RT_3877 = {
+T.RT_3883 = {
 	["LookAtDescription"] = "\
 200002:n(100304)",
 }
-T.RT_3878 = {
-	["LookAt"] = T.RT_3877,
+T.RT_3884 = {
+	["LookAt"] = T.RT_3883,
 }
-T.RT_3879 = {
+T.RT_3885 = {
 	["LookAtDescription"] = "200021:n(100321)",
 }
-T.RT_3880 = {
-	["LookAt"] = T.RT_3879,
+T.RT_3886 = {
+	["LookAt"] = T.RT_3885,
 }
-T.RT_3881 = {
+T.RT_3887 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "AgreeHead",
 	["Duration"] = 2,
 }
-T.RT_3882 = {
-	["PlayAnimation"] = T.RT_3881,
+T.RT_3888 = {
+	["PlayAnimation"] = T.RT_3887,
 }
-T.RT_3883 = {
+T.RT_3889 = {
 	["TargetPosition"] = "99.307922,35.319786,113.66333,0.000196,6.800642,-76.40226,35.0,100000.0,false,DoNotOverride,22.0",
 	["duration"] = 10,
 }
-T.RT_3884 = {
-	["CameraMoveTo"] = T.RT_3883,
-}
-T.RT_3885 = {
-	["TargetPosition"] = "87.579948,31.824173,113.66333,0.000198,6.800642,-73.402702,35.0,100000.0,false,DoNotOverride,22.0",
-}
-T.RT_3886 = {
-	["CameraMoveTo"] = T.RT_3885,
-}
-T.RT_3887 = {
-	[1] = T.RT_3886,
-	[2] = T.RT_3884,
-}
-T.RT_3888 = {
-	["SEQ"] = T.RT_3887,
-}
-T.RT_3889 = {
-	[1] = T.RT_3888,
-}
 T.RT_3890 = {
-	["Operations"] = T.RT_3889,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3889,
 }
 T.RT_3891 = {
-	["ActorId"] = 100304,
-	["AnimationId"] = "Explain01_End",
-	["Duration"] = 2,
+	["TargetPosition"] = "87.579948,31.824173,113.66333,0.000198,6.800642,-73.402702,35.0,100000.0,false,DoNotOverride,22.0",
 }
 T.RT_3892 = {
-	["PlayAnimation"] = T.RT_3891,
+	["CameraMoveTo"] = T.RT_3891,
 }
 T.RT_3893 = {
-	["ActorId"] = 100314,
-	["AnimationId"] = "Sigh_End",
-	["Duration"] = 2,
+	[1] = T.RT_3892,
+	[2] = T.RT_3890,
 }
 T.RT_3894 = {
-	["PlayAnimation"] = T.RT_3893,
+	["SEQ"] = T.RT_3893,
 }
 T.RT_3895 = {
-	[1] = T.RT_462,
-	[2] = T.RT_3894,
+	[1] = T.RT_3894,
 }
 T.RT_3896 = {
-	["SEQ"] = T.RT_3895,
+	["Operations"] = T.RT_3895,
+	["bAllowClick"] = true,
 }
 T.RT_3897 = {
-	["ActorId"] = 100314,
-	["AnimationId"] = "Sigh_Start",
+	["ActorId"] = 100304,
+	["AnimationId"] = "Explain01_End",
 	["Duration"] = 2,
 }
 T.RT_3898 = {
@@ -12842,151 +12844,154 @@ T.RT_3898 = {
 }
 T.RT_3899 = {
 	["ActorId"] = 100314,
-	["AnimationId"] = "Talk01_Start",
+	["AnimationId"] = "Sigh_End",
 	["Duration"] = 2,
 }
 T.RT_3900 = {
 	["PlayAnimation"] = T.RT_3899,
 }
 T.RT_3901 = {
-	["LookAtDescription"] = "200021:n(100314)",
+	[1] = T.RT_462,
+	[2] = T.RT_3900,
 }
 T.RT_3902 = {
-	["LookAt"] = T.RT_3901,
+	["SEQ"] = T.RT_3901,
 }
 T.RT_3903 = {
-	["ActorId"] = 200021,
-	["AnimationId"] = "Talk01_End",
+	["ActorId"] = 100314,
+	["AnimationId"] = "Sigh_Start",
 	["Duration"] = 2,
 }
 T.RT_3904 = {
 	["PlayAnimation"] = T.RT_3903,
 }
 T.RT_3905 = {
+	["ActorId"] = 100314,
+	["AnimationId"] = "Talk01_Start",
+	["Duration"] = 2,
+}
+T.RT_3906 = {
+	["PlayAnimation"] = T.RT_3905,
+}
+T.RT_3907 = {
+	["LookAtDescription"] = "200021:n(100314)",
+}
+T.RT_3908 = {
+	["LookAt"] = T.RT_3907,
+}
+T.RT_3909 = {
+	["ActorId"] = 200021,
+	["AnimationId"] = "Talk01_End",
+	["Duration"] = 2,
+}
+T.RT_3910 = {
+	["PlayAnimation"] = T.RT_3909,
+}
+T.RT_3911 = {
 	["TargetPosition"] = "-57.217041,-558.267578,68.926025,0.000561,4.198333,77.993317,45.0,100000.0,false,DoNotOverride,22.0",
 	["duration"] = 10,
 }
-T.RT_3906 = {
-	["CameraMoveTo"] = T.RT_3905,
-}
-T.RT_3907 = {
-	["TargetPosition"] = "-48.84375,-518.895996,71.881592,0.000561,4.198333,77.993317,45.0,100000.0,false,DoNotOverride,22.0",
-}
-T.RT_3908 = {
-	["CameraMoveTo"] = T.RT_3907,
-}
-T.RT_3909 = {
-	[1] = T.RT_3908,
-	[2] = T.RT_3906,
-}
-T.RT_3910 = {
-	["SEQ"] = T.RT_3909,
-}
-T.RT_3911 = {
-	[1] = T.RT_3910,
-}
 T.RT_3912 = {
-	["Operations"] = T.RT_3911,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3911,
 }
 T.RT_3913 = {
-	["ActorId"] = 100304,
-	["AnimationId"] = "Think_End",
-	["Duration"] = 2,
+	["TargetPosition"] = "-48.84375,-518.895996,71.881592,0.000561,4.198333,77.993317,45.0,100000.0,false,DoNotOverride,22.0",
 }
 T.RT_3914 = {
-	["PlayAnimation"] = T.RT_3913,
+	["CameraMoveTo"] = T.RT_3913,
 }
 T.RT_3915 = {
-	[1] = T.RT_462,
-	[2] = T.RT_3914,
+	[1] = T.RT_3914,
+	[2] = T.RT_3912,
 }
 T.RT_3916 = {
 	["SEQ"] = T.RT_3915,
 }
 T.RT_3917 = {
-	["ActorId"] = 100304,
-	["AnimationId"] = "Talk03_Start",
-	["Duration"] = 2,
+	[1] = T.RT_3916,
 }
 T.RT_3918 = {
-	["PlayAnimation"] = T.RT_3917,
+	["Operations"] = T.RT_3917,
+	["bAllowClick"] = true,
 }
 T.RT_3919 = {
 	["ActorId"] = 100304,
-	["AnimationId"] = "Give",
+	["AnimationId"] = "Think_End",
 	["Duration"] = 2,
 }
 T.RT_3920 = {
 	["PlayAnimation"] = T.RT_3919,
 }
 T.RT_3921 = {
-	[1] = T.RT_1646,
+	[1] = T.RT_462,
 	[2] = T.RT_3920,
 }
 T.RT_3922 = {
 	["SEQ"] = T.RT_3921,
 }
 T.RT_3923 = {
-	["LookAtDescription"] = "200002:n(100313)",
+	["ActorId"] = 100304,
+	["AnimationId"] = "Talk03_Start",
+	["Duration"] = 2,
 }
 T.RT_3924 = {
-	["LookAt"] = T.RT_3923,
+	["PlayAnimation"] = T.RT_3923,
 }
 T.RT_3925 = {
-	["LookAtDescription"] = "100001:n(100313)",
+	["ActorId"] = 100304,
+	["AnimationId"] = "Give",
+	["Duration"] = 2,
 }
 T.RT_3926 = {
-	["LookAt"] = T.RT_3925,
+	["PlayAnimation"] = T.RT_3925,
 }
 T.RT_3927 = {
-	["LookAtDescription"] = "200021:n(100313)",
+	[1] = T.RT_1646,
+	[2] = T.RT_3926,
 }
 T.RT_3928 = {
-	["LookAt"] = T.RT_3927,
+	["SEQ"] = T.RT_3927,
 }
 T.RT_3929 = {
-	["LookAtDescription"] = "200021:n(100319)",
+	["LookAtDescription"] = "200002:n(100313)",
 }
 T.RT_3930 = {
 	["LookAt"] = T.RT_3929,
 }
 T.RT_3931 = {
+	["LookAtDescription"] = "100001:n(100313)",
+}
+T.RT_3932 = {
+	["LookAt"] = T.RT_3931,
+}
+T.RT_3933 = {
+	["LookAtDescription"] = "200021:n(100313)",
+}
+T.RT_3934 = {
+	["LookAt"] = T.RT_3933,
+}
+T.RT_3935 = {
+	["LookAtDescription"] = "200021:n(100319)",
+}
+T.RT_3936 = {
+	["LookAt"] = T.RT_3935,
+}
+T.RT_3937 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Explain02_End",
 	["Duration"] = 2,
 }
-T.RT_3932 = {
-	["PlayAnimation"] = T.RT_3931,
-}
-T.RT_3933 = {
-	["TargetPosition"] = "-3.238281,-27.738281,167.953857,0.000103,-24.802847,-55.926167,35.000011,100000.0,false,Manual,22.0",
-}
-T.RT_3934 = {
-	["CameraMoveTo"] = T.RT_3933,
-}
-T.RT_3935 = {
-	["TargetPosition"] = "129.509766,-215.724609,129.291016,0.000136,-1.800014,129.604965,35.000011,100000.0,false,Manual,22.0",
-}
-T.RT_3936 = {
-	["CameraMoveTo"] = T.RT_3935,
-}
-T.RT_3937 = {
-	[1] = T.RT_3936,
-}
 T.RT_3938 = {
-	["SEQ"] = T.RT_3937,
+	["PlayAnimation"] = T.RT_3937,
 }
 T.RT_3939 = {
-	[1] = T.RT_2822,
-	[2] = T.RT_3938,
+	["TargetPosition"] = "-3.238281,-27.738281,167.953857,0.000103,-24.802847,-55.926167,35.000011,100000.0,false,Manual,22.0",
 }
 T.RT_3940 = {
-	["Operations"] = T.RT_3939,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3939,
 }
 T.RT_3941 = {
-	["TargetPosition"] = "-54.453125,66.138184,140.532715,0.000112,-0.197263,-73.591354,35.000011,100000.0,false,Manual,22.0",
+	["TargetPosition"] = "129.509766,-215.724609,129.291016,0.000136,-1.800014,129.604965,35.000011,100000.0,false,Manual,22.0",
 }
 T.RT_3942 = {
 	["CameraMoveTo"] = T.RT_3941,
@@ -12998,14 +13003,15 @@ T.RT_3944 = {
 	["SEQ"] = T.RT_3943,
 }
 T.RT_3945 = {
-	[1] = T.RT_3944,
+	[1] = T.RT_2826,
+	[2] = T.RT_3944,
 }
 T.RT_3946 = {
 	["Operations"] = T.RT_3945,
 	["bAllowClick"] = true,
 }
 T.RT_3947 = {
-	["TargetPosition"] = "124.522461,-52.962646,126.131836,0.000177,4.398307,-110.971375,35.0,941.904541,false,DoNotOverride,1.903106",
+	["TargetPosition"] = "-54.453125,66.138184,140.532715,0.000112,-0.197263,-73.591354,35.000011,100000.0,false,Manual,22.0",
 }
 T.RT_3948 = {
 	["CameraMoveTo"] = T.RT_3947,
@@ -13017,27 +13023,26 @@ T.RT_3950 = {
 	["SEQ"] = T.RT_3949,
 }
 T.RT_3951 = {
-	["TargetPosition"] = "58.354492,-249.67041,147.177734,0.000189,-3.600589,110.819168,40.0,941.904541,false,DoNotOverride,1.2",
+	[1] = T.RT_3950,
 }
 T.RT_3952 = {
-	["CameraMoveTo"] = T.RT_3951,
-}
-T.RT_3953 = {
-	[1] = T.RT_3952,
-}
-T.RT_3954 = {
-	["SEQ"] = T.RT_3953,
-}
-T.RT_3955 = {
-	[1] = T.RT_2822,
-	[2] = T.RT_3954,
-}
-T.RT_3956 = {
-	["Operations"] = T.RT_3955,
+	["Operations"] = T.RT_3951,
 	["bAllowClick"] = true,
 }
+T.RT_3953 = {
+	["TargetPosition"] = "124.522461,-52.962646,126.131836,0.000177,4.398307,-110.971375,35.0,941.904541,false,DoNotOverride,1.903106",
+}
+T.RT_3954 = {
+	["CameraMoveTo"] = T.RT_3953,
+}
+T.RT_3955 = {
+	[1] = T.RT_3954,
+}
+T.RT_3956 = {
+	["SEQ"] = T.RT_3955,
+}
 T.RT_3957 = {
-	["TargetPosition"] = "-64.777344,-47.655518,128.217285,0.000165,-0.000854,-48.591522,40.0,941.904541,false,DoNotOverride,1.2",
+	["TargetPosition"] = "58.354492,-249.67041,147.177734,0.000189,-3.600589,110.819168,40.0,941.904541,false,DoNotOverride,1.2",
 }
 T.RT_3958 = {
 	["CameraMoveTo"] = T.RT_3957,
@@ -13049,14 +13054,15 @@ T.RT_3960 = {
 	["SEQ"] = T.RT_3959,
 }
 T.RT_3961 = {
-	[1] = T.RT_3960,
+	[1] = T.RT_2826,
+	[2] = T.RT_3960,
 }
 T.RT_3962 = {
 	["Operations"] = T.RT_3961,
 	["bAllowClick"] = true,
 }
 T.RT_3963 = {
-	["TargetPosition"] = "5.640625,-44.589111,120.307129,0.000218,2.797017,-73.17907,35.000015,324.824371,false,Manual,3.0",
+	["TargetPosition"] = "-64.777344,-47.655518,128.217285,0.000165,-0.000854,-48.591522,40.0,941.904541,false,DoNotOverride,1.2",
 }
 T.RT_3964 = {
 	["CameraMoveTo"] = T.RT_3963,
@@ -13075,145 +13081,144 @@ T.RT_3968 = {
 	["bAllowClick"] = true,
 }
 T.RT_3969 = {
-	[1] = T.RT_790,
-	[2] = T.RT_3892,
+	["TargetPosition"] = "5.640625,-44.589111,120.307129,0.000218,2.797017,-73.17907,35.000015,324.824371,false,Manual,3.0",
 }
 T.RT_3970 = {
-	["SEQ"] = T.RT_3969,
+	["CameraMoveTo"] = T.RT_3969,
 }
 T.RT_3971 = {
+	[1] = T.RT_3970,
+}
+T.RT_3972 = {
+	["SEQ"] = T.RT_3971,
+}
+T.RT_3973 = {
+	[1] = T.RT_3972,
+}
+T.RT_3974 = {
+	["Operations"] = T.RT_3973,
+	["bAllowClick"] = true,
+}
+T.RT_3975 = {
+	[1] = T.RT_790,
+	[2] = T.RT_3898,
+}
+T.RT_3976 = {
+	["SEQ"] = T.RT_3975,
+}
+T.RT_3977 = {
 	["ActorId"] = 100304,
 	["AnimationId"] = "Explain02_End",
 	["Duration"] = 8,
 }
-T.RT_3972 = {
-	["PlayAnimation"] = T.RT_3971,
-}
-T.RT_3973 = {
-	[1] = T.RT_150,
-	[2] = T.RT_3972,
-}
-T.RT_3974 = {
-	["SEQ"] = T.RT_3973,
-}
-T.RT_3975 = {
-	["TargetPosition"] = "177.298828,-690.292236,384.926758,-0.00012,-21.199854,106.390915,35.0,1.5,false,DoNotOverride,1.2",
-	["duration"] = 10,
-}
-T.RT_3976 = {
-	["CameraMoveTo"] = T.RT_3975,
-}
-T.RT_3977 = {
-	["TargetPosition"] = "202.821289,-682.109375,384.926758,-0.000121,-20.999859,108.990448,35.0,1.5,false,DoNotOverride,1.2",
-}
 T.RT_3978 = {
-	["CameraMoveTo"] = T.RT_3977,
+	["PlayAnimation"] = T.RT_3977,
 }
 T.RT_3979 = {
-	[1] = T.RT_3978,
-	[2] = T.RT_3976,
+	[1] = T.RT_150,
+	[2] = T.RT_3978,
 }
 T.RT_3980 = {
 	["SEQ"] = T.RT_3979,
 }
 T.RT_3981 = {
-	[1] = T.RT_3980,
-	[2] = T.RT_3974,
+	["TargetPosition"] = "177.298828,-690.292236,384.926758,-0.00012,-21.199854,106.390915,35.0,1.5,false,DoNotOverride,1.2",
+	["duration"] = 10,
 }
 T.RT_3982 = {
-	["Operations"] = T.RT_3981,
-	["bAllowClick"] = true,
+	["CameraMoveTo"] = T.RT_3981,
 }
 T.RT_3983 = {
-	["TargetPosition"] = "36.484009,179.044922,176.644531,0.000297,-14.006381,-127.376175,35.000019,315.452576,false,Manual,3.0",
+	["TargetPosition"] = "202.821289,-682.109375,384.926758,-0.000121,-20.999859,108.990448,35.0,1.5,false,DoNotOverride,1.2",
 }
 T.RT_3984 = {
 	["CameraMoveTo"] = T.RT_3983,
 }
 T.RT_3985 = {
 	[1] = T.RT_3984,
+	[2] = T.RT_3982,
 }
 T.RT_3986 = {
 	["SEQ"] = T.RT_3985,
 }
 T.RT_3987 = {
-	["TargetPosition"] = "136.852234,-320.489258,75.955078,0.000275,7.598257,113.831276,35.000015,2333.739502,false,Manual,3.0",
+	[1] = T.RT_3986,
+	[2] = T.RT_3980,
 }
 T.RT_3988 = {
-	["CameraMoveTo"] = T.RT_3987,
-}
-T.RT_3989 = {
-	[1] = T.RT_3988,
-}
-T.RT_3990 = {
-	["SEQ"] = T.RT_3989,
-}
-T.RT_3991 = {
-	[1] = T.RT_2840,
-	[2] = T.RT_3990,
-}
-T.RT_3992 = {
-	["Operations"] = T.RT_3991,
+	["Operations"] = T.RT_3987,
 	["bAllowClick"] = true,
 }
+T.RT_3989 = {
+	["TargetPosition"] = "36.484009,179.044922,176.644531,0.000297,-14.006381,-127.376175,35.000019,315.452576,false,Manual,3.0",
+}
+T.RT_3990 = {
+	["CameraMoveTo"] = T.RT_3989,
+}
+T.RT_3991 = {
+	[1] = T.RT_3990,
+}
+T.RT_3992 = {
+	["SEQ"] = T.RT_3991,
+}
 T.RT_3993 = {
-	["TargetPosition"] = "20.996643,167.708008,186.025391,0.000272,-16.19771,-130.733917,35.000015,206.537537,false,Manual,3.0",
+	["TargetPosition"] = "136.852234,-320.489258,75.955078,0.000275,7.598257,113.831276,35.000015,2333.739502,false,Manual,3.0",
 }
 T.RT_3994 = {
 	["CameraMoveTo"] = T.RT_3993,
 }
 T.RT_3995 = {
-	["TargetPosition"] = "135.663208,-35.232422,147.521484,0.00007,-15.799928,131.26181,35.000023,217.486328,false,Manual,3.0",
+	[1] = T.RT_3994,
 }
 T.RT_3996 = {
-	["CameraMoveTo"] = T.RT_3995,
+	["SEQ"] = T.RT_3995,
 }
 T.RT_3997 = {
-	["TargetPosition"] = "230.647583,-1.03125,119.628906,0.000082,4.997772,170.560379,35.000011,203.140381,false,Manual,3.0",
+	[1] = T.RT_2844,
+	[2] = T.RT_3996,
 }
 T.RT_3998 = {
-	["CameraMoveTo"] = T.RT_3997,
+	["Operations"] = T.RT_3997,
+	["bAllowClick"] = true,
 }
 T.RT_3999 = {
-	[1] = T.RT_3998,
+	["TargetPosition"] = "20.996643,167.708008,186.025391,0.000272,-16.19771,-130.733917,35.000015,206.537537,false,Manual,3.0",
 }
 T.RT_4000 = {
-	["SEQ"] = T.RT_3999,
+	["CameraMoveTo"] = T.RT_3999,
 }
 T.RT_4001 = {
-	["TargetPosition"] = "3.56424,135.133789,143.957031,0.000086,-7.202332,-42.028748,35.000008,998.946716,false,Manual,3.0",
+	["TargetPosition"] = "135.663208,-35.232422,147.521484,0.00007,-15.799928,131.26181,35.000023,217.486328,false,Manual,3.0",
 }
 T.RT_4002 = {
 	["CameraMoveTo"] = T.RT_4001,
 }
 T.RT_4003 = {
-	[1] = T.RT_4002,
+	["TargetPosition"] = "230.647583,-1.03125,119.628906,0.000082,4.997772,170.560379,35.000011,203.140381,false,Manual,3.0",
 }
 T.RT_4004 = {
-	["SEQ"] = T.RT_4003,
+	["CameraMoveTo"] = T.RT_4003,
 }
 T.RT_4005 = {
-	["TargetPosition"] = "-205.596069,-83.395508,180.607422,0.000126,-12.400939,31.861963,35.282173,428.945068,false,Manual,3.0",
+	[1] = T.RT_4004,
 }
 T.RT_4006 = {
-	["CameraMoveTo"] = T.RT_4005,
+	["SEQ"] = T.RT_4005,
 }
 T.RT_4007 = {
-	[1] = T.RT_4006,
+	["TargetPosition"] = "3.56424,135.133789,143.957031,0.000086,-7.202332,-42.028748,35.000008,998.946716,false,Manual,3.0",
 }
 T.RT_4008 = {
-	["SEQ"] = T.RT_4007,
+	["CameraMoveTo"] = T.RT_4007,
 }
 T.RT_4009 = {
-	[1] = T.RT_1860,
-	[2] = T.RT_4008,
+	[1] = T.RT_4008,
 }
 T.RT_4010 = {
-	["Operations"] = T.RT_4009,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_4009,
 }
 T.RT_4011 = {
-	["TargetPosition"] = "80.631256,-105.42334,178.525864,0.000194,-7.403289,115.154785,35.000011,142.834564,false,Manual,22.0",
+	["TargetPosition"] = "-205.596069,-83.395508,180.607422,0.000126,-12.400939,31.861963,35.282173,428.945068,false,Manual,3.0",
 }
 T.RT_4012 = {
 	["CameraMoveTo"] = T.RT_4011,
@@ -13225,14 +13230,15 @@ T.RT_4014 = {
 	["SEQ"] = T.RT_4013,
 }
 T.RT_4015 = {
-	[1] = T.RT_4014,
+	[1] = T.RT_1860,
+	[2] = T.RT_4014,
 }
 T.RT_4016 = {
 	["Operations"] = T.RT_4015,
 	["bAllowClick"] = true,
 }
 T.RT_4017 = {
-	["TargetPosition"] = "107.457764,60.605469,125.47377,0.0002,5.994658,146.542847,35.000011,142.834564,false,Manual,2.8",
+	["TargetPosition"] = "80.631256,-105.42334,178.525864,0.000194,-7.403289,115.154785,35.000011,142.834564,false,Manual,22.0",
 }
 T.RT_4018 = {
 	["CameraMoveTo"] = T.RT_4017,
@@ -13251,7 +13257,7 @@ T.RT_4022 = {
 	["bAllowClick"] = true,
 }
 T.RT_4023 = {
-	["TargetPosition"] = "59.416779,238.341797,108.856842,0.000246,13.794911,-108.023026,35.000011,142.834564,false,Manual,2.8",
+	["TargetPosition"] = "107.457764,60.605469,125.47377,0.0002,5.994658,146.542847,35.000011,142.834564,false,Manual,2.8",
 }
 T.RT_4024 = {
 	["CameraMoveTo"] = T.RT_4023,
@@ -13263,190 +13269,191 @@ T.RT_4026 = {
 	["SEQ"] = T.RT_4025,
 }
 T.RT_4027 = {
-	[1] = T.RT_1566,
-	[2] = T.RT_4026,
+	[1] = T.RT_4026,
 }
 T.RT_4028 = {
 	["Operations"] = T.RT_4027,
 	["bAllowClick"] = true,
 }
 T.RT_4029 = {
+	["TargetPosition"] = "59.416779,238.341797,108.856842,0.000246,13.794911,-108.023026,35.000011,142.834564,false,Manual,2.8",
+}
+T.RT_4030 = {
+	["CameraMoveTo"] = T.RT_4029,
+}
+T.RT_4031 = {
+	[1] = T.RT_4030,
+}
+T.RT_4032 = {
+	["SEQ"] = T.RT_4031,
+}
+T.RT_4033 = {
+	[1] = T.RT_1566,
+	[2] = T.RT_4032,
+}
+T.RT_4034 = {
+	["Operations"] = T.RT_4033,
+	["bAllowClick"] = true,
+}
+T.RT_4035 = {
 	["LookAtType"] = "KeepState",
 	["SpeakActorId"] = 100003,
 }
-T.RT_4030 = {
-	["DefaultLookAt"] = T.RT_4029,
+T.RT_4036 = {
+	["DefaultLookAt"] = T.RT_4035,
 }
-T.RT_4031 = {
+T.RT_4037 = {
 	["LookAtType"] = "KeepState",
 	["SpeakActorId"] = 100001,
 }
-T.RT_4032 = {
-	["DefaultLookAt"] = T.RT_4031,
-}
-T.RT_4033 = {
-	["LookAtDescription"] = "100003:n(100001)",
-}
-T.RT_4034 = {
-	["LookAt"] = T.RT_4033,
-}
-T.RT_4035 = {
-	["LookAtDescription"] = "100001:n(100003)",
-}
-T.RT_4036 = {
-	["LookAt"] = T.RT_4035,
-}
-T.RT_4037 = {
-	["TargetPosition"] = "317.9375,-203.148438,165.504761,0.000249,2.998658,152.974579,35.0,100000.0,false,Manual,22.0",
-}
 T.RT_4038 = {
-	["CameraMoveTo"] = T.RT_4037,
+	["DefaultLookAt"] = T.RT_4037,
 }
 T.RT_4039 = {
-	[1] = T.RT_4038,
+	["LookAtDescription"] = "100003:n(100001)",
 }
 T.RT_4040 = {
-	["SEQ"] = T.RT_4039,
+	["LookAt"] = T.RT_4039,
 }
 T.RT_4041 = {
-	[1] = T.RT_4040,
+	["LookAtDescription"] = "100001:n(100003)",
 }
 T.RT_4042 = {
-	["Operations"] = T.RT_4041,
-	["bAllowClick"] = true,
+	["LookAt"] = T.RT_4041,
 }
 T.RT_4043 = {
-	["TargetPosition"] = "511.515625,-301.914062,72.024963,0.000255,10.998483,151.374451,35.0,100000.0,false,Manual,22.0",
-	["duration"] = 6,
+	["TargetPosition"] = "317.9375,-203.148438,165.504761,0.000249,2.998658,152.974579,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_4044 = {
 	["CameraMoveTo"] = T.RT_4043,
 }
 T.RT_4045 = {
-	["TargetPosition"] = "524.417969,-273.097656,72.024963,0.000254,10.998483,156.973907,35.0,100000.0,false,Manual,22.0",
+	[1] = T.RT_4044,
 }
 T.RT_4046 = {
-	["CameraMoveTo"] = T.RT_4045,
+	["SEQ"] = T.RT_4045,
 }
 T.RT_4047 = {
 	[1] = T.RT_4046,
-	[2] = T.RT_4044,
 }
 T.RT_4048 = {
-	["SEQ"] = T.RT_4047,
-}
-T.RT_4049 = {
-	[1] = T.RT_4048,
-}
-T.RT_4050 = {
-	["Operations"] = T.RT_4049,
+	["Operations"] = T.RT_4047,
 	["bAllowClick"] = true,
 }
+T.RT_4049 = {
+	["TargetPosition"] = "511.515625,-301.914062,72.024963,0.000255,10.998483,151.374451,35.0,100000.0,false,Manual,22.0",
+	["duration"] = 6,
+}
+T.RT_4050 = {
+	["CameraMoveTo"] = T.RT_4049,
+}
 T.RT_4051 = {
-	[1] = T.RT_4046,
+	["TargetPosition"] = "524.417969,-273.097656,72.024963,0.000254,10.998483,156.973907,35.0,100000.0,false,Manual,22.0",
 }
 T.RT_4052 = {
-	["SEQ"] = T.RT_4051,
+	["CameraMoveTo"] = T.RT_4051,
 }
 T.RT_4053 = {
 	[1] = T.RT_4052,
+	[2] = T.RT_4050,
 }
 T.RT_4054 = {
-	["Operations"] = T.RT_4053,
-	["bAllowClick"] = true,
+	["SEQ"] = T.RT_4053,
 }
 T.RT_4055 = {
-	["LookAtDescription"] = "100001:n(100014)",
+	[1] = T.RT_4054,
 }
 T.RT_4056 = {
-	["LookAt"] = T.RT_4055,
-}
-T.RT_4057 = {
-	[1] = T.RT_4032,
-	[2] = T.RT_4036,
-}
-T.RT_4058 = {
-	["Operations"] = T.RT_4057,
+	["Operations"] = T.RT_4055,
 	["bAllowClick"] = true,
 }
+T.RT_4057 = {
+	[1] = T.RT_4052,
+}
+T.RT_4058 = {
+	["SEQ"] = T.RT_4057,
+}
 T.RT_4059 = {
-	["LookAtDescription"] = "100005:n(100003)",
+	[1] = T.RT_4058,
 }
 T.RT_4060 = {
-	["LookAt"] = T.RT_4059,
+	["Operations"] = T.RT_4059,
+	["bAllowClick"] = true,
 }
 T.RT_4061 = {
-	["LookAtType"] = "Self",
-	["SpeakActorId"] = 100005,
+	["LookAtDescription"] = "100001:n(100014)",
 }
 T.RT_4062 = {
-	["DefaultLookAt"] = T.RT_4061,
+	["LookAt"] = T.RT_4061,
 }
 T.RT_4063 = {
-	[1] = T.RT_4030,
+	[1] = T.RT_4038,
+	[2] = T.RT_4042,
 }
 T.RT_4064 = {
 	["Operations"] = T.RT_4063,
 	["bAllowClick"] = true,
 }
 T.RT_4065 = {
+	["LookAtDescription"] = "100005:n(100003)",
+}
+T.RT_4066 = {
+	["LookAt"] = T.RT_4065,
+}
+T.RT_4067 = {
+	["LookAtType"] = "Self",
+	["SpeakActorId"] = 100005,
+}
+T.RT_4068 = {
+	["DefaultLookAt"] = T.RT_4067,
+}
+T.RT_4069 = {
+	[1] = T.RT_4036,
+}
+T.RT_4070 = {
+	["Operations"] = T.RT_4069,
+	["bAllowClick"] = true,
+}
+T.RT_4071 = {
 	["LookAtType"] = "KeepState",
 	["SpeakActorId"] = 100005,
 }
-T.RT_4066 = {
-	["DefaultLookAt"] = T.RT_4065,
-}
-T.RT_4067 = {
-	["LookAtDescription"] = "100005:n(100001)",
-}
-T.RT_4068 = {
-	["LookAt"] = T.RT_4067,
-}
-T.RT_4069 = {
-	["TargetPosition"] = "-14.427734,54.794922,163.906128,0.000261,-4.995177,46.37698,35.0,150.0,false,Manual,2.8",
-}
-T.RT_4070 = {
-	["CameraMoveTo"] = T.RT_4069,
-}
-T.RT_4071 = {
-	[1] = T.RT_4070,
-}
 T.RT_4072 = {
-	["SEQ"] = T.RT_4071,
+	["DefaultLookAt"] = T.RT_4071,
 }
 T.RT_4073 = {
-	["LookAtDescription"] = "100009:n(100005)",
+	["LookAtDescription"] = "100005:n(100001)",
 }
 T.RT_4074 = {
 	["LookAt"] = T.RT_4073,
 }
 T.RT_4075 = {
+	["TargetPosition"] = "-14.427734,54.794922,163.906128,0.000261,-4.995177,46.37698,35.0,150.0,false,Manual,2.8",
+}
+T.RT_4076 = {
+	["CameraMoveTo"] = T.RT_4075,
+}
+T.RT_4077 = {
+	[1] = T.RT_4076,
+}
+T.RT_4078 = {
+	["SEQ"] = T.RT_4077,
+}
+T.RT_4079 = {
+	["LookAtDescription"] = "100009:n(100005)",
+}
+T.RT_4080 = {
+	["LookAt"] = T.RT_4079,
+}
+T.RT_4081 = {
 	["LookAtType"] = "KeepState",
 	["SpeakActorId"] = 100009,
 }
-T.RT_4076 = {
-	["DefaultLookAt"] = T.RT_4075,
-}
-T.RT_4077 = {
-	["TargetPosition"] = "347.469727,426.969727,126.664307,0.00029,-0.795136,-125.620972,35.0,750.0,false,Manual,2.8",
-}
-T.RT_4078 = {
-	["CameraMoveTo"] = T.RT_4077,
-}
-T.RT_4079 = {
-	[1] = T.RT_4078,
-}
-T.RT_4080 = {
-	["SEQ"] = T.RT_4079,
-}
-T.RT_4081 = {
-	["LookAtDescription"] = "100001:n(100005)",
-}
 T.RT_4082 = {
-	["LookAt"] = T.RT_4081,
+	["DefaultLookAt"] = T.RT_4081,
 }
 T.RT_4083 = {
-	["TargetPosition"] = "10000,11000,2000,0.000046,-4.799929,73.987312,35.0,150.0,false,Manual,2.8",
+	["TargetPosition"] = "347.469727,426.969727,126.664307,0.00029,-0.795136,-125.620972,35.0,750.0,false,Manual,2.8",
 }
 T.RT_4084 = {
 	["CameraMoveTo"] = T.RT_4083,
@@ -13458,10 +13465,28 @@ T.RT_4086 = {
 	["SEQ"] = T.RT_4085,
 }
 T.RT_4087 = {
-	[1] = T.RT_4086,
+	["LookAtDescription"] = "100001:n(100005)",
 }
 T.RT_4088 = {
-	["Operations"] = T.RT_4087,
+	["LookAt"] = T.RT_4087,
+}
+T.RT_4089 = {
+	["TargetPosition"] = "10000,11000,2000,0.000046,-4.799929,73.987312,35.0,150.0,false,Manual,2.8",
+}
+T.RT_4090 = {
+	["CameraMoveTo"] = T.RT_4089,
+}
+T.RT_4091 = {
+	[1] = T.RT_4090,
+}
+T.RT_4092 = {
+	["SEQ"] = T.RT_4091,
+}
+T.RT_4093 = {
+	[1] = T.RT_4092,
+}
+T.RT_4094 = {
+	["Operations"] = T.RT_4093,
 	["bAllowClick"] = true,
 }
 local ReadOnly = (DataMgr or {})["ReadOnly"] or function(n, x) return x end
@@ -13502,17 +13527,17 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10010101] = {
 		["Operations"] = {
-			[1] = T.RT_4032,
-			[2] = T.RT_2660,
+			[1] = T.RT_4038,
+			[2] = T.RT_2666,
 		},
 		["bAllowClick"] = true,
 	},
-	[10010204] = T.RT_4088,
-	[10010205] = T.RT_4088,
-	[10010206] = T.RT_4088,
+	[10010204] = T.RT_4094,
+	[10010205] = T.RT_4094,
+	[10010206] = T.RT_4094,
 	[10010801] = {
 		["Operations"] = {
-			[1] = T.RT_4032,
+			[1] = T.RT_4038,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "100001:p(QuestPoint102)",
@@ -13537,7 +13562,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10010802] = {
 		["Operations"] = {
-			[1] = T.RT_4030,
+			[1] = T.RT_4036,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -13558,12 +13583,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10011201] = {
 		["Operations"] = {
-			[1] = T.RT_4030,
-			[2] = T.RT_4034,
+			[1] = T.RT_4036,
+			[2] = T.RT_4040,
 		},
 		["bAllowClick"] = true,
 	},
-	[10011202] = T.RT_4058,
+	[10011202] = T.RT_4064,
 	[10011701] = {
 		["Operations"] = {
 			[1] = {
@@ -13637,7 +13662,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10011901] = {
 		["Operations"] = {
 			[1] = T.RT_1878,
-			[2] = T.RT_4068,
+			[2] = T.RT_4074,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -13652,31 +13677,31 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10011902] = {
 		["Operations"] = {
-			[1] = T.RT_4066,
-			[2] = T.RT_4072,
+			[1] = T.RT_4072,
+			[2] = T.RT_4078,
 		},
 		["bAllowClick"] = true,
 	},
 	[10011903] = {
 		["Operations"] = {
-			[1] = T.RT_4032,
-			[2] = T.RT_4082,
-			[3] = T.RT_4080,
+			[1] = T.RT_4038,
+			[2] = T.RT_4088,
+			[3] = T.RT_4086,
 		},
 		["bAllowClick"] = true,
 	},
 	[10011904] = {
 		["Operations"] = {
-			[1] = T.RT_4076,
-			[2] = T.RT_4082,
-			[3] = T.RT_4080,
+			[1] = T.RT_4082,
+			[2] = T.RT_4088,
+			[3] = T.RT_4086,
 		},
 		["bAllowClick"] = true,
 	},
 	[10011905] = {
 		["Operations"] = {
-			[1] = T.RT_4076,
-			[2] = T.RT_4074,
+			[1] = T.RT_4082,
+			[2] = T.RT_4080,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -13691,8 +13716,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10011906] = {
 		["Operations"] = {
-			[1] = T.RT_4076,
-			[2] = T.RT_4074,
+			[1] = T.RT_4082,
+			[2] = T.RT_4080,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -13707,15 +13732,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10011907] = {
 		["Operations"] = {
-			[1] = T.RT_4066,
-			[2] = T.RT_4060,
-			[3] = T.RT_4072,
+			[1] = T.RT_4072,
+			[2] = T.RT_4066,
+			[3] = T.RT_4078,
 		},
 		["bAllowClick"] = true,
 	},
 	[10011908] = {
 		["Operations"] = {
-			[1] = T.RT_4066,
+			[1] = T.RT_4072,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -13730,7 +13755,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10011909] = {
 		["Operations"] = {
-			[1] = T.RT_4066,
+			[1] = T.RT_4072,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "100009:n(100009)",
@@ -13750,8 +13775,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10011910] = {
 		["Operations"] = {
-			[1] = T.RT_4062,
-			[2] = T.RT_4068,
+			[1] = T.RT_4068,
+			[2] = T.RT_4074,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -13772,21 +13797,21 @@ return ReadOnly("DialogueScripts2Table", {
 					["SpeakActorId"] = 100003,
 				},
 			},
-			[2] = T.RT_4060,
+			[2] = T.RT_4066,
 		},
 		["bAllowClick"] = true,
 	},
 	[10012003] = {
 		["Operations"] = {
-			[1] = T.RT_4066,
-			[2] = T.RT_4060,
+			[1] = T.RT_4072,
+			[2] = T.RT_4066,
 		},
 		["bAllowClick"] = true,
 	},
-	[10012006] = T.RT_4064,
+	[10012006] = T.RT_4070,
 	[10012008] = {
 		["Operations"] = {
-			[1] = T.RT_4030,
+			[1] = T.RT_4036,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "100007:n(100005)",
@@ -13795,28 +13820,28 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10012009] = T.RT_4064,
+	[10012009] = T.RT_4070,
 	[10012010] = {
 		["Operations"] = {
-			[1] = T.RT_4062,
-			[2] = T.RT_3159,
+			[1] = T.RT_4068,
+			[2] = T.RT_3163,
 		},
 		["bAllowClick"] = true,
 	},
 	[10012011] = {
 		["Operations"] = {
-			[1] = T.RT_4032,
-			[2] = T.RT_4060,
+			[1] = T.RT_4038,
+			[2] = T.RT_4066,
 		},
 		["bAllowClick"] = true,
 	},
-	[10012602] = T.RT_4058,
-	[10012701] = T.RT_4050,
+	[10012602] = T.RT_4064,
+	[10012701] = T.RT_4056,
 	[10012702] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_4038,
+					[1] = T.RT_4044,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "317.9375,-203.148438,165.504761,0.000249,2.998658,152.974579,35.0,100000.0,false,Manual,22.0",
@@ -13830,8 +13855,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10012703] = {
 		["Operations"] = {
-			[1] = T.RT_4032,
-			[2] = T.RT_4056,
+			[1] = T.RT_4038,
+			[2] = T.RT_4062,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -13872,8 +13897,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10012706] = {
 		["Operations"] = {
-			[1] = T.RT_4032,
-			[2] = T.RT_4056,
+			[1] = T.RT_4038,
+			[2] = T.RT_4062,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -13892,16 +13917,16 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10012707] = T.RT_4054,
-	[10012708] = T.RT_4054,
-	[10012709] = T.RT_4054,
-	[10012710] = T.RT_4054,
-	[10012712] = T.RT_4050,
-	[10012713] = T.RT_4042,
-	[10012714] = T.RT_4042,
+	[10012707] = T.RT_4060,
+	[10012708] = T.RT_4060,
+	[10012709] = T.RT_4060,
+	[10012710] = T.RT_4060,
+	[10012712] = T.RT_4056,
+	[10012713] = T.RT_4048,
+	[10012714] = T.RT_4048,
 	[10018901] = {
 		["Operations"] = {
-			[1] = T.RT_4030,
+			[1] = T.RT_4036,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -13922,9 +13947,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10018902] = {
 		["Operations"] = {
-			[1] = T.RT_4030,
-			[2] = T.RT_4036,
-			[3] = T.RT_4034,
+			[1] = T.RT_4036,
+			[2] = T.RT_4042,
+			[3] = T.RT_4040,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -13939,7 +13964,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10018903] = {
 		["Operations"] = {
-			[1] = T.RT_4032,
+			[1] = T.RT_4038,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -13954,7 +13979,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10018904] = {
 		["Operations"] = {
-			[1] = T.RT_4030,
+			[1] = T.RT_4036,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -14077,8 +14102,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10030407] = T.RT_4028,
-	[10030409] = T.RT_4028,
+	[10030407] = T.RT_4034,
+	[10030409] = T.RT_4034,
 	[10030410] = {
 		["Operations"] = {
 			[1] = {
@@ -14095,7 +14120,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030411] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -14120,7 +14145,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3473,
+							[1] = T.RT_3477,
 							[2] = {
 								["MoveTo"] = {
 									["ActorId"] = 200003,
@@ -14136,8 +14161,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10030414] = T.RT_4022,
-	[10030415] = T.RT_4022,
+	[10030414] = T.RT_4028,
+	[10030415] = T.RT_4028,
 	[10030416] = {
 		["Operations"] = {
 			[1] = {
@@ -14186,12 +14211,12 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10030419] = T.RT_4016,
+	[10030419] = T.RT_4022,
 	[10030420] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_4012,
+					[1] = T.RT_4018,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "80.631256,-105.42334,178.525864,0.000194,-10.20336,110.953819,35.000015,142.834564,false,Manual,22.0",
@@ -14211,11 +14236,11 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10030422] = T.RT_4016,
+	[10030422] = T.RT_4022,
 	[10030603] = {
 		["Operations"] = {
 			[1] = T.RT_1700,
-			[2] = T.RT_2792,
+			[2] = T.RT_2796,
 			[3] = T.RT_1690,
 			[4] = {
 				["SEQ"] = {
@@ -14232,16 +14257,16 @@ return ReadOnly("DialogueScripts2Table", {
 	[10030604] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_3730,
-			[3] = T.RT_4008,
+			[2] = T.RT_3736,
+			[3] = T.RT_4014,
 		},
 		["bAllowClick"] = true,
 	},
 	[10030605] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = T.RT_1860,
-			[3] = T.RT_2933,
+			[3] = T.RT_2937,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -14291,21 +14316,21 @@ return ReadOnly("DialogueScripts2Table", {
 	[10030608] = {
 		["Operations"] = {
 			[1] = T.RT_1700,
-			[2] = T.RT_2792,
+			[2] = T.RT_2796,
 			[3] = T.RT_1690,
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3996,
+					[1] = T.RT_4002,
 				},
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[10030611] = T.RT_4010,
-	[10030612] = T.RT_4010,
+	[10030611] = T.RT_4016,
+	[10030612] = T.RT_4016,
 	[10030613] = {
 		["Operations"] = {
-			[1] = T.RT_2842,
+			[1] = T.RT_2846,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -14369,15 +14394,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030615] = {
 		["Operations"] = {
-			[1] = T.RT_2842,
+			[1] = T.RT_2846,
 		},
 		["bAllowClick"] = true,
 	},
 	[10030616] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2875,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2879,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -14398,15 +14423,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030617] = {
 		["Operations"] = {
-			[1] = T.RT_4000,
+			[1] = T.RT_4006,
 		},
 		["bAllowClick"] = true,
 	},
 	[10030619] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1860,
-			[3] = T.RT_2790,
+			[3] = T.RT_2794,
 		},
 		["bAllowClick"] = true,
 	},
@@ -14418,22 +14443,22 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030625] = {
 		["Operations"] = {
-			[1] = T.RT_3730,
+			[1] = T.RT_3736,
 		},
 		["bAllowClick"] = true,
 	},
 	[10030626] = {
 		["Operations"] = {
-			[1] = T.RT_4004,
+			[1] = T.RT_4010,
 		},
 		["bAllowClick"] = true,
 	},
 	[10030627] = {
 		["Operations"] = {
-			[1] = T.RT_4004,
+			[1] = T.RT_4010,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2875,
+					[1] = T.RT_2879,
 					[2] = T.RT_1850,
 				},
 			},
@@ -14442,16 +14467,16 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030628] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_4000,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_4006,
 		},
 		["bAllowClick"] = true,
 	},
-	[10030629] = T.RT_3301,
+	[10030629] = T.RT_3305,
 	[10030630] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -14474,7 +14499,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3996,
+					[1] = T.RT_4002,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "146.945831,-49.921875,146.005859,0.000069,-6.599977,127.660065,35.000023,142.921875,false,Manual,3.0",
@@ -14496,11 +14521,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030701] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
-			[4] = T.RT_2822,
-			[5] = T.RT_3730,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
+			[4] = T.RT_2826,
+			[5] = T.RT_3736,
 			[6] = {
 				["SEQ"] = {
 					[1] = {
@@ -14522,7 +14547,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030702] = {
 		["Operations"] = {
-			[1] = T.RT_3728,
+			[1] = T.RT_3734,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -14551,7 +14576,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030704] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -14600,11 +14625,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030708] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1860,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3994,
+					[1] = T.RT_4000,
 				},
 			},
 		},
@@ -14612,11 +14637,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030709] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3994,
+					[1] = T.RT_4000,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInOutQuad",
@@ -14643,12 +14668,12 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10030711] = T.RT_3992,
+	[10030711] = T.RT_3998,
 	[10030713] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_2792,
-			[3] = T.RT_2822,
+			[2] = T.RT_2796,
+			[3] = T.RT_2826,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -14663,15 +14688,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030714] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 		},
 		["bAllowClick"] = true,
 	},
 	[10030715] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2822,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2826,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -14715,13 +14740,13 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10030717] = T.RT_3992,
+	[10030717] = T.RT_3998,
 	[10030718] = {
 		["Operations"] = {
-			[1] = T.RT_3990,
+			[1] = T.RT_3996,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2850,
+					[1] = T.RT_2854,
 					[2] = {
 						["MoveTo"] = {
 							["ActorId"] = 100304,
@@ -14737,10 +14762,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030719] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_2792,
+			[1] = T.RT_2836,
+			[2] = T.RT_2796,
 			[3] = T.RT_1700,
-			[4] = T.RT_3677,
+			[4] = T.RT_3683,
 			[5] = T.RT_1696,
 			[6] = {
 				["SEQ"] = {
@@ -14778,13 +14803,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030722] = {
 		["Operations"] = {
-			[1] = T.RT_3986,
+			[1] = T.RT_3992,
 		},
 		["bAllowClick"] = true,
 	},
 	[10030723] = {
 		["Operations"] = {
-			[1] = T.RT_3986,
+			[1] = T.RT_3992,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
@@ -14835,7 +14860,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030728] = {
 		["Operations"] = {
-			[1] = T.RT_2790,
+			[1] = T.RT_2794,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -14856,8 +14881,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030801] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2822,
+			[1] = T.RT_2842,
+			[2] = T.RT_2826,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -14904,7 +14929,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3593,
+			[2] = T.RT_3599,
 		},
 		["bAllowClick"] = true,
 	},
@@ -14945,7 +14970,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3970,
+			[2] = T.RT_3976,
 		},
 		["bAllowClick"] = true,
 	},
@@ -14986,7 +15011,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3275,
+			[2] = T.RT_3279,
 		},
 		["bAllowClick"] = true,
 	},
@@ -15010,7 +15035,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_790,
-					[2] = T.RT_3595,
+					[2] = T.RT_3601,
 				},
 			},
 		},
@@ -15038,7 +15063,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2947,
+							[2] = T.RT_2951,
 						},
 					},
 					[2] = {
@@ -15067,8 +15092,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10030810] = T.RT_3982,
-	[10030812] = T.RT_3982,
+	[10030810] = T.RT_3988,
+	[10030812] = T.RT_3988,
 	[10030813] = {
 		["Operations"] = {
 			[1] = {
@@ -15132,7 +15157,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3970,
+			[2] = T.RT_3976,
 		},
 		["bAllowClick"] = true,
 	},
@@ -15210,7 +15235,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030819] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15229,7 +15254,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_3591,
+					[2] = T.RT_3597,
 				},
 			},
 		},
@@ -15237,7 +15262,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10030820] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15253,7 +15278,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_3874,
+			[3] = T.RT_3880,
 		},
 		["bAllowClick"] = true,
 	},
@@ -15297,7 +15322,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1584,
-					[2] = T.RT_3597,
+					[2] = T.RT_3603,
 				},
 			},
 		},
@@ -15342,7 +15367,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3575,
+					[1] = T.RT_3581,
 				},
 			},
 		},
@@ -15350,7 +15375,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031001] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15407,7 +15432,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3756,
+			[2] = T.RT_3762,
 		},
 		["bAllowClick"] = true,
 	},
@@ -15415,7 +15440,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3958,
+					[1] = T.RT_3964,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-66.598633,-49.306152,128.217285,0.000165,-0.000854,-46.391235,40.0,941.904541,false,DoNotOverride,1.2",
@@ -15461,7 +15486,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031007] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15526,7 +15551,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031009] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
+			[1] = T.RT_2842,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15541,7 +15566,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031010] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15562,10 +15587,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031101] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_2838,
-			[3] = T.RT_2842,
-			[4] = T.RT_2832,
+			[1] = T.RT_2826,
+			[2] = T.RT_2842,
+			[3] = T.RT_2846,
+			[4] = T.RT_2836,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -15581,7 +15606,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[6] = T.RT_3916,
+			[6] = T.RT_3922,
 		},
 		["bAllowClick"] = true,
 	},
@@ -15601,7 +15626,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031103] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15627,7 +15652,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031104] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15648,7 +15673,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031105] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
+			[1] = T.RT_2842,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15661,13 +15686,13 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_3914,
+					[2] = T.RT_3920,
 				},
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[10031106] = T.RT_3968,
+	[10031106] = T.RT_3974,
 	[10031109] = {
 		["Operations"] = {
 			[1] = {
@@ -15688,7 +15713,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10031110] = T.RT_3968,
+	[10031110] = T.RT_3974,
 	[10031111] = {
 		["Operations"] = {
 			[1] = {
@@ -15717,13 +15742,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031112] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
-			[2] = T.RT_2832,
-			[3] = T.RT_3950,
+			[1] = T.RT_2844,
+			[2] = T.RT_2836,
+			[3] = T.RT_3956,
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3746,
-					[2] = T.RT_3277,
+					[1] = T.RT_3752,
+					[2] = T.RT_3281,
 				},
 			},
 		},
@@ -15743,19 +15768,19 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_3591,
+					[2] = T.RT_3597,
 				},
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[10031114] = T.RT_3962,
-	[10031115] = T.RT_3956,
-	[10031116] = T.RT_3962,
-	[10031117] = T.RT_3956,
+	[10031114] = T.RT_3968,
+	[10031115] = T.RT_3962,
+	[10031116] = T.RT_3968,
+	[10031117] = T.RT_3962,
 	[10031118] = {
 		["Operations"] = {
-			[1] = T.RT_3950,
+			[1] = T.RT_3956,
 		},
 		["bAllowClick"] = true,
 	},
@@ -15813,7 +15838,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_3191,
+					[2] = T.RT_3195,
 				},
 			},
 		},
@@ -15821,8 +15846,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031201] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_3730,
+			[1] = T.RT_2826,
+			[2] = T.RT_3736,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -15841,7 +15866,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_3782,
+					[2] = T.RT_3788,
 				},
 			},
 		},
@@ -15849,8 +15874,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031202] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_2875,
+			[1] = T.RT_2836,
+			[2] = T.RT_2879,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -15871,12 +15896,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031203] = {
 		["Operations"] = {
-			[1] = T.RT_2842,
-			[2] = T.RT_3944,
+			[1] = T.RT_2846,
+			[2] = T.RT_3950,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_2945,
+					[2] = T.RT_2949,
 				},
 			},
 		},
@@ -15884,7 +15909,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031204] = {
 		["Operations"] = {
-			[1] = T.RT_3746,
+			[1] = T.RT_3752,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15897,8 +15922,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10031206] = T.RT_3946,
-	[10031208] = T.RT_3946,
+	[10031206] = T.RT_3952,
+	[10031208] = T.RT_3952,
 	[10031209] = {
 		["Operations"] = {
 			[1] = {
@@ -15915,10 +15940,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031501] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
-			[4] = T.RT_2822,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
+			[4] = T.RT_2826,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -15939,7 +15964,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031502] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -15974,7 +15999,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031505] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
+			[1] = T.RT_2854,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16026,7 +16051,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_3932,
+					[2] = T.RT_3938,
 				},
 			},
 		},
@@ -16074,20 +16099,20 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3281,
+					[2] = T.RT_3285,
 				},
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[10031513] = T.RT_3940,
-	[10031514] = T.RT_3940,
+	[10031513] = T.RT_3946,
+	[10031514] = T.RT_3946,
 	[10031701] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
-			[4] = T.RT_2822,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
+			[4] = T.RT_2826,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -16126,7 +16151,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1768,
-					[2] = T.RT_3914,
+					[2] = T.RT_3920,
 				},
 			},
 		},
@@ -16154,7 +16179,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031704] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16215,7 +16240,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031707] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16234,7 +16259,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_790,
-					[2] = T.RT_3918,
+					[2] = T.RT_3924,
 				},
 			},
 		},
@@ -16242,7 +16267,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031708] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
+			[1] = T.RT_2842,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16289,10 +16314,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031801] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
-			[4] = T.RT_2840,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
+			[4] = T.RT_2844,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -16333,13 +16358,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3904,
+							[2] = T.RT_3910,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_3932,
+							[2] = T.RT_3938,
 						},
 					},
 				},
@@ -16410,7 +16435,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3918,
+							[2] = T.RT_3924,
 						},
 					},
 				},
@@ -16440,7 +16465,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031806] = {
 		["Operations"] = {
-			[1] = T.RT_3728,
+			[1] = T.RT_3734,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16518,7 +16543,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031808] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16546,7 +16571,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["TargetPosition"] = "-6.571289,-30.124878,167.953857,0.000099,-24.802855,-53.526508,35.000011,100000.0,false,Manual,22.0",
 						},
 					},
-					[2] = T.RT_3934,
+					[2] = T.RT_3940,
 				},
 			},
 		},
@@ -16556,7 +16581,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3934,
+					[1] = T.RT_3940,
 				},
 			},
 			[2] = {
@@ -16585,9 +16610,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031901] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -16608,7 +16633,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031902] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16647,7 +16672,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3882,
+					[2] = T.RT_3888,
 				},
 			},
 		},
@@ -16696,7 +16721,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031905] = {
 		["Operations"] = {
-			[1] = T.RT_3728,
+			[1] = T.RT_3734,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16758,7 +16783,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3932,
+							[2] = T.RT_3938,
 						},
 					},
 				},
@@ -16768,7 +16793,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031907] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16829,7 +16854,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10031910] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -16856,9 +16881,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032101] = {
 		["Operations"] = {
-			[1] = T.RT_3928,
-			[2] = T.RT_3926,
-			[3] = T.RT_3924,
+			[1] = T.RT_3934,
+			[2] = T.RT_3932,
+			[3] = T.RT_3930,
 			[4] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "100313:n(200021)",
@@ -17522,7 +17547,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3601,
+							[2] = T.RT_3607,
 						},
 					},
 					[2] = {
@@ -17549,7 +17574,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032302] = {
 		["Operations"] = {
-			[1] = T.RT_3930,
+			[1] = T.RT_3936,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -17778,7 +17803,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032309] = {
 		["Operations"] = {
-			[1] = T.RT_3930,
+			[1] = T.RT_3936,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -17943,7 +17968,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032314] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -17962,7 +17987,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1768,
-					[2] = T.RT_3904,
+					[2] = T.RT_3910,
 				},
 			},
 		},
@@ -18051,9 +18076,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032401] = {
 		["Operations"] = {
-			[1] = T.RT_3928,
-			[2] = T.RT_3926,
-			[3] = T.RT_3924,
+			[1] = T.RT_3934,
+			[2] = T.RT_3932,
+			[3] = T.RT_3930,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -18187,9 +18212,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032501] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -18246,7 +18271,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3922,
+			[2] = T.RT_3928,
 		},
 		["bAllowClick"] = true,
 	},
@@ -18290,7 +18315,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3922,
+					[2] = T.RT_3928,
 				},
 			},
 		},
@@ -18298,7 +18323,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032506] = {
 		["Operations"] = {
-			[1] = T.RT_3728,
+			[1] = T.RT_3734,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -18339,7 +18364,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032508] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
+			[1] = T.RT_2937,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -18397,7 +18422,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032509] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -18479,8 +18504,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032513] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2840,
+			[1] = T.RT_2842,
+			[2] = T.RT_2844,
 			[3] = T.RT_1776,
 			[4] = {
 				["SEQ"] = {
@@ -18602,7 +18627,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3792,
+					[2] = T.RT_3798,
 				},
 			},
 		},
@@ -18692,7 +18717,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_3918,
+							[2] = T.RT_3924,
 						},
 					},
 				},
@@ -18702,8 +18727,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032518] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_2792,
+			[1] = T.RT_2826,
+			[2] = T.RT_2796,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -18827,19 +18852,19 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032523] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_2838,
-			[3] = T.RT_3910,
-			[4] = T.RT_3916,
+			[1] = T.RT_2836,
+			[2] = T.RT_2842,
+			[3] = T.RT_3916,
+			[4] = T.RT_3922,
 		},
 		["bAllowClick"] = true,
 	},
-	[10032525] = T.RT_3912,
-	[10032527] = T.RT_3912,
+	[10032525] = T.RT_3918,
+	[10032527] = T.RT_3918,
 	[10032529] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2840,
+			[1] = T.RT_2842,
+			[2] = T.RT_2844,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -18918,7 +18943,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032531] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
+			[1] = T.RT_2854,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -18960,7 +18985,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032701] = {
 		["Operations"] = {
-			[1] = T.RT_3902,
+			[1] = T.RT_3908,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -19014,7 +19039,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3896,
+			[2] = T.RT_3902,
 		},
 		["bAllowClick"] = true,
 	},
@@ -19038,7 +19063,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_3904,
+					[2] = T.RT_3910,
 				},
 			},
 		},
@@ -19236,7 +19261,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032714] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
+			[1] = T.RT_2842,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -19252,13 +19277,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_3764,
+			[3] = T.RT_3770,
 		},
 		["bAllowClick"] = true,
 	},
 	[10032715] = {
 		["Operations"] = {
-			[1] = T.RT_3902,
+			[1] = T.RT_3908,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -19423,7 +19448,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032723] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -19487,7 +19512,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3900,
+					[2] = T.RT_3906,
 				},
 			},
 		},
@@ -19585,7 +19610,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1584,
-					[2] = T.RT_3898,
+					[2] = T.RT_3904,
 				},
 			},
 		},
@@ -19610,11 +19635,11 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3894,
+					[1] = T.RT_3900,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3900,
+							[2] = T.RT_3906,
 						},
 					},
 				},
@@ -19693,8 +19718,8 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3898,
-					[3] = T.RT_3896,
+					[2] = T.RT_3904,
+					[3] = T.RT_3902,
 				},
 			},
 		},
@@ -19811,7 +19836,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3882,
+					[1] = T.RT_3888,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1726,
@@ -19883,9 +19908,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032801] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
+			[1] = T.RT_2842,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -19906,7 +19931,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032802] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -19921,7 +19946,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032803] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
+			[1] = T.RT_2854,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -19963,7 +19988,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1582,
-							[2] = T.RT_3790,
+							[2] = T.RT_3796,
 						},
 					},
 				},
@@ -20028,7 +20053,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032806] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -20069,7 +20094,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3892,
+							[2] = T.RT_3898,
 						},
 					},
 					[2] = {
@@ -20098,7 +20123,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10032809] = T.RT_3890,
+	[10032809] = T.RT_3896,
 	[10032810] = {
 		["Operations"] = {
 			[1] = {
@@ -20119,7 +20144,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10032812] = T.RT_3890,
+	[10032812] = T.RT_3896,
 	[10032813] = {
 		["Operations"] = {
 			[1] = {
@@ -20376,7 +20401,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10032823] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_2792,
+			[2] = T.RT_2796,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -20418,7 +20443,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_3870,
+							[2] = T.RT_3876,
 						},
 					},
 				},
@@ -20428,7 +20453,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032826] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -20459,8 +20484,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032827] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2842,
+			[1] = T.RT_2842,
+			[2] = T.RT_2846,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -20481,10 +20506,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_3882,
+							[2] = T.RT_3888,
 						},
 					},
-					[2] = T.RT_3866,
+					[2] = T.RT_3872,
 				},
 			},
 		},
@@ -20492,7 +20517,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032828] = {
 		["Operations"] = {
-			[1] = T.RT_2842,
+			[1] = T.RT_2846,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -20513,7 +20538,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032829] = {
 		["Operations"] = {
-			[1] = T.RT_3728,
+			[1] = T.RT_3734,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -20571,7 +20596,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10032830] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -20613,7 +20638,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033001] = {
 		["Operations"] = {
-			[1] = T.RT_3880,
+			[1] = T.RT_3886,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -20652,8 +20677,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033002] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3730,
+			[1] = T.RT_2836,
+			[2] = T.RT_3736,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -20672,7 +20697,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_2856,
+					[2] = T.RT_2860,
 				},
 			},
 		},
@@ -20697,11 +20722,11 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2854,
+					[1] = T.RT_2858,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_3744,
+							[2] = T.RT_3750,
 						},
 					},
 				},
@@ -20752,22 +20777,22 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_3229,
+							[2] = T.RT_3233,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_2875,
+							[2] = T.RT_2879,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_3734,
+							[1] = T.RT_3740,
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_140,
-									[2] = T.RT_2820,
+									[2] = T.RT_2824,
 								},
 							},
 						},
@@ -20866,7 +20891,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033202] = {
 		["Operations"] = {
-			[1] = T.RT_3880,
+			[1] = T.RT_3886,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -20893,8 +20918,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033203] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
-			[2] = T.RT_3766,
+			[1] = T.RT_2854,
+			[2] = T.RT_3772,
 			[3] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200021:n(100321)",
@@ -20920,7 +20945,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3802,
+							[2] = T.RT_3808,
 						},
 					},
 					[2] = {
@@ -20946,9 +20971,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033204] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3878,
-			[3] = T.RT_3878,
+			[1] = T.RT_2836,
+			[2] = T.RT_3884,
+			[3] = T.RT_3884,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -20967,7 +20992,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[5] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_3746,
+					[2] = T.RT_3752,
 				},
 			},
 		},
@@ -21005,7 +21030,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3732,
+							[2] = T.RT_3738,
 						},
 					},
 				},
@@ -21015,9 +21040,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033501] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1700,
-			[3] = T.RT_2832,
+			[3] = T.RT_2836,
 			[4] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "100311:n(100304)",
@@ -21103,7 +21128,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033502] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -21185,7 +21210,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
+							[1] = T.RT_2204,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "112.855469,32.067932,49.595215,-0.000245,20.987892,-153.824799,25.000006,43.460876,false,Manual,1.879206",
@@ -21208,8 +21233,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033505] = {
 		["Operations"] = {
-			[1] = T.RT_3868,
-			[2] = T.RT_3876,
+			[1] = T.RT_3874,
+			[2] = T.RT_3882,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -21299,8 +21324,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033508] = {
 		["Operations"] = {
-			[1] = T.RT_3868,
-			[2] = T.RT_3876,
+			[1] = T.RT_3874,
+			[2] = T.RT_3882,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -21346,7 +21371,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033509] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1700,
 			[3] = {
 				["SEQ"] = {
@@ -21366,7 +21391,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_790,
-					[2] = T.RT_3872,
+					[2] = T.RT_3878,
 				},
 			},
 		},
@@ -21389,7 +21414,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3874,
+			[2] = T.RT_3880,
 		},
 		["bAllowClick"] = true,
 	},
@@ -21427,7 +21452,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2947,
+							[2] = T.RT_2951,
 						},
 					},
 				},
@@ -21455,7 +21480,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3870,
+					[2] = T.RT_3876,
 				},
 			},
 		},
@@ -21463,7 +21488,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033515] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -21525,7 +21550,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033518] = {
 		["Operations"] = {
-			[1] = T.RT_3868,
+			[1] = T.RT_3874,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -21606,7 +21631,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3866,
+					[2] = T.RT_3872,
 				},
 			},
 		},
@@ -21675,7 +21700,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033525] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -21730,7 +21755,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033703] = {
 		["Operations"] = {
-			[1] = T.RT_3677,
+			[1] = T.RT_3683,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -21767,7 +21792,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2790,
+							[2] = T.RT_2794,
 						},
 					},
 					[2] = {
@@ -21783,7 +21808,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_3063,
+							[1] = T.RT_3067,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200021,
@@ -21800,7 +21825,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033705] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -21841,7 +21866,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033707] = {
 		["Operations"] = {
-			[1] = T.RT_3677,
+			[1] = T.RT_3683,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -21862,7 +21887,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033708] = {
 		["Operations"] = {
-			[1] = T.RT_2790,
+			[1] = T.RT_2794,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -21883,10 +21908,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2871,
+							[2] = T.RT_2875,
 						},
 					},
-					[2] = T.RT_2931,
+					[2] = T.RT_2935,
 				},
 			},
 		},
@@ -21929,7 +21954,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3249,
+			[2] = T.RT_3253,
 		},
 		["bAllowClick"] = true,
 	},
@@ -21961,7 +21986,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3253,
+							[1] = T.RT_3257,
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_140,
@@ -21985,7 +22010,7 @@ return ReadOnly("DialogueScripts2Table", {
 									[2] = T.RT_1692,
 								},
 							},
-							[2] = T.RT_2724,
+							[2] = T.RT_2730,
 							[3] = {
 								["SEQ"] = {
 									[1] = T.RT_1144,
@@ -22162,7 +22187,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033904] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -22225,7 +22250,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033906] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -22246,7 +22271,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2782,
+							[2] = T.RT_2786,
 						},
 					},
 					[2] = {
@@ -22359,7 +22384,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033910] = {
 		["Operations"] = {
-			[1] = T.RT_3852,
+			[1] = T.RT_3858,
 			[2] = T.RT_1860,
 			[3] = {
 				["SEQ"] = {
@@ -22379,7 +22404,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_2951,
+					[2] = T.RT_2955,
 				},
 			},
 		},
@@ -22632,7 +22657,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1584,
-					[2] = T.RT_3864,
+					[2] = T.RT_3870,
 				},
 			},
 		},
@@ -23018,7 +23043,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_3864,
+							[2] = T.RT_3870,
 						},
 					},
 					[3] = {
@@ -23040,7 +23065,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033929] = {
 		["Operations"] = {
-			[1] = T.RT_3862,
+			[1] = T.RT_3868,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -23101,8 +23126,8 @@ return ReadOnly("DialogueScripts2Table", {
 									},
 								},
 							},
-							[2] = T.RT_3860,
-							[3] = T.RT_3856,
+							[2] = T.RT_3866,
+							[3] = T.RT_3862,
 						},
 					},
 				},
@@ -23132,7 +23157,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033931] = {
 		["Operations"] = {
-			[1] = T.RT_3858,
+			[1] = T.RT_3864,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -23153,7 +23178,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033932] = {
 		["Operations"] = {
-			[1] = T.RT_3862,
+			[1] = T.RT_3868,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -23317,7 +23342,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_3790,
+							[2] = T.RT_3796,
 						},
 					},
 				},
@@ -23360,7 +23385,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[5] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3605,
+					[2] = T.RT_3611,
 				},
 			},
 		},
@@ -23637,7 +23662,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100304:n(100358)",
 				},
 			},
-			[2] = T.RT_3860,
+			[2] = T.RT_3866,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -23678,8 +23703,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033947] = {
 		["Operations"] = {
-			[1] = T.RT_3858,
-			[2] = T.RT_3856,
+			[1] = T.RT_3864,
+			[2] = T.RT_3862,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -23907,9 +23932,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033954] = {
 		["Operations"] = {
-			[1] = T.RT_3850,
-			[2] = T.RT_3854,
-			[3] = T.RT_3852,
+			[1] = T.RT_3856,
+			[2] = T.RT_3860,
+			[3] = T.RT_3858,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -23928,8 +23953,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[5] = {
 				["PARA"] = {
-					[1] = T.RT_3848,
-					[2] = T.RT_3846,
+					[1] = T.RT_3854,
+					[2] = T.RT_3852,
 					[3] = {
 						["SEQ"] = {
 							[1] = {
@@ -24040,7 +24065,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3557,
+							[2] = T.RT_3563,
 						},
 					},
 				},
@@ -24050,8 +24075,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033958] = {
 		["Operations"] = {
-			[1] = T.RT_3850,
-			[2] = T.RT_3852,
+			[1] = T.RT_3856,
+			[2] = T.RT_3858,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -24069,8 +24094,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_3848,
-					[2] = T.RT_3846,
+					[1] = T.RT_3854,
+					[2] = T.RT_3852,
 				},
 			},
 		},
@@ -24216,9 +24241,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10033963] = {
 		["Operations"] = {
-			[1] = T.RT_3854,
-			[2] = T.RT_3852,
-			[3] = T.RT_3850,
+			[1] = T.RT_3860,
+			[2] = T.RT_3858,
+			[3] = T.RT_3856,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -24243,8 +24268,8 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_3848,
-					[3] = T.RT_3846,
+					[2] = T.RT_3854,
+					[3] = T.RT_3852,
 				},
 			},
 		},
@@ -24293,7 +24318,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_2947,
+							[2] = T.RT_2951,
 						},
 					},
 				},
@@ -24442,8 +24467,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10033972] = T.RT_3844,
-	[10033974] = T.RT_3844,
+	[10033972] = T.RT_3850,
+	[10033974] = T.RT_3850,
 	[10033975] = {
 		["Operations"] = {
 			[1] = {
@@ -24560,7 +24585,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100001:p(Point04)",
 				},
 			},
-			[2] = T.RT_3836,
+			[2] = T.RT_3842,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -24586,7 +24611,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_3834,
+					[2] = T.RT_3840,
 				},
 			},
 		},
@@ -24615,7 +24640,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034109] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -24677,7 +24702,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_3836,
+							[2] = T.RT_3842,
 						},
 					},
 				},
@@ -24687,7 +24712,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034201] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -24712,7 +24737,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_3834,
+					[2] = T.RT_3840,
 				},
 			},
 		},
@@ -24988,7 +25013,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3832,
+							[2] = T.RT_3838,
 						},
 					},
 				},
@@ -25056,7 +25081,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_3832,
+					[2] = T.RT_3838,
 				},
 			},
 		},
@@ -25191,7 +25216,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034225] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -25215,7 +25240,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[2] = T.RT_1700,
 						},
 					},
-					[2] = T.RT_2812,
+					[2] = T.RT_2816,
 				},
 			},
 		},
@@ -25244,8 +25269,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034228] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
-			[2] = T.RT_3830,
+			[1] = T.RT_2796,
+			[2] = T.RT_3836,
 			[3] = {
 				["PARA"] = {
 					[1] = {
@@ -25288,8 +25313,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034230] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
-			[2] = T.RT_3830,
+			[1] = T.RT_2796,
+			[2] = T.RT_3836,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -25316,9 +25341,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034301] = {
 		["Operations"] = {
-			[1] = T.RT_3816,
-			[2] = T.RT_3766,
-			[3] = T.RT_3824,
+			[1] = T.RT_3822,
+			[2] = T.RT_3772,
+			[3] = T.RT_3830,
 			[4] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -25361,7 +25386,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[3] = T.RT_3822,
+					[3] = T.RT_3828,
 					[4] = {
 						["MoveTo"] = {
 							["ActorId"] = 200002,
@@ -25398,8 +25423,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034302] = {
 		["Operations"] = {
-			[1] = T.RT_3810,
-			[2] = T.RT_3824,
+			[1] = T.RT_3816,
+			[2] = T.RT_3830,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -25696,7 +25721,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034314] = {
 		["Operations"] = {
-			[1] = T.RT_3808,
+			[1] = T.RT_3814,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -25750,7 +25775,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034316] = {
 		["Operations"] = {
-			[1] = T.RT_3810,
+			[1] = T.RT_3816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -25766,13 +25791,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2792,
+			[3] = T.RT_2796,
 		},
 		["bAllowClick"] = true,
 	},
 	[10034317] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -25788,7 +25813,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_3820,
+			[3] = T.RT_3826,
 		},
 		["bAllowClick"] = true,
 	},
@@ -25815,13 +25840,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3818,
+							[2] = T.RT_3824,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2893,
-							[2] = T.RT_3822,
+							[1] = T.RT_2897,
+							[2] = T.RT_3828,
 						},
 					},
 				},
@@ -25871,7 +25896,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034321] = {
 		["Operations"] = {
-			[1] = T.RT_3810,
+			[1] = T.RT_3816,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -25953,13 +25978,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3820,
+			[2] = T.RT_3826,
 		},
 		["bAllowClick"] = true,
 	},
 	[10034325] = {
 		["Operations"] = {
-			[1] = T.RT_3818,
+			[1] = T.RT_3824,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -26012,7 +26037,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034326] = {
 		["Operations"] = {
-			[1] = T.RT_3816,
+			[1] = T.RT_3822,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -26051,7 +26076,7 @@ return ReadOnly("DialogueScripts2Table", {
 100001:n(200022)",
 				},
 			},
-			[3] = T.RT_3804,
+			[3] = T.RT_3810,
 			[4] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -26092,7 +26117,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034328] = {
 		["Operations"] = {
-			[1] = T.RT_3812,
+			[1] = T.RT_3818,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200021:n(200022)",
@@ -26139,7 +26164,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2676,
+									[1] = T.RT_2682,
 									[2] = {
 										["CameraMoveTo"] = {
 											["TargetPosition"] = "0.649414,254.645752,120.617188,-5.000004,16.997314,37.609219,35.0,62.597889,false,Manual,22.0",
@@ -26163,7 +26188,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034329] = {
 		["Operations"] = {
-			[1] = T.RT_3814,
+			[1] = T.RT_3820,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -26210,7 +26235,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034331] = {
 		["Operations"] = {
-			[1] = T.RT_3806,
+			[1] = T.RT_3812,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -26251,7 +26276,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034333] = {
 		["Operations"] = {
-			[1] = T.RT_3814,
+			[1] = T.RT_3820,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -26342,7 +26367,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034337] = {
 		["Operations"] = {
-			[1] = T.RT_3812,
+			[1] = T.RT_3818,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -26392,22 +26417,22 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_140,
-									[2] = T.RT_3810,
+									[2] = T.RT_3816,
 								},
 							},
-							[2] = T.RT_3229,
+							[2] = T.RT_3233,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2792,
+							[2] = T.RT_2796,
 						},
 					},
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3808,
+							[2] = T.RT_3814,
 						},
 					},
 				},
@@ -26417,8 +26442,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034401] = {
 		["Operations"] = {
-			[1] = T.RT_3806,
-			[2] = T.RT_3804,
+			[1] = T.RT_3812,
+			[2] = T.RT_3810,
 			[3] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -26560,10 +26585,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034404] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_3768,
-			[3] = T.RT_3736,
-			[4] = T.RT_2844,
+			[1] = T.RT_2826,
+			[2] = T.RT_3774,
+			[3] = T.RT_3742,
+			[4] = T.RT_2848,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -26612,8 +26637,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034501] = {
 		["Operations"] = {
-			[1] = T.RT_3669,
-			[2] = T.RT_3774,
+			[1] = T.RT_3675,
+			[2] = T.RT_3780,
 			[3] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200002:n(100310)",
@@ -26696,7 +26721,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3796,
+							[2] = T.RT_3802,
 						},
 					},
 				},
@@ -26706,8 +26731,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034503] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_3768,
+			[1] = T.RT_2842,
+			[2] = T.RT_3774,
 			[3] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -26745,7 +26770,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[3] = T.RT_2856,
+					[3] = T.RT_2860,
 				},
 			},
 		},
@@ -26753,14 +26778,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034504] = {
 		["Operations"] = {
-			[1] = T.RT_3607,
+			[1] = T.RT_3613,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
 100323:n(100304)",
 				},
 			},
-			[3] = T.RT_3772,
+			[3] = T.RT_3778,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -26786,7 +26811,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100310:n(100323)",
 				},
 			},
-			[2] = T.RT_3800,
+			[2] = T.RT_3806,
 			[3] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "100323:n(100310)",
@@ -26838,7 +26863,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034508] = {
 		["Operations"] = {
-			[1] = T.RT_3667,
+			[1] = T.RT_3673,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -26860,7 +26885,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10034509] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_3750,
+			[2] = T.RT_3756,
 			[3] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -26873,7 +26898,7 @@ return ReadOnly("DialogueScripts2Table", {
 100323:n(200021)",
 				},
 			},
-			[5] = T.RT_3798,
+			[5] = T.RT_3804,
 			[6] = {
 				["SEQ"] = {
 					[1] = {
@@ -26915,8 +26940,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034510] = {
 		["Operations"] = {
-			[1] = T.RT_3667,
-			[2] = T.RT_3752,
+			[1] = T.RT_3673,
+			[2] = T.RT_3758,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -26965,7 +26990,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[3] = {
 								["SEQ"] = {
 									[1] = T.RT_146,
-									[2] = T.RT_3802,
+									[2] = T.RT_3808,
 								},
 							},
 						},
@@ -26977,16 +27002,16 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034511] = {
 		["Operations"] = {
-			[1] = T.RT_3669,
-			[2] = T.RT_3794,
+			[1] = T.RT_3675,
+			[2] = T.RT_3800,
 			[3] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
 100310:n(100310)",
 				},
 			},
-			[4] = T.RT_3800,
-			[5] = T.RT_3776,
+			[4] = T.RT_3806,
+			[5] = T.RT_3782,
 			[6] = {
 				["SEQ"] = {
 					[1] = {
@@ -27072,11 +27097,11 @@ return ReadOnly("DialogueScripts2Table", {
 							[2] = T.RT_1772,
 						},
 					},
-					[3] = T.RT_2895,
+					[3] = T.RT_2899,
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2929,
+							[2] = T.RT_2933,
 						},
 					},
 				},
@@ -27086,7 +27111,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034514] = {
 		["Operations"] = {
-			[1] = T.RT_3798,
+			[1] = T.RT_3804,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -27148,7 +27173,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1726,
-							[2] = T.RT_3796,
+							[2] = T.RT_3802,
 						},
 					},
 					[3] = {
@@ -27166,7 +27191,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_858,
-									[2] = T.RT_3607,
+									[2] = T.RT_3613,
 								},
 							},
 						},
@@ -27212,19 +27237,19 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_3780,
+							[2] = T.RT_3786,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2788,
+							[2] = T.RT_2792,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1768,
-							[2] = T.RT_3778,
+							[2] = T.RT_3784,
 						},
 					},
 				},
@@ -27251,7 +27276,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3770,
+					[1] = T.RT_3776,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
@@ -27303,9 +27328,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034520] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3736,
-			[3] = T.RT_3794,
+			[1] = T.RT_2836,
+			[2] = T.RT_3742,
+			[3] = T.RT_3800,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -27346,7 +27371,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034524] = {
 		["Operations"] = {
-			[1] = T.RT_2883,
+			[1] = T.RT_2887,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -27361,7 +27386,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034525] = {
 		["Operations"] = {
-			[1] = T.RT_3730,
+			[1] = T.RT_3736,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -27420,10 +27445,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034528] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
-			[2] = T.RT_2812,
+			[1] = T.RT_2796,
+			[2] = T.RT_2816,
 			[3] = T.RT_1860,
-			[4] = T.RT_2883,
+			[4] = T.RT_2887,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -27444,8 +27469,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034529] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
-			[2] = T.RT_2812,
+			[1] = T.RT_2937,
+			[2] = T.RT_2816,
 			[3] = T.RT_1690,
 			[4] = {
 				["SEQ"] = {
@@ -27461,8 +27486,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034530] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
-			[2] = T.RT_2812,
+			[1] = T.RT_2796,
+			[2] = T.RT_2816,
 			[3] = T.RT_1860,
 			[4] = {
 				["SEQ"] = {
@@ -27478,8 +27503,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034531] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
-			[2] = T.RT_2812,
+			[1] = T.RT_2937,
+			[2] = T.RT_2816,
 			[3] = T.RT_1690,
 			[4] = {
 				["SEQ"] = {
@@ -27495,7 +27520,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034532] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1700,
 			[3] = T.RT_1860,
 			[4] = {
@@ -27512,16 +27537,16 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034533] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
-			[2] = T.RT_2812,
+			[1] = T.RT_2786,
+			[2] = T.RT_2816,
 			[3] = T.RT_1860,
 		},
 		["bAllowClick"] = true,
 	},
 	[10034534] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
-			[2] = T.RT_2812,
+			[1] = T.RT_2796,
+			[2] = T.RT_2816,
 			[3] = T.RT_1860,
 			[4] = {
 				["SEQ"] = {
@@ -27594,7 +27619,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034536] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -27633,7 +27658,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3792,
+					[2] = T.RT_3798,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
@@ -27653,8 +27678,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034537] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_2838,
+			[1] = T.RT_2836,
+			[2] = T.RT_2842,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -27675,8 +27700,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034539] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_3788,
+			[1] = T.RT_2826,
+			[2] = T.RT_3794,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
@@ -27714,12 +27739,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034542] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_3788,
+			[1] = T.RT_2826,
+			[2] = T.RT_3794,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_3595,
+					[2] = T.RT_3601,
 				},
 			},
 		},
@@ -27768,8 +27793,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034544] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
-			[2] = T.RT_2850,
+			[1] = T.RT_2937,
+			[2] = T.RT_2854,
 			[3] = T.RT_1116,
 			[4] = {
 				["SEQ"] = {
@@ -27789,7 +27814,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[5] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_2812,
+					[2] = T.RT_2816,
 				},
 			},
 		},
@@ -27839,7 +27864,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_3782,
+							[2] = T.RT_3788,
 						},
 					},
 				},
@@ -27849,7 +27874,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034546] = {
 		["Operations"] = {
-			[1] = T.RT_3728,
+			[1] = T.RT_3734,
 			[2] = T.RT_1690,
 			[3] = {
 				["SEQ"] = {
@@ -27903,7 +27928,7 @@ return ReadOnly("DialogueScripts2Table", {
 200002:n(200011)",
 				},
 			},
-			[3] = T.RT_3435,
+			[3] = T.RT_3439,
 			[4] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "\
@@ -27936,7 +27961,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034702] = {
 		["Operations"] = {
-			[1] = T.RT_2750,
+			[1] = T.RT_2756,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -27994,7 +28019,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034703] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -28015,13 +28040,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3780,
+							[2] = T.RT_3786,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2728,
+							[2] = T.RT_2734,
 						},
 					},
 				},
@@ -28031,7 +28056,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034704] = {
 		["Operations"] = {
-			[1] = T.RT_2728,
+			[1] = T.RT_2734,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -28056,7 +28081,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_3778,
+					[2] = T.RT_3784,
 				},
 			},
 		},
@@ -28139,8 +28164,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034707] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3736,
+			[1] = T.RT_2836,
+			[2] = T.RT_3742,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -28161,10 +28186,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2838,
+							[2] = T.RT_2842,
 						},
 					},
-					[2] = T.RT_2865,
+					[2] = T.RT_2869,
 				},
 			},
 		},
@@ -28172,7 +28197,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034708] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -28193,7 +28218,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034709] = {
 		["Operations"] = {
-			[1] = T.RT_2750,
+			[1] = T.RT_2756,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -28235,7 +28260,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[3] = T.RT_2752,
+					[3] = T.RT_2758,
 				},
 			},
 		},
@@ -28243,9 +28268,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034710] = {
 		["Operations"] = {
-			[1] = T.RT_3669,
-			[2] = T.RT_3776,
-			[3] = T.RT_3774,
+			[1] = T.RT_3675,
+			[2] = T.RT_3782,
+			[3] = T.RT_3780,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -28266,7 +28291,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034711] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
+			[1] = T.RT_3677,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -28287,7 +28312,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3772,
+							[2] = T.RT_3778,
 						},
 					},
 					[2] = {
@@ -28337,7 +28362,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3770,
+							[2] = T.RT_3776,
 						},
 					},
 				},
@@ -28394,7 +28419,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3732,
+							[2] = T.RT_3738,
 						},
 					},
 				},
@@ -28642,8 +28667,8 @@ return ReadOnly("DialogueScripts2Table", {
 	[10034806] = {
 		["Operations"] = {
 			[1] = T.RT_1700,
-			[2] = T.RT_2782,
-			[3] = T.RT_2850,
+			[2] = T.RT_2786,
+			[3] = T.RT_2854,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -28726,7 +28751,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034808] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1116,
 			[3] = {
 				["SEQ"] = {
@@ -28774,7 +28799,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100001:p(fix31_4)",
 				},
 			},
-			[2] = T.RT_2822,
+			[2] = T.RT_2826,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -28858,8 +28883,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034811] = {
 		["Operations"] = {
-			[1] = T.RT_3728,
-			[2] = T.RT_2842,
+			[1] = T.RT_3734,
+			[2] = T.RT_2846,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -28880,8 +28905,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034812] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_2832,
+			[1] = T.RT_2826,
+			[2] = T.RT_2836,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -28943,7 +28968,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034817] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -28962,7 +28987,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_2871,
+					[2] = T.RT_2875,
 				},
 			},
 		},
@@ -29039,10 +29064,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034820] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_3768,
-			[3] = T.RT_3736,
-			[4] = T.RT_2844,
+			[1] = T.RT_2826,
+			[2] = T.RT_3774,
+			[3] = T.RT_3742,
+			[4] = T.RT_2848,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -29060,7 +29085,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[6] = {
 				["SEQ"] = {
-					[1] = T.RT_2867,
+					[1] = T.RT_2871,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 100304,
@@ -29088,7 +29113,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10034821] = {
 		["Operations"] = {
 			[1] = T.RT_1116,
-			[2] = T.RT_3754,
+			[2] = T.RT_3760,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -29129,8 +29154,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034823] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
-			[2] = T.RT_3766,
+			[1] = T.RT_2844,
+			[2] = T.RT_3772,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -29191,12 +29216,12 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3732,
-							[2] = T.RT_2820,
+							[1] = T.RT_3738,
+							[2] = T.RT_2824,
 							[3] = {
 								["SEQ"] = {
 									[1] = T.RT_1144,
-									[2] = T.RT_2852,
+									[2] = T.RT_2856,
 								},
 							},
 						},
@@ -29229,7 +29254,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034902] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -29250,7 +29275,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034903] = {
 		["Operations"] = {
-			[1] = T.RT_3730,
+			[1] = T.RT_3736,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -29352,7 +29377,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034906] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
+			[1] = T.RT_2937,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -29370,8 +29395,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2844,
-					[2] = T.RT_3355,
+					[1] = T.RT_2848,
+					[2] = T.RT_3359,
 				},
 			},
 		},
@@ -29399,7 +29424,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10034908] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -29495,13 +29520,13 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3764,
+					[1] = T.RT_3770,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_1144,
-									[2] = T.RT_3758,
+									[2] = T.RT_3764,
 								},
 							},
 							[2] = {
@@ -29509,14 +29534,14 @@ return ReadOnly("DialogueScripts2Table", {
 									["LookAtDescription"] = "100001:p(TargetPoint_nvzhu_watch2)",
 								},
 							},
-							[3] = T.RT_3758,
+							[3] = T.RT_3764,
 						},
 					},
-					[3] = T.RT_2786,
+					[3] = T.RT_2790,
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
-							[2] = T.RT_2867,
+							[2] = T.RT_2871,
 						},
 					},
 					[5] = {
@@ -29592,7 +29617,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3760,
+							[2] = T.RT_3766,
 						},
 					},
 					[4] = {
@@ -29607,7 +29632,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035005] = {
 		["Operations"] = {
-			[1] = T.RT_3577,
+			[1] = T.RT_3583,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -29648,7 +29673,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3063,
+							[2] = T.RT_3067,
 						},
 					},
 					[3] = {
@@ -29663,7 +29688,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_3579,
+							[1] = T.RT_3585,
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_1366,
@@ -29748,7 +29773,7 @@ return ReadOnly("DialogueScripts2Table", {
 									},
 								},
 							},
-							[2] = T.RT_3265,
+							[2] = T.RT_3269,
 							[3] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200021,
@@ -29775,10 +29800,10 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_150,
-									[2] = T.RT_3760,
+									[2] = T.RT_3766,
 								},
 							},
-							[2] = T.RT_3758,
+							[2] = T.RT_3764,
 							[3] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 100001,
@@ -29906,7 +29931,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2198,
+									[1] = T.RT_2204,
 									[2] = {
 										["CameraMoveTo"] = {
 											["TargetPosition"] = "-177.009277,-409.273438,145.722412,0.000009,-23.797655,-9.603174,15.0,169.659973,false,Manual,3.0",
@@ -30031,7 +30056,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3756,
+					[2] = T.RT_3762,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
@@ -30368,7 +30393,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035203] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -30389,13 +30414,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3728,
+							[2] = T.RT_3734,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1816,
-							[2] = T.RT_2832,
+							[2] = T.RT_2836,
 						},
 					},
 				},
@@ -30426,7 +30451,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1738,
-							[2] = T.RT_3740,
+							[2] = T.RT_3746,
 						},
 					},
 					[2] = {
@@ -30499,7 +30524,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3738,
+					[1] = T.RT_3744,
 					[2] = {
 						["MoveTo"] = {
 							["ActorId"] = 200002,
@@ -30543,7 +30568,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035207] = {
 		["Operations"] = {
-			[1] = T.RT_2883,
+			[1] = T.RT_2887,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -30564,8 +30589,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035208] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3736,
+			[1] = T.RT_2836,
+			[2] = T.RT_3742,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -30631,7 +30656,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3573,
+					[1] = T.RT_3579,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 100001,
@@ -30647,7 +30672,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10035214] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_3754,
+			[2] = T.RT_3760,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -30669,7 +30694,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10035215] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_3748,
+			[2] = T.RT_3754,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -30716,7 +30741,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1860,
-					[2] = T.RT_2832,
+					[2] = T.RT_2836,
 				},
 			},
 		},
@@ -30761,7 +30786,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3740,
+					[1] = T.RT_3746,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
@@ -30788,7 +30813,7 @@ return ReadOnly("DialogueScripts2Table", {
 									},
 								},
 							},
-							[3] = T.RT_3742,
+							[3] = T.RT_3748,
 						},
 					},
 				},
@@ -30813,13 +30838,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3740,
+			[2] = T.RT_3746,
 		},
 		["bAllowClick"] = true,
 	},
 	[10035220] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -30835,15 +30860,15 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_3740,
+			[3] = T.RT_3746,
 		},
 		["bAllowClick"] = true,
 	},
 	[10035221] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3752,
-			[3] = T.RT_3750,
+			[1] = T.RT_2836,
+			[2] = T.RT_3758,
+			[3] = T.RT_3756,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -30861,8 +30886,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[5] = {
 				["PARA"] = {
-					[1] = T.RT_3738,
-					[2] = T.RT_3367,
+					[1] = T.RT_3744,
+					[2] = T.RT_3371,
 					[3] = {
 						["SEQ"] = {
 							[1] = {
@@ -30909,8 +30934,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2893,
-					[2] = T.RT_2933,
+					[1] = T.RT_2897,
+					[2] = T.RT_2937,
 				},
 			},
 		},
@@ -30918,8 +30943,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035223] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3748,
+			[1] = T.RT_2836,
+			[2] = T.RT_3754,
 			[3] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "\
@@ -30984,8 +31009,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3740,
-					[2] = T.RT_3746,
+					[1] = T.RT_3746,
+					[2] = T.RT_3752,
 				},
 			},
 		},
@@ -31010,12 +31035,12 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3738,
-					[2] = T.RT_3744,
+					[1] = T.RT_3744,
+					[2] = T.RT_3750,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_3742,
+							[2] = T.RT_3748,
 						},
 					},
 					[4] = {
@@ -31032,7 +31057,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[5] = {
 						["SEQ"] = {
-							[1] = T.RT_2477,
+							[1] = T.RT_2483,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 100304,
@@ -31045,7 +31070,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[6] = {
 						["SEQ"] = {
 							[1] = T.RT_1726,
-							[2] = T.RT_2822,
+							[2] = T.RT_2826,
 						},
 					},
 				},
@@ -31055,7 +31080,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035226] = {
 		["Operations"] = {
-			[1] = T.RT_2842,
+			[1] = T.RT_2846,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -31112,7 +31137,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3740,
+					[1] = T.RT_3746,
 					[2] = {
 						["LookAt"] = {
 							["LookAtDescription"] = "100304:p(TargetPoint_cp2fixsimple47_liseWatch1)",
@@ -31132,7 +31157,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035228] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
+			[1] = T.RT_2842,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -31152,7 +31177,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2477,
+							[1] = T.RT_2483,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 100304,
@@ -31198,11 +31223,11 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3738,
+					[1] = T.RT_3744,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2854,
+							[2] = T.RT_2858,
 						},
 					},
 					[3] = {
@@ -31228,8 +31253,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035230] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3736,
+			[1] = T.RT_2836,
+			[2] = T.RT_3742,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -31286,7 +31311,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_2800,
+							[2] = T.RT_2804,
 						},
 					},
 				},
@@ -31320,7 +31345,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1,
 						},
 					},
-					[2] = T.RT_3734,
+					[2] = T.RT_3740,
 				},
 			},
 		},
@@ -31328,7 +31353,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035232] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -31369,7 +31394,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035236] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -31410,7 +31435,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035238] = {
 		["Operations"] = {
-			[1] = T.RT_2883,
+			[1] = T.RT_2887,
 			[2] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "\
@@ -31435,7 +31460,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3115,
+					[1] = T.RT_3119,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-279.154266,164.549988,-8.794922,0.000035,21.77792,-41.002968,50.0,159.336838,false,Manual,22.0",
@@ -31450,7 +31475,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10035239] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_3357,
+			[2] = T.RT_3361,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -31471,7 +31496,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035240] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
+			[1] = T.RT_2937,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -31493,7 +31518,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035241] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -31519,8 +31544,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035242] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3730,
+			[1] = T.RT_2836,
+			[2] = T.RT_3736,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -31565,7 +31590,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3521,
+					[1] = T.RT_3527,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
@@ -31599,10 +31624,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035246] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1700,
-			[3] = T.RT_2822,
-			[4] = T.RT_2790,
+			[3] = T.RT_2826,
+			[4] = T.RT_2794,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -31641,7 +31666,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[4] = T.RT_3567,
+					[4] = T.RT_3573,
 				},
 			},
 		},
@@ -31649,20 +31674,20 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035248] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2842,
-			[3] = T.RT_2832,
-			[4] = T.RT_2850,
-			[5] = T.RT_3724,
+			[1] = T.RT_2842,
+			[2] = T.RT_2846,
+			[3] = T.RT_2836,
+			[4] = T.RT_2854,
+			[5] = T.RT_3730,
 		},
 		["bAllowClick"] = true,
 	},
-	[10035249] = T.RT_3726,
+	[10035249] = T.RT_3732,
 	[10035250] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
-			[2] = T.RT_2812,
-			[3] = T.RT_2840,
+			[1] = T.RT_2786,
+			[2] = T.RT_2816,
+			[3] = T.RT_2844,
 			[4] = T.RT_1860,
 			[5] = {
 				["SEQ"] = {
@@ -31678,9 +31703,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035251] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
-			[2] = T.RT_2842,
-			[3] = T.RT_3728,
+			[1] = T.RT_2937,
+			[2] = T.RT_2846,
+			[3] = T.RT_3734,
 			[4] = T.RT_1690,
 			[5] = {
 				["SEQ"] = {
@@ -31696,10 +31721,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035252] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2842,
-			[3] = T.RT_2832,
-			[4] = T.RT_2850,
+			[1] = T.RT_2842,
+			[2] = T.RT_2846,
+			[3] = T.RT_2836,
+			[4] = T.RT_2854,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -31712,20 +31737,20 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10035253] = T.RT_3726,
+	[10035253] = T.RT_3732,
 	[10035254] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
-			[2] = T.RT_2812,
-			[3] = T.RT_2840,
+			[1] = T.RT_2796,
+			[2] = T.RT_2816,
+			[3] = T.RT_2844,
 			[4] = T.RT_1860,
-			[5] = T.RT_3724,
+			[5] = T.RT_3730,
 		},
 		["bAllowClick"] = true,
 	},
 	[10035306] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1700,
 			[3] = T.RT_1860,
 			[4] = {
@@ -31783,9 +31808,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035310] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2842,
-			[3] = T.RT_2832,
+			[1] = T.RT_2842,
+			[2] = T.RT_2846,
+			[3] = T.RT_2836,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -31806,9 +31831,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035311] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
+			[1] = T.RT_2842,
 			[2] = T.RT_1700,
-			[3] = T.RT_2832,
+			[3] = T.RT_2836,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -31823,10 +31848,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035312] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2842,
-			[3] = T.RT_2832,
-			[4] = T.RT_2822,
+			[1] = T.RT_2842,
+			[2] = T.RT_2846,
+			[3] = T.RT_2836,
+			[4] = T.RT_2826,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -31841,15 +31866,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035314] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
+			[1] = T.RT_2854,
 		},
 		["bAllowClick"] = true,
 	},
 	[10035315] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2842,
-			[3] = T.RT_2832,
+			[1] = T.RT_2842,
+			[2] = T.RT_2846,
+			[3] = T.RT_2836,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -31862,7 +31887,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10035316] = T.RT_3720,
+	[10035316] = T.RT_3726,
 	[10035317] = {
 		["Operations"] = {
 			[1] = {
@@ -31904,7 +31929,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035319] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["PlayOrStopBGM"] = {
 					["EventPath"] = "event:/bgm/cbt03/0071_lise_secret",
@@ -31986,8 +32011,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035325] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2812,
+			[1] = T.RT_2842,
+			[2] = T.RT_2816,
 			[3] = T.RT_1860,
 			[4] = {
 				["SEQ"] = {
@@ -32009,10 +32034,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035326] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2842,
-			[3] = T.RT_2832,
-			[4] = T.RT_2840,
+			[1] = T.RT_2842,
+			[2] = T.RT_2846,
+			[3] = T.RT_2836,
+			[4] = T.RT_2844,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -32027,9 +32052,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035327] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1700,
-			[3] = T.RT_2832,
+			[3] = T.RT_2836,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -32044,7 +32069,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035328] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32073,9 +32098,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035332] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2842,
-			[3] = T.RT_2832,
+			[1] = T.RT_2842,
+			[2] = T.RT_2846,
+			[3] = T.RT_2836,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -32094,13 +32119,13 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10035333] = T.RT_3720,
+	[10035333] = T.RT_3726,
 	[10035334] = {
 		["Operations"] = {
-			[1] = T.RT_2838,
-			[2] = T.RT_2812,
+			[1] = T.RT_2842,
+			[2] = T.RT_2816,
 			[3] = T.RT_1860,
-			[4] = T.RT_2840,
+			[4] = T.RT_2844,
 		},
 		["bAllowClick"] = true,
 	},
@@ -32127,10 +32152,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035337] = {
 		["Operations"] = {
-			[1] = T.RT_3621,
-			[2] = T.RT_3693,
-			[3] = T.RT_3625,
-			[4] = T.RT_3653,
+			[1] = T.RT_3627,
+			[2] = T.RT_3699,
+			[3] = T.RT_3631,
+			[4] = T.RT_3659,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -32173,11 +32198,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035407] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
-			[2] = T.RT_3625,
-			[3] = T.RT_3693,
-			[4] = T.RT_3621,
-			[5] = T.RT_3657,
+			[1] = T.RT_3659,
+			[2] = T.RT_3631,
+			[3] = T.RT_3699,
+			[4] = T.RT_3627,
+			[5] = T.RT_3663,
 			[6] = {
 				["SEQ"] = {
 					[1] = {
@@ -32198,10 +32223,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035408] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
-			[4] = T.RT_2838,
+			[1] = T.RT_2854,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
+			[4] = T.RT_2842,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -32222,9 +32247,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035409] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3693,
-			[3] = T.RT_3621,
+			[1] = T.RT_3631,
+			[2] = T.RT_3699,
+			[3] = T.RT_3627,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -32252,7 +32277,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035410] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
+			[1] = T.RT_3659,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32287,7 +32312,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035412] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
+			[1] = T.RT_3659,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32336,7 +32361,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035415] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
+			[1] = T.RT_2854,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32371,7 +32396,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035417] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
+			[1] = T.RT_3659,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32386,7 +32411,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035418] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32407,7 +32432,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035419] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32428,7 +32453,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035420] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
+			[1] = T.RT_3659,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32443,20 +32468,20 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035421] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3719,
+			[1] = T.RT_3631,
+			[2] = T.RT_3725,
 		},
 		["bAllowClick"] = true,
 	},
 	[10035422] = {
 		["Operations"] = {
-			[1] = T.RT_3719,
+			[1] = T.RT_3725,
 		},
 		["bAllowClick"] = true,
 	},
 	[10035423] = {
 		["Operations"] = {
-			[1] = T.RT_3623,
+			[1] = T.RT_3629,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32477,7 +32502,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035424] = {
 		["Operations"] = {
-			[1] = T.RT_3657,
+			[1] = T.RT_3663,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32855,7 +32880,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10035713] = {
 		["Operations"] = {
-			[1] = T.RT_3705,
+			[1] = T.RT_3711,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -32932,7 +32957,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3715,
+					[1] = T.RT_3721,
 				},
 			},
 		},
@@ -32942,7 +32967,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3715,
+					[1] = T.RT_3721,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-136.168945,-70.729492,256.653992,0.000112,-6.199694,-28.430956,35.0,100000.0,false,Manual,22.0",
@@ -32976,7 +33001,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10035907] = T.RT_3713,
+	[10035907] = T.RT_3719,
 	[10035908] = {
 		["Operations"] = {
 			[1] = {
@@ -32991,7 +33016,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10035909] = T.RT_3713,
+	[10035909] = T.RT_3719,
 	[10035910] = {
 		["Operations"] = {
 			[1] = {
@@ -33094,12 +33119,12 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10036002] = T.RT_3703,
+	[10036002] = T.RT_3709,
 	[10036003] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3707,
+					[1] = T.RT_3713,
 				},
 			},
 		},
@@ -33109,7 +33134,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3707,
+					[1] = T.RT_3713,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-175.524414,-46.025391,174.825195,0.000143,3.397452,-32.401775,35.000008,783.867188,false,Manual,22.0",
@@ -33135,8 +33160,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036005] = {
 		["Operations"] = {
-			[1] = T.RT_3701,
-			[2] = T.RT_3705,
+			[1] = T.RT_3707,
+			[2] = T.RT_3711,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -33239,10 +33264,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10036013] = T.RT_3703,
+	[10036013] = T.RT_3709,
 	[10036014] = {
 		["Operations"] = {
-			[1] = T.RT_3603,
+			[1] = T.RT_3609,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -33351,7 +33376,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10036025] = T.RT_3699,
+	[10036025] = T.RT_3705,
 	[10036026] = {
 		["Operations"] = {
 			[1] = {
@@ -33376,7 +33401,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10036028] = T.RT_3699,
+	[10036028] = T.RT_3705,
 	[10036030] = {
 		["Operations"] = {
 			[1] = {
@@ -33453,11 +33478,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036201] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
-			[2] = T.RT_3625,
-			[3] = T.RT_3693,
-			[4] = T.RT_3621,
-			[5] = T.RT_3657,
+			[1] = T.RT_3659,
+			[2] = T.RT_3631,
+			[3] = T.RT_3699,
+			[4] = T.RT_3627,
+			[5] = T.RT_3663,
 			[6] = {
 				["SEQ"] = {
 					[1] = {
@@ -33478,10 +33503,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036202] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
-			[2] = T.RT_2832,
-			[3] = T.RT_2842,
-			[4] = T.RT_2838,
+			[1] = T.RT_2854,
+			[2] = T.RT_2836,
+			[3] = T.RT_2846,
+			[4] = T.RT_2842,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -33502,7 +33527,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036203] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
+			[1] = T.RT_3659,
 		},
 		["bAllowClick"] = true,
 	},
@@ -33536,13 +33561,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036206] = {
 		["Operations"] = {
-			[1] = T.RT_3623,
+			[1] = T.RT_3629,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036207] = {
 		["Operations"] = {
-			[1] = T.RT_3603,
+			[1] = T.RT_3609,
 		},
 		["bAllowClick"] = true,
 	},
@@ -33650,10 +33675,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036239] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
-			[2] = T.RT_3625,
-			[3] = T.RT_3693,
-			[4] = T.RT_3621,
+			[1] = T.RT_3659,
+			[2] = T.RT_3631,
+			[3] = T.RT_3699,
+			[4] = T.RT_3627,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -33862,7 +33887,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3691,
+					[1] = T.RT_3697,
 				},
 			},
 		},
@@ -33882,7 +33907,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3691,
+					[1] = T.RT_3697,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "83.970703,135.913513,189.65625,-15.113378,-7.797849,-165.177399,20.0,645.434814,false,Manual,2.8",
@@ -33995,10 +34020,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036502] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
-			[2] = T.RT_2832,
-			[3] = T.RT_2838,
-			[4] = T.RT_3657,
+			[1] = T.RT_3677,
+			[2] = T.RT_2836,
+			[3] = T.RT_2842,
+			[4] = T.RT_3663,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -34019,10 +34044,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036503] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
-			[2] = T.RT_3669,
-			[3] = T.RT_3667,
-			[4] = T.RT_3665,
+			[1] = T.RT_3677,
+			[2] = T.RT_3675,
+			[3] = T.RT_3673,
+			[4] = T.RT_3671,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -34063,20 +34088,20 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036505] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
-			[2] = T.RT_2832,
-			[3] = T.RT_2838,
-			[4] = T.RT_3657,
-			[5] = T.RT_3689,
+			[1] = T.RT_3677,
+			[2] = T.RT_2836,
+			[3] = T.RT_2842,
+			[4] = T.RT_3663,
+			[5] = T.RT_3695,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036506] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
-			[2] = T.RT_3669,
-			[3] = T.RT_3667,
-			[4] = T.RT_3665,
+			[1] = T.RT_3677,
+			[2] = T.RT_3675,
+			[3] = T.RT_3673,
+			[4] = T.RT_3671,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -34097,17 +34122,17 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036507] = {
 		["Operations"] = {
-			[1] = T.RT_3679,
-			[2] = T.RT_3689,
+			[1] = T.RT_3685,
+			[2] = T.RT_3695,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036508] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
+			[1] = T.RT_3677,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3685,
+					[1] = T.RT_3691,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-0.925781,-102.438721,6.324219,0.000062,27.593143,90.266426,35.0,100000.0,false,Manual,22.0",
@@ -34123,7 +34148,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3685,
+					[1] = T.RT_3691,
 				},
 			},
 		},
@@ -34151,29 +34176,29 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036511] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
-			[2] = T.RT_2832,
-			[3] = T.RT_2838,
-			[4] = T.RT_3683,
+			[1] = T.RT_2854,
+			[2] = T.RT_2836,
+			[3] = T.RT_2842,
+			[4] = T.RT_3689,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036512] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
-			[2] = T.RT_3669,
-			[3] = T.RT_3667,
-			[4] = T.RT_3665,
-			[5] = T.RT_3683,
+			[1] = T.RT_3677,
+			[2] = T.RT_3675,
+			[3] = T.RT_3673,
+			[4] = T.RT_3671,
+			[5] = T.RT_3689,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036513] = {
 		["Operations"] = {
-			[1] = T.RT_3679,
-			[2] = T.RT_2832,
-			[3] = T.RT_2838,
-			[4] = T.RT_3657,
+			[1] = T.RT_3685,
+			[2] = T.RT_2836,
+			[3] = T.RT_2842,
+			[4] = T.RT_3663,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -34208,10 +34233,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036515] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
-			[2] = T.RT_3669,
-			[3] = T.RT_3667,
-			[4] = T.RT_3665,
+			[1] = T.RT_3677,
+			[2] = T.RT_3675,
+			[3] = T.RT_3673,
+			[4] = T.RT_3671,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -34326,10 +34351,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036524] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
-			[2] = T.RT_3625,
-			[3] = T.RT_2838,
-			[4] = T.RT_3657,
+			[1] = T.RT_3677,
+			[2] = T.RT_3631,
+			[3] = T.RT_2842,
+			[4] = T.RT_3663,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -34344,8 +34369,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036525] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
-			[2] = T.RT_3623,
+			[1] = T.RT_2796,
+			[2] = T.RT_3629,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -34362,7 +34387,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["TurnToDescription"] = "100001:n(100327)",
 						},
 					},
-					[2] = T.RT_3677,
+					[2] = T.RT_3683,
 				},
 			},
 		},
@@ -34395,14 +34420,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036527] = {
 		["Operations"] = {
-			[1] = T.RT_3675,
+			[1] = T.RT_3681,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036528] = {
 		["Operations"] = {
 			[1] = T.RT_1116,
-			[2] = T.RT_3675,
+			[2] = T.RT_3681,
 			[3] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "100304:p(-45)",
@@ -34413,18 +34438,18 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036529] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
-			[2] = T.RT_3625,
-			[3] = T.RT_3675,
+			[1] = T.RT_2796,
+			[2] = T.RT_3631,
+			[3] = T.RT_3681,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036530] = {
 		["Operations"] = {
-			[1] = T.RT_3671,
-			[2] = T.RT_3669,
-			[3] = T.RT_3667,
-			[4] = T.RT_3665,
+			[1] = T.RT_3677,
+			[2] = T.RT_3675,
+			[3] = T.RT_3673,
+			[4] = T.RT_3671,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -34443,13 +34468,13 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10036531] = T.RT_3663,
-	[10036532] = T.RT_3663,
+	[10036531] = T.RT_3669,
+	[10036532] = T.RT_3669,
 	[10036533] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3655,
+					[1] = T.RT_3661,
 				},
 			},
 		},
@@ -34457,11 +34482,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036534] = {
 		["Operations"] = {
-			[1] = T.RT_3657,
-			[2] = T.RT_2838,
+			[1] = T.RT_3663,
+			[2] = T.RT_2842,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3655,
+					[1] = T.RT_3661,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "57.617188,-266.536926,76.441406,0.000165,15.386653,-100.15535,25.000006,100000.0,false,Manual,22.0",
@@ -34472,14 +34497,14 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_2820,
-					[2] = T.RT_2850,
+					[1] = T.RT_2824,
+					[2] = T.RT_2854,
 					[3] = {
 						["TurnTo"] = {
 							["TurnToDescription"] = "100304:p(-120)",
 						},
 					},
-					[4] = T.RT_3653,
+					[4] = T.RT_3659,
 				},
 			},
 		},
@@ -34487,7 +34512,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036535] = {
 		["Operations"] = {
-			[1] = T.RT_3653,
+			[1] = T.RT_3659,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -34528,9 +34553,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036537] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_3621,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_3627,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -34597,15 +34622,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036539] = {
 		["Operations"] = {
-			[1] = T.RT_3651,
+			[1] = T.RT_3657,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036540] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_3621,
-			[3] = T.RT_3651,
+			[2] = T.RT_3627,
+			[3] = T.RT_3657,
 		},
 		["bAllowClick"] = true,
 	},
@@ -34631,9 +34656,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036542] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_2792,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_2796,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -34648,9 +34673,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036543] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_3621,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_3627,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -34671,18 +34696,18 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036544] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_2792,
-			[4] = T.RT_3647,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_2796,
+			[4] = T.RT_3653,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036545] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_2792,
-			[3] = T.RT_3647,
+			[2] = T.RT_2796,
+			[3] = T.RT_3653,
 		},
 		["bAllowClick"] = true,
 	},
@@ -34703,9 +34728,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036547] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_3621,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_3627,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -34726,23 +34751,23 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036548] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_3643,
+			[1] = T.RT_2836,
+			[2] = T.RT_3649,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036549] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3643,
+			[1] = T.RT_3631,
+			[2] = T.RT_3649,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036550] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_2792,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_2796,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -34763,7 +34788,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036551] = {
 		["Operations"] = {
-			[1] = T.RT_3639,
+			[1] = T.RT_3645,
 			[2] = {
 				["PlayOrStopBGM"] = {
 					["EventPath"] = "event:/bgm/mute",
@@ -34777,39 +34802,39 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036552] = {
 		["Operations"] = {
-			[1] = T.RT_3639,
+			[1] = T.RT_3645,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036553] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_3621,
-			[4] = T.RT_3635,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_3627,
+			[4] = T.RT_3641,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036554] = {
 		["Operations"] = {
-			[1] = T.RT_3635,
+			[1] = T.RT_3641,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036555] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_2792,
-			[4] = T.RT_3635,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_2796,
+			[4] = T.RT_3641,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036556] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_3621,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_3627,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -34830,9 +34855,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036557] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_2792,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_2796,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -34847,7 +34872,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036558] = {
 		["Operations"] = {
-			[1] = T.RT_3621,
+			[1] = T.RT_3627,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -34862,19 +34887,19 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036559] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_2792,
-			[4] = T.RT_3629,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_2796,
+			[4] = T.RT_3635,
 		},
 		["bAllowClick"] = true,
 	},
-	[10036560] = T.RT_3631,
-	[10036561] = T.RT_3631,
-	[10036562] = T.RT_3631,
+	[10036560] = T.RT_3637,
+	[10036561] = T.RT_3637,
+	[10036562] = T.RT_3637,
 	[10036563] = {
 		["Operations"] = {
-			[1] = T.RT_3603,
+			[1] = T.RT_3609,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -34895,12 +34920,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036564] = {
 		["Operations"] = {
-			[1] = T.RT_3623,
-			[2] = T.RT_3629,
+			[1] = T.RT_3629,
+			[2] = T.RT_3635,
 		},
 		["bAllowClick"] = true,
 	},
-	[10036565] = T.RT_3631,
+	[10036565] = T.RT_3637,
 	[10036566] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
@@ -34909,7 +34934,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100327:n(200021)",
 				},
 			},
-			[3] = T.RT_3621,
+			[3] = T.RT_3627,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -34930,7 +34955,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036567] = {
 		["Operations"] = {
-			[1] = T.RT_3603,
+			[1] = T.RT_3609,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -34951,25 +34976,25 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036568] = {
 		["Operations"] = {
-			[1] = T.RT_3623,
-			[2] = T.RT_3617,
+			[1] = T.RT_3629,
+			[2] = T.RT_3623,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036569] = {
 		["Operations"] = {
-			[1] = T.RT_3625,
-			[2] = T.RT_3623,
-			[3] = T.RT_3621,
-			[4] = T.RT_3617,
+			[1] = T.RT_3631,
+			[2] = T.RT_3629,
+			[3] = T.RT_3627,
+			[4] = T.RT_3623,
 		},
 		["bAllowClick"] = true,
 	},
-	[10036570] = T.RT_3619,
-	[10036571] = T.RT_3619,
+	[10036570] = T.RT_3625,
+	[10036571] = T.RT_3625,
 	[10036572] = {
 		["Operations"] = {
-			[1] = T.RT_3613,
+			[1] = T.RT_3619,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -34990,7 +35015,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036573] = {
 		["Operations"] = {
-			[1] = T.RT_3613,
+			[1] = T.RT_3619,
 		},
 		["bAllowClick"] = true,
 	},
@@ -35010,7 +35035,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036575] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -35041,7 +35066,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3609,
+					[1] = T.RT_3615,
 				},
 			},
 		},
@@ -35050,10 +35075,10 @@ return ReadOnly("DialogueScripts2Table", {
 	[10036578] = {
 		["Operations"] = {
 			[1] = T.RT_1116,
-			[2] = T.RT_3603,
+			[2] = T.RT_3609,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3609,
+					[1] = T.RT_3615,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "993.052734,-734.820374,4.625,10.83854,7.979491,175.301773,35.000008,100000.0,false,Manual,22.0",
@@ -35139,7 +35164,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036581] = {
 		["Operations"] = {
-			[1] = T.RT_3607,
+			[1] = T.RT_3613,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -35156,14 +35181,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = {
-				["PlayOrStopBGM"] = {
-					["EventPath"] = "event:/bgm/mute",
-					["PlayType"] = "Play",
-					["RelatedRegionId"] = 101901,
-					["SoundType"] = "SOUND_BGM",
-				},
-			},
+			[3] = T.RT_2134,
 		},
 		["bAllowClick"] = true,
 	},
@@ -35205,13 +35223,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3605,
+			[2] = T.RT_3611,
 		},
 		["bAllowClick"] = true,
 	},
 	[10036584] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
+			[1] = T.RT_2854,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -35294,7 +35312,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10036587] = {
 		["Operations"] = {
-			[1] = T.RT_3603,
+			[1] = T.RT_3609,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -35971,7 +35989,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2198,
+									[1] = T.RT_2204,
 									[2] = {
 										["CameraMoveTo"] = {
 											["TargetPosition"] = "1.4375,-314.421875,115.535156,0.00045,6.792097,89.485886,25.000002,415.718628,false,DoNotOverride,11.38241",
@@ -36015,7 +36033,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_3599,
+							[2] = T.RT_3605,
 						},
 					},
 					[2] = {
@@ -36075,14 +36093,14 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3601,
+							[2] = T.RT_3607,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_3065,
+									[1] = T.RT_3069,
 									[2] = {
 										["CameraMoveTo"] = {
 											["TargetPosition"] = "-27.357422,-112.198822,154.890625,0.000149,-5.994843,-80.196281,40.0,394.046112,false,Manual,4.920502",
@@ -36216,7 +36234,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 							[2] = {
 								["SEQ"] = {
-									[1] = T.RT_2198,
+									[1] = T.RT_2204,
 									[2] = {
 										["PlayAnimation"] = {
 											["ActorId"] = 100318,
@@ -36296,7 +36314,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1584,
-					[2] = T.RT_3601,
+					[2] = T.RT_3607,
 				},
 			},
 		},
@@ -36353,14 +36371,14 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3599,
+							[2] = T.RT_3605,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2198,
+									[1] = T.RT_2204,
 									[2] = {
 										["CameraMoveTo"] = {
 											["TargetPosition"] = "-27.900391,-268.051788,119.957031,0.000045,7.402955,89.243149,25.0,100000.0,false,DoNotOverride,22.0",
@@ -36389,9 +36407,9 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100304:p(cp2fixsimple04_66Point01)",
 				},
 			},
-			[2] = T.RT_2842,
-			[3] = T.RT_2832,
-			[4] = T.RT_2838,
+			[2] = T.RT_2846,
+			[3] = T.RT_2836,
+			[4] = T.RT_2842,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -36412,7 +36430,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10037502] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -36431,7 +36449,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_3597,
+					[2] = T.RT_3603,
 				},
 			},
 		},
@@ -36600,7 +36618,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10037510] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -36621,7 +36639,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10037511] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -36663,7 +36681,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_3595,
+							[2] = T.RT_3601,
 						},
 					},
 				},
@@ -36673,7 +36691,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10037512] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -36694,7 +36712,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10037513] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -36710,7 +36728,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_3593,
+			[3] = T.RT_3599,
 		},
 		["bAllowClick"] = true,
 	},
@@ -37160,7 +37178,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3589,
+							[2] = T.RT_3595,
 						},
 					},
 				},
@@ -37170,7 +37188,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10037602] = {
 		["Operations"] = {
-			[1] = T.RT_3587,
+			[1] = T.RT_3593,
 		},
 		["bAllowClick"] = true,
 	},
@@ -37231,7 +37249,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3589,
+			[2] = T.RT_3595,
 		},
 		["bAllowClick"] = true,
 	},
@@ -37294,7 +37312,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10037607] = {
 		["Operations"] = {
-			[1] = T.RT_3587,
+			[1] = T.RT_3593,
 			[2] = {
 				["PARA"] = {
 					[1] = {
@@ -37867,7 +37885,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3581,
+					[2] = T.RT_3587,
 				},
 			},
 		},
@@ -38216,7 +38234,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[4] = T.RT_3579,
+					[4] = T.RT_3585,
 					[5] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 100356,
@@ -38226,13 +38244,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[6] = {
 						["SEQ"] = {
-							[1] = T.RT_2832,
+							[1] = T.RT_2836,
 							[2] = {
 								["TurnTo"] = {
 									["TurnToDescription"] = "100001:p(-110)",
 								},
 							},
-							[3] = T.RT_3577,
+							[3] = T.RT_3583,
 						},
 					},
 				},
@@ -38281,7 +38299,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["PARA"] = {
-					[1] = T.RT_3113,
+					[1] = T.RT_3117,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1756,
@@ -38457,13 +38475,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_3231,
+							[1] = T.RT_3235,
 							[2] = T.RT_1690,
 						},
 					},
 					[5] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
+							[1] = T.RT_2204,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-104.871094,-295.244141,141.325684,0.00121,-5.299714,70.801987,35.0,376.374207,false,Manual,4.0",
@@ -38573,7 +38591,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-5.378906,126.108887,127.848633,0.001147,-1.999968,-89.160591,35.0,220.027542,false,Manual,4.0",
@@ -38629,7 +38647,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2,
 						},
 					},
-					[2] = T.RT_3575,
+					[2] = T.RT_3581,
 				},
 			},
 		},
@@ -38650,7 +38668,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_3571,
+					[1] = T.RT_3577,
 				},
 			},
 		},
@@ -38697,7 +38715,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 4.9,
 						},
 					},
-					[5] = T.RT_3431,
+					[5] = T.RT_3435,
 				},
 			},
 		},
@@ -38726,7 +38744,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3573,
+							[2] = T.RT_3579,
 						},
 					},
 					[3] = {
@@ -38738,7 +38756,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1604,
-							[2] = T.RT_3571,
+							[2] = T.RT_3577,
 						},
 					},
 				},
@@ -38769,7 +38787,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100215] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -38783,7 +38801,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2736,
+							[1] = T.RT_2742,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "90.230469,-293.769043,127.13623,0.001196,-0.900636,108.000038,35.0,299.733246,false,Manual,2.8",
@@ -38816,10 +38834,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100216] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3569,
+					[1] = T.RT_3575,
 				},
 			},
 			[3] = {
@@ -38834,7 +38852,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3569,
+					[1] = T.RT_3575,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -39120,7 +39138,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[3] = T.RT_3567,
+							[3] = T.RT_3573,
 						},
 					},
 				},
@@ -39151,7 +39169,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3003,
+							[2] = T.RT_3007,
 						},
 					},
 				},
@@ -39163,10 +39181,10 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = T.RT_1690,
 			[2] = T.RT_1700,
-			[3] = T.RT_3561,
+			[3] = T.RT_3567,
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_2724,
+					[1] = T.RT_2730,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
@@ -39182,7 +39200,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = T.RT_1690,
 			[2] = T.RT_1700,
-			[3] = T.RT_3565,
+			[3] = T.RT_3571,
 		},
 		["bAllowClick"] = true,
 	},
@@ -39190,7 +39208,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = T.RT_1690,
 			[2] = T.RT_1700,
-			[3] = T.RT_3565,
+			[3] = T.RT_3571,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -39281,7 +39299,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = T.RT_1690,
 			[2] = T.RT_1700,
-			[3] = T.RT_3561,
+			[3] = T.RT_3567,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -39315,7 +39333,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[4] = T.RT_3555,
+					[4] = T.RT_3561,
 				},
 			},
 		},
@@ -39366,7 +39384,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3557,
+					[1] = T.RT_3563,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 200002,
@@ -39386,7 +39404,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[4] = T.RT_3555,
+					[4] = T.RT_3561,
 				},
 			},
 		},
@@ -39465,8 +39483,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100601] = {
 		["Operations"] = {
-			[1] = T.RT_3535,
-			[2] = T.RT_3525,
+			[1] = T.RT_3541,
+			[2] = T.RT_3531,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -39510,7 +39528,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["TargetPoint"] = "P101006Kami",
 								},
 							},
-							[2] = T.RT_3463,
+							[2] = T.RT_3467,
 						},
 					},
 					[3] = {
@@ -39539,7 +39557,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200071:n(200002)",
 				},
 			},
-			[2] = T.RT_3525,
+			[2] = T.RT_3531,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -39571,7 +39589,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100603] = {
 		["Operations"] = {
-			[1] = T.RT_3535,
+			[1] = T.RT_3541,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -39590,7 +39608,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2.1,
 						},
 					},
-					[2] = T.RT_3551,
+					[2] = T.RT_3557,
 				},
 			},
 		},
@@ -39598,7 +39616,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100604] = {
 		["Operations"] = {
-			[1] = T.RT_3539,
+			[1] = T.RT_3545,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -39692,11 +39710,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100606] = {
 		["Operations"] = {
-			[1] = T.RT_3535,
+			[1] = T.RT_3541,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_2800,
+					[2] = T.RT_2804,
 				},
 			},
 		},
@@ -39704,7 +39722,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100607] = {
 		["Operations"] = {
-			[1] = T.RT_3535,
+			[1] = T.RT_3541,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -39714,13 +39732,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_3549,
+			[3] = T.RT_3555,
 		},
 		["bAllowClick"] = true,
 	},
 	[10100608] = {
 		["Operations"] = {
-			[1] = T.RT_3535,
+			[1] = T.RT_3541,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -39739,7 +39757,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2,
 						},
 					},
-					[2] = T.RT_3551,
+					[2] = T.RT_3557,
 				},
 			},
 		},
@@ -39747,7 +39765,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100609] = {
 		["Operations"] = {
-			[1] = T.RT_3525,
+			[1] = T.RT_3531,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -39769,7 +39787,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3369,
+							[1] = T.RT_3373,
 							[2] = T.RT_1566,
 						},
 					},
@@ -39781,9 +39799,9 @@ return ReadOnly("DialogueScripts2Table", {
 	[10100610] = {
 		["Operations"] = {
 			[1] = T.RT_2118,
-			[2] = T.RT_3529,
-			[3] = T.RT_3527,
-			[4] = T.RT_3543,
+			[2] = T.RT_3535,
+			[3] = T.RT_3533,
+			[4] = T.RT_3549,
 			[5] = {
 				["PARA"] = {
 					[1] = {
@@ -39796,8 +39814,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2403,
-							[2] = T.RT_3425,
+							[1] = T.RT_2409,
+							[2] = T.RT_3429,
 						},
 					},
 				},
@@ -39808,7 +39826,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10100611] = {
 		["Operations"] = {
 			[1] = T.RT_2118,
-			[2] = T.RT_3527,
+			[2] = T.RT_3533,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -39824,28 +39842,28 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = T.RT_3549,
+			[4] = T.RT_3555,
 		},
 		["bAllowClick"] = true,
 	},
 	[10100612] = {
 		["Operations"] = {
 			[1] = T.RT_2118,
-			[2] = T.RT_3527,
-			[3] = T.RT_3525,
-			[4] = T.RT_3543,
-			[5] = T.RT_3397,
+			[2] = T.RT_3533,
+			[3] = T.RT_3531,
+			[4] = T.RT_3549,
+			[5] = T.RT_3401,
 		},
 		["bAllowClick"] = true,
 	},
 	[10100613] = {
 		["Operations"] = {
-			[1] = T.RT_3535,
-			[2] = T.RT_3525,
-			[3] = T.RT_3539,
+			[1] = T.RT_3541,
+			[2] = T.RT_3531,
+			[3] = T.RT_3545,
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3537,
+					[1] = T.RT_3543,
 				},
 			},
 			[5] = {
@@ -39871,10 +39889,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100614] = {
 		["Operations"] = {
-			[1] = T.RT_3531,
+			[1] = T.RT_3537,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3537,
+					[1] = T.RT_3543,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeOutQuad",
@@ -39890,7 +39908,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2692,
+									[1] = T.RT_2698,
 									[2] = {
 										["PlayAnimation"] = {
 											["ActorId"] = 200071,
@@ -39964,7 +39982,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100615] = {
 		["Operations"] = {
-			[1] = T.RT_3531,
+			[1] = T.RT_3537,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -39992,7 +40010,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 2.6,
 								},
 							},
-							[2] = T.RT_3395,
+							[2] = T.RT_3399,
 							[3] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200003,
@@ -40017,7 +40035,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100616] = {
 		["Operations"] = {
-			[1] = T.RT_3535,
+			[1] = T.RT_3541,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -40029,7 +40047,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["PARA"] = {
-					[1] = T.RT_3533,
+					[1] = T.RT_3539,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
@@ -40060,10 +40078,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100617] = {
 		["Operations"] = {
-			[1] = T.RT_3531,
-			[2] = T.RT_3529,
-			[3] = T.RT_3527,
-			[4] = T.RT_3525,
+			[1] = T.RT_3537,
+			[2] = T.RT_3535,
+			[3] = T.RT_3533,
+			[4] = T.RT_3531,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -40097,7 +40115,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = T.RT_1564,
 			[2] = T.RT_1566,
-			[3] = T.RT_3519,
+			[3] = T.RT_3525,
 		},
 		["bAllowClick"] = true,
 	},
@@ -40136,7 +40154,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2676,
+							[1] = T.RT_2682,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-132.485352,-61.171875,81.044434,0.001192,-1.999934,34.849323,35.000008,71.102798,false,Manual,10.0",
@@ -40173,7 +40191,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100804] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -40192,7 +40210,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3423,
+					[1] = T.RT_3427,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 200003,
@@ -40207,7 +40225,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 0.8,
 						},
 					},
-					[4] = T.RT_3515,
+					[4] = T.RT_3521,
 					[5] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "243.654297,-17.984863,184.813477,0.00001,-12.0,-177.54332,40.0,144.905365,false,Manual,5.0",
@@ -40221,10 +40239,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100805] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3513,
+					[1] = T.RT_3519,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "243.380859,-13.443848,184.813477,0.00001,-12.0,-176.54332,40.0,315.1875,false,Manual,5.0",
@@ -40248,7 +40266,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100806] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -40284,13 +40302,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2798,
+							[2] = T.RT_2802,
 						},
 					},
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
-							[2] = T.RT_3471,
+							[2] = T.RT_3475,
 						},
 					},
 				},
@@ -40354,13 +40372,13 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3369,
-							[2] = T.RT_3523,
+							[1] = T.RT_3373,
+							[2] = T.RT_3529,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
+							[1] = T.RT_2204,
 							[2] = T.RT_1706,
 						},
 					},
@@ -40371,7 +40389,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100809] = {
 		["Operations"] = {
-			[1] = T.RT_3523,
+			[1] = T.RT_3529,
 			[2] = T.RT_1706,
 			[3] = {
 				["SEQ"] = {
@@ -40415,7 +40433,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 0.5,
 						},
 					},
-					[4] = T.RT_3391,
+					[4] = T.RT_3395,
 				},
 			},
 		},
@@ -40441,7 +40459,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10100811] = {
 		["Operations"] = {
 			[1] = T.RT_1564,
-			[2] = T.RT_3519,
+			[2] = T.RT_3525,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -40479,7 +40497,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3521,
+			[2] = T.RT_3527,
 		},
 		["bAllowClick"] = true,
 	},
@@ -40516,7 +40534,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10100814] = T.RT_2338,
+	[10100814] = T.RT_2344,
 	[10100815] = {
 		["Operations"] = {
 			[1] = T.RT_1116,
@@ -40563,7 +40581,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3431,
+					[2] = T.RT_3435,
 				},
 			},
 		},
@@ -40592,7 +40610,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100818] = {
 		["Operations"] = {
-			[1] = T.RT_3519,
+			[1] = T.RT_3525,
 		},
 		["bAllowClick"] = true,
 	},
@@ -40607,13 +40625,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3521,
+			[2] = T.RT_3527,
 		},
 		["bAllowClick"] = true,
 	},
 	[10100820] = {
 		["Operations"] = {
-			[1] = T.RT_3519,
+			[1] = T.RT_3525,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -40650,7 +40668,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1756,
-					[2] = T.RT_3431,
+					[2] = T.RT_3435,
 				},
 			},
 		},
@@ -40711,10 +40729,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10100824] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = T.RT_1706,
 			[3] = T.RT_1564,
-			[4] = T.RT_3515,
+			[4] = T.RT_3521,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -40737,7 +40755,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3513,
+					[1] = T.RT_3519,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -40852,7 +40870,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 0.5,
 						},
 					},
-					[3] = T.RT_2722,
+					[3] = T.RT_2728,
 				},
 			},
 		},
@@ -40862,7 +40880,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3511,
+					[1] = T.RT_3517,
 				},
 			},
 		},
@@ -40873,7 +40891,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_1706,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3511,
+					[1] = T.RT_3517,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "425.745117,36.01416,155.745605,0.001252,-3.698793,-176.199371,85.0,529.144958,false,Manual,8.0",
@@ -40922,7 +40940,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = T.RT_1700,
 							[2] = {
 								["SEQ"] = {
-									[1] = T.RT_3369,
+									[1] = T.RT_3373,
 									[2] = {
 										["PlayAnimation"] = {
 											["ActorId"] = 200002,
@@ -40970,8 +40988,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101201] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
-			[2] = T.RT_3027,
+			[1] = T.RT_2999,
+			[2] = T.RT_3031,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -41030,7 +41048,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3027,
+							[2] = T.RT_3031,
 						},
 					},
 				},
@@ -41040,7 +41058,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101203] = {
 		["Operations"] = {
-			[1] = T.RT_3027,
+			[1] = T.RT_3031,
 			[2] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200005:n(100001)",
@@ -41062,7 +41080,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3509,
+					[1] = T.RT_3515,
 					[2] = T.RT_1732,
 				},
 			},
@@ -41071,7 +41089,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101205] = {
 		["Operations"] = {
-			[1] = T.RT_3509,
+			[1] = T.RT_3515,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -41087,17 +41105,17 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_3315,
+			[3] = T.RT_3319,
 		},
 		["bAllowClick"] = true,
 	},
 	[10101206] = {
 		["Operations"] = {
-			[1] = T.RT_3027,
+			[1] = T.RT_3031,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_3337,
+					[2] = T.RT_3341,
 				},
 			},
 		},
@@ -41105,7 +41123,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101207] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
+			[1] = T.RT_2999,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -41122,7 +41140,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3507,
+					[1] = T.RT_3513,
 				},
 			},
 		},
@@ -41132,7 +41150,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3507,
+					[1] = T.RT_3513,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-58.575195,1.949219,128.807129,0.001184,6.999994,66.001251,35.000008,96.027809,false,Manual,10.0",
@@ -41141,7 +41159,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2796,
+			[2] = T.RT_2800,
 		},
 		["bAllowClick"] = true,
 	},
@@ -41183,10 +41201,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101211] = {
 		["Operations"] = {
-			[1] = T.RT_3129,
+			[1] = T.RT_3133,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3505,
+					[1] = T.RT_3511,
 				},
 			},
 			[3] = {
@@ -41204,7 +41222,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3505,
+					[1] = T.RT_3511,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-35.961426,202.359375,167.397461,0.00117,-13.29999,-75.155373,40.0,125.521973,false,Manual,10.0",
@@ -41215,7 +41233,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3369,
+					[1] = T.RT_3373,
 					[2] = T.RT_1850,
 				},
 			},
@@ -41244,31 +41262,25 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101305] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
+			[1] = T.RT_2712,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200006:p(P10101402)",
 				},
 			},
-			[3] = T.RT_2897,
+			[3] = T.RT_2901,
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3503,
+					[1] = T.RT_3509,
 				},
 			},
 			[5] = {
 				["PARA"] = {
-					[1] = {
-						["PlayOrStopBGM"] = {
-							["EventPath"] = "event:/bgm/cbt02/0044_story_first_meet_saiqi_loop",
-							["PlayType"] = "Play",
-							["SoundType"] = "SOUND_BGM",
-						},
-					},
+					[1] = T.RT_3507,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2702,
+							[2] = T.RT_2708,
 						},
 					},
 					[3] = {
@@ -41287,7 +41299,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 1.1,
 								},
 							},
-							[3] = T.RT_2712,
+							[3] = T.RT_2718,
 						},
 					},
 				},
@@ -41299,7 +41311,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3503,
+					[1] = T.RT_3509,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInOutQuad",
@@ -41311,14 +41323,15 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = {
+					[1] = T.RT_3507,
+					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 200006,
 							["AnimationId"] = "Explain01_End",
 							["Duration"] = 1.8,
 						},
 					},
-					[2] = T.RT_2700,
+					[3] = T.RT_2706,
 				},
 			},
 		},
@@ -41332,9 +41345,9 @@ return ReadOnly("DialogueScripts2Table", {
 					["SpeakActorId"] = 200005,
 				},
 			},
-			[2] = T.RT_3023,
-			[3] = T.RT_2897,
-			[4] = T.RT_3041,
+			[2] = T.RT_3027,
+			[3] = T.RT_2901,
+			[4] = T.RT_3045,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -41352,17 +41365,17 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[6] = {
 				["SEQ"] = {
-					[1] = T.RT_2724,
+					[1] = T.RT_2730,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_2921,
+							[2] = T.RT_2925,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_2732,
+							[2] = T.RT_2738,
 						},
 					},
 				},
@@ -41372,7 +41385,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101403] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
+			[1] = T.RT_2708,
 			[2] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200006:n(200005)",
@@ -41392,7 +41405,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3023,
+							[2] = T.RT_3027,
 						},
 					},
 					[2] = {
@@ -41409,8 +41422,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101404] = {
 		["Operations"] = {
-			[1] = T.RT_2897,
-			[2] = T.RT_3023,
+			[1] = T.RT_2901,
+			[2] = T.RT_3027,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -41446,8 +41459,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101405] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_3387,
+			[1] = T.RT_2712,
+			[2] = T.RT_3391,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -41492,7 +41505,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 3.5,
 						},
 					},
-					[4] = T.RT_2664,
+					[4] = T.RT_2670,
 				},
 			},
 		},
@@ -41500,12 +41513,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101406] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
-			[2] = T.RT_3129,
+			[1] = T.RT_2999,
+			[2] = T.RT_3133,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1246,
-					[2] = T.RT_2700,
+					[2] = T.RT_2706,
 				},
 			},
 		},
@@ -41529,7 +41542,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3501,
+					[1] = T.RT_3505,
 				},
 			},
 		},
@@ -41537,12 +41550,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101409] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
-			[2] = T.RT_3023,
+			[1] = T.RT_2999,
+			[2] = T.RT_3027,
 			[3] = T.RT_1776,
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3501,
+					[1] = T.RT_3505,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -41558,7 +41571,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["PARA"] = {
-									[1] = T.RT_2897,
+									[1] = T.RT_2901,
 									[2] = {
 										["PlayNormalSound"] = {
 											["EventPath"] = "event:/sfx/common/story/01/talk_enlike_walk",
@@ -41590,7 +41603,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_462,
-									[2] = T.RT_3237,
+									[2] = T.RT_3241,
 								},
 							},
 						},
@@ -41599,7 +41612,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["PARA"] = {
-									[1] = T.RT_3129,
+									[1] = T.RT_3133,
 									[2] = {
 										["SEQ"] = {
 											[1] = T.RT_462,
@@ -41657,10 +41670,10 @@ return ReadOnly("DialogueScripts2Table", {
 	[10101410] = {
 		["Operations"] = {
 			[1] = T.RT_1116,
-			[2] = T.RT_2702,
-			[3] = T.RT_2897,
+			[2] = T.RT_2708,
+			[3] = T.RT_2901,
 			[4] = T.RT_1776,
-			[5] = T.RT_3197,
+			[5] = T.RT_3201,
 			[6] = {
 				["SEQ"] = {
 					[1] = {
@@ -41675,9 +41688,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101601] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_3387,
-			[3] = T.RT_2702,
+			[1] = T.RT_2712,
+			[2] = T.RT_3391,
+			[3] = T.RT_2708,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -41698,16 +41711,16 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101602] = {
 		["Operations"] = {
-			[1] = T.RT_3387,
+			[1] = T.RT_3391,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3495,
+					[1] = T.RT_3499,
 				},
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3065,
-					[2] = T.RT_3229,
+					[1] = T.RT_3069,
+					[2] = T.RT_3233,
 				},
 			},
 		},
@@ -41715,7 +41728,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101603] = {
 		["Operations"] = {
-			[1] = T.RT_3387,
+			[1] = T.RT_3391,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -41739,7 +41752,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_2712,
+					[2] = T.RT_2718,
 				},
 			},
 		},
@@ -41747,7 +41760,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101604] = {
 		["Operations"] = {
-			[1] = T.RT_3359,
+			[1] = T.RT_3363,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -41782,14 +41795,14 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2577,
-							[2] = T.RT_2702,
+							[1] = T.RT_2583,
+							[2] = T.RT_2708,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2664,
+							[2] = T.RT_2670,
 						},
 					},
 				},
@@ -41799,8 +41812,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101606] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_3499,
+			[1] = T.RT_2708,
+			[2] = T.RT_3503,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -41810,7 +41823,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2.3,
 						},
 					},
-					[2] = T.RT_2700,
+					[2] = T.RT_2706,
 				},
 			},
 		},
@@ -41818,7 +41831,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101607] = {
 		["Operations"] = {
-			[1] = T.RT_3499,
+			[1] = T.RT_3503,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -41842,7 +41855,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 0.8,
 						},
 					},
-					[4] = T.RT_3021,
+					[4] = T.RT_3025,
 				},
 			},
 		},
@@ -41886,7 +41899,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2198,
+									[1] = T.RT_2204,
 									[2] = {
 										["PlayAnimation"] = {
 											["ActorId"] = 200006,
@@ -41903,7 +41916,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 3,
 								},
 							},
-							[3] = T.RT_2700,
+							[3] = T.RT_2706,
 						},
 					},
 					[2] = {
@@ -41926,7 +41939,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3495,
+					[1] = T.RT_3499,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-104.615982,62.744629,161.785751,0.001222,-16.499994,-51.000015,20.0,100000.0,false,DoNotOverride,2.8",
@@ -41946,13 +41959,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_3359,
+							[2] = T.RT_3363,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2706,
+							[2] = T.RT_2712,
 						},
 					},
 				},
@@ -41967,7 +41980,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200002:p(P10101601)",
 				},
 			},
-			[2] = T.RT_3359,
+			[2] = T.RT_3363,
 			[3] = T.RT_1690,
 			[4] = {
 				["SEQ"] = {
@@ -41980,9 +41993,9 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[5] = {
 				["SEQ"] = {
-					[1] = T.RT_2200,
+					[1] = T.RT_2206,
 					[2] = T.RT_2112,
-					[3] = T.RT_2732,
+					[3] = T.RT_2738,
 				},
 			},
 		},
@@ -41990,9 +42003,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101612] = {
 		["Operations"] = {
-			[1] = T.RT_3359,
-			[2] = T.RT_2706,
-			[3] = T.RT_3387,
+			[1] = T.RT_3363,
+			[2] = T.RT_2712,
+			[3] = T.RT_3391,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -42038,7 +42051,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[4] = T.RT_2889,
+					[4] = T.RT_2893,
 					[5] = {
 						["SEQ"] = {
 							[1] = T.RT_1768,
@@ -42057,9 +42070,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101613] = {
 		["Operations"] = {
-			[1] = T.RT_3387,
-			[2] = T.RT_2706,
-			[3] = T.RT_2718,
+			[1] = T.RT_3391,
+			[2] = T.RT_2712,
+			[3] = T.RT_2724,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -42273,8 +42286,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101805] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_2702,
+			[1] = T.RT_2712,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -42372,7 +42385,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3493,
+					[1] = T.RT_3497,
 				},
 			},
 		},
@@ -42382,7 +42395,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3493,
+					[1] = T.RT_3497,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "145.36499,-36.702515,151.105896,0.001281,-4.999971,106.612434,50.000008,231.733231,false,Manual,15.0",
@@ -42413,7 +42426,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_3013,
+					[2] = T.RT_3017,
 				},
 			},
 		},
@@ -42453,9 +42466,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101901] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_2702,
-			[3] = T.RT_3491,
+			[1] = T.RT_2712,
+			[2] = T.RT_2708,
+			[3] = T.RT_3495,
 		},
 		["bAllowClick"] = true,
 	},
@@ -42509,7 +42522,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10101907] = {
 		["Operations"] = {
-			[1] = T.RT_3491,
+			[1] = T.RT_3495,
 		},
 		["bAllowClick"] = true,
 	},
@@ -42635,9 +42648,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102402] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_2706,
-			[3] = T.RT_3387,
+			[1] = T.RT_2708,
+			[2] = T.RT_2712,
+			[3] = T.RT_3391,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -42759,8 +42772,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102408] = {
 		["Operations"] = {
-			[1] = T.RT_3387,
-			[2] = T.RT_3359,
+			[1] = T.RT_3391,
+			[2] = T.RT_3363,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -42792,7 +42805,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3487,
+					[1] = T.RT_3491,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
@@ -42802,7 +42815,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3387,
+							[2] = T.RT_3391,
 						},
 					},
 				},
@@ -42812,7 +42825,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102410] = {
 		["Operations"] = {
-			[1] = T.RT_3387,
+			[1] = T.RT_3391,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -42827,8 +42840,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102412] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_2706,
+			[1] = T.RT_2708,
+			[2] = T.RT_2712,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -42942,7 +42955,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3487,
+					[1] = T.RT_3491,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
@@ -42963,7 +42976,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102420] = {
 		["Operations"] = {
-			[1] = T.RT_3387,
+			[1] = T.RT_3391,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -43190,7 +43203,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1716,
-							[2] = T.RT_2732,
+							[2] = T.RT_2738,
 						},
 					},
 					[5] = {
@@ -43228,7 +43241,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[8] = {
 						["SEQ"] = {
-							[1] = T.RT_3403,
+							[1] = T.RT_3407,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-925.375122,-1053.544922,304.507812,0.000222,-3.798944,89.185745,15.0,1925.824097,false,Manual,1.2",
@@ -43239,7 +43252,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[9] = {
 						["SEQ"] = {
-							[1] = T.RT_2672,
+							[1] = T.RT_2678,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-1724.791748,-1096.714844,124.908203,0.000239,-0.99884,22.983885,40.0,391.225189,false,Manual,2.3",
@@ -43250,7 +43263,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[10] = {
 						["SEQ"] = {
-							[1] = T.RT_3331,
+							[1] = T.RT_3335,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-1726.286499,-1093.358398,124.908203,0.000239,-0.99884,23.999477,40.0,1928.980469,false,Manual,3.0",
@@ -43323,8 +43336,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102502] = {
 		["Operations"] = {
-			[1] = T.RT_3445,
-			[2] = T.RT_3485,
+			[1] = T.RT_3449,
+			[2] = T.RT_3489,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
@@ -43342,7 +43355,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102503] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -43357,7 +43370,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102504] = {
 		["Operations"] = {
-			[1] = T.RT_3451,
+			[1] = T.RT_3455,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -43412,7 +43425,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102507] = {
 		["Operations"] = {
-			[1] = T.RT_3485,
+			[1] = T.RT_3489,
 			[2] = {
 				["PARA"] = {
 					[1] = {
@@ -43499,7 +43512,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10102601] = {
 		["Operations"] = {
 			[1] = T.RT_2118,
-			[2] = T.RT_2728,
+			[2] = T.RT_2734,
 			[3] = T.RT_1566,
 			[4] = {
 				["SEQ"] = {
@@ -43532,7 +43545,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2859,
+							[1] = T.RT_2863,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "364.307861,74.552734,184.289062,0.001239,-7.899045,-173.198883,50.0,551.857117,false,Manual,3.5",
@@ -43568,7 +43581,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[6] = {
 						["SEQ"] = {
 							[1] = T.RT_1694,
-							[2] = T.RT_3481,
+							[2] = T.RT_3485,
 						},
 					},
 					[7] = {
@@ -43589,8 +43602,8 @@ return ReadOnly("DialogueScripts2Table", {
 	[10102602] = {
 		["Operations"] = {
 			[1] = T.RT_1706,
-			[2] = T.RT_3481,
-			[3] = T.RT_2728,
+			[2] = T.RT_3485,
+			[3] = T.RT_2734,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -43609,7 +43622,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 3,
 						},
 					},
-					[2] = T.RT_2664,
+					[2] = T.RT_2670,
 				},
 			},
 		},
@@ -43617,14 +43630,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102603] = {
 		["Operations"] = {
-			[1] = T.RT_3477,
+			[1] = T.RT_3481,
 		},
 		["bAllowClick"] = true,
 	},
 	[10102604] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_2702,
+			[1] = T.RT_2712,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -43655,7 +43668,7 @@ return ReadOnly("DialogueScripts2Table", {
 									[2] = T.RT_1564,
 								},
 							},
-							[2] = T.RT_3229,
+							[2] = T.RT_3233,
 						},
 					},
 				},
@@ -43671,10 +43684,10 @@ return ReadOnly("DialogueScripts2Table", {
 					["SpeakActorId"] = 200011,
 				},
 			},
-			[2] = T.RT_3441,
+			[2] = T.RT_3445,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3479,
+					[1] = T.RT_3483,
 				},
 			},
 			[4] = {
@@ -43693,7 +43706,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1.2,
 						},
 					},
-					[3] = T.RT_2758,
+					[3] = T.RT_2764,
 				},
 			},
 		},
@@ -43702,11 +43715,11 @@ return ReadOnly("DialogueScripts2Table", {
 	[10102606] = {
 		["Operations"] = {
 			[1] = T.RT_2118,
-			[2] = T.RT_3445,
-			[3] = T.RT_3451,
+			[2] = T.RT_3449,
+			[3] = T.RT_3455,
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3479,
+					[1] = T.RT_3483,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInOutQuad",
@@ -43721,11 +43734,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102607] = {
 		["Operations"] = {
-			[1] = T.RT_3469,
+			[1] = T.RT_3473,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_3457,
+					[2] = T.RT_3461,
 				},
 			},
 		},
@@ -43734,11 +43747,11 @@ return ReadOnly("DialogueScripts2Table", {
 	[10102608] = {
 		["Operations"] = {
 			[1] = T.RT_1566,
-			[2] = T.RT_2728,
-			[3] = T.RT_3477,
+			[2] = T.RT_2734,
+			[3] = T.RT_3481,
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3473,
+					[1] = T.RT_3477,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 200003,
@@ -43746,7 +43759,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 3,
 						},
 					},
-					[3] = T.RT_3471,
+					[3] = T.RT_3475,
 				},
 			},
 		},
@@ -43754,7 +43767,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102609] = {
 		["Operations"] = {
-			[1] = T.RT_3451,
+			[1] = T.RT_3455,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -43794,7 +43807,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2.5,
 						},
 					},
-					[4] = T.RT_3395,
+					[4] = T.RT_3399,
 				},
 			},
 		},
@@ -43802,7 +43815,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102610] = {
 		["Operations"] = {
-			[1] = T.RT_3451,
+			[1] = T.RT_3455,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -43844,21 +43857,21 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10102612] = {
 		["Operations"] = {
-			[1] = T.RT_3445,
+			[1] = T.RT_3449,
 			[2] = T.RT_1564,
-			[3] = T.RT_3469,
+			[3] = T.RT_3473,
 		},
 		["bAllowClick"] = true,
 	},
 	[10102613] = {
 		["Operations"] = {
 			[1] = T.RT_1566,
-			[2] = T.RT_2728,
+			[2] = T.RT_2734,
 			[3] = {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
+							[1] = T.RT_2204,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200011,
@@ -43887,7 +43900,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2730,
+							[2] = T.RT_2736,
 						},
 					},
 				},
@@ -43903,7 +43916,7 @@ return ReadOnly("DialogueScripts2Table", {
 				},
 			},
 			[2] = T.RT_1566,
-			[3] = T.RT_2730,
+			[3] = T.RT_2736,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -44074,7 +44087,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[8] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "4718.0,-56.073944,501.964722,0.000013,-4.999999,-179.999954,12.0,212.641296,false,DoNotOverride,10.0",
@@ -44097,7 +44110,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[10] = {
 						["SEQ"] = {
-							[1] = T.RT_3125,
+							[1] = T.RT_3129,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "2817.739502,59.973236,126.231628,0.000057,8.799974,144.601196,25.0,274.520447,false,Manual,1.2",
@@ -44151,7 +44164,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[14] = {
 						["SEQ"] = {
-							[1] = T.RT_3461,
+							[1] = T.RT_3465,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "3139.87207,15.130554,315.971497,0.000029,-4.999971,-19.999962,25.000002,148.521469,false,Manual,2.110037",
@@ -44237,7 +44250,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_3369,
+									[1] = T.RT_3373,
 									[2] = {
 										["PlayAnimation"] = {
 											["ActorId"] = 200002,
@@ -44249,11 +44262,11 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 							[2] = {
 								["PARA"] = {
-									[1] = T.RT_3353,
+									[1] = T.RT_3357,
 									[2] = {
 										["SEQ"] = {
-											[1] = T.RT_2692,
-											[2] = T.RT_2744,
+											[1] = T.RT_2698,
+											[2] = T.RT_2750,
 										},
 									},
 								},
@@ -44264,7 +44277,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2690,
+									[1] = T.RT_2696,
 									[2] = {
 										["MoveTo"] = {
 											["ActorId"] = 200061,
@@ -44277,7 +44290,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 							[2] = {
 								["SEQ"] = {
-									[1] = T.RT_3369,
+									[1] = T.RT_3373,
 									[2] = {
 										["PlayAnimation"] = {
 											["ActorId"] = 200061,
@@ -44291,7 +44304,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
+							[1] = T.RT_2204,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-95.789062,-67.043945,88.862228,0.000002,4.231172,-5.899174,35.000008,1.5,false,Disable,1.2",
@@ -44369,7 +44382,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["SetRotationDescription"] = "200002:n(200053)",
 						},
 					},
-					[2] = T.RT_3455,
+					[2] = T.RT_3459,
 				},
 			},
 		},
@@ -44408,7 +44421,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2768,
+					[2] = T.RT_2150,
 				},
 			},
 		},
@@ -44448,7 +44461,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3369,
+							[1] = T.RT_3373,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200011,
@@ -44570,7 +44583,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3369,
+							[1] = T.RT_3373,
 							[2] = {
 								["MoveTo"] = {
 									["ActorId"] = 200011,
@@ -44612,12 +44625,12 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_1758,
-									[2] = T.RT_3465,
+									[2] = T.RT_3469,
 								},
 							},
 							[2] = {
 								["SEQ"] = {
-									[1] = T.RT_2919,
+									[1] = T.RT_2923,
 									[2] = {
 										["LookAt"] = {
 											["LookAtDescription"] = "200011:n(200061)",
@@ -44634,8 +44647,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103209] = {
 		["Operations"] = {
-			[1] = T.RT_2750,
-			[2] = T.RT_3465,
+			[1] = T.RT_2756,
+			[2] = T.RT_3469,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -44656,7 +44669,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3369,
+							[1] = T.RT_3373,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "81.042969,-43.859375,134.163391,0.000081,2.63064,23.501495,35.0,278.535767,false,DoNotOverride,20.0",
@@ -44762,9 +44775,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103212] = {
 		["Operations"] = {
-			[1] = T.RT_2750,
+			[1] = T.RT_2756,
 			[2] = T.RT_1776,
-			[3] = T.RT_3459,
+			[3] = T.RT_3463,
 			[4] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200002:p(-105)",
@@ -44783,7 +44796,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3369,
+							[1] = T.RT_3373,
 							[2] = {
 								["PlayNormalSound"] = {
 									["EventPath"] = "event:/sfx/common/story/01/talk_kami_high_heel",
@@ -44808,7 +44821,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3463,
+							[2] = T.RT_3467,
 						},
 					},
 					[4] = {
@@ -44893,8 +44906,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[9] = {
 						["SEQ"] = {
-							[1] = T.RT_3461,
-							[2] = T.RT_3457,
+							[1] = T.RT_3465,
+							[2] = T.RT_3461,
 						},
 					},
 				},
@@ -44904,14 +44917,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103213] = {
 		["Operations"] = {
-			[1] = T.RT_3445,
+			[1] = T.RT_3449,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200061:n(200003)",
 				},
 			},
-			[3] = T.RT_3453,
-			[4] = T.RT_3459,
+			[3] = T.RT_3457,
+			[4] = T.RT_3463,
 			[5] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200014:n(200011)",
@@ -44922,7 +44935,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["TurnToDescription"] = "200061:n(200003)",
 				},
 			},
-			[7] = T.RT_3457,
+			[7] = T.RT_3461,
 			[8] = {
 				["SEQ"] = {
 					[1] = {
@@ -44940,7 +44953,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[9] = {
 				["PARA"] = {
-					[1] = T.RT_3455,
+					[1] = T.RT_3459,
 				},
 			},
 		},
@@ -44948,7 +44961,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103214] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["MoveTo"] = {
 					["ActorId"] = 200002,
@@ -44962,7 +44975,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103215] = {
 		["Operations"] = {
-			[1] = T.RT_3451,
+			[1] = T.RT_3455,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -44974,7 +44987,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3115,
+					[1] = T.RT_3119,
 					[2] = {
 						["TurnTo"] = {
 							["TurnToDescription"] = "200003:n(200061)",
@@ -45074,7 +45087,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103301] = {
 		["Operations"] = {
-			[1] = T.RT_3453,
+			[1] = T.RT_3457,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -45089,7 +45102,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103302] = {
 		["Operations"] = {
-			[1] = T.RT_3449,
+			[1] = T.RT_3453,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -45141,7 +45154,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2935,
+			[2] = T.RT_2939,
 		},
 		["bAllowClick"] = true,
 	},
@@ -45152,7 +45165,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200014:p(101034Servant1)",
 				},
 			},
-			[2] = T.RT_3451,
+			[2] = T.RT_3455,
 			[3] = T.RT_1706,
 			[4] = T.RT_1564,
 			[5] = {
@@ -45172,7 +45185,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[6] = {
 				["PARA"] = {
-					[1] = {
+					[1] = T.RT_2939,
+					[2] = {
 						["MoveTo"] = {
 							["ActorId"] = 200011,
 							["MoveSpeed"] = 10,
@@ -45180,7 +45194,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Hide",
 						},
 					},
-					[2] = {
+					[3] = {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
@@ -45204,7 +45218,7 @@ return ReadOnly("DialogueScripts2Table", {
 									},
 								},
 							},
-							[3] = T.RT_3441,
+							[3] = T.RT_3445,
 						},
 					},
 				},
@@ -45214,10 +45228,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103402] = {
 		["Operations"] = {
-			[1] = T.RT_3449,
+			[1] = T.RT_3453,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3447,
+					[1] = T.RT_3451,
 				},
 			},
 			[3] = {
@@ -45234,7 +45248,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_3115,
+									[1] = T.RT_3119,
 									[2] = {
 										["PlayAnimation"] = {
 											["ActorId"] = 200053,
@@ -45262,7 +45276,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3447,
+					[1] = T.RT_3451,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -45332,7 +45346,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3443,
+					[1] = T.RT_3447,
 				},
 			},
 			[3] = {
@@ -45363,7 +45377,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103406] = {
 		["Operations"] = {
-			[1] = T.RT_3445,
+			[1] = T.RT_3449,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200014:n(200014)",
@@ -45371,7 +45385,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3443,
+					[1] = T.RT_3447,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -45386,7 +45400,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3233,
+							[2] = T.RT_3237,
 						},
 					},
 					[2] = {
@@ -45426,7 +45440,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103408] = {
 		["Operations"] = {
-			[1] = T.RT_3441,
+			[1] = T.RT_3445,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -45448,7 +45462,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3369,
+							[1] = T.RT_3373,
 							[2] = {
 								["TurnTo"] = {
 									["TurnToDescription"] = "200003:p(-57)",
@@ -45478,7 +45492,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103410] = {
 		["Operations"] = {
-			[1] = T.RT_2744,
+			[1] = T.RT_2750,
 			[2] = T.RT_1566,
 			[3] = {
 				["SEQ"] = {
@@ -45520,10 +45534,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103501] = {
 		["Operations"] = {
-			[1] = T.RT_2748,
-			[2] = T.RT_2730,
-			[3] = T.RT_3439,
-			[4] = T.RT_2768,
+			[1] = T.RT_2754,
+			[2] = T.RT_2736,
+			[3] = T.RT_3443,
+			[4] = T.RT_2150,
 		},
 		["bAllowClick"] = true,
 	},
@@ -45557,7 +45571,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103504] = {
 		["Operations"] = {
-			[1] = T.RT_3439,
+			[1] = T.RT_3443,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
@@ -45601,8 +45615,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103801] = {
 		["Operations"] = {
-			[1] = T.RT_3421,
-			[2] = T.RT_3433,
+			[1] = T.RT_3425,
+			[2] = T.RT_3437,
 			[3] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200065:n(200002)",
@@ -45725,7 +45739,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103803] = {
 		["Operations"] = {
-			[1] = T.RT_3421,
+			[1] = T.RT_3425,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -45777,8 +45791,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3127,
-							[2] = T.RT_3417,
+							[1] = T.RT_3131,
+							[2] = T.RT_3421,
 						},
 					},
 				},
@@ -45788,7 +45802,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103805] = {
 		["Operations"] = {
-			[1] = T.RT_3417,
+			[1] = T.RT_3421,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -45823,7 +45837,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["TargetPoint"] = "P10103804Nvzhu",
 								},
 							},
-							[3] = T.RT_3407,
+							[3] = T.RT_3411,
 						},
 					},
 					[2] = {
@@ -45846,7 +45860,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "261.814209,159.358398,196.060547,0.001377,-16.799984,-143.293808,30.0,269.422516,false,Manual,1.4",
@@ -45862,8 +45876,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103806] = {
 		["Operations"] = {
-			[1] = T.RT_3433,
-			[2] = T.RT_3407,
+			[1] = T.RT_3437,
+			[2] = T.RT_3411,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -46121,10 +46135,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103813] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
-			[2] = T.RT_2706,
-			[3] = T.RT_2702,
-			[4] = T.RT_2728,
+			[1] = T.RT_3393,
+			[2] = T.RT_2712,
+			[3] = T.RT_2708,
+			[4] = T.RT_2734,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -46185,13 +46199,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[5] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3435,
+							[2] = T.RT_3439,
 						},
 					},
 					[6] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3393,
+							[2] = T.RT_3397,
 						},
 					},
 				},
@@ -46201,9 +46215,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103815] = {
 		["Operations"] = {
-			[1] = T.RT_3421,
-			[2] = T.RT_3417,
-			[3] = T.RT_3411,
+			[1] = T.RT_3425,
+			[2] = T.RT_3421,
+			[3] = T.RT_3415,
 			[4] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200002:n(200065)",
@@ -46254,7 +46268,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1.2,
 						},
 					},
-					[5] = T.RT_3427,
+					[5] = T.RT_3431,
 				},
 			},
 		},
@@ -46262,7 +46276,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10103816] = {
 		["Operations"] = {
-			[1] = T.RT_3433,
+			[1] = T.RT_3437,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -46344,7 +46358,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1.9,
 						},
 					},
-					[3] = T.RT_3431,
+					[3] = T.RT_3435,
 				},
 			},
 		},
@@ -46382,7 +46396,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_1756,
-									[2] = T.RT_3429,
+									[2] = T.RT_3433,
 								},
 							},
 							[2] = {
@@ -46400,7 +46414,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104003] = {
 		["Operations"] = {
-			[1] = T.RT_3429,
+			[1] = T.RT_3433,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -46421,13 +46435,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_3407,
+							[2] = T.RT_3411,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3413,
+							[2] = T.RT_3417,
 						},
 					},
 					[3] = {
@@ -46439,7 +46453,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 3.7,
 								},
 							},
-							[2] = T.RT_3409,
+							[2] = T.RT_3413,
 						},
 					},
 				},
@@ -46449,9 +46463,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104004] = {
 		["Operations"] = {
-			[1] = T.RT_3417,
-			[2] = T.RT_3407,
-			[3] = T.RT_3413,
+			[1] = T.RT_3421,
+			[2] = T.RT_3411,
+			[3] = T.RT_3417,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -46472,18 +46486,18 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3411,
+							[2] = T.RT_3415,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3419,
+							[1] = T.RT_3423,
 							[2] = {
 								["PARA"] = {
-									[1] = T.RT_3415,
+									[1] = T.RT_3419,
 									[2] = {
 										["SEQ"] = {
-											[1] = T.RT_2742,
+											[1] = T.RT_2748,
 											[2] = {
 												["PlayAnimation"] = {
 													["ActorId"] = 200065,
@@ -46495,7 +46509,7 @@ return ReadOnly("DialogueScripts2Table", {
 									},
 								},
 							},
-							[3] = T.RT_3427,
+							[3] = T.RT_3431,
 						},
 					},
 				},
@@ -46622,13 +46636,13 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 1.4,
 								},
 							},
-							[5] = T.RT_3425,
+							[5] = T.RT_3429,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3405,
+							[2] = T.RT_3409,
 						},
 					},
 				},
@@ -46651,8 +46665,8 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3127,
-							[2] = T.RT_3423,
+							[1] = T.RT_3131,
+							[2] = T.RT_3427,
 						},
 					},
 					[2] = T.RT_1594,
@@ -46663,7 +46677,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104010] = {
 		["Operations"] = {
-			[1] = T.RT_3421,
+			[1] = T.RT_3425,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -46707,7 +46721,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1,
 						},
 					},
-					[4] = T.RT_3409,
+					[4] = T.RT_3413,
 				},
 			},
 		},
@@ -46733,11 +46747,11 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3419,
+					[1] = T.RT_3423,
 					[2] = {
 						["PARA"] = {
-							[1] = T.RT_3415,
-							[2] = T.RT_3417,
+							[1] = T.RT_3419,
+							[2] = T.RT_3421,
 							[3] = {
 								["SEQ"] = {
 									[1] = T.RT_1738,
@@ -46785,7 +46799,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200006:p(P10104012Saiqi)",
 				},
 			},
-			[2] = T.RT_3417,
+			[2] = T.RT_3421,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -46798,7 +46812,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_1144,
-					[2] = T.RT_2706,
+					[2] = T.RT_2712,
 				},
 			},
 		},
@@ -46808,7 +46822,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = T.RT_1878,
 			[2] = T.RT_1564,
-			[3] = T.RT_3405,
+			[3] = T.RT_3409,
 			[4] = T.RT_1612,
 			[5] = {
 				["SEQ"] = {
@@ -46825,7 +46839,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[6] = T.RT_3037,
+			[6] = T.RT_3041,
 		},
 		["bAllowClick"] = true,
 	},
@@ -46836,7 +46850,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200006:n(200003)",
 				},
 			},
-			[2] = T.RT_3401,
+			[2] = T.RT_3405,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1614,
@@ -46848,8 +46862,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104015] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_3415,
+			[1] = T.RT_2708,
+			[2] = T.RT_3419,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -46864,8 +46878,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104016] = {
 		["Operations"] = {
-			[1] = T.RT_3407,
-			[2] = T.RT_3413,
+			[1] = T.RT_3411,
+			[2] = T.RT_3417,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -46886,8 +46900,8 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 0.5,
 								},
 							},
-							[2] = T.RT_3411,
-							[3] = T.RT_3407,
+							[2] = T.RT_3415,
+							[3] = T.RT_3411,
 						},
 					},
 					[2] = {
@@ -46895,7 +46909,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_1614,
-									[2] = T.RT_3409,
+									[2] = T.RT_3413,
 								},
 							},
 							[2] = {
@@ -46921,7 +46935,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104017] = {
 		["Operations"] = {
-			[1] = T.RT_3407,
+			[1] = T.RT_3411,
 			[2] = {
 				["PARA"] = {
 					[1] = {
@@ -46959,7 +46973,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10104018] = {
 		["Operations"] = {
 			[1] = T.RT_1564,
-			[2] = T.RT_2702,
+			[2] = T.RT_2708,
 			[3] = T.RT_1612,
 			[4] = {
 				["SEQ"] = {
@@ -46973,7 +46987,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[5] = {
 				["SEQ"] = {
 					[1] = T.RT_1366,
-					[2] = T.RT_2800,
+					[2] = T.RT_2804,
 				},
 			},
 		},
@@ -46986,7 +47000,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200065:n(200003)",
 				},
 			},
-			[2] = T.RT_3405,
+			[2] = T.RT_3409,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -47000,7 +47014,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3403,
+							[1] = T.RT_3407,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200003,
@@ -47018,11 +47032,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104020] = {
 		["Operations"] = {
-			[1] = T.RT_3401,
+			[1] = T.RT_3405,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_790,
-					[2] = T.RT_3397,
+					[2] = T.RT_3401,
 				},
 			},
 		},
@@ -47047,7 +47061,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3395,
+					[1] = T.RT_3399,
 					[2] = T.RT_1598,
 				},
 			},
@@ -47056,7 +47070,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104401] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
+			[1] = T.RT_3393,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -47132,13 +47146,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[7] = {
 						["SEQ"] = {
 							[1] = T.RT_1756,
-							[2] = T.RT_3039,
+							[2] = T.RT_3043,
 						},
 					},
 					[8] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_3393,
+							[2] = T.RT_3397,
 						},
 					},
 				},
@@ -47163,7 +47177,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104403] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
+			[1] = T.RT_3393,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -47184,11 +47198,11 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3359,
+							[1] = T.RT_3363,
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_146,
-									[2] = T.RT_2702,
+									[2] = T.RT_2708,
 								},
 							},
 						},
@@ -47221,9 +47235,9 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["PARA"] = {
-							[1] = T.RT_2722,
+							[1] = T.RT_2728,
 							[2] = T.RT_1690,
-							[3] = T.RT_3387,
+							[3] = T.RT_3391,
 						},
 					},
 					[2] = {
@@ -47235,8 +47249,8 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 0.1,
 								},
 							},
-							[2] = T.RT_2706,
-							[3] = T.RT_3387,
+							[2] = T.RT_2712,
+							[3] = T.RT_3391,
 							[4] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200002,
@@ -47253,8 +47267,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104405] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
-			[2] = T.RT_2702,
+			[1] = T.RT_3393,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -47287,7 +47301,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104406] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
+			[1] = T.RT_3393,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -47342,7 +47356,7 @@ return ReadOnly("DialogueScripts2Table", {
 									[2] = T.RT_1398,
 								},
 							},
-							[3] = T.RT_2706,
+							[3] = T.RT_2712,
 						},
 					},
 					[2] = {
@@ -47367,8 +47381,8 @@ return ReadOnly("DialogueScripts2Table", {
 									["TargetPoint"] = "P10104603",
 								},
 							},
-							[2] = T.RT_2712,
-							[3] = T.RT_2702,
+							[2] = T.RT_2718,
+							[3] = T.RT_2708,
 						},
 					},
 				},
@@ -47463,7 +47477,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10104605] = {
 		["Operations"] = {
 			[1] = T.RT_1976,
-			[2] = T.RT_3359,
+			[2] = T.RT_3363,
 			[3] = T.RT_1398,
 			[4] = {
 				["SEQ"] = {
@@ -47501,7 +47515,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 							[4] = {
 								["PARA"] = {
-									[1] = T.RT_3387,
+									[1] = T.RT_3391,
 									[2] = T.RT_2128,
 								},
 							},
@@ -47525,11 +47539,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104606] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
-			[2] = T.RT_2702,
+			[1] = T.RT_3393,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3065,
+					[1] = T.RT_3069,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 200002,
@@ -47583,7 +47597,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 0.8,
 						},
 					},
-					[4] = T.RT_3363,
+					[4] = T.RT_3367,
 					[5] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 200002,
@@ -47598,7 +47612,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2.6,
 						},
 					},
-					[7] = T.RT_3391,
+					[7] = T.RT_3395,
 				},
 			},
 		},
@@ -47606,8 +47620,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104608] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
-			[2] = T.RT_2702,
+			[1] = T.RT_3393,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -47633,8 +47647,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104609] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
-			[2] = T.RT_2702,
+			[1] = T.RT_3393,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -47678,8 +47692,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104610] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
-			[2] = T.RT_2702,
+			[1] = T.RT_3393,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -47698,7 +47712,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 6.5,
 						},
 					},
-					[2] = T.RT_3033,
+					[2] = T.RT_3037,
 				},
 			},
 		},
@@ -47706,9 +47720,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104611] = {
 		["Operations"] = {
-			[1] = T.RT_3389,
-			[2] = T.RT_2702,
-			[3] = T.RT_3385,
+			[1] = T.RT_3393,
+			[2] = T.RT_2708,
+			[3] = T.RT_3389,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -47718,7 +47732,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1.8,
 						},
 					},
-					[2] = T.RT_2664,
+					[2] = T.RT_2670,
 				},
 			},
 		},
@@ -47727,7 +47741,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10104612] = {
 		["Operations"] = {
 			[1] = T.RT_1976,
-			[2] = T.RT_3387,
+			[2] = T.RT_3391,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -47753,15 +47767,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10104613] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_3385,
+			[1] = T.RT_2708,
+			[2] = T.RT_3389,
 		},
 		["bAllowClick"] = true,
 	},
 	[10104614] = {
 		["Operations"] = {
 			[1] = T.RT_1878,
-			[2] = T.RT_2706,
+			[2] = T.RT_2712,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -47773,8 +47787,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_3231,
-					[2] = T.RT_3229,
+					[1] = T.RT_3235,
+					[2] = T.RT_3233,
 				},
 			},
 		},
@@ -47782,10 +47796,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105401] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
-			[2] = T.RT_3343,
-			[3] = T.RT_3349,
-			[4] = T.RT_2812,
+			[1] = T.RT_2786,
+			[2] = T.RT_3347,
+			[3] = T.RT_3353,
+			[4] = T.RT_2816,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -47803,7 +47817,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[6] = {
 				["PARA"] = {
-					[1] = T.RT_3133,
+					[1] = T.RT_3137,
 					[2] = {
 						["PlayNormalSound"] = {
 							["EventPath"] = "event:/sfx/common/story/01/talk_bai_running",
@@ -47841,7 +47855,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["TargetPointName"] = "P10105422Nvzhu2",
 								},
 							},
-							[3] = T.RT_2200,
+							[3] = T.RT_2206,
 						},
 					},
 					[6] = {
@@ -47856,7 +47870,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_1614,
-									[2] = T.RT_2933,
+									[2] = T.RT_2937,
 								},
 							},
 						},
@@ -47879,7 +47893,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105402] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -47898,7 +47912,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1144,
-					[2] = T.RT_2788,
+					[2] = T.RT_2792,
 				},
 			},
 		},
@@ -47916,18 +47930,18 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_3371,
+					[2] = T.RT_3375,
 					[3] = {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_146,
-									[2] = T.RT_3351,
+									[2] = T.RT_3355,
 								},
 							},
 							[2] = {
 								["SEQ"] = {
-									[1] = T.RT_3231,
+									[1] = T.RT_3235,
 									[2] = {
 										["PlayAnimation"] = {
 											["ActorId"] = 200021,
@@ -47944,7 +47958,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 1.2,
 								},
 							},
-							[4] = T.RT_3251,
+							[4] = T.RT_3255,
 						},
 					},
 				},
@@ -47954,8 +47968,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105404] = {
 		["Operations"] = {
-			[1] = T.RT_3345,
-			[2] = T.RT_3381,
+			[1] = T.RT_3349,
+			[2] = T.RT_3385,
 			[3] = {
 				["PARA"] = {
 					[1] = {
@@ -47971,7 +47985,7 @@ return ReadOnly("DialogueScripts2Table", {
 									},
 									[2] = {
 										["SEQ"] = {
-											[1] = T.RT_2403,
+											[1] = T.RT_2409,
 											[2] = {
 												["PlayAnimation"] = {
 													["ActorId"] = 200006,
@@ -47991,7 +48005,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[3] = {
 								["SEQ"] = {
 									[1] = T.RT_1796,
-									[2] = T.RT_3343,
+									[2] = T.RT_3347,
 								},
 							},
 						},
@@ -48010,9 +48024,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105406] = {
 		["Operations"] = {
-			[1] = T.RT_3349,
-			[2] = T.RT_3343,
-			[3] = T.RT_3381,
+			[1] = T.RT_3353,
+			[2] = T.RT_3347,
+			[3] = T.RT_3385,
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
@@ -48064,7 +48078,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200002,
@@ -48081,7 +48095,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105409] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -48107,10 +48121,10 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 0.8,
 						},
 					},
-					[2] = T.RT_3373,
+					[2] = T.RT_3377,
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2859,
+							[1] = T.RT_2863,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200021,
@@ -48141,13 +48155,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_3377,
+							[2] = T.RT_3381,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2931,
+							[2] = T.RT_2935,
 						},
 					},
 				},
@@ -48157,16 +48171,16 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105411] = {
 		["Operations"] = {
-			[1] = T.RT_3377,
+			[1] = T.RT_3381,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3375,
+					[1] = T.RT_3379,
 				},
 			},
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1748,
-					[2] = T.RT_2664,
+					[2] = T.RT_2670,
 				},
 			},
 		},
@@ -48190,7 +48204,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3375,
+					[1] = T.RT_3379,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-393.146484,-457.140625,241.713867,0.001238,-9.799989,46.000435,80.000023,100000.0,false,DoNotOverride,2.8",
@@ -48213,7 +48227,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_2712,
+					[2] = T.RT_2718,
 				},
 			},
 		},
@@ -48253,7 +48267,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1756,
-							[2] = T.RT_3345,
+							[2] = T.RT_3349,
 						},
 					},
 					[3] = {
@@ -48275,7 +48289,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105415] = {
 		["Operations"] = {
-			[1] = T.RT_3345,
+			[1] = T.RT_3349,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -48300,7 +48314,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["DelaySeconds"] = 2.9,
 								},
 							},
-							[2] = T.RT_2905,
+							[2] = T.RT_2909,
 						},
 					},
 					[2] = {
@@ -48317,8 +48331,8 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 4.3,
 						},
 					},
-					[4] = T.RT_3373,
-					[5] = T.RT_3251,
+					[4] = T.RT_3377,
+					[5] = T.RT_3255,
 				},
 			},
 		},
@@ -48359,7 +48373,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3341,
+							[2] = T.RT_3345,
 						},
 					},
 					[3] = {
@@ -48371,7 +48385,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3365,
+							[2] = T.RT_3369,
 							[3] = {
 								["SetRotation"] = {
 									["SetRotationDescription"] = "200002:p(-15)",
@@ -48387,7 +48401,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10105417] = {
 		["Operations"] = {
 			[1] = T.RT_1776,
-			[2] = T.RT_3345,
+			[2] = T.RT_3349,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -48419,7 +48433,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 4,
 						},
 					},
-					[3] = T.RT_3141,
+					[3] = T.RT_3145,
 				},
 			},
 		},
@@ -48441,8 +48455,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105419] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
-			[2] = T.RT_3345,
+			[1] = T.RT_2816,
+			[2] = T.RT_3349,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -48470,7 +48484,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_3371,
+							[1] = T.RT_3375,
 							[2] = T.RT_1846,
 						},
 					},
@@ -48481,7 +48495,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105420] = {
 		["Operations"] = {
-			[1] = T.RT_3345,
+			[1] = T.RT_3349,
 			[2] = {
 				["PARA"] = {
 					[1] = {
@@ -48493,7 +48507,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3341,
+							[2] = T.RT_3345,
 						},
 					},
 					[2] = {
@@ -48505,7 +48519,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3365,
+							[2] = T.RT_3369,
 						},
 					},
 					[3] = {
@@ -48524,7 +48538,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 4,
 								},
 							},
-							[3] = T.RT_2931,
+							[3] = T.RT_2935,
 						},
 					},
 				},
@@ -48555,8 +48569,8 @@ return ReadOnly("DialogueScripts2Table", {
 	[10105422] = {
 		["Operations"] = {
 			[1] = T.RT_1776,
-			[2] = T.RT_2933,
-			[3] = T.RT_3357,
+			[2] = T.RT_2937,
+			[3] = T.RT_3361,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -48571,7 +48585,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105424] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -48605,7 +48619,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3365,
+							[2] = T.RT_3369,
 						},
 					},
 				},
@@ -48615,7 +48629,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105425] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -48635,7 +48649,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3369,
+							[1] = T.RT_3373,
 							[2] = {
 								["TurnTo"] = {
 									["TurnToDescription"] = "200021:p(150)",
@@ -48652,7 +48666,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3341,
+							[2] = T.RT_3345,
 						},
 					},
 				},
@@ -48749,7 +48763,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3365,
+							[2] = T.RT_3369,
 						},
 					},
 					[3] = {
@@ -48761,7 +48775,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3341,
+							[2] = T.RT_3345,
 						},
 					},
 					[4] = {
@@ -48773,7 +48787,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3361,
+							[2] = T.RT_3365,
 						},
 					},
 				},
@@ -48803,8 +48817,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105430] = {
 		["Operations"] = {
-			[1] = T.RT_3345,
-			[2] = T.RT_3351,
+			[1] = T.RT_3349,
+			[2] = T.RT_3355,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -48833,7 +48847,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105432] = {
 		["Operations"] = {
-			[1] = T.RT_3351,
+			[1] = T.RT_3355,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -48872,7 +48886,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_3367,
+					[2] = T.RT_3371,
 					[3] = {
 						["SEQ"] = {
 							[1] = {
@@ -48882,7 +48896,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3341,
+							[2] = T.RT_3345,
 						},
 					},
 				},
@@ -48892,7 +48906,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105434] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -48920,7 +48934,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3365,
+							[2] = T.RT_3369,
 						},
 					},
 					[3] = {
@@ -48932,8 +48946,8 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 3,
 								},
 							},
-							[2] = T.RT_3363,
-							[3] = T.RT_2200,
+							[2] = T.RT_3367,
+							[3] = T.RT_2206,
 						},
 					},
 				},
@@ -48963,7 +48977,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3361,
+							[2] = T.RT_3365,
 						},
 					},
 					[2] = {
@@ -48980,7 +48994,7 @@ return ReadOnly("DialogueScripts2Table", {
 									},
 								},
 							},
-							[2] = T.RT_2905,
+							[2] = T.RT_2909,
 						},
 					},
 				},
@@ -48990,8 +49004,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105436] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
-			[2] = T.RT_3359,
+			[1] = T.RT_2816,
+			[2] = T.RT_3363,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -49005,8 +49019,8 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
-							[2] = T.RT_3357,
+							[1] = T.RT_2204,
+							[2] = T.RT_3361,
 						},
 					},
 					[2] = {
@@ -49040,14 +49054,14 @@ return ReadOnly("DialogueScripts2Table", {
 							[3] = {
 								["SEQ"] = {
 									[1] = T.RT_462,
-									[2] = T.RT_3355,
+									[2] = T.RT_3359,
 								},
 							},
 						},
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2917,
+							[1] = T.RT_2921,
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_146,
@@ -49068,7 +49082,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10105437] = {
 		["Operations"] = {
 			[1] = T.RT_1776,
-			[2] = T.RT_2917,
+			[2] = T.RT_2921,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -49143,7 +49157,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["PARA"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_3127,
+									[1] = T.RT_3131,
 									[2] = {
 										["LookAt"] = {
 											["LookAtDescription"] = "200002:p(P101054Aote3)",
@@ -49154,7 +49168,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_1796,
-									[2] = T.RT_2722,
+									[2] = T.RT_2728,
 								},
 							},
 						},
@@ -49164,12 +49178,12 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10105439] = T.RT_2338,
-	[10105440] = T.RT_2338,
+	[10105439] = T.RT_2344,
+	[10105440] = T.RT_2344,
 	[10105441] = {
 		["Operations"] = {
-			[1] = T.RT_3353,
-			[2] = T.RT_2933,
+			[1] = T.RT_3357,
+			[2] = T.RT_2937,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -49188,7 +49202,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_1614,
-					[2] = T.RT_2722,
+					[2] = T.RT_2728,
 				},
 			},
 		},
@@ -49262,7 +49276,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2718,
+							[2] = T.RT_2724,
 						},
 					},
 				},
@@ -49272,10 +49286,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105443] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
-			[2] = T.RT_3345,
-			[3] = T.RT_2913,
-			[4] = T.RT_3351,
+			[1] = T.RT_2816,
+			[2] = T.RT_3349,
+			[3] = T.RT_2917,
+			[4] = T.RT_3355,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -49327,7 +49341,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Duration"] = 1.7,
 								},
 							},
-							[3] = T.RT_2871,
+							[3] = T.RT_2875,
 						},
 					},
 				},
@@ -49337,10 +49351,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105444] = {
 		["Operations"] = {
-			[1] = T.RT_3349,
+			[1] = T.RT_3353,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3347,
+					[1] = T.RT_3351,
 				},
 			},
 		},
@@ -49348,10 +49362,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105445] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3347,
+					[1] = T.RT_3351,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "42.169922,-251.294922,210.367188,0.001326,-19.999907,109.319183,35.0,143.637619,false,Manual,10.0",
@@ -49370,7 +49384,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1762,
-							[2] = T.RT_3345,
+							[2] = T.RT_3349,
 						},
 					},
 				},
@@ -49380,7 +49394,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105446] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -49413,7 +49427,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105447] = {
 		["Operations"] = {
-			[1] = T.RT_3343,
+			[1] = T.RT_3347,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -49434,7 +49448,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_3341,
+							[2] = T.RT_3345,
 						},
 					},
 					[2] = {
@@ -49496,7 +49510,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105801] = {
 		["Operations"] = {
-			[1] = T.RT_2897,
+			[1] = T.RT_2901,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "100001:p(P10105801Enlike1)",
@@ -49566,7 +49580,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_1144,
-									[2] = T.RT_3339,
+									[2] = T.RT_3343,
 								},
 							},
 						},
@@ -49584,7 +49598,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[6] = {
 						["SEQ"] = {
-							[1] = T.RT_2859,
+							[1] = T.RT_2863,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-478.826172,291.87207,143.619141,0.000056,-6.399935,-36.999901,30.0,136.349091,false,DoNotOverride,5.0",
@@ -49605,9 +49619,9 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200005:n(200059)",
 				},
 			},
-			[2] = T.RT_2995,
-			[3] = T.RT_3129,
-			[4] = T.RT_3339,
+			[2] = T.RT_2999,
+			[3] = T.RT_3133,
+			[4] = T.RT_3343,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -49667,7 +49681,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[3] = T.RT_3337,
+					[3] = T.RT_3341,
 				},
 			},
 		},
@@ -49691,7 +49705,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3335,
+			[2] = T.RT_3339,
 		},
 		["bAllowClick"] = true,
 	},
@@ -49710,7 +49724,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2403,
+							[1] = T.RT_2409,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200059,
@@ -49765,7 +49779,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[3] = T.RT_3315,
+					[3] = T.RT_3319,
 				},
 			},
 		},
@@ -49773,7 +49787,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105807] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
+			[1] = T.RT_2999,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -49791,7 +49805,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["PARA"] = {
-					[1] = T.RT_3335,
+					[1] = T.RT_3339,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
@@ -49804,7 +49818,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_1246,
-									[2] = T.RT_3333,
+									[2] = T.RT_3337,
 								},
 							},
 						},
@@ -49816,7 +49830,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105808] = {
 		["Operations"] = {
-			[1] = T.RT_3333,
+			[1] = T.RT_3337,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -49836,7 +49850,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3331,
+							[1] = T.RT_3335,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200005,
@@ -49867,7 +49881,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105809] = {
 		["Operations"] = {
-			[1] = T.RT_3313,
+			[1] = T.RT_3317,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -49902,7 +49916,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105811] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
+			[1] = T.RT_2999,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -49951,8 +49965,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105812] = {
 		["Operations"] = {
-			[1] = T.RT_3027,
-			[2] = T.RT_2995,
+			[1] = T.RT_3031,
+			[2] = T.RT_2999,
 			[3] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200005:p(-45)",
@@ -50010,7 +50024,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105813] = {
 		["Operations"] = {
-			[1] = T.RT_3027,
+			[1] = T.RT_3031,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -50023,8 +50037,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10105814] = T.RT_3329,
-	[10105815] = T.RT_3329,
+	[10105814] = T.RT_3333,
+	[10105815] = T.RT_3333,
 	[10105816] = {
 		["Operations"] = {
 			[1] = {
@@ -50038,7 +50052,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3315,
+					[1] = T.RT_3319,
 				},
 			},
 		},
@@ -50064,7 +50078,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1366,
-					[2] = T.RT_3025,
+					[2] = T.RT_3029,
 				},
 			},
 		},
@@ -50072,14 +50086,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10105818] = {
 		["Operations"] = {
-			[1] = T.RT_2897,
-			[2] = T.RT_3313,
+			[1] = T.RT_2901,
+			[2] = T.RT_3317,
 			[3] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200002:n(200059)",
 				},
 			},
-			[4] = T.RT_2995,
+			[4] = T.RT_2999,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -50124,7 +50138,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3313,
+							[2] = T.RT_3317,
 						},
 					},
 					[4] = {
@@ -50273,7 +50287,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106003] = {
 		["Operations"] = {
-			[1] = T.RT_3287,
+			[1] = T.RT_3291,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -50318,7 +50332,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3285,
+							[2] = T.RT_3289,
 						},
 					},
 					[5] = {
@@ -50338,8 +50352,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106004] = {
 		["Operations"] = {
-			[1] = T.RT_3285,
-			[2] = T.RT_3287,
+			[1] = T.RT_3289,
+			[2] = T.RT_3291,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -50406,7 +50420,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3273,
+			[2] = T.RT_3277,
 		},
 		["bAllowClick"] = true,
 	},
@@ -50475,7 +50489,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106008] = {
 		["Operations"] = {
-			[1] = T.RT_3285,
+			[1] = T.RT_3289,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -50490,7 +50504,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1726,
-							[2] = T.RT_3309,
+							[2] = T.RT_3313,
 						},
 					},
 					[2] = {
@@ -50518,7 +50532,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1604,
-							[2] = T.RT_3311,
+							[2] = T.RT_3315,
 						},
 					},
 					[5] = {
@@ -50534,7 +50548,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[6] = {
 						["SEQ"] = {
-							[1] = T.RT_2909,
+							[1] = T.RT_2913,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "149.101089,-214.888672,94.910156,0.000488,1.200645,46.840252,50.0,264.624786,false,Manual,8.565763",
@@ -50550,8 +50564,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106009] = {
 		["Operations"] = {
-			[1] = T.RT_3311,
-			[2] = T.RT_3309,
+			[1] = T.RT_3315,
+			[2] = T.RT_3313,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -50596,7 +50610,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1762,
-							[2] = T.RT_3285,
+							[2] = T.RT_3289,
 						},
 					},
 				},
@@ -50606,7 +50620,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106010] = {
 		["Operations"] = {
-			[1] = T.RT_3287,
+			[1] = T.RT_3291,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -50657,7 +50671,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_3287,
+							[2] = T.RT_3291,
 						},
 					},
 				},
@@ -50667,7 +50681,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106011] = {
 		["Operations"] = {
-			[1] = T.RT_3285,
+			[1] = T.RT_3289,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -50692,8 +50706,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
-							[2] = T.RT_3307,
+							[1] = T.RT_2204,
+							[2] = T.RT_3311,
 						},
 					},
 				},
@@ -50708,7 +50722,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200020:p(P10106012)",
 				},
 			},
-			[2] = T.RT_3287,
+			[2] = T.RT_3291,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -50727,7 +50741,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_2885,
+					[1] = T.RT_2152,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1738,
@@ -50772,7 +50786,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106014] = {
 		["Operations"] = {
-			[1] = T.RT_3285,
+			[1] = T.RT_3289,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -50836,7 +50850,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106018] = {
 		["Operations"] = {
-			[1] = T.RT_3285,
+			[1] = T.RT_3289,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -50882,7 +50896,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_3061,
+							[2] = T.RT_3065,
 						},
 					},
 				},
@@ -50893,8 +50907,8 @@ return ReadOnly("DialogueScripts2Table", {
 	[10106101] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_3283,
-			[3] = T.RT_2792,
+			[2] = T.RT_3287,
+			[3] = T.RT_2796,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -50937,8 +50951,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106102] = {
 		["Operations"] = {
-			[1] = T.RT_3289,
-			[2] = T.RT_3287,
+			[1] = T.RT_3293,
+			[2] = T.RT_3291,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -50958,7 +50972,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_3307,
+					[2] = T.RT_3311,
 				},
 			},
 		},
@@ -50980,7 +50994,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106105] = {
 		["Operations"] = {
-			[1] = T.RT_3287,
+			[1] = T.RT_3291,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -50993,7 +51007,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_3305,
+					[2] = T.RT_3309,
 				},
 			},
 		},
@@ -51001,7 +51015,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106107] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1860,
 			[3] = {
 				["SEQ"] = {
@@ -51023,8 +51037,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106108] = {
 		["Operations"] = {
-			[1] = T.RT_3289,
-			[2] = T.RT_3287,
+			[1] = T.RT_3293,
+			[2] = T.RT_3291,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -51043,7 +51057,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 5,
 						},
 					},
-					[2] = T.RT_3305,
+					[2] = T.RT_3309,
 				},
 			},
 		},
@@ -51071,8 +51085,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106110] = {
 		["Operations"] = {
-			[1] = T.RT_3285,
-			[2] = T.RT_2792,
+			[1] = T.RT_3289,
+			[2] = T.RT_2796,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -51103,7 +51117,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3291,
+					[2] = T.RT_3295,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1770,
@@ -51123,8 +51137,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106111] = {
 		["Operations"] = {
-			[1] = T.RT_3303,
-			[2] = T.RT_3283,
+			[1] = T.RT_3307,
+			[2] = T.RT_3287,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -51145,7 +51159,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106112] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -51161,7 +51175,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10106201] = {
 		["Operations"] = {
 			[1] = T.RT_1116,
-			[2] = T.RT_3283,
+			[2] = T.RT_3287,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -51182,7 +51196,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106202] = {
 		["Operations"] = {
-			[1] = T.RT_3289,
+			[1] = T.RT_3293,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -51197,19 +51211,19 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106203] = {
 		["Operations"] = {
-			[1] = T.RT_3297,
+			[1] = T.RT_3301,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_3289,
+							[2] = T.RT_3293,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
-							[2] = T.RT_3303,
+							[2] = T.RT_3307,
 						},
 					},
 				},
@@ -51217,7 +51231,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10106204] = T.RT_3301,
+	[10106204] = T.RT_3305,
 	[10106205] = {
 		["Operations"] = {
 			[1] = {
@@ -51232,7 +51246,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1366,
-					[2] = T.RT_3299,
+					[2] = T.RT_3303,
 				},
 			},
 		},
@@ -51240,7 +51254,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106206] = {
 		["Operations"] = {
-			[1] = T.RT_3299,
+			[1] = T.RT_3303,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -51261,14 +51275,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106207] = {
 		["Operations"] = {
-			[1] = T.RT_3289,
-			[2] = T.RT_3297,
+			[1] = T.RT_3293,
+			[2] = T.RT_3301,
 		},
 		["bAllowClick"] = true,
 	},
 	[10106208] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -51293,7 +51307,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_1860,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3293,
+					[1] = T.RT_3297,
 				},
 			},
 		},
@@ -51301,11 +51315,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106210] = {
 		["Operations"] = {
-			[1] = T.RT_3285,
-			[2] = T.RT_3287,
+			[1] = T.RT_3289,
+			[2] = T.RT_3291,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_3293,
+					[1] = T.RT_3297,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -51320,8 +51334,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106211] = {
 		["Operations"] = {
-			[1] = T.RT_3283,
-			[2] = T.RT_3289,
+			[1] = T.RT_3287,
+			[2] = T.RT_3293,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -51350,10 +51364,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_2792,
+							[2] = T.RT_2796,
 						},
 					},
-					[2] = T.RT_3291,
+					[2] = T.RT_3295,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
@@ -51367,8 +51381,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106213] = {
 		["Operations"] = {
-			[1] = T.RT_3283,
-			[2] = T.RT_2792,
+			[1] = T.RT_3287,
+			[2] = T.RT_2796,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -51436,7 +51450,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106215] = {
 		["Operations"] = {
-			[1] = T.RT_3289,
+			[1] = T.RT_3293,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -51490,7 +51504,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1860,
-					[2] = T.RT_2790,
+					[2] = T.RT_2794,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
@@ -51504,8 +51518,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106218] = {
 		["Operations"] = {
-			[1] = T.RT_3287,
-			[2] = T.RT_3289,
+			[1] = T.RT_3291,
+			[2] = T.RT_3293,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -51520,13 +51534,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_3287,
+							[2] = T.RT_3291,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3285,
+							[2] = T.RT_3289,
 						},
 					},
 				},
@@ -51536,8 +51550,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106219] = {
 		["Operations"] = {
-			[1] = T.RT_3287,
-			[2] = T.RT_3285,
+			[1] = T.RT_3291,
+			[2] = T.RT_3289,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -51550,7 +51564,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3283,
+					[2] = T.RT_3287,
 				},
 			},
 		},
@@ -51587,10 +51601,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106302] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3279,
+					[1] = T.RT_3283,
 				},
 			},
 			[3] = {
@@ -51608,7 +51622,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3281,
+							[2] = T.RT_3285,
 						},
 					},
 					[3] = {
@@ -51630,7 +51644,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106304] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -51646,13 +51660,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_3271,
+							[2] = T.RT_3275,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2905,
+							[2] = T.RT_2909,
 						},
 					},
 				},
@@ -51678,7 +51692,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3279,
+					[1] = T.RT_3283,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -51745,17 +51759,17 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3277,
+					[1] = T.RT_3281,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3181,
+							[2] = T.RT_3185,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1726,
-							[2] = T.RT_2788,
+							[2] = T.RT_2792,
 						},
 					},
 				},
@@ -51774,7 +51788,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2,
 						},
 					},
-					[2] = T.RT_3275,
+					[2] = T.RT_3279,
 				},
 			},
 		},
@@ -51782,12 +51796,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106312] = {
 		["Operations"] = {
-			[1] = T.RT_3269,
+			[1] = T.RT_3273,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3271,
-					[2] = T.RT_2871,
-					[3] = T.RT_3273,
+					[1] = T.RT_3275,
+					[2] = T.RT_2875,
+					[3] = T.RT_3277,
 				},
 			},
 		},
@@ -51830,7 +51844,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2772,
+							[2] = T.RT_2776,
 						},
 					},
 					[2] = {
@@ -51842,10 +51856,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3271,
+							[2] = T.RT_3275,
 						},
 					},
-					[4] = T.RT_2871,
+					[4] = T.RT_2875,
 				},
 			},
 		},
@@ -51853,7 +51867,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106315] = {
 		["Operations"] = {
-			[1] = T.RT_3269,
+			[1] = T.RT_3273,
 		},
 		["bAllowClick"] = true,
 	},
@@ -51914,14 +51928,14 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3111,
+							[2] = T.RT_3115,
 						},
 					},
-					[2] = T.RT_2788,
+					[2] = T.RT_2792,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_3265,
+							[2] = T.RT_3269,
 						},
 					},
 					[4] = {
@@ -51952,7 +51966,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1,
 						},
 					},
-					[2] = T.RT_2871,
+					[2] = T.RT_2875,
 				},
 			},
 		},
@@ -51974,28 +51988,28 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106322] = {
 		["Operations"] = {
-			[1] = T.RT_3257,
+			[1] = T.RT_3261,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3251,
+					[1] = T.RT_3255,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3141,
+							[2] = T.RT_3145,
 						},
 					},
-					[3] = T.RT_2873,
+					[3] = T.RT_2877,
 				},
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[10106323] = T.RT_3263,
-	[10106324] = T.RT_3263,
+	[10106323] = T.RT_3267,
+	[10106324] = T.RT_3267,
 	[10106325] = {
 		["Operations"] = {
-			[1] = T.RT_3257,
-			[2] = T.RT_3253,
+			[1] = T.RT_3261,
+			[2] = T.RT_3257,
 		},
 		["bAllowClick"] = true,
 	},
@@ -52035,12 +52049,12 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2927,
-					[2] = T.RT_3067,
+					[1] = T.RT_2931,
+					[2] = T.RT_3071,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3111,
+							[2] = T.RT_3115,
 						},
 					},
 					[4] = {
@@ -52122,17 +52136,17 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3251,
+					[1] = T.RT_3255,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
-							[2] = T.RT_3141,
+							[2] = T.RT_3145,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3243,
+							[2] = T.RT_3247,
 						},
 					},
 				},
@@ -52191,8 +52205,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2871,
-					[2] = T.RT_3249,
+					[1] = T.RT_2875,
+					[2] = T.RT_3253,
 				},
 			},
 		},
@@ -52250,7 +52264,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3247,
+					[1] = T.RT_3251,
 				},
 			},
 		},
@@ -52260,7 +52274,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3247,
+					[1] = T.RT_3251,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeOutQuad",
@@ -52273,7 +52287,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1490,
-					[2] = T.RT_2704,
+					[2] = T.RT_2710,
 				},
 			},
 		},
@@ -52295,10 +52309,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2931,
+							[2] = T.RT_2935,
 						},
 					},
-					[2] = T.RT_3245,
+					[2] = T.RT_3249,
 				},
 			},
 		},
@@ -52345,7 +52359,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3243,
+					[1] = T.RT_3247,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
@@ -52506,12 +52520,12 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_2768,
-					[2] = T.RT_3239,
+					[1] = T.RT_2150,
+					[2] = T.RT_3243,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3241,
+							[2] = T.RT_3245,
 						},
 					},
 				},
@@ -52534,7 +52548,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3239,
+							[2] = T.RT_3243,
 						},
 					},
 					[3] = {
@@ -52629,13 +52643,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3237,
+							[2] = T.RT_3241,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
-							[2] = T.RT_3235,
+							[1] = T.RT_2204,
+							[2] = T.RT_3239,
 						},
 					},
 					[3] = {
@@ -52651,7 +52665,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106708] = {
 		["Operations"] = {
-			[1] = T.RT_3235,
+			[1] = T.RT_3239,
 		},
 		["bAllowClick"] = true,
 	},
@@ -52724,20 +52738,20 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3233,
+							[2] = T.RT_3237,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_3231,
+							[1] = T.RT_3235,
 							[2] = T.RT_1116,
 						},
 					},
-					[3] = T.RT_2780,
+					[3] = T.RT_2784,
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2726,
+							[2] = T.RT_2732,
 						},
 					},
 				},
@@ -52747,7 +52761,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106802] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
+			[1] = T.RT_2999,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -52803,7 +52817,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[4] = T.RT_3027,
+							[4] = T.RT_3031,
 							[5] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200005,
@@ -52826,7 +52840,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-342.228516,60.383606,124.384766,0.000232,-1.803989,-8.000017,20.0,500.0,false,Manual,1.2",
@@ -52885,8 +52899,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106805] = {
 		["Operations"] = {
-			[1] = T.RT_2897,
-			[2] = T.RT_2995,
+			[1] = T.RT_2901,
+			[2] = T.RT_2999,
 			[3] = {
 				["PARA"] = {
 					[1] = {
@@ -53036,7 +53050,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_3229,
+					[1] = T.RT_3233,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
@@ -53078,7 +53092,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200045:n(200059)",
 				},
 			},
-			[3] = T.RT_3227,
+			[3] = T.RT_3231,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -53122,7 +53136,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_3227,
+							[2] = T.RT_3231,
 						},
 					},
 					[5] = {
@@ -53209,8 +53223,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106903] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_2891,
+			[1] = T.RT_2708,
+			[2] = T.RT_2895,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -53275,7 +53289,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[5] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2664,
+							[2] = T.RT_2670,
 						},
 					},
 				},
@@ -53285,12 +53299,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10106904] = {
 		["Operations"] = {
-			[1] = T.RT_3225,
-			[2] = T.RT_3225,
+			[1] = T.RT_3229,
+			[2] = T.RT_3229,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1366,
-					[2] = T.RT_2712,
+					[2] = T.RT_2718,
 				},
 			},
 		},
@@ -53307,7 +53321,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3043,
+			[2] = T.RT_3047,
 		},
 		["bAllowClick"] = true,
 	},
@@ -53358,10 +53372,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10107004] = T.RT_3213,
-	[10107005] = T.RT_3223,
-	[10107006] = T.RT_3213,
-	[10107007] = T.RT_3223,
+	[10107004] = T.RT_3217,
+	[10107005] = T.RT_3227,
+	[10107006] = T.RT_3217,
+	[10107007] = T.RT_3227,
 	[10107008] = {
 		["Operations"] = {
 			[1] = {
@@ -53432,7 +53446,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["SetRotationDescription"] = "100001:p(-19)",
 						},
 					},
-					[2] = T.RT_3207,
+					[2] = T.RT_3211,
 				},
 			},
 		},
@@ -53440,12 +53454,12 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107011] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_3217,
+			[1] = T.RT_2708,
+			[2] = T.RT_3221,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_3021,
+					[2] = T.RT_3025,
 				},
 			},
 		},
@@ -53465,15 +53479,15 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10107013] = T.RT_3203,
+	[10107013] = T.RT_3207,
 	[10107015] = {
 		["Operations"] = {
-			[1] = T.RT_3217,
+			[1] = T.RT_3221,
 		},
 		["bAllowClick"] = true,
 	},
-	[10107016] = T.RT_3213,
-	[10107017] = T.RT_3203,
+	[10107016] = T.RT_3217,
+	[10107017] = T.RT_3207,
 	[10107018] = {
 		["Operations"] = {
 			[1] = {
@@ -53490,7 +53504,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107019] = {
 		["Operations"] = {
-			[1] = T.RT_3211,
+			[1] = T.RT_3215,
 			[2] = {
 				["PARA"] = {
 					[1] = {
@@ -53554,13 +53568,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3207,
+			[2] = T.RT_3211,
 		},
 		["bAllowClick"] = true,
 	},
 	[10107022] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
+			[1] = T.RT_2708,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -53573,10 +53587,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10107024] = T.RT_3203,
+	[10107024] = T.RT_3207,
 	[10107025] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
+			[1] = T.RT_2708,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -53615,7 +53629,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_3127,
+							[1] = T.RT_3131,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-2051.128906,-1826.067017,-40.763672,0.0,-14.999996,0.0,15.0,223.056076,false,DoNotOverride,4.0",
@@ -53632,8 +53646,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107026] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_3197,
+			[1] = T.RT_2712,
+			[2] = T.RT_3201,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -53654,7 +53668,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107027] = {
 		["Operations"] = {
-			[1] = T.RT_3039,
+			[1] = T.RT_3043,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -53756,11 +53770,11 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_3195,
+					[2] = T.RT_3199,
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_3065,
-							[2] = T.RT_2774,
+							[1] = T.RT_3069,
+							[2] = T.RT_2778,
 						},
 					},
 				},
@@ -53770,7 +53784,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107103] = {
 		["Operations"] = {
-			[1] = T.RT_2776,
+			[1] = T.RT_2780,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -53785,7 +53799,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_2925,
+							[2] = T.RT_2929,
 						},
 					},
 					[2] = {
@@ -53823,7 +53837,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_2098,
-					[2] = T.RT_3193,
+					[2] = T.RT_3197,
 				},
 			},
 		},
@@ -53896,7 +53910,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3195,
+					[2] = T.RT_3199,
 				},
 			},
 		},
@@ -53966,7 +53980,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107110] = {
 		["Operations"] = {
-			[1] = T.RT_2776,
+			[1] = T.RT_2780,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -53980,7 +53994,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200019,
@@ -54041,7 +54055,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 0.5,
 						},
 					},
-					[6] = T.RT_3193,
+					[6] = T.RT_3197,
 				},
 			},
 		},
@@ -54051,8 +54065,8 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2736,
-					[2] = T.RT_2925,
+					[1] = T.RT_2742,
+					[2] = T.RT_2929,
 				},
 			},
 		},
@@ -54074,7 +54088,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107301] = {
 		["Operations"] = {
-			[1] = T.RT_3189,
+			[1] = T.RT_3193,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -54107,7 +54121,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-98.554688,-222.534592,150.214844,0.000028,-5.199918,62.0,30.0,158.217514,false,Manual,1.881333",
@@ -54123,7 +54137,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107302] = {
 		["Operations"] = {
-			[1] = T.RT_3189,
+			[1] = T.RT_3193,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -54156,7 +54170,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107303] = {
 		["Operations"] = {
-			[1] = T.RT_3189,
+			[1] = T.RT_3193,
 			[2] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "700049:n(100001)",
@@ -54194,7 +54208,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107304] = {
 		["Operations"] = {
-			[1] = T.RT_3189,
+			[1] = T.RT_3193,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -54209,7 +54223,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107305] = {
 		["Operations"] = {
-			[1] = T.RT_3189,
+			[1] = T.RT_3193,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -54224,7 +54238,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107306] = {
 		["Operations"] = {
-			[1] = T.RT_3189,
+			[1] = T.RT_3193,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -54246,7 +54260,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107307] = {
 		["Operations"] = {
-			[1] = T.RT_3189,
+			[1] = T.RT_3193,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -54283,8 +54297,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107501] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
-			[2] = T.RT_3027,
+			[1] = T.RT_2999,
+			[2] = T.RT_3031,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -54432,7 +54446,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107801] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1860,
 			[3] = {
 				["SEQ"] = {
@@ -54541,7 +54555,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3187,
+			[2] = T.RT_3191,
 		},
 		["bAllowClick"] = true,
 	},
@@ -54645,7 +54659,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_3187,
+			[2] = T.RT_3191,
 		},
 		["bAllowClick"] = true,
 	},
@@ -54665,14 +54679,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107815] = {
 		["Operations"] = {
-			[1] = T.RT_3179,
+			[1] = T.RT_3183,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3181,
+					[1] = T.RT_3185,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2931,
+							[2] = T.RT_2935,
 						},
 					},
 				},
@@ -54696,7 +54710,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10107817] = {
 		["Operations"] = {
-			[1] = T.RT_3179,
+			[1] = T.RT_3183,
 		},
 		["bAllowClick"] = true,
 	},
@@ -54799,7 +54813,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["TargetPoint"] = "P101080",
 						},
 					},
-					[2] = T.RT_2357,
+					[2] = T.RT_2363,
 				},
 			},
 		},
@@ -54857,11 +54871,11 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3171,
+					[1] = T.RT_3175,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1726,
-							[2] = T.RT_3169,
+							[2] = T.RT_3173,
 						},
 					},
 				},
@@ -54882,7 +54896,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3175,
+					[1] = T.RT_3179,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
@@ -54898,7 +54912,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_3167,
+							[2] = T.RT_3171,
 						},
 					},
 				},
@@ -54910,7 +54924,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3157,
+					[1] = T.RT_3161,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -54939,7 +54953,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108008] = {
 		["Operations"] = {
-			[1] = T.RT_3159,
+			[1] = T.RT_3163,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -54964,7 +54978,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_3173,
+							[2] = T.RT_3177,
 						},
 					},
 				},
@@ -54995,7 +55009,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
-							[2] = T.RT_3167,
+							[2] = T.RT_3171,
 						},
 					},
 				},
@@ -55044,12 +55058,12 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3165,
-					[2] = T.RT_3163,
+					[1] = T.RT_3169,
+					[2] = T.RT_3167,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_3175,
+							[2] = T.RT_3179,
 						},
 					},
 				},
@@ -55073,7 +55087,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_3173,
+							[2] = T.RT_3177,
 						},
 					},
 				},
@@ -55134,7 +55148,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2740,
+							[1] = T.RT_2746,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "13.0625,2833.553223,161.648438,0.0,-88.000404,0.0,15.0,113.253517,false,Manual,1.2",
@@ -55175,7 +55189,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1,
 						},
 					},
-					[2] = T.RT_3171,
+					[2] = T.RT_3175,
 				},
 			},
 		},
@@ -55208,11 +55222,11 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3169,
+					[1] = T.RT_3173,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1726,
-							[2] = T.RT_3167,
+							[2] = T.RT_3171,
 						},
 					},
 				},
@@ -55242,7 +55256,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-139.399414,-654.953125,222.074219,0.000056,-12.000095,79.999969,60.0,1253.804199,false,Manual,3.460667",
@@ -55253,7 +55267,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-118.47168,-657.709473,222.074219,0.000055,-12.000095,82.499969,60.0,1253.804199,false,Manual,3.460667",
@@ -55309,8 +55323,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3165,
-					[2] = T.RT_3163,
+					[1] = T.RT_3169,
+					[2] = T.RT_3167,
 				},
 			},
 		},
@@ -55369,10 +55383,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108023] = {
 		["Operations"] = {
-			[1] = T.RT_3159,
+			[1] = T.RT_3163,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3157,
+					[1] = T.RT_3161,
 				},
 			},
 			[3] = {
@@ -55415,10 +55429,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10108101] = T.RT_2770,
+	[10108101] = T.RT_2774,
 	[10108103] = {
 		["Operations"] = {
-			[1] = T.RT_2885,
+			[1] = T.RT_2152,
 		},
 		["bAllowClick"] = true,
 	},
@@ -55430,7 +55444,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108301] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -55447,7 +55461,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_3133,
+			[3] = T.RT_3137,
 		},
 		["bAllowClick"] = true,
 	},
@@ -55498,9 +55512,9 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10108306] = T.RT_3155,
-	[10108307] = T.RT_3149,
-	[10108308] = T.RT_3155,
+	[10108306] = T.RT_3159,
+	[10108307] = T.RT_3153,
+	[10108308] = T.RT_3159,
 	[10108309] = {
 		["Operations"] = {
 			[1] = {
@@ -55515,7 +55529,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10108310] = T.RT_3149,
+	[10108310] = T.RT_3153,
 	[10108311] = {
 		["Operations"] = {
 			[1] = {
@@ -55584,7 +55598,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100001:p(P101083)",
 				},
 			},
-			[3] = T.RT_2734,
+			[3] = T.RT_2740,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -55605,7 +55619,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2666,
+							[1] = T.RT_2672,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 2000331,
@@ -55617,7 +55631,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2477,
+							[1] = T.RT_2483,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 200033,
@@ -55641,7 +55655,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2668,
+									[1] = T.RT_2674,
 									[2] = {
 										["CameraMoveTo"] = {
 											["TargetPosition"] = "3954.587891,1536.644531,-1385.697266,0.000201,-0.79959,29.594606,22.0,150.0,false,Manual,2.0",
@@ -55681,7 +55695,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108315] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1860,
 			[3] = {
 				["SEQ"] = {
@@ -55698,7 +55712,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = T.RT_2768,
+			[4] = T.RT_2150,
 		},
 		["bAllowClick"] = true,
 	},
@@ -55770,7 +55784,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_3141,
+					[2] = T.RT_3145,
 				},
 			},
 		},
@@ -55827,7 +55841,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2357,
+			[2] = T.RT_2363,
 		},
 		["bAllowClick"] = true,
 	},
@@ -55879,7 +55893,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10108327] = T.RT_3139,
+	[10108327] = T.RT_3143,
 	[10108328] = {
 		["Operations"] = {
 			[1] = {
@@ -55935,7 +55949,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10108333] = T.RT_3139,
+	[10108333] = T.RT_3143,
 	[10108334] = {
 		["Operations"] = {
 			[1] = {
@@ -56009,7 +56023,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_2070,
-							[2] = T.RT_2788,
+							[2] = T.RT_2792,
 						},
 					},
 				},
@@ -56045,7 +56059,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100001:n(200064)",
 				},
 			},
-			[2] = T.RT_3131,
+			[2] = T.RT_3135,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -56063,7 +56077,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_3133,
+					[1] = T.RT_3137,
 					[2] = {
 						["PlayNormalSound"] = {
 							["EventPath"] = "event:/sfx/common/story/01/talk_nvzhu_aote_walk",
@@ -56218,7 +56232,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1.6,
 						},
 					},
-					[3] = T.RT_2905,
+					[3] = T.RT_2909,
 				},
 			},
 		},
@@ -56264,7 +56278,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108505] = {
 		["Operations"] = {
-			[1] = T.RT_3131,
+			[1] = T.RT_3135,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -56296,7 +56310,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 0.9,
 						},
 					},
-					[3] = T.RT_2931,
+					[3] = T.RT_2935,
 				},
 			},
 		},
@@ -56304,7 +56318,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108506] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
+			[1] = T.RT_2999,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -56319,10 +56333,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_2923,
+							[2] = T.RT_2927,
 						},
 					},
-					[2] = T.RT_2780,
+					[2] = T.RT_2784,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
@@ -56366,14 +56380,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108507] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
+			[1] = T.RT_2999,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200064:n(200005)",
 				},
 			},
-			[3] = T.RT_2923,
-			[4] = T.RT_2734,
+			[3] = T.RT_2927,
+			[4] = T.RT_2740,
 			[5] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200021:p(-150)",
@@ -56550,8 +56564,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108601] = {
 		["Operations"] = {
-			[1] = T.RT_2915,
-			[2] = T.RT_3129,
+			[1] = T.RT_2919,
+			[2] = T.RT_3133,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -56603,7 +56617,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[4] = {
 								["SEQ"] = {
 									[1] = T.RT_146,
-									[2] = T.RT_2897,
+									[2] = T.RT_2901,
 								},
 							},
 						},
@@ -56622,15 +56636,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108602] = {
 		["Operations"] = {
-			[1] = T.RT_2897,
-			[2] = T.RT_3129,
-			[3] = T.RT_2915,
+			[1] = T.RT_2901,
+			[2] = T.RT_3133,
+			[3] = T.RT_2919,
 			[4] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200061:p(40)",
 				},
 			},
-			[5] = T.RT_2810,
+			[5] = T.RT_2814,
 			[6] = {
 				["SEQ"] = {
 					[1] = {
@@ -56665,7 +56679,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_3127,
+							[1] = T.RT_3131,
 							[2] = {
 								["PlayNormalSound"] = {
 									["EventPath"] = "event:/sfx/common/story/01/item_fall_in_water_small",
@@ -56717,7 +56731,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10108603] = {
 		["Operations"] = {
 			[1] = T.RT_1776,
-			[2] = T.RT_2913,
+			[2] = T.RT_2917,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -56781,7 +56795,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1648,
-							[2] = T.RT_3123,
+							[2] = T.RT_3127,
 						},
 					},
 					[4] = {
@@ -56799,8 +56813,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[5] = {
 						["SEQ"] = {
-							[1] = T.RT_3125,
-							[2] = T.RT_2917,
+							[1] = T.RT_3129,
+							[2] = T.RT_2921,
 						},
 					},
 					[6] = {
@@ -56816,7 +56830,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[7] = {
 						["SEQ"] = {
-							[1] = T.RT_3125,
+							[1] = T.RT_3129,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "116.96875,481.013184,111.717285,0.000451,-0.000273,149.999954,35.0,370.722229,false,Manual,1.8",
@@ -56832,8 +56846,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108605] = {
 		["Operations"] = {
-			[1] = T.RT_2917,
-			[2] = T.RT_3123,
+			[1] = T.RT_2921,
+			[2] = T.RT_3127,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -56897,7 +56911,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[5] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_3121,
+							[2] = T.RT_3125,
 						},
 					},
 				},
@@ -56909,7 +56923,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["PARA"] = {
-					[1] = T.RT_3121,
+					[1] = T.RT_3125,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
@@ -56949,8 +56963,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108701] = {
 		["Operations"] = {
-			[1] = T.RT_3117,
-			[2] = T.RT_3119,
+			[1] = T.RT_3121,
+			[2] = T.RT_3123,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -56979,7 +56993,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 							[2] = {
 								["SEQ"] = {
-									[1] = T.RT_2198,
+									[1] = T.RT_2204,
 									[2] = T.RT_1734,
 								},
 							},
@@ -57016,7 +57030,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10108702] = {
 		["Operations"] = {
 			[1] = T.RT_1690,
-			[2] = T.RT_3117,
+			[2] = T.RT_3121,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
@@ -57093,7 +57107,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108704] = {
 		["Operations"] = {
-			[1] = T.RT_3119,
+			[1] = T.RT_3123,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -57132,7 +57146,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[4] = T.RT_2768,
+					[4] = T.RT_2150,
 					[5] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
@@ -57174,7 +57188,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108706] = {
 		["Operations"] = {
-			[1] = T.RT_3117,
+			[1] = T.RT_3121,
 			[2] = T.RT_1116,
 			[3] = {
 				["TurnTo"] = {
@@ -57243,7 +57257,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_3115,
+							[1] = T.RT_3119,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 100001,
@@ -57260,7 +57274,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2.8,
 						},
 					},
-					[3] = T.RT_3113,
+					[3] = T.RT_3117,
 				},
 			},
 		},
@@ -57342,7 +57356,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[5] = {
 						["SEQ"] = {
-							[1] = T.RT_2694,
+							[1] = T.RT_2700,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-182.650391,182.427002,153.921875,0.000013,4.999999,68.222786,25.0,135.583359,false,Manual,1.6",
@@ -57355,7 +57369,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[6] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_3111,
+							[2] = T.RT_3115,
 						},
 					},
 				},
@@ -57408,7 +57422,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108904] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -57437,10 +57451,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10108905] = T.RT_3109,
-	[10108906] = T.RT_3103,
-	[10108907] = T.RT_3085,
-	[10108908] = T.RT_3075,
+	[10108905] = T.RT_3113,
+	[10108906] = T.RT_3107,
+	[10108907] = T.RT_3089,
+	[10108908] = T.RT_3079,
 	[10108909] = {
 		["Operations"] = {
 			[1] = {
@@ -57461,10 +57475,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10108910] = T.RT_3109,
-	[10108911] = T.RT_3103,
-	[10108912] = T.RT_3085,
-	[10108913] = T.RT_3075,
+	[10108910] = T.RT_3113,
+	[10108911] = T.RT_3107,
+	[10108912] = T.RT_3089,
+	[10108913] = T.RT_3079,
 	[10108914] = {
 		["Operations"] = {
 			[1] = {
@@ -57484,7 +57498,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_2768,
+					[1] = T.RT_2150,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
@@ -57499,7 +57513,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_3065,
+							[1] = T.RT_3069,
 							[2] = {
 								["LookAt"] = {
 									["LookAtDescription"] = "200021:p(P10108906)",
@@ -57514,7 +57528,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108915] = {
 		["Operations"] = {
-			[1] = T.RT_3063,
+			[1] = T.RT_3067,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -57561,7 +57575,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108916] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -57576,14 +57590,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108917] = {
 		["Operations"] = {
-			[1] = T.RT_3059,
-			[2] = T.RT_3061,
-			[3] = T.RT_3057,
+			[1] = T.RT_3063,
+			[2] = T.RT_3065,
+			[3] = T.RT_3061,
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_3053,
-					[2] = T.RT_3051,
-					[3] = T.RT_3047,
+					[1] = T.RT_3057,
+					[2] = T.RT_3055,
+					[3] = T.RT_3051,
 				},
 			},
 		},
@@ -57591,11 +57605,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10108918] = {
 		["Operations"] = {
-			[1] = T.RT_3059,
-			[2] = T.RT_3057,
+			[1] = T.RT_3063,
+			[2] = T.RT_3061,
 			[3] = {
 				["PARA"] = {
-					[1] = T.RT_3053,
+					[1] = T.RT_3057,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
@@ -57606,8 +57620,8 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[3] = T.RT_3051,
-					[4] = T.RT_3047,
+					[3] = T.RT_3055,
+					[4] = T.RT_3051,
 				},
 			},
 		},
@@ -57620,7 +57634,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100001:n(200021)200002:n(200021)",
 				},
 			},
-			[2] = T.RT_2933,
+			[2] = T.RT_2937,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -57641,8 +57655,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109002] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
-			[2] = T.RT_2812,
+			[1] = T.RT_2937,
+			[2] = T.RT_2816,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -57663,7 +57677,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109003] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1696,
 			[3] = {
 				["SEQ"] = {
@@ -57709,7 +57723,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = T.RT_1690,
 			[2] = T.RT_1700,
-			[3] = T.RT_2933,
+			[3] = T.RT_2937,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -57725,7 +57739,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10109005] = {
 		["Operations"] = {
 			[1] = T.RT_1116,
-			[2] = T.RT_2792,
+			[2] = T.RT_2796,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -57812,7 +57826,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10109008] = T.RT_2338,
+	[10109008] = T.RT_2344,
 	[10109009] = {
 		["Operations"] = {
 			[1] = {
@@ -57921,7 +57935,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2859,
+							[1] = T.RT_2863,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-219.04834,-66.118164,167.568848,0.000057,-7.800807,-0.5,35.0,304.896423,false,Manual,2.976057",
@@ -58046,7 +58060,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1366,
-					[2] = T.RT_2812,
+					[2] = T.RT_2816,
 				},
 			},
 		},
@@ -58054,7 +58068,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109020] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -58087,8 +58101,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109201] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_2706,
+			[1] = T.RT_2708,
+			[2] = T.RT_2712,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -58098,7 +58112,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = T.RT_3043,
+			[4] = T.RT_3047,
 		},
 		["bAllowClick"] = true,
 	},
@@ -58149,7 +58163,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["TurnToDescription"] = "200006:p(141)",
 								},
 							},
-							[2] = T.RT_2702,
+							[2] = T.RT_2708,
 							[3] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 100001,
@@ -58166,7 +58180,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109204] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
+			[1] = T.RT_2708,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -58195,7 +58209,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109301] = {
 		["Operations"] = {
-			[1] = T.RT_3027,
+			[1] = T.RT_3031,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -58214,17 +58228,17 @@ return ReadOnly("DialogueScripts2Table", {
 							["TargetPoint"] = "TalkPoint_101093_EnlikeComeIn3",
 						},
 					},
-					[2] = T.RT_3031,
+					[2] = T.RT_3035,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3023,
+							[2] = T.RT_3027,
 						},
 					},
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_3041,
+							[2] = T.RT_3045,
 						},
 					},
 					[5] = {
@@ -58296,13 +58310,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2706,
+							[2] = T.RT_2712,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
-							[2] = T.RT_3035,
+							[2] = T.RT_3039,
 						},
 					},
 				},
@@ -58312,7 +58326,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109304] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
+			[1] = T.RT_2999,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -58333,9 +58347,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109305] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_2702,
-			[3] = T.RT_3039,
+			[1] = T.RT_2712,
+			[2] = T.RT_2708,
+			[3] = T.RT_3043,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -58353,7 +58367,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[5] = {
 				["PARA"] = {
-					[1] = T.RT_3037,
+					[1] = T.RT_3041,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1246,
@@ -58410,7 +58424,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109307] = {
 		["Operations"] = {
-			[1] = T.RT_3035,
+			[1] = T.RT_3039,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -58425,7 +58439,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109308] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
+			[1] = T.RT_2708,
 			[2] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200005:p(77)",
@@ -58459,7 +58473,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109310] = {
 		["Operations"] = {
-			[1] = T.RT_3023,
+			[1] = T.RT_3027,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200005:n(200006)",
@@ -58485,10 +58499,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_3033,
+							[2] = T.RT_3037,
 						},
 					},
-					[2] = T.RT_3031,
+					[2] = T.RT_3035,
 				},
 			},
 		},
@@ -58496,10 +58510,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109311] = {
 		["Operations"] = {
-			[1] = T.RT_3027,
+			[1] = T.RT_3031,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3029,
+					[1] = T.RT_3033,
 				},
 			},
 		},
@@ -58509,7 +58523,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3029,
+					[1] = T.RT_3033,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-12.126953,19.546143,161.533203,0.000313,2.99999,-44.196384,30.0,93.438416,false,Manual,4.824773",
@@ -58537,8 +58551,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109314] = {
 		["Operations"] = {
-			[1] = T.RT_3027,
-			[2] = T.RT_2702,
+			[1] = T.RT_3031,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -58551,7 +58565,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_3025,
+					[2] = T.RT_3029,
 				},
 			},
 		},
@@ -58559,9 +58573,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109315] = {
 		["Operations"] = {
-			[1] = T.RT_2995,
-			[2] = T.RT_3023,
-			[3] = T.RT_2897,
+			[1] = T.RT_2999,
+			[2] = T.RT_3027,
+			[3] = T.RT_2901,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -58609,7 +58623,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2714,
+							[1] = T.RT_2720,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "2.623047,-290.904541,92.929688,0.0,0.0,89.999985,20.0,233.587631,false,DoNotOverride,4.824773",
@@ -58630,7 +58644,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109401] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
+			[1] = T.RT_2712,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -58667,7 +58681,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["TurnToDescription"] = "200006:p(180)",
 								},
 							},
-							[2] = T.RT_2702,
+							[2] = T.RT_2708,
 						},
 					},
 				},
@@ -58677,7 +58691,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109402] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
+			[1] = T.RT_2708,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -58699,8 +58713,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109404] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_2702,
+			[1] = T.RT_2712,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -58726,8 +58740,8 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2.5,
 						},
 					},
-					[2] = T.RT_2662,
-					[3] = T.RT_3019,
+					[2] = T.RT_2668,
+					[3] = T.RT_3023,
 				},
 			},
 		},
@@ -58754,7 +58768,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_2662,
+					[2] = T.RT_2668,
 				},
 			},
 		},
@@ -58842,8 +58856,8 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1,
 						},
 					},
-					[2] = T.RT_3021,
-					[3] = T.RT_2712,
+					[2] = T.RT_3025,
+					[3] = T.RT_2718,
 				},
 			},
 		},
@@ -58851,8 +58865,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109701] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_2702,
+			[1] = T.RT_2712,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -58874,7 +58888,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109703] = {
 		["Operations"] = {
-			[1] = T.RT_3009,
+			[1] = T.RT_3013,
 		},
 		["bAllowClick"] = true,
 	},
@@ -58915,11 +58929,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109706] = {
 		["Operations"] = {
-			[1] = T.RT_3017,
+			[1] = T.RT_3021,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3011,
-					[2] = T.RT_3019,
+					[1] = T.RT_3015,
+					[2] = T.RT_3023,
 					[3] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 200006,
@@ -58934,11 +58948,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109707] = {
 		["Operations"] = {
-			[1] = T.RT_3017,
+			[1] = T.RT_3021,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_3013,
-					[2] = T.RT_3011,
+					[1] = T.RT_3017,
+					[2] = T.RT_3015,
 				},
 			},
 		},
@@ -58982,8 +58996,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109709] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
-			[2] = T.RT_3009,
+			[1] = T.RT_2708,
+			[2] = T.RT_3013,
 		},
 		["bAllowClick"] = true,
 	},
@@ -58991,7 +59005,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3005,
+					[1] = T.RT_3009,
 				},
 			},
 		},
@@ -59001,7 +59015,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_3005,
+					[1] = T.RT_3009,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -59026,7 +59040,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2859,
+							[1] = T.RT_2863,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "108.308594,-2.091797,53.28418,0.00026,7.599329,140.0,40.0,255.16095,false,Manual,3.028017",
@@ -59128,8 +59142,8 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["PARA"] = {
-							[1] = T.RT_3001,
-							[2] = T.RT_3003,
+							[1] = T.RT_3005,
+							[2] = T.RT_3007,
 							[3] = T.RT_1894,
 							[4] = T.RT_1894,
 						},
@@ -59182,7 +59196,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109903] = {
 		["Operations"] = {
-			[1] = T.RT_2696,
+			[1] = T.RT_2702,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -59210,8 +59224,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["PARA"] = {
-							[1] = T.RT_2997,
-							[2] = T.RT_2696,
+							[1] = T.RT_3001,
+							[2] = T.RT_2702,
 						},
 					},
 				},
@@ -59243,7 +59257,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10109905] = {
 		["Operations"] = {
 			[1] = T.RT_1894,
-			[2] = T.RT_3001,
+			[2] = T.RT_3005,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -59340,7 +59354,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2999,
+					[1] = T.RT_3003,
 				},
 			},
 		},
@@ -59350,7 +59364,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2999,
+					[1] = T.RT_3003,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -59363,7 +59377,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1584,
-					[2] = T.RT_2696,
+					[2] = T.RT_2702,
 				},
 			},
 		},
@@ -59371,8 +59385,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109912] = {
 		["Operations"] = {
-			[1] = T.RT_2696,
-			[2] = T.RT_2997,
+			[1] = T.RT_2702,
+			[2] = T.RT_3001,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -59426,8 +59440,8 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200005:n(200027)",
 				},
 			},
-			[2] = T.RT_2995,
-			[3] = T.RT_2993,
+			[2] = T.RT_2999,
+			[3] = T.RT_2997,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -59478,7 +59492,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109914] = {
 		["Operations"] = {
-			[1] = T.RT_2989,
+			[1] = T.RT_2993,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -59513,7 +59527,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109915] = {
 		["Operations"] = {
-			[1] = T.RT_2993,
+			[1] = T.RT_2997,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -59525,7 +59539,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2768,
+					[1] = T.RT_2150,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
@@ -59606,7 +59620,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2991,
+					[1] = T.RT_2995,
 				},
 			},
 			[2] = {
@@ -59629,7 +59643,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = T.RT_1920,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2991,
+					[1] = T.RT_2995,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-419.210938,-380.21875,146.174805,0.000189,-1.200276,90.294189,75.0,419.979156,false,Manual,5.40951",
@@ -59665,8 +59679,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10109921] = {
 		["Operations"] = {
-			[1] = T.RT_2696,
-			[2] = T.RT_2989,
+			[1] = T.RT_2702,
+			[2] = T.RT_2993,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -59696,7 +59710,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_2885,
+					[2] = T.RT_2152,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
@@ -59741,8 +59755,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110101] = {
 		["Operations"] = {
-			[1] = T.RT_2973,
-			[2] = T.RT_2987,
+			[1] = T.RT_2977,
+			[2] = T.RT_2991,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -59752,14 +59766,14 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = T.RT_2768,
+			[4] = T.RT_2150,
 		},
 		["bAllowClick"] = true,
 	},
 	[10110201] = {
 		["Operations"] = {
-			[1] = T.RT_2973,
-			[2] = T.RT_2987,
+			[1] = T.RT_2977,
+			[2] = T.RT_2991,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -59786,7 +59800,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2971,
+							[2] = T.RT_2975,
 						},
 					},
 					[3] = {
@@ -59844,7 +59858,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10110203] = T.RT_2338,
+	[10110203] = T.RT_2344,
 	[10110204] = {
 		["Operations"] = {
 			[1] = {
@@ -59879,7 +59893,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2979,
+							[2] = T.RT_2983,
 						},
 					},
 				},
@@ -59910,7 +59924,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2935,
+			[3] = T.RT_2939,
 		},
 		["bAllowClick"] = true,
 	},
@@ -59931,7 +59945,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110207] = {
 		["Operations"] = {
-			[1] = T.RT_2987,
+			[1] = T.RT_2991,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -59983,8 +59997,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2975,
-					[2] = T.RT_2977,
+					[1] = T.RT_2979,
+					[2] = T.RT_2981,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
@@ -60004,7 +60018,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110211] = {
 		["Operations"] = {
-			[1] = T.RT_2973,
+			[1] = T.RT_2977,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -60072,9 +60086,9 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10110213] = T.RT_2985,
-	[10110215] = T.RT_2985,
-	[10110217] = T.RT_2985,
+	[10110213] = T.RT_2989,
+	[10110215] = T.RT_2989,
+	[10110217] = T.RT_2989,
 	[10110218] = {
 		["Operations"] = {
 			[1] = {
@@ -60176,7 +60190,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_2979,
+					[2] = T.RT_2983,
 				},
 			},
 		},
@@ -60195,7 +60209,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2975,
+					[1] = T.RT_2979,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 200004,
@@ -60203,7 +60217,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2,
 						},
 					},
-					[3] = T.RT_2977,
+					[3] = T.RT_2981,
 				},
 			},
 		},
@@ -60222,7 +60236,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2716,
+					[1] = T.RT_2722,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "74.595703,85.75,141.061523,0.000114,1.99839,-111.626167,35.0,100000.0,false,Disable,2.8",
@@ -60254,7 +60268,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_2953,
+					[2] = T.RT_2957,
 				},
 			},
 		},
@@ -60284,7 +60298,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["PARA"] = {
-					[1] = T.RT_2975,
+					[1] = T.RT_2979,
 					[2] = {
 						["SetLocation"] = {
 							["ActorId"] = 100001,
@@ -60319,10 +60333,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2973,
+							[2] = T.RT_2977,
 						},
 					},
-					[2] = T.RT_2971,
+					[2] = T.RT_2975,
 				},
 			},
 		},
@@ -60337,13 +60351,13 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2969,
+					[1] = T.RT_2973,
 				},
 			},
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1366,
-					[2] = T.RT_2959,
+					[2] = T.RT_2963,
 				},
 			},
 		},
@@ -60370,10 +60384,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10110233] = T.RT_2338,
-	[10110234] = T.RT_2338,
-	[10110235] = T.RT_2338,
-	[10110236] = T.RT_2338,
+	[10110233] = T.RT_2344,
+	[10110234] = T.RT_2344,
+	[10110235] = T.RT_2344,
+	[10110236] = T.RT_2344,
 	[10110237] = {
 		["Operations"] = {
 			[1] = {
@@ -60399,7 +60413,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2969,
+					[1] = T.RT_2973,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -60501,20 +60515,20 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110242] = {
 		["Operations"] = {
-			[1] = T.RT_2967,
+			[1] = T.RT_2971,
 		},
 		["bAllowClick"] = true,
 	},
 	[10110246] = {
 		["Operations"] = {
-			[1] = T.RT_2967,
-			[2] = T.RT_2357,
+			[1] = T.RT_2971,
+			[2] = T.RT_2363,
 		},
 		["bAllowClick"] = true,
 	},
 	[10110247] = {
 		["Operations"] = {
-			[1] = T.RT_2963,
+			[1] = T.RT_2967,
 		},
 		["bAllowClick"] = true,
 	},
@@ -60554,7 +60568,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110250] = {
 		["Operations"] = {
-			[1] = T.RT_2963,
+			[1] = T.RT_2967,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
@@ -60581,7 +60595,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2357,
+			[2] = T.RT_2363,
 		},
 		["bAllowClick"] = true,
 	},
@@ -60605,7 +60619,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_2959,
+					[2] = T.RT_2963,
 				},
 			},
 		},
@@ -60634,8 +60648,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110254] = {
 		["Operations"] = {
-			[1] = T.RT_2957,
-			[2] = T.RT_2357,
+			[1] = T.RT_2961,
+			[2] = T.RT_2363,
 		},
 		["bAllowClick"] = true,
 	},
@@ -60675,7 +60689,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110257] = {
 		["Operations"] = {
-			[1] = T.RT_2957,
+			[1] = T.RT_2961,
 		},
 		["bAllowClick"] = true,
 	},
@@ -60689,7 +60703,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2955,
+					[1] = T.RT_2959,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "90.3125,227.423828,131.78418,0.000109,1.998479,-111.225098,35.0,164.272675,false,Manual,2.8",
@@ -60725,7 +60739,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1820,
-							[2] = T.RT_2953,
+							[2] = T.RT_2957,
 						},
 					},
 					[4] = {
@@ -60743,7 +60757,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110501] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1116,
 			[3] = {
 				["SEQ"] = {
@@ -60756,7 +60770,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_2768,
+					[1] = T.RT_2150,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
@@ -60767,10 +60781,10 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_2784,
+							[2] = T.RT_2788,
 						},
 					},
-					[3] = T.RT_2806,
+					[3] = T.RT_2810,
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1718,
@@ -60802,12 +60816,12 @@ return ReadOnly("DialogueScripts2Table", {
 	[10110502] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_2939,
+			[2] = T.RT_2943,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2951,
-					[2] = T.RT_2949,
-					[3] = T.RT_2947,
+					[1] = T.RT_2955,
+					[2] = T.RT_2953,
+					[3] = T.RT_2951,
 				},
 			},
 		},
@@ -60829,7 +60843,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110505] = {
 		["Operations"] = {
-			[1] = T.RT_2943,
+			[1] = T.RT_2947,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -60878,7 +60892,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2945,
+							[1] = T.RT_2949,
 							[2] = T.RT_1556,
 						},
 					},
@@ -60889,13 +60903,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110507] = {
 		["Operations"] = {
-			[1] = T.RT_2943,
+			[1] = T.RT_2947,
 		},
 		["bAllowClick"] = true,
 	},
 	[10110508] = {
 		["Operations"] = {
-			[1] = T.RT_2939,
+			[1] = T.RT_2943,
 		},
 		["bAllowClick"] = true,
 	},
@@ -61125,7 +61139,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "54.953369,-126.077148,103.540283,0.00015,6.600046,94.153214,20.0,230.552673,false,Manual,1.2",
@@ -61136,7 +61150,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "53.521851,-106.366211,105.826416,0.00015,6.600046,94.153214,22.5,580.704468,false,Manual,1.2",
@@ -61173,7 +61187,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[7] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["MoveTo"] = {
 									["ActorId"] = 100001,
@@ -61186,7 +61200,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[8] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
+							[1] = T.RT_2204,
 							[2] = {
 								["SetLocation"] = {
 									["ActorId"] = 200021,
@@ -61216,7 +61230,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110520] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1116,
 			[3] = {
 				["SEQ"] = {
@@ -61234,7 +61248,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = T.RT_2935,
+			[4] = T.RT_2939,
 		},
 		["bAllowClick"] = true,
 	},
@@ -61271,7 +61285,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110522] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = T.RT_1116,
 			[3] = {
 				["SEQ"] = {
@@ -61314,7 +61328,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110601] = {
 		["Operations"] = {
-			[1] = T.RT_2933,
+			[1] = T.RT_2937,
 			[2] = T.RT_1690,
 			[3] = {
 				["SEQ"] = {
@@ -61357,15 +61371,15 @@ return ReadOnly("DialogueScripts2Table", {
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_1796,
-									[2] = T.RT_2784,
+									[2] = T.RT_2788,
 								},
 							},
 						},
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2577,
-							[2] = T.RT_2895,
+							[1] = T.RT_2583,
+							[2] = T.RT_2899,
 						},
 					},
 				},
@@ -61375,7 +61389,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110602] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -61394,11 +61408,11 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2931,
+					[2] = T.RT_2935,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2929,
+							[2] = T.RT_2933,
 						},
 					},
 				},
@@ -61489,7 +61503,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[10110605] = {
 		["Operations"] = {
 			[1] = T.RT_1860,
-			[2] = T.RT_2792,
+			[2] = T.RT_2796,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -61512,7 +61526,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["TurnToDescription"] = "200021:p(65)",
 						},
 					},
-					[2] = T.RT_2927,
+					[2] = T.RT_2931,
 				},
 			},
 		},
@@ -61558,7 +61572,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1246,
-					[2] = T.RT_2925,
+					[2] = T.RT_2929,
 				},
 			},
 		},
@@ -61620,7 +61634,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[5] = {
 				["PARA"] = {
-					[1] = T.RT_2768,
+					[1] = T.RT_2150,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
@@ -61631,7 +61645,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_2915,
+							[2] = T.RT_2919,
 							[3] = {
 								["SEQ"] = {
 									[1] = T.RT_1144,
@@ -61721,8 +61735,8 @@ return ReadOnly("DialogueScripts2Table", {
 	[10110802] = {
 		["Operations"] = {
 			[1] = T.RT_1776,
-			[2] = T.RT_2923,
-			[3] = T.RT_2921,
+			[2] = T.RT_2927,
+			[3] = T.RT_2925,
 			[4] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200021:n(200005)",
@@ -61785,8 +61799,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[5] = {
 						["SEQ"] = {
-							[1] = T.RT_2919,
-							[2] = T.RT_2917,
+							[1] = T.RT_2923,
+							[2] = T.RT_2921,
 						},
 					},
 					[6] = {
@@ -61809,7 +61823,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["DelaySeconds"] = 3.4,
 								},
 							},
-							[2] = T.RT_2915,
+							[2] = T.RT_2919,
 						},
 					},
 				},
@@ -61839,7 +61853,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1770,
-							[2] = T.RT_2903,
+							[2] = T.RT_2907,
 						},
 					},
 					[2] = {
@@ -61887,24 +61901,24 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2917,
+							[2] = T.RT_2921,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
-							[2] = T.RT_2871,
+							[1] = T.RT_2698,
+							[2] = T.RT_2875,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_2911,
+							[2] = T.RT_2915,
 						},
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "278.355469,0.762207,49.867188,0.000003,7.999989,174.999969,35.0,498.2854,false,Manual,3.116032",
@@ -61915,7 +61929,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[5] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "274.884766,13.347778,50.503906,0.000003,7.999989,176.999969,35.0,200.050705,false,Manual,4.0",
@@ -61943,7 +61957,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110805] = {
 		["Operations"] = {
-			[1] = T.RT_2915,
+			[1] = T.RT_2919,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -61982,7 +61996,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110806] = {
 		["Operations"] = {
-			[1] = T.RT_2913,
+			[1] = T.RT_2917,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -62067,7 +62081,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[2] = T.RT_2907,
+							[2] = T.RT_2911,
 						},
 					},
 				},
@@ -62077,7 +62091,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110808] = {
 		["Operations"] = {
-			[1] = T.RT_2903,
+			[1] = T.RT_2907,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -62098,7 +62112,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110810] = {
 		["Operations"] = {
-			[1] = T.RT_2897,
+			[1] = T.RT_2901,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -62115,7 +62129,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["DelaySeconds"] = 9.5,
 						},
 					},
-					[2] = T.RT_2911,
+					[2] = T.RT_2915,
 				},
 			},
 		},
@@ -62143,7 +62157,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2909,
+							[1] = T.RT_2913,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "385.876953,1184.178467,198.099609,0.0,0.0,89.999985,20.0,868.29187,false,DoNotOverride,4.0",
@@ -62166,8 +62180,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2899,
-							[2] = T.RT_2907,
+							[1] = T.RT_2903,
+							[2] = T.RT_2911,
 						},
 					},
 				},
@@ -62219,7 +62233,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2740,
+							[1] = T.RT_2746,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "300.822266,955.277466,245.894531,0.0,0.0,0.0,10.0,164.206451,false,DoNotOverride,7.5",
@@ -62304,7 +62318,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_2903,
+					[2] = T.RT_2907,
 				},
 			},
 		},
@@ -62330,7 +62344,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1726,
-					[2] = T.RT_2905,
+					[2] = T.RT_2909,
 				},
 			},
 		},
@@ -62427,7 +62441,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110820] = {
 		["Operations"] = {
-			[1] = T.RT_2897,
+			[1] = T.RT_2901,
 			[2] = T.RT_2004,
 		},
 		["bAllowClick"] = true,
@@ -62436,7 +62450,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2901,
+					[1] = T.RT_2905,
 				},
 			},
 		},
@@ -62444,10 +62458,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110822] = {
 		["Operations"] = {
-			[1] = T.RT_2903,
+			[1] = T.RT_2907,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2901,
+					[1] = T.RT_2905,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInOutQuad",
@@ -62464,7 +62478,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["PARA"] = {
-					[1] = T.RT_2899,
+					[1] = T.RT_2903,
 					[2] = T.RT_2004,
 				},
 			},
@@ -62492,7 +62506,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-1051.294922,84.778625,89.935547,0.000001,-2.999962,46.000069,20.0,64.625702,false,DoNotOverride,3.0",
@@ -62503,7 +62517,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-1054.726562,88.218262,89.935547,0.000001,-2.999908,43.999973,20.0,64.625702,false,DoNotOverride,3.0",
@@ -62553,7 +62567,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_2895,
+							[2] = T.RT_2899,
 						},
 					},
 					[2] = {
@@ -62618,7 +62632,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110828] = {
 		["Operations"] = {
-			[1] = T.RT_2897,
+			[1] = T.RT_2901,
 			[2] = {
 				["PARA"] = {
 					[1] = {
@@ -62701,7 +62715,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1726,
-					[2] = T.RT_2895,
+					[2] = T.RT_2899,
 				},
 			},
 		},
@@ -62709,7 +62723,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110901] = {
 		["Operations"] = {
-			[1] = T.RT_2891,
+			[1] = T.RT_2895,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -62741,7 +62755,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["TurnToDescription"] = "100001:p(-180)",
 								},
 							},
-							[2] = T.RT_2893,
+							[2] = T.RT_2897,
 							[3] = {
 								["TurnTo"] = {
 									["TurnToDescription"] = "200002:p(195)",
@@ -62809,7 +62823,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10110905] = {
 		["Operations"] = {
-			[1] = T.RT_2891,
+			[1] = T.RT_2895,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -62933,7 +62947,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_2768,
+					[1] = T.RT_2150,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1788,
@@ -63030,7 +63044,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2889,
+					[2] = T.RT_2893,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1756,
@@ -63134,7 +63148,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2887,
+					[2] = T.RT_2891,
 				},
 			},
 		},
@@ -63167,7 +63181,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2887,
+					[2] = T.RT_2891,
 				},
 			},
 		},
@@ -63191,19 +63205,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2885,
+			[2] = T.RT_2152,
 		},
 		["bAllowClick"] = true,
 	},
 	[10112601] = {
 		["Operations"] = {
-			[1] = {
-				["PlayOrStopBGM"] = {
-					["EventPath"] = "event:/bgm/cbt02/0063_story_saiqi_last_word",
-					["PlayType"] = "Play",
-					["SoundType"] = "SOUND_BGM",
-				},
-			},
+			[1] = T.RT_2889,
 		},
 		["bAllowClick"] = true,
 	},
@@ -63214,7 +63222,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "200021:n(200058)",
 				},
 			},
-			[2] = T.RT_2846,
+			[2] = T.RT_2850,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -63231,13 +63239,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = {
-				["PlayOrStopBGM"] = {
-					["EventPath"] = "event:/bgm/cbt02/0064_story_saiqi_theme_fantasy",
-					["PlayType"] = "Play",
-					["SoundType"] = "SOUND_BGM",
-				},
-			},
+			[4] = T.RT_2889,
 		},
 		["bAllowClick"] = true,
 	},
@@ -63330,13 +63332,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1762,
-							[2] = T.RT_2883,
+							[2] = T.RT_2887,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1646,
-							[2] = T.RT_2200,
+							[2] = T.RT_2206,
 						},
 					},
 					[4] = {
@@ -63348,7 +63350,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[5] = {
 						["SEQ"] = {
 							[1] = T.RT_1582,
-							[2] = T.RT_2871,
+							[2] = T.RT_2875,
 						},
 					},
 				},
@@ -63422,7 +63424,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10112810] = T.RT_2881,
+	[10112810] = T.RT_2885,
 	[10112811] = {
 		["Operations"] = {
 			[1] = {
@@ -63471,7 +63473,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10112813] = T.RT_2881,
+	[10112813] = T.RT_2885,
 	[10112814] = {
 		["Operations"] = {
 			[1] = {
@@ -63536,7 +63538,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113001] = {
 		["Operations"] = {
-			[1] = T.RT_2846,
+			[1] = T.RT_2850,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -63558,9 +63560,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113002] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_2842,
-			[3] = T.RT_2838,
+			[1] = T.RT_2826,
+			[2] = T.RT_2846,
+			[3] = T.RT_2842,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -63582,7 +63584,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2832,
+							[2] = T.RT_2836,
 						},
 					},
 				},
@@ -63592,7 +63594,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113003] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -63604,7 +63606,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2856,
+					[1] = T.RT_2860,
 				},
 			},
 		},
@@ -63623,7 +63625,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2875,
+					[1] = T.RT_2879,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 100001,
@@ -63638,8 +63640,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113005] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
-			[2] = T.RT_2840,
+			[1] = T.RT_2786,
+			[2] = T.RT_2844,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -63658,14 +63660,14 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_2873,
+					[1] = T.RT_2877,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
 							[2] = T.RT_1846,
 						},
 					},
-					[3] = T.RT_2806,
+					[3] = T.RT_2810,
 				},
 			},
 		},
@@ -63675,7 +63677,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2869,
+					[1] = T.RT_2873,
 				},
 			},
 		},
@@ -63685,7 +63687,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2869,
+					[1] = T.RT_2873,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeOutQuad",
@@ -63702,7 +63704,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["LookAtDescription"] = "100304:n(200058)",
 						},
 					},
-					[2] = T.RT_2816,
+					[2] = T.RT_2820,
 					[3] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 100304,
@@ -63738,12 +63740,12 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_2867,
+							[2] = T.RT_2871,
 						},
 					},
-					[3] = T.RT_2816,
-					[4] = T.RT_2840,
-					[5] = T.RT_2865,
+					[3] = T.RT_2820,
+					[4] = T.RT_2844,
+					[5] = T.RT_2869,
 				},
 			},
 		},
@@ -63751,7 +63753,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113009] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
+			[1] = T.RT_2844,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -63801,10 +63803,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2814,
+							[2] = T.RT_2818,
 						},
 					},
-					[2] = T.RT_2826,
+					[2] = T.RT_2830,
 					[3] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 700108,
@@ -63827,7 +63829,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[5] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2863,
+							[2] = T.RT_2867,
 						},
 					},
 				},
@@ -63837,8 +63839,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113011] = {
 		["Operations"] = {
-			[1] = T.RT_2830,
-			[2] = T.RT_2863,
+			[1] = T.RT_2834,
+			[2] = T.RT_2867,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -63857,7 +63859,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_790,
-					[2] = T.RT_2828,
+					[2] = T.RT_2832,
 				},
 			},
 		},
@@ -63865,17 +63867,17 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113012] = {
 		["Operations"] = {
-			[1] = T.RT_2814,
-			[2] = T.RT_2828,
+			[1] = T.RT_2818,
+			[2] = T.RT_2832,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2861,
+					[1] = T.RT_2865,
 				},
 			},
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_2816,
-					[2] = T.RT_2814,
+					[1] = T.RT_2820,
+					[2] = T.RT_2818,
 				},
 			},
 		},
@@ -63883,7 +63885,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113013] = {
 		["Operations"] = {
-			[1] = T.RT_2814,
+			[1] = T.RT_2818,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -63893,7 +63895,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2836,
+			[3] = T.RT_2840,
 		},
 		["bAllowClick"] = true,
 	},
@@ -63901,7 +63903,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2861,
+					[1] = T.RT_2865,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -63926,7 +63928,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2859,
+							[1] = T.RT_2863,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "1133.812012,-1189.496094,105.751953,0.000426,0.0,146.399628,50.0,397.033752,false,Manual,5.0",
@@ -63943,8 +63945,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113015] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_2828,
+			[1] = T.RT_2826,
+			[2] = T.RT_2832,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -63957,14 +63959,14 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = {
-						["PARA"] = T.RT_2857,
+						["PARA"] = T.RT_2861,
 					},
-					[2] = T.RT_2816,
-					[3] = T.RT_2856,
+					[2] = T.RT_2820,
+					[3] = T.RT_2860,
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2854,
+							[2] = T.RT_2858,
 						},
 					},
 				},
@@ -63992,7 +63994,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2816,
+					[1] = T.RT_2820,
 					[2] = {
 						["PARA"] = {
 							[1] = {
@@ -64014,11 +64016,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113017] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
-			[2] = T.RT_2852,
+			[1] = T.RT_2836,
+			[2] = T.RT_2856,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2848,
+					[1] = T.RT_2852,
 				},
 			},
 		},
@@ -64026,7 +64028,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113018] = {
 		["Operations"] = {
-			[1] = T.RT_2850,
+			[1] = T.RT_2854,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -64050,8 +64052,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
-							[2] = T.RT_2822,
+							[1] = T.RT_2204,
+							[2] = T.RT_2826,
 						},
 					},
 					[3] = {
@@ -64075,7 +64077,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2848,
+					[1] = T.RT_2852,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -64117,8 +64119,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113020] = {
 		["Operations"] = {
-			[1] = T.RT_2846,
-			[2] = T.RT_2844,
+			[1] = T.RT_2850,
+			[2] = T.RT_2848,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -64140,9 +64142,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113021] = {
 		["Operations"] = {
-			[1] = T.RT_2832,
+			[1] = T.RT_2836,
 			[2] = T.RT_1700,
-			[3] = T.RT_2822,
+			[3] = T.RT_2826,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -64164,10 +64166,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_2842,
+							[2] = T.RT_2846,
 						},
 					},
-					[2] = T.RT_2200,
+					[2] = T.RT_2206,
 				},
 			},
 		},
@@ -64215,11 +64217,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113024] = {
 		["Operations"] = {
-			[1] = T.RT_2840,
-			[2] = T.RT_2838,
+			[1] = T.RT_2844,
+			[2] = T.RT_2842,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2834,
+					[1] = T.RT_2838,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-140.698242,-95.582031,120.782227,-4.000003,8.402478,-13.154885,35.0,357.975159,false,Manual,4.0",
@@ -64228,13 +64230,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = T.RT_2836,
+			[4] = T.RT_2840,
 		},
 		["bAllowClick"] = true,
 	},
 	[10113025] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -64252,7 +64254,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_1116,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2834,
+					[1] = T.RT_2838,
 				},
 			},
 		},
@@ -64260,8 +64262,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113029] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
-			[2] = T.RT_2832,
+			[1] = T.RT_2826,
+			[2] = T.RT_2836,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -64351,12 +64353,12 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2830,
+							[2] = T.RT_2834,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-508.9375,-469.679688,177.929688,5.001051,-9.600404,36.039646,25.0,376.025848,false,Manual,2.5",
@@ -64367,7 +64369,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-516.53125,-475.191406,179.519531,5.001068,-9.600404,36.039593,25.0,376.025848,false,Manual,2.5",
@@ -64384,10 +64386,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113032] = {
 		["Operations"] = {
-			[1] = T.RT_2830,
+			[1] = T.RT_2834,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2824,
+					[1] = T.RT_2828,
 				},
 			},
 			[3] = {
@@ -64399,11 +64401,11 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 1,
 						},
 					},
-					[2] = T.RT_2828,
+					[2] = T.RT_2832,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2826,
+							[2] = T.RT_2830,
 						},
 					},
 				},
@@ -64413,11 +64415,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113033] = {
 		["Operations"] = {
-			[1] = T.RT_2826,
-			[2] = T.RT_2822,
+			[1] = T.RT_2830,
+			[2] = T.RT_2826,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2824,
+					[1] = T.RT_2828,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInOutQuad",
@@ -64432,7 +64434,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113034] = {
 		["Operations"] = {
-			[1] = T.RT_2822,
+			[1] = T.RT_2826,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -64454,8 +64456,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113035] = {
 		["Operations"] = {
-			[1] = T.RT_2814,
-			[2] = T.RT_2818,
+			[1] = T.RT_2818,
+			[2] = T.RT_2822,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -64467,11 +64469,11 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_2820,
-					[2] = T.RT_2816,
-					[3] = T.RT_2818,
-					[4] = T.RT_2816,
-					[5] = T.RT_2814,
+					[1] = T.RT_2824,
+					[2] = T.RT_2820,
+					[3] = T.RT_2822,
+					[4] = T.RT_2820,
+					[5] = T.RT_2818,
 				},
 			},
 		},
@@ -64514,7 +64516,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113102] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -64577,7 +64579,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113106] = {
 		["Operations"] = {
-			[1] = T.RT_2812,
+			[1] = T.RT_2816,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
@@ -64593,14 +64595,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113107] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1860,
 			[3] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "100001:p(140)",
 				},
 			},
-			[4] = T.RT_2810,
+			[4] = T.RT_2814,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -64652,7 +64654,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_1116,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2808,
+					[1] = T.RT_2812,
 				},
 			},
 		},
@@ -64662,7 +64664,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2808,
+					[1] = T.RT_2812,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -64676,7 +64678,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-101.811859,235.133865,56.449219,-5.000004,12.400447,-41.219139,30.0,197.755539,false,Manual,3.0",
@@ -64687,7 +64689,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-104.143478,225.590851,56.579102,-5.000005,12.400447,-39.218971,30.0,197.755539,false,Manual,3.0",
@@ -64739,7 +64741,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113112] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = T.RT_1860,
 			[3] = {
 				["TurnTo"] = {
@@ -64789,10 +64791,10 @@ return ReadOnly("DialogueScripts2Table", {
 	[10113114] = {
 		["Operations"] = {
 			[1] = T.RT_1116,
-			[2] = T.RT_2782,
+			[2] = T.RT_2786,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2804,
+					[1] = T.RT_2808,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-183.532837,140.264084,37.713867,5.000642,15.599455,2.783473,50.0,150.850388,false,Manual,3.5",
@@ -64821,13 +64823,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2720,
+			[2] = T.RT_2726,
 		},
 		["bAllowClick"] = true,
 	},
 	[10113116] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -64873,7 +64875,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113118] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -64889,13 +64891,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2806,
+			[3] = T.RT_2810,
 		},
 		["bAllowClick"] = true,
 	},
 	[10113119] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -64916,10 +64918,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113120] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2804,
+					[1] = T.RT_2808,
 				},
 			},
 		},
@@ -64932,7 +64934,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "100012:n(100001)",
 				},
 			},
-			[2] = T.RT_2802,
+			[2] = T.RT_2806,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -65028,7 +65030,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113206] = {
 		["Operations"] = {
-			[1] = T.RT_2802,
+			[1] = T.RT_2806,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -65049,17 +65051,17 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2577,
-							[2] = T.RT_2800,
+							[1] = T.RT_2583,
+							[2] = T.RT_2804,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2577,
-							[2] = T.RT_2798,
+							[1] = T.RT_2583,
+							[2] = T.RT_2802,
 						},
 					},
-					[3] = T.RT_2796,
+					[3] = T.RT_2800,
 				},
 			},
 		},
@@ -65187,7 +65189,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2794,
+					[1] = T.RT_2798,
 				},
 			},
 			[2] = {
@@ -65220,7 +65222,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2794,
+					[1] = T.RT_2798,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInOutQuad",
@@ -65316,7 +65318,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-64.09375,124.148438,-20.473022,0.000067,16.797859,-150.803741,12.0,501.349915,false,Manual,1.2",
@@ -65327,7 +65329,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-64.730469,117.964844,-19.36908,0.000068,16.797859,-152.803741,12.0,501.349915,false,Manual,1.2",
@@ -65435,7 +65437,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113501] = {
 		["Operations"] = {
-			[1] = T.RT_2792,
+			[1] = T.RT_2796,
 			[2] = T.RT_1116,
 			[3] = {
 				["SEQ"] = {
@@ -65477,7 +65479,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1144,
-					[2] = T.RT_2790,
+					[2] = T.RT_2794,
 				},
 			},
 		},
@@ -65498,7 +65500,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1614,
-					[2] = T.RT_2788,
+					[2] = T.RT_2792,
 				},
 			},
 		},
@@ -65520,8 +65522,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10113505] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
-			[2] = T.RT_2786,
+			[1] = T.RT_2786,
+			[2] = T.RT_2790,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -65541,7 +65543,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_1366,
-					[2] = T.RT_2784,
+					[2] = T.RT_2788,
 				},
 			},
 		},
@@ -65549,7 +65551,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10114501] = {
 		["Operations"] = {
-			[1] = T.RT_2782,
+			[1] = T.RT_2786,
 			[2] = T.RT_1860,
 			[3] = {
 				["SEQ"] = {
@@ -65562,19 +65564,19 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["PARA"] = {
-					[1] = T.RT_2780,
+					[1] = T.RT_2784,
 					[2] = {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_1366,
-									[2] = T.RT_2776,
+									[2] = T.RT_2780,
 								},
 							},
 							[2] = {
 								["SEQ"] = {
 									[1] = T.RT_146,
-									[2] = T.RT_2774,
+									[2] = T.RT_2778,
 								},
 							},
 						},
@@ -65584,7 +65586,7 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_1144,
-									[2] = T.RT_2772,
+									[2] = T.RT_2776,
 								},
 							},
 							[2] = {
@@ -65599,7 +65601,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 							[3] = {
 								["SEQ"] = {
-									[1] = T.RT_2577,
+									[1] = T.RT_2583,
 									[2] = {
 										["TurnTo"] = {
 											["TurnToDescription"] = "200021:n(200019)",
@@ -65639,7 +65641,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[10115501] = T.RT_2770,
+	[10115501] = T.RT_2774,
 	[10116701] = {
 		["Operations"] = {
 			[1] = {
@@ -65662,13 +65664,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117301] = {
 		["Operations"] = {
-			[1] = T.RT_2760,
+			[1] = T.RT_2766,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200002:n(200054)",
 				},
 			},
-			[3] = T.RT_2762,
+			[3] = T.RT_2768,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -65741,7 +65743,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117302] = {
 		["Operations"] = {
-			[1] = T.RT_2764,
+			[1] = T.RT_2770,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -65799,7 +65801,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117303] = {
 		["Operations"] = {
-			[1] = T.RT_2766,
+			[1] = T.RT_2772,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -65826,7 +65828,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117304] = {
 		["Operations"] = {
-			[1] = T.RT_2766,
+			[1] = T.RT_2772,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -65841,9 +65843,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117305] = {
 		["Operations"] = {
-			[1] = T.RT_2766,
-			[2] = T.RT_2730,
-			[3] = T.RT_2728,
+			[1] = T.RT_2772,
+			[2] = T.RT_2736,
+			[3] = T.RT_2734,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -65858,18 +65860,18 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117306] = {
 		["Operations"] = {
-			[1] = T.RT_2764,
-			[2] = T.RT_2762,
-			[3] = T.RT_2756,
+			[1] = T.RT_2770,
+			[2] = T.RT_2768,
+			[3] = T.RT_2762,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2760,
+							[2] = T.RT_2766,
 						},
 					},
-					[2] = T.RT_2758,
+					[2] = T.RT_2764,
 				},
 			},
 		},
@@ -65877,7 +65879,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117308] = {
 		["Operations"] = {
-			[1] = T.RT_2756,
+			[1] = T.RT_2762,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -65899,7 +65901,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[3] = T.RT_2752,
+					[3] = T.RT_2758,
 				},
 			},
 		},
@@ -65984,8 +65986,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117902] = {
 		["Operations"] = {
-			[1] = T.RT_2728,
-			[2] = T.RT_2730,
+			[1] = T.RT_2734,
+			[2] = T.RT_2736,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -66007,7 +66009,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117903] = {
 		["Operations"] = {
-			[1] = T.RT_2750,
+			[1] = T.RT_2756,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -66022,7 +66024,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117904] = {
 		["Operations"] = {
-			[1] = T.RT_2748,
+			[1] = T.RT_2754,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -66102,11 +66104,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10117906] = {
 		["Operations"] = {
-			[1] = T.RT_2730,
-			[2] = T.RT_2748,
+			[1] = T.RT_2736,
+			[2] = T.RT_2754,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2746,
+					[1] = T.RT_2752,
 				},
 			},
 		},
@@ -66116,7 +66118,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2746,
+					[1] = T.RT_2752,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "20.944265,130.493118,127.817627,0.000104,-2.599857,-61.003311,20.0,124.611694,false,Manual,2.2",
@@ -66130,13 +66132,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10118202] = {
 		["Operations"] = {
-			[1] = T.RT_2744,
+			[1] = T.RT_2750,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200053:n(100001)",
 				},
 			},
-			[3] = T.RT_2738,
+			[3] = T.RT_2744,
 			[4] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "200011:n(200053)",
@@ -66257,7 +66259,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2403,
+							[1] = T.RT_2409,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "446.957031,202.599121,241.69043,0.000005,-1.998684,-72.999886,12.0,180.742981,false,DoNotOverride,5.0",
@@ -66279,7 +66281,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[5] = {
 						["SEQ"] = {
-							[1] = T.RT_2740,
+							[1] = T.RT_2746,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-167.486328,845.408691,149.284668,0.000015,-4.998441,105.891197,37.5,184.794189,false,Manual,5.0",
@@ -66355,7 +66357,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[11] = {
 						["SEQ"] = {
-							[1] = T.RT_2742,
+							[1] = T.RT_2748,
 							[2] = {
 								["SetLocation"] = {
 									["ActorId"] = 200002,
@@ -66367,7 +66369,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[12] = {
 						["SEQ"] = {
-							[1] = T.RT_2742,
+							[1] = T.RT_2748,
 							[2] = {
 								["SetRotation"] = {
 									["SetRotationDescription"] = "200002:p(-47)",
@@ -66406,7 +66408,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10121001] = {
 		["Operations"] = {
-			[1] = T.RT_2738,
+			[1] = T.RT_2744,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -66458,7 +66460,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2736,
+							[1] = T.RT_2742,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "240.776367,-457.84671,101.039429,0.000001,1.799987,-80.99604,50.0,217.66803,false,Manual,2.890885",
@@ -66483,7 +66485,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[6] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_2734,
+							[2] = T.RT_2740,
 						},
 					},
 					[7] = {
@@ -66581,7 +66583,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10121003] = {
 		["Operations"] = {
-			[1] = T.RT_2728,
+			[1] = T.RT_2734,
 			[2] = T.RT_1700,
 			[3] = T.RT_1690,
 			[4] = {
@@ -66635,7 +66637,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
+							[1] = T.RT_2204,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "348.811035,-584.194336,104.589722,0.000154,0.0,-135.0,25.0,150.0,false,Manual,2.057241",
@@ -66754,7 +66756,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2732,
+							[2] = T.RT_2738,
 						},
 					},
 				},
@@ -66854,9 +66856,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10121602] = {
 		["Operations"] = {
-			[1] = T.RT_2730,
+			[1] = T.RT_2736,
 			[2] = T.RT_1700,
-			[3] = T.RT_2728,
+			[3] = T.RT_2734,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -66893,7 +66895,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_2726,
+							[2] = T.RT_2732,
 						},
 					},
 					[4] = {
@@ -67094,13 +67096,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2724,
+							[2] = T.RT_2730,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_2722,
+							[2] = T.RT_2728,
 						},
 					},
 					[3] = {
@@ -67116,7 +67118,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2676,
+							[1] = T.RT_2682,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "884.15332,-2479.414307,127.318726,0.000752,4.994986,122.379768,30.0,662.570679,false,Manual,1.997252",
@@ -67185,16 +67187,16 @@ return ReadOnly("DialogueScripts2Table", {
 							["PlayAs2D"] = true,
 						},
 					},
-					[2] = T.RT_2720,
+					[2] = T.RT_2726,
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2716,
-							[2] = T.RT_2718,
+							[1] = T.RT_2722,
+							[2] = T.RT_2724,
 						},
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2716,
+							[1] = T.RT_2722,
 							[2] = {
 								["LookAt"] = {
 									["LookAtDescription"] = "100001:p(P200044Nvzhu3)",
@@ -67209,7 +67211,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["DelaySeconds"] = 20,
 								},
 							},
-							[2] = T.RT_2706,
+							[2] = T.RT_2712,
 						},
 					},
 					[6] = {
@@ -67287,7 +67289,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[8] = {
 						["SEQ"] = {
-							[1] = T.RT_2714,
+							[1] = T.RT_2720,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-256.994141,13330.568359,-500.455078,0.000077,8.199553,149.999969,16.0,133.732285,false,DoNotOverride,2.0",
@@ -67380,7 +67382,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10124501] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
+			[1] = T.RT_2708,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -67502,8 +67504,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10124701] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
-			[2] = T.RT_2702,
+			[1] = T.RT_2712,
+			[2] = T.RT_2708,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -67542,7 +67544,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_2712,
+					[2] = T.RT_2718,
 				},
 			},
 		},
@@ -67573,7 +67575,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2710,
+					[1] = T.RT_2716,
 				},
 			},
 		},
@@ -67584,7 +67586,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_1116,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2710,
+					[1] = T.RT_2716,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -67669,7 +67671,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2708,
+					[1] = T.RT_2714,
 				},
 			},
 			[2] = {
@@ -67687,7 +67689,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2708,
+					[1] = T.RT_2714,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInOutQuad",
@@ -67725,7 +67727,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "109.523438,-162.498047,77.935547,0.0,1.199989,73.585915,12.0,109.990601,false,Manual,11.501537",
@@ -67828,7 +67830,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10124801] = {
 		["Operations"] = {
-			[1] = T.RT_2706,
+			[1] = T.RT_2712,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -67849,19 +67851,19 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_2706,
+							[2] = T.RT_2712,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_2702,
+							[2] = T.RT_2708,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1614,
-							[2] = T.RT_2704,
+							[2] = T.RT_2710,
 						},
 					},
 					[4] = {
@@ -67882,7 +67884,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10124802] = {
 		["Operations"] = {
-			[1] = T.RT_2702,
+			[1] = T.RT_2708,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -67897,7 +67899,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2700,
+							[2] = T.RT_2706,
 						},
 					},
 				},
@@ -68181,7 +68183,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2698,
+							[2] = T.RT_2704,
 						},
 					},
 					[3] = {
@@ -68199,7 +68201,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1798,
-							[2] = T.RT_2698,
+							[2] = T.RT_2704,
 						},
 					},
 					[5] = {
@@ -68225,7 +68227,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[7] = {
 						["SEQ"] = {
 							[1] = T.RT_1646,
-							[2] = T.RT_2696,
+							[2] = T.RT_2702,
 						},
 					},
 					[8] = {
@@ -68330,8 +68332,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10125901] = {
 		["Operations"] = {
-			[1] = T.RT_2684,
-			[2] = T.RT_2686,
+			[1] = T.RT_2690,
+			[2] = T.RT_2692,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -68422,7 +68424,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2694,
+							[1] = T.RT_2700,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "3.188477,-110.976562,163.875,-5.000004,-11.399872,79.999962,35.0,317.941376,false,Manual,4.0",
@@ -68517,18 +68519,18 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_140,
-							[2] = T.RT_2682,
+							[2] = T.RT_2688,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2678,
+							[2] = T.RT_2684,
 						},
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2692,
+							[1] = T.RT_2698,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "154.291992,502.9375,85.977539,0.000099,5.233714,-102.500107,60.0,424.685455,false,Manual,2.75",
@@ -68539,7 +68541,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2690,
+							[1] = T.RT_2696,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "154.291992,502.9375,89.892578,0.000099,5.233714,-102.500107,60.0,424.685455,false,Manual,2.75",
@@ -68711,7 +68713,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2688,
+					[1] = T.RT_2694,
 				},
 			},
 		},
@@ -68721,7 +68723,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2688,
+					[1] = T.RT_2694,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInOutQuad",
@@ -68736,7 +68738,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10125916] = {
 		["Operations"] = {
-			[1] = T.RT_2686,
+			[1] = T.RT_2692,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -68756,7 +68758,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10125917] = {
 		["Operations"] = {
-			[1] = T.RT_2684,
+			[1] = T.RT_2690,
 			[2] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "200076:p(180)",
@@ -68797,7 +68799,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[10125919] = {
 		["Operations"] = {
-			[1] = T.RT_2682,
+			[1] = T.RT_2688,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -68882,7 +68884,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2680,
+					[1] = T.RT_2686,
 				},
 			},
 		},
@@ -68892,7 +68894,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2680,
+					[1] = T.RT_2686,
 					[2] = {
 						["CameraMoveTo"] = {
 							["Blend"] = "easeInQuad",
@@ -68940,7 +68942,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1646,
-							[2] = T.RT_2678,
+							[2] = T.RT_2684,
 						},
 					},
 				},
@@ -69074,7 +69076,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2676,
+							[1] = T.RT_2682,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-274.397705,0.902832,102.195801,0.000063,-1.39859,-48.794586,20.0,560.390686,false,DoNotOverride,1.2",
@@ -69085,7 +69087,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2674,
+							[1] = T.RT_2680,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-306.544922,-27.246094,102.195801,0.000063,-1.39859,-52.000042,20.0,560.390686,false,DoNotOverride,1.2",
@@ -69096,7 +69098,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2674,
+							[1] = T.RT_2680,
 							[2] = {
 								["SetLocation"] = {
 									["ActorId"] = 100001,
@@ -69108,7 +69110,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2674,
+							[1] = T.RT_2680,
 							[2] = {
 								["SetLocation"] = {
 									["ActorId"] = 200002,
@@ -69199,7 +69201,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[5] = {
 						["SEQ"] = {
-							[1] = T.RT_2672,
+							[1] = T.RT_2678,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-25.425781,126.027344,117.81543,0.000123,-3.599571,-145.001022,15.0,168.185272,false,Manual,1.2",
@@ -69210,7 +69212,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[6] = {
 						["SEQ"] = {
-							[1] = T.RT_2670,
+							[1] = T.RT_2676,
 							[2] = {
 								["SetLocation"] = {
 									["ActorId"] = 100001,
@@ -69222,7 +69224,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[7] = {
 						["SEQ"] = {
-							[1] = T.RT_2670,
+							[1] = T.RT_2676,
 							[2] = {
 								["SetLocation"] = {
 									["ActorId"] = 200002,
@@ -69249,7 +69251,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[9] = {
 						["SEQ"] = {
-							[1] = T.RT_2670,
+							[1] = T.RT_2676,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-1213.727051,-186.43959,198.297119,0.000169,-4.599306,12.20913,35.0,618.79718,false,Manual,1.693427",
@@ -69326,7 +69328,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2668,
+							[1] = T.RT_2674,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "625.070801,3523.536865,2369.448486,0.000019,-33.999729,-108.797333,30.0,100000.0,false,DoNotOverride,2.8",
@@ -69337,7 +69339,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[3] = {
 						["SEQ"] = {
-							[1] = T.RT_2666,
+							[1] = T.RT_2672,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "618.473633,3525.698486,2369.448486,0.000016,-33.99968,-107.0,30.0,100000.0,false,DoNotOverride,2.8",
@@ -69384,7 +69386,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["PARA"] = {
-					[1] = T.RT_2664,
+					[1] = T.RT_2670,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
@@ -69410,7 +69412,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2662,
+							[2] = T.RT_2668,
 						},
 					},
 					[5] = {
@@ -69459,7 +69461,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["SpeakActorId"] = 0,
 				},
 			},
-			[2] = T.RT_2660,
+			[2] = T.RT_2666,
 		},
 		["bAllowClick"] = true,
 	},
@@ -69500,7 +69502,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2411,
+			[2] = T.RT_2417,
 		},
 		["bAllowClick"] = true,
 	},
@@ -69521,7 +69523,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2411,
+			[2] = T.RT_2417,
 		},
 		["bAllowClick"] = true,
 	},
@@ -69562,13 +69564,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2411,
+			[2] = T.RT_2417,
 		},
 		["bAllowClick"] = true,
 	},
 	[11010207] = {
 		["Operations"] = {
-			[1] = T.RT_2652,
+			[1] = T.RT_2658,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -69630,7 +69632,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11010208] = {
 		["Operations"] = {
-			[1] = T.RT_2656,
+			[1] = T.RT_2662,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -69646,14 +69648,14 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2505,
+			[3] = T.RT_2511,
 		},
 		["bAllowClick"] = true,
 	},
-	[11010209] = T.RT_2654,
+	[11010209] = T.RT_2660,
 	[11010210] = {
 		["Operations"] = {
-			[1] = T.RT_2656,
+			[1] = T.RT_2662,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -69663,14 +69665,14 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2505,
+			[3] = T.RT_2511,
 		},
 		["bAllowClick"] = true,
 	},
-	[11010211] = T.RT_2654,
+	[11010211] = T.RT_2660,
 	[11010212] = {
 		["Operations"] = {
-			[1] = T.RT_2652,
+			[1] = T.RT_2658,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -69691,8 +69693,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11010301] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -69710,7 +69712,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[4] = {
 				["SEQ"] = {
-					[1] = T.RT_2405,
+					[1] = T.RT_2411,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 110005,
@@ -69725,7 +69727,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11010302] = {
 		["Operations"] = {
-			[1] = T.RT_2316,
+			[1] = T.RT_2322,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -69789,8 +69791,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11010306] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -69813,7 +69815,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_2391,
+					[2] = T.RT_2397,
 				},
 			},
 		},
@@ -69904,11 +69906,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11010311] = {
 		["Operations"] = {
-			[1] = T.RT_2650,
+			[1] = T.RT_2656,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_2383,
+					[2] = T.RT_2389,
 				},
 			},
 		},
@@ -69930,7 +69932,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11010313] = {
 		["Operations"] = {
-			[1] = T.RT_2650,
+			[1] = T.RT_2656,
 		},
 		["bAllowClick"] = true,
 	},
@@ -69984,8 +69986,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11010701] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -70021,7 +70023,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[3] = T.RT_2646,
+					[3] = T.RT_2652,
 				},
 			},
 		},
@@ -70049,8 +70051,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11010704] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -70127,8 +70129,8 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2252,
-							[2] = T.RT_2316,
+							[1] = T.RT_2258,
+							[2] = T.RT_2322,
 						},
 					},
 					[2] = {
@@ -70166,8 +70168,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2646,
-					[2] = T.RT_2334,
+					[1] = T.RT_2652,
+					[2] = T.RT_2340,
 				},
 			},
 		},
@@ -70177,7 +70179,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2644,
+					[1] = T.RT_2650,
 				},
 			},
 		},
@@ -70187,7 +70189,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2644,
+					[1] = T.RT_2650,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-286.345703,-87.492188,152.207397,0.000344,-7.199763,40.221565,35.0,100000.0,false,Manual,22.0",
@@ -70321,31 +70323,31 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011001] = {
 		["Operations"] = {
-			[1] = T.RT_2609,
+			[1] = T.RT_2615,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011003] = {
 		["Operations"] = {
 			[1] = {
-				["PlayNormalSound"] = T.RT_2642,
+				["PlayNormalSound"] = T.RT_2648,
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[11011007] = T.RT_2593,
+	[11011007] = T.RT_2599,
 	[11011009] = {
 		["Operations"] = {
 			[1] = {
-				["StopNormalSound"] = T.RT_2642,
+				["StopNormalSound"] = T.RT_2648,
 			},
 		},
 		["bAllowClick"] = true,
 	},
 	[11011101] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
-			[2] = T.RT_2637,
+			[1] = T.RT_2282,
+			[2] = T.RT_2643,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -70361,13 +70363,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = T.RT_2641,
+			[4] = T.RT_2647,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011102] = {
 		["Operations"] = {
-			[1] = T.RT_2637,
+			[1] = T.RT_2643,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70382,7 +70384,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011103] = {
 		["Operations"] = {
-			[1] = T.RT_2639,
+			[1] = T.RT_2645,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70403,7 +70405,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011104] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
+			[1] = T.RT_2282,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70424,8 +70426,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011105] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
-			[2] = T.RT_2274,
+			[1] = T.RT_2282,
+			[2] = T.RT_2280,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -70463,13 +70465,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2641,
+			[2] = T.RT_2647,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011109] = {
 		["Operations"] = {
-			[1] = T.RT_2639,
+			[1] = T.RT_2645,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70481,7 +70483,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2371,
+					[1] = T.RT_2377,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
@@ -70533,8 +70535,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011111] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
-			[2] = T.RT_2314,
+			[1] = T.RT_2280,
+			[2] = T.RT_2320,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -70549,7 +70551,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011112] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
+			[1] = T.RT_2282,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70567,7 +70569,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2381,
+					[1] = T.RT_2387,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
@@ -70608,7 +70610,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1144,
-							[2] = T.RT_2625,
+							[2] = T.RT_2631,
 						},
 					},
 				},
@@ -70638,18 +70640,18 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011115] = {
 		["Operations"] = {
-			[1] = T.RT_2639,
-			[2] = T.RT_2637,
+			[1] = T.RT_2645,
+			[2] = T.RT_2643,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011116] = {
-		["Operations"] = T.RT_2640,
+		["Operations"] = T.RT_2646,
 		["bAllowClick"] = true,
 	},
 	[11011117] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70686,8 +70688,8 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_2637,
-					[3] = T.RT_2385,
+					[2] = T.RT_2643,
+					[3] = T.RT_2391,
 				},
 			},
 		},
@@ -70695,9 +70697,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011119] = {
 		["Operations"] = {
-			[1] = T.RT_2639,
-			[2] = T.RT_2316,
-			[3] = T.RT_2252,
+			[1] = T.RT_2645,
+			[2] = T.RT_2322,
+			[3] = T.RT_2258,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -70736,7 +70738,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011120] = {
 		["Operations"] = {
-			[1] = T.RT_2637,
+			[1] = T.RT_2643,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70751,7 +70753,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_2385,
+							[2] = T.RT_2391,
 						},
 					},
 				},
@@ -70775,7 +70777,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011122] = {
 		["Operations"] = {
-			[1] = T.RT_2637,
+			[1] = T.RT_2643,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70913,8 +70915,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011131] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
-			[2] = T.RT_2274,
+			[1] = T.RT_2282,
+			[2] = T.RT_2280,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -70935,7 +70937,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011302] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -70956,7 +70958,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011303] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
+			[1] = T.RT_2282,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -71115,7 +71117,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011316] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
+			[1] = T.RT_2270,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -71145,7 +71147,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2222,
+			[2] = T.RT_2228,
 		},
 		["bAllowClick"] = true,
 	},
@@ -71232,13 +71234,13 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
-							[2] = T.RT_2220,
+							[2] = T.RT_2226,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_858,
-							[2] = T.RT_2563,
+							[2] = T.RT_2569,
 						},
 					},
 				},
@@ -71248,7 +71250,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011333] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 		},
 		["bAllowClick"] = true,
 	},
@@ -71280,9 +71282,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011401] = {
 		["Operations"] = {
-			[1] = T.RT_2290,
-			[2] = T.RT_2481,
-			[3] = T.RT_2633,
+			[1] = T.RT_2296,
+			[2] = T.RT_2487,
+			[3] = T.RT_2639,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -71323,8 +71325,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011402] = {
 		["Operations"] = {
-			[1] = T.RT_2629,
-			[2] = T.RT_2635,
+			[1] = T.RT_2635,
+			[2] = T.RT_2641,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -71345,8 +71347,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011403] = {
 		["Operations"] = {
-			[1] = T.RT_2629,
-			[2] = T.RT_2635,
+			[1] = T.RT_2635,
+			[2] = T.RT_2641,
 			[3] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "110022:p(-30)",
@@ -71438,7 +71440,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011406] = {
 		["Operations"] = {
-			[1] = T.RT_2633,
+			[1] = T.RT_2639,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -71496,22 +71498,22 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2627,
+			[2] = T.RT_2633,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011408] = {
 		["Operations"] = {
-			[1] = T.RT_2627,
+			[1] = T.RT_2633,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011409] = {
 		["Operations"] = {
-			[1] = T.RT_2481,
+			[1] = T.RT_2487,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2631,
+					[1] = T.RT_2637,
 				},
 			},
 			[3] = {
@@ -71524,7 +71526,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2627,
+					[2] = T.RT_2633,
 				},
 			},
 		},
@@ -71532,7 +71534,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011410] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
+			[1] = T.RT_2282,
 			[2] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "110022:p(-40)",
@@ -71540,7 +71542,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2631,
+					[1] = T.RT_2637,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-426.372162,-42.136719,219.969971,0.000999,-11.996298,19.177452,35.0,469.235657,false,Manual,3.337645",
@@ -71559,8 +71561,8 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2629,
-					[3] = T.RT_2290,
+					[2] = T.RT_2635,
+					[3] = T.RT_2296,
 				},
 			},
 		},
@@ -71592,7 +71594,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Duration"] = 2,
 						},
 					},
-					[2] = T.RT_2627,
+					[2] = T.RT_2633,
 				},
 			},
 		},
@@ -71600,7 +71602,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011412] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -71624,7 +71626,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["TurnToDescription"] = "110010:p(45)",
 						},
 					},
-					[3] = T.RT_2391,
+					[3] = T.RT_2397,
 				},
 			},
 		},
@@ -71632,10 +71634,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011501] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
-			[2] = T.RT_2274,
-			[3] = T.RT_2270,
-			[4] = T.RT_2453,
+			[1] = T.RT_2282,
+			[2] = T.RT_2280,
+			[3] = T.RT_2276,
+			[4] = T.RT_2459,
 			[5] = {
 				["SEQ"] = {
 					[1] = {
@@ -71701,7 +71703,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2625,
+							[2] = T.RT_2631,
 						},
 					},
 					[2] = {
@@ -71737,7 +71739,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_2264,
+							[2] = T.RT_2270,
 						},
 					},
 					[2] = {
@@ -71753,7 +71755,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1768,
-							[2] = T.RT_2258,
+							[2] = T.RT_2264,
 						},
 					},
 					[4] = {
@@ -71784,7 +71786,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2222,
+			[2] = T.RT_2228,
 		},
 		["bAllowClick"] = true,
 	},
@@ -71895,7 +71897,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2477,
+							[1] = T.RT_2483,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "-185.694336,-6.542969,120.360779,0.000021,-4.200409,-22.200655,28.000006,100000.0,false,Manual,5.0",
@@ -72203,7 +72205,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011530] = {
 		["Operations"] = {
-			[1] = T.RT_2603,
+			[1] = T.RT_2609,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -72228,9 +72230,9 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11011532] = T.RT_2623,
-	[11011533] = T.RT_2605,
-	[11011534] = T.RT_2623,
+	[11011532] = T.RT_2629,
+	[11011533] = T.RT_2611,
+	[11011534] = T.RT_2629,
 	[11011535] = {
 		["Operations"] = {
 			[1] = {
@@ -72273,8 +72275,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011537] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
-			[2] = T.RT_2453,
+			[1] = T.RT_2270,
+			[2] = T.RT_2459,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -72284,7 +72286,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[4] = T.RT_2220,
+			[4] = T.RT_2226,
 		},
 		["bAllowClick"] = true,
 	},
@@ -72317,7 +72319,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011539] = {
 		["Operations"] = {
-			[1] = T.RT_2461,
+			[1] = T.RT_2467,
 		},
 		["bAllowClick"] = true,
 	},
@@ -72338,7 +72340,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2222,
+			[2] = T.RT_2228,
 		},
 		["bAllowClick"] = true,
 	},
@@ -72373,15 +72375,15 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2220,
+			[2] = T.RT_2226,
 		},
 		["bAllowClick"] = true,
 	},
-	[11011546] = T.RT_2615,
-	[11011548] = T.RT_2615,
+	[11011546] = T.RT_2621,
+	[11011548] = T.RT_2621,
 	[11011550] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -72472,7 +72474,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2609,
+			[3] = T.RT_2615,
 		},
 		["bAllowClick"] = true,
 	},
@@ -72480,7 +72482,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2607,
+					[1] = T.RT_2613,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "164.222687,237.304657,100.296448,0.000031,-6.399136,-128.388458,35.0,100000.0,false,DoNotOverride,2.8",
@@ -72577,22 +72579,22 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2607,
+					[1] = T.RT_2613,
 				},
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[11011614] = T.RT_2605,
-	[11011702] = T.RT_2597,
-	[11011704] = T.RT_2597,
-	[11011705] = T.RT_2292,
-	[11011712] = T.RT_2593,
+	[11011614] = T.RT_2611,
+	[11011702] = T.RT_2603,
+	[11011704] = T.RT_2603,
+	[11011705] = T.RT_2298,
+	[11011712] = T.RT_2599,
 	[11011802] = {
 		["Operations"] = {
-			[1] = T.RT_2581,
-			[2] = T.RT_2571,
-			[3] = T.RT_2591,
+			[1] = T.RT_2587,
+			[2] = T.RT_2577,
+			[3] = T.RT_2597,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -72637,11 +72639,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011803] = {
 		["Operations"] = {
-			[1] = T.RT_2591,
+			[1] = T.RT_2597,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2579,
-					[2] = T.RT_2583,
+					[1] = T.RT_2585,
+					[2] = T.RT_2589,
 					[3] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 110043,
@@ -72656,9 +72658,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011804] = {
 		["Operations"] = {
-			[1] = T.RT_2565,
-			[2] = T.RT_2573,
-			[3] = T.RT_2587,
+			[1] = T.RT_2571,
+			[2] = T.RT_2579,
+			[3] = T.RT_2593,
 		},
 		["bAllowClick"] = true,
 	},
@@ -72732,13 +72734,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011810] = {
 		["Operations"] = {
-			[1] = T.RT_2587,
+			[1] = T.RT_2593,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011811] = {
 		["Operations"] = {
-			[1] = T.RT_2571,
+			[1] = T.RT_2577,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -72752,11 +72754,11 @@ return ReadOnly("DialogueScripts2Table", {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2577,
-							[2] = T.RT_2579,
+							[1] = T.RT_2583,
+							[2] = T.RT_2585,
 						},
 					},
-					[2] = T.RT_2583,
+					[2] = T.RT_2589,
 				},
 			},
 		},
@@ -72786,13 +72788,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011813] = {
 		["Operations"] = {
-			[1] = T.RT_2575,
+			[1] = T.RT_2581,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "110022:n(110017)",
 				},
 			},
-			[3] = T.RT_2579,
+			[3] = T.RT_2585,
 			[4] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "110017:n(110016)",
@@ -72839,7 +72841,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011814] = {
 		["Operations"] = {
-			[1] = T.RT_2565,
+			[1] = T.RT_2571,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -72854,8 +72856,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011815] = {
 		["Operations"] = {
-			[1] = T.RT_2280,
-			[2] = T.RT_2475,
+			[1] = T.RT_2286,
+			[2] = T.RT_2481,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -72870,7 +72872,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011816] = {
 		["Operations"] = {
-			[1] = T.RT_2575,
+			[1] = T.RT_2581,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -72889,8 +72891,8 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2577,
-							[2] = T.RT_2575,
+							[1] = T.RT_2583,
+							[2] = T.RT_2581,
 						},
 					},
 				},
@@ -72900,13 +72902,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011817] = {
 		["Operations"] = {
-			[1] = T.RT_2565,
+			[1] = T.RT_2571,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "110017:n(110022)",
 				},
 			},
-			[3] = T.RT_2475,
+			[3] = T.RT_2481,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -72921,7 +72923,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011818] = {
 		["Operations"] = {
-			[1] = T.RT_2573,
+			[1] = T.RT_2579,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73003,7 +73005,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011822] = {
 		["Operations"] = {
-			[1] = T.RT_2280,
+			[1] = T.RT_2286,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "110017:p(fix1103)",
@@ -73034,7 +73036,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["TurnToDescription"] = "110016:n(110034)",
 				},
 			},
-			[2] = T.RT_2569,
+			[2] = T.RT_2575,
 		},
 		["bAllowClick"] = true,
 	},
@@ -73054,7 +73056,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011827] = {
 		["Operations"] = {
-			[1] = T.RT_2280,
+			[1] = T.RT_2286,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73083,8 +73085,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011829] = {
 		["Operations"] = {
-			[1] = T.RT_2280,
-			[2] = T.RT_2272,
+			[1] = T.RT_2286,
+			[2] = T.RT_2278,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -73135,7 +73137,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2280,
+							[2] = T.RT_2286,
 						},
 					},
 				},
@@ -73145,8 +73147,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011831] = {
 		["Operations"] = {
-			[1] = T.RT_2573,
-			[2] = T.RT_2475,
+			[1] = T.RT_2579,
+			[2] = T.RT_2481,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -73161,13 +73163,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011832] = {
 		["Operations"] = {
-			[1] = T.RT_2571,
+			[1] = T.RT_2577,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011833] = {
 		["Operations"] = {
-			[1] = T.RT_2565,
+			[1] = T.RT_2571,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73182,7 +73184,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011834] = {
 		["Operations"] = {
-			[1] = T.RT_2272,
+			[1] = T.RT_2278,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73195,7 +73197,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11011835] = T.RT_2338,
+	[11011835] = T.RT_2344,
 	[11011836] = {
 		["Operations"] = {
 			[1] = {
@@ -73218,8 +73220,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011837] = {
 		["Operations"] = {
-			[1] = T.RT_2272,
-			[2] = T.RT_2280,
+			[1] = T.RT_2278,
+			[2] = T.RT_2286,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -73279,7 +73281,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011841] = {
 		["Operations"] = {
-			[1] = T.RT_2569,
+			[1] = T.RT_2575,
 		},
 		["bAllowClick"] = true,
 	},
@@ -73332,7 +73334,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011846] = {
 		["Operations"] = {
-			[1] = T.RT_2565,
+			[1] = T.RT_2571,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73364,7 +73366,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011849] = {
 		["Operations"] = {
-			[1] = T.RT_2280,
+			[1] = T.RT_2286,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73441,7 +73443,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2222,
+			[2] = T.RT_2228,
 		},
 		["bAllowClick"] = true,
 	},
@@ -73551,7 +73553,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1768,
-					[2] = T.RT_2220,
+					[2] = T.RT_2226,
 				},
 			},
 		},
@@ -73559,7 +73561,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011907] = {
 		["Operations"] = {
-			[1] = T.RT_2461,
+			[1] = T.RT_2467,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73571,7 +73573,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2563,
+					[1] = T.RT_2569,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
@@ -73594,7 +73596,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "110010:p(BP_EX01FixSimple12P)",
 				},
 			},
-			[2] = T.RT_2453,
+			[2] = T.RT_2459,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -73629,7 +73631,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2561,
+					[1] = T.RT_2567,
 				},
 			},
 		},
@@ -73639,7 +73641,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2561,
+					[1] = T.RT_2567,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-4.126953,-57.571289,122.111938,0.000078,2.796942,-148.23848,22.000011,424.359375,false,DoNotOverride,5.0",
@@ -73876,13 +73878,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011922] = {
 		["Operations"] = {
-			[1] = T.RT_2272,
+			[1] = T.RT_2278,
 		},
 		["bAllowClick"] = true,
 	},
 	[11011923] = {
 		["Operations"] = {
-			[1] = T.RT_2280,
+			[1] = T.RT_2286,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73923,7 +73925,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011937] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
+			[1] = T.RT_2282,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73944,7 +73946,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11011939] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
+			[1] = T.RT_2270,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -73982,7 +73984,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2284,
+					[1] = T.RT_2290,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 110010,
@@ -74017,14 +74019,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012202] = {
 		["Operations"] = {
-			[1] = T.RT_2453,
+			[1] = T.RT_2459,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012401] = {
 		["Operations"] = {
-			[1] = T.RT_2531,
-			[2] = T.RT_2559,
+			[1] = T.RT_2537,
+			[2] = T.RT_2565,
 			[3] = {
 				["PlayOrStopBGM"] = {
 					["EventPath"] = "event:/bgm/cbt02/0062_story_kajia_jazz",
@@ -74038,8 +74040,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012402] = {
 		["Operations"] = {
-			[1] = T.RT_2555,
-			[2] = T.RT_2559,
+			[1] = T.RT_2561,
+			[2] = T.RT_2565,
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1716,
@@ -74056,7 +74058,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012403] = {
 		["Operations"] = {
-			[1] = T.RT_2555,
+			[1] = T.RT_2561,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74085,7 +74087,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012405] = {
 		["Operations"] = {
-			[1] = T.RT_2509,
+			[1] = T.RT_2515,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "110015:n(110022)",
@@ -74113,7 +74115,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012406] = {
 		["Operations"] = {
-			[1] = T.RT_2525,
+			[1] = T.RT_2531,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74128,8 +74130,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012407] = {
 		["Operations"] = {
-			[1] = T.RT_2511,
-			[2] = T.RT_2491,
+			[1] = T.RT_2517,
+			[2] = T.RT_2497,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -74187,7 +74189,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012408] = {
 		["Operations"] = {
-			[1] = T.RT_2519,
+			[1] = T.RT_2525,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
@@ -74224,38 +74226,38 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012411] = {
 		["Operations"] = {
-			[1] = T.RT_2491,
-			[2] = T.RT_2547,
+			[1] = T.RT_2497,
+			[2] = T.RT_2553,
 		},
 		["bAllowClick"] = true,
 	},
-	[11012413] = T.RT_2553,
-	[11012415] = T.RT_2553,
+	[11012413] = T.RT_2559,
+	[11012415] = T.RT_2559,
 	[11012416] = {
 		["Operations"] = {
-			[1] = T.RT_2551,
+			[1] = T.RT_2557,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012418] = {
 		["Operations"] = {
-			[1] = T.RT_2511,
-			[2] = T.RT_2551,
-			[3] = T.RT_2547,
+			[1] = T.RT_2517,
+			[2] = T.RT_2557,
+			[3] = T.RT_2553,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012419] = {
 		["Operations"] = {
-			[1] = T.RT_2509,
-			[2] = T.RT_2511,
-			[3] = T.RT_2485,
+			[1] = T.RT_2515,
+			[2] = T.RT_2517,
+			[3] = T.RT_2491,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012420] = {
 		["Operations"] = {
-			[1] = T.RT_2491,
+			[1] = T.RT_2497,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74309,7 +74311,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012422] = {
 		["Operations"] = {
-			[1] = T.RT_2491,
+			[1] = T.RT_2497,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74337,7 +74339,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012423] = {
 		["Operations"] = {
-			[1] = T.RT_2485,
+			[1] = T.RT_2491,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74359,7 +74361,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012424] = {
 		["Operations"] = {
-			[1] = T.RT_2491,
+			[1] = T.RT_2497,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74406,12 +74408,12 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11012426] = T.RT_2541,
+	[11012426] = T.RT_2547,
 	[11012427] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2489,
+					[1] = T.RT_2495,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "26.81842,108.412109,140.937012,0.000127,-5.595858,-100.008484,15.610328,100000.0,false,Manual,22.0",
@@ -74425,7 +74427,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012428] = {
 		["Operations"] = {
-			[1] = T.RT_2485,
+			[1] = T.RT_2491,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
@@ -74441,7 +74443,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11012429] = T.RT_2541,
+	[11012429] = T.RT_2547,
 	[11012430] = {
 		["Operations"] = {
 			[1] = {
@@ -74474,10 +74476,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11012431] = T.RT_2487,
+	[11012431] = T.RT_2493,
 	[11012432] = {
 		["Operations"] = {
-			[1] = T.RT_2491,
+			[1] = T.RT_2497,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74509,7 +74511,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11012433] = T.RT_2541,
+	[11012433] = T.RT_2547,
 	[11012434] = {
 		["Operations"] = {
 			[1] = {
@@ -74526,8 +74528,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012435] = {
 		["Operations"] = {
-			[1] = T.RT_2495,
-			[2] = T.RT_2505,
+			[1] = T.RT_2501,
+			[2] = T.RT_2511,
 		},
 		["bAllowClick"] = true,
 	},
@@ -74542,19 +74544,19 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2505,
+			[2] = T.RT_2511,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012437] = {
 		["Operations"] = {
-			[1] = T.RT_2535,
-			[2] = T.RT_2505,
+			[1] = T.RT_2541,
+			[2] = T.RT_2511,
 		},
 		["bAllowClick"] = true,
 	},
-	[11012438] = T.RT_2497,
-	[11012441] = T.RT_2513,
+	[11012438] = T.RT_2503,
+	[11012441] = T.RT_2519,
 	[11012442] = {
 		["Operations"] = {
 			[1] = {
@@ -74572,7 +74574,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2505,
+			[2] = T.RT_2511,
 		},
 		["bAllowClick"] = true,
 	},
@@ -74593,15 +74595,15 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2505,
+			[2] = T.RT_2511,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012446] = {
 		["Operations"] = {
-			[1] = T.RT_2511,
-			[2] = T.RT_2509,
-			[3] = T.RT_2535,
+			[1] = T.RT_2517,
+			[2] = T.RT_2515,
+			[3] = T.RT_2541,
 		},
 		["bAllowClick"] = true,
 	},
@@ -74616,14 +74618,14 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2505,
+			[2] = T.RT_2511,
 		},
 		["bAllowClick"] = true,
 	},
-	[11012448] = T.RT_2507,
+	[11012448] = T.RT_2513,
 	[11012451] = {
 		["Operations"] = {
-			[1] = T.RT_2511,
+			[1] = T.RT_2517,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74633,7 +74635,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2515,
+			[3] = T.RT_2521,
 		},
 		["bAllowClick"] = true,
 	},
@@ -74644,14 +74646,14 @@ return ReadOnly("DialogueScripts2Table", {
 					["TurnToDescription"] = "110015:n(110022)",
 				},
 			},
-			[2] = T.RT_2535,
+			[2] = T.RT_2541,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012453] = {
 		["Operations"] = {
-			[1] = T.RT_2525,
-			[2] = T.RT_2523,
+			[1] = T.RT_2531,
+			[2] = T.RT_2529,
 			[3] = {
 				["MoveTo"] = {
 					["ActorId"] = 110015,
@@ -74665,7 +74667,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012454] = {
 		["Operations"] = {
-			[1] = T.RT_2531,
+			[1] = T.RT_2537,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -74685,42 +74687,42 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "110015:n(110009)",
 				},
 			},
-			[2] = T.RT_2511,
-			[3] = T.RT_2491,
+			[2] = T.RT_2517,
+			[3] = T.RT_2497,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012456] = {
 		["Operations"] = {
-			[1] = T.RT_2509,
-			[2] = T.RT_2491,
+			[1] = T.RT_2515,
+			[2] = T.RT_2497,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012457] = {
 		["Operations"] = {
-			[1] = T.RT_2511,
-			[2] = T.RT_2529,
+			[1] = T.RT_2517,
+			[2] = T.RT_2535,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012458] = {
 		["Operations"] = {
-			[1] = T.RT_2529,
+			[1] = T.RT_2535,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012460] = {
 		["Operations"] = {
-			[1] = T.RT_2525,
-			[2] = T.RT_2523,
+			[1] = T.RT_2531,
+			[2] = T.RT_2529,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012461] = {
 		["Operations"] = {
-			[1] = T.RT_2511,
-			[2] = T.RT_2491,
+			[1] = T.RT_2517,
+			[2] = T.RT_2497,
 			[3] = {
 				["PARA"] = {
 					[1] = {
@@ -74735,7 +74737,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_2515,
+					[2] = T.RT_2521,
 				},
 			},
 		},
@@ -74752,19 +74754,19 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2216,
+			[2] = T.RT_2222,
 		},
 		["bAllowClick"] = true,
 	},
 	[11012464] = {
 		["Operations"] = {
-			[1] = T.RT_2461,
+			[1] = T.RT_2467,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "110009:n(110009)",
 				},
 			},
-			[3] = T.RT_2519,
+			[3] = T.RT_2525,
 		},
 		["bAllowClick"] = true,
 	},
@@ -74779,26 +74781,26 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2515,
+			[2] = T.RT_2521,
 		},
 		["bAllowClick"] = true,
 	},
-	[11012466] = T.RT_2513,
-	[11012501] = T.RT_2507,
-	[11012503] = T.RT_2507,
-	[11012504] = T.RT_2503,
-	[11012506] = T.RT_2507,
-	[11012507] = T.RT_2503,
+	[11012466] = T.RT_2519,
+	[11012501] = T.RT_2513,
+	[11012503] = T.RT_2513,
+	[11012504] = T.RT_2509,
+	[11012506] = T.RT_2513,
+	[11012507] = T.RT_2509,
 	[11012508] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2501,
-					[2] = T.RT_2411,
+					[1] = T.RT_2507,
+					[2] = T.RT_2417,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
-							[2] = T.RT_2499,
+							[2] = T.RT_2505,
 						},
 					},
 				},
@@ -74810,8 +74812,8 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2501,
-					[2] = T.RT_2411,
+					[1] = T.RT_2507,
+					[2] = T.RT_2417,
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_150,
@@ -74833,7 +74835,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_2499,
+					[2] = T.RT_2505,
 				},
 			},
 		},
@@ -74850,14 +74852,14 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11012607] = T.RT_2497,
+	[11012607] = T.RT_2503,
 	[11012608] = {
 		["Operations"] = {
-			[1] = T.RT_2491,
+			[1] = T.RT_2497,
 		},
 		["bAllowClick"] = true,
 	},
-	[11012609] = T.RT_2487,
+	[11012609] = T.RT_2493,
 	[11012701] = {
 		["Operations"] = {
 			[1] = {
@@ -74897,8 +74899,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012702] = {
 		["Operations"] = {
-			[1] = T.RT_2479,
-			[2] = T.RT_2473,
+			[1] = T.RT_2485,
+			[2] = T.RT_2479,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -75003,7 +75005,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2477,
+							[1] = T.RT_2483,
 							[2] = {
 								["LookAt"] = {
 									["LookAtDescription"] = "110010:n(110010)",
@@ -75054,7 +75056,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012708] = {
 		["Operations"] = {
-			[1] = T.RT_2282,
+			[1] = T.RT_2288,
 			[2] = {
 				["TurnTo"] = {
 					["TurnToDescription"] = "110015:n(110010)",
@@ -75080,7 +75082,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012709] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
+			[1] = T.RT_2270,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75101,7 +75103,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012710] = {
 		["Operations"] = {
-			[1] = T.RT_2481,
+			[1] = T.RT_2487,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75163,8 +75165,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012712] = {
 		["Operations"] = {
-			[1] = T.RT_2479,
-			[2] = T.RT_2473,
+			[1] = T.RT_2485,
+			[2] = T.RT_2479,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -75265,12 +75267,12 @@ return ReadOnly("DialogueScripts2Table", {
 					[3] = {
 						["SEQ"] = {
 							[1] = T.RT_1768,
-							[2] = T.RT_2471,
+							[2] = T.RT_2477,
 						},
 					},
 					[4] = {
 						["SEQ"] = {
-							[1] = T.RT_2477,
+							[1] = T.RT_2483,
 							[2] = {
 								["LookAt"] = {
 									["LookAtDescription"] = "110010:n(110020)",
@@ -75283,7 +75285,7 @@ return ReadOnly("DialogueScripts2Table", {
 						["SEQ"] = {
 							[1] = {
 								["SEQ"] = {
-									[1] = T.RT_2477,
+									[1] = T.RT_2483,
 									[2] = {
 										["CameraMoveTo"] = {
 											["TargetPosition"] = "68.149689,606.824707,269.340637,0.000024,-22.399134,-92.588158,25.000002,847.801208,false,DoNotOverride,2.8",
@@ -75307,8 +75309,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012716] = {
 		["Operations"] = {
-			[1] = T.RT_2290,
-			[2] = T.RT_2288,
+			[1] = T.RT_2296,
+			[2] = T.RT_2294,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -75389,7 +75391,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012719] = {
 		["Operations"] = {
-			[1] = T.RT_2270,
+			[1] = T.RT_2276,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75438,7 +75440,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["duration"] = 2,
 						},
 					},
-					[2] = T.RT_2276,
+					[2] = T.RT_2282,
 				},
 			},
 		},
@@ -75460,7 +75462,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012722] = {
 		["Operations"] = {
-			[1] = T.RT_2475,
+			[1] = T.RT_2481,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75475,7 +75477,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012723] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
+			[1] = T.RT_2270,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75490,7 +75492,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012724] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75555,7 +75557,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "110010:n(110009)",
 				},
 			},
-			[2] = T.RT_2473,
+			[2] = T.RT_2479,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -75632,7 +75634,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2425,
+					[1] = T.RT_2431,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-17.339386,56.376953,117.153992,0.000212,-6.797513,-111.697014,30.0,162.966705,false,Manual,2.8",
@@ -75660,7 +75662,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012732] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75680,7 +75682,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012801] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75701,7 +75703,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012802] = {
 		["Operations"] = {
-			[1] = T.RT_2453,
+			[1] = T.RT_2459,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75719,7 +75721,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2449,
+					[1] = T.RT_2455,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 110010,
@@ -75814,7 +75816,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012811] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
+			[1] = T.RT_2282,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75829,8 +75831,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012812] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
-			[2] = T.RT_2453,
+			[1] = T.RT_2280,
+			[2] = T.RT_2459,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -75870,7 +75872,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2471,
+					[1] = T.RT_2477,
 					[2] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 110010,
@@ -75903,7 +75905,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_2415,
+					[2] = T.RT_2421,
 				},
 			},
 		},
@@ -75911,7 +75913,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012816] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
+			[1] = T.RT_2270,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75953,7 +75955,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[3] = T.RT_2415,
+					[3] = T.RT_2421,
 				},
 			},
 		},
@@ -75961,7 +75963,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012817] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -75980,7 +75982,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_2469,
+					[2] = T.RT_2475,
 				},
 			},
 		},
@@ -76104,7 +76106,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[3] = T.RT_2469,
+					[3] = T.RT_2475,
 				},
 			},
 		},
@@ -76198,7 +76200,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012825] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
+			[1] = T.RT_2270,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -76213,7 +76215,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012827] = {
 		["Operations"] = {
-			[1] = T.RT_2467,
+			[1] = T.RT_2473,
 		},
 		["bAllowClick"] = true,
 	},
@@ -76261,7 +76263,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012831] = {
 		["Operations"] = {
-			[1] = T.RT_2467,
+			[1] = T.RT_2473,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1582,
@@ -76363,8 +76365,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012904] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
-			[2] = T.RT_2461,
+			[1] = T.RT_2270,
+			[2] = T.RT_2467,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -76385,9 +76387,9 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012905] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
-			[2] = T.RT_2453,
-			[3] = T.RT_2270,
+			[1] = T.RT_2280,
+			[2] = T.RT_2459,
+			[3] = T.RT_2276,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -76406,7 +76408,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11012906] = T.RT_2459,
+	[11012906] = T.RT_2465,
 	[11012908] = {
 		["Operations"] = {
 			[1] = {
@@ -76421,8 +76423,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11012909] = T.RT_2459,
-	[11012911] = T.RT_2459,
+	[11012909] = T.RT_2465,
+	[11012911] = T.RT_2465,
 	[11012912] = {
 		["Operations"] = {
 			[1] = {
@@ -76439,8 +76441,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11012913] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
-			[2] = T.RT_2453,
+			[1] = T.RT_2280,
+			[2] = T.RT_2459,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -76473,10 +76475,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11013001] = T.RT_2451,
-	[11013009] = T.RT_2350,
-	[11013101] = T.RT_2451,
-	[11013103] = T.RT_2350,
+	[11013001] = T.RT_2457,
+	[11013009] = T.RT_2356,
+	[11013101] = T.RT_2457,
+	[11013103] = T.RT_2356,
 	[11013401] = {
 		["Operations"] = {
 			[1] = {
@@ -76568,7 +76570,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_2449,
+					[2] = T.RT_2455,
 				},
 			},
 		},
@@ -76612,7 +76614,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_2286,
+							[2] = T.RT_2292,
 						},
 					},
 					[3] = {
@@ -76628,7 +76630,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[4] = {
 						["SEQ"] = {
 							[1] = T.RT_1582,
-							[2] = T.RT_2222,
+							[2] = T.RT_2228,
 						},
 					},
 				},
@@ -76640,7 +76642,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2447,
+					[1] = T.RT_2453,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "934.254883,-119.332031,634.576416,0.000083,-29.598288,-161.188431,23.655027,683.847168,false,Manual,22.0",
@@ -76664,13 +76666,13 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2445,
+					[1] = T.RT_2451,
 				},
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[11013409] = T.RT_2443,
+	[11013409] = T.RT_2449,
 	[11013410] = {
 		["Operations"] = {
 			[1] = {
@@ -76803,7 +76805,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2445,
+					[1] = T.RT_2451,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-154.664856,-83.53125,23.702881,-0.000793,-13.794673,56.384769,20.649015,100000.0,false,Manual,22.0",
@@ -76820,7 +76822,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2445,
+					[1] = T.RT_2451,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-166.330322,-343.621094,34.087646,0.000213,-15.202054,69.195915,43.030418,100000.0,false,Manual,22.0",
@@ -76832,7 +76834,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11013422] = T.RT_2443,
+	[11013422] = T.RT_2449,
 	[11013501] = {
 		["Operations"] = {
 			[1] = {
@@ -76936,7 +76938,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013604] = {
 		["Operations"] = {
-			[1] = T.RT_2256,
+			[1] = T.RT_2262,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -77058,7 +77060,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013608] = {
 		["Operations"] = {
-			[1] = T.RT_2256,
+			[1] = T.RT_2262,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -77101,7 +77103,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013609] = {
 		["Operations"] = {
-			[1] = T.RT_2423,
+			[1] = T.RT_2429,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -77207,8 +77209,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013612] = {
 		["Operations"] = {
-			[1] = T.RT_2423,
-			[2] = T.RT_2421,
+			[1] = T.RT_2429,
+			[2] = T.RT_2427,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -77250,7 +77252,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013613] = {
 		["Operations"] = {
-			[1] = T.RT_2256,
+			[1] = T.RT_2262,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -77269,7 +77271,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[3] = {
 				["SEQ"] = {
 					[1] = T.RT_1604,
-					[2] = T.RT_2423,
+					[2] = T.RT_2429,
 				},
 			},
 		},
@@ -77301,7 +77303,7 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2425,
+							[1] = T.RT_2431,
 							[2] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 110011,
@@ -77385,7 +77387,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2415,
+							[2] = T.RT_2421,
 						},
 					},
 					[2] = {
@@ -77479,7 +77481,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 					[2] = {
 						["PARA"] = {
-							[1] = T.RT_2256,
+							[1] = T.RT_2262,
 							[2] = {
 								["TurnTo"] = {
 									["TurnToDescription"] = "110011:n(110010)",
@@ -77535,7 +77537,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013620] = {
 		["Operations"] = {
-			[1] = T.RT_2423,
+			[1] = T.RT_2429,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -77579,7 +77581,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013621] = {
 		["Operations"] = {
-			[1] = T.RT_2256,
+			[1] = T.RT_2262,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -77643,7 +77645,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013623] = {
 		["Operations"] = {
-			[1] = T.RT_2423,
+			[1] = T.RT_2429,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -77692,15 +77694,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11013624] = {
 		["Operations"] = {
-			[1] = T.RT_2256,
-			[2] = T.RT_2421,
-			[3] = T.RT_2419,
+			[1] = T.RT_2262,
+			[2] = T.RT_2427,
+			[3] = T.RT_2425,
 		},
 		["bAllowClick"] = true,
 	},
 	[11013625] = {
 		["Operations"] = {
-			[1] = T.RT_2419,
+			[1] = T.RT_2425,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
@@ -77819,7 +77821,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_1584,
-					[2] = T.RT_2415,
+					[2] = T.RT_2421,
 				},
 			},
 		},
@@ -78053,14 +78055,14 @@ return ReadOnly("DialogueScripts2Table", {
 	[11013705] = {
 		["Operations"] = {
 			[1] = {
-				["StopNormalSound"] = T.RT_2215,
+				["StopNormalSound"] = T.RT_2221,
 			},
 		},
 		["bAllowClick"] = true,
 	},
-	[11013801] = T.RT_2413,
-	[11013802] = T.RT_2413,
-	[11013803] = T.RT_2413,
+	[11013801] = T.RT_2419,
+	[11013802] = T.RT_2419,
+	[11013803] = T.RT_2419,
 	[11014002] = {
 		["Operations"] = {
 			[1] = {
@@ -78091,7 +78093,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014004] = {
 		["Operations"] = {
-			[1] = T.RT_2409,
+			[1] = T.RT_2415,
 		},
 		["bAllowClick"] = true,
 	},
@@ -78112,7 +78114,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2222,
+			[2] = T.RT_2228,
 		},
 		["bAllowClick"] = true,
 	},
@@ -78132,15 +78134,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014007] = {
 		["Operations"] = {
-			[1] = T.RT_2409,
-			[2] = T.RT_2220,
+			[1] = T.RT_2415,
+			[2] = T.RT_2226,
 		},
 		["bAllowClick"] = true,
 	},
 	[11014201] = {
 		["Operations"] = {
-			[1] = T.RT_2316,
-			[2] = T.RT_2314,
+			[1] = T.RT_2322,
+			[2] = T.RT_2320,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -78177,13 +78179,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014203] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2405,
+			[1] = T.RT_2320,
+			[2] = T.RT_2411,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2403,
+							[1] = T.RT_2409,
 							[2] = {
 								["CameraMoveTo"] = {
 									["TargetPosition"] = "206.345123,-107.446289,138.676086,0.000058,-2.999758,97.207954,35.0,199.606888,false,Manual,5.720088",
@@ -78195,7 +78197,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_1366,
-							[2] = T.RT_2322,
+							[2] = T.RT_2328,
 						},
 					},
 				},
@@ -78233,7 +78235,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2401,
+					[1] = T.RT_2407,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
@@ -78272,7 +78274,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014207] = {
 		["Operations"] = {
-			[1] = T.RT_2397,
+			[1] = T.RT_2403,
 			[2] = {
 				["PARA"] = {
 					[1] = {
@@ -78372,7 +78374,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014209] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
+			[1] = T.RT_2320,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -78402,13 +78404,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2401,
+			[2] = T.RT_2407,
 		},
 		["bAllowClick"] = true,
 	},
 	[11014301] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
+			[1] = T.RT_2320,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -78437,7 +78439,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014303] = {
 		["Operations"] = {
-			[1] = T.RT_2397,
+			[1] = T.RT_2403,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -78472,14 +78474,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014304] = {
 		["Operations"] = {
-			[1] = T.RT_2395,
+			[1] = T.RT_2401,
 		},
 		["bAllowClick"] = true,
 	},
 	[11014305] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2395,
+			[1] = T.RT_2320,
+			[2] = T.RT_2401,
 			[3] = {
 				["PARA"] = {
 					[1] = {
@@ -78506,7 +78508,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_790,
-							[2] = T.RT_2391,
+							[2] = T.RT_2397,
 						},
 					},
 				},
@@ -78516,7 +78518,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014401] = {
 		["Operations"] = {
-			[1] = T.RT_2316,
+			[1] = T.RT_2322,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -78573,8 +78575,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2389,
-					[2] = T.RT_2387,
+					[1] = T.RT_2395,
+					[2] = T.RT_2393,
 				},
 			},
 		},
@@ -78609,26 +78611,26 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2387,
+							[2] = T.RT_2393,
 						},
 					},
-					[3] = T.RT_2389,
+					[3] = T.RT_2395,
 					[4] = {
 						["LookAt"] = {
 							["LookAtDescription"] = "110005:p(P11014403)",
 						},
 					},
-					[5] = T.RT_2385,
+					[5] = T.RT_2391,
 					[6] = {
 						["SEQ"] = {
 							[1] = T.RT_1768,
-							[2] = T.RT_2387,
+							[2] = T.RT_2393,
 						},
 					},
 					[7] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2314,
+							[2] = T.RT_2320,
 						},
 					},
 				},
@@ -78652,7 +78654,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2334,
+							[2] = T.RT_2340,
 						},
 					},
 					[2] = {
@@ -78687,13 +78689,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2385,
+			[3] = T.RT_2391,
 		},
 		["bAllowClick"] = true,
 	},
 	[11014408] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
+			[1] = T.RT_2320,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -78732,7 +78734,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11014411] = T.RT_2338,
+	[11014411] = T.RT_2344,
 	[11014418] = {
 		["Operations"] = {
 			[1] = {
@@ -78809,7 +78811,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_2383,
+					[2] = T.RT_2389,
 				},
 			},
 		},
@@ -78817,11 +78819,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014423] = {
 		["Operations"] = {
-			[1] = T.RT_2379,
+			[1] = T.RT_2385,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_150,
-					[2] = T.RT_2381,
+					[2] = T.RT_2387,
 				},
 			},
 		},
@@ -78829,14 +78831,14 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014425] = {
 		["Operations"] = {
-			[1] = T.RT_2375,
+			[1] = T.RT_2381,
 		},
 		["bAllowClick"] = true,
 	},
 	[11014426] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2379,
+			[1] = T.RT_2320,
+			[2] = T.RT_2385,
 		},
 		["bAllowClick"] = true,
 	},
@@ -78856,7 +78858,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014428] = {
 		["Operations"] = {
-			[1] = T.RT_2375,
+			[1] = T.RT_2381,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
@@ -78912,7 +78914,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11014432] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
+			[1] = T.RT_2320,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -78927,8 +78929,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11015101] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -78984,17 +78986,17 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2371,
+			[2] = T.RT_2377,
 		},
 		["bAllowClick"] = true,
 	},
 	[11015106] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2367,
+					[1] = T.RT_2373,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "23.103516,-82.726669,163.175507,0.000116,-8.599856,25.63818,35.0,100000.0,false,Manual,22.0",
@@ -79008,11 +79010,11 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11015108] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2367,
+					[1] = T.RT_2373,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "23.103516,-82.726669,163.175507,0.000116,-8.599856,25.63818,35.0,100000.0,false,Manual,22.0",
@@ -79026,8 +79028,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11015111] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -79157,8 +79159,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11015123] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -79261,7 +79263,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2365,
+					[1] = T.RT_2371,
 				},
 			},
 		},
@@ -79271,7 +79273,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2365,
+					[1] = T.RT_2371,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "54.34375,-11.712122,143.421494,0.000139,-0.282503,0.470605,35.0,100000.0,false,Manual,22.0",
@@ -79420,7 +79422,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11015141] = T.RT_2363,
+	[11015141] = T.RT_2369,
 	[11015142] = {
 		["Operations"] = {
 			[1] = {
@@ -79435,12 +79437,12 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11015143] = T.RT_2363,
+	[11015143] = T.RT_2369,
 	[11015145] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2359,
+					[1] = T.RT_2365,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "48.234375,29.943214,125.579117,0.000142,6.717955,-19.329165,35.0,100000.0,false,Manual,22.0",
@@ -79452,7 +79454,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11015146] = T.RT_2338,
+	[11015146] = T.RT_2344,
 	[11015148] = {
 		["Operations"] = {
 			[1] = {
@@ -79473,7 +79475,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11015150] = T.RT_2338,
+	[11015150] = T.RT_2344,
 	[11015151] = {
 		["Operations"] = {
 			[1] = {
@@ -79693,8 +79695,8 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_2357,
-					[3] = T.RT_2340,
+					[2] = T.RT_2363,
+					[3] = T.RT_2346,
 				},
 			},
 		},
@@ -79890,7 +79892,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11015317] = {
 		["Operations"] = {
-			[1] = T.RT_2304,
+			[1] = T.RT_2310,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -80107,7 +80109,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["TurnToDescription"] = "0:n(110010)",
 				},
 			},
-			[3] = T.RT_2355,
+			[3] = T.RT_2361,
 		},
 		["bAllowClick"] = true,
 	},
@@ -80138,7 +80140,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["TurnToDescription"] = "0:n(110005)",
 				},
 			},
-			[3] = T.RT_2355,
+			[3] = T.RT_2361,
 		},
 		["bAllowClick"] = true,
 	},
@@ -80168,20 +80170,20 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2351,
+			[2] = T.RT_2357,
 		},
 		["bAllowClick"] = true,
 	},
-	[11016006] = T.RT_2350,
-	[11016101] = T.RT_2250,
-	[11016102] = T.RT_2346,
-	[11016201] = T.RT_2250,
-	[11016202] = T.RT_2346,
-	[11016203] = T.RT_2244,
-	[11016204] = T.RT_2238,
+	[11016006] = T.RT_2356,
+	[11016101] = T.RT_2256,
+	[11016102] = T.RT_2352,
+	[11016201] = T.RT_2256,
+	[11016202] = T.RT_2352,
+	[11016203] = T.RT_2250,
+	[11016204] = T.RT_2244,
 	[11016501] = {
 		["Operations"] = {
-			[1] = T.RT_2302,
+			[1] = T.RT_2308,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -80199,8 +80201,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[3] = {
 				["PARA"] = {
-					[1] = T.RT_2340,
-					[2] = T.RT_2308,
+					[1] = T.RT_2346,
+					[2] = T.RT_2314,
 				},
 			},
 		},
@@ -80208,7 +80210,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016502] = {
 		["Operations"] = {
-			[1] = T.RT_2304,
+			[1] = T.RT_2310,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -80238,7 +80240,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2312,
+			[2] = T.RT_2318,
 		},
 		["bAllowClick"] = true,
 	},
@@ -80246,7 +80248,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2336,
+					[1] = T.RT_2342,
 				},
 			},
 		},
@@ -80304,21 +80306,21 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11016602] = T.RT_2338,
-	[11016604] = T.RT_2338,
-	[11016605] = T.RT_2338,
-	[11016607] = T.RT_2338,
-	[11016610] = T.RT_2338,
-	[11016611] = T.RT_2338,
-	[11016613] = T.RT_2338,
-	[11016617] = T.RT_2338,
-	[11016619] = T.RT_2338,
-	[11016621] = T.RT_2338,
+	[11016602] = T.RT_2344,
+	[11016604] = T.RT_2344,
+	[11016605] = T.RT_2344,
+	[11016607] = T.RT_2344,
+	[11016610] = T.RT_2344,
+	[11016611] = T.RT_2344,
+	[11016613] = T.RT_2344,
+	[11016617] = T.RT_2344,
+	[11016619] = T.RT_2344,
+	[11016621] = T.RT_2344,
 	[11016701] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2336,
+					[1] = T.RT_2342,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-3.560547,-173.319336,128.433594,0.001531,-4.805598,92.405151,36.903526,100000.0,false,Manual,22.0",
@@ -80327,7 +80329,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2308,
+			[2] = T.RT_2314,
 		},
 		["bAllowClick"] = true,
 	},
@@ -80506,8 +80508,8 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "110021:n(110022)",
 				},
 			},
-			[2] = T.RT_2320,
-			[3] = T.RT_2314,
+			[2] = T.RT_2326,
+			[3] = T.RT_2320,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -80535,7 +80537,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[3] = T.RT_2312,
+					[3] = T.RT_2318,
 				},
 			},
 		},
@@ -80543,7 +80545,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016802] = {
 		["Operations"] = {
-			[1] = T.RT_2318,
+			[1] = T.RT_2324,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -80568,7 +80570,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2310,
+					[2] = T.RT_2316,
 				},
 			},
 		},
@@ -80596,15 +80598,15 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016805] = {
 		["Operations"] = {
-			[1] = T.RT_2316,
-			[2] = T.RT_2326,
+			[1] = T.RT_2322,
+			[2] = T.RT_2332,
 		},
 		["bAllowClick"] = true,
 	},
 	[11016806] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2322,
+			[1] = T.RT_2320,
+			[2] = T.RT_2328,
 		},
 		["bAllowClick"] = true,
 	},
@@ -80660,8 +80662,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016811] = {
 		["Operations"] = {
-			[1] = T.RT_2314,
-			[2] = T.RT_2316,
+			[1] = T.RT_2320,
+			[2] = T.RT_2322,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -80676,10 +80678,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2334,
+							[2] = T.RT_2340,
 						},
 					},
-					[2] = T.RT_2326,
+					[2] = T.RT_2332,
 				},
 			},
 		},
@@ -80734,10 +80736,10 @@ return ReadOnly("DialogueScripts2Table", {
 							[1] = {
 								["SEQ"] = {
 									[1] = T.RT_462,
-									[2] = T.RT_2324,
+									[2] = T.RT_2330,
 								},
 							},
-							[2] = T.RT_2322,
+							[2] = T.RT_2328,
 						},
 					},
 				},
@@ -80819,8 +80821,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11016819] = T.RT_2332,
-	[11016820] = T.RT_2332,
+	[11016819] = T.RT_2338,
+	[11016820] = T.RT_2338,
 	[11016821] = {
 		["Operations"] = {
 			[1] = {
@@ -80851,7 +80853,7 @@ return ReadOnly("DialogueScripts2Table", {
 							},
 						},
 					},
-					[2] = T.RT_2326,
+					[2] = T.RT_2332,
 				},
 			},
 		},
@@ -80904,8 +80906,8 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["PARA"] = {
-					[1] = T.RT_2312,
-					[2] = T.RT_2310,
+					[1] = T.RT_2318,
+					[2] = T.RT_2316,
 				},
 			},
 		},
@@ -80922,7 +80924,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2326,
+			[2] = T.RT_2332,
 		},
 		["bAllowClick"] = true,
 	},
@@ -80968,10 +80970,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_2324,
+							[2] = T.RT_2330,
 						},
 					},
-					[2] = T.RT_2322,
+					[2] = T.RT_2328,
 				},
 			},
 		},
@@ -81007,8 +81009,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016830] = {
 		["Operations"] = {
-			[1] = T.RT_2320,
-			[2] = T.RT_2318,
+			[1] = T.RT_2326,
+			[2] = T.RT_2324,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -81042,7 +81044,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016833] = {
 		["Operations"] = {
-			[1] = T.RT_2316,
+			[1] = T.RT_2322,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -81057,7 +81059,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1584,
-							[2] = T.RT_2314,
+							[2] = T.RT_2320,
 						},
 					},
 				},
@@ -81086,19 +81088,19 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2312,
-					[3] = T.RT_2310,
-					[4] = T.RT_2308,
+					[2] = T.RT_2318,
+					[3] = T.RT_2316,
+					[4] = T.RT_2314,
 					[5] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2306,
+							[2] = T.RT_2312,
 						},
 					},
 					[6] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2300,
+							[2] = T.RT_2306,
 						},
 					},
 				},
@@ -81139,8 +81141,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016903] = {
 		["Operations"] = {
-			[1] = T.RT_2306,
-			[2] = T.RT_2304,
+			[1] = T.RT_2312,
+			[2] = T.RT_2310,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -81282,7 +81284,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016907] = {
 		["Operations"] = {
-			[1] = T.RT_2302,
+			[1] = T.RT_2308,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -81342,7 +81344,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11016909] = {
 		["Operations"] = {
-			[1] = T.RT_2300,
+			[1] = T.RT_2306,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -81386,8 +81388,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11017101] = {
 		["Operations"] = {
-			[1] = T.RT_2230,
-			[2] = T.RT_2232,
+			[1] = T.RT_2236,
+			[2] = T.RT_2238,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -81409,7 +81411,7 @@ return ReadOnly("DialogueScripts2Table", {
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_146,
-							[2] = T.RT_2228,
+							[2] = T.RT_2234,
 						},
 					},
 					[3] = {
@@ -81418,7 +81420,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["duration"] = 0,
 						},
 					},
-					[4] = T.RT_2298,
+					[4] = T.RT_2304,
 					[5] = {
 						["PlayAnimation"] = {
 							["ActorId"] = 110018,
@@ -81433,8 +81435,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11017102] = {
 		["Operations"] = {
-			[1] = T.RT_2298,
-			[2] = T.RT_2232,
+			[1] = T.RT_2304,
+			[2] = T.RT_2238,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -81513,7 +81515,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11017105] = {
 		["Operations"] = {
-			[1] = T.RT_2296,
+			[1] = T.RT_2302,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -81568,7 +81570,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11017108] = {
 		["Operations"] = {
-			[1] = T.RT_2296,
+			[1] = T.RT_2302,
 		},
 		["bAllowClick"] = true,
 	},
@@ -81730,7 +81732,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11017501] = T.RT_2292,
+	[11017501] = T.RT_2298,
 	[11017503] = {
 		["Operations"] = {
 			[1] = {
@@ -81747,8 +81749,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11017516] = {
 		["Operations"] = {
-			[1] = T.RT_2290,
-			[2] = T.RT_2288,
+			[1] = T.RT_2296,
+			[2] = T.RT_2294,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -81807,7 +81809,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
-					[2] = T.RT_2286,
+					[2] = T.RT_2292,
 				},
 			},
 		},
@@ -81830,7 +81832,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2222,
+			[2] = T.RT_2228,
 		},
 		["bAllowClick"] = true,
 	},
@@ -81865,17 +81867,17 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2284,
+			[2] = T.RT_2290,
 		},
 		["bAllowClick"] = true,
 	},
 	[11018001] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
-			[2] = T.RT_2266,
-			[3] = T.RT_2282,
-			[4] = T.RT_2278,
-			[5] = T.RT_2262,
+			[1] = T.RT_2282,
+			[2] = T.RT_2272,
+			[3] = T.RT_2288,
+			[4] = T.RT_2284,
+			[5] = T.RT_2268,
 			[6] = {
 				["PARA"] = {
 					[1] = {
@@ -81913,7 +81915,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018002] = {
 		["Operations"] = {
-			[1] = T.RT_2268,
+			[1] = T.RT_2274,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -81928,8 +81930,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018003] = {
 		["Operations"] = {
-			[1] = T.RT_2266,
-			[2] = T.RT_2272,
+			[1] = T.RT_2272,
+			[2] = T.RT_2278,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -81955,8 +81957,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018004] = {
 		["Operations"] = {
-			[1] = T.RT_2280,
-			[2] = T.RT_2278,
+			[1] = T.RT_2286,
+			[2] = T.RT_2284,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -81969,7 +81971,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_146,
-					[2] = T.RT_2272,
+					[2] = T.RT_2278,
 				},
 			},
 		},
@@ -81977,8 +81979,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018006] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
-			[2] = T.RT_2264,
+			[1] = T.RT_2282,
+			[2] = T.RT_2270,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -81993,7 +81995,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018007] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
+			[1] = T.RT_2280,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -82008,7 +82010,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018009] = {
 		["Operations"] = {
-			[1] = T.RT_2272,
+			[1] = T.RT_2278,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -82028,8 +82030,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018010] = {
 		["Operations"] = {
-			[1] = T.RT_2274,
-			[2] = T.RT_2272,
+			[1] = T.RT_2280,
+			[2] = T.RT_2278,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -82044,8 +82046,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018011] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
-			[2] = T.RT_2270,
+			[1] = T.RT_2270,
+			[2] = T.RT_2276,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -82060,13 +82062,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018012] = {
 		["Operations"] = {
-			[1] = T.RT_2268,
+			[1] = T.RT_2274,
 		},
 		["bAllowClick"] = true,
 	},
 	[11018013] = {
 		["Operations"] = {
-			[1] = T.RT_2266,
+			[1] = T.RT_2272,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -82081,7 +82083,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018014] = {
 		["Operations"] = {
-			[1] = T.RT_2264,
+			[1] = T.RT_2270,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -82096,7 +82098,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018015] = {
 		["Operations"] = {
-			[1] = T.RT_2262,
+			[1] = T.RT_2268,
 		},
 		["bAllowClick"] = true,
 	},
@@ -82147,10 +82149,10 @@ return ReadOnly("DialogueScripts2Table", {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1582,
-							[2] = T.RT_2258,
+							[2] = T.RT_2264,
 						},
 					},
-					[2] = T.RT_2222,
+					[2] = T.RT_2228,
 				},
 			},
 		},
@@ -82163,7 +82165,7 @@ return ReadOnly("DialogueScripts2Table", {
 					["LookAtDescription"] = "110010:n(110011)",
 				},
 			},
-			[2] = T.RT_2256,
+			[2] = T.RT_2262,
 			[3] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "110012:n(110010)",
@@ -82237,7 +82239,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2254,
+					[1] = T.RT_2260,
 				},
 			},
 		},
@@ -82247,7 +82249,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2254,
+					[1] = T.RT_2260,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "-27.532495,36.781734,125.492981,0.000016,5.199693,15.214883,50.0,100000.0,false,DoNotOverride,2.8",
@@ -82275,7 +82277,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11018909] = {
 		["Operations"] = {
-			[1] = T.RT_2252,
+			[1] = T.RT_2258,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -82314,10 +82316,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11019017] = T.RT_2244,
-	[11019026] = T.RT_2250,
-	[11019027] = T.RT_2244,
-	[11019028] = T.RT_2238,
+	[11019017] = T.RT_2250,
+	[11019026] = T.RT_2256,
+	[11019027] = T.RT_2250,
+	[11019028] = T.RT_2244,
 	[11019102] = {
 		["Operations"] = {
 			[1] = {
@@ -82340,7 +82342,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11019109] = {
 		["Operations"] = {
-			[1] = T.RT_2230,
+			[1] = T.RT_2236,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "110022:p(BP_FixSimple2902)",
@@ -82385,7 +82387,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11019110] = {
 		["Operations"] = {
-			[1] = T.RT_2232,
+			[1] = T.RT_2238,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -82400,7 +82402,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11019111] = {
 		["Operations"] = {
-			[1] = T.RT_2230,
+			[1] = T.RT_2236,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -82429,7 +82431,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11019113] = {
 		["Operations"] = {
-			[1] = T.RT_2228,
+			[1] = T.RT_2234,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -82458,13 +82460,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[11019116] = {
 		["Operations"] = {
-			[1] = T.RT_2226,
+			[1] = T.RT_2232,
 		},
 		["bAllowClick"] = true,
 	},
 	[11019119] = {
 		["Operations"] = {
-			[1] = T.RT_2226,
+			[1] = T.RT_2232,
 			[2] = {
 				["SEQ"] = {
 					[1] = T.RT_140,
@@ -82518,16 +82520,16 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11019301] = T.RT_2218,
+	[11019301] = T.RT_2224,
 	[11019302] = {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2222,
+					[1] = T.RT_2228,
 					[2] = {
 						["SEQ"] = {
 							[1] = T.RT_462,
-							[2] = T.RT_2220,
+							[2] = T.RT_2226,
 						},
 					},
 				},
@@ -82535,7 +82537,7 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[11019304] = T.RT_2218,
+	[11019304] = T.RT_2224,
 	[11019305] = {
 		["Operations"] = {
 			[1] = {
@@ -82814,17 +82816,17 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[2] = T.RT_2208,
+			[2] = T.RT_2214,
 		},
 		["bAllowClick"] = true,
 	},
 	[12000406] = {
 		["Operations"] = {
-			[1] = T.RT_2214,
+			[1] = T.RT_2220,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2206,
-					[2] = T.RT_2200,
+					[1] = T.RT_2212,
+					[2] = T.RT_2206,
 					[3] = T.RT_2112,
 				},
 			},
@@ -82833,18 +82835,18 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12000407] = {
 		["Operations"] = {
-			[1] = T.RT_2196,
-			[2] = T.RT_2204,
+			[1] = T.RT_2202,
+			[2] = T.RT_2210,
 		},
 		["bAllowClick"] = true,
 	},
 	[12000408] = {
 		["Operations"] = {
-			[1] = T.RT_2214,
+			[1] = T.RT_2220,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2208,
-					[2] = T.RT_2206,
+					[1] = T.RT_2214,
+					[2] = T.RT_2212,
 				},
 			},
 		},
@@ -82852,18 +82854,18 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12000409] = {
 		["Operations"] = {
-			[1] = T.RT_2204,
+			[1] = T.RT_2210,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
 						["SEQ"] = {
 							[1] = T.RT_1694,
-							[2] = T.RT_2200,
+							[2] = T.RT_2206,
 						},
 					},
 					[2] = {
 						["SEQ"] = {
-							[1] = T.RT_2198,
+							[1] = T.RT_2204,
 							[2] = T.RT_2112,
 						},
 					},
@@ -82900,7 +82902,7 @@ return ReadOnly("DialogueScripts2Table", {
 							["Visibility"] = "Show",
 						},
 					},
-					[2] = T.RT_2196,
+					[2] = T.RT_2202,
 				},
 			},
 		},
@@ -83086,8 +83088,8 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[12000422] = T.RT_2194,
-	[12000423] = T.RT_2194,
+	[12000422] = T.RT_2200,
+	[12000423] = T.RT_2200,
 	[12000424] = {
 		["Operations"] = {
 			[1] = T.RT_1878,
@@ -83125,7 +83127,7 @@ return ReadOnly("DialogueScripts2Table", {
 		["bAllowClick"] = true,
 	},
 	[12000426] = T.RT_1880,
-	[12000427] = T.RT_2194,
+	[12000427] = T.RT_2200,
 	[12000428] = {
 		["Operations"] = {
 			[1] = T.RT_2118,
@@ -83225,17 +83227,17 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12000506] = T.RT_2066,
 	[12000507] = T.RT_2066,
-	[12000601] = T.RT_2192,
-	[12000602] = T.RT_2188,
-	[12000603] = T.RT_2192,
-	[12000604] = T.RT_2188,
-	[12000605] = T.RT_2184,
-	[12000606] = T.RT_2184,
-	[12000607] = T.RT_2180,
-	[12000608] = T.RT_2180,
+	[12000601] = T.RT_2198,
+	[12000602] = T.RT_2194,
+	[12000603] = T.RT_2198,
+	[12000604] = T.RT_2194,
+	[12000605] = T.RT_2190,
+	[12000606] = T.RT_2190,
+	[12000607] = T.RT_2186,
+	[12000608] = T.RT_2186,
 	[12000701] = {
 		["Operations"] = {
-			[1] = T.RT_2168,
+			[1] = T.RT_2174,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -83250,7 +83252,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12000703] = {
 		["Operations"] = {
-			[1] = T.RT_2168,
+			[1] = T.RT_2174,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -83280,10 +83282,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12000705] = {
 		["Operations"] = {
-			[1] = T.RT_2168,
+			[1] = T.RT_2174,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2176,
+					[1] = T.RT_2182,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "31.853027,-102.077637,123.459961,0.000049,-5.800292,-71.991196,29.938459,93.942909,false,Manual,10.0",
@@ -83295,14 +83297,14 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[12000706] = T.RT_2174,
-	[12000707] = T.RT_2174,
+	[12000706] = T.RT_2180,
+	[12000707] = T.RT_2180,
 	[12000708] = {
 		["Operations"] = {
-			[1] = T.RT_2168,
+			[1] = T.RT_2174,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2176,
+					[1] = T.RT_2182,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "31.853027,-102.077637,123.459961,0.000049,-5.800292,-71.991196,29.938459,93.942909,false,Manual,10.0",
@@ -83314,10 +83316,10 @@ return ReadOnly("DialogueScripts2Table", {
 		},
 		["bAllowClick"] = true,
 	},
-	[12000709] = T.RT_2174,
+	[12000709] = T.RT_2180,
 	[12000710] = {
 		["Operations"] = {
-			[1] = T.RT_2168,
+			[1] = T.RT_2174,
 		},
 		["bAllowClick"] = true,
 	},
@@ -83397,8 +83399,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12000901] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
-			[2] = T.RT_2162,
+			[1] = T.RT_2158,
+			[2] = T.RT_2168,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -83434,10 +83436,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12000903] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2166,
+					[1] = T.RT_2172,
 				},
 			},
 		},
@@ -83447,10 +83449,10 @@ return ReadOnly("DialogueScripts2Table", {
 	[12000905] = T.RT_1880,
 	[12000906] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2166,
+					[1] = T.RT_2172,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "501.455078,-1026.973633,256.882812,0.000025,4.200006,-167.399048,35.0,180.0,false,Manual,10.0",
@@ -83464,7 +83466,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12000907] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -83480,10 +83482,10 @@ return ReadOnly("DialogueScripts2Table", {
 	[12001101] = T.RT_2066,
 	[12001102] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2164,
+					[1] = T.RT_2170,
 				},
 			},
 		},
@@ -83491,10 +83493,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001103] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2164,
+					[1] = T.RT_2170,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "491.400391,-1091.675781,278.34375,0.00003,-5.400234,171.997971,35.0,154.279373,false,Manual,10.0",
@@ -83542,8 +83544,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001108] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
-			[2] = T.RT_2162,
+			[1] = T.RT_2158,
+			[2] = T.RT_2168,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -83635,13 +83637,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001112] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "220010:n(220013)",
 				},
 			},
-			[3] = T.RT_2154,
+			[3] = T.RT_2160,
 			[4] = {
 				["SEQ"] = {
 					[1] = {
@@ -83656,8 +83658,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001113] = {
 		["Operations"] = {
-			[1] = T.RT_2158,
-			[2] = T.RT_2156,
+			[1] = T.RT_2164,
+			[2] = T.RT_2162,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -83672,7 +83674,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001114] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -83708,7 +83710,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001116] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -83791,10 +83793,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001121] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2160,
+					[1] = T.RT_2166,
 				},
 			},
 		},
@@ -83802,10 +83804,10 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001122] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2160,
+					[1] = T.RT_2166,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "368.636719,-1064.353516,267.574219,0.000237,1.200856,-178.396515,16.811571,94.200081,false,Manual,10.0",
@@ -83867,7 +83869,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[12001301] = T.RT_2074,
 	[12001302] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -83903,8 +83905,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001304] = {
 		["Operations"] = {
-			[1] = T.RT_2158,
-			[2] = T.RT_2156,
+			[1] = T.RT_2164,
+			[2] = T.RT_2162,
 			[3] = {
 				["SEQ"] = {
 					[1] = {
@@ -83923,7 +83925,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[4] = {
 				["SEQ"] = {
 					[1] = T.RT_462,
-					[2] = T.RT_2154,
+					[2] = T.RT_2160,
 				},
 			},
 		},
@@ -83931,8 +83933,8 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001305] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
-			[2] = T.RT_2150,
+			[1] = T.RT_2158,
+			[2] = T.RT_2156,
 		},
 		["bAllowClick"] = true,
 	},
@@ -83953,13 +83955,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001307] = {
 		["Operations"] = {
-			[1] = T.RT_2152,
+			[1] = T.RT_2158,
 			[2] = {
 				["LookAt"] = {
 					["LookAtDescription"] = "220010:n(210004)",
 				},
 			},
-			[3] = T.RT_2150,
+			[3] = T.RT_2156,
 		},
 		["bAllowClick"] = true,
 	},
@@ -84334,6 +84336,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
+			[3] = T.RT_2152,
 		},
 		["bAllowClick"] = true,
 	},
@@ -84355,6 +84358,13 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
+			[3] = {
+				["PlayOrStopBGM"] = {
+					["EventPath"] = "event:/bgm/cbt03/0069_boss_devil_linen",
+					["PlayType"] = "Play",
+					["SoundType"] = "SOUND_BGM",
+				},
+			},
 		},
 		["bAllowClick"] = true,
 	},
@@ -84364,7 +84374,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_1752,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2146,
+					[1] = T.RT_2148,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "81.28418,138.186523,102.804688,0.000151,3.598861,150.192871,35.0,110.0,false,Manual,10.0",
@@ -84416,9 +84426,14 @@ return ReadOnly("DialogueScripts2Table", {
 				},
 			},
 			[3] = {
-				["PlayNormalSound"] = {
-					["EventPath"] = "event:/sfx/common/story/east/intro_crowdcheer",
-					["PlayAs2D"] = true,
+				["SEQ"] = {
+					[1] = {
+						["PlayNormalSound"] = {
+							["EventPath"] = "event:/sfx/common/story/east/intro_crowdcheer",
+							["PlayAs2D"] = true,
+						},
+					},
+					[2] = T.RT_2150,
 				},
 			},
 		},
@@ -84432,7 +84447,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_2072,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2146,
+					[1] = T.RT_2148,
 				},
 			},
 		},
@@ -84443,7 +84458,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[12001337] = T.RT_2074,
 	[12001338] = {
 		["Operations"] = {
-			[1] = T.RT_2144,
+			[1] = T.RT_2146,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84497,7 +84512,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001340] = {
 		["Operations"] = {
-			[1] = T.RT_2144,
+			[1] = T.RT_2146,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84518,7 +84533,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001341] = {
 		["Operations"] = {
-			[1] = T.RT_2144,
+			[1] = T.RT_2146,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84581,7 +84596,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001344] = {
 		["Operations"] = {
-			[1] = T.RT_2144,
+			[1] = T.RT_2146,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84619,7 +84634,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[12001347] = T.RT_1880,
 	[12001348] = {
 		["Operations"] = {
-			[1] = T.RT_2134,
+			[1] = T.RT_2136,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84633,8 +84648,16 @@ return ReadOnly("DialogueScripts2Table", {
 				["PARA"] = {
 					[1] = {
 						["SEQ"] = {
-							[1] = T.RT_2138,
-							[2] = {
+							[1] = {
+								["PlayOrStopBGM"] = {
+									["EventPath"] = "event:/bgm/cbt02/0043_story_empire",
+									["PlayType"] = "Play",
+									["RelatedRegionId"] = "101901",
+									["SoundType"] = "SOUND_BGM",
+								},
+							},
+							[2] = T.RT_2140,
+							[3] = {
 								["MoveTo"] = {
 									["ActorId"] = 220018,
 									["MoveSpeed"] = 110,
@@ -84642,7 +84665,7 @@ return ReadOnly("DialogueScripts2Table", {
 									["Visibility"] = "Show",
 								},
 							},
-							[3] = {
+							[4] = {
 								["PlayAnimation"] = {
 									["ActorId"] = 220018,
 									["AnimationId"] = "Disagree",
@@ -84690,7 +84713,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001350] = {
 		["Operations"] = {
-			[1] = T.RT_2134,
+			[1] = T.RT_2136,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84746,7 +84769,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001353] = {
 		["Operations"] = {
-			[1] = T.RT_2134,
+			[1] = T.RT_2136,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84770,7 +84793,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[12001356] = T.RT_1880,
 	[12001357] = {
 		["Operations"] = {
-			[1] = T.RT_2144,
+			[1] = T.RT_2146,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84833,7 +84856,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001362] = {
 		["Operations"] = {
-			[1] = T.RT_2134,
+			[1] = T.RT_2136,
 		},
 		["bAllowClick"] = true,
 	},
@@ -84867,7 +84890,7 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[12001501] = {
 		["Operations"] = {
-			[1] = T.RT_2144,
+			[1] = T.RT_2146,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -84883,15 +84906,15 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2140,
+			[3] = T.RT_2142,
 		},
 		["bAllowClick"] = true,
 	},
 	[12001502] = {
 		["Operations"] = {
-			[1] = T.RT_2134,
+			[1] = T.RT_2136,
 			[2] = {
-				["SEQ"] = T.RT_2139,
+				["SEQ"] = T.RT_2141,
 			},
 		},
 		["bAllowClick"] = true,
@@ -84901,7 +84924,7 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_2072,
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2142,
+					[1] = T.RT_2144,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "54.548828,220.568848,62.183594,0.000121,-1.800233,-76.194725,15.726622,200.0,false,Manual,10.0",
@@ -84923,7 +84946,7 @@ return ReadOnly("DialogueScripts2Table", {
 			},
 			[2] = {
 				["SEQ"] = {
-					[1] = T.RT_2142,
+					[1] = T.RT_2144,
 					[2] = {
 						["CameraMoveTo"] = {
 							["TargetPosition"] = "14.107422,306.768066,54.371094,0.000121,-1.600122,-85.994225,15.726622,200.0,false,Manual,10.0",
@@ -84953,7 +84976,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
-			[3] = T.RT_2140,
+			[3] = T.RT_2142,
 		},
 		["bAllowClick"] = true,
 	},
@@ -85002,7 +85025,7 @@ return ReadOnly("DialogueScripts2Table", {
 	[12001509] = T.RT_2074,
 	[12001510] = {
 		["Operations"] = {
-			[1] = T.RT_2134,
+			[1] = T.RT_2136,
 			[2] = {
 				["SEQ"] = {
 					[1] = {
@@ -85068,6 +85091,7 @@ return ReadOnly("DialogueScripts2Table", {
 					},
 				},
 			},
+			[2] = T.RT_2134,
 		},
 		["bAllowClick"] = true,
 	},
@@ -107026,8 +107050,8 @@ return ReadOnly("DialogueScripts2Table", {
 		["Operations"] = {
 			[1] = {
 				["SEQ"] = {
-					[1] = T.RT_2704,
-					[2] = T.RT_3245,
+					[1] = T.RT_2710,
+					[2] = T.RT_3249,
 				},
 			},
 		},
@@ -107063,13 +107087,13 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[101054041] = {
 		["Operations"] = {
-			[1] = T.RT_3343,
+			[1] = T.RT_3347,
 		},
 		["bAllowClick"] = true,
 	},
 	[101054141] = {
 		["Operations"] = {
-			[1] = T.RT_3345,
+			[1] = T.RT_3349,
 		},
 		["bAllowClick"] = true,
 	},
@@ -107106,17 +107130,17 @@ return ReadOnly("DialogueScripts2Table", {
 	},
 	[101073021] = {
 		["Operations"] = {
-			[1] = T.RT_3191,
+			[1] = T.RT_3195,
 		},
 		["bAllowClick"] = true,
 	},
 	[110134061] = {
 		["Operations"] = {
-			[1] = T.RT_2276,
-			[2] = T.RT_2274,
+			[1] = T.RT_2282,
+			[2] = T.RT_2280,
 			[3] = {
 				["SEQ"] = {
-					[1] = T.RT_2447,
+					[1] = T.RT_2453,
 				},
 			},
 			[4] = {

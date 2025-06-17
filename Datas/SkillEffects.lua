@@ -12223,6 +12223,7 @@ return ReadOnly("SkillEffects", {
 		TaskId = 420111,
 	},
 	[420112] = {
+		AllowSkillRangeModify = true,
 		EffectExecuteTiming = "Enter",
 		TargetFilter = "Char_Cylinder_Small",
 		TaskEffects = {
@@ -12502,7 +12503,7 @@ return ReadOnly("SkillEffects", {
 		TaskId = 420143,
 	},
 	[420144] = {
-		AllowSkillRangeModify = true,
+		AttackRangeType = "Normal",
 		NotifyName = T.RT_23,
 		TargetFilter = "Char_Cylinder_Middle",
 		TaskEffects = {
