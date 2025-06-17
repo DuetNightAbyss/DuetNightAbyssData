@@ -110,7 +110,6 @@ return ReadOnly("EventMain", {
 		EventNameBPPath = "/Game/UI/WBP/Activity/Widget/RechargeRebate/WBP_Activity_RechargeRebate_Title.WBP_Activity_RechargeRebate_Title",
 		EventSName = "UI_FeeRefund_Title02",
 		EventStartTime = 1704081600,
-		EventUnlockCondition = 4220,
 		MobileBluePrint = "/Game/UI/WBP/Activity/Mobile/RechargeRebate/WBP_Activity_RechargeRebate_M.WBP_Activity_RechargeRebate_M",
 		PCBluePrint = "/Game/UI/WBP/Activity/PC/RechargeRebate/WBP_Activity_RechargeRebate_P.WBP_Activity_RechargeRebate_P",
 	},
