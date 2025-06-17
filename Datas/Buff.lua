@@ -7992,6 +7992,8 @@ return ReadOnly("Buff", {
 		BPPath = "/Game/BluePrints/Combat/Buff/BPBuffs/BP_Buff.BP_Buff",
 		BuffId = 2010002,
 		BuffType = T.RT_14,
+		CannotBeCutTN = true,
+		CannotBeHitted = true,
 		FresnelParams = T.RT_191,
 		MergeRule1 = "Personal",
 		MergeRule2 = "Merge",

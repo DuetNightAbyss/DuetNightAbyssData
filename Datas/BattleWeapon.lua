@@ -3464,7 +3464,7 @@ return ReadOnly("BattleWeapon", {
 		ATK_Spike = 5,
 		BulletInit = -1,
 		BulletMax = -1,
-		CRD = 2.4,
+		CRD = 2,
 		CRI = 0.33,
 		FrontSight = {
 			DiffuseBackTime = 0.1,

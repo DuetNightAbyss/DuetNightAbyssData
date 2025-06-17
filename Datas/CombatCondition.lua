@@ -1596,6 +1596,20 @@ return ReadOnly("CombatCondition", {
 		FuncName = "Check_Attr_Self",
 		Id = 859904,
 	},
+	[859905] = {
+		And = {
+			859902,
+		},
+		FuncName = "Is_In_Dungeon",
+		Id = 859905,
+	},
+	[859906] = {
+		And = {
+			859904,
+		},
+		FuncName = "Is_In_Dungeon",
+		Id = 859906,
+	},
 	[950001] = {
 		ConditionVars = {
 			MonsterId = 9500001,

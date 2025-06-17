@@ -142,12 +142,12 @@ T.RT_28 = {
 	}
 T.RT_29 = {
 		[1] = 101,
-		[2] = 20012,
+		[2] = 20014,
 		[3] = 10002,
 	}
 T.RT_30 = {
 		[1] = 101,
-		[2] = 20012,
+		[2] = 20014,
 		[3] = 10003,
 	}
 local ReadOnly = (DataMgr or {})["ReadOnly"] or function(n, x) return x end

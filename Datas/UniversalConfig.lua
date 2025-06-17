@@ -449,6 +449,9 @@ return ReadOnly("UniversalConfig", {
 		HideBattleWheel = true,
 		IfChangeESC = 1,
 		IfDestoryPhantom = 1,
+		IfInActiveInteractive = {
+			Type = "Off",
+		},
 		IfStartStoryMode = 1,
 		IfWaitDead = 1,
 		PlayBlackScreen = T.RT_1,

@@ -159,7 +159,6 @@ return ReadOnly("SystemGuide", {
 		SysGuideId = 2022,
 	},
 	[2023] = {
-		FinishQuestChain = 100208,
 		GuideEnd = 0,
 		GuideStoryline = "Guide/Guide_Rouge.story",
 		IsInRegion = 1,
@@ -333,7 +332,6 @@ return ReadOnly("SystemGuide", {
 	},
 	[2058] = {
 		ConditionCheck = 1,
-		FinishQuestChain = 100208,
 		GuideEnd = 0,
 		GuideStoryline = "Guide/Guide_Sojourns.story",
 		IsInRegion = 1,

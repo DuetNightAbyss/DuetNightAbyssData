@@ -121,6 +121,11 @@ T.RT_14 = {
 	}
 T.RT_15 = {
 		6000023,
+		6000012,
+		6000032,
+		6000042,
+		6000052,
+		6000062,
 	}
 T.RT_16 = {
 		BuffList = T.RT_15,
@@ -146,6 +151,11 @@ T.RT_18 = {
 	}
 T.RT_19 = {
 		6000043,
+		6000012,
+		6000022,
+		6000032,
+		6000052,
+		6000062,
 	}
 T.RT_20 = {
 		BuffList = T.RT_19,
@@ -232,6 +242,10 @@ T.RT_29 = {
 T.RT_30 = {
 		6000023,
 		6000043,
+		6000012,
+		6000032,
+		6000052,
+		6000062,
 	}
 T.RT_31 = {
 		BuffList = T.RT_30,
@@ -263,17 +277,23 @@ T.RT_36 = {
 		100,
 	}
 T.RT_37 = {
-		6000063,
+		6000043,
 	}
 T.RT_38 = {
 		BuffList = T.RT_37,
 	}
 T.RT_39 = {
-		6000043,
 		6000063,
 	}
 T.RT_40 = {
 		BuffList = T.RT_39,
+	}
+T.RT_41 = {
+		6000043,
+		6000063,
+	}
+T.RT_42 = {
+		BuffList = T.RT_41,
 	}
 local ReadOnly = (DataMgr or {})["ReadOnly"] or function(n, x) return x end
 return ReadOnly("AbyssDungeon", {
@@ -800,7 +820,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2022011,
 		DungeonId = 20201,
 		DungeonMonsters = T.RT_33,
-		MonsterBuff = T.RT_20,
+		MonsterBuff = T.RT_38,
 		RoomId = T.RT_17,
 	},
 	[2022012] = {
@@ -808,7 +828,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2022012,
 		DungeonId = 20101,
 		DungeonMonsters = T.RT_34,
-		MonsterBuff = T.RT_38,
+		MonsterBuff = T.RT_40,
 		RoomId = T.RT_21,
 	},
 	[2022021] = {
@@ -816,7 +836,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2022021,
 		DungeonId = 20202,
 		DungeonMonsters = T.RT_33,
-		MonsterBuff = T.RT_20,
+		MonsterBuff = T.RT_38,
 		RoomId = T.RT_23,
 	},
 	[2022022] = {
@@ -824,7 +844,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2022022,
 		DungeonId = 20102,
 		DungeonMonsters = T.RT_34,
-		MonsterBuff = T.RT_38,
+		MonsterBuff = T.RT_40,
 		RoomId = T.RT_24,
 	},
 	[2022031] = {
@@ -832,7 +852,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2022031,
 		DungeonId = 20203,
 		DungeonMonsters = T.RT_33,
-		MonsterBuff = T.RT_20,
+		MonsterBuff = T.RT_38,
 		RoomId = T.RT_26,
 	},
 	[2022032] = {
@@ -840,7 +860,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2022032,
 		DungeonId = 20103,
 		DungeonMonsters = T.RT_34,
-		MonsterBuff = T.RT_38,
+		MonsterBuff = T.RT_40,
 		RoomId = T.RT_28,
 	},
 	[2023011] = {
@@ -848,7 +868,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2023011,
 		DungeonId = 20201,
 		DungeonMonsters = T.RT_33,
-		MonsterBuff = T.RT_40,
+		MonsterBuff = T.RT_42,
 		RoomId = T.RT_17,
 	},
 	[2023021] = {
@@ -856,7 +876,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2023021,
 		DungeonId = 20101,
 		DungeonMonsters = T.RT_34,
-		MonsterBuff = T.RT_40,
+		MonsterBuff = T.RT_42,
 		RoomId = T.RT_21,
 	},
 	[2023031] = {
@@ -864,7 +884,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2023031,
 		DungeonId = 20202,
 		DungeonMonsters = T.RT_33,
-		MonsterBuff = T.RT_40,
+		MonsterBuff = T.RT_42,
 		RoomId = T.RT_23,
 	},
 	[2023041] = {
@@ -872,7 +892,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2023041,
 		DungeonId = 20201,
 		DungeonMonsters = T.RT_34,
-		MonsterBuff = T.RT_40,
+		MonsterBuff = T.RT_42,
 		RoomId = T.RT_24,
 	},
 	[2023051] = {
@@ -880,7 +900,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2023051,
 		DungeonId = 20203,
 		DungeonMonsters = T.RT_33,
-		MonsterBuff = T.RT_40,
+		MonsterBuff = T.RT_42,
 		RoomId = T.RT_26,
 	},
 	[2023061] = {
@@ -888,7 +908,7 @@ return ReadOnly("AbyssDungeon", {
 		AbyssDungeonId = 2023061,
 		DungeonId = 20103,
 		DungeonMonsters = T.RT_34,
-		MonsterBuff = T.RT_40,
+		MonsterBuff = T.RT_42,
 		RoomId = T.RT_28,
 	},
 })

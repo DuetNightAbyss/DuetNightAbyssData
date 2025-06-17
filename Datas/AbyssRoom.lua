@@ -762,7 +762,7 @@ return ReadOnly("AbyssRoom", {
 			2010206,
 		},
 		SubGamemode = "/Game/AssetDesign/GameMode/Abyss/BP_EMGameMode_Abyss_BossBase.BP_EMGameMode_Abyss_BossBase",
-		TimeLimit = 230,
+		TimeLimit = 255,
 		UnitSpawnId = T.RT_7,
 	},
 	[120111] = {

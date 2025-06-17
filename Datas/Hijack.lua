@@ -1,7 +1,7 @@
 -- Source Excel file path: ..\datas\Dungeons\Hijack.xlsx
 local T = {}
 T.RT_1 = {
-		10,
+		-1,
 		23,
 	}
 T.RT_2 = {

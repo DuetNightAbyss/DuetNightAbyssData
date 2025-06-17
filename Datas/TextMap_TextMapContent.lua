@@ -13814,7 +13814,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_TrainingGround_2_Pad",
             },
             ["Message_Guide_TrainingGround_3"] = {
-                ["TextMapContent"] = "点击<H>“+”</>，可以增加生成的<H>敌人数量</>。",
+                ["TextMapContent"] = "点击此处，可以增加生成的<H>敌人数量</>。",
                 ["TextMapId"] = "Message_Guide_TrainingGround_3",
             },
             ["Message_Guide_TrainingGround_4"] = {
@@ -13822,7 +13822,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_TrainingGround_4",
             },
             ["Message_Guide_TrainingGround_4_Pad"] = {
-                ["TextMapContent"] = "若选择了<H>多个敌人</>，可以在这里按下分别调整其生成数量。",
+                ["TextMapContent"] = "若选择了<H>多个敌人</>，可以在这里分别调整其生成数量。",
                 ["TextMapId"] = "Message_Guide_TrainingGround_4_Pad",
             },
             ["Message_Guide_TrainingGround_5"] = {
@@ -18413,7 +18413,7 @@ local Data = {
                 ["TextMapId"] = "PET_407_PASSIVE",
             },
             ["PET_407_SKILL"] = {
-                ["TextMapContent"] = "对周围的敌人造成主角色攻击#1的伤害，并可直接破坏储物箱上的属性可破坏物。探测100米的1个魔灵和1个储物箱，并在在30秒内持续标记出魔灵和储物箱的位置。",
+                ["TextMapContent"] = "对周围的敌人造成主角色攻击#1的伤害，并可直接破坏储物箱上的属性可破坏物。探测100米的1个魔灵和1个储物箱，并在30秒内持续标记出魔灵和储物箱的位置。",
                 ["TextMapId"] = "PET_407_SKILL",
             },
             ["PET_408_PASSIVE"] = {

@@ -1411,6 +1411,7 @@ return ReadOnly("SkillNode", {
 		SkillNodeEffects = {
 			310202,
 			310203,
+			310205,
 		},
 	},
 	[310311] = {

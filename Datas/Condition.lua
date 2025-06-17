@@ -1749,11 +1749,8 @@ return ReadOnly("Condition", {
 		ConditionId = 1020,
 		ConditionLogic = "AND",
 		ConditionMap = {
-			Impression = {
-				{
-					510020,
-					1,
-				},
+			Quest = {
+				20020501,
 			},
 		},
 		Remark = "印象系统",
@@ -8368,11 +8365,7 @@ return ReadOnly("Condition", {
 	[20021602] = {
 		ConditionId = 20021602,
 		ConditionLogic = "AND",
-		ConditionMap = {
-			Quest = {
-				20021602,
-			},
-		},
+		ConditionMap = T.RT_25,
 		Remark = "帝国三兄弟任务显示条件",
 	},
 	[20022200] = {

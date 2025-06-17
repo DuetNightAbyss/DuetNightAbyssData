@@ -1626,7 +1626,7 @@ return ReadOnly("PassiveEffect", {
 		Vars = {
 			Grade4BonusRate = 0.1,
 			Grade6DmgRate = 0.5,
-			PassiveBuffLastTime = 3,
+			PassiveBuffLastTime = 6,
 			Skill1BuffLastTime = 6,
 			SuperDamageRate = "#1",
 		},

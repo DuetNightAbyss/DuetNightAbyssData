@@ -1808,7 +1808,6 @@ T.RT_210 = {
 		SkillSpeedModify = true,
 		SkillType = "Skill2",
 		SubSkills = T.RT_209,
-		bEnablePrediction = true,
 	}
 T.RT_211 = {
 		[0] = T.RT_210,
@@ -1960,7 +1959,6 @@ T.RT_226 = {
 		SkillSpeedModify = true,
 		SkillTags = T.RT_167,
 		SkillType = "Skill2",
-		bEnablePrediction = true,
 	}
 T.RT_227 = {
 		[0] = T.RT_226,

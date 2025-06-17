@@ -137,8 +137,8 @@ T.RT_34 = {
 		-39186,
 	}
 T.RT_35 = {
-		-29,
-		19088,
+		-74,
+		12501,
 	}
 T.RT_36 = {
 		-20601,
@@ -1278,8 +1278,8 @@ return ReadOnly("DispatchUI", {
 		DispatchUIId = 305503,
 		FloorId = 1,
 		UIPos = {
-			18871,
-			-39486,
+			3611,
+			-47767,
 		},
 	},
 	[305604] = {
@@ -1364,8 +1364,8 @@ return ReadOnly("DispatchUI", {
 		DispatchUIId = 306802,
 		FloorId = 0,
 		UIPos = {
-			-21323,
-			5610,
+			-15963,
+			4710,
 		},
 	},
 	[307105] = {
