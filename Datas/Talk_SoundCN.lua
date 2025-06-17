@@ -38568,31 +38568,26 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/ch/story/1003",
                 ["SelectKey"] = "voice_ch_story_1003_100361_191FD3D2",
                 ["SoundLength"] = 5090,
-                ["SoundVolume"] = 0,
             },
             ["voice_ch_story_1003_100361_191FD3FC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/ch/story/1003",
                 ["SelectKey"] = "voice_ch_story_1003_100361_191FD3FC",
                 ["SoundLength"] = 4940,
-                ["SoundVolume"] = 0,
             },
             ["voice_ch_story_1003_100361_191FD426"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/ch/story/1003",
                 ["SelectKey"] = "voice_ch_story_1003_100361_191FD426",
                 ["SoundLength"] = 5170,
-                ["SoundVolume"] = 0,
             },
             ["voice_ch_story_1003_100361_191FD450"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/ch/story/1003",
                 ["SelectKey"] = "voice_ch_story_1003_100361_191FD450",
                 ["SoundLength"] = 2960,
-                ["SoundVolume"] = 0,
             },
             ["voice_ch_story_1003_100361_191FD47A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/ch/story/1003",
                 ["SelectKey"] = "voice_ch_story_1003_100361_191FD47A",
                 ["SoundLength"] = 820,
-                ["SoundVolume"] = 0,
             },
             ["voice_ch_story_1003_100361_191FD5CA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/ch/story/1003",
