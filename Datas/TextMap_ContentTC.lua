@@ -10691,7 +10691,7 @@ local Data = {
             },
         }
     end },
-    { MinKey = "MOD_NAME_3002", MaxKey = "Message_Guide_Dispatch_06", Loader = function()
+    { MinKey = "MOD_NAME_3002", MaxKey = "Message_Guide_Dispatch_04", Loader = function()
         return {
             ["MOD_NAME_3002"] = {
                 ["ContentTC"] = "專注",
@@ -11098,6 +11098,10 @@ local Data = {
 我們重視每一條反饋與建議,您的反饋將幫助我們持續提升產品體驗與質量。",
                 ["TextMapId"] = "Mail_Content_10009",
             },
+            ["Mail_Content_100301"] = {
+                ["ContentTC"] = "獎勵結算異常，巡回獎勵已發送至背包。",
+                ["TextMapId"] = "Mail_Content_100301",
+            },
             ["Mail_Content_100401"] = {
                 ["ContentTC"] = "親愛的狩月人，本期吟遊詩集裝訂已經結束。所有尚未領取的獎勵已通過郵件發放，請查收。",
                 ["TextMapId"] = "Mail_Content_100401",
@@ -11153,6 +11157,10 @@ local Data = {
             ["Mail_Title_10009"] = {
                 ["ContentTC"] = "問卷填寫獎勵",
                 ["TextMapId"] = "Mail_Title_10009",
+            },
+            ["Mail_Title_100301"] = {
+                ["ContentTC"] = "結算獎勵尋回郵件",
+                ["TextMapId"] = "Mail_Title_100301",
             },
             ["Mail_Title_100401"] = {
                 ["ContentTC"] = "【吟遊詩集】獎勵補領",
@@ -11502,6 +11510,10 @@ local Data = {
                 ["ContentTC"] = "此處可查看選定突發事件的詳細信息。",
                 ["TextMapId"] = "Message_Guide_Dispatch_04",
             },
+        }
+    end },
+    { MinKey = "Message_Guide_Dispatch_05", MaxKey = "Message_Guide_TrainingGround_Phone", Loader = function()
+        return {
             ["Message_Guide_Dispatch_05"] = {
                 ["ContentTC"] = "完成突發事件可獲取基礎獎勵和額外獎勵。",
                 ["TextMapId"] = "Message_Guide_Dispatch_05",
@@ -11510,10 +11522,6 @@ local Data = {
                 ["ContentTC"] = "親自前往完成突發事件可快速獲取基礎獎勵。",
                 ["TextMapId"] = "Message_Guide_Dispatch_06",
             },
-        }
-    end },
-    { MinKey = "Message_Guide_Dispatch_07", MaxKey = "Message_Guide_WeaponTrigger_2", Loader = function()
-        return {
             ["Message_Guide_Dispatch_07"] = {
                 ["ContentTC"] = "點擊此處打開代理人列表。",
                 ["TextMapId"] = "Message_Guide_Dispatch_07",
@@ -12306,6 +12314,10 @@ local Data = {
                 ["ContentTC"] = "點擊交互打開冥想菜單",
                 ["TextMapId"] = "Message_Guide_TrainingGround_Phone",
             },
+        }
+    end },
+    { MinKey = "Message_Guide_WeaponTrigger_1", MaxKey = "Mon_DesDetail_8514001", Loader = function()
+        return {
             ["Message_Guide_WeaponTrigger_1"] = {
                 ["ContentTC"] = "使用武器造成傷害時，有機會觸發傷害屬性對應的<H>額外效果</>，觸發的機率基於武器的<H>觸發機率</>屬性值。",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_1",
@@ -12314,10 +12326,6 @@ local Data = {
                 ["ContentTC"] = "不同的屬性有不同的的<H>額外效果</>，具體的額外效果可以點擊<H>屬性說明</>查看。",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_2",
             },
-        }
-    end },
-    { MinKey = "Message_Guide_WeaponTrigger_3", MaxKey = "Mon_DesDetail_9001001", Loader = function()
-        return {
             ["Message_Guide_WeaponTrigger_3"] = {
                 ["ContentTC"] = "元素屬性由<H>角色</>提供。<H>水、火、風、雷、光、暗</>6個元素屬性的<H>額外效果</>會為目標疊加對應屬性的<H>持續傷害</>負面狀態。",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_3",
@@ -13113,6 +13121,10 @@ local Data = {
                 ["ContentTC"] = "傳播福音、矯正信仰始終是部分神使恪守的本職。那些為異端帶來救贖的子彈與烈火，何嚐不是神明的福音之一呢。",
                 ["TextMapId"] = "Mon_DesDetail_8514001",
             },
+        }
+    end },
+    { MinKey = "Mon_DesDetail_8515001", MaxKey = "Mon_Name_6004023", Loader = function()
+        return {
             ["Mon_DesDetail_8515001"] = {
                 ["ContentTC"] = "巨噬者並不是單獨的一隻穢獸，而是多種物質的集合，它吞噬融合著一切動物、植物、穢獸乃至人類，用蠻力將其與自身融為一體，以畸形的姿態蠕動著，尋找著身體的下一個組件。",
                 ["TextMapId"] = "Mon_DesDetail_8515001",
@@ -13121,10 +13133,6 @@ local Data = {
                 ["ContentTC"] = "神棄者同盟成員，「野蜂」階級。擅長近距離突擊。在拿起武器之前，他們大多數人也隻是帝國尋常的卡戎之民，他們的戰鬥技巧也許並不高超，但那被同族之血捆綁在一切的憤怒將化成利劍，斬斷枷鎖，粉碎重錘。",
                 ["TextMapId"] = "Mon_DesDetail_9001001",
             },
-        }
-    end },
-    { MinKey = "Mon_DesDetail_9002001", MaxKey = "Mon_Name_6004201", Loader = function()
-        return {
             ["Mon_DesDetail_9002001"] = {
                 ["ContentTC"] = "神棄者同盟成員，「野蜂」階級。擅長遠距離壓製。他們是陰影中的哨兵，騷擾與壓製是他們的拿手本事。踏入他們警戒範圍的敵人，所要面對的不僅僅是冰冷的視線，還有從死角射出的暗箭。",
                 ["TextMapId"] = "Mon_DesDetail_9002001",
@@ -13938,6 +13946,10 @@ local Data = {
                 ["ContentTC"] = "浴血 暴徒穢獸",
                 ["TextMapId"] = "Mon_Name_6004023",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_6004024", MaxKey = "Mon_Name_7010001", Loader = function()
+        return {
             ["Mon_Name_6004024"] = {
                 ["ContentTC"] = "掠影 暴徒穢獸",
                 ["TextMapId"] = "Mon_Name_6004024",
@@ -13946,10 +13958,6 @@ local Data = {
                 ["ContentTC"] = "爆破·霜獄 暴徒穢獸",
                 ["TextMapId"] = "Mon_Name_6004201",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_6004301", MaxKey = "Mon_Name_7010012", Loader = function()
-        return {
             ["Mon_Name_6004301"] = {
                 ["ContentTC"] = "霹靂·爆破 灼心穢獸",
                 ["TextMapId"] = "Mon_Name_6004301",
@@ -14742,6 +14750,10 @@ local Data = {
                 ["ContentTC"] = "佩劍煉金術師",
                 ["TextMapId"] = "Mon_Name_7010001",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_7010011", MaxKey = "Mon_Name_8514017", Loader = function()
+        return {
             ["Mon_Name_7010011"] = {
                 ["ContentTC"] = "凜霜 佩劍煉金術師",
                 ["TextMapId"] = "Mon_Name_7010011",
@@ -14750,10 +14762,6 @@ local Data = {
                 ["ContentTC"] = "爆破 佩劍煉金術師",
                 ["TextMapId"] = "Mon_Name_7010012",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_7010013", MaxKey = "Mon_Name_8514019", Loader = function()
-        return {
             ["Mon_Name_7010013"] = {
                 ["ContentTC"] = "侵蝕 佩劍煉金術師",
                 ["TextMapId"] = "Mon_Name_7010013",
@@ -15546,6 +15554,10 @@ local Data = {
                 ["ContentTC"] = "守護 蒙恩的審判官",
                 ["TextMapId"] = "Mon_Name_8514017",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_8514018", MaxKey = "Name_200229", Loader = function()
+        return {
             ["Mon_Name_8514018"] = {
                 ["ContentTC"] = "複仇 蒙恩的審判官",
                 ["TextMapId"] = "Mon_Name_8514018",
@@ -15554,10 +15566,6 @@ local Data = {
                 ["ContentTC"] = "霜獄 蒙恩的審判官",
                 ["TextMapId"] = "Mon_Name_8514019",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_8514020", MaxKey = "Name_901202", Loader = function()
-        return {
             ["Mon_Name_8514020"] = {
                 ["ContentTC"] = "殘火 蒙恩的審判官",
                 ["TextMapId"] = "Mon_Name_8514020",
@@ -16350,6 +16358,10 @@ local Data = {
                 ["ContentTC"] = "阿特拉西亞美學大師",
                 ["TextMapId"] = "Name_200229",
             },
+        }
+    end },
+    { MinKey = "Name_901201", MaxKey = "Pack_Name_Shop_Jingli", Loader = function()
+        return {
             ["Name_901201"] = {
                 ["ContentTC"] = "狩獵委託·其一",
                 ["TextMapId"] = "Name_901201",
@@ -16358,10 +16370,6 @@ local Data = {
                 ["ContentTC"] = "狩獵委託·其二",
                 ["TextMapId"] = "Name_901202",
             },
-        }
-    end },
-    { MinKey = "Name_901203", MaxKey = "Pack_Name_Shop_Level_20", Loader = function()
-        return {
             ["Name_901203"] = {
                 ["ContentTC"] = "狩獵委託·其三",
                 ["TextMapId"] = "Name_901203",
@@ -17247,6 +17255,10 @@ local Data = {
                 ["ContentTC"] = "物資支援·精力",
                 ["TextMapId"] = "Pack_Name_Shop_Jingli",
             },
+        }
+    end },
+    { MinKey = "Pack_Name_Shop_Level_10", MaxKey = "PartyTopic_Name_310103", Loader = function()
+        return {
             ["Pack_Name_Shop_Level_10"] = {
                 ["ContentTC"] = "歷練等級禮包Lv.10",
                 ["TextMapId"] = "Pack_Name_Shop_Level_10",
@@ -17255,10 +17267,6 @@ local Data = {
                 ["ContentTC"] = "歷練等級禮包Lv.20",
                 ["TextMapId"] = "Pack_Name_Shop_Level_20",
             },
-        }
-    end },
-    { MinKey = "Pack_Name_Shop_Level_30", MaxKey = "PartyTopic_Name_310202", Loader = function()
-        return {
             ["Pack_Name_Shop_Level_30"] = {
                 ["ContentTC"] = "歷練等級禮包Lv.30",
                 ["TextMapId"] = "Pack_Name_Shop_Level_30",
@@ -18051,6 +18059,10 @@ local Data = {
                 ["ContentTC"] = "回不去的故鄉",
                 ["TextMapId"] = "PartyTopic_Name_310103",
             },
+        }
+    end },
+    { MinKey = "PartyTopic_Name_310201", MaxKey = "QuestDesc_10020307", Loader = function()
+        return {
             ["PartyTopic_Name_310201"] = {
                 ["ContentTC"] = "多重身份",
                 ["TextMapId"] = "PartyTopic_Name_310201",
@@ -18059,10 +18071,6 @@ local Data = {
                 ["ContentTC"] = "穿搭的藝術",
                 ["TextMapId"] = "PartyTopic_Name_310202",
             },
-        }
-    end },
-    { MinKey = "PartyTopic_Name_310203", MaxKey = "QuestDesc_10020309", Loader = function()
-        return {
             ["PartyTopic_Name_310203"] = {
                 ["ContentTC"] = "修枝剪葉",
                 ["TextMapId"] = "PartyTopic_Name_310203",
@@ -18897,6 +18905,10 @@ local Data = {
  如有餘力，可以考慮維護一下這些引路燈和指示牌，為後來者指明道路。",
                 ["TextMapId"] = "QuestDesc_10020307",
             },
+        }
+    end },
+    { MinKey = "QuestDesc_10020308", MaxKey = "QuestName_10020207", Loader = function()
+        return {
             ["QuestDesc_10020308"] = {
                 ["ContentTC"] = "沿著廢棄的管道，你們進入了格雷姆廢礦內部。\
 曾有巨大的天之樹貫穿山體，但如今已被採掘殆盡，只留下它微小的根須——那些殘留的礦脈訴說著它曾經的繁盛。\
@@ -18909,10 +18921,6 @@ local Data = {
 操作機關，打開礦門，繼續深入這座廢礦，尋找恩里克委託的群星綺晶吧。",
                 ["TextMapId"] = "QuestDesc_10020309",
             },
-        }
-    end },
-    { MinKey = "QuestDesc_10020310", MaxKey = "QuestName_10020209", Loader = function()
-        return {
             ["QuestDesc_10020310"] = {
                 ["ContentTC"] = "沿著廢棄的管道，你們進入了格雷姆廢礦內部。\
 曾有巨大的天之樹貫穿山體，但如今已被採掘殆盡，只留下它微小的根須——那些殘留的礦脈訴說著它曾經的繁盛。\
@@ -19804,6 +19812,10 @@ local Data = {
                 ["ContentTC"] = "追查竊賊的蹤跡",
                 ["TextMapId"] = "QuestName_10020207",
             },
+        }
+    end },
+    { MinKey = "QuestName_10020208", MaxKey = "QuestName_901207", Loader = function()
+        return {
             ["QuestName_10020208"] = {
                 ["ContentTC"] = "檢查3號垃圾箱附近的痕跡",
                 ["TextMapId"] = "QuestName_10020208",
@@ -19812,10 +19824,6 @@ local Data = {
                 ["ContentTC"] = "跟隨痕跡，登上天臺",
                 ["TextMapId"] = "QuestName_10020209",
             },
-        }
-    end },
-    { MinKey = "QuestName_10020210", MaxKey = "QuestName_99999802", Loader = function()
-        return {
             ["QuestName_10020210"] = {
                 ["ContentTC"] = "追查竊賊的蹤跡",
                 ["TextMapId"] = "QuestName_10020210",
@@ -20608,6 +20616,10 @@ local Data = {
                 ["ContentTC"] = "前去指定位置擊敗穢獸",
                 ["TextMapId"] = "QuestName_901207",
             },
+        }
+    end },
+    { MinKey = "QuestName_99999801", MaxKey = "READ_TEXT_2000053", Loader = function()
+        return {
             ["QuestName_99999801"] = {
                 ["ContentTC"] = "前往淚湖畔",
                 ["TextMapId"] = "QuestName_99999801",
@@ -20616,10 +20628,6 @@ local Data = {
                 ["ContentTC"] = "前往淚湖畔，擊敗目標強敵",
                 ["TextMapId"] = "QuestName_99999802",
             },
-        }
-    end },
-    { MinKey = "QuestName_99999803", MaxKey = "READ_TEXT_2000055", Loader = function()
-        return {
             ["QuestName_99999803"] = {
                 ["ContentTC"] = "3秒後自動離開淚湖畔",
                 ["TextMapId"] = "QuestName_99999803",
@@ -22148,6 +22156,10 @@ C區 阿妮塔\
  帕西法爾備注：這一段的看點主要是群舞，難點是這段戲中作為沒有姓名的群舞之一既要讓觀眾注意到紅葉這個角色和其他舞者不一樣，但是也不能過分突出。",
                 ["TextMapId"] = "READ_TEXT_2000053",
             },
+        }
+    end },
+    { MinKey = "READ_TEXT_2000054", MaxKey = "RESOURCE_DESC_12110", Loader = function()
+        return {
             ["READ_TEXT_2000054"] = {
                 ["ContentTC"] = "第二幕 血肉流星 \
  \
@@ -22232,10 +22244,6 @@ C區 阿妮塔\
  帕西法爾備注：這一段除了最後一句，其他的唱段內容都是尤希諾讀紅葉寄來的信，所以既需要演出尤希諾逐漸憤怒的情緒，也需要把紅葉的信中，一開始克製、討好到最後完全憤怒的情緒變化演出來，需要很高的演技。",
                 ["TextMapId"] = "READ_TEXT_2000055",
             },
-        }
-    end },
-    { MinKey = "READ_TEXT_2000056", MaxKey = "RESOURCE_DESC_12112", Loader = function()
-        return {
             ["READ_TEXT_2000056"] = {
                 ["ContentTC"] = "第四幕 紅葉一滴 \
  \
@@ -23191,6 +23199,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "嚴格按照圖紙打造的枯朽部件。冷兵器上最貼近使用者的部分，「趁手」，是它最實際的設計目的。",
                 ["TextMapId"] = "RESOURCE_DESC_12110",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_12111", MaxKey = "RESOURCE_DESC_5210200", Loader = function()
+        return {
             ["RESOURCE_DESC_12111"] = {
                 ["ContentTC"] = "嚴格按照圖紙打造的枯朽部件。無論刀刃是曲是直，是輕是重，它的鋒芒都隻為戰鬥而生。",
                 ["TextMapId"] = "RESOURCE_DESC_12111",
@@ -23199,10 +23211,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "嚴格按照圖紙打造的焦渴部件。冷兵器上最貼近使用者的部分，「趁手」，是它最實際的設計目的。",
                 ["TextMapId"] = "RESOURCE_DESC_12112",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_12113", MaxKey = "RESOURCE_DESC_5210400", Loader = function()
-        return {
             ["RESOURCE_DESC_12113"] = {
                 ["ContentTC"] = "嚴格按照圖紙打造的焦渴部件。無論刀刃是曲是直，是輕是重，它的鋒芒都隻為戰鬥而生。",
                 ["TextMapId"] = "RESOURCE_DESC_12113",
@@ -24023,6 +24031,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "特別的魚餌，可以縮短魚類上鉤的時間，也許是因為它在水中扭來扭去的樣子充分吸引了水下居民的注意。",
                 ["TextMapId"] = "RESOURCE_DESC_5210200",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_5210300", MaxKey = "RESOURCE_NAME_12004", Loader = function()
+        return {
             ["RESOURCE_DESC_5210300"] = {
                 ["ContentTC"] = "特別的魚餌，可以增加變種魚類上鉤的機率，也許在特別的魚眼中，金屬的魚餌也夠特殊。",
                 ["TextMapId"] = "RESOURCE_DESC_5210300",
@@ -24031,10 +24043,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "特別的魚餌，可以增加稀有魚類上鉤的機率，看起來平平無奇，實則用料講究。只要嚐過一口，無論是多麼挑嘴的魚都會無法遏制地把它吃完。",
                 ["TextMapId"] = "RESOURCE_DESC_5210400",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_6000001", MaxKey = "RESOURCE_NAME_12006", Loader = function()
-        return {
             ["RESOURCE_DESC_6000001"] = {
                 ["ContentTC"] = "止流旗下商會「百年春」發行的信用憑證。",
                 ["TextMapId"] = "RESOURCE_DESC_6000001",
@@ -24831,6 +24839,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "紅葉一滴的刀刃",
                 ["TextMapId"] = "RESOURCE_NAME_12004",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_12005", MaxKey = "RESOURCE_NAME_20517", Loader = function()
+        return {
             ["RESOURCE_NAME_12005"] = {
                 ["ContentTC"] = "紅葉一滴的飾物",
                 ["TextMapId"] = "RESOURCE_NAME_12005",
@@ -24839,10 +24851,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "群星無意赦免的槍機",
                 ["TextMapId"] = "RESOURCE_NAME_12006",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_12007", MaxKey = "RESOURCE_NAME_206", Loader = function()
-        return {
             ["RESOURCE_NAME_12007"] = {
                 ["ContentTC"] = "群星無意赦免的槍身",
                 ["TextMapId"] = "RESOURCE_NAME_12007",
@@ -25635,6 +25643,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "枯枝",
                 ["TextMapId"] = "RESOURCE_NAME_20517",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_20518", MaxKey = "RESOURCE_TEXT_101", Loader = function()
+        return {
             ["RESOURCE_NAME_20518"] = {
                 ["ContentTC"] = "女神像寶石",
                 ["TextMapId"] = "RESOURCE_NAME_20518",
@@ -25643,10 +25655,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "委托手冊·一",
                 ["TextMapId"] = "RESOURCE_NAME_206",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_207", MaxKey = "RESOURCE_TEXT_10101", Loader = function()
-        return {
             ["RESOURCE_NAME_207"] = {
                 ["ContentTC"] = "委托手冊·二",
                 ["TextMapId"] = "RESOURCE_NAME_207",
@@ -26521,6 +26529,10 @@ C區 阿妮塔\
 ——「魔王大人」 白",
                 ["TextMapId"] = "RESOURCE_TEXT_101",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_TEXT_10100", MaxKey = "RESOURCE_TEXT_shiwu", Loader = function()
+        return {
             ["RESOURCE_TEXT_10100"] = {
                 ["ContentTC"] = "「縱是前路無常，也請你堅定地走下去。」\
 \
@@ -26535,10 +26547,6 @@ C區 阿妮塔\
 ——某位海伯利亞士兵的手記",
                 ["TextMapId"] = "RESOURCE_TEXT_10101",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_TEXT_10102", MaxKey = "RLArchive_ArchiveUnlock", Loader = function()
-        return {
             ["RESOURCE_TEXT_10102"] = {
                 ["ContentTC"] = "「頭頂破燈照礦路，肩扛鐵鍬尋月石；\
 \
@@ -27843,6 +27851,10 @@ C區 阿妮塔\
 ——神棄者同盟「渡鴉」 卡奧斯",
                 ["TextMapId"] = "RESOURCE_TEXT_shiwu",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_TEXT_wobing", MaxKey = "RLBlessing_Name_303", Loader = function()
+        return {
             ["RESOURCE_TEXT_wobing"] = {
                 ["ContentTC"] = "「他在邁進，\
 他在邁進！\
@@ -27860,10 +27872,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "未解鎖",
                 ["TextMapId"] = "RLArchive_ArchiveUnlock",
             },
-        }
-    end },
-    { MinKey = "RLArchive_BlessingTitle", MaxKey = "RLBlessing_Name_305", Loader = function()
-        return {
             ["RLArchive_BlessingTitle"] = {
                 ["ContentTC"] = "燭芯一覽",
                 ["TextMapId"] = "RLArchive_BlessingTitle",
@@ -28674,6 +28682,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "遊彩光帶",
                 ["TextMapId"] = "RLBlessing_Name_303",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_Name_304", MaxKey = "RLBlessing_UnlockCon_210", Loader = function()
+        return {
             ["RLBlessing_Name_304"] = {
                 ["ContentTC"] = "溫潤觸碰",
                 ["TextMapId"] = "RLBlessing_Name_304",
@@ -28682,10 +28694,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "晶瑩觸碰",
                 ["TextMapId"] = "RLBlessing_Name_305",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_Name_306", MaxKey = "RLBlessing_UnlockCon_301", Loader = function()
-        return {
             ["RLBlessing_Name_306"] = {
                 ["ContentTC"] = "石中流光",
                 ["TextMapId"] = "RLBlessing_Name_306",
@@ -29480,6 +29488,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "燭芯尚未解鎖",
                 ["TextMapId"] = "RLBlessing_UnlockCon_210",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_UnlockCon_211", MaxKey = "RLTreasure_Desc_10308", Loader = function()
+        return {
             ["RLBlessing_UnlockCon_211"] = {
                 ["ContentTC"] = "燭芯尚未解鎖",
                 ["TextMapId"] = "RLBlessing_UnlockCon_211",
@@ -29488,10 +29500,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "燭芯尚未解鎖",
                 ["TextMapId"] = "RLBlessing_UnlockCon_301",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_UnlockCon_302", MaxKey = "RLTreasure_Desc_11101", Loader = function()
-        return {
             ["RLBlessing_UnlockCon_302"] = {
                 ["ContentTC"] = "燭芯尚未解鎖",
                 ["TextMapId"] = "RLBlessing_UnlockCon_302",
@@ -30286,6 +30294,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "同類別燭芯激活套裝效果所需數量減少<Highlight>1</>枚。",
                 ["TextMapId"] = "RLTreasure_Desc_10308",
             },
+        }
+    end },
+    { MinKey = "RLTreasure_Desc_10309", MaxKey = "RLTreasure_UnlockCon_10302", Loader = function()
+        return {
             ["RLTreasure_Desc_10309"] = {
                 ["ContentTC"] = "複蘇次數耗盡時，可消耗<Highlight>500</>餘燼獲取<Highlight>1</>次額外複蘇次數。",
                 ["TextMapId"] = "RLTreasure_Desc_10309",
@@ -30294,10 +30306,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "帶有護盾時，受到的傷害降低<Highlight>20%</>。收集[護衛騎士]的全部<Highlight>2</>件遺物後，[幽影]中每<Highlight>10</>秒獲得自身最大生命<Highlight>10%</>的超限護盾直到通過[幽影]。",
                 ["TextMapId"] = "RLTreasure_Desc_11101",
             },
-        }
-    end },
-    { MinKey = "RLTreasure_Desc_11201", MaxKey = "RLTreasure_UnlockCon_10304", Loader = function()
-        return {
             ["RLTreasure_Desc_11201"] = {
                 ["ContentTC"] = "帶有護盾時，造成的傷害提高10%。收集[護衛騎士]的全部<Highlight>2</>件遺物後，[幽影]中每<Highlight>10</>秒獲得自身最大生命<Highlight>10%</>的超限護盾直到通過[幽影]。",
                 ["TextMapId"] = "RLTreasure_Desc_11201",
@@ -31148,6 +31156,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "遺物尚未解鎖",
                 ["TextMapId"] = "RLTreasure_UnlockCon_10302",
             },
+        }
+    end },
+    { MinKey = "RLTreasure_UnlockCon_10303", MaxKey = "SKILL_110301_DESC", Loader = function()
+        return {
             ["RLTreasure_UnlockCon_10303"] = {
                 ["ContentTC"] = "遺物尚未解鎖",
                 ["TextMapId"] = "RLTreasure_UnlockCon_10303",
@@ -31156,10 +31168,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "遺物尚未解鎖",
                 ["TextMapId"] = "RLTreasure_UnlockCon_10304",
             },
-        }
-    end },
-    { MinKey = "RLTreasure_UnlockCon_10305", MaxKey = "SKILL_110302_DESC", Loader = function()
-        return {
             ["RLTreasure_UnlockCon_10305"] = {
                 ["ContentTC"] = "遺物尚未解鎖",
                 ["TextMapId"] = "RLTreasure_UnlockCon_10305",
@@ -31978,6 +31986,10 @@ C區 阿妮塔\
  「化身為獸」狀態中，此技能被替換為「詠歎調」。",
                 ["TextMapId"] = "SKILL_110301_DESC",
             },
+        }
+    end },
+    { MinKey = "SKILL_110301_NAME", MaxKey = "SKILL_510202_NAME", Loader = function()
+        return {
             ["SKILL_110301_NAME"] = {
                 ["ContentTC"] = "宣敘調",
                 ["TextMapId"] = "SKILL_110301_NAME",
@@ -31990,10 +32002,6 @@ C區 阿妮塔\
  「狂怒的銳爪」第三段和「悲慟的鳴嘯」造成傷害時,觸發「二重唱」效果；「狂怒的銳爪」第四段和空中下落造成傷害時，觸發「休止符」效果。",
                 ["TextMapId"] = "SKILL_110302_DESC",
             },
-        }
-    end },
-    { MinKey = "SKILL_110302_NAME", MaxKey = "SKILL_510203_NAME", Loader = function()
-        return {
             ["SKILL_110302_NAME"] = {
                 ["ContentTC"] = "幕啟",
                 ["TextMapId"] = "SKILL_110302_NAME",
@@ -32839,6 +32847,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "獵襲",
                 ["TextMapId"] = "SKILL_510202_NAME",
             },
+        }
+    end },
+    { MinKey = "SKILL_510203_DESC", MaxKey = "SKILL_DESC_4301Skill02DamageRate", Loader = function()
+        return {
             ["SKILL_510203_DESC"] = {
                 ["ContentTC"] = "受到傷害時，生成1枚「獠牙之刺」攻擊傷害來源，效果每秒最多觸發1次。",
                 ["TextMapId"] = "SKILL_510203_DESC",
@@ -32847,10 +32859,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "以牙還牙",
                 ["TextMapId"] = "SKILL_510203_NAME",
             },
-        }
-    end },
-    { MinKey = "SKILL_510204_DESC", MaxKey = "SKILL_DESC_4301Skill02ExploreRange", Loader = function()
-        return {
             ["SKILL_510204_DESC"] = {
                 ["ContentTC"] = "不處於「追獵」狀態時，使用近戰武器造成傷害時有概率生成1枚「獠牙之刺」攻擊目標，效果每秒最多觸發1次。",
                 ["TextMapId"] = "SKILL_510204_DESC",
@@ -33647,6 +33655,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "傷害傳遞比例",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02DamageRate",
             },
+        }
+    end },
+    { MinKey = "SKILL_DESC_4301Skill02ExploreDamage", MaxKey = "SkinTrialEvent_Title_Saiqi", Loader = function()
+        return {
             ["SKILL_DESC_4301Skill02ExploreDamage"] = {
                 ["ContentTC"] = "「滅頂風暴」傷害",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02ExploreDamage",
@@ -33655,10 +33667,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "「滅頂風暴」傷害半徑",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02ExploreRange",
             },
-        }
-    end },
-    { MinKey = "SKILL_DESC_4301Skill02LastTime", MaxKey = "SkinTrialEvent_Title_Songlu", Loader = function()
-        return {
             ["SKILL_DESC_4301Skill02LastTime"] = {
                 ["ContentTC"] = "「召喚物·紊亂雷球」持續時間",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02LastTime",
@@ -34451,6 +34459,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "綺夢入夜",
                 ["TextMapId"] = "SkinTrialEvent_Title_Saiqi",
             },
+        }
+    end },
+    { MinKey = "SkinTrialEvent_Title_Shuimu", MaxKey = "TARGET_DUNGEON_RESCUE_103", Loader = function()
+        return {
             ["SkinTrialEvent_Title_Shuimu"] = {
                 ["ContentTC"] = "綺夢入夜",
                 ["TextMapId"] = "SkinTrialEvent_Title_Shuimu",
@@ -34459,10 +34471,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "綺夢入夜",
                 ["TextMapId"] = "SkinTrialEvent_Title_Songlu",
             },
-        }
-    end },
-    { MinKey = "Slash", MaxKey = "TARGET_DUNGEON_RougeLike_101", Loader = function()
-        return {
             ["Slash"] = {
                 ["ContentTC"] = "/",
                 ["TextMapId"] = "Slash",
@@ -35255,6 +35263,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "護送目標前往撤離點",
                 ["TextMapId"] = "TARGET_DUNGEON_RESCUE_103",
             },
+        }
+    end },
+    { MinKey = "TARGET_DUNGEON_RougeLike_100", MaxKey = "TextMap_AnswerDetail_200108", Loader = function()
+        return {
             ["TARGET_DUNGEON_RougeLike_100"] = {
                 ["ContentTC"] = "戰鬥",
                 ["TextMapId"] = "TARGET_DUNGEON_RougeLike_100",
@@ -35263,10 +35275,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "驅散幽影",
                 ["TextMapId"] = "TARGET_DUNGEON_RougeLike_101",
             },
-        }
-    end },
-    { MinKey = "TARGET_DUNGEON_RougeLike_102", MaxKey = "TextMap_AnswerName_100004", Loader = function()
-        return {
             ["TARGET_DUNGEON_RougeLike_102"] = {
                 ["ContentTC"] = "繼續探索",
                 ["TextMapId"] = "TARGET_DUNGEON_RougeLike_102",
@@ -36077,6 +36085,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "纏著父親給她買爆米花嘗嘗的小女孩。雖然是個小孩，但看著她父親那嚴格的管理模式，你知道巴克先生窗戶下的爆米花絕不可能來自她的身上。",
                 ["TextMapId"] = "TextMap_AnswerDetail_200108",
             },
+        }
+    end },
+    { MinKey = "TextMap_AnswerName_100003", MaxKey = "UIGuide_Shadow_2", Loader = function()
+        return {
             ["TextMap_AnswerName_100003"] = {
                 ["ContentTC"] = "凶手可能出沒於蓋雷亞劇院？",
                 ["TextMapId"] = "TextMap_AnswerName_100003",
@@ -36085,10 +36097,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "凶手可能出沒於工廠？",
                 ["TextMapId"] = "TextMap_AnswerName_100004",
             },
-        }
-    end },
-    { MinKey = "TextMap_AnswerName_100005", MaxKey = "UIGuide_Sojourns_01_Pad", Loader = function()
-        return {
             ["TextMap_AnswerName_100005"] = {
                 ["ContentTC"] = "凶手哼唱的是一段歌劇唱段的旋律",
                 ["TextMapId"] = "TextMap_AnswerName_100005",
@@ -36890,6 +36898,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "長按&OpenBattleWheel&即可呼喚同伴。同伴會跟隨當前操控角色，與其共同戰鬥。",
                 ["TextMapId"] = "UIGuide_Shadow_2",
             },
+        }
+    end },
+    { MinKey = "UIGuide_Sojourns_01", MaxKey = "UI_Accessory_Desc_30008", Loader = function()
+        return {
             ["UIGuide_Sojourns_01"] = {
                 ["ContentTC"] = "<Highlight>點滴</>已解鎖，可在休憩之所點擊圖標進入。",
                 ["TextMapId"] = "UIGuide_Sojourns_01",
@@ -36898,10 +36910,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "<Highlight>點滴</>已解鎖，可在休憩之所按下進入。",
                 ["TextMapId"] = "UIGuide_Sojourns_01_Pad",
             },
-        }
-    end },
-    { MinKey = "UIGuide_Sojourns_02", MaxKey = "UI_Accessory_Desc_40001", Loader = function()
-        return {
             ["UIGuide_Sojourns_02"] = {
                 ["ContentTC"] = "<Highlight>點滴</>匯聚著光陰中的片段。",
                 ["TextMapId"] = "UIGuide_Sojourns_02",
@@ -37709,6 +37717,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "陰陽雙璧抱圓中，晦明兩儀天地融。",
                 ["TextMapId"] = "UI_Accessory_Desc_30008",
             },
+        }
+    end },
+    { MinKey = "UI_Accessory_Desc_30009", MaxKey = "UI_Achievement_Des_1305", Loader = function()
+        return {
             ["UI_Accessory_Desc_30009"] = {
                 ["ContentTC"] = "骰子落下前，無人知曉自己將滿載而歸，還是一無所有。",
                 ["TextMapId"] = "UI_Accessory_Desc_30009",
@@ -37717,10 +37729,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "最細微的濕度變化也逃不過月舞狐尾巴的感知，老道的旅者常用月舞狐是否在雨夜獨舞，來判斷陰雲何時將要散去，月光何時將會重歸。",
                 ["TextMapId"] = "UI_Accessory_Desc_40001",
             },
-        }
-    end },
-    { MinKey = "UI_Accessory_Desc_40002", MaxKey = "UI_Achievement_Des_1400101", Loader = function()
-        return {
             ["UI_Accessory_Desc_40002"] = {
                 ["ContentTC"] = "刀是護身之物，亦是傷人之物，它帶著歷代刀主的尊嚴與信念，跨越了漫長歲月，向現世傳達來自亙古的勸誡。",
                 ["TextMapId"] = "UI_Accessory_Desc_40002",
@@ -38523,6 +38531,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "通關「迷津」難度Ⅲ<highlight>（致明日測試限定成就）</>",
                 ["TextMapId"] = "UI_Achievement_Des_1305",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_1306", MaxKey = "UI_Achievement_Des_60101", Loader = function()
+        return {
             ["UI_Achievement_Des_1306"] = {
                 ["ContentTC"] = "完成入門指南第<highlight>7</>階段所有任務<highlight>（致明日測試限定成就）</>",
                 ["TextMapId"] = "UI_Achievement_Des_1306",
@@ -38531,10 +38543,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "累計成功與<highlight>#1</>隻魔靈成為朋友",
                 ["TextMapId"] = "UI_Achievement_Des_1400101",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Des_1400201", MaxKey = "UI_Achievement_Des_60103", Loader = function()
-        return {
             ["UI_Achievement_Des_1400201"] = {
                 ["ContentTC"] = "累計突破魔靈<highlight>#1</>次",
                 ["TextMapId"] = "UI_Achievement_Des_1400201",
@@ -39327,6 +39335,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "累計<highlight>#1</>名角色達到Lv.20",
                 ["TextMapId"] = "UI_Achievement_Des_60101",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_60102", MaxKey = "UI_Achievement_Name_200503", Loader = function()
+        return {
             ["UI_Achievement_Des_60102"] = {
                 ["ContentTC"] = "累計<highlight>#1</>名角色達到Lv.30",
                 ["TextMapId"] = "UI_Achievement_Des_60102",
@@ -39335,10 +39347,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "累計<highlight>#1</>名角色達到Lv.40",
                 ["TextMapId"] = "UI_Achievement_Des_60103",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Des_60201", MaxKey = "UI_Achievement_Name_20102", Loader = function()
-        return {
             ["UI_Achievement_Des_60201"] = {
                 ["ContentTC"] = "累計<highlight>#1</>名角色突破1階",
                 ["TextMapId"] = "UI_Achievement_Des_60201",
@@ -40131,6 +40139,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "神棄者同盟之敵Ⅲ",
                 ["TextMapId"] = "UI_Achievement_Name_200503",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_20101", MaxKey = "UI_Achievement_Name_506303", Loader = function()
+        return {
             ["UI_Achievement_Name_20101"] = {
                 ["ContentTC"] = "轉動命運螺旋·Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_20101",
@@ -40139,10 +40151,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "轉動命運螺旋·Ⅱ",
                 ["TextMapId"] = "UI_Achievement_Name_20102",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_20103", MaxKey = "UI_Achievement_Name_506402", Loader = function()
-        return {
             ["UI_Achievement_Name_20103"] = {
                 ["ContentTC"] = "轉動命運螺旋·Ⅲ",
                 ["TextMapId"] = "UI_Achievement_Name_20103",
@@ -40935,6 +40943,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "統統驅逐·神速Ⅲ",
                 ["TextMapId"] = "UI_Achievement_Name_506303",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_506401", MaxKey = "UI_All_Tutorial", Loader = function()
+        return {
             ["UI_Achievement_Name_506401"] = {
                 ["ContentTC"] = "極速營救·神速Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_506401",
@@ -40943,10 +40955,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "極速營救·神速Ⅱ",
                 ["TextMapId"] = "UI_Achievement_Name_506402",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_506403", MaxKey = "UI_Amount_Million", Loader = function()
-        return {
             ["UI_Achievement_Name_506403"] = {
                 ["ContentTC"] = "極速營救·神速Ⅲ",
                 ["TextMapId"] = "UI_Achievement_Name_506403",
@@ -41739,6 +41747,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "全部教學",
                 ["TextMapId"] = "UI_All_Tutorial",
             },
+        }
+    end },
+    { MinKey = "UI_Amount_Billion", MaxKey = "UI_BookArchive_Empty", Loader = function()
+        return {
             ["UI_Amount_Billion"] = {
                 ["ContentTC"] = "B",
                 ["TextMapId"] = "UI_Amount_Billion",
@@ -41747,10 +41759,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "M",
                 ["TextMapId"] = "UI_Amount_Million",
             },
-        }
-    end },
-    { MinKey = "UI_Amount_Thousand", MaxKey = "UI_BookArchive_Read", Loader = function()
-        return {
             ["UI_Amount_Thousand"] = {
                 ["ContentTC"] = "k",
                 ["TextMapId"] = "UI_Amount_Thousand",
@@ -42543,6 +42551,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "目前無已獲得的物品",
                 ["TextMapId"] = "UI_BookArchive_Empty",
             },
+        }
+    end },
+    { MinKey = "UI_BookArchive_MainProgress", MaxKey = "UI_CHAR_DATA_TEXT_31030105", Loader = function()
+        return {
             ["UI_BookArchive_MainProgress"] = {
                 ["ContentTC"] = "閱讀物總收集%s/%s",
                 ["TextMapId"] = "UI_BookArchive_MainProgress",
@@ -42551,10 +42563,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "閱讀",
                 ["TextMapId"] = "UI_BookArchive_Read",
             },
-        }
-    end },
-    { MinKey = "UI_BookArchive_SeriesLockedEntrance", MaxKey = "UI_CHAR_DATA_TEXT_31030202", Loader = function()
-        return {
             ["UI_BookArchive_SeriesLockedEntrance"] = {
                 ["ContentTC"] = "尚未獲得該系列閱讀物",
                 ["TextMapId"] = "UI_BookArchive_SeriesLockedEntrance",
@@ -44133,6 +44141,10 @@ C區 阿妮塔\
 耶爾坐在“劈裡啪啦”的工作臺用軟木和刻刀雕刻玩具新品，接著用水彩筆添加上耶爾風格的塗鴉，再任由奧利弗慷慨激昂地點評幾句——這樣平淡的生活才是這個故事最令他滿意的結局。",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_31030105",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_DATA_TEXT_31030201", MaxKey = "UI_CHAR_NAME_4202", Loader = function()
+        return {
             ["UI_CHAR_DATA_TEXT_31030201"] = {
                 ["ContentTC"] = "紅溪城的一個小小街角，開著一家破舊的玩具店“劈裡啪啦”。奇怪的是，明明是間玩具店，卻從不像其他的玩具店鋪那樣早早地敞開大門。\
 那扇有些老舊的木門就算在白天也總是緊閉著，曾有幾個充滿好奇心的小傢伙鼓起勇氣推門進去，似乎是作為對勇敢的獎賞，他們最終都得到一些稀奇古怪的玩具。像是能讓人眼花繚亂的萬花筒，或者可以邊扭屁股邊走路的木頭小鴨子，以及最有趣的是一支特殊的“棒棒糖”：用火柴點燃尾巴上的引線，嗖——的一聲，一朵彩色的煙花便會綻放在空中，引來許多孩子興奮地歡呼。\
@@ -44146,10 +44158,6 @@ C區 阿妮塔\
 一個青年發現男孩換下來的白色衣服領口繡著“SPATHATOI”幾個字母。他讀過幾年書，猛地想起，那幾個字母是軍團下屬“佩劍煉金院”的意思。他思索了很久，還是咬咬牙，將那件襯衫丟進了火爐。火正燒得旺，吞沒了殘破的衣服，也吞沒了男孩殘破的過往。而不久之後，紅溪城裡多了一家看起來老舊的新玩具店，店主總是把身子深深埋進櫃檯後面，擺弄發明著各種新奇玩具。",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_31030202",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_DATA_TEXT_31030203", MaxKey = "UI_CHAR_NAME_5101", Loader = function()
-        return {
             ["UI_CHAR_DATA_TEXT_31030203"] = {
                 ["ContentTC"] = "“近日，紅溪城郊區發生了一起嚴重的火災事故，引起城內民眾的廣泛關注。以下是本次火災的詳細報導。\
 據悉，在當地時間7月13日深夜，位於紅溪城郊外第九軍團駐地的煉金研究院突然爆炸起火。據目擊者稱，火災發生時火勢迅猛，濃煙滾滾，火焰迅速蔓延至周邊建築，現場狀況十分危急。第九軍團迅速趕到現場展開緊急救援，周邊地區的居民也自發組織協助疏散人員和搬運物資。經過一天一夜的救援工作，火勢已經得到控制，此次災害的傷亡報告仍在統計中。\
@@ -45572,6 +45580,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "蘭迪",
                 ["TextMapId"] = "UI_CHAR_NAME_4202",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_NAME_4301", MaxKey = "UI_COMMONPOP_TEXT_100117", Loader = function()
+        return {
             ["UI_CHAR_NAME_4301"] = {
                 ["ContentTC"] = "西比爾",
                 ["TextMapId"] = "UI_CHAR_NAME_4301",
@@ -45580,10 +45592,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "松露與榛子",
                 ["TextMapId"] = "UI_CHAR_NAME_5101",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_NAME_5102", MaxKey = "UI_COMMONPOP_TEXT_100119", Loader = function()
-        return {
             ["UI_CHAR_NAME_5102"] = {
                 ["ContentTC"] = "奧特賽德",
                 ["TextMapId"] = "UI_CHAR_NAME_5102",
@@ -46381,6 +46389,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "確認前往[%s]？",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100117",
             },
+        }
+    end },
+    { MinKey = "UI_COMMONPOP_TEXT_100118", MaxKey = "UI_CharVoice_Battle", Loader = function()
+        return {
             ["UI_COMMONPOP_TEXT_100118"] = {
                 ["ContentTC"] = "是否消耗當前選中的魔之楔進行增幅？",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100118",
@@ -46389,10 +46401,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "增幅材料中，存在等級大於0的魔之楔，是否繼續增幅？",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100119",
             },
-        }
-    end },
-    { MinKey = "UI_COMMONPOP_TEXT_100121", MaxKey = "UI_CharVoice_Tab", Loader = function()
-        return {
             ["UI_COMMONPOP_TEXT_100121"] = {
                 ["ContentTC"] = "狩月人您好，目前您未獲得[致明日測試]資格，感謝您對二重螺旋的關注與支持。",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100121",
@@ -47185,6 +47193,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "戰鬥",
                 ["TextMapId"] = "UI_CharVoice_Battle",
             },
+        }
+    end },
+    { MinKey = "UI_CharVoice_Normal", MaxKey = "UI_DUNGEON_DES_DEFENCE_2", Loader = function()
+        return {
             ["UI_CharVoice_Normal"] = {
                 ["ContentTC"] = "閒談",
                 ["TextMapId"] = "UI_CharVoice_Normal",
@@ -47193,10 +47205,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "語音",
                 ["TextMapId"] = "UI_CharVoice_Tab",
             },
-        }
-    end },
-    { MinKey = "UI_Char_Data_Step_1", MaxKey = "UI_DUNGEON_DES_EXTERMINATE_1", Loader = function()
-        return {
             ["UI_Char_Data_Step_1"] = {
                 ["ContentTC"] = "階段一",
                 ["TextMapId"] = "UI_Char_Data_Step_1",
@@ -47989,6 +47997,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "保護探險家皎皎，擊敗敵人",
                 ["TextMapId"] = "UI_DUNGEON_DES_DEFENCE_2",
             },
+        }
+    end },
+    { MinKey = "UI_DUNGEON_DES_EXCAVATION_1", MaxKey = "UI_Dispatch_Toast_BaseReward", Loader = function()
+        return {
             ["UI_DUNGEON_DES_EXCAVATION_1"] = {
                 ["ContentTC"] = "幫助探險家皎皎完成地形勘探，保護勘探器",
                 ["TextMapId"] = "UI_DUNGEON_DES_EXCAVATION_1",
@@ -47997,10 +48009,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "擊敗敵人，完成驅逐",
                 ["TextMapId"] = "UI_DUNGEON_DES_EXTERMINATE_1",
             },
-        }
-    end },
-    { MinKey = "UI_DUNGEON_DES_HIJACK_1", MaxKey = "UI_Dispatch_Toast_CountDown_1", Loader = function()
-        return {
             ["UI_DUNGEON_DES_HIJACK_1"] = {
                 ["ContentTC"] = "靠近載具，將載具轉移至目的地",
                 ["TextMapId"] = "UI_DUNGEON_DES_HIJACK_1",
@@ -48793,6 +48801,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "基礎報酬",
                 ["TextMapId"] = "UI_Dispatch_Toast_BaseReward",
             },
+        }
+    end },
+    { MinKey = "UI_Dispatch_Toast_ChoseAgent", MaxKey = "UI_Fishing_Giveup", Loader = function()
+        return {
             ["UI_Dispatch_Toast_ChoseAgent"] = {
                 ["ContentTC"] = "請選擇左側列表中的代理人",
                 ["TextMapId"] = "UI_Dispatch_Toast_ChoseAgent",
@@ -48801,10 +48813,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "新的派遣事件將在",
                 ["TextMapId"] = "UI_Dispatch_Toast_CountDown_1",
             },
-        }
-    end },
-    { MinKey = "UI_Dispatch_Toast_CountDown_2", MaxKey = "UI_Fishing_RareFish", Loader = function()
-        return {
             ["UI_Dispatch_Toast_CountDown_2"] = {
                 ["ContentTC"] = "後刷新",
                 ["TextMapId"] = "UI_Dispatch_Toast_CountDown_2",
@@ -49597,6 +49605,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "不釣了",
                 ["TextMapId"] = "UI_Fishing_Giveup",
             },
+        }
+    end },
+    { MinKey = "UI_Fishing_OpenFishBook", MaxKey = "UI_HeadFrame_Name_10009", Loader = function()
+        return {
             ["UI_Fishing_OpenFishBook"] = {
                 ["ContentTC"] = "打開魚類圖鑑",
                 ["TextMapId"] = "UI_Fishing_OpenFishBook",
@@ -49605,10 +49617,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "稀有魚類",
                 ["TextMapId"] = "UI_Fishing_RareFish",
             },
-        }
-    end },
-    { MinKey = "UI_Fishing_Reward", MaxKey = "UI_HeadFrame_Name_10011", Loader = function()
-        return {
             ["UI_Fishing_Reward"] = {
                 ["ContentTC"] = "漁獲",
                 ["TextMapId"] = "UI_Fishing_Reward",
@@ -50401,6 +50409,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "世人印象·功利",
                 ["TextMapId"] = "UI_HeadFrame_Name_10009",
             },
+        }
+    end },
+    { MinKey = "UI_HeadFrame_Name_10010", MaxKey = "UI_MECHANISM_10410", Loader = function()
+        return {
             ["UI_HeadFrame_Name_10010"] = {
                 ["ContentTC"] = "世人印象·共情",
                 ["TextMapId"] = "UI_HeadFrame_Name_10010",
@@ -50409,10 +50421,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "息蝶·碧綠",
                 ["TextMapId"] = "UI_HeadFrame_Name_10011",
             },
-        }
-    end },
-    { MinKey = "UI_HeadFrame_Name_10012", MaxKey = "UI_MECHANISM_10412", Loader = function()
-        return {
             ["UI_HeadFrame_Name_10012"] = {
                 ["ContentTC"] = "息蝶·晴藍",
                 ["TextMapId"] = "UI_HeadFrame_Name_10012",
@@ -51206,6 +51214,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "老舊照片",
                 ["TextMapId"] = "UI_MECHANISM_10410",
             },
+        }
+    end },
+    { MinKey = "UI_MECHANISM_10411", MaxKey = "UI_ModGuideBook_Task_Title_Collect_07", Loader = function()
+        return {
             ["UI_MECHANISM_10411"] = {
                 ["ContentTC"] = "賽琪的檔案",
                 ["TextMapId"] = "UI_MECHANISM_10411",
@@ -51214,10 +51226,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "艾克的檔案",
                 ["TextMapId"] = "UI_MECHANISM_10412",
             },
-        }
-    end },
-    { MinKey = "UI_MECHANISM_10413", MaxKey = "UI_ModGuideBook_Task_Title_Collect_09", Loader = function()
-        return {
             ["UI_MECHANISM_10413"] = {
                 ["ContentTC"] = "羅比的檔案",
                 ["TextMapId"] = "UI_MECHANISM_10413",
@@ -52011,6 +52019,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "收集魔之楔 Ⅶ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_07",
             },
+        }
+    end },
+    { MinKey = "UI_ModGuideBook_Task_Title_Collect_08", MaxKey = "UI_Npc_Name_Man_8", Loader = function()
+        return {
             ["UI_ModGuideBook_Task_Title_Collect_08"] = {
                 ["ContentTC"] = "收集魔之楔 Ⅷ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_08",
@@ -52019,10 +52031,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "收集魔之楔 Ⅸ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_09",
             },
-        }
-    end },
-    { MinKey = "UI_ModGuideBook_Task_Title_Collect_10", MaxKey = "UI_Npc_Name_Manhengwulai", Loader = function()
-        return {
             ["UI_ModGuideBook_Task_Title_Collect_10"] = {
                 ["ContentTC"] = "收集魔之楔 Ⅹ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_10",
@@ -52815,6 +52823,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "猶豫的女子",
                 ["TextMapId"] = "UI_Npc_Name_Man_8",
             },
+        }
+    end },
+    { MinKey = "UI_Npc_Name_Man_9", MaxKey = "UI_OPTION_SETKEY", Loader = function()
+        return {
             ["UI_Npc_Name_Man_9"] = {
                 ["ContentTC"] = "線索NPC1號",
                 ["TextMapId"] = "UI_Npc_Name_Man_9",
@@ -52823,10 +52835,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "蠻橫的無賴",
                 ["TextMapId"] = "UI_Npc_Name_Manhengwulai",
             },
-        }
-    end },
-    { MinKey = "UI_Npc_Name_Mao", MaxKey = "UI_OPTION_ScreenQuality", Loader = function()
-        return {
             ["UI_Npc_Name_Mao"] = {
                 ["ContentTC"] = "孤独的野貓",
                 ["TextMapId"] = "UI_Npc_Name_Mao",
@@ -53619,6 +53627,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "按鍵",
                 ["TextMapId"] = "UI_OPTION_SETKEY",
             },
+        }
+    end },
+    { MinKey = "UI_OPTION_ScreenFilter", MaxKey = "UI_PlayerHead_Des_10016", Loader = function()
+        return {
             ["UI_OPTION_ScreenFilter"] = {
                 ["ContentTC"] = "畫面濾鏡",
                 ["TextMapId"] = "UI_OPTION_ScreenFilter",
@@ -53627,10 +53639,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "截圖品質",
                 ["TextMapId"] = "UI_OPTION_ScreenQuality",
             },
-        }
-    end },
-    { MinKey = "UI_OPTION_ShadowQuality", MaxKey = "UI_PlayerHead_Des_10018", Loader = function()
-        return {
             ["UI_OPTION_ShadowQuality"] = {
                 ["ContentTC"] = "陰影品質",
                 ["TextMapId"] = "UI_OPTION_ShadowQuality",
@@ -54424,6 +54432,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "可將頭像更換為黎瑟的形象。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10016",
             },
+        }
+    end },
+    { MinKey = "UI_PlayerHead_Des_10017", MaxKey = "UI_RougeLike_End_Success02", Loader = function()
+        return {
             ["UI_PlayerHead_Des_10017"] = {
                 ["ContentTC"] = "可將頭像更換為瑪爾潔的形象。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10017",
@@ -54432,10 +54444,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "可將頭像更換為幻景的形象。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10018",
             },
-        }
-    end },
-    { MinKey = "UI_PlayerHead_Des_10019", MaxKey = "UI_RougeLike_End_Treasure", Loader = function()
-        return {
             ["UI_PlayerHead_Des_10019"] = {
                 ["ContentTC"] = "可將頭像更換為西比爾的形象。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10019",
@@ -55228,6 +55236,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "探索成功",
                 ["TextMapId"] = "UI_RougeLike_End_Success02",
             },
+        }
+    end },
+    { MinKey = "UI_RougeLike_End_TalentPoints", MaxKey = "UI_SUBREGION_NAME_101401", Loader = function()
+        return {
             ["UI_RougeLike_End_TalentPoints"] = {
                 ["ContentTC"] = "琉璃",
                 ["TextMapId"] = "UI_RougeLike_End_TalentPoints",
@@ -55236,10 +55248,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "遺物",
                 ["TextMapId"] = "UI_RougeLike_End_Treasure",
             },
-        }
-    end },
-    { MinKey = "UI_RougeLike_End__ClickEmpty", MaxKey = "UI_SUBREGION_NAME_101702", Loader = function()
-        return {
             ["UI_RougeLike_End__ClickEmpty"] = {
                 ["ContentTC"] = "點擊空白處關閉",
                 ["TextMapId"] = "UI_RougeLike_End__ClickEmpty",
@@ -56034,6 +56042,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "？？？",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101401",
             },
+        }
+    end },
+    { MinKey = "UI_SUBREGION_NAME_101701", MaxKey = "UI_TEMPLE_DES_80602", Loader = function()
+        return {
             ["UI_SUBREGION_NAME_101701"] = {
                 ["ContentTC"] = "集水區",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101701",
@@ -56042,10 +56054,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "管道區",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101702",
             },
-        }
-    end },
-    { MinKey = "UI_SUBREGION_NAME_101901", MaxKey = "UI_TEMPLE_DES_80702", Loader = function()
-        return {
             ["UI_SUBREGION_NAME_101901"] = {
                 ["ContentTC"] = "蓋雷亞劇院",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101901",
@@ -56838,6 +56846,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "穿過光環後，依順序攻擊破壞機關",
                 ["TextMapId"] = "UI_TEMPLE_DES_80602",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_DES_80701", MaxKey = "UI_Vote_Retreat_Current", Loader = function()
+        return {
             ["UI_TEMPLE_DES_80701"] = {
                 ["ContentTC"] = "踩踏機關，改變機關顏色，使其顏色與出口處圖案顏色一致",
                 ["TextMapId"] = "UI_TEMPLE_DES_80701",
@@ -56846,10 +56858,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "踩踏機關，改變機關顏色，使其顏色與出口處圖案顏色一致",
                 ["TextMapId"] = "UI_TEMPLE_DES_80702",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_DES_80703", MaxKey = "UI_Vote_Select", Loader = function()
-        return {
             ["UI_TEMPLE_DES_80703"] = {
                 ["ContentTC"] = "踩踏機關，改變機關顏色，使其顏色與出口處圖案顏色一致",
                 ["TextMapId"] = "UI_TEMPLE_DES_80703",
@@ -57654,6 +57662,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "當前獲得",
                 ["TextMapId"] = "UI_Vote_Retreat_Current",
             },
+        }
+    end },
+    { MinKey = "UI_Vote_Retreat_Reward", MaxKey = "UI_Walnut_Type_Name_2", Loader = function()
+        return {
             ["UI_Vote_Retreat_Reward"] = {
                 ["ContentTC"] = "選擇撤離則直接結算當前獎勵",
                 ["TextMapId"] = "UI_Vote_Retreat_Reward",
@@ -57662,10 +57674,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "行動抉擇",
                 ["TextMapId"] = "UI_Vote_Select",
             },
-        }
-    end },
-    { MinKey = "UI_Vote_Wave", MaxKey = "UI_Warning_Age_Content", Loader = function()
-        return {
             ["UI_Vote_Wave"] = {
                 ["ContentTC"] = "輪次",
                 ["TextMapId"] = "UI_Vote_Wave",
@@ -58458,6 +58466,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "中立",
                 ["TextMapId"] = "UI_Walnut_Type_Name_2",
             },
+        }
+    end },
+    { MinKey = "UI_Walnut_Type_Name_3", MaxKey = "VoiceDes110", Loader = function()
+        return {
             ["UI_Walnut_Type_Name_3"] = {
                 ["ContentTC"] = "混亂",
                 ["TextMapId"] = "UI_Walnut_Type_Name_3",
@@ -58471,10 +58483,6 @@ C區 阿妮塔\
 4.《二重螺旋》是一款高自由度的幻想冒險RPG。玩家將邂逅各式各樣的夥伴，挑戰不同難度的關卡，最終推動劇情發展。遊玩此遊戲，將能夠有助於提升玩家的應變和決策能力。",
                 ["TextMapId"] = "UI_Warning_Age_Content",
             },
-        }
-    end },
-    { MinKey = "UI_Warning_Age_Title", MaxKey = "VoiceDes112", Loader = function()
-        return {
             ["UI_Warning_Age_Title"] = {
                 ["ContentTC"] = "適齡提醒",
                 ["TextMapId"] = "UI_Warning_Age_Title",
@@ -59274,6 +59282,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "關於正義",
                 ["TextMapId"] = "VoiceDes110",
             },
+        }
+    end },
+    { MinKey = "VoiceDes111", MaxKey = "ZhiLiuEntrustText01", Loader = function()
+        return {
             ["VoiceDes111"] = {
                 ["ContentTC"] = "關於愛好",
                 ["TextMapId"] = "VoiceDes111",
@@ -59282,10 +59294,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "關於華胥",
                 ["TextMapId"] = "VoiceDes112",
             },
-        }
-    end },
-    { MinKey = "VoiceDes113", MaxKey = "ZhiLiuEntrust_Battle", Loader = function()
-        return {
             ["VoiceDes113"] = {
                 ["ContentTC"] = "關於職責",
                 ["TextMapId"] = "VoiceDes113",
@@ -60132,6 +60140,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "這是今天的采購清單，可以幫我收集一些嗎？",
                 ["TextMapId"] = "ZhiLiuEntrustText01",
             },
+        }
+    end },
+    { MinKey = "ZhiLiuEntrustText02", MaxKey = "voice_ch_char_Haier_vo_topic_02_3", Loader = function()
+        return {
             ["ZhiLiuEntrustText02"] = {
                 ["ContentTC"] = "我需要這些穢獸掉落的甲殼，可以勞煩你去狩獵一些嗎？",
                 ["TextMapId"] = "ZhiLiuEntrustText02",
@@ -60140,10 +60152,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "狩獵清單",
                 ["TextMapId"] = "ZhiLiuEntrust_Battle",
             },
-        }
-    end },
-    { MinKey = "ZhiLiuEntrust_GetGrandReward", MaxKey = "voice_ch_char_Haier_vo_topic_03_2", Loader = function()
-        return {
             ["ZhiLiuEntrust_GetGrandReward"] = {
                 ["ContentTC"] = "領取獎勵",
                 ["TextMapId"] = "ZhiLiuEntrust_GetGrandReward",
@@ -60940,6 +60948,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "成為典獄長並非願望的終點，相反，這只是一個開始，它意味著我需要時刻保持戒備和警醒一一斬除帝國土地上孳生的任何不義，直到死亡將我熄滅。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_3",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Haier_vo_topic_03_1", MaxKey = "voice_ch_char_Maer_vo_battlestart", Loader = function()
+        return {
             ["voice_ch_char_Haier_vo_topic_03_1"] = {
                 ["ContentTC"] = "那當然，帝國監獄裡多的是難纏的犯人，審訊案件、查閱卷宗、防止那些狡猾的老鼠設法逃走都是典獄長的職責所在。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_03_1",
@@ -60948,10 +60960,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "每休息一分，都會讓正義遲到一分——而當正義遲遲不來時，混亂與弱肉強食就會代替法條成為新的規則。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_03_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Haier_vo_topic_03_3", MaxKey = "voice_ch_char_Maer_vo_be_hit_heavy_r02", Loader = function()
-        return {
             ["voice_ch_char_Haier_vo_topic_03_3"] = {
                 ["ContentTC"] = "確實有學者設想過沒有罪犯的世界。如果真的有那天，我也將不復存在，因為正是罪惡造就了典獄長。但是在那之前，我會盡力維護好現存的秩序。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_03_3",
@@ -61750,6 +61758,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "讓我看看有什麼好東西！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_battlestart",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Maer_vo_be_hit_heavy_r01", MaxKey = "voice_ch_char_Songlu_vo_topic_03_1", Loader = function()
+        return {
             ["voice_ch_char_Maer_vo_be_hit_heavy_r01"] = {
                 ["ContentTC"] = "下手太重了吧！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_be_hit_heavy_r01",
@@ -61758,10 +61770,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "痛痛痛！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_be_hit_heavy_r02",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Maer_vo_birthday", MaxKey = "voice_ch_char_Songlu_vo_topic_04_1", Loader = function()
-        return {
             ["voice_ch_char_Maer_vo_birthday"] = {
                 ["ContentTC"] = "生日快樂！喏，這個給你，是我親手做的胖尾巴小玩偶，和我一個款式哦~我知道的，你早就想這麼揉胖尾巴了吧？嘿嘿，緘默偵探早就已經看穿一切啦！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_birthday",
@@ -62561,6 +62569,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "是不少啦，不過其實不用特別為她準備吃的，她會自己找的。哪怕隔著幾條小溪，榛子也能聞到熟透漿果的味道，然後馱著我飛奔過去，可能幹啦。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_03_1",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Songlu_vo_topic_03_2", MaxKey = "voice_ch_char_Yuming_vo_topic_01_2", Loader = function()
+        return {
             ["voice_ch_char_Songlu_vo_topic_03_2"] = {
                 ["ContentTC"] = "別擔心別擔心，榛子只會帶來食物，不會吃垮這裡的！所以，一定一定不要拿榛子開玩笑哦，她聽到的話會傷心的，我也會。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_03_2",
@@ -62569,10 +62581,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "謝謝誇獎，不過我要糾正一下，這其實是褲子。一開始倒的確是裙子，白色的，長長的，可好看啦。是裁縫店的婆婆幫我改成了褲子。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_04_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Songlu_vo_topic_04_2", MaxKey = "voice_ch_char_Yuming_vo_topic_02_2", Loader = function()
-        return {
             ["voice_ch_char_Songlu_vo_topic_04_2"] = {
                 ["ContentTC"] = "因為穿著裙子到處跑不太方便啦，有一次我跑得快了，都被裙擺絆倒，手裡的麵包都撒了。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_04_2",
@@ -63380,6 +63388,10 @@ C區 阿妮塔\
                 ["ContentTC"] = "我平素繁忙，所以眼見多有偏狹。你若是真的好奇，與其假他人言語，不如親自踏足那裡，如何？",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_01_2",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Yuming_vo_topic_02_1", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Yuming_vo_topic_02_1"] = {
                 ["ContentTC"] = "《大風九章》是華胥的律法，誰都不能違抗。但倘若真要有人倒反天命，那自然要有人去收拾亂局。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_02_1",
@@ -63388,10 +63400,6 @@ C區 阿妮塔\
                 ["ContentTC"] = "……也許吧，我不常與人們閒談，畢竟但凡需要我出手的地方，總有傷逝。大部華胥之民，是並不樂見我的。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_02_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Yuming_vo_topic_03_1", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Yuming_vo_topic_03_1"] = {
                 ["ContentTC"] = "無事可樂，自然如此。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_03_1",

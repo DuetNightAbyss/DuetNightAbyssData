@@ -9036,7 +9036,7 @@ local Data = {
             },
         }
     end },
-    { MinKey = "voice_en_story_0_600303_96479197", MaxKey = "voice_en_story_1001_100119_1910527E", Loader = function()
+    { MinKey = "voice_en_story_0_600303_96479197", MaxKey = "voice_en_story_1001_100119_191052A8", Loader = function()
         return {
             ["voice_en_story_0_600303_96479197"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
@@ -9121,7 +9121,7 @@ local Data = {
             ["voice_en_story_0_600403_964DF9E2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
                 ["SelectKey"] = "voice_en_story_0_600403_964DF9E2",
-                ["SoundLength"] = 5540,
+                ["SoundLength"] = 8060,
             },
             ["voice_en_story_0_600404_964E0A4A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
@@ -9142,6 +9142,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
                 ["SelectKey"] = "voice_en_story_0_600407_964E3B82",
                 ["SoundLength"] = 7870,
+            },
+            ["voice_en_story_0_600408_964E3B86"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
+                ["SelectKey"] = "voice_en_story_0_600408_964E3B86",
+                ["SoundLength"] = 8470,
             },
             ["voice_en_story_0_600501_965441B2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
@@ -9418,6 +9423,26 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_0_602005_96B4A4B2",
                 ["SoundLength"] = 5300,
             },
+            ["voice_en_story_0_602101_9687C88C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
+                ["SelectKey"] = "voice_en_story_0_602101_9687C88C",
+                ["SoundLength"] = 7340,
+            },
+            ["voice_en_story_0_602102_9687C892"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
+                ["SelectKey"] = "voice_en_story_0_602102_9687C892",
+                ["SoundLength"] = 4890,
+            },
+            ["voice_en_story_0_602103_9687C896"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
+                ["SelectKey"] = "voice_en_story_0_602103_9687C896",
+                ["SoundLength"] = 5700,
+            },
+            ["voice_en_story_0_603001_96F47952"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/0",
+                ["SelectKey"] = "voice_en_story_0_603001_96F47952",
+                ["SoundLength"] = 5130,
+            },
             ["voice_en_story_1001_100101_190F2A08_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
                 ["SelectKey"] = "voice_en_story_1001_100101_190F2A08_f",
@@ -9621,16 +9646,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1001_100107_190F8CA2",
                 ["SoundLength"] = 2830,
             },
-            ["voice_en_story_1001_100107_190F8CA2_f"] = {
-                ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
-                ["SelectKey"] = "voice_en_story_1001_100107_190F8CA2_f",
-                ["SoundLength"] = 1890,
-            },
-            ["voice_en_story_1001_100107_190F8CA2_m"] = {
-                ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
-                ["SelectKey"] = "voice_en_story_1001_100107_190F8CA2_m",
-                ["SoundLength"] = 1590,
-            },
             ["voice_en_story_1001_100107_190F8CCC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
                 ["SelectKey"] = "voice_en_story_1001_100107_190F8CCC",
@@ -9650,16 +9665,6 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
                 ["SelectKey"] = "voice_en_story_1001_100107_190F8CF6",
                 ["SoundLength"] = 7440,
-            },
-            ["voice_en_story_1001_100107_190F8CF6_f"] = {
-                ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
-                ["SelectKey"] = "voice_en_story_1001_100107_190F8CF6_f",
-                ["SoundLength"] = 3910,
-            },
-            ["voice_en_story_1001_100107_190F8CF6_m"] = {
-                ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
-                ["SelectKey"] = "voice_en_story_1001_100107_190F8CF6_m",
-                ["SoundLength"] = 3160,
             },
             ["voice_en_story_1001_100107_190F8CF7"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
@@ -9690,16 +9695,6 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
                 ["SelectKey"] = "voice_en_story_1001_100109_190FAD72",
                 ["SoundLength"] = 6440,
-            },
-            ["voice_en_story_1001_100109_190FAD72_f"] = {
-                ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
-                ["SelectKey"] = "voice_en_story_1001_100109_190FAD72_f",
-                ["SoundLength"] = 2790,
-            },
-            ["voice_en_story_1001_100109_190FAD72_m"] = {
-                ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
-                ["SelectKey"] = "voice_en_story_1001_100109_190FAD72_m",
-                ["SoundLength"] = 2610,
             },
             ["voice_en_story_1001_100109_190FAD9C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
@@ -10089,16 +10084,16 @@ local Data = {
                 ["SoundLength"] = 3650,
                 ["SoundVolume"] = 0,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1001_100119_191052A8", MaxKey = "voice_en_story_1002_101002_1948EB04", Loader = function()
-        return {
             ["voice_en_story_1001_100119_191052A8"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
                 ["SelectKey"] = "voice_en_story_1001_100119_191052A8",
                 ["SoundLength"] = 1170,
                 ["SoundVolume"] = 0,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_1001_100119_191052D2_f", MaxKey = "voice_en_story_1002_101002_1948EA08_m", Loader = function()
+        return {
             ["voice_en_story_1001_100119_191052D2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1001",
                 ["SelectKey"] = "voice_en_story_1001_100119_191052D2_f",
@@ -11079,15 +11074,30 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101002_1948E83A_f",
                 ["SoundLength"] = 6880,
             },
+            ["voice_en_story_1002_101002_1948E83A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948E83A_m",
+                ["SoundLength"] = 5660,
+            },
             ["voice_en_story_1002_101002_1948E88E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948E88E_f",
                 ["SoundLength"] = 6570,
             },
+            ["voice_en_story_1002_101002_1948E88E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948E88E_m",
+                ["SoundLength"] = 5650,
+            },
             ["voice_en_story_1002_101002_1948E8B8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948E8B8_f",
                 ["SoundLength"] = 1400,
+            },
+            ["voice_en_story_1002_101002_1948E8B8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948E8B8_m",
+                ["SoundLength"] = 870,
             },
             ["voice_en_story_1002_101002_1948E8E2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11099,6 +11109,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101002_1948E90C_f",
                 ["SoundLength"] = 2990,
             },
+            ["voice_en_story_1002_101002_1948E90C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948E90C_m",
+                ["SoundLength"] = 2440,
+            },
             ["voice_en_story_1002_101002_1948E936"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948E936",
@@ -11108,6 +11123,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948E960_f",
                 ["SoundLength"] = 5600,
+            },
+            ["voice_en_story_1002_101002_1948E960_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948E960_m",
+                ["SoundLength"] = 5670,
             },
             ["voice_en_story_1002_101002_1948E98A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11119,6 +11139,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101002_1948E9B4_f",
                 ["SoundLength"] = 11220,
             },
+            ["voice_en_story_1002_101002_1948E9B4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948E9B4_m",
+                ["SoundLength"] = 9160,
+            },
             ["voice_en_story_1002_101002_1948E9DE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948E9DE",
@@ -11129,6 +11154,15 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EA08_f",
                 ["SoundLength"] = 11650,
             },
+            ["voice_en_story_1002_101002_1948EA08_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948EA08_m",
+                ["SoundLength"] = 9190,
+            },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101002_1948EA32", MaxKey = "voice_en_story_1002_101018_1949EF0E_m", Loader = function()
+        return {
             ["voice_en_story_1002_101002_1948EA32"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EA32",
@@ -11144,6 +11178,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EA86_f",
                 ["SoundLength"] = 3340,
             },
+            ["voice_en_story_1002_101002_1948EA86_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948EA86_m",
+                ["SoundLength"] = 2810,
+            },
             ["voice_en_story_1002_101002_1948EAB0"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EAB0",
@@ -11154,29 +11193,45 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EADA_f",
                 ["SoundLength"] = 850,
             },
+            ["voice_en_story_1002_101002_1948EADA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948EADA_m",
+                ["SoundLength"] = 470,
+            },
             ["voice_en_story_1002_101002_1948EB04"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EB04",
                 ["SoundLength"] = 5660,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_101002_1948EB2E_f", MaxKey = "voice_en_story_1002_101024_194A52F8", Loader = function()
-        return {
             ["voice_en_story_1002_101002_1948EB2E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EB2E_f",
                 ["SoundLength"] = 2060,
+            },
+            ["voice_en_story_1002_101002_1948EB2E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948EB2E_m",
+                ["SoundLength"] = 910,
             },
             ["voice_en_story_1002_101002_1948EB58_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EB58_f",
                 ["SoundLength"] = 7900,
             },
+            ["voice_en_story_1002_101002_1948EB58_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948EB58_m",
+                ["SoundLength"] = 6720,
+            },
             ["voice_en_story_1002_101002_1948EB82_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101002_1948EB82_f",
                 ["SoundLength"] = 1520,
+            },
+            ["voice_en_story_1002_101002_1948EB82_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101002_1948EB82_m",
+                ["SoundLength"] = 1160,
             },
             ["voice_en_story_1002_101003_1948F8A2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11187,6 +11242,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101003_1948F8CC_f",
                 ["SoundLength"] = 3360,
+            },
+            ["voice_en_story_1002_101003_1948F8CC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101003_1948F8CC_m",
+                ["SoundLength"] = 2800,
             },
             ["voice_en_story_1002_101003_1948F8F6"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11228,15 +11288,30 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101004_194909B2_f",
                 ["SoundLength"] = 3560,
             },
+            ["voice_en_story_1002_101004_194909B2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101004_194909B2_m",
+                ["SoundLength"] = 2600,
+            },
             ["voice_en_story_1002_101004_194909DC_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101004_194909DC_f",
                 ["SoundLength"] = 8410,
             },
+            ["voice_en_story_1002_101004_194909DC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101004_194909DC_m",
+                ["SoundLength"] = 6440,
+            },
             ["voice_en_story_1002_101004_19490A06_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101004_19490A06_f",
                 ["SoundLength"] = 3570,
+            },
+            ["voice_en_story_1002_101004_19490A06_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101004_19490A06_m",
+                ["SoundLength"] = 2860,
             },
             ["voice_en_story_1002_101004_19490A30"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11248,6 +11323,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101004_19490A5A_f",
                 ["SoundLength"] = 1100,
             },
+            ["voice_en_story_1002_101004_19490A5A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101004_19490A5A_m",
+                ["SoundLength"] = 710,
+            },
             ["voice_en_story_1002_101004_19490A84"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101004_19490A84",
@@ -11258,10 +11338,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101004_19490AAE_f",
                 ["SoundLength"] = 4210,
             },
+            ["voice_en_story_1002_101004_19490AAE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101004_19490AAE_m",
+                ["SoundLength"] = 5280,
+            },
             ["voice_en_story_1002_101004_19490AD8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101004_19490AD8_f",
                 ["SoundLength"] = 4380,
+            },
+            ["voice_en_story_1002_101004_19490AD8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101004_19490AD8_m",
+                ["SoundLength"] = 3610,
             },
             ["voice_en_story_1002_101005_19491972"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11277,6 +11367,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101005_194919C6_f",
                 ["SoundLength"] = 1210,
+            },
+            ["voice_en_story_1002_101005_194919C6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101005_194919C6_m",
+                ["SoundLength"] = 780,
             },
             ["voice_en_story_1002_101006_194929DA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11302,6 +11397,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101006_19492A82_f",
                 ["SoundLength"] = 1110,
+            },
+            ["voice_en_story_1002_101006_19492A82_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101006_19492A82_m",
+                ["SoundLength"] = 510,
             },
             ["voice_en_story_1002_101006_19492AAC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11413,6 +11513,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101008_19494B52_f",
                 ["SoundLength"] = 3760,
             },
+            ["voice_en_story_1002_101008_19494B52_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101008_19494B52_m",
+                ["SoundLength"] = 3580,
+            },
             ["voice_en_story_1002_101008_19494B7C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101008_19494B7C",
@@ -11438,6 +11543,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101008_19494C24_f",
                 ["SoundLength"] = 3270,
             },
+            ["voice_en_story_1002_101008_19494C24_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101008_19494C24_m",
+                ["SoundLength"] = 2060,
+            },
             ["voice_en_story_1002_101008_19494C4E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101008_19494C4E",
@@ -11447,6 +11557,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101008_19494C78_f",
                 ["SoundLength"] = 1580,
+            },
+            ["voice_en_story_1002_101008_19494C78_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101008_19494C78_m",
+                ["SoundLength"] = 1350,
             },
             ["voice_en_story_1002_101008_19494CA2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11458,10 +11573,15 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101008_19494CF6_f",
                 ["SoundLength"] = 8380,
             },
+            ["voice_en_story_1002_101008_19494CF6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101008_19494CF6_m",
+                ["SoundLength"] = 7180,
+            },
             ["voice_en_story_1002_101008_19494D20"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101008_19494D20",
-                ["SoundLength"] = 11800,
+                ["SoundLength"] = 14350,
             },
             ["voice_en_story_1002_101008_19494D4A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11477,6 +11597,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101008_19494D9E_f",
                 ["SoundLength"] = 11520,
+            },
+            ["voice_en_story_1002_101008_19494D9E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101008_19494D9E_m",
+                ["SoundLength"] = 10850,
             },
             ["voice_en_story_1002_101008_19494DC8"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11498,6 +11623,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101008_19494E46_f",
                 ["SoundLength"] = 12810,
             },
+            ["voice_en_story_1002_101008_19494E46_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101008_19494E46_m",
+                ["SoundLength"] = 10940,
+            },
             ["voice_en_story_1002_101008_19494E70"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101008_19494E70",
@@ -11507,6 +11637,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101008_19494E9A_f",
                 ["SoundLength"] = 1930,
+            },
+            ["voice_en_story_1002_101008_19494E9A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101008_19494E9A_m",
+                ["SoundLength"] = 890,
             },
             ["voice_en_story_1002_101008_19494EC4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11538,6 +11673,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101008_19494F96_f",
                 ["SoundLength"] = 2860,
             },
+            ["voice_en_story_1002_101008_19494F96_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101008_19494F96_m",
+                ["SoundLength"] = 2380,
+            },
             ["voice_en_story_1002_101008_19494FC0"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101008_19494FC0",
@@ -11547,6 +11687,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101009_19495B12_f",
                 ["SoundLength"] = 4000,
+            },
+            ["voice_en_story_1002_101009_19495B12_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101009_19495B12_m",
+                ["SoundLength"] = 3210,
             },
             ["voice_en_story_1002_101009_19495B3C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11573,15 +11718,30 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101009_19495BE4_f",
                 ["SoundLength"] = 5680,
             },
+            ["voice_en_story_1002_101009_19495BE4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101009_19495BE4_m",
+                ["SoundLength"] = 5330,
+            },
             ["voice_en_story_1002_101009_19495C0E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101009_19495C0E_f",
                 ["SoundLength"] = 4990,
             },
+            ["voice_en_story_1002_101009_19495C0E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101009_19495C0E_m",
+                ["SoundLength"] = 3560,
+            },
             ["voice_en_story_1002_101009_19495C38_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101009_19495C38_f",
                 ["SoundLength"] = 11000,
+            },
+            ["voice_en_story_1002_101009_19495C38_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101009_19495C38_m",
+                ["SoundLength"] = 9900,
             },
             ["voice_en_story_1002_101009_19495C62"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11592,6 +11752,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101009_19495C8C_f",
                 ["SoundLength"] = 3800,
+            },
+            ["voice_en_story_1002_101009_19495C8C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101009_19495C8C_m",
+                ["SoundLength"] = 2840,
             },
             ["voice_en_story_1002_101009_19495CB6"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11618,10 +11783,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101009_19495D5E_f",
                 ["SoundLength"] = 770,
             },
+            ["voice_en_story_1002_101009_19495D5E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101009_19495D5E_m",
+                ["SoundLength"] = 810,
+            },
             ["voice_en_story_1002_101009_19495D88_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101009_19495D88_f",
                 ["SoundLength"] = 6920,
+            },
+            ["voice_en_story_1002_101009_19495D88_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101009_19495D88_m",
+                ["SoundLength"] = 4820,
             },
             ["voice_en_story_1002_101009_19495DB2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11633,6 +11808,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101009_19495DDC_f",
                 ["SoundLength"] = 4030,
             },
+            ["voice_en_story_1002_101009_19495DDC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101009_19495DDC_m",
+                ["SoundLength"] = 3150,
+            },
             ["voice_en_story_1002_101010_19496B7A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101010_19496B7A",
@@ -11642,6 +11822,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101010_1949781C_f",
                 ["SoundLength"] = 2920,
+            },
+            ["voice_en_story_1002_101010_1949781C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101010_1949781C_m",
+                ["SoundLength"] = 2130,
             },
             ["voice_en_story_1002_101011_19497BE2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11672,6 +11857,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101012_19498C4A_f",
                 ["SoundLength"] = 8110,
             },
+            ["voice_en_story_1002_101012_19498C4A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101012_19498C4A_m",
+                ["SoundLength"] = 7690,
+            },
             ["voice_en_story_1002_101012_19498C74"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101012_19498C74",
@@ -11697,6 +11887,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101012_19498D46_f",
                 ["SoundLength"] = 880,
             },
+            ["voice_en_story_1002_101012_19498D46_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101012_19498D46_m",
+                ["SoundLength"] = 760,
+            },
             ["voice_en_story_1002_101012_19498D70"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101012_19498D70",
@@ -11711,6 +11906,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101012_19498DEE_f",
                 ["SoundLength"] = 2010,
+            },
+            ["voice_en_story_1002_101012_19498DEE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101012_19498DEE_m",
+                ["SoundLength"] = 1410,
             },
             ["voice_en_story_1002_101012_19498E18"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11816,6 +12016,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101014_1949AE94_f",
                 ["SoundLength"] = 1300,
             },
+            ["voice_en_story_1002_101014_1949AE94_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101014_1949AE94_m",
+                ["SoundLength"] = 870,
+            },
             ["voice_en_story_1002_101015_1949BD82"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101015_1949BD82",
@@ -11866,6 +12071,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101016_1949CF10_f",
                 ["SoundLength"] = 4360,
             },
+            ["voice_en_story_1002_101016_1949CF10_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101016_1949CF10_m",
+                ["SoundLength"] = 3380,
+            },
             ["voice_en_story_1002_101016_1949CF3A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101016_1949CF3A",
@@ -11896,25 +12106,50 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101017_1949DE52_f",
                 ["SoundLength"] = 16990,
             },
+            ["voice_en_story_1002_101017_1949DE52_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101017_1949DE52_m",
+                ["SoundLength"] = 15030,
+            },
             ["voice_en_story_1002_101017_1949DE7C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101017_1949DE7C_f",
                 ["SoundLength"] = 4030,
+            },
+            ["voice_en_story_1002_101017_1949DE7C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101017_1949DE7C_m",
+                ["SoundLength"] = 3600,
             },
             ["voice_en_story_1002_101017_1949DEA6_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101017_1949DEA6_f",
                 ["SoundLength"] = 14220,
             },
+            ["voice_en_story_1002_101017_1949DEA6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101017_1949DEA6_m",
+                ["SoundLength"] = 10580,
+            },
             ["voice_en_story_1002_101017_1949DED0_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101017_1949DED0_f",
                 ["SoundLength"] = 9710,
             },
+            ["voice_en_story_1002_101017_1949DED0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101017_1949DED0_m",
+                ["SoundLength"] = 6450,
+            },
             ["voice_en_story_1002_101017_1949DEFA_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101017_1949DEFA_f",
                 ["SoundLength"] = 10350,
+            },
+            ["voice_en_story_1002_101017_1949DEFA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101017_1949DEFA_m",
+                ["SoundLength"] = 7410,
             },
             ["voice_en_story_1002_101018_1949EEBA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11931,6 +12166,15 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101018_1949EF0E_f",
                 ["SoundLength"] = 1210,
             },
+            ["voice_en_story_1002_101018_1949EF0E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101018_1949EF0E_m",
+                ["SoundLength"] = 790,
+            },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101018_1949EF38", MaxKey = "voice_en_story_1002_101040_194B59A2_f", Loader = function()
+        return {
             ["voice_en_story_1002_101018_1949EF38"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101018_1949EF38",
@@ -11946,10 +12190,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101018_1949EF8C_f",
                 ["SoundLength"] = 1410,
             },
+            ["voice_en_story_1002_101018_1949EF8C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101018_1949EF8C_m",
+                ["SoundLength"] = 850,
+            },
             ["voice_en_story_1002_101018_1949EFB6_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101018_1949EFB6_f",
                 ["SoundLength"] = 9780,
+            },
+            ["voice_en_story_1002_101018_1949EFB6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101018_1949EFB6_m",
+                ["SoundLength"] = 7220,
             },
             ["voice_en_story_1002_101018_1949EFE0"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11961,6 +12215,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101018_1949F00A_f",
                 ["SoundLength"] = 2840,
             },
+            ["voice_en_story_1002_101018_1949F00A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101018_1949F00A_m",
+                ["SoundLength"] = 1710,
+            },
             ["voice_en_story_1002_101018_1949F034"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101018_1949F034",
@@ -11970,6 +12229,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101018_1949F05E_f",
                 ["SoundLength"] = 2800,
+            },
+            ["voice_en_story_1002_101018_1949F05E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101018_1949F05E_m",
+                ["SoundLength"] = 2340,
             },
             ["voice_en_story_1002_101018_1949F088"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -11991,15 +12255,30 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101018_1949F106_f",
                 ["SoundLength"] = 1090,
             },
+            ["voice_en_story_1002_101018_1949F106_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101018_1949F106_m",
+                ["SoundLength"] = 820,
+            },
             ["voice_en_story_1002_101019_1949FF22_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101019_1949FF22_f",
                 ["SoundLength"] = 2940,
             },
+            ["voice_en_story_1002_101019_1949FF22_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101019_1949FF22_m",
+                ["SoundLength"] = 3600,
+            },
             ["voice_en_story_1002_101019_1949FF4C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101019_1949FF4C_f",
                 ["SoundLength"] = 10310,
+            },
+            ["voice_en_story_1002_101019_1949FF4C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101019_1949FF4C_m",
+                ["SoundLength"] = 8380,
             },
             ["voice_en_story_1002_101019_1949FF76"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12026,10 +12305,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101019_194A001E_f",
                 ["SoundLength"] = 8470,
             },
+            ["voice_en_story_1002_101019_194A001E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101019_194A001E_m",
+                ["SoundLength"] = 6760,
+            },
             ["voice_en_story_1002_101019_194A0048_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101019_194A0048_f",
                 ["SoundLength"] = 4470,
+            },
+            ["voice_en_story_1002_101019_194A0048_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101019_194A0048_m",
+                ["SoundLength"] = 4140,
             },
             ["voice_en_story_1002_101020_194A0F8A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12124,22 +12413,32 @@ local Data = {
             ["voice_en_story_1002_101024_194A5154"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A5154",
-                ["SoundLength"] = 6090,
+                ["SoundLength"] = 8280,
             },
             ["voice_en_story_1002_101024_194A517E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A517E_f",
-                ["SoundLength"] = 7040,
+                ["SoundLength"] = 6960,
+            },
+            ["voice_en_story_1002_101024_194A517E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A517E_m",
+                ["SoundLength"] = 6600,
             },
             ["voice_en_story_1002_101024_194A51A8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A51A8_f",
                 ["SoundLength"] = 3700,
             },
+            ["voice_en_story_1002_101024_194A51A8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A51A8_m",
+                ["SoundLength"] = 3140,
+            },
             ["voice_en_story_1002_101024_194A51D2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A51D2",
-                ["SoundLength"] = 13780,
+                ["SoundLength"] = 14240,
             },
             ["voice_en_story_1002_101024_194A51FC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12159,27 +12458,23 @@ local Data = {
             ["voice_en_story_1002_101024_194A527A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A527A",
-                ["SoundLength"] = 1190,
+                ["SoundLength"] = 840,
             },
             ["voice_en_story_1002_101024_194A52A4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A52A4",
-                ["SoundLength"] = 2360,
+                ["SoundLength"] = 1520,
             },
             ["voice_en_story_1002_101024_194A52CE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A52CE",
-                ["SoundLength"] = 8400,
+                ["SoundLength"] = 8140,
             },
             ["voice_en_story_1002_101024_194A52F8"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A52F8",
                 ["SoundLength"] = 8040,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_101024_194A5322", MaxKey = "voice_en_story_1002_101052_194C1C8A", Loader = function()
-        return {
             ["voice_en_story_1002_101024_194A5322"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A5322",
@@ -12195,20 +12490,80 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101024_194A5376_f",
                 ["SoundLength"] = 6230,
             },
+            ["voice_en_story_1002_101024_194A5376_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A5376_m",
+                ["SoundLength"] = 3520,
+            },
             ["voice_en_story_1002_101024_194A53A0_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A53A0_f",
                 ["SoundLength"] = 2000,
             },
+            ["voice_en_story_1002_101024_194A53A0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53A0_m",
+                ["SoundLength"] = 1560,
+            },
             ["voice_en_story_1002_101024_194A53CA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A53CA",
-                ["SoundLength"] = 11790,
+                ["SoundLength"] = 11130,
             },
             ["voice_en_story_1002_101024_194A53F4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101024_194A53F4",
                 ["SoundLength"] = 10820,
+            },
+            ["voice_en_story_1002_101024_194A53F5"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53F5",
+                ["SoundLength"] = 18250,
+            },
+            ["voice_en_story_1002_101024_194A53F6"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53F6",
+                ["SoundLength"] = 8350,
+            },
+            ["voice_en_story_1002_101024_194A53F7"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53F7",
+                ["SoundLength"] = 18460,
+            },
+            ["voice_en_story_1002_101024_194A53F8"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53F8",
+                ["SoundLength"] = 10480,
+            },
+            ["voice_en_story_1002_101024_194A53F9"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53F9",
+                ["SoundLength"] = 8530,
+            },
+            ["voice_en_story_1002_101024_194A53FA_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53FA_f",
+                ["SoundLength"] = 8280,
+            },
+            ["voice_en_story_1002_101024_194A53FA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53FA_m",
+                ["SoundLength"] = 8690,
+            },
+            ["voice_en_story_1002_101024_194A53FB"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53FB",
+                ["SoundLength"] = 1920,
+            },
+            ["voice_en_story_1002_101024_194A53FC_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53FC_f",
+                ["SoundLength"] = 10640,
+            },
+            ["voice_en_story_1002_101024_194A53FC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101024_194A53FC_m",
+                ["SoundLength"] = 10500,
             },
             ["voice_en_story_1002_101024_194A541E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12390,10 +12745,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101030_194AB419_f",
                 ["SoundLength"] = 4890,
             },
+            ["voice_en_story_1002_101030_194AB419_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101030_194AB419_m",
+                ["SoundLength"] = 3420,
+            },
             ["voice_en_story_1002_101030_194AB46C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101030_194AB46C_f",
                 ["SoundLength"] = 4270,
+            },
+            ["voice_en_story_1002_101030_194AB46C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101030_194AB46C_m",
+                ["SoundLength"] = 3350,
             },
             ["voice_en_story_1002_101031_194AC402"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12455,6 +12820,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101032_194AD501_f",
                 ["SoundLength"] = 3280,
             },
+            ["voice_en_story_1002_101032_194AD501_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101032_194AD501_m",
+                ["SoundLength"] = 2620,
+            },
             ["voice_en_story_1002_101032_194AD502"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101032_194AD502",
@@ -12464,6 +12834,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101032_194AD503_f",
                 ["SoundLength"] = 5790,
+            },
+            ["voice_en_story_1002_101032_194AD503_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101032_194AD503_m",
+                ["SoundLength"] = 4140,
             },
             ["voice_en_story_1002_101032_194AD504"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12484,6 +12859,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101032_194AD507_f",
                 ["SoundLength"] = 4720,
+            },
+            ["voice_en_story_1002_101032_194AD507_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101032_194AD507_m",
+                ["SoundLength"] = 3300,
             },
             ["voice_en_story_1002_101032_194AD566"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12643,6 +13023,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101038_194B3782_f",
                 ["SoundLength"] = 1710,
             },
+            ["voice_en_story_1002_101038_194B3782_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101038_194B3782_m",
+                ["SoundLength"] = 1670,
+            },
             ["voice_en_story_1002_101038_194B37AC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101038_194B37AC",
@@ -12652,6 +13037,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101038_194B37D6_f",
                 ["SoundLength"] = 2940,
+            },
+            ["voice_en_story_1002_101038_194B37D6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101038_194B37D6_m",
+                ["SoundLength"] = 2960,
             },
             ["voice_en_story_1002_101038_194B3800"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12663,6 +13053,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101038_194B382A_f",
                 ["SoundLength"] = 4250,
             },
+            ["voice_en_story_1002_101038_194B382A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101038_194B382A_m",
+                ["SoundLength"] = 4140,
+            },
             ["voice_en_story_1002_101038_194B3854"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101038_194B3854",
@@ -12672,6 +13067,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101038_194B387E_f",
                 ["SoundLength"] = 1240,
+            },
+            ["voice_en_story_1002_101038_194B387E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101038_194B387E_m",
+                ["SoundLength"] = 1180,
             },
             ["voice_en_story_1002_101038_194B38A8"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12781,7 +13181,16 @@ local Data = {
             ["voice_en_story_1002_101040_194B59A2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101040_194B59A2_f",
-                ["SoundLength"] = 5420,
+                ["SoundLength"] = 5000,
+            },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101040_194B59A2_m", MaxKey = "voice_en_story_1002_101059_194C8FB6_f", Loader = function()
+        return {
+            ["voice_en_story_1002_101040_194B59A2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101040_194B59A2_m",
+                ["SoundLength"] = 3990,
             },
             ["voice_en_story_1002_101040_194B59CC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12803,10 +13212,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101040_194B5A4A_f",
                 ["SoundLength"] = 4730,
             },
+            ["voice_en_story_1002_101040_194B5A4A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101040_194B5A4A_m",
+                ["SoundLength"] = 4650,
+            },
             ["voice_en_story_1002_101040_194B5A74_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101040_194B5A74_f",
                 ["SoundLength"] = 9260,
+            },
+            ["voice_en_story_1002_101040_194B5A74_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101040_194B5A74_m",
+                ["SoundLength"] = 7460,
             },
             ["voice_en_story_1002_101040_194B5A9E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12832,6 +13251,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101044_194B9974_f",
                 ["SoundLength"] = 3260,
+            },
+            ["voice_en_story_1002_101044_194B9974_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101044_194B9974_m",
+                ["SoundLength"] = 2750,
             },
             ["voice_en_story_1002_101044_194B999E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12903,10 +13327,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101045_194BAB2C_f",
                 ["SoundLength"] = 5200,
             },
+            ["voice_en_story_1002_101045_194BAB2C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101045_194BAB2C_m",
+                ["SoundLength"] = 4910,
+            },
             ["voice_en_story_1002_101045_194BAB56_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101045_194BAB56_f",
                 ["SoundLength"] = 11340,
+            },
+            ["voice_en_story_1002_101045_194BAB56_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101045_194BAB56_m",
+                ["SoundLength"] = 10150,
             },
             ["voice_en_story_1002_101045_194BAB80"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12938,10 +13372,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101046_194BBA44_f",
                 ["SoundLength"] = 3850,
             },
+            ["voice_en_story_1002_101046_194BBA44_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101046_194BBA44_m",
+                ["SoundLength"] = 3470,
+            },
             ["voice_en_story_1002_101046_194BBA6E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101046_194BBA6E_f",
                 ["SoundLength"] = 5760,
+            },
+            ["voice_en_story_1002_101046_194BBA6E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101046_194BBA6E_m",
+                ["SoundLength"] = 4220,
             },
             ["voice_en_story_1002_101046_194BBA98"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -12998,6 +13442,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101046_194BBC3C_f",
                 ["SoundLength"] = 3440,
             },
+            ["voice_en_story_1002_101046_194BBC3C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101046_194BBC3C_m",
+                ["SoundLength"] = 3240,
+            },
             ["voice_en_story_1002_101047_194BCA82"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101047_194BCA82",
@@ -13012,6 +13461,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101047_194BCB00_f",
                 ["SoundLength"] = 5000,
+            },
+            ["voice_en_story_1002_101047_194BCB00_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101047_194BCB00_m",
+                ["SoundLength"] = 3610,
             },
             ["voice_en_story_1002_101047_194BCB2A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13043,10 +13497,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101047_194BCBFC_f",
                 ["SoundLength"] = 6180,
             },
+            ["voice_en_story_1002_101047_194BCBFC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101047_194BCBFC_m",
+                ["SoundLength"] = 4850,
+            },
             ["voice_en_story_1002_101047_194BCC26_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101047_194BCC26_f",
                 ["SoundLength"] = 9080,
+            },
+            ["voice_en_story_1002_101047_194BCC26_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101047_194BCC26_m",
+                ["SoundLength"] = 6540,
             },
             ["voice_en_story_1002_101048_194BDAEA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13062,6 +13526,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101048_194BDB3E_f",
                 ["SoundLength"] = 5800,
+            },
+            ["voice_en_story_1002_101048_194BDB3E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101048_194BDB3E_m",
+                ["SoundLength"] = 4760,
             },
             ["voice_en_story_1002_101048_194BDB68"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13113,6 +13582,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101048_194BDC8E_f",
                 ["SoundLength"] = 2210,
             },
+            ["voice_en_story_1002_101048_194BDC8E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101048_194BDC8E_m",
+                ["SoundLength"] = 1810,
+            },
             ["voice_en_story_1002_101048_194BDCB8"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101048_194BDCB8",
@@ -13133,6 +13607,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101049_194BEB52_f",
                 ["SoundLength"] = 1700,
             },
+            ["voice_en_story_1002_101049_194BEB52_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101049_194BEB52_m",
+                ["SoundLength"] = 1210,
+            },
             ["voice_en_story_1002_101049_194BEB7C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101049_194BEB7C",
@@ -13148,6 +13627,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101049_194BEBD0_f",
                 ["SoundLength"] = 2070,
             },
+            ["voice_en_story_1002_101049_194BEBD0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101049_194BEBD0_m",
+                ["SoundLength"] = 1410,
+            },
             ["voice_en_story_1002_101049_194BEBFA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101049_194BEBFA",
@@ -13157,6 +13641,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101049_194BEC24_f",
                 ["SoundLength"] = 6000,
+            },
+            ["voice_en_story_1002_101049_194BEC24_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101049_194BEC24_m",
+                ["SoundLength"] = 4920,
             },
             ["voice_en_story_1002_101049_194BEC4E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13183,10 +13672,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101052_194C1C8A",
                 ["SoundLength"] = 3150,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_101052_194C1CB4", MaxKey = "voice_en_story_1002_101070_194D43DB", Loader = function()
-        return {
             ["voice_en_story_1002_101052_194C1CB4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101052_194C1CB4",
@@ -13233,6 +13718,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101054_194C3E2C_f",
                 ["SoundLength"] = 5450,
+            },
+            ["voice_en_story_1002_101054_194C3E2C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101054_194C3E2C_m",
+                ["SoundLength"] = 4990,
             },
             ["voice_en_story_1002_101054_194C3E56"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13339,6 +13829,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101054_194C40A2_f",
                 ["SoundLength"] = 2120,
             },
+            ["voice_en_story_1002_101054_194C40A2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101054_194C40A2_m",
+                ["SoundLength"] = 1370,
+            },
             ["voice_en_story_1002_101054_194C40CC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101054_194C40CC",
@@ -13363,6 +13858,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101054_194C4174_f",
                 ["SoundLength"] = 1540,
+            },
+            ["voice_en_story_1002_101054_194C4174_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101054_194C4174_m",
+                ["SoundLength"] = 1280,
             },
             ["voice_en_story_1002_101054_194C419E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13404,10 +13904,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101054_194C42C4_f",
                 ["SoundLength"] = 8700,
             },
+            ["voice_en_story_1002_101054_194C42C4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101054_194C42C4_m",
+                ["SoundLength"] = 8260,
+            },
             ["voice_en_story_1002_101054_194C42EE_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101054_194C42EE_f",
                 ["SoundLength"] = 6010,
+            },
+            ["voice_en_story_1002_101054_194C42EE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101054_194C42EE_m",
+                ["SoundLength"] = 4900,
             },
             ["voice_en_story_1002_101054_194C4318"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13428,6 +13938,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101054_194C4396_f",
                 ["SoundLength"] = 3160,
+            },
+            ["voice_en_story_1002_101054_194C4396_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101054_194C4396_m",
+                ["SoundLength"] = 2190,
             },
             ["voice_en_story_1002_101054_194C43C0"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13458,6 +13973,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101056_194C5E2A_f",
                 ["SoundLength"] = 7740,
+            },
+            ["voice_en_story_1002_101056_194C5E2A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101056_194C5E2A_m",
+                ["SoundLength"] = 6520,
             },
             ["voice_en_story_1002_101056_194C5E54"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13499,10 +14019,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101056_194C5F50_f",
                 ["SoundLength"] = 5450,
             },
+            ["voice_en_story_1002_101056_194C5F50_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101056_194C5F50_m",
+                ["SoundLength"] = 5210,
+            },
             ["voice_en_story_1002_101056_194C5F7A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101056_194C5F7A_f",
                 ["SoundLength"] = 6960,
+            },
+            ["voice_en_story_1002_101056_194C5F7A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101056_194C5F7A_m",
+                ["SoundLength"] = 6760,
             },
             ["voice_en_story_1002_101056_194C5FA4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13609,10 +14139,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101058_194C80F2_f",
                 ["SoundLength"] = 10570,
             },
+            ["voice_en_story_1002_101058_194C80F2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101058_194C80F2_m",
+                ["SoundLength"] = 9940,
+            },
             ["voice_en_story_1002_101058_194C811C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101058_194C811C_f",
                 ["SoundLength"] = 9720,
+            },
+            ["voice_en_story_1002_101058_194C811C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101058_194C811C_m",
+                ["SoundLength"] = 9150,
             },
             ["voice_en_story_1002_101058_194C8146"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13639,10 +14179,24 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101059_194C8F8C_f",
                 ["SoundLength"] = 3320,
             },
+            ["voice_en_story_1002_101059_194C8F8C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101059_194C8F8C_m",
+                ["SoundLength"] = 3010,
+            },
             ["voice_en_story_1002_101059_194C8FB6_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101059_194C8FB6_f",
                 ["SoundLength"] = 5830,
+            },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101059_194C8FB6_m", MaxKey = "voice_en_story_1002_101073_194D7566", Loader = function()
+        return {
+            ["voice_en_story_1002_101059_194C8FB6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101059_194C8FB6_m",
+                ["SoundLength"] = 5180,
             },
             ["voice_en_story_1002_101059_194C8FE0"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13792,6 +14346,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101061_194CB182_f",
                 ["SoundLength"] = 1840,
             },
+            ["voice_en_story_1002_101061_194CB182_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101061_194CB182_m",
+                ["SoundLength"] = 1150,
+            },
             ["voice_en_story_1002_101061_194CB1AC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101061_194CB1AC",
@@ -13806,6 +14365,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC09A_f",
                 ["SoundLength"] = 700,
+            },
+            ["voice_en_story_1002_101062_194CC09A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC09A_m",
+                ["SoundLength"] = 680,
             },
             ["voice_en_story_1002_101062_194CC0C4_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13822,30 +14386,60 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC0EE_f",
                 ["SoundLength"] = 13350,
             },
+            ["voice_en_story_1002_101062_194CC0EE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC0EE_m",
+                ["SoundLength"] = 10980,
+            },
             ["voice_en_story_1002_101062_194CC118_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC118_f",
                 ["SoundLength"] = 10700,
+            },
+            ["voice_en_story_1002_101062_194CC118_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC118_m",
+                ["SoundLength"] = 8430,
             },
             ["voice_en_story_1002_101062_194CC142_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC142_f",
                 ["SoundLength"] = 7830,
             },
+            ["voice_en_story_1002_101062_194CC142_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC142_m",
+                ["SoundLength"] = 6990,
+            },
             ["voice_en_story_1002_101062_194CC16C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC16C_f",
                 ["SoundLength"] = 13980,
+            },
+            ["voice_en_story_1002_101062_194CC16C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC16C_m",
+                ["SoundLength"] = 10990,
             },
             ["voice_en_story_1002_101062_194CC196_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC196_f",
                 ["SoundLength"] = 13550,
             },
+            ["voice_en_story_1002_101062_194CC196_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC196_m",
+                ["SoundLength"] = 11590,
+            },
             ["voice_en_story_1002_101062_194CC1C0_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC1C0_f",
                 ["SoundLength"] = 12740,
+            },
+            ["voice_en_story_1002_101062_194CC1C0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC1C0_m",
+                ["SoundLength"] = 9970,
             },
             ["voice_en_story_1002_101062_194CC1EA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13872,6 +14466,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC292_f",
                 ["SoundLength"] = 7520,
             },
+            ["voice_en_story_1002_101062_194CC292_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC292_m",
+                ["SoundLength"] = 7670,
+            },
             ["voice_en_story_1002_101062_194CC2BC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC2BC",
@@ -13887,10 +14486,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC310_f",
                 ["SoundLength"] = 3950,
             },
+            ["voice_en_story_1002_101062_194CC310_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC310_m",
+                ["SoundLength"] = 4400,
+            },
             ["voice_en_story_1002_101062_194CC33A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101062_194CC33A_f",
                 ["SoundLength"] = 12100,
+            },
+            ["voice_en_story_1002_101062_194CC33A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101062_194CC33A_m",
+                ["SoundLength"] = 11210,
             },
             ["voice_en_story_1002_101062_194CC364"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13937,6 +14546,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD12D_f",
                 ["SoundLength"] = 3290,
             },
+            ["voice_en_story_1002_101063_194CD12D_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD12D_m",
+                ["SoundLength"] = 3090,
+            },
             ["voice_en_story_1002_101063_194CD1AA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD1AA",
@@ -13945,7 +14559,7 @@ local Data = {
             ["voice_en_story_1002_101063_194CD1D4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD1D4",
-                ["SoundLength"] = 12010,
+                ["SoundLength"] = 10920,
             },
             ["voice_en_story_1002_101063_194CD1FE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13967,10 +14581,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD27C_f",
                 ["SoundLength"] = 8260,
             },
+            ["voice_en_story_1002_101063_194CD27C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD27C_m",
+                ["SoundLength"] = 7590,
+            },
             ["voice_en_story_1002_101063_194CD27D_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD27D_f",
                 ["SoundLength"] = 2190,
+            },
+            ["voice_en_story_1002_101063_194CD27D_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD27D_m",
+                ["SoundLength"] = 1630,
             },
             ["voice_en_story_1002_101063_194CD2A6"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -13985,7 +14609,7 @@ local Data = {
             ["voice_en_story_1002_101063_194CD2FA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD2FA",
-                ["SoundLength"] = 10840,
+                ["SoundLength"] = 10160,
             },
             ["voice_en_story_1002_101063_194CD324"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14002,10 +14626,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD3A1_f",
                 ["SoundLength"] = 8130,
             },
+            ["voice_en_story_1002_101063_194CD3A1_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD3A1_m",
+                ["SoundLength"] = 6090,
+            },
             ["voice_en_story_1002_101063_194CD3A2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD3A2_f",
                 ["SoundLength"] = 10240,
+            },
+            ["voice_en_story_1002_101063_194CD3A2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD3A2_m",
+                ["SoundLength"] = 9540,
             },
             ["voice_en_story_1002_101063_194CD3CC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14047,10 +14681,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD4F2_f",
                 ["SoundLength"] = 2640,
             },
+            ["voice_en_story_1002_101063_194CD4F2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD4F2_m",
+                ["SoundLength"] = 2290,
+            },
             ["voice_en_story_1002_101063_194CD51C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD51C_f",
                 ["SoundLength"] = 4640,
+            },
+            ["voice_en_story_1002_101063_194CD51C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD51C_m",
+                ["SoundLength"] = 3900,
             },
             ["voice_en_story_1002_101063_194CD546"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14067,10 +14711,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD59A_f",
                 ["SoundLength"] = 5450,
             },
+            ["voice_en_story_1002_101063_194CD59A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD59A_m",
+                ["SoundLength"] = 4340,
+            },
             ["voice_en_story_1002_101063_194CD59B_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD59B_f",
                 ["SoundLength"] = 3720,
+            },
+            ["voice_en_story_1002_101063_194CD59B_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD59B_m",
+                ["SoundLength"] = 3700,
             },
             ["voice_en_story_1002_101063_194CD59C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14087,6 +14741,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD59E_f",
                 ["SoundLength"] = 5600,
             },
+            ["voice_en_story_1002_101063_194CD59E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101063_194CD59E_m",
+                ["SoundLength"] = 5310,
+            },
             ["voice_en_story_1002_101063_194CD59F"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101063_194CD59F",
@@ -14097,25 +14756,50 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101065_194CF1D2_f",
                 ["SoundLength"] = 4230,
             },
+            ["voice_en_story_1002_101065_194CF1D2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101065_194CF1D2_m",
+                ["SoundLength"] = 3790,
+            },
             ["voice_en_story_1002_101065_194CF1FC_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101065_194CF1FC_f",
                 ["SoundLength"] = 6010,
+            },
+            ["voice_en_story_1002_101065_194CF1FC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101065_194CF1FC_m",
+                ["SoundLength"] = 5480,
             },
             ["voice_en_story_1002_101065_194CF226_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101065_194CF226_f",
                 ["SoundLength"] = 5570,
             },
+            ["voice_en_story_1002_101065_194CF226_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101065_194CF226_m",
+                ["SoundLength"] = 5180,
+            },
             ["voice_en_story_1002_101066_194D023A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101066_194D023A_f",
                 ["SoundLength"] = 3830,
             },
+            ["voice_en_story_1002_101066_194D023A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101066_194D023A_m",
+                ["SoundLength"] = 3580,
+            },
             ["voice_en_story_1002_101067_194D12A2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101067_194D12A2_f",
                 ["SoundLength"] = 1280,
+            },
+            ["voice_en_story_1002_101067_194D12A2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101067_194D12A2_m",
+                ["SoundLength"] = 820,
             },
             ["voice_en_story_1002_101067_194D12CC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14127,6 +14811,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101067_194D12F6_f",
                 ["SoundLength"] = 4300,
             },
+            ["voice_en_story_1002_101067_194D12F6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101067_194D12F6_m",
+                ["SoundLength"] = 3460,
+            },
             ["voice_en_story_1002_101067_194D1320"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101067_194D1320",
@@ -14137,10 +14826,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101067_194D134A_f",
                 ["SoundLength"] = 10040,
             },
+            ["voice_en_story_1002_101067_194D134A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101067_194D134A_m",
+                ["SoundLength"] = 8700,
+            },
             ["voice_en_story_1002_101067_194D1374_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101067_194D1374_f",
                 ["SoundLength"] = 4910,
+            },
+            ["voice_en_story_1002_101067_194D1374_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101067_194D1374_m",
+                ["SoundLength"] = 5130,
             },
             ["voice_en_story_1002_101068_194D230A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14173,6 +14872,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101069_194D339C_f",
                 ["SoundLength"] = 1420,
             },
+            ["voice_en_story_1002_101069_194D339C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101069_194D339C_m",
+                ["SoundLength"] = 820,
+            },
             ["voice_en_story_1002_101069_194D33C6"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101069_194D33C6",
@@ -14193,10 +14897,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101070_194D43DB",
                 ["SoundLength"] = 12780,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_101070_194D4404", MaxKey = "voice_en_story_1002_101092_194EAD72", Loader = function()
-        return {
             ["voice_en_story_1002_101070_194D4404"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D4404",
@@ -14212,6 +14912,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101070_194D4458_f",
                 ["SoundLength"] = 6310,
             },
+            ["voice_en_story_1002_101070_194D4458_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D4458_m",
+                ["SoundLength"] = 5340,
+            },
             ["voice_en_story_1002_101070_194D4482"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D4482",
@@ -14222,6 +14927,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101070_194D44AC_f",
                 ["SoundLength"] = 4960,
             },
+            ["voice_en_story_1002_101070_194D44AC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D44AC_m",
+                ["SoundLength"] = 5030,
+            },
             ["voice_en_story_1002_101070_194D44D6"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D44D6",
@@ -14231,6 +14941,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D4500_f",
                 ["SoundLength"] = 3730,
+            },
+            ["voice_en_story_1002_101070_194D4500_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D4500_m",
+                ["SoundLength"] = 3120,
             },
             ["voice_en_story_1002_101070_194D452A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14247,15 +14962,30 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101070_194D457E_f",
                 ["SoundLength"] = 2790,
             },
+            ["voice_en_story_1002_101070_194D457E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D457E_m",
+                ["SoundLength"] = 2620,
+            },
             ["voice_en_story_1002_101070_194D45A8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D45A8_f",
                 ["SoundLength"] = 5950,
             },
+            ["voice_en_story_1002_101070_194D45A8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D45A8_m",
+                ["SoundLength"] = 5470,
+            },
             ["voice_en_story_1002_101070_194D45D2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D45D2_f",
                 ["SoundLength"] = 9810,
+            },
+            ["voice_en_story_1002_101070_194D45D2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D45D2_m",
+                ["SoundLength"] = 9900,
             },
             ["voice_en_story_1002_101070_194D45FC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14272,10 +15002,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101070_194D4650_f",
                 ["SoundLength"] = 6870,
             },
+            ["voice_en_story_1002_101070_194D4650_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D4650_m",
+                ["SoundLength"] = 6630,
+            },
             ["voice_en_story_1002_101070_194D467A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D467A_f",
                 ["SoundLength"] = 6510,
+            },
+            ["voice_en_story_1002_101070_194D467A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D467A_m",
+                ["SoundLength"] = 6890,
             },
             ["voice_en_story_1002_101070_194D46A4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14286,6 +15026,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D46CE_f",
                 ["SoundLength"] = 7060,
+            },
+            ["voice_en_story_1002_101070_194D46CE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D46CE_m",
+                ["SoundLength"] = 7170,
             },
             ["voice_en_story_1002_101070_194D46F8"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14302,14 +15047,29 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101070_194D474C_f",
                 ["SoundLength"] = 2900,
             },
+            ["voice_en_story_1002_101070_194D474C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D474C_m",
+                ["SoundLength"] = 3410,
+            },
             ["voice_en_story_1002_101070_194D4776_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D4776_f",
                 ["SoundLength"] = 6880,
             },
+            ["voice_en_story_1002_101070_194D4776_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D4776_m",
+                ["SoundLength"] = 6700,
+            },
             ["voice_en_story_1002_101070_194D47A0_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101070_194D47A0_f",
+                ["SoundLength"] = 4560,
+            },
+            ["voice_en_story_1002_101070_194D47A0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D47A0_m",
                 ["SoundLength"] = 4560,
             },
             ["voice_en_story_1002_101070_194D47CA"] = {
@@ -14337,10 +15097,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101070_194D4872_f",
                 ["SoundLength"] = 3040,
             },
+            ["voice_en_story_1002_101070_194D4872_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101070_194D4872_m",
+                ["SoundLength"] = 2690,
+            },
             ["voice_en_story_1002_101071_194D5442_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101071_194D5442_f",
                 ["SoundLength"] = 9150,
+            },
+            ["voice_en_story_1002_101071_194D5442_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101071_194D5442_m",
+                ["SoundLength"] = 9190,
             },
             ["voice_en_story_1002_101071_194D546C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14382,6 +15152,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101071_194D5592_f",
                 ["SoundLength"] = 5130,
             },
+            ["voice_en_story_1002_101071_194D5592_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101071_194D5592_m",
+                ["SoundLength"] = 4260,
+            },
             ["voice_en_story_1002_101071_194D55BC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101071_194D55BC",
@@ -14402,6 +15177,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101071_194D563A_f",
                 ["SoundLength"] = 7510,
             },
+            ["voice_en_story_1002_101071_194D563A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101071_194D563A_m",
+                ["SoundLength"] = 5910,
+            },
             ["voice_en_story_1002_101073_194D7512"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101073_194D7512",
@@ -14417,6 +15197,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101073_194D7566",
                 ["SoundLength"] = 750,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101073_194D7590", MaxKey = "voice_en_story_1002_101093_194EBF00", Loader = function()
+        return {
             ["voice_en_story_1002_101073_194D7590"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101073_194D7590",
@@ -14442,6 +15226,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101073_194D7638_f",
                 ["SoundLength"] = 9750,
             },
+            ["voice_en_story_1002_101073_194D7638_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101073_194D7638_m",
+                ["SoundLength"] = 8150,
+            },
             ["voice_en_story_1002_101075_194D95E2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101075_194D95E2",
@@ -14461,6 +15250,16 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101075_194D9660",
                 ["SoundLength"] = 10970,
+            },
+            ["voice_en_story_1002_101075_194D9661_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101075_194D9661_f",
+                ["SoundLength"] = 6800,
+            },
+            ["voice_en_story_1002_101075_194D9661_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101075_194D9661_m",
+                ["SoundLength"] = 7680,
             },
             ["voice_en_story_1002_101075_194D968A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14492,6 +15291,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101076_194DA64A_f",
                 ["SoundLength"] = 7190,
             },
+            ["voice_en_story_1002_101076_194DA64A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101076_194DA64A_m",
+                ["SoundLength"] = 6000,
+            },
             ["voice_en_story_1002_101078_194DC71A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC71A",
@@ -14501,6 +15305,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC744_f",
                 ["SoundLength"] = 5070,
+            },
+            ["voice_en_story_1002_101078_194DC744_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101078_194DC744_m",
+                ["SoundLength"] = 4170,
             },
             ["voice_en_story_1002_101078_194DC76E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14512,6 +15321,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC798_f",
                 ["SoundLength"] = 7480,
             },
+            ["voice_en_story_1002_101078_194DC798_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101078_194DC798_m",
+                ["SoundLength"] = 6640,
+            },
             ["voice_en_story_1002_101078_194DC7C2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC7C2",
@@ -14521,6 +15335,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC7EC_f",
                 ["SoundLength"] = 7090,
+            },
+            ["voice_en_story_1002_101078_194DC7EC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101078_194DC7EC_m",
+                ["SoundLength"] = 6110,
             },
             ["voice_en_story_1002_101078_194DC816"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14532,6 +15351,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC840_f",
                 ["SoundLength"] = 15540,
             },
+            ["voice_en_story_1002_101078_194DC840_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101078_194DC840_m",
+                ["SoundLength"] = 13010,
+            },
             ["voice_en_story_1002_101078_194DC86A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC86A",
@@ -14542,6 +15366,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC894_f",
                 ["SoundLength"] = 11810,
             },
+            ["voice_en_story_1002_101078_194DC894_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101078_194DC894_m",
+                ["SoundLength"] = 10450,
+            },
             ["voice_en_story_1002_101078_194DC8BE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC8BE",
@@ -14551,6 +15380,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC8E8_f",
                 ["SoundLength"] = 11840,
+            },
+            ["voice_en_story_1002_101078_194DC8E8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101078_194DC8E8_m",
+                ["SoundLength"] = 10620,
             },
             ["voice_en_story_1002_101078_194DC912"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14572,6 +15406,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC990_f",
                 ["SoundLength"] = 4950,
             },
+            ["voice_en_story_1002_101078_194DC990_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101078_194DC990_m",
+                ["SoundLength"] = 5310,
+            },
             ["voice_en_story_1002_101078_194DC9BA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101078_194DC9BA",
@@ -14592,10 +15431,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101078_194DD783_f",
                 ["SoundLength"] = 7990,
             },
+            ["voice_en_story_1002_101078_194DD783_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101078_194DD783_m",
+                ["SoundLength"] = 5950,
+            },
             ["voice_en_story_1002_101079_194DD782_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101079_194DD782_f",
                 ["SoundLength"] = 6410,
+            },
+            ["voice_en_story_1002_101079_194DD782_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101079_194DD782_m",
+                ["SoundLength"] = 5380,
             },
             ["voice_en_story_1002_101080_194DE7EA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14757,6 +15606,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101083_194E1922_f",
                 ["SoundLength"] = 2140,
             },
+            ["voice_en_story_1002_101083_194E1922_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101083_194E1922_m",
+                ["SoundLength"] = 2890,
+            },
             ["voice_en_story_1002_101083_194E194C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101083_194E194C",
@@ -14786,6 +15640,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101083_194E1A48_f",
                 ["SoundLength"] = 4000,
+            },
+            ["voice_en_story_1002_101083_194E1A48_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101083_194E1A48_m",
+                ["SoundLength"] = 3500,
             },
             ["voice_en_story_1002_101083_194E1A72"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -14877,6 +15736,16 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101083_194E1C16",
                 ["SoundLength"] = 6370,
             },
+            ["voice_en_story_1002_101083_194E1C17"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101083_194E1C17",
+                ["SoundLength"] = 11200,
+            },
+            ["voice_en_story_1002_101083_194E1C18"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101083_194E1C18",
+                ["SoundLength"] = 7850,
+            },
             ["voice_en_story_1002_101083_194E1C40"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101083_194E1C40",
@@ -14962,6 +15831,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101085_194E3B18_f",
                 ["SoundLength"] = 10700,
             },
+            ["voice_en_story_1002_101085_194E3B18_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101085_194E3B18_m",
+                ["SoundLength"] = 9420,
+            },
             ["voice_en_story_1002_101085_194E3B42"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101085_194E3B42",
@@ -15012,6 +15886,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101087_194E5B94_f",
                 ["SoundLength"] = 8730,
             },
+            ["voice_en_story_1002_101087_194E5B94_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101087_194E5B94_m",
+                ["SoundLength"] = 8030,
+            },
             ["voice_en_story_1002_101087_194E5BBE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101087_194E5BBE",
@@ -15021,6 +15900,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101087_194E5BE8_f",
                 ["SoundLength"] = 7040,
+            },
+            ["voice_en_story_1002_101087_194E5BE8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101087_194E5BE8_m",
+                ["SoundLength"] = 6800,
             },
             ["voice_en_story_1002_101089_194E7B92"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15097,6 +15981,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8CA2_f",
                 ["SoundLength"] = 3490,
             },
+            ["voice_en_story_1002_101090_194E8CA2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101090_194E8CA2_m",
+                ["SoundLength"] = 2250,
+            },
             ["voice_en_story_1002_101090_194E8CCC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8CCC",
@@ -15106,6 +15995,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8CF6_f",
                 ["SoundLength"] = 7260,
+            },
+            ["voice_en_story_1002_101090_194E8CF6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101090_194E8CF6_m",
+                ["SoundLength"] = 6610,
             },
             ["voice_en_story_1002_101090_194E8D20"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15117,6 +16011,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8D4A_f",
                 ["SoundLength"] = 1730,
             },
+            ["voice_en_story_1002_101090_194E8D4A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101090_194E8D4A_m",
+                ["SoundLength"] = 1130,
+            },
             ["voice_en_story_1002_101090_194E8D74"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8D74",
@@ -15127,10 +16026,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8D75_f",
                 ["SoundLength"] = 12010,
             },
+            ["voice_en_story_1002_101090_194E8D75_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101090_194E8D75_m",
+                ["SoundLength"] = 10350,
+            },
             ["voice_en_story_1002_101090_194E8D76_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8D76_f",
                 ["SoundLength"] = 4750,
+            },
+            ["voice_en_story_1002_101090_194E8D76_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101090_194E8D76_m",
+                ["SoundLength"] = 3860,
             },
             ["voice_en_story_1002_101090_194E8D9E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15152,15 +16061,30 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8E1C_f",
                 ["SoundLength"] = 850,
             },
+            ["voice_en_story_1002_101090_194E8E1C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101090_194E8E1C_m",
+                ["SoundLength"] = 840,
+            },
             ["voice_en_story_1002_101090_194E8E46_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8E46_f",
                 ["SoundLength"] = 9040,
             },
+            ["voice_en_story_1002_101090_194E8E46_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101090_194E8E46_m",
+                ["SoundLength"] = 10010,
+            },
             ["voice_en_story_1002_101090_194E8E70_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101090_194E8E70_f",
                 ["SoundLength"] = 5940,
+            },
+            ["voice_en_story_1002_101090_194E8E70_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101090_194E8E70_m",
+                ["SoundLength"] = 5640,
             },
             ["voice_en_story_1002_101090_194E8E9A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15171,6 +16095,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101091_194E9C62_f",
                 ["SoundLength"] = 4710,
+            },
+            ["voice_en_story_1002_101091_194E9C62_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101091_194E9C62_m",
+                ["SoundLength"] = 3180,
             },
             ["voice_en_story_1002_101092_194EACCA_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15202,10 +16131,6 @@ local Data = {
                 ["SoundLength"] = 2410,
                 ["SoundVolume"] = 0,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_101093_194EBD32", MaxKey = "voice_en_story_1002_101110_194FD4EC", Loader = function()
-        return {
             ["voice_en_story_1002_101093_194EBD32"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101093_194EBD32",
@@ -15215,6 +16140,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101093_194EBD5C_f",
                 ["SoundLength"] = 3370,
+            },
+            ["voice_en_story_1002_101093_194EBD5C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101093_194EBD5C_m",
+                ["SoundLength"] = 2800,
             },
             ["voice_en_story_1002_101093_194EBD86"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15231,10 +16161,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101093_194EBDDA_f",
                 ["SoundLength"] = 3750,
             },
+            ["voice_en_story_1002_101093_194EBDDA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101093_194EBDDA_m",
+                ["SoundLength"] = 3040,
+            },
             ["voice_en_story_1002_101093_194EBE04_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101093_194EBE04_f",
                 ["SoundLength"] = 4180,
+            },
+            ["voice_en_story_1002_101093_194EBE04_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101093_194EBE04_m",
+                ["SoundLength"] = 3330,
             },
             ["voice_en_story_1002_101093_194EBE58"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15245,6 +16185,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101093_194EBE82_f",
                 ["SoundLength"] = 2310,
+            },
+            ["voice_en_story_1002_101093_194EBE82_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101093_194EBE82_m",
+                ["SoundLength"] = 2190,
             },
             ["voice_en_story_1002_101093_194EBEAC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15261,6 +16206,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101093_194EBF00",
                 ["SoundLength"] = 7340,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101093_194EBF2A", MaxKey = "voice_en_story_1002_101108_194FB542", Loader = function()
+        return {
             ["voice_en_story_1002_101093_194EBF2A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101093_194EBF2A",
@@ -15286,6 +16235,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101094_194ECDC4_f",
                 ["SoundLength"] = 700,
             },
+            ["voice_en_story_1002_101094_194ECDC4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101094_194ECDC4_m",
+                ["SoundLength"] = 630,
+            },
             ["voice_en_story_1002_101094_194ECDEE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101094_194ECDEE",
@@ -15299,12 +16253,22 @@ local Data = {
             ["voice_en_story_1002_101094_194ECE42_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101094_194ECE42_f",
-                ["SoundLength"] = 4070,
+                ["SoundLength"] = 4350,
+            },
+            ["voice_en_story_1002_101094_194ECE42_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101094_194ECE42_m",
+                ["SoundLength"] = 3950,
             },
             ["voice_en_story_1002_101094_194ECE6C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101094_194ECE6C",
                 ["SoundLength"] = 1720,
+            },
+            ["voice_en_story_1002_101094_194ECE6D"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101094_194ECE6D",
+                ["SoundLength"] = 13520,
             },
             ["voice_en_story_1002_101094_194ECE96"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15326,6 +16290,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101096_194EEE6A_f",
                 ["SoundLength"] = 1240,
             },
+            ["voice_en_story_1002_101096_194EEE6A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101096_194EEE6A_m",
+                ["SoundLength"] = 960,
+            },
             ["voice_en_story_1002_101096_194EEEBE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101096_194EEEBE",
@@ -15340,6 +16309,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101097_194EFF26_f",
                 ["SoundLength"] = 1350,
+            },
+            ["voice_en_story_1002_101097_194EFF26_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101097_194EFF26_m",
+                ["SoundLength"] = 1080,
             },
             ["voice_en_story_1002_101097_194EFF50"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15386,6 +16360,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101097_194F00A0_f",
                 ["SoundLength"] = 1330,
             },
+            ["voice_en_story_1002_101097_194F00A0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101097_194F00A0_m",
+                ["SoundLength"] = 730,
+            },
             ["voice_en_story_1002_101097_194F00CA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101097_194F00CA",
@@ -15410,6 +16389,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101098_194F0FB8_f",
                 ["SoundLength"] = 1710,
+            },
+            ["voice_en_story_1002_101098_194F0FB8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101098_194F0FB8_m",
+                ["SoundLength"] = 1090,
             },
             ["voice_en_story_1002_101098_194F0FE2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15446,6 +16430,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101098_194F10DE_f",
                 ["SoundLength"] = 2290,
             },
+            ["voice_en_story_1002_101098_194F10DE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101098_194F10DE_m",
+                ["SoundLength"] = 2430,
+            },
             ["voice_en_story_1002_101098_194F1108"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101098_194F1108",
@@ -15476,30 +16465,60 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101099_194F204A_f",
                 ["SoundLength"] = 4300,
             },
+            ["voice_en_story_1002_101099_194F204A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F204A_m",
+                ["SoundLength"] = 3270,
+            },
             ["voice_en_story_1002_101099_194F2074_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101099_194F2074_f",
                 ["SoundLength"] = 7870,
+            },
+            ["voice_en_story_1002_101099_194F2074_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F2074_m",
+                ["SoundLength"] = 6090,
             },
             ["voice_en_story_1002_101099_194F209E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101099_194F209E_f",
                 ["SoundLength"] = 12450,
             },
+            ["voice_en_story_1002_101099_194F209E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F209E_m",
+                ["SoundLength"] = 10300,
+            },
             ["voice_en_story_1002_101099_194F20C8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101099_194F20C8_f",
                 ["SoundLength"] = 6380,
+            },
+            ["voice_en_story_1002_101099_194F20C8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F20C8_m",
+                ["SoundLength"] = 4860,
             },
             ["voice_en_story_1002_101099_194F20F2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101099_194F20F2_f",
                 ["SoundLength"] = 14150,
             },
+            ["voice_en_story_1002_101099_194F20F2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F20F2_m",
+                ["SoundLength"] = 13540,
+            },
             ["voice_en_story_1002_101099_194F211C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101099_194F211C_f",
                 ["SoundLength"] = 18120,
+            },
+            ["voice_en_story_1002_101099_194F211C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F211C_m",
+                ["SoundLength"] = 14130,
             },
             ["voice_en_story_1002_101099_194F2146"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15516,10 +16535,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101099_194F219A",
                 ["SoundLength"] = 1100,
             },
+            ["voice_en_story_1002_101099_194F219B"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F219B",
+                ["SoundLength"] = 500,
+            },
             ["voice_en_story_1002_101099_194F21C4_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101099_194F21C4_f",
                 ["SoundLength"] = 1360,
+            },
+            ["voice_en_story_1002_101099_194F21C4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F21C4_m",
+                ["SoundLength"] = 790,
             },
             ["voice_en_story_1002_101099_194F21EE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15536,10 +16565,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101099_194F2242_f",
                 ["SoundLength"] = 5730,
             },
+            ["voice_en_story_1002_101099_194F2242_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F2242_m",
+                ["SoundLength"] = 4850,
+            },
             ["voice_en_story_1002_101099_194F226C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101099_194F226C_f",
                 ["SoundLength"] = 4680,
+            },
+            ["voice_en_story_1002_101099_194F226C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F226C_m",
+                ["SoundLength"] = 3720,
             },
             ["voice_en_story_1002_101099_194F2296"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15551,15 +16590,30 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101099_194F22C0_f",
                 ["SoundLength"] = 890,
             },
+            ["voice_en_story_1002_101099_194F22C0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101099_194F22C0_m",
+                ["SoundLength"] = 730,
+            },
             ["voice_en_story_1002_101100_194F300A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101100_194F300A_f",
-                ["SoundLength"] = 5130,
+                ["SoundLength"] = 4210,
+            },
+            ["voice_en_story_1002_101100_194F300A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101100_194F300A_m",
+                ["SoundLength"] = 3780,
             },
             ["voice_en_story_1002_101100_194F3034_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101100_194F3034_f",
                 ["SoundLength"] = 5540,
+            },
+            ["voice_en_story_1002_101100_194F3034_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101100_194F3034_m",
+                ["SoundLength"] = 4120,
             },
             ["voice_en_story_1002_101101_194F4072"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15593,6 +16647,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101102_194F5105_f",
                 ["SoundLength"] = 1490,
             },
+            ["voice_en_story_1002_101102_194F5105_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F5105_m",
+                ["SoundLength"] = 920,
+            },
             ["voice_en_story_1002_101102_194F5158_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F5158_f",
@@ -15608,10 +16667,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101102_194F5182_f",
                 ["SoundLength"] = 1490,
             },
+            ["voice_en_story_1002_101102_194F5182_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F5182_m",
+                ["SoundLength"] = 1070,
+            },
             ["voice_en_story_1002_101102_194F51D6_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F51D6_f",
                 ["SoundLength"] = 4420,
+            },
+            ["voice_en_story_1002_101102_194F51D6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F51D6_m",
+                ["SoundLength"] = 3980,
             },
             ["voice_en_story_1002_101102_194F5200"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15637,6 +16706,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F52A8_f",
                 ["SoundLength"] = 3040,
+            },
+            ["voice_en_story_1002_101102_194F52A8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F52A8_m",
+                ["SoundLength"] = 2200,
             },
             ["voice_en_story_1002_101102_194F52D2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15676,7 +16750,7 @@ local Data = {
             ["voice_en_story_1002_101102_194F53F8"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F53F8",
-                ["SoundLength"] = 11890,
+                ["SoundLength"] = 14630,
             },
             ["voice_en_story_1002_101102_194F5422"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15708,6 +16782,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101102_194F54F4_f",
                 ["SoundLength"] = 9190,
             },
+            ["voice_en_story_1002_101102_194F54F4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F54F4_m",
+                ["SoundLength"] = 7250,
+            },
             ["voice_en_story_1002_101102_194F551E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F551E",
@@ -15723,15 +16802,40 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101102_194F5572_f",
                 ["SoundLength"] = 1390,
             },
+            ["voice_en_story_1002_101102_194F5572_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F5572_m",
+                ["SoundLength"] = 800,
+            },
+            ["voice_en_story_1002_101102_194F55F0_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F55F0_f",
+                ["SoundLength"] = 4350,
+            },
+            ["voice_en_story_1002_101102_194F55F0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F55F0_m",
+                ["SoundLength"] = 3940,
+            },
             ["voice_en_story_1002_101102_194F5644_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F5644_f",
                 ["SoundLength"] = 8090,
             },
+            ["voice_en_story_1002_101102_194F5644_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F5644_m",
+                ["SoundLength"] = 7900,
+            },
             ["voice_en_story_1002_101102_194F566E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F566E_f",
                 ["SoundLength"] = 14970,
+            },
+            ["voice_en_story_1002_101102_194F566E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F566E_m",
+                ["SoundLength"] = 12950,
             },
             ["voice_en_story_1002_101102_194F5698"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15742,6 +16846,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F56C2_f",
                 ["SoundLength"] = 10490,
+            },
+            ["voice_en_story_1002_101102_194F56C2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F56C2_m",
+                ["SoundLength"] = 8640,
             },
             ["voice_en_story_1002_101102_194F56EC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15767,6 +16876,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101102_194F5794_f",
                 ["SoundLength"] = 1780,
+            },
+            ["voice_en_story_1002_101102_194F5794_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F5794_m",
+                ["SoundLength"] = 1460,
             },
             ["voice_en_story_1002_101102_194F57BE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15818,6 +16932,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101102_194F5938_f",
                 ["SoundLength"] = 1920,
             },
+            ["voice_en_story_1002_101102_194F5938_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101102_194F5938_m",
+                ["SoundLength"] = 1680,
+            },
             ["voice_en_story_1002_101103_194F6142"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101103_194F6142",
@@ -15848,6 +16967,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101105_194F8290_f",
                 ["SoundLength"] = 2810,
             },
+            ["voice_en_story_1002_101105_194F8290_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101105_194F8290_m",
+                ["SoundLength"] = 2370,
+            },
             ["voice_en_story_1002_101105_194F82BA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101105_194F82BA",
@@ -15857,6 +16981,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101105_194F82E4_f",
                 ["SoundLength"] = 6130,
+            },
+            ["voice_en_story_1002_101105_194F82E4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101105_194F82E4_m",
+                ["SoundLength"] = 4510,
             },
             ["voice_en_story_1002_101105_194F830E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15873,6 +17002,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101105_194F8362_f",
                 ["SoundLength"] = 1910,
             },
+            ["voice_en_story_1002_101105_194F8362_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101105_194F8362_m",
+                ["SoundLength"] = 1430,
+            },
             ["voice_en_story_1002_101105_194F838C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101105_194F838C",
@@ -15883,6 +17017,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101105_194F838D_f",
                 ["SoundLength"] = 2140,
             },
+            ["voice_en_story_1002_101105_194F838D_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101105_194F838D_m",
+                ["SoundLength"] = 1760,
+            },
             ["voice_en_story_1002_101105_194F83B6"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101105_194F83B6",
@@ -15892,6 +17031,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101105_194F83E0_f",
                 ["SoundLength"] = 7590,
+            },
+            ["voice_en_story_1002_101105_194F83E0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101105_194F83E0_m",
+                ["SoundLength"] = 5530,
             },
             ["voice_en_story_1002_101105_194F840A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15918,6 +17062,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101105_194F8488_f",
                 ["SoundLength"] = 8280,
             },
+            ["voice_en_story_1002_101105_194F8488_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101105_194F8488_m",
+                ["SoundLength"] = 6540,
+            },
             ["voice_en_story_1002_101105_194F8489"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101105_194F8489",
@@ -15937,6 +17086,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101105_194F8506_f",
                 ["SoundLength"] = 1070,
+            },
+            ["voice_en_story_1002_101105_194F8506_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101105_194F8506_m",
+                ["SoundLength"] = 850,
             },
             ["voice_en_story_1002_101106_194F927A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -15983,10 +17137,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101108_194FB34A_f",
                 ["SoundLength"] = 1300,
             },
+            ["voice_en_story_1002_101108_194FB34A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101108_194FB34A_m",
+                ["SoundLength"] = 790,
+            },
             ["voice_en_story_1002_101108_194FB374_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101108_194FB374_f",
                 ["SoundLength"] = 7060,
+            },
+            ["voice_en_story_1002_101108_194FB374_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101108_194FB374_m",
+                ["SoundLength"] = 5230,
             },
             ["voice_en_story_1002_101108_194FB39E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16007,6 +17171,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101108_194FB41C_f",
                 ["SoundLength"] = 1520,
+            },
+            ["voice_en_story_1002_101108_194FB41C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101108_194FB41C_m",
+                ["SoundLength"] = 1180,
             },
             ["voice_en_story_1002_101108_194FB446"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16043,10 +17212,19 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101108_194FB542",
                 ["SoundLength"] = 5120,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101108_194FB56C_f", MaxKey = "voice_en_story_1002_101131_19512DA0", Loader = function()
+        return {
             ["voice_en_story_1002_101108_194FB56C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101108_194FB56C_f",
                 ["SoundLength"] = 7850,
+            },
+            ["voice_en_story_1002_101108_194FB56C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101108_194FB56C_m",
+                ["SoundLength"] = 7490,
             },
             ["voice_en_story_1002_101108_194FB596"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16072,6 +17250,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101108_194FB63E_f",
                 ["SoundLength"] = 2230,
+            },
+            ["voice_en_story_1002_101108_194FB63E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101108_194FB63E_m",
+                ["SoundLength"] = 1650,
             },
             ["voice_en_story_1002_101108_194FB668"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16177,10 +17360,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101109_194FC4AE_f",
                 ["SoundLength"] = 4730,
             },
+            ["voice_en_story_1002_101109_194FC4AE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101109_194FC4AE_m",
+                ["SoundLength"] = 4160,
+            },
             ["voice_en_story_1002_101109_194FC4D8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101109_194FC4D8_f",
                 ["SoundLength"] = 4780,
+            },
+            ["voice_en_story_1002_101109_194FC4D8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101109_194FC4D8_m",
+                ["SoundLength"] = 4460,
             },
             ["voice_en_story_1002_101110_194FD41A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16218,10 +17411,6 @@ local Data = {
                 ["SoundLength"] = 3830,
                 ["SoundVolume"] = 0,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_101110_194FD516", MaxKey = "voice_en_story_1002_101177_19541F7C", Loader = function()
-        return {
             ["voice_en_story_1002_101110_194FD516"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101110_194FD516",
@@ -16233,40 +17422,80 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101111_194FE482_f",
                 ["SoundLength"] = 2480,
             },
+            ["voice_en_story_1002_101111_194FE482_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101111_194FE482_m",
+                ["SoundLength"] = 1880,
+            },
             ["voice_en_story_1002_101111_194FE4AC_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101111_194FE4AC_f",
                 ["SoundLength"] = 2390,
+            },
+            ["voice_en_story_1002_101111_194FE4AC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101111_194FE4AC_m",
+                ["SoundLength"] = 1620,
             },
             ["voice_en_story_1002_101111_194FE4D6_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101111_194FE4D6_f",
                 ["SoundLength"] = 3970,
             },
+            ["voice_en_story_1002_101111_194FE4D6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101111_194FE4D6_m",
+                ["SoundLength"] = 3510,
+            },
             ["voice_en_story_1002_101111_194FE500_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101111_194FE500_f",
                 ["SoundLength"] = 4530,
+            },
+            ["voice_en_story_1002_101111_194FE500_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101111_194FE500_m",
+                ["SoundLength"] = 2850,
             },
             ["voice_en_story_1002_101111_194FE52A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101111_194FE52A_f",
                 ["SoundLength"] = 5670,
             },
+            ["voice_en_story_1002_101111_194FE52A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101111_194FE52A_m",
+                ["SoundLength"] = 3920,
+            },
             ["voice_en_story_1002_101111_194FE554_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101111_194FE554_f",
                 ["SoundLength"] = 3760,
+            },
+            ["voice_en_story_1002_101111_194FE554_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101111_194FE554_m",
+                ["SoundLength"] = 2040,
             },
             ["voice_en_story_1002_101111_194FE57E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101111_194FE57E_f",
                 ["SoundLength"] = 7620,
             },
+            ["voice_en_story_1002_101111_194FE57E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101111_194FE57E_m",
+                ["SoundLength"] = 5380,
+            },
             ["voice_en_story_1002_101111_194FE5A8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101111_194FE5A8_f",
                 ["SoundLength"] = 2430,
+            },
+            ["voice_en_story_1002_101111_194FE5A8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101111_194FE5A8_m",
+                ["SoundLength"] = 1960,
             },
             ["voice_en_story_1002_101113_191B889A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16376,27 +17605,52 @@ local Data = {
             ["voice_en_story_1002_101120_191B9902_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101120_191B9902_f",
-                ["SoundLength"] = 1380,
+                ["SoundLength"] = 1190,
+            },
+            ["voice_en_story_1002_101120_191B9902_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101120_191B9902_m",
+                ["SoundLength"] = 980,
             },
             ["voice_en_story_1002_101120_191B992C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101120_191B992C_f",
-                ["SoundLength"] = 1580,
+                ["SoundLength"] = 1420,
+            },
+            ["voice_en_story_1002_101120_191B992C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101120_191B992C_m",
+                ["SoundLength"] = 1170,
             },
             ["voice_en_story_1002_101120_191B9956_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101120_191B9956_f",
-                ["SoundLength"] = 1990,
+                ["SoundLength"] = 1810,
+            },
+            ["voice_en_story_1002_101120_191B9956_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101120_191B9956_m",
+                ["SoundLength"] = 1780,
             },
             ["voice_en_story_1002_101120_191B9980"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101120_191B9980",
-                ["SoundLength"] = 2820,
+                ["SoundLength"] = 2280,
             },
             ["voice_en_story_1002_101120_191B99AA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101120_191B99AA",
-                ["SoundLength"] = 4020,
+                ["SoundLength"] = 5530,
+            },
+            ["voice_en_story_1002_101121_19508891_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101121_19508891_f",
+                ["SoundLength"] = 2890,
+            },
+            ["voice_en_story_1002_101121_19508891_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101121_19508891_m",
+                ["SoundLength"] = 2540,
             },
             ["voice_en_story_1002_101121_19508892"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16412,6 +17666,21 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101121_195088E6",
                 ["SoundLength"] = 14270,
+            },
+            ["voice_en_story_1002_101121_195088E7"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101121_195088E7",
+                ["SoundLength"] = 22660,
+            },
+            ["voice_en_story_1002_101121_195088E8"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101121_195088E8",
+                ["SoundLength"] = 9950,
+            },
+            ["voice_en_story_1002_101121_195088E9"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101121_195088E9",
+                ["SoundLength"] = 12780,
             },
             ["voice_en_story_1002_101121_19508910"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16457,20 +17726,25 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101125_1950CA32",
                 ["SoundLength"] = 1280,
             },
+            ["voice_en_story_1002_101125_1950CA5B"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101125_1950CA5B",
+                ["SoundLength"] = 7370,
+            },
             ["voice_en_story_1002_101125_1950CA5C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101125_1950CA5C",
-                ["SoundLength"] = 7150,
+                ["SoundLength"] = 8550,
             },
             ["voice_en_story_1002_101125_1950CA86"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101125_1950CA86",
-                ["SoundLength"] = 7310,
+                ["SoundLength"] = 5380,
             },
             ["voice_en_story_1002_101125_1950CA87"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101125_1950CA87",
-                ["SoundLength"] = 4610,
+                ["SoundLength"] = 5510,
             },
             ["voice_en_story_1002_101125_1950CA88"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16507,15 +17781,30 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101125_1950CA94_f",
                 ["SoundLength"] = 8520,
             },
+            ["voice_en_story_1002_101125_1950CA94_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101125_1950CA94_m",
+                ["SoundLength"] = 6390,
+            },
             ["voice_en_story_1002_101125_1950CA95_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101125_1950CA95_f",
                 ["SoundLength"] = 3730,
             },
+            ["voice_en_story_1002_101125_1950CA95_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101125_1950CA95_m",
+                ["SoundLength"] = 4170,
+            },
             ["voice_en_story_1002_101126_1950DA9A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101126_1950DA9A_f",
                 ["SoundLength"] = 5810,
+            },
+            ["voice_en_story_1002_101126_1950DA9A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101126_1950DA9A_m",
+                ["SoundLength"] = 5280,
             },
             ["voice_en_story_1002_101126_1950DAEE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16542,6 +17831,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101127_1950EB02_f",
                 ["SoundLength"] = 4260,
             },
+            ["voice_en_story_1002_101127_1950EB02_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101127_1950EB02_m",
+                ["SoundLength"] = 3530,
+            },
             ["voice_en_story_1002_101127_1950EB03_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101127_1950EB03_f",
@@ -16557,6 +17851,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101128_1950FB94_f",
                 ["SoundLength"] = 9780,
+            },
+            ["voice_en_story_1002_101128_1950FB94_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101128_1950FB94_m",
+                ["SoundLength"] = 7020,
             },
             ["voice_en_story_1002_101128_1950FBBE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16586,12 +17885,12 @@ local Data = {
             ["voice_en_story_1002_101128_1950FC3E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101128_1950FC3E_f",
-                ["SoundLength"] = 13730,
+                ["SoundLength"] = 22050,
             },
             ["voice_en_story_1002_101128_1950FC3E_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101128_1950FC3E_m",
-                ["SoundLength"] = 13310,
+                ["SoundLength"] = 19070,
             },
             ["voice_en_story_1002_101128_1950FC66"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16603,10 +17902,20 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101128_1950FC90_f",
                 ["SoundLength"] = 7340,
             },
+            ["voice_en_story_1002_101128_1950FC90_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101128_1950FC90_m",
+                ["SoundLength"] = 6900,
+            },
             ["voice_en_story_1002_101128_1950FCBA_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101128_1950FCBA_f",
                 ["SoundLength"] = 4720,
+            },
+            ["voice_en_story_1002_101128_1950FCBA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101128_1950FCBA_m",
+                ["SoundLength"] = 4120,
             },
             ["voice_en_story_1002_101128_1950FCE4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16617,6 +17926,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101128_1950FD0E_f",
                 ["SoundLength"] = 6220,
+            },
+            ["voice_en_story_1002_101128_1950FD0E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101128_1950FD0E_m",
+                ["SoundLength"] = 5700,
             },
             ["voice_en_story_1002_101128_1950FD38"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16655,22 +17969,27 @@ local Data = {
             ["voice_en_story_1002_101130_19511C3A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511C3A",
-                ["SoundLength"] = 8610,
+                ["SoundLength"] = 6970,
             },
             ["voice_en_story_1002_101130_19511C64"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511C64",
-                ["SoundLength"] = 7350,
+                ["SoundLength"] = 6950,
             },
             ["voice_en_story_1002_101130_19511C8E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511C8E",
-                ["SoundLength"] = 18220,
+                ["SoundLength"] = 15020,
             },
             ["voice_en_story_1002_101130_19511CB8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511CB8_f",
                 ["SoundLength"] = 1660,
+            },
+            ["voice_en_story_1002_101130_19511CB8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_19511CB8_m",
+                ["SoundLength"] = 610,
             },
             ["voice_en_story_1002_101130_19511CE2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16680,17 +17999,17 @@ local Data = {
             ["voice_en_story_1002_101130_19511D0C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511D0C",
-                ["SoundLength"] = 1350,
+                ["SoundLength"] = 1030,
             },
             ["voice_en_story_1002_101130_19511D35"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511D35",
-                ["SoundLength"] = 7000,
+                ["SoundLength"] = 6650,
             },
             ["voice_en_story_1002_101130_19511D36"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511D36",
-                ["SoundLength"] = 8680,
+                ["SoundLength"] = 7210,
             },
             ["voice_en_story_1002_101130_19511D60"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16710,7 +18029,7 @@ local Data = {
             ["voice_en_story_1002_101130_19511DDE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511DDE",
-                ["SoundLength"] = 700,
+                ["SoundLength"] = 750,
             },
             ["voice_en_story_1002_101130_19511E08"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16720,52 +18039,72 @@ local Data = {
             ["voice_en_story_1002_101130_19511E32"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511E32",
-                ["SoundLength"] = 3540,
+                ["SoundLength"] = 2720,
             },
             ["voice_en_story_1002_101130_19511E5C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511E5C",
-                ["SoundLength"] = 8830,
+                ["SoundLength"] = 7690,
             },
             ["voice_en_story_1002_101130_19511E86"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511E86",
-                ["SoundLength"] = 4400,
+                ["SoundLength"] = 3960,
             },
             ["voice_en_story_1002_101130_19511EB0_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511EB0_f",
                 ["SoundLength"] = 1390,
             },
+            ["voice_en_story_1002_101130_19511EB0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_19511EB0_m",
+                ["SoundLength"] = 1210,
+            },
             ["voice_en_story_1002_101130_19511EDA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511EDA",
-                ["SoundLength"] = 700,
+                ["SoundLength"] = 550,
             },
             ["voice_en_story_1002_101130_19511F04_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511F04_f",
                 ["SoundLength"] = 9080,
             },
+            ["voice_en_story_1002_101130_19511F04_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_19511F04_m",
+                ["SoundLength"] = 7200,
+            },
             ["voice_en_story_1002_101130_19511F2E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511F2E_f",
                 ["SoundLength"] = 7370,
+            },
+            ["voice_en_story_1002_101130_19511F2E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_19511F2E_m",
+                ["SoundLength"] = 5790,
             },
             ["voice_en_story_1002_101130_19511F58_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511F58_f",
                 ["SoundLength"] = 5080,
             },
+            ["voice_en_story_1002_101130_19511F58_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_19511F58_m",
+                ["SoundLength"] = 5330,
+            },
             ["voice_en_story_1002_101130_19511F82"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511F82",
-                ["SoundLength"] = 1280,
+                ["SoundLength"] = 1380,
             },
             ["voice_en_story_1002_101130_19511FAC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19511FAC",
-                ["SoundLength"] = 3820,
+                ["SoundLength"] = 3740,
             },
             ["voice_en_story_1002_101130_19511FD6"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16782,20 +18121,40 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101130_1951202B_f",
                 ["SoundLength"] = 1310,
             },
+            ["voice_en_story_1002_101130_1951202B_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_1951202B_m",
+                ["SoundLength"] = 1070,
+            },
             ["voice_en_story_1002_101130_1951202C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_1951202C_f",
                 ["SoundLength"] = 4620,
+            },
+            ["voice_en_story_1002_101130_1951202C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_1951202C_m",
+                ["SoundLength"] = 3970,
             },
             ["voice_en_story_1002_101130_1951202D_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_1951202D_f",
                 ["SoundLength"] = 9990,
             },
+            ["voice_en_story_1002_101130_1951202D_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_1951202D_m",
+                ["SoundLength"] = 9990,
+            },
             ["voice_en_story_1002_101130_1951202E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_1951202E_f",
                 ["SoundLength"] = 5150,
+            },
+            ["voice_en_story_1002_101130_1951202E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_1951202E_m",
+                ["SoundLength"] = 5390,
             },
             ["voice_en_story_1002_101130_1951202F"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16805,27 +18164,37 @@ local Data = {
             ["voice_en_story_1002_101130_19512030"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19512030",
-                ["SoundLength"] = 1790,
+                ["SoundLength"] = 1520,
             },
             ["voice_en_story_1002_101130_19512031"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19512031",
-                ["SoundLength"] = 11230,
+                ["SoundLength"] = 9620,
             },
             ["voice_en_story_1002_101130_19512032"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19512032",
-                ["SoundLength"] = 4220,
+                ["SoundLength"] = 3840,
             },
             ["voice_en_story_1002_101130_19512033_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101130_19512033_f",
                 ["SoundLength"] = 870,
             },
+            ["voice_en_story_1002_101130_19512033_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101130_19512033_m",
+                ["SoundLength"] = 680,
+            },
             ["voice_en_story_1002_101131_19512CA2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101131_19512CA2_f",
                 ["SoundLength"] = 1240,
+            },
+            ["voice_en_story_1002_101131_19512CA2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512CA2_m",
+                ["SoundLength"] = 780,
             },
             ["voice_en_story_1002_101131_19512CCC"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16842,6 +18211,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101131_19512D20_f",
                 ["SoundLength"] = 2030,
             },
+            ["voice_en_story_1002_101131_19512D20_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512D20_m",
+                ["SoundLength"] = 1950,
+            },
             ["voice_en_story_1002_101131_19512D74"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101131_19512D74",
@@ -16852,10 +18226,69 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101131_19512D9E",
                 ["SoundLength"] = 5190,
             },
+            ["voice_en_story_1002_101131_19512D9F"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512D9F",
+                ["SoundLength"] = 2380,
+            },
+            ["voice_en_story_1002_101131_19512DA0"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DA0",
+                ["SoundLength"] = 15060,
+            },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101131_19512DA1", MaxKey = "voice_en_story_1002_101208_19561BEA", Loader = function()
+        return {
+            ["voice_en_story_1002_101131_19512DA1"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DA1",
+                ["SoundLength"] = 10100,
+            },
+            ["voice_en_story_1002_101131_19512DA2_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DA2_f",
+                ["SoundLength"] = 2770,
+            },
+            ["voice_en_story_1002_101131_19512DA2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DA2_m",
+                ["SoundLength"] = 1980,
+            },
+            ["voice_en_story_1002_101131_19512DA3"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DA3",
+                ["SoundLength"] = 5530,
+            },
+            ["voice_en_story_1002_101131_19512DA4"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DA4",
+                ["SoundLength"] = 19770,
+            },
+            ["voice_en_story_1002_101131_19512DA5"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DA5",
+                ["SoundLength"] = 5250,
+            },
             ["voice_en_story_1002_101131_19512DC8_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101131_19512DC8_f",
                 ["SoundLength"] = 1190,
+            },
+            ["voice_en_story_1002_101131_19512DC8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DC8_m",
+                ["SoundLength"] = 860,
+            },
+            ["voice_en_story_1002_101131_19512DC9_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DC9_f",
+                ["SoundLength"] = 5500,
+            },
+            ["voice_en_story_1002_101131_19512DC9_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101131_19512DC9_m",
+                ["SoundLength"] = 3210,
             },
             ["voice_en_story_1002_101131_19512DF2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -16887,100 +18320,195 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101131_19512E9A",
                 ["SoundLength"] = 2780,
             },
+            ["voice_en_story_1002_101132_19513D0A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513D0A_f",
+                ["SoundLength"] = 2120,
+            },
             ["voice_en_story_1002_101132_19513D0A_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513D0A_m",
-                ["SoundLength"] = 2530,
+                ["SoundLength"] = 1870,
+            },
+            ["voice_en_story_1002_101132_19513D34_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513D34_f",
+                ["SoundLength"] = 5140,
             },
             ["voice_en_story_1002_101132_19513D34_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513D34_m",
-                ["SoundLength"] = 5590,
+                ["SoundLength"] = 4340,
             },
             ["voice_en_story_1002_101132_19513D5E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513D5E_f",
                 ["SoundLength"] = 1310,
             },
+            ["voice_en_story_1002_101132_19513D5E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513D5E_m",
+                ["SoundLength"] = 750,
+            },
+            ["voice_en_story_1002_101132_19513D88_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513D88_f",
+                ["SoundLength"] = 1310,
+            },
             ["voice_en_story_1002_101132_19513D88_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513D88_m",
-                ["SoundLength"] = 2330,
+                ["SoundLength"] = 1270,
             },
             ["voice_en_story_1002_101132_19513DB2_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513DB2_f",
                 ["SoundLength"] = 1050,
             },
+            ["voice_en_story_1002_101132_19513DB2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513DB2_m",
+                ["SoundLength"] = 790,
+            },
             ["voice_en_story_1002_101132_19513DDC_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513DDC_f",
                 ["SoundLength"] = 5570,
+            },
+            ["voice_en_story_1002_101132_19513DDC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513DDC_m",
+                ["SoundLength"] = 5520,
             },
             ["voice_en_story_1002_101132_19513E06_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513E06_f",
                 ["SoundLength"] = 3120,
             },
+            ["voice_en_story_1002_101132_19513E06_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513E06_m",
+                ["SoundLength"] = 2790,
+            },
+            ["voice_en_story_1002_101132_19513E30_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513E30_f",
+                ["SoundLength"] = 7200,
+            },
             ["voice_en_story_1002_101132_19513E30_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513E30_m",
-                ["SoundLength"] = 6550,
+                ["SoundLength"] = 5910,
+            },
+            ["voice_en_story_1002_101132_19513E5A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513E5A_f",
+                ["SoundLength"] = 4690,
             },
             ["voice_en_story_1002_101132_19513E5A_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513E5A_m",
-                ["SoundLength"] = 5260,
+                ["SoundLength"] = 5210,
+            },
+            ["voice_en_story_1002_101132_19513E84_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513E84_f",
+                ["SoundLength"] = 11110,
             },
             ["voice_en_story_1002_101132_19513E84_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513E84_m",
-                ["SoundLength"] = 10170,
+                ["SoundLength"] = 10200,
             },
             ["voice_en_story_1002_101132_19513EAE_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513EAE_f",
                 ["SoundLength"] = 1440,
             },
+            ["voice_en_story_1002_101132_19513EAE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513EAE_m",
+                ["SoundLength"] = 1110,
+            },
+            ["voice_en_story_1002_101132_19513ED8_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513ED8_f",
+                ["SoundLength"] = 3740,
+            },
             ["voice_en_story_1002_101132_19513ED8_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513ED8_m",
-                ["SoundLength"] = 4410,
+                ["SoundLength"] = 2910,
             },
             ["voice_en_story_1002_101132_19513F02_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513F02_f",
                 ["SoundLength"] = 3780,
             },
+            ["voice_en_story_1002_101132_19513F02_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513F02_m",
+                ["SoundLength"] = 3490,
+            },
+            ["voice_en_story_1002_101132_19513F2C_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513F2C_f",
+                ["SoundLength"] = 1590,
+            },
             ["voice_en_story_1002_101132_19513F2C_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513F2C_m",
-                ["SoundLength"] = 2730,
+                ["SoundLength"] = 1570,
+            },
+            ["voice_en_story_1002_101132_19513F56_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101132_19513F56_f",
+                ["SoundLength"] = 2870,
             },
             ["voice_en_story_1002_101132_19513F56_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101132_19513F56_m",
-                ["SoundLength"] = 3390,
+                ["SoundLength"] = 2790,
             },
             ["voice_en_story_1002_101133_19514D72_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101133_19514D72_f",
                 ["SoundLength"] = 5850,
             },
+            ["voice_en_story_1002_101133_19514D72_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101133_19514D72_m",
+                ["SoundLength"] = 5260,
+            },
             ["voice_en_story_1002_101133_19514D9C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101133_19514D9C_f",
                 ["SoundLength"] = 3540,
+            },
+            ["voice_en_story_1002_101133_19514D9C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101133_19514D9C_m",
+                ["SoundLength"] = 3420,
             },
             ["voice_en_story_1002_101133_19514DC6_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101133_19514DC6_f",
                 ["SoundLength"] = 8790,
             },
+            ["voice_en_story_1002_101133_19514DC6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101133_19514DC6_m",
+                ["SoundLength"] = 7330,
+            },
             ["voice_en_story_1002_101133_19514DF0_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101133_19514DF0_f",
                 ["SoundLength"] = 1920,
+            },
+            ["voice_en_story_1002_101133_19514DF0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101133_19514DF0_m",
+                ["SoundLength"] = 1900,
             },
             ["voice_en_story_1002_101134_19515DDA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17007,6 +18535,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101135_19516E6C_f",
                 ["SoundLength"] = 3650,
             },
+            ["voice_en_story_1002_101135_19516E6C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101135_19516E6C_m",
+                ["SoundLength"] = 3730,
+            },
             ["voice_en_story_1002_101135_19516E96"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101135_19516E96",
@@ -17021,6 +18554,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101135_19516EEA_f",
                 ["SoundLength"] = 1350,
+            },
+            ["voice_en_story_1002_101135_19516EEA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101135_19516EEA_m",
+                ["SoundLength"] = 970,
             },
             ["voice_en_story_1002_101135_19516F14"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17037,6 +18575,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101135_19516F68_f",
                 ["SoundLength"] = 1390,
             },
+            ["voice_en_story_1002_101135_19516F68_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101135_19516F68_m",
+                ["SoundLength"] = 1440,
+            },
             ["voice_en_story_1002_101135_19516F92"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101135_19516F92",
@@ -17051,6 +18594,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101137_19518F12_f",
                 ["SoundLength"] = 2450,
+            },
+            ["voice_en_story_1002_101137_19518F12_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101137_19518F12_m",
+                ["SoundLength"] = 1620,
             },
             ["voice_en_story_1002_101137_19518F3C"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17117,20 +18665,40 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101154_1952A64E_f",
                 ["SoundLength"] = 2850,
             },
+            ["voice_en_story_1002_101154_1952A64E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101154_1952A64E_m",
+                ["SoundLength"] = 2710,
+            },
             ["voice_en_story_1002_101169_19539C12_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101169_19539C12_f",
                 ["SoundLength"] = 4350,
+            },
+            ["voice_en_story_1002_101169_19539C12_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101169_19539C12_m",
+                ["SoundLength"] = 3550,
             },
             ["voice_en_story_1002_101169_19539C3C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101169_19539C3C_f",
                 ["SoundLength"] = 5350,
             },
+            ["voice_en_story_1002_101169_19539C3C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101169_19539C3C_m",
+                ["SoundLength"] = 5010,
+            },
             ["voice_en_story_1002_101170_1953AC7A_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101170_1953AC7A_f",
                 ["SoundLength"] = 1590,
+            },
+            ["voice_en_story_1002_101170_1953AC7A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101170_1953AC7A_m",
+                ["SoundLength"] = 1160,
             },
             ["voice_en_story_1002_101170_1953ACA4"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17146,6 +18714,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101170_1953ACF8_f",
                 ["SoundLength"] = 2880,
+            },
+            ["voice_en_story_1002_101170_1953ACF8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101170_1953ACF8_m",
+                ["SoundLength"] = 3660,
             },
             ["voice_en_story_1002_101171_1953BCE2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17207,6 +18780,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101174_1953EE1A_f",
                 ["SoundLength"] = 1670,
             },
+            ["voice_en_story_1002_101174_1953EE1A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101174_1953EE1A_m",
+                ["SoundLength"] = 1730,
+            },
             ["voice_en_story_1002_101174_1953EE44"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101174_1953EE44",
@@ -17216,6 +18794,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101176_19540EEA_f",
                 ["SoundLength"] = 2410,
+            },
+            ["voice_en_story_1002_101176_19540EEA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101176_19540EEA_m",
+                ["SoundLength"] = 1500,
             },
             ["voice_en_story_1002_101176_19540F14"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17232,10 +18815,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101177_19541F7C",
                 ["SoundLength"] = 9390,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_101177_19541FA6", MaxKey = "voice_en_story_1002_110111_1B90B106", Loader = function()
-        return {
             ["voice_en_story_1002_101177_19541FA6"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101177_19541FA6",
@@ -17281,6 +18860,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101179_1954404C_f",
                 ["SoundLength"] = 2540,
             },
+            ["voice_en_story_1002_101179_1954404C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101179_1954404C_m",
+                ["SoundLength"] = 2210,
+            },
             ["voice_en_story_1002_101179_19544076"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101179_19544076",
@@ -17300,6 +18884,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101179_1954411E_f",
                 ["SoundLength"] = 2800,
+            },
+            ["voice_en_story_1002_101179_1954411E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101179_1954411E_m",
+                ["SoundLength"] = 3040,
             },
             ["voice_en_story_1002_101182_1954715A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17360,6 +18949,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101185_1954A2E6_f",
                 ["SoundLength"] = 6210,
+            },
+            ["voice_en_story_1002_101185_1954A2E6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101185_1954A2E6_m",
+                ["SoundLength"] = 3960,
             },
             ["voice_en_story_1002_101186_1954B2FA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17441,6 +19035,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101194_1955363A_f",
                 ["SoundLength"] = 4650,
             },
+            ["voice_en_story_1002_101194_1955363A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101194_1955363A_m",
+                ["SoundLength"] = 3890,
+            },
             ["voice_en_story_1002_101195_195546A2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101195_195546A2",
@@ -17491,6 +19090,11 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101198_19557804_f",
                 ["SoundLength"] = 7730,
             },
+            ["voice_en_story_1002_101198_19557804_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101198_19557804_m",
+                ["SoundLength"] = 6620,
+            },
             ["voice_en_story_1002_101198_1955782E"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101198_1955782E",
@@ -17500,6 +19104,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101199_19558842_f",
                 ["SoundLength"] = 1140,
+            },
+            ["voice_en_story_1002_101199_19558842_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101199_19558842_m",
+                ["SoundLength"] = 960,
             },
             ["voice_en_story_1002_101200_195598AA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17515,6 +19124,11 @@ local Data = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101201_1955A93C_f",
                 ["SoundLength"] = 9520,
+            },
+            ["voice_en_story_1002_101201_1955A93C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101201_1955A93C_m",
+                ["SoundLength"] = 8480,
             },
             ["voice_en_story_1002_101201_1955A966"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -17536,15 +19150,1203 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_101201_1955A9E4_f",
                 ["SoundLength"] = 2220,
             },
+            ["voice_en_story_1002_101201_1955A9E4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101201_1955A9E4_m",
+                ["SoundLength"] = 1850,
+            },
             ["voice_en_story_1002_101201_1955AA0E_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101201_1955AA0E_f",
                 ["SoundLength"] = 5820,
             },
+            ["voice_en_story_1002_101201_1955AA0E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101201_1955AA0E_m",
+                ["SoundLength"] = 4760,
+            },
             ["voice_en_story_1002_101201_1955AA38_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_101201_1955AA38_f",
                 ["SoundLength"] = 9130,
+            },
+            ["voice_en_story_1002_101201_1955AA38_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101201_1955AA38_m",
+                ["SoundLength"] = 8830,
+            },
+            ["voice_en_story_1002_101204_1955DA4A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101204_1955DA4A",
+                ["SoundLength"] = 3910,
+            },
+            ["voice_en_story_1002_101204_1955DA74"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101204_1955DA74",
+                ["SoundLength"] = 4470,
+            },
+            ["voice_en_story_1002_101205_1955EAB2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101205_1955EAB2",
+                ["SoundLength"] = 3160,
+            },
+            ["voice_en_story_1002_101205_1955EADC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101205_1955EADC",
+                ["SoundLength"] = 5310,
+            },
+            ["voice_en_story_1002_101206_1955FB1A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101206_1955FB1A_f",
+                ["SoundLength"] = 5690,
+            },
+            ["voice_en_story_1002_101206_1955FB1A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101206_1955FB1A_m",
+                ["SoundLength"] = 6580,
+            },
+            ["voice_en_story_1002_101206_1955FB44_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101206_1955FB44_f",
+                ["SoundLength"] = 7290,
+            },
+            ["voice_en_story_1002_101206_1955FB44_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101206_1955FB44_m",
+                ["SoundLength"] = 6380,
+            },
+            ["voice_en_story_1002_101207_19560B82"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101207_19560B82",
+                ["SoundLength"] = 4590,
+            },
+            ["voice_en_story_1002_101207_19560BAC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101207_19560BAC",
+                ["SoundLength"] = 9110,
+            },
+            ["voice_en_story_1002_101207_19560BD6_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101207_19560BD6_f",
+                ["SoundLength"] = 3990,
+            },
+            ["voice_en_story_1002_101207_19560BD6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101207_19560BD6_m",
+                ["SoundLength"] = 3380,
+            },
+            ["voice_en_story_1002_101208_19561BEA"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101208_19561BEA",
+                ["SoundLength"] = 2030,
+            },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101209_19562C52", MaxKey = "voice_en_story_1002_101259_19596318_f", Loader = function()
+        return {
+            ["voice_en_story_1002_101209_19562C52"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101209_19562C52",
+                ["SoundLength"] = 5540,
+            },
+            ["voice_en_story_1002_101209_19562C7C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101209_19562C7C",
+                ["SoundLength"] = 9460,
+            },
+            ["voice_en_story_1002_101210_19563CBA_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101210_19563CBA_f",
+                ["SoundLength"] = 2860,
+            },
+            ["voice_en_story_1002_101210_19563CBA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101210_19563CBA_m",
+                ["SoundLength"] = 2710,
+            },
+            ["voice_en_story_1002_101210_19563CE4_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101210_19563CE4_f",
+                ["SoundLength"] = 3010,
+            },
+            ["voice_en_story_1002_101210_19563CE4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101210_19563CE4_m",
+                ["SoundLength"] = 2540,
+            },
+            ["voice_en_story_1002_101210_19563D0E_1"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101210_19563D0E_1",
+                ["SoundLength"] = 1590,
+            },
+            ["voice_en_story_1002_101210_19563D0E_2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101210_19563D0E_2",
+                ["SoundLength"] = 1460,
+            },
+            ["voice_en_story_1002_101211_19564D22"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101211_19564D22",
+                ["SoundLength"] = 8650,
+            },
+            ["voice_en_story_1002_101211_19564D4C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101211_19564D4C",
+                ["SoundLength"] = 6780,
+            },
+            ["voice_en_story_1002_101211_19564D76"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101211_19564D76",
+                ["SoundLength"] = 8090,
+            },
+            ["voice_en_story_1002_101211_19564DA0"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101211_19564DA0",
+                ["SoundLength"] = 6590,
+            },
+            ["voice_en_story_1002_101211_19564DCA_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101211_19564DCA_f",
+                ["SoundLength"] = 3910,
+            },
+            ["voice_en_story_1002_101211_19564DCA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101211_19564DCA_m",
+                ["SoundLength"] = 3260,
+            },
+            ["voice_en_story_1002_101211_19564DF4"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101211_19564DF4",
+                ["SoundLength"] = 4380,
+            },
+            ["voice_en_story_1002_101211_19564E1E"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101211_19564E1E",
+                ["SoundLength"] = 6660,
+            },
+            ["voice_en_story_1002_101212_19565D8A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101212_19565D8A_f",
+                ["SoundLength"] = 5170,
+            },
+            ["voice_en_story_1002_101212_19565D8A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101212_19565D8A_m",
+                ["SoundLength"] = 4730,
+            },
+            ["voice_en_story_1002_101212_19565D8B_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101212_19565D8B_f",
+                ["SoundLength"] = 4680,
+            },
+            ["voice_en_story_1002_101212_19565D8B_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101212_19565D8B_m",
+                ["SoundLength"] = 4170,
+            },
+            ["voice_en_story_1002_101213_19566DF2_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101213_19566DF2_f",
+                ["SoundLength"] = 5670,
+            },
+            ["voice_en_story_1002_101213_19566DF2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101213_19566DF2_m",
+                ["SoundLength"] = 4550,
+            },
+            ["voice_en_story_1002_101213_19566DF3"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101213_19566DF3",
+                ["SoundLength"] = 5250,
+            },
+            ["voice_en_story_1002_101213_19566DF4_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101213_19566DF4_f",
+                ["SoundLength"] = 8060,
+            },
+            ["voice_en_story_1002_101213_19566DF4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101213_19566DF4_m",
+                ["SoundLength"] = 7560,
+            },
+            ["voice_en_story_1002_101214_19567E5A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101214_19567E5A",
+                ["SoundLength"] = 4340,
+            },
+            ["voice_en_story_1002_101215_19568EC2_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101215_19568EC2_f",
+                ["SoundLength"] = 5270,
+            },
+            ["voice_en_story_1002_101215_19568EC2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101215_19568EC2_m",
+                ["SoundLength"] = 3690,
+            },
+            ["voice_en_story_1002_101215_19568EEC_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101215_19568EEC_f",
+                ["SoundLength"] = 8880,
+            },
+            ["voice_en_story_1002_101215_19568EEC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101215_19568EEC_m",
+                ["SoundLength"] = 8080,
+            },
+            ["voice_en_story_1002_101216_19569F2A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101216_19569F2A_f",
+                ["SoundLength"] = 2240,
+            },
+            ["voice_en_story_1002_101216_19569F2A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101216_19569F2A_m",
+                ["SoundLength"] = 2670,
+            },
+            ["voice_en_story_1002_101216_19569F54"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101216_19569F54",
+                ["SoundLength"] = 3980,
+            },
+            ["voice_en_story_1002_101216_19569F7E_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101216_19569F7E_f",
+                ["SoundLength"] = 5410,
+            },
+            ["voice_en_story_1002_101216_19569F7E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101216_19569F7E_m",
+                ["SoundLength"] = 5250,
+            },
+            ["voice_en_story_1002_101216_19569FA8"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101216_19569FA8",
+                ["SoundLength"] = 7320,
+            },
+            ["voice_en_story_1002_101216_19569FD2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101216_19569FD2",
+                ["SoundLength"] = 8620,
+            },
+            ["voice_en_story_1002_101217_1956AF92"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101217_1956AF92",
+                ["SoundLength"] = 5480,
+            },
+            ["voice_en_story_1002_101217_1956AFBC_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101217_1956AFBC_f",
+                ["SoundLength"] = 2090,
+            },
+            ["voice_en_story_1002_101217_1956AFBC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101217_1956AFBC_m",
+                ["SoundLength"] = 1490,
+            },
+            ["voice_en_story_1002_101217_1956AFE6"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101217_1956AFE6",
+                ["SoundLength"] = 3840,
+            },
+            ["voice_en_story_1002_101217_1956B010_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101217_1956B010_f",
+                ["SoundLength"] = 2720,
+            },
+            ["voice_en_story_1002_101217_1956B010_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101217_1956B010_m",
+                ["SoundLength"] = 2910,
+            },
+            ["voice_en_story_1002_101217_1956B03A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101217_1956B03A",
+                ["SoundLength"] = 8840,
+            },
+            ["voice_en_story_1002_101218_1956BFFA"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101218_1956BFFA",
+                ["SoundLength"] = 7370,
+            },
+            ["voice_en_story_1002_101219_1956D062_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101219_1956D062_f",
+                ["SoundLength"] = 3870,
+            },
+            ["voice_en_story_1002_101219_1956D062_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101219_1956D062_m",
+                ["SoundLength"] = 3090,
+            },
+            ["voice_en_story_1002_101220_1956E0CA_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101220_1956E0CA_f",
+                ["SoundLength"] = 4430,
+            },
+            ["voice_en_story_1002_101220_1956E0CA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101220_1956E0CA_m",
+                ["SoundLength"] = 4110,
+            },
+            ["voice_en_story_1002_101221_1956F132"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101221_1956F132",
+                ["SoundLength"] = 2830,
+            },
+            ["voice_en_story_1002_101222_1957019A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101222_1957019A",
+                ["SoundLength"] = 5040,
+            },
+            ["voice_en_story_1002_101223_19571202_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101223_19571202_f",
+                ["SoundLength"] = 3070,
+            },
+            ["voice_en_story_1002_101223_19571202_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101223_19571202_m",
+                ["SoundLength"] = 2360,
+            },
+            ["voice_en_story_1002_101223_1957122C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101223_1957122C",
+                ["SoundLength"] = 7830,
+            },
+            ["voice_en_story_1002_101223_19571256"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101223_19571256",
+                ["SoundLength"] = 5980,
+            },
+            ["voice_en_story_1002_101224_1957226A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101224_1957226A",
+                ["SoundLength"] = 2680,
+            },
+            ["voice_en_story_1002_101224_19572294"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101224_19572294",
+                ["SoundLength"] = 2940,
+            },
+            ["voice_en_story_1002_101225_195732D2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101225_195732D2",
+                ["SoundLength"] = 3960,
+            },
+            ["voice_en_story_1002_101226_1957433A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101226_1957433A",
+                ["SoundLength"] = 1970,
+            },
+            ["voice_en_story_1002_101226_19574364"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101226_19574364",
+                ["SoundLength"] = 4250,
+            },
+            ["voice_en_story_1002_101227_195753A2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101227_195753A2",
+                ["SoundLength"] = 8440,
+            },
+            ["voice_en_story_1002_101227_195753CC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101227_195753CC",
+                ["SoundLength"] = 4280,
+            },
+            ["voice_en_story_1002_101228_1957640A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101228_1957640A_f",
+                ["SoundLength"] = 3720,
+            },
+            ["voice_en_story_1002_101228_1957640A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101228_1957640A_m",
+                ["SoundLength"] = 3140,
+            },
+            ["voice_en_story_1002_101228_19576434"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101228_19576434",
+                ["SoundLength"] = 8180,
+            },
+            ["voice_en_story_1002_101229_19577472"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101229_19577472",
+                ["SoundLength"] = 1130,
+            },
+            ["voice_en_story_1002_101229_1957749C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101229_1957749C",
+                ["SoundLength"] = 6000,
+            },
+            ["voice_en_story_1002_101230_195784DA"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101230_195784DA",
+                ["SoundLength"] = 6800,
+            },
+            ["voice_en_story_1002_101230_19578504"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101230_19578504",
+                ["SoundLength"] = 2770,
+            },
+            ["voice_en_story_1002_101231_19579542"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101231_19579542",
+                ["SoundLength"] = 1990,
+            },
+            ["voice_en_story_1002_101231_1957956C_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101231_1957956C_f",
+                ["SoundLength"] = 3970,
+            },
+            ["voice_en_story_1002_101231_1957956C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101231_1957956C_m",
+                ["SoundLength"] = 3370,
+            },
+            ["voice_en_story_1002_101232_1957A5AA"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101232_1957A5AA",
+                ["SoundLength"] = 2710,
+            },
+            ["voice_en_story_1002_101233_1957B612"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101233_1957B612",
+                ["SoundLength"] = 2230,
+            },
+            ["voice_en_story_1002_101234_1957C67A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101234_1957C67A",
+                ["SoundLength"] = 5290,
+            },
+            ["voice_en_story_1002_101234_1957C6A4"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101234_1957C6A4",
+                ["SoundLength"] = 6480,
+            },
+            ["voice_en_story_1002_101235_1957D6E2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101235_1957D6E2",
+                ["SoundLength"] = 4030,
+            },
+            ["voice_en_story_1002_101235_1957D70C_1"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101235_1957D70C_1",
+                ["SoundLength"] = 3620,
+            },
+            ["voice_en_story_1002_101235_1957D70C_2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101235_1957D70C_2",
+                ["SoundLength"] = 3250,
+            },
+            ["voice_en_story_1002_101235_1957D70C_3"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101235_1957D70C_3",
+                ["SoundLength"] = 3260,
+            },
+            ["voice_en_story_1002_101236_1957E74A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101236_1957E74A_f",
+                ["SoundLength"] = 3330,
+            },
+            ["voice_en_story_1002_101236_1957E74A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101236_1957E74A_m",
+                ["SoundLength"] = 3110,
+            },
+            ["voice_en_story_1002_101237_1957F7B2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101237_1957F7B2",
+                ["SoundLength"] = 6520,
+            },
+            ["voice_en_story_1002_101237_1957F7DC_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101237_1957F7DC_f",
+                ["SoundLength"] = 4820,
+            },
+            ["voice_en_story_1002_101237_1957F7DC_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101237_1957F7DC_m",
+                ["SoundLength"] = 4300,
+            },
+            ["voice_en_story_1002_101237_1957F806"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101237_1957F806",
+                ["SoundLength"] = 6170,
+            },
+            ["voice_en_story_1002_101238_1958081A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101238_1958081A_f",
+                ["SoundLength"] = 4600,
+            },
+            ["voice_en_story_1002_101238_1958081A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101238_1958081A_m",
+                ["SoundLength"] = 4310,
+            },
+            ["voice_en_story_1002_101238_19580844"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101238_19580844",
+                ["SoundLength"] = 4790,
+            },
+            ["voice_en_story_1002_101239_19581882"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_19581882",
+                ["SoundLength"] = 1320,
+            },
+            ["voice_en_story_1002_101239_195818AC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_195818AC",
+                ["SoundLength"] = 4550,
+            },
+            ["voice_en_story_1002_101239_195818D6"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_195818D6",
+                ["SoundLength"] = 7530,
+            },
+            ["voice_en_story_1002_101239_19581900"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_19581900",
+                ["SoundLength"] = 3890,
+            },
+            ["voice_en_story_1002_101239_1958192A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_1958192A_f",
+                ["SoundLength"] = 1100,
+            },
+            ["voice_en_story_1002_101239_1958192A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_1958192A_m",
+                ["SoundLength"] = 910,
+            },
+            ["voice_en_story_1002_101239_19581954"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_19581954",
+                ["SoundLength"] = 3090,
+            },
+            ["voice_en_story_1002_101239_19581955_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_19581955_f",
+                ["SoundLength"] = 3490,
+            },
+            ["voice_en_story_1002_101239_19581955_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101239_19581955_m",
+                ["SoundLength"] = 2660,
+            },
+            ["voice_en_story_1002_101240_195828EA"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_195828EA",
+                ["SoundLength"] = 7620,
+            },
+            ["voice_en_story_1002_101240_19582914"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_19582914",
+                ["SoundLength"] = 4860,
+            },
+            ["voice_en_story_1002_101240_1958293E"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_1958293E",
+                ["SoundLength"] = 7780,
+            },
+            ["voice_en_story_1002_101240_19582968"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_19582968",
+                ["SoundLength"] = 5820,
+            },
+            ["voice_en_story_1002_101240_19582992_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_19582992_f",
+                ["SoundLength"] = 1670,
+            },
+            ["voice_en_story_1002_101240_19582992_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_19582992_m",
+                ["SoundLength"] = 1640,
+            },
+            ["voice_en_story_1002_101240_195829BC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_195829BC",
+                ["SoundLength"] = 1590,
+            },
+            ["voice_en_story_1002_101240_195829E6_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_195829E6_f",
+                ["SoundLength"] = 2690,
+            },
+            ["voice_en_story_1002_101240_195829E6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_195829E6_m",
+                ["SoundLength"] = 3300,
+            },
+            ["voice_en_story_1002_101240_19582A10"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101240_19582A10",
+                ["SoundLength"] = 9630,
+            },
+            ["voice_en_story_1002_101241_19583952_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101241_19583952_f",
+                ["SoundLength"] = 3450,
+            },
+            ["voice_en_story_1002_101241_19583952_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101241_19583952_m",
+                ["SoundLength"] = 3550,
+            },
+            ["voice_en_story_1002_101241_1958397C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101241_1958397C",
+                ["SoundLength"] = 10110,
+            },
+            ["voice_en_story_1002_101241_195839A6_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101241_195839A6_f",
+                ["SoundLength"] = 4030,
+            },
+            ["voice_en_story_1002_101241_195839A6_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101241_195839A6_m",
+                ["SoundLength"] = 4150,
+            },
+            ["voice_en_story_1002_101241_195839D0"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101241_195839D0",
+                ["SoundLength"] = 6100,
+            },
+            ["voice_en_story_1002_101242_195849BA"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101242_195849BA",
+                ["SoundLength"] = 3320,
+            },
+            ["voice_en_story_1002_101243_19585A22"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101243_19585A22",
+                ["SoundLength"] = 9580,
+            },
+            ["voice_en_story_1002_101243_19585A4C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101243_19585A4C",
+                ["SoundLength"] = 9760,
+            },
+            ["voice_en_story_1002_101243_19585A76_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101243_19585A76_f",
+                ["SoundLength"] = 5150,
+            },
+            ["voice_en_story_1002_101243_19585A76_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101243_19585A76_m",
+                ["SoundLength"] = 5740,
+            },
+            ["voice_en_story_1002_101243_19585AA0_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101243_19585AA0_f",
+                ["SoundLength"] = 6810,
+            },
+            ["voice_en_story_1002_101243_19585AA0_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101243_19585AA0_m",
+                ["SoundLength"] = 5940,
+            },
+            ["voice_en_story_1002_101244_19586A8A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101244_19586A8A",
+                ["SoundLength"] = 6460,
+            },
+            ["voice_en_story_1002_101244_19586ADE"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101244_19586ADE",
+                ["SoundLength"] = 5400,
+            },
+            ["voice_en_story_1002_101245_19587AF2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101245_19587AF2",
+                ["SoundLength"] = 10130,
+            },
+            ["voice_en_story_1002_101245_19587B1C_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101245_19587B1C_f",
+                ["SoundLength"] = 1080,
+            },
+            ["voice_en_story_1002_101245_19587B1C_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101245_19587B1C_m",
+                ["SoundLength"] = 830,
+            },
+            ["voice_en_story_1002_101245_19587B46_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101245_19587B46_f",
+                ["SoundLength"] = 3350,
+            },
+            ["voice_en_story_1002_101245_19587B46_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101245_19587B46_m",
+                ["SoundLength"] = 3970,
+            },
+            ["voice_en_story_1002_101245_19587B70"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101245_19587B70",
+                ["SoundLength"] = 3430,
+            },
+            ["voice_en_story_1002_101246_19588B5A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101246_19588B5A_f",
+                ["SoundLength"] = 3580,
+            },
+            ["voice_en_story_1002_101246_19588B5A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101246_19588B5A_m",
+                ["SoundLength"] = 2610,
+            },
+            ["voice_en_story_1002_101246_19588B84"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101246_19588B84",
+                ["SoundLength"] = 7290,
+            },
+            ["voice_en_story_1002_101246_19588BAE"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101246_19588BAE",
+                ["SoundLength"] = 2870,
+            },
+            ["voice_en_story_1002_101247_19589BC2_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589BC2_f",
+                ["SoundLength"] = 2050,
+            },
+            ["voice_en_story_1002_101247_19589BC2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589BC2_m",
+                ["SoundLength"] = 1500,
+            },
+            ["voice_en_story_1002_101247_19589BEC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589BEC",
+                ["SoundLength"] = 3690,
+            },
+            ["voice_en_story_1002_101247_19589C16"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589C16",
+                ["SoundLength"] = 15590,
+            },
+            ["voice_en_story_1002_101247_19589C40"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589C40",
+                ["SoundLength"] = 5050,
+            },
+            ["voice_en_story_1002_101247_19589C6A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589C6A_f",
+                ["SoundLength"] = 3800,
+            },
+            ["voice_en_story_1002_101247_19589C6A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589C6A_m",
+                ["SoundLength"] = 2550,
+            },
+            ["voice_en_story_1002_101247_19589C94"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589C94",
+                ["SoundLength"] = 1250,
+            },
+            ["voice_en_story_1002_101247_19589CBE_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589CBE_f",
+                ["SoundLength"] = 3920,
+            },
+            ["voice_en_story_1002_101247_19589CBE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589CBE_m",
+                ["SoundLength"] = 3410,
+            },
+            ["voice_en_story_1002_101247_19589D12"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101247_19589D12",
+                ["SoundLength"] = 2460,
+            },
+            ["voice_en_story_1002_101248_1958AC2A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101248_1958AC2A_f",
+                ["SoundLength"] = 6950,
+            },
+            ["voice_en_story_1002_101248_1958AC2A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101248_1958AC2A_m",
+                ["SoundLength"] = 6870,
+            },
+            ["voice_en_story_1002_101248_1958AC54"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101248_1958AC54",
+                ["SoundLength"] = 9230,
+            },
+            ["voice_en_story_1002_101248_1958AC7E_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101248_1958AC7E_f",
+                ["SoundLength"] = 6850,
+            },
+            ["voice_en_story_1002_101248_1958AC7E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101248_1958AC7E_m",
+                ["SoundLength"] = 6120,
+            },
+            ["voice_en_story_1002_101248_1958ACA8"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101248_1958ACA8",
+                ["SoundLength"] = 3810,
+            },
+            ["voice_en_story_1002_101249_1958BC92"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101249_1958BC92",
+                ["SoundLength"] = 7670,
+            },
+            ["voice_en_story_1002_101249_1958BCBC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101249_1958BCBC",
+                ["SoundLength"] = 9460,
+            },
+            ["voice_en_story_1002_101250_1958CCFA_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101250_1958CCFA_f",
+                ["SoundLength"] = 2540,
+            },
+            ["voice_en_story_1002_101250_1958CCFA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101250_1958CCFA_m",
+                ["SoundLength"] = 1610,
+            },
+            ["voice_en_story_1002_101250_1958CD24"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101250_1958CD24",
+                ["SoundLength"] = 16450,
+            },
+            ["voice_en_story_1002_101250_1958CD4E_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101250_1958CD4E_f",
+                ["SoundLength"] = 2600,
+            },
+            ["voice_en_story_1002_101250_1958CD4E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101250_1958CD4E_m",
+                ["SoundLength"] = 2190,
+            },
+            ["voice_en_story_1002_101250_1958CD78"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101250_1958CD78",
+                ["SoundLength"] = 3990,
+            },
+            ["voice_en_story_1002_101251_1958DD62_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DD62_f",
+                ["SoundLength"] = 1240,
+            },
+            ["voice_en_story_1002_101251_1958DD62_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DD62_m",
+                ["SoundLength"] = 980,
+            },
+            ["voice_en_story_1002_101251_1958DD8C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DD8C",
+                ["SoundLength"] = 8260,
+            },
+            ["voice_en_story_1002_101251_1958DDB6"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DDB6",
+                ["SoundLength"] = 6530,
+            },
+            ["voice_en_story_1002_101251_1958DDE0"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DDE0",
+                ["SoundLength"] = 15230,
+            },
+            ["voice_en_story_1002_101251_1958DE0A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DE0A",
+                ["SoundLength"] = 6100,
+            },
+            ["voice_en_story_1002_101251_1958DE34"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DE34",
+                ["SoundLength"] = 3680,
+            },
+            ["voice_en_story_1002_101251_1958DE5E_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DE5E_f",
+                ["SoundLength"] = 2190,
+            },
+            ["voice_en_story_1002_101251_1958DE5E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DE5E_m",
+                ["SoundLength"] = 2970,
+            },
+            ["voice_en_story_1002_101251_1958DE88_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DE88_f",
+                ["SoundLength"] = 1490,
+            },
+            ["voice_en_story_1002_101251_1958DE88_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DE88_m",
+                ["SoundLength"] = 1160,
+            },
+            ["voice_en_story_1002_101251_1958DEB2_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DEB2_f",
+                ["SoundLength"] = 4890,
+            },
+            ["voice_en_story_1002_101251_1958DEB2_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101251_1958DEB2_m",
+                ["SoundLength"] = 3260,
+            },
+            ["voice_en_story_1002_101252_1958EDCA_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101252_1958EDCA_f",
+                ["SoundLength"] = 4630,
+            },
+            ["voice_en_story_1002_101252_1958EDCA_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101252_1958EDCA_m",
+                ["SoundLength"] = 3790,
+            },
+            ["voice_en_story_1002_101253_1958FE32"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101253_1958FE32",
+                ["SoundLength"] = 3060,
+            },
+            ["voice_en_story_1002_101254_19590E9A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101254_19590E9A",
+                ["SoundLength"] = 3950,
+            },
+            ["voice_en_story_1002_101255_19591F02"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101255_19591F02",
+                ["SoundLength"] = 4510,
+            },
+            ["voice_en_story_1002_101256_19592F6A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101256_19592F6A_f",
+                ["SoundLength"] = 4230,
+            },
+            ["voice_en_story_1002_101256_19592F6A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101256_19592F6A_m",
+                ["SoundLength"] = 1870,
+            },
+            ["voice_en_story_1002_101256_19592F94_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101256_19592F94_f",
+                ["SoundLength"] = 5130,
+            },
+            ["voice_en_story_1002_101256_19592F94_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101256_19592F94_m",
+                ["SoundLength"] = 3820,
+            },
+            ["voice_en_story_1002_101259_195960A2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195960A2",
+                ["SoundLength"] = 4250,
+            },
+            ["voice_en_story_1002_101259_195960CC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195960CC",
+                ["SoundLength"] = 5810,
+            },
+            ["voice_en_story_1002_101259_195960F6"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195960F6",
+                ["SoundLength"] = 3740,
+            },
+            ["voice_en_story_1002_101259_19596120"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596120",
+                ["SoundLength"] = 11970,
+            },
+            ["voice_en_story_1002_101259_1959614A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_1959614A",
+                ["SoundLength"] = 9230,
+            },
+            ["voice_en_story_1002_101259_19596174_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596174_f",
+                ["SoundLength"] = 1960,
+            },
+            ["voice_en_story_1002_101259_19596174_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596174_m",
+                ["SoundLength"] = 1360,
+            },
+            ["voice_en_story_1002_101259_1959619E"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_1959619E",
+                ["SoundLength"] = 6680,
+            },
+            ["voice_en_story_1002_101259_195961C8_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195961C8_f",
+                ["SoundLength"] = 1450,
+            },
+            ["voice_en_story_1002_101259_195961C8_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195961C8_m",
+                ["SoundLength"] = 1120,
+            },
+            ["voice_en_story_1002_101259_195961F2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195961F2",
+                ["SoundLength"] = 3010,
+            },
+            ["voice_en_story_1002_101259_1959621C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_1959621C",
+                ["SoundLength"] = 7780,
+            },
+            ["voice_en_story_1002_101259_19596246_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596246_f",
+                ["SoundLength"] = 1780,
+            },
+            ["voice_en_story_1002_101259_19596246_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596246_m",
+                ["SoundLength"] = 1550,
+            },
+            ["voice_en_story_1002_101259_19596270_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596270_f",
+                ["SoundLength"] = 8200,
+            },
+            ["voice_en_story_1002_101259_19596270_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596270_m",
+                ["SoundLength"] = 10100,
+            },
+            ["voice_en_story_1002_101259_1959629A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_1959629A",
+                ["SoundLength"] = 11380,
+            },
+            ["voice_en_story_1002_101259_195962C4"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195962C4",
+                ["SoundLength"] = 11960,
+            },
+            ["voice_en_story_1002_101259_195962EE"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195962EE",
+                ["SoundLength"] = 2860,
+            },
+            ["voice_en_story_1002_101259_19596318_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596318_f",
+                ["SoundLength"] = 990,
+            },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_101259_19596318_m", MaxKey = "voice_en_story_1002_110113_1B90D2A8", Loader = function()
+        return {
+            ["voice_en_story_1002_101259_19596318_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596318_m",
+                ["SoundLength"] = 1130,
+            },
+            ["voice_en_story_1002_101259_19596342"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596342",
+                ["SoundLength"] = 9050,
+            },
+            ["voice_en_story_1002_101259_1959636C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_1959636C",
+                ["SoundLength"] = 12330,
+            },
+            ["voice_en_story_1002_101259_19596396"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596396",
+                ["SoundLength"] = 11660,
+            },
+            ["voice_en_story_1002_101259_195963C0"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195963C0",
+                ["SoundLength"] = 9350,
+            },
+            ["voice_en_story_1002_101259_195963EA"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195963EA",
+                ["SoundLength"] = 13090,
+            },
+            ["voice_en_story_1002_101259_19596414"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596414",
+                ["SoundLength"] = 15690,
+            },
+            ["voice_en_story_1002_101259_1959643E_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_1959643E_f",
+                ["SoundLength"] = 1690,
+            },
+            ["voice_en_story_1002_101259_1959643E_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_1959643E_m",
+                ["SoundLength"] = 1410,
+            },
+            ["voice_en_story_1002_101259_19596468"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596468",
+                ["SoundLength"] = 11670,
+            },
+            ["voice_en_story_1002_101259_19596492"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596492",
+                ["SoundLength"] = 6710,
+            },
+            ["voice_en_story_1002_101259_195964BC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195964BC",
+                ["SoundLength"] = 9340,
+            },
+            ["voice_en_story_1002_101259_195964E6"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_195964E6",
+                ["SoundLength"] = 11030,
+            },
+            ["voice_en_story_1002_101259_19596510"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596510",
+                ["SoundLength"] = 7980,
+            },
+            ["voice_en_story_1002_101259_1959653A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_1959653A",
+                ["SoundLength"] = 4730,
+            },
+            ["voice_en_story_1002_101259_19596564"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596564",
+                ["SoundLength"] = 2490,
+            },
+            ["voice_en_story_1002_101259_19596565_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596565_f",
+                ["SoundLength"] = 4690,
+            },
+            ["voice_en_story_1002_101259_19596565_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596565_m",
+                ["SoundLength"] = 3540,
+            },
+            ["voice_en_story_1002_101259_19596566_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596566_f",
+                ["SoundLength"] = 3230,
+            },
+            ["voice_en_story_1002_101259_19596566_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
+                ["SelectKey"] = "voice_en_story_1002_101259_19596566_m",
+                ["SoundLength"] = 2510,
             },
             ["voice_en_story_1002_110101_1B9008B2_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
@@ -18246,10 +21048,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110111_1B90B106",
                 ["SoundLength"] = 11280,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_110111_1B90B130", MaxKey = "voice_en_story_1002_110119_1B913152_m", Loader = function()
-        return {
             ["voice_en_story_1002_110111_1B90B130"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_110111_1B90B130",
@@ -18460,6 +21258,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110113_1B90D2A8",
                 ["SoundLength"] = 3170,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_110113_1B90D2D2", MaxKey = "voice_en_story_1002_110121_1B91524C", Loader = function()
+        return {
             ["voice_en_story_1002_110113_1B90D2D2"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_110113_1B90D2D2",
@@ -19250,10 +22052,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110119_1B913152_m",
                 ["SoundLength"] = 6880,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_110119_1B91317C_m", MaxKey = "voice_en_story_1002_110129_1B91D60A", Loader = function()
-        return {
             ["voice_en_story_1002_110119_1B91317C_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_110119_1B91317C_m",
@@ -19464,6 +22262,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110121_1B91524C",
                 ["SoundLength"] = 3240,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_110122_1B91613A", MaxKey = "voice_en_story_1002_110136_1B92483A", Loader = function()
+        return {
             ["voice_en_story_1002_110122_1B91613A"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_110122_1B91613A",
@@ -20254,10 +23056,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110129_1B91D60A",
                 ["SoundLength"] = 8120,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_110129_1B91D634_m", MaxKey = "voice_en_story_1002_110151_1B9345B4", Loader = function()
-        return {
             ["voice_en_story_1002_110129_1B91D634_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_110129_1B91D634_m",
@@ -20469,6 +23267,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110136_1B92483A",
                 ["SoundLength"] = 7820,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_110136_1B924864", MaxKey = "voice_en_story_1002_110156_1B938F88_m", Loader = function()
+        return {
             ["voice_en_story_1002_110136_1B924864"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_110136_1B924864",
@@ -21264,10 +24066,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110151_1B9345B4",
                 ["SoundLength"] = 10030,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_1002_110151_1B9345DE", MaxKey = "voice_en_story_2001_200004_3211A3CB", Loader = function()
-        return {
             ["voice_en_story_1002_110151_1B9345DE"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_110151_1B9345DE",
@@ -21479,6 +24277,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110156_1B938F88_m",
                 ["SoundLength"] = 3110,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_1002_110157_1B939F72_m", MaxKey = "voice_en_story_2001_200006_3211C596", Loader = function()
+        return {
             ["voice_en_story_1002_110157_1B939F72_m"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/1002",
                 ["SelectKey"] = "voice_en_story_1002_110157_1B939F72_m",
@@ -22267,6 +25069,16 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_1002_110172_1B9488C5",
                 ["SoundLength"] = 3520,
             },
+            ["voice_en_story_2001_101257_19593FD2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_101257_19593FD2",
+                ["SoundLength"] = 1160,
+            },
+            ["voice_en_story_2001_101257_19593FFC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_101257_19593FFC",
+                ["SoundLength"] = 5420,
+            },
             ["voice_en_story_2001_200004_3211A3CA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
                 ["SelectKey"] = "voice_en_story_2001_200004_3211A3CA",
@@ -22277,10 +25089,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_2001_200004_3211A3CB",
                 ["SoundLength"] = 5140,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_2001_200005_3211B432_f", MaxKey = "voice_en_story_2001_200054_3214D96A", Loader = function()
-        return {
             ["voice_en_story_2001_200005_3211B432_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
                 ["SelectKey"] = "voice_en_story_2001_200005_3211B432_f",
@@ -22481,6 +25289,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_2001_200006_3211C596",
                 ["SoundLength"] = 4610,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_2001_200006_3211C5C0_f", MaxKey = "voice_en_story_2001_200054_3214DB62", Loader = function()
+        return {
             ["voice_en_story_2001_200006_3211C5C0_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
                 ["SelectKey"] = "voice_en_story_2001_200006_3211C5C0_f",
@@ -23056,6 +25868,146 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_2001_200015_32125842_m",
                 ["SoundLength"] = 4490,
             },
+            ["voice_en_story_2001_200017_32127912"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200017_32127912",
+                ["SoundLength"] = 6900,
+            },
+            ["voice_en_story_2001_200018_3212897A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200018_3212897A",
+                ["SoundLength"] = 3770,
+            },
+            ["voice_en_story_2001_200018_321289A4_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200018_321289A4_f",
+                ["SoundLength"] = 4960,
+            },
+            ["voice_en_story_2001_200018_321289A4_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200018_321289A4_m",
+                ["SoundLength"] = 4150,
+            },
+            ["voice_en_story_2001_200018_321289CE"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200018_321289CE",
+                ["SoundLength"] = 5700,
+            },
+            ["voice_en_story_2001_200020_3212AA4A_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200020_3212AA4A_f",
+                ["SoundLength"] = 4860,
+            },
+            ["voice_en_story_2001_200020_3212AA4A_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200020_3212AA4A_m",
+                ["SoundLength"] = 4190,
+            },
+            ["voice_en_story_2001_200020_3212AA74_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200020_3212AA74_f",
+                ["SoundLength"] = 3650,
+            },
+            ["voice_en_story_2001_200020_3212AA74_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200020_3212AA74_m",
+                ["SoundLength"] = 3480,
+            },
+            ["voice_en_story_2001_200021_3212BAB2"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200021_3212BAB2",
+                ["SoundLength"] = 3870,
+            },
+            ["voice_en_story_2001_200021_3212BADC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200021_3212BADC",
+                ["SoundLength"] = 4240,
+            },
+            ["voice_en_story_2001_200026_32130CBA"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130CBA",
+                ["SoundLength"] = 4960,
+            },
+            ["voice_en_story_2001_200026_32130CE4"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130CE4",
+                ["SoundLength"] = 4300,
+            },
+            ["voice_en_story_2001_200026_32130D0E"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130D0E",
+                ["SoundLength"] = 3180,
+            },
+            ["voice_en_story_2001_200026_32130D38"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130D38",
+                ["SoundLength"] = 3850,
+            },
+            ["voice_en_story_2001_200026_32130D62"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130D62",
+                ["SoundLength"] = 3880,
+            },
+            ["voice_en_story_2001_200026_32130D8C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130D8C",
+                ["SoundLength"] = 4880,
+            },
+            ["voice_en_story_2001_200026_32130DB6"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130DB6",
+                ["SoundLength"] = 4030,
+            },
+            ["voice_en_story_2001_200026_32130DE0"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130DE0",
+                ["SoundLength"] = 5090,
+            },
+            ["voice_en_story_2001_200026_32130E0A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200026_32130E0A",
+                ["SoundLength"] = 7180,
+            },
+            ["voice_en_story_2001_200027_32131D22"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200027_32131D22",
+                ["SoundLength"] = 5950,
+            },
+            ["voice_en_story_2001_200027_32131D4C"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200027_32131D4C",
+                ["SoundLength"] = 2280,
+            },
+            ["voice_en_story_2001_200028_32132D8A"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200028_32132D8A",
+                ["SoundLength"] = 5230,
+            },
+            ["voice_en_story_2001_200028_32132DB4"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200028_32132DB4",
+                ["SoundLength"] = 4980,
+            },
+            ["voice_en_story_2001_200028_32132DDE_f"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200028_32132DDE_f",
+                ["SoundLength"] = 1010,
+            },
+            ["voice_en_story_2001_200028_32132DDE_m"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200028_32132DDE_m",
+                ["SoundLength"] = 940,
+            },
+            ["voice_en_story_2001_200033_32137F92"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200033_32137F92",
+                ["SoundLength"] = 3170,
+            },
+            ["voice_en_story_2001_200033_32137FBC"] = {
+                ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
+                ["SelectKey"] = "voice_en_story_2001_200033_32137FBC",
+                ["SoundLength"] = 3480,
+            },
             ["voice_en_story_2001_200048_321475AA"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
                 ["SelectKey"] = "voice_en_story_2001_200048_321475AA",
@@ -23281,10 +26233,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_2001_200054_3214D96A",
                 ["SoundLength"] = 1780,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_2001_200054_3214D994", MaxKey = "voice_en_story_2001_200070_3215DFEA", Loader = function()
-        return {
             ["voice_en_story_2001_200054_3214D994"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
                 ["SelectKey"] = "voice_en_story_2001_200054_3214D994",
@@ -23345,6 +26293,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_2001_200054_3214DB62",
                 ["SoundLength"] = 10490,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_2001_200054_3214DB8C_f", MaxKey = "voice_en_story_2001_200070_3215E18E", Loader = function()
+        return {
             ["voice_en_story_2001_200054_3214DB8C_f"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
                 ["SelectKey"] = "voice_en_story_2001_200054_3214DB8C_f",
@@ -24285,10 +27237,6 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_2001_200070_3215DFEA",
                 ["SoundLength"] = 11570,
             },
-        }
-    end },
-    { MinKey = "voice_en_story_2001_200070_3215E014", MaxKey = "voice_en_story_2001_200070_3215E1B8", Loader = function()
-        return {
             ["voice_en_story_2001_200070_3215E014"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
                 ["SelectKey"] = "voice_en_story_2001_200070_3215E014",
@@ -24349,6 +27297,10 @@ local Data = {
                 ["SelectKey"] = "voice_en_story_2001_200070_3215E18E",
                 ["SoundLength"] = 9980,
             },
+        }
+    end },
+    { MinKey = "voice_en_story_2001_200070_3215E1B8", MaxKey = "voice_en_story_2001_200070_3215E1B8", Loader = function()
+        return {
             ["voice_en_story_2001_200070_3215E1B8"] = {
                 ["ProgrammerSoundPath"] = "event:/voice/en/story/2001",
                 ["SelectKey"] = "voice_en_story_2001_200070_3215E1B8",

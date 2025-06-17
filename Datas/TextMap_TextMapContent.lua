@@ -12612,7 +12612,7 @@ local Data = {
                 ["TextMapId"] = "Mail_Content_10009",
             },
             ["Mail_Content_100301"] = {
-                ["TextMapContent"] = "奖励结算异常，请在邮件重新领取并于背包查看。",
+                ["TextMapContent"] = "奖励结算异常，寻回奖励已发送至背包。",
                 ["TextMapId"] = "Mail_Content_100301",
             },
             ["Mail_Content_100401"] = {

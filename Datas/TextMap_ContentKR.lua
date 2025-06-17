@@ -10658,7 +10658,7 @@ local Data = {
             },
         }
     end },
-    { MinKey = "MOD_NAME_2512", MaxKey = "Message_Guide_Dispatch_04", Loader = function()
+    { MinKey = "MOD_NAME_2512", MaxKey = "Message_Guide_Dispatch_02_Pad", Loader = function()
         return {
             ["MOD_NAME_2512"] = {
                 ["ContentKR"] = "가르기",
@@ -11073,6 +11073,10 @@ local Data = {
 월석 사냥꾼님의 소중한 피드백과 제안을 바탕으로 지속적으로 게임 경험과 품질을 향상시켜 나가겠습니다.",
                 ["TextMapId"] = "Mail_Content_10009",
             },
+            ["Mail_Content_100301"] = {
+                ["ContentKR"] = "보상 결산 오류, 재지급 보상이 이미 가방에 놓습니다.",
+                ["TextMapId"] = "Mail_Content_100301",
+            },
             ["Mail_Content_100401"] = {
                 ["ContentKR"] = "친애하는 월석 사냥꾼님, 이번 음유 시집 장정이 종료되었습니다. 모든 미수령한 보상은 우편을 통해 지급되었으니, 확인해 주세요",
                 ["TextMapId"] = "Mail_Content_100401",
@@ -11126,6 +11130,10 @@ local Data = {
             ["Mail_Title_10009"] = {
                 ["ContentKR"] = "설문조사 참여 보상",
                 ["TextMapId"] = "Mail_Title_10009",
+            },
+            ["Mail_Title_100301"] = {
+                ["ContentKR"] = "결산 보상 재지급 우편",
+                ["TextMapId"] = "Mail_Title_100301",
             },
             ["Mail_Title_100401"] = {
                 ["ContentKR"] = "[음유 시집] 보상 보충 수령",
@@ -11467,6 +11475,10 @@ local Data = {
                 ["ContentKR"] = "눌러서 파견 목록을 확인하세요.",
                 ["TextMapId"] = "Message_Guide_Dispatch_02_Pad",
             },
+        }
+    end },
+    { MinKey = "Message_Guide_Dispatch_03", MaxKey = "Message_Guide_TrainingGround_8", Loader = function()
+        return {
             ["Message_Guide_Dispatch_03"] = {
                 ["ContentKR"] = "여기서 현재 발생 중인 돌발 사건을 확인할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Dispatch_03",
@@ -11475,10 +11487,6 @@ local Data = {
                 ["ContentKR"] = "여기서 선택한 돌발 사건의 상세 정보를 확인할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Dispatch_04",
             },
-        }
-    end },
-    { MinKey = "Message_Guide_Dispatch_05", MaxKey = "Message_Guide_TrainingGround_Phone", Loader = function()
-        return {
             ["Message_Guide_Dispatch_05"] = {
                 ["ContentKR"] = "돌발 사건 완료 시 기본 보상과 추가 보상을 획득할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Dispatch_05",
@@ -12271,6 +12279,10 @@ local Data = {
                 ["ContentKR"] = "설정을 마친 후 '적 생성'을 누르면 전투를 시작할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_TrainingGround_8",
             },
+        }
+    end },
+    { MinKey = "Message_Guide_TrainingGround_PC", MaxKey = "Mon_DesDetail_8512001", Loader = function()
+        return {
             ["Message_Guide_TrainingGround_PC"] = {
                 ["ContentKR"] = "&TrainingOpenSetup& 버튼을 눌러 명상 메뉴를 여세요.",
                 ["TextMapId"] = "Message_Guide_TrainingGround_PC",
@@ -12279,10 +12291,6 @@ local Data = {
                 ["ContentKR"] = "상호작용 버튼을 눌러 명상 메뉴를 여세요.",
                 ["TextMapId"] = "Message_Guide_TrainingGround_Phone",
             },
-        }
-    end },
-    { MinKey = "Message_Guide_WeaponTrigger_1", MaxKey = "Mon_DesDetail_8514001", Loader = function()
-        return {
             ["Message_Guide_WeaponTrigger_1"] = {
                 ["ContentKR"] = "무기로 대미지를 입힐 시, 일정 확률로 <H>추가 효과</>가 발생하며, 발동 확률은 무기의 <H>발동 확률</> 능력치에 기반합니다.",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_1",
@@ -13078,6 +13086,10 @@ local Data = {
                 ["ContentKR"] = "기승을 부리는 설국의 야수, 아이들의 고향을 무너뜨리고, 요정의 깨진 꿈을 녹였다.",
                 ["TextMapId"] = "Mon_DesDetail_8512001",
             },
+        }
+    end },
+    { MinKey = "Mon_DesDetail_8513001", MaxKey = "Mon_Name_6004021", Loader = function()
+        return {
             ["Mon_DesDetail_8513001"] = {
                 ["ContentKR"] = "신의 가호를 빌기 위해, 신의 사자는 성언을 새기고, 등에 업었다. 신앙의 광휘에서, 육체의 고통도 은사의 채찍으로 탈바꿈할 것이다.",
                 ["TextMapId"] = "Mon_DesDetail_8513001",
@@ -13086,10 +13098,6 @@ local Data = {
                 ["ContentKR"] = "복음을 전파하고, 신앙을 교정하는 것은 항상 일부 신의 사자가 지켜야 할 의무다. 이단에 구원을 가져오는 탄환과 열화는, 어찌 신명의 복음 중 하나가 아니겠는가?",
                 ["TextMapId"] = "Mon_DesDetail_8514001",
             },
-        }
-    end },
-    { MinKey = "Mon_DesDetail_8515001", MaxKey = "Mon_Name_6004023", Loader = function()
-        return {
             ["Mon_DesDetail_8515001"] = {
                 ["ContentKR"] = "거식자는 단지 하나의 필토이드가 아니라, 여러 물질의 집합으로, 그것은 모든 동물, 식물, 필토이드, 심지어 인간을 삼키고 융합하며, 완력으로 그것을 자신과 하나로 융합시키고, 기형적인 자세로 꿈틀거리며, 신체의 다음 구성 요소를 찾고 있다.",
                 ["TextMapId"] = "Mon_DesDetail_8515001",
@@ -13917,6 +13925,10 @@ local Data = {
                 ["ContentKR"] = "새비지 필토이드·희생",
                 ["TextMapId"] = "Mon_Name_6004021",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_6004022", MaxKey = "Mon_Name_7009201", Loader = function()
+        return {
             ["Mon_Name_6004022"] = {
                 ["ContentKR"] = "새비지 필토이드·전뢰",
                 ["TextMapId"] = "Mon_Name_6004022",
@@ -13925,10 +13937,6 @@ local Data = {
                 ["ContentKR"] = "새비지 필토이드·사혈",
                 ["TextMapId"] = "Mon_Name_6004023",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_6004024", MaxKey = "Mon_Name_7010001", Loader = function()
-        return {
             ["Mon_Name_6004024"] = {
                 ["ContentKR"] = "새비지 필토이드·스냅",
                 ["TextMapId"] = "Mon_Name_6004024",
@@ -14721,6 +14729,10 @@ local Data = {
                 ["ContentKR"] = "제황의 자비·벼락&폭파",
                 ["TextMapId"] = "Mon_Name_7009201",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_7009301", MaxKey = "Mon_Name_8514015", Loader = function()
+        return {
             ["Mon_Name_7009301"] = {
                 ["ContentKR"] = "제황의 자비·사혈&잔불&서리옥",
                 ["TextMapId"] = "Mon_Name_7009301",
@@ -14729,10 +14741,6 @@ local Data = {
                 ["ContentKR"] = "소드 연금술사",
                 ["TextMapId"] = "Mon_Name_7010001",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_7010011", MaxKey = "Mon_Name_8514017", Loader = function()
-        return {
             ["Mon_Name_7010011"] = {
                 ["ContentKR"] = "소드 연금술사·서리",
                 ["TextMapId"] = "Mon_Name_7010011",
@@ -15525,6 +15533,10 @@ local Data = {
                 ["ContentKR"] = "몽은의 심판관·진홍",
                 ["TextMapId"] = "Mon_Name_8514015",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_8514016", MaxKey = "Name_200227", Loader = function()
+        return {
             ["Mon_Name_8514016"] = {
                 ["ContentKR"] = "몽은의 심판관·메마름",
                 ["TextMapId"] = "Mon_Name_8514016",
@@ -15533,10 +15545,6 @@ local Data = {
                 ["ContentKR"] = "몽은의 심판관·수호",
                 ["TextMapId"] = "Mon_Name_8514017",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_8514018", MaxKey = "Name_200229", Loader = function()
-        return {
             ["Mon_Name_8514018"] = {
                 ["ContentKR"] = "몽은의 심판관·복수",
                 ["TextMapId"] = "Mon_Name_8514018",
@@ -16329,6 +16337,10 @@ local Data = {
                 ["ContentKR"] = "완전히 새로운 연극",
                 ["TextMapId"] = "Name_200227",
             },
+        }
+    end },
+    { MinKey = "Name_200228", MaxKey = "Pack_Name_Shop_Exp_01", Loader = function()
+        return {
             ["Name_200228"] = {
                 ["ContentKR"] = "다시 목격한 시작",
                 ["TextMapId"] = "Name_200228",
@@ -16337,10 +16349,6 @@ local Data = {
                 ["ContentKR"] = "아트라시아 미학 대가",
                 ["TextMapId"] = "Name_200229",
             },
-        }
-    end },
-    { MinKey = "Name_901201", MaxKey = "Pack_Name_Shop_Jingli", Loader = function()
-        return {
             ["Name_901201"] = {
                 ["ContentKR"] = "사냥 의뢰 Ⅰ",
                 ["TextMapId"] = "Name_901201",
@@ -17197,6 +17205,10 @@ local Data = {
                 ["ContentKR"] = "물자 지원·전투 경험치",
                 ["TextMapId"] = "Pack_Name_Shop_Exp_01",
             },
+        }
+    end },
+    { MinKey = "Pack_Name_Shop_Exp_02", MaxKey = "PartyTopic_Name_310101", Loader = function()
+        return {
             ["Pack_Name_Shop_Exp_02"] = {
                 ["ContentKR"] = "고급 물자 지원·전투 경험치",
                 ["TextMapId"] = "Pack_Name_Shop_Exp_02",
@@ -17205,10 +17217,6 @@ local Data = {
                 ["ContentKR"] = "물자 지원·에너지",
                 ["TextMapId"] = "Pack_Name_Shop_Jingli",
             },
-        }
-    end },
-    { MinKey = "Pack_Name_Shop_Level_10", MaxKey = "PartyTopic_Name_310103", Loader = function()
-        return {
             ["Pack_Name_Shop_Level_10"] = {
                 ["ContentKR"] = "수련 레벨 패키지 Lv.10",
                 ["TextMapId"] = "Pack_Name_Shop_Level_10",
@@ -18001,6 +18009,10 @@ local Data = {
                 ["ContentKR"] = "군단에서 온 손님",
                 ["TextMapId"] = "PartyTopic_Name_310101",
             },
+        }
+    end },
+    { MinKey = "PartyTopic_Name_310102", MaxKey = "QuestDesc_10020305", Loader = function()
+        return {
             ["PartyTopic_Name_310102"] = {
                 ["ContentKR"] = "전기? 전기!",
                 ["TextMapId"] = "PartyTopic_Name_310102",
@@ -18009,10 +18021,6 @@ local Data = {
                 ["ContentKR"] = "돌아갈 수 없는 고향",
                 ["TextMapId"] = "PartyTopic_Name_310103",
             },
-        }
-    end },
-    { MinKey = "PartyTopic_Name_310201", MaxKey = "QuestDesc_10020307", Loader = function()
-        return {
             ["PartyTopic_Name_310201"] = {
                 ["ContentKR"] = "다중 신분",
                 ["TextMapId"] = "PartyTopic_Name_310201",
@@ -18837,6 +18845,10 @@ local Data = {
 폐광 깊은 곳으로 들어가 헨릭이 의뢰한 반짝이는 수정을 찾아보자.",
                 ["TextMapId"] = "QuestDesc_10020305",
             },
+        }
+    end },
+    { MinKey = "QuestDesc_10020306", MaxKey = "QuestName_10020205", Loader = function()
+        return {
             ["QuestDesc_10020306"] = {
                 ["ContentKR"] = "버려진 파이프를 따라 글로스터 폐광 내부로 들어갔다. \
 한때 거대한 천국의 나무가 산을 관통했지만, 지금은 거의 채굴되어 작은 뿌리만 남았고, 그 광맥만이 과거의 영광을 보여준다. \
@@ -18852,10 +18864,6 @@ local Data = {
 괜찮다면 나중에 이곳을 찾는 이들을 위해 안내등과 표지판을 수리해 주자.",
                 ["TextMapId"] = "QuestDesc_10020307",
             },
-        }
-    end },
-    { MinKey = "QuestDesc_10020308", MaxKey = "QuestName_10020207", Loader = function()
-        return {
             ["QuestDesc_10020308"] = {
                 ["ContentKR"] = "버려진 파이프를 따라 글로스터 폐광 내부로 들어갔다.\
 한때 거대한 천국의 나무가 산을 관통했지만, 지금은 거의 다 채굴되어 작은 뿌리만 남았고, 그 광맥만이 과거의 영광을 보여준다.\
@@ -19730,6 +19738,10 @@ local Data = {
                 ["ContentKR"] = "마르제의 고민 들어주기",
                 ["TextMapId"] = "QuestName_10020205",
             },
+        }
+    end },
+    { MinKey = "QuestName_10020206", MaxKey = "QuestName_901205", Loader = function()
+        return {
             ["QuestName_10020206"] = {
                 ["ContentKR"] = "아스포델 떠나기",
                 ["TextMapId"] = "QuestName_10020206",
@@ -19738,10 +19750,6 @@ local Data = {
                 ["ContentKR"] = "도둑의 종적 추적하기",
                 ["TextMapId"] = "QuestName_10020207",
             },
-        }
-    end },
-    { MinKey = "QuestName_10020208", MaxKey = "QuestName_901207", Loader = function()
-        return {
             ["QuestName_10020208"] = {
                 ["ContentKR"] = "3호 쓰레기통 주변의 흔적 조사하기",
                 ["TextMapId"] = "QuestName_10020208",
@@ -20534,6 +20542,10 @@ local Data = {
                 ["ContentKR"] = "지정된 위치로 가서 필토이드를 처치하세요.",
                 ["TextMapId"] = "QuestName_901205",
             },
+        }
+    end },
+    { MinKey = "QuestName_901206", MaxKey = "READ_TEXT_2000051", Loader = function()
+        return {
             ["QuestName_901206"] = {
                 ["ContentKR"] = "지정된 위치로 가서 필토이드를 처치하세요.",
                 ["TextMapId"] = "QuestName_901206",
@@ -20542,10 +20554,6 @@ local Data = {
                 ["ContentKR"] = "지정된 위치로 가서 필토이드를 처치하세요.",
                 ["TextMapId"] = "QuestName_901207",
             },
-        }
-    end },
-    { MinKey = "QuestName_99999801", MaxKey = "READ_TEXT_2000053", Loader = function()
-        return {
             ["QuestName_99999801"] = {
                 ["ContentKR"] = "눈물의 호수로 이동",
                 ["TextMapId"] = "QuestName_99999801",
@@ -21880,6 +21888,10 @@ C구역 애니타\
 다음 회 <천하무적 대군단장>에서 밝혀집니다.",
                 ["TextMapId"] = "READ_TEXT_2000051",
             },
+        }
+    end },
+    { MinKey = "READ_TEXT_2000052", MaxKey = "RESOURCE_DESC_12116", Loader = function()
+        return {
             ["READ_TEXT_2000052"] = {
                 ["ContentKR"] = "...\
 하수도 배치도를 보니, 그들이 이 지역으로 도망친 것 같다. 장비를 사용해 대규모로 검색할 수 없으니 생각보다 더 번거롭다. 앞으로 며칠 동안은 이 어두운 곳에 머물러야 할 것 같다.\
@@ -21909,10 +21921,6 @@ C구역 애니타\
 파르지팔 주석: 이 부분의 관전 포인트는 군무이다. 이 씬의 어려운 점은, 이름 없는 무용수들 중 하나인 홍엽이라는 캐릭터가 다른 무용수와 다르다는 점을 관객이 스스로 알아차리게 해야 하지만, 지나치게 두드러져도 안된다는 점이다.",
                 ["TextMapId"] = "READ_TEXT_2000053",
             },
-        }
-    end },
-    { MinKey = "READ_TEXT_2000054", MaxKey = "RESOURCE_DESC_12118", Loader = function()
-        return {
             ["READ_TEXT_2000054"] = {
                 ["ContentKR"] = "제2막 피와 살의 별똥별\
 \
@@ -22911,6 +22919,10 @@ C구역 애니타\
                 ["ContentKR"] = "정확히 도면대로 제작된 시듦 부품. 사용자의 편의성을 위해 실질적인 설계 목적을 갖고 만들어졌다.",
                 ["TextMapId"] = "RESOURCE_DESC_12116",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_12117", MaxKey = "RESOURCE_DESC_PHANTOM", Loader = function()
+        return {
             ["RESOURCE_DESC_12117"] = {
                 ["ContentKR"] = "정확히 도면대로 제작된 시듦 부품. 칼날의 휘어진 정도나 무게는 신경 쓰지 않고, 전투를 위한 서슬 퍼런 칼날을 만들었다.",
                 ["TextMapId"] = "RESOURCE_DESC_12117",
@@ -22919,10 +22931,6 @@ C구역 애니타\
                 ["ContentKR"] = "정확히 도면대로 제작된 시듦 부품. 사용자의 의도를 완벽하게 파악했지만, 오직 강한 자만 전장에서 이 유일무이한 능력을 사용할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_12118",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_12119", MaxKey = "RESOURCE_FUNCTION_10010", Loader = function()
-        return {
             ["RESOURCE_DESC_12119"] = {
                 ["ContentKR"] = "정확히 도면대로 제작된 박리 부품. 일단 방아쇠를 당기면, 마치 결심을 내린 그 순간처럼 탄환은 절대 뒤를 돌아보지 않는다.",
                 ["TextMapId"] = "RESOURCE_DESC_12119",
@@ -23743,6 +23751,10 @@ C구역 애니타\
 기도로 생각을 전달하면 그 사람은 당신이 생각하는 대로 당신의 곁으로 찾아올 것이다.",
                 ["TextMapId"] = "RESOURCE_DESC_PHANTOM",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_ROOT", MaxKey = "RESOURCE_NAME_12010", Loader = function()
+        return {
             ["RESOURCE_DESC_ROOT"] = {
                 ["ContentKR"] = "'본원'을 상징하는 인장. 사람들은 시간의 회전을 역류하여 숨겨진 생명의 근원인 힘을 찾는다.",
                 ["TextMapId"] = "RESOURCE_DESC_ROOT",
@@ -23751,10 +23763,6 @@ C구역 애니타\
                 ["ContentKR"] = "적 드롭 재료",
                 ["TextMapId"] = "RESOURCE_FUNCTION_10010",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_FUNCTION_10011", MaxKey = "RESOURCE_NAME_12012", Loader = function()
-        return {
             ["RESOURCE_FUNCTION_10011"] = {
                 ["ContentKR"] = "교회 지역 채집 재료",
                 ["TextMapId"] = "RESOURCE_FUNCTION_10011",
@@ -24548,6 +24556,10 @@ C구역 애니타\
                 ["ContentKR"] = "침묵의 배양자 총신",
                 ["TextMapId"] = "RESOURCE_NAME_12010",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_12011", MaxKey = "RESOURCE_NAME_209", Loader = function()
+        return {
             ["RESOURCE_NAME_12011"] = {
                 ["ContentKR"] = "침묵의 배양자 총열",
                 ["TextMapId"] = "RESOURCE_NAME_12011",
@@ -24556,10 +24568,6 @@ C구역 애니타\
                 ["ContentKR"] = "방출하는 천둥 방아쇠",
                 ["TextMapId"] = "RESOURCE_NAME_12012",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_12013", MaxKey = "RESOURCE_NAME_211", Loader = function()
-        return {
             ["RESOURCE_NAME_12013"] = {
                 ["ContentKR"] = "방출하는 천둥 총신",
                 ["TextMapId"] = "RESOURCE_NAME_12013",
@@ -25352,6 +25360,10 @@ C구역 애니타\
                 ["ContentKR"] = "의뢰 수첩 Ⅳ",
                 ["TextMapId"] = "RESOURCE_NAME_209",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_210", MaxKey = "RESOURCE_TEXT_10104", Loader = function()
+        return {
             ["RESOURCE_NAME_210"] = {
                 ["ContentKR"] = "월척의 증표",
                 ["TextMapId"] = "RESOURCE_NAME_210",
@@ -25360,10 +25372,6 @@ C구역 애니타\
                 ["ContentKR"] = "의뢰 편지 단서·준수",
                 ["TextMapId"] = "RESOURCE_NAME_211",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_212", MaxKey = "RESOURCE_TEXT_102", Loader = function()
-        return {
             ["RESOURCE_NAME_212"] = {
                 ["ContentKR"] = "의뢰 편지 단서·중립",
                 ["TextMapId"] = "RESOURCE_NAME_212",
@@ -26249,6 +26257,10 @@ C구역 애니타\
 ——화서의 검객 각주",
                 ["TextMapId"] = "RESOURCE_TEXT_10104",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_TEXT_1011101", MaxKey = "RLBlessingGroup_Active", Loader = function()
+        return {
             ["RESOURCE_TEXT_1011101"] = {
                 ["ContentKR"] = "\"우리는 서로를 포용하기도 하고 서로를 죽이기도 했으며, 때로는 신을 부르짖고 때로는 자비를 갈망하는 등 이천 년이 넘는 세월을 함께 해왔다. 역사는 지평선 위에서 뜨고 지는 걸 반복하는 해와 달과 같이 어제도, 내일도 반복될 것이다. 역사라는 이 책에 기록할 수 있는 세월 앞에서 나는 그저 하찮은 관측자에 불과하다. 나는 휘페르보레아 제국의 눈 한 송이이며, 이스엘의 한 조각 나뭇잎이며, 루카의 한 방울 물이며, 케메트의 한 줌의 모래이다. 하지만 이 거대한 세계에서 나는 여전히 한 알의 눈이 모여 설원을 이루고, 한 조각의 잎이 모여 수해를 이루고, 한 방울의 물이 모여 강을 이루고, 한 줌의 모래가 모여 사막을 이루기를 바란다. 이 모든 것이 연결될 때, 역사는 비로소 우리가 원하는 대로 그 방향을 바꾸게 될 것이다.\" \
 \
@@ -26262,10 +26274,6 @@ C구역 애니타\
 ——아스카드 협만에서 출토된 석판",
                 ["TextMapId"] = "RESOURCE_TEXT_102",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_TEXT_103", MaxKey = "RLBlessingGroup_Desc_101", Loader = function()
-        return {
             ["RESOURCE_TEXT_103"] = {
                 ["ContentKR"] = "\"눈앞의 일에 전념하는 것은 사람을 감복하게 하지만, 모든 일엔 정도가 있는 법. 과도한 근심으로 몸이 상하면 득보다 실이 커지죠.\" \
 \
@@ -27499,6 +27507,10 @@ C구역 애니타\
                 ["ContentKR"] = "활성화 가능",
                 ["TextMapId"] = "RLBlessingGroup_Active",
             },
+        }
+    end },
+    { MinKey = "RLBlessingGroup_Desc_1", MaxKey = "RLBlessing_Name_405", Loader = function()
+        return {
             ["RLBlessingGroup_Desc_1"] = {
                 ["ContentKR"] = "근접 무기 강화",
                 ["TextMapId"] = "RLBlessingGroup_Desc_1",
@@ -27507,10 +27519,6 @@ C구역 애니타\
                 ["ContentKR"] = "근접 무기로 대미지를 입힐 시 <Highlight>10%</>확률로 1단계의 <Highlight>[염화]</>을 부여하고, 대상이 받는 대미지가 <Highlight>2.5%</> 상승한다. 지속 시간 <Highlight>5</>초, 최대 <Highlight>10</>단계 중첩.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_101",
             },
-        }
-    end },
-    { MinKey = "RLBlessingGroup_Desc_102", MaxKey = "RLBlessing_Name_407", Loader = function()
-        return {
             ["RLBlessingGroup_Desc_102"] = {
                 ["ContentKR"] = "<Highlight>[염화]</> <Highlight>1</>초마다 대상에게 캐릭터 공격의 <Highlight>15%</>의 지속 대미지를 입힌다.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_102",
@@ -28317,6 +28325,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "자연의 치유",
                 ["TextMapId"] = "RLBlessing_Name_405",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_Name_406", MaxKey = "RLBlessing_UnlockCon_401", Loader = function()
+        return {
             ["RLBlessing_Name_406"] = {
                 ["ContentKR"] = "자연의 생기",
                 ["TextMapId"] = "RLBlessing_Name_406",
@@ -28325,10 +28337,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "생명의 선동",
                 ["TextMapId"] = "RLBlessing_Name_407",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_Name_408", MaxKey = "RLBlessing_UnlockCon_403", Loader = function()
-        return {
             ["RLBlessing_Name_408"] = {
                 ["ContentKR"] = "생명의 본능",
                 ["TextMapId"] = "RLBlessing_Name_408",
@@ -29122,6 +29130,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "심지 미해제",
                 ["TextMapId"] = "RLBlessing_UnlockCon_401",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_UnlockCon_402", MaxKey = "RLTreasure_IPDesc_10101", Loader = function()
+        return {
             ["RLBlessing_UnlockCon_402"] = {
                 ["ContentKR"] = "심지 미해제",
                 ["TextMapId"] = "RLBlessing_UnlockCon_402",
@@ -29130,10 +29142,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "심지 미해제",
                 ["TextMapId"] = "RLBlessing_UnlockCon_403",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_UnlockCon_404", MaxKey = "RLTreasure_IPDesc_10103", Loader = function()
-        return {
             ["RLBlessing_UnlockCon_404"] = {
                 ["ContentKR"] = "심지 미해제",
                 ["TextMapId"] = "RLBlessing_UnlockCon_404",
@@ -29928,6 +29936,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
 성호 깊은 곳에서, 심지 장인은 마침내 영원히 꺼지지 않는 불꽃을 만들어 냈습니다. 그러나 그녀의 촛불을 기다리는 사람은, 이미 어디에서도 찾을 수 없었습니다.",
                 ["TextMapId"] = "RLTreasure_IPDesc_10101",
             },
+        }
+    end },
+    { MinKey = "RLTreasure_IPDesc_10102", MaxKey = "RL_Event301_Select_1", Loader = function()
+        return {
             ["RLTreasure_IPDesc_10102"] = {
                 ["ContentKR"] = "상인과 마주칠 때마다 조면의 마술사는 항상 불평합니다: “정찰 가격은 재미없는데, 블라인드 선택과 확률을 좀 더 쳐볼까요?”\
 상인은 건의에 따라, 자신의 상점에 할인 쿠폰을 디자인하여, 심연 곳곳에 뿌렸습니다. 마술사는 실망한 듯 고개를 저었습니다: “당신의 착한 마음은, 당신의 장사보다 재미없습니다.”",
@@ -29937,10 +29949,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "그녀는 가장 독실한 신자로, 언행마다 신의 가르침을 삼가 받들어, 설령 다른 사람의 눈길이 미치지 못하는 곳에서도 법도를 넘지 않습니다. 어려운 사람을 만나면, 도움의 손길을 내밀고, 가난한 사람을 만나면, 아낌없이 주머니를 털어줍니다. 반대 의견을 가진 사람들을 대할 때, 그녀는 관대한 마음으로 상대방에게 구신의 은덕을 기르라고 충고합니다.",
                 ["TextMapId"] = "RLTreasure_IPDesc_10103",
             },
-        }
-    end },
-    { MinKey = "RLTreasure_IPDesc_10104", MaxKey = "RL_Event302_Select_1", Loader = function()
-        return {
             ["RLTreasure_IPDesc_10104"] = {
                 ["ContentKR"] = "“만약 신이 당신이 상상하는 것만큼 완벽하지 않다면, 당신이 한 일은 여전히 의미가 있습니까?” 상대방이 그녀에게 질문했습니다.\
 “당연히 의미가 있습니다”, 그녀는 기꺼이 미소 지었습니다. “신앙은 요구하는 것이 아니라 자신을 위한 것입니다. 내가 한 짓이 양심에 거리낌이 없다면, 신이 진짜인지 가짜인지, 좋은지 나쁜지 무슨 상관이 있겠습니까?”",
@@ -30760,6 +30768,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "<Highlight>금색</> [유물] 1개 랜덤 획득.",
                 ["TextMapId"] = "RL_Event301_Select_1",
             },
+        }
+    end },
+    { MinKey = "RL_Event301_Select_2", MaxKey = "SKILL_150203_DESC", Loader = function()
+        return {
             ["RL_Event301_Select_2"] = {
                 ["ContentKR"] = "<Highlight>파란색</> 또는 <Highlight>보라색</> [유물] 1개 선택.",
                 ["TextMapId"] = "RL_Event301_Select_2",
@@ -30768,10 +30780,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "<Highlight>화롯불</> [심지] 1개 선택.",
                 ["TextMapId"] = "RL_Event302_Select_1",
             },
-        }
-    end },
-    { MinKey = "RL_Event302_Select_2", MaxKey = "SKILL_150204_DESC", Loader = function()
-        return {
             ["RL_Event302_Select_2"] = {
                 ["ContentKR"] = "<Highlight>부유하는 달</> [심지] 1개 선택.",
                 ["TextMapId"] = "RL_Event302_Select_2",
@@ -31590,6 +31598,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "원거리 무기의 발동 확률을 기반으로, [일식] 생성 후, 일정 확률로 같은 위치에 1발의 [달 사냥]을 생성하고, [달 사냥] 생성 후, 일정 확률로 같은 위치에 1발의 [일식]을 생성한다. 해당 효과를 통해 생성된 [일식]과 [달 사냥]은 [안개의 바다 진혼]에 의해 강화되지 않는다.",
                 ["TextMapId"] = "SKILL_150203_DESC",
             },
+        }
+    end },
+    { MinKey = "SKILL_150203_NAME", MaxKey = "SKILL_540102_NAME", Loader = function()
+        return {
             ["SKILL_150203_NAME"] = {
                 ["ContentKR"] = "울음소리 교차",
                 ["TextMapId"] = "SKILL_150203_NAME",
@@ -31598,10 +31610,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "[일식]은 빛 속성 추가 효과를 발동하고, [달 사냥]은 어둠 속성 추가 효과를 발동한다.",
                 ["TextMapId"] = "SKILL_150204_DESC",
             },
-        }
-    end },
-    { MinKey = "SKILL_150204_NAME", MaxKey = "SKILL_540103_NAME", Loader = function()
-        return {
             ["SKILL_150204_NAME"] = {
                 ["ContentKR"] = "황혼",
                 ["TextMapId"] = "SKILL_150204_NAME",
@@ -32429,6 +32437,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "호척 단련",
                 ["TextMapId"] = "SKILL_540102_NAME",
             },
+        }
+    end },
+    { MinKey = "SKILL_540103_DESC", MaxKey = "SKILL_DESC_5101IncreasePerHit", Loader = function()
+        return {
             ["SKILL_540103_DESC"] = {
                 ["ContentKR"] = "[아조트탄] 보유 기간에, 자신의 원거리 무기의 발동 확률이 상승한다. [아조트탄]은 최대 30발 보유할 수 있고, 원거리 무기 사격 시마다, 1발의 [아조트탄]을 소모한다.",
                 ["TextMapId"] = "SKILL_540103_DESC",
@@ -32437,10 +32449,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "아조트탄",
                 ["TextMapId"] = "SKILL_540103_NAME",
             },
-        }
-    end },
-    { MinKey = "SKILL_540104_DESC", MaxKey = "SKILL_DESC_5102Skill01Buff", Loader = function()
-        return {
             ["SKILL_540104_DESC"] = {
                 ["ContentKR"] = "[아조트탄] 보유 기간에, 원거리 무기로 대미지를 입힐 시 추가로 1회 대상의 [부패 레시피] 지속 대미지를 결산한다. 결산 배율은 자신의 원거리 무기 발동 확률을 기반으로 한다.",
                 ["TextMapId"] = "SKILL_540104_DESC",
@@ -33233,6 +33241,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "대미지를 입힐 시 [일에 대한 열정]을 획득한다.",
                 ["TextMapId"] = "SKILL_DESC_5101IncreasePerHit",
             },
+        }
+    end },
+    { MinKey = "SKILL_DESC_5101SpCostDot", MaxKey = "StarterQuest_Des_102001_2_3", Loader = function()
+        return {
             ["SKILL_DESC_5101SpCostDot"] = {
                 ["ContentKR"] = "[돌격, 헤이즐넛!] 매초 정신력 소모",
                 ["TextMapId"] = "SKILL_DESC_5101SpCostDot",
@@ -33241,10 +33253,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "[종적 감추기] 지속 시간",
                 ["TextMapId"] = "SKILL_DESC_5102Skill01Buff",
             },
-        }
-    end },
-    { MinKey = "SKILL_DESC_5102Skill02Buff", MaxKey = "StarterQuest_Des_102001_2_5", Loader = function()
-        return {
             ["SKILL_DESC_5102Skill02Buff"] = {
                 ["ContentKR"] = "[쟁취] 지속 시간",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02Buff",
@@ -34037,6 +34045,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "임의의 캐릭터 스킬 2레벨 누적 2개 달성",
                 ["TextMapId"] = "StarterQuest_Des_102001_2_3",
             },
+        }
+    end },
+    { MinKey = "StarterQuest_Des_102001_2_4", MaxKey = "TARGET_DUNGEON_TRAINING_102", Loader = function()
+        return {
             ["StarterQuest_Des_102001_2_4"] = {
                 ["ContentKR"] = "인상 판정 누적 2회 성공(인상 상점 제외)",
                 ["TextMapId"] = "StarterQuest_Des_102001_2_4",
@@ -34045,10 +34057,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "아이스레이크 시티 '달걀 루나의 인상 상점'에서 상품 1회 구매",
                 ["TextMapId"] = "StarterQuest_Des_102001_2_5",
             },
-        }
-    end },
-    { MinKey = "StarterQuest_Des_102001_3_1", MaxKey = "TERMEXP_1103_Combo", Loader = function()
-        return {
             ["StarterQuest_Des_102001_3_1"] = {
                 ["ContentKR"] = "메인 퀘스트 '생존의 길' 완료",
                 ["TextMapId"] = "StarterQuest_Des_102001_3_1",
@@ -34842,6 +34850,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "모든 적 처치",
                 ["TextMapId"] = "TARGET_DUNGEON_TRAINING_102",
             },
+        }
+    end },
+    { MinKey = "TARGET_DUNGEON_Trial_100", MaxKey = "TextMap_AnswerName_100503", Loader = function()
+        return {
             ["TARGET_DUNGEON_Trial_100"] = {
                 ["ContentKR"] = "전투 시작",
                 ["TextMapId"] = "TARGET_DUNGEON_Trial_100",
@@ -34850,10 +34862,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "일정량의 [몰입도] 획득, 효과는 0.1초당 최대 1회 발동.",
                 ["TextMapId"] = "TERMEXP_1103_Combo",
             },
-        }
-    end },
-    { MinKey = "TERMEXP_1103_Finish", MaxKey = "TextMap_AnswerName_200102", Loader = function()
-        return {
             ["TERMEXP_1103_Finish"] = {
                 ["ContentKR"] = "대상의 [아다지오] 중첩을 기반으로 대미지 배율이 증가하고, 대상의 모든 [아다지오]가 제거된다. 만약 대상이 10단계의 [아다지오]를 보유하고 있으면, 자신은 정신력 회복 및 일정량의 [몰입도]를 획득하고, 효과는 공격할 때마다 최대 1회 발동한다.",
                 ["TextMapId"] = "TERMEXP_1103_Finish",
@@ -35661,6 +35669,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "범인이 흥얼거린 것은 오페라 아리아의 멜로디이다.",
                 ["TextMapId"] = "TextMap_AnswerName_100503",
             },
+        }
+    end },
+    { MinKey = "TextMap_AnswerName_200101", MaxKey = "UIGuide_SpecialDestructible_5", Loader = function()
+        return {
             ["TextMap_AnswerName_200101"] = {
                 ["ContentKR"] = "바크 씨는 알코올 냄새만 맡아도 취해 쓰러진다.",
                 ["TextMapId"] = "TextMap_AnswerName_200101",
@@ -35669,10 +35681,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "누군가 우유통에 술을 섞었다.",
                 ["TextMapId"] = "TextMap_AnswerName_200102",
             },
-        }
-    end },
-    { MinKey = "TextMap_AnswerName_200103", MaxKey = "UIGuide_SpecialSideStoryUI2", Loader = function()
-        return {
             ["TextMap_AnswerName_200103"] = {
                 ["ContentKR"] = "바크 씨 창턱에 아이의 발자국이 있다.",
                 ["TextMapId"] = "TextMap_AnswerName_200103",
@@ -36482,6 +36490,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
 (캐릭터와 무기의 <H>속성</>과 추가 효과 발동 <H>확률</>은 정비 화면에서 확인할 수 있습니다.)",
                 ["TextMapId"] = "UIGuide_SpecialDestructible_5",
             },
+        }
+    end },
+    { MinKey = "UIGuide_SpecialSideStoryUI1", MaxKey = "UI_Accessory_Desc_90009", Loader = function()
+        return {
             ["UIGuide_SpecialSideStoryUI1"] = {
                 ["ContentKR"] = "게임을 진행하는 동안 스페셜 사이드 퀘스트를 받을 수 있으며, 이는 퀘스트 목록에서 파란색 아이콘으로 표시됩니다.",
                 ["TextMapId"] = "UIGuide_SpecialSideStoryUI1",
@@ -36490,10 +36502,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "자유 탐색 시에도 같은 아이콘을 볼 수 있으며, 이러한 사이드 퀘스트를 완료하면 새로운 시스템 기능을 해제할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_SpecialSideStoryUI2",
             },
-        }
-    end },
-    { MinKey = "UIGuide_SwitchMaster_PC", MaxKey = "UI_Accessory_Desc_91002", Loader = function()
-        return {
             ["UIGuide_SwitchMaster_PC"] = {
                 ["ContentKR"] = "안전 구역에서 &Skill3& 버튼을 <H>길게 눌러</> 주인공으로 전환한 뒤 플레이 및 탐색할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_SwitchMaster_PC",
@@ -37294,6 +37302,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "“그냥 숄일 뿐이야, 복잡하게 생각할 필요 없어. 보기 좋고 마음에 들어서 그냥 입었어.”",
                 ["TextMapId"] = "UI_Accessory_Desc_90009",
             },
+        }
+    end },
+    { MinKey = "UI_Accessory_Desc_91001", MaxKey = "UI_Achievement_Des_2001", Loader = function()
+        return {
             ["UI_Accessory_Desc_91001"] = {
                 ["ContentKR"] = "베레니카의 머리장식\
 \"소원? ... 딱히 생각해 놓은 소원은 없는데. 아침에 네가 웃는 것을 보는 것만으로도 충분해.\"",
@@ -37304,10 +37316,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
 \"... 야아... 야! 나 좀 놀러 나가게 해 줘! 너무 할 게 없어서 촉수도 굳을 것 같아!",
                 ["TextMapId"] = "UI_Accessory_Desc_91002",
             },
-        }
-    end },
-    { MinKey = "UI_Accessory_Desc_91003", MaxKey = "UI_Achievement_Des_2002", Loader = function()
-        return {
             ["UI_Accessory_Desc_91003"] = {
                 ["ContentKR"] = "힐다의 머리장식\
 \"제 눈에는 윙윙거리는 하루살이나 필토이드 모두 깨끗이 쓸어버려야 할 오물과 다르지 않죠. 싸우는 건 즐거운 청소에 불과할 뿐이랍니다.\"",
@@ -38108,6 +38116,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "필토이드 누적 <highlight>#1</>마리 처치",
                 ["TextMapId"] = "UI_Achievement_Des_2001",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_200101", MaxKey = "UI_Achievement_Des_70109", Loader = function()
+        return {
             ["UI_Achievement_Des_200101"] = {
                 ["ContentKR"] = "인상 대화 판정(인상 상점 판정 제외) 누적 <highlight>#1</>회 성공",
                 ["TextMapId"] = "UI_Achievement_Des_200101",
@@ -38116,10 +38128,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "휘페르보레아 군단 적 누적 <highlight>#1</>명 처치",
                 ["TextMapId"] = "UI_Achievement_Des_2002",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Des_2003", MaxKey = "UI_Achievement_Des_70111", Loader = function()
-        return {
             ["UI_Achievement_Des_2003"] = {
                 ["ContentKR"] = "엘리시안의 적 누적 <highlight>#1</>명 처치",
                 ["TextMapId"] = "UI_Achievement_Des_2003",
@@ -38913,6 +38921,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "'상위자들' 퀘스트 완료",
                 ["TextMapId"] = "UI_Achievement_Des_70109",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_70110", MaxKey = "UI_Achievement_Name_201502", Loader = function()
+        return {
             ["UI_Achievement_Des_70110"] = {
                 ["ContentKR"] = "'심판의 날' 퀘스트 완료",
                 ["TextMapId"] = "UI_Achievement_Des_70110",
@@ -38921,10 +38933,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "카론 한 명을 증인으로…… 또는 모든 카론의 운명.",
                 ["TextMapId"] = "UI_Achievement_Des_70111",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Des_70112", MaxKey = "UI_Achievement_Name_201601", Loader = function()
-        return {
             ["UI_Achievement_Des_70112"] = {
                 ["ContentKR"] = "돌고 돌아, 추억은 등불 위의 주마처럼.",
                 ["TextMapId"] = "UI_Achievement_Des_70112",
@@ -39717,6 +39725,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "로봇 청소기 Ⅱ",
                 ["TextMapId"] = "UI_Achievement_Name_201502",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_201503", MaxKey = "UI_Achievement_Name_5090801", Loader = function()
+        return {
             ["UI_Achievement_Name_201503"] = {
                 ["ContentKR"] = "로봇 청소기 Ⅲ",
                 ["TextMapId"] = "UI_Achievement_Name_201503",
@@ -39725,10 +39737,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "치지직... 펑! Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_201601",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_201602", MaxKey = "UI_Achievement_Name_5091001", Loader = function()
-        return {
             ["UI_Achievement_Name_201602"] = {
                 ["ContentKR"] = "치지직... 펑! Ⅱ",
                 ["TextMapId"] = "UI_Achievement_Name_201602",
@@ -40521,6 +40529,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "난 레이서가 아니다 Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_5090801",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_5090901", MaxKey = "UI_Archive_Tab_AllResource", Loader = function()
+        return {
             ["UI_Achievement_Name_5090901"] = {
                 ["ContentKR"] = "모조리 퇴치 Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_5090901",
@@ -40529,10 +40541,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "긴급 구조 Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_5091001",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_5092001", MaxKey = "UI_Archive_Tab_BossEnemy", Loader = function()
-        return {
             ["UI_Achievement_Name_5092001"] = {
                 ["ContentKR"] = "영원한 루나의 수호자 Ⅱ",
                 ["TextMapId"] = "UI_Achievement_Name_5092001",
@@ -41325,6 +41333,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "모든 물건",
                 ["TextMapId"] = "UI_Archive_Tab_AllResource",
             },
+        }
+    end },
+    { MinKey = "UI_Archive_Tab_AllianceEnemy", MaxKey = "UI_CHAR_BIRTH_1103", Loader = function()
+        return {
             ["UI_Archive_Tab_AllianceEnemy"] = {
                 ["ContentKR"] = "포세이큰 동맹",
                 ["TextMapId"] = "UI_Archive_Tab_AllianceEnemy",
@@ -41333,10 +41345,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "고위험",
                 ["TextMapId"] = "UI_Archive_Tab_BossEnemy",
             },
-        }
-    end },
-    { MinKey = "UI_Archive_Tab_ChurchEnemy", MaxKey = "UI_CHAR_BIRTH_1503", Loader = function()
-        return {
             ["UI_Archive_Tab_ChurchEnemy"] = {
                 ["ContentKR"] = "엘리시안 교회",
                 ["TextMapId"] = "UI_Archive_Tab_ChurchEnemy",
@@ -42129,6 +42137,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "휘페르보레아 제국",
                 ["TextMapId"] = "UI_CHAR_BIRTH_1103",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_BIRTH_1502", MaxKey = "UI_CHAR_DATA_TEXT_32010102", Loader = function()
+        return {
             ["UI_CHAR_BIRTH_1502"] = {
                 ["ContentKR"] = "엘리시안 교회",
                 ["TextMapId"] = "UI_CHAR_BIRTH_1502",
@@ -42137,10 +42149,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "화서",
                 ["TextMapId"] = "UI_CHAR_BIRTH_1503",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_BIRTH_1801", MaxKey = "UI_CHAR_DATA_TEXT_32010201", Loader = function()
-        return {
             ["UI_CHAR_BIRTH_1801"] = {
                 ["ContentKR"] = "휘페르보레아 제국",
                 ["TextMapId"] = "UI_CHAR_BIRTH_1801",
@@ -43821,6 +43829,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
 그래서 피를 토하는 듯한 질문 앞에서도 헬파이어는 언제나 차분하게 말한다. \"그래, 나는 내 정의를 위해 칼을 휘두른다.\"라고.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_32010102",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_DATA_TEXT_32010103", MaxKey = "UI_CMNpc_Name_Alino", Loader = function()
+        return {
             ["UI_CHAR_DATA_TEXT_32010103"] = {
                 ["ContentKR"] = "황실 군교도소의 사람들은 용의자의 거짓말이 헬파이어 앞에서 무참히 무너지는 광경을 목격했다. \
 헬파이어가 용의자를 끌어올려 자신의 눈을 똑바로 보게 했다. 용의자가 갑자기 헬파이어의 시선과 마주쳤을 때, 그의 얼굴이 갑자기 고온에 타버린 듯 피부에 화상 자국이 생기며 비명을 지르며 바닥을 뒹굴었다. \
@@ -43835,10 +43847,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
 헬파이어가 각성한 후, 그녀의 피부는 영원히 사라지지 않는 고열과 함께 붉게 변했다. 이는 그녀의 가문의 '환원 유전'이라 불리며, 그녀 이전에는 초대 교도소장만이 이러한 변화를 겪었다고 전해진다. 많은 사람들이 헬파이어의 기괴하고 흉측한 외모를 혐오하지만, 그녀는 이를 조상들이 내린 축복이라 여긴다. 그녀는 자신이 이 뜨겁게 달아오른 붉은 피부로 제국의 질서를 유지하고 제국의 어두운 밤에 빛을 밝힐 운명이라고 믿는다.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_32010201",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_DATA_TEXT_32010202", MaxKey = "UI_CMNpc_Name_AngryAudience", Loader = function()
-        return {
             ["UI_CHAR_DATA_TEXT_32010202"] = {
                 ["ContentKR"] = "헬파이어는 그녀의 무기인 ‘징벌의 지옥불’을 항상 가지고 다니는 괴벽으로 유명하다. 전설에 따르면, '징벌의 지옥불'은 초대 교도소장의 무기였다고 한다. 이 무기가 발산하는 뜨거운 열기는 일반인이 감당하기 어려웠고, 가문 내에서도 아무도 다시 사용할 수 없었다. 그러나 헬파이어가 각성하면서 '징벌의 지옥불'은 다시 세상에 모습을 드러낼 수 있었다. 헬파이어에게 이 고대의 무기를 들 수 있다는 것은 항상 자랑스러운 일이었다. 심문을 하거나 잠을 잘 때에도 '징벌의 지옥불'이 곁에 있어야만 마음이 편안했다. 어떤 사람들은 헬파이어가 무기를 연인처럼 대한다고 은근히 조롱하곤 했다. 하지만 역시, 누가 붉은 피부를 가진 괴물을 사랑하겠는가?",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_32010202",
@@ -45159,6 +45167,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "엘레노어",
                 ["TextMapId"] = "UI_CMNpc_Name_Alino",
             },
+        }
+    end },
+    { MinKey = "UI_CMNpc_Name_Almit", MaxKey = "UI_COMMONPOP_TITLE_100007", Loader = function()
+        return {
             ["UI_CMNpc_Name_Almit"] = {
                 ["ContentKR"] = "아미애트",
                 ["TextMapId"] = "UI_CMNpc_Name_Almit",
@@ -45167,10 +45179,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "분노한 관중",
                 ["TextMapId"] = "UI_CMNpc_Name_AngryAudience",
             },
-        }
-    end },
-    { MinKey = "UI_CMNpc_Name_AngryOldMan", MaxKey = "UI_COMMONPOP_TITLE_100010", Loader = function()
-        return {
             ["UI_CMNpc_Name_AngryOldMan"] = {
                 ["ContentKR"] = "화난 노인",
                 ["TextMapId"] = "UI_CMNpc_Name_AngryOldMan",
@@ -45966,6 +45974,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "업데이트",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100007",
             },
+        }
+    end },
+    { MinKey = "UI_COMMONPOP_TITLE_100009", MaxKey = "UI_Chardata_Char_Name", Loader = function()
+        return {
             ["UI_COMMONPOP_TITLE_100009"] = {
                 ["ContentKR"] = "내성 부족",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100009",
@@ -45974,10 +45986,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "Tips",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100010",
             },
-        }
-    end },
-    { MinKey = "UI_COMMONPOP_TITLE_100012", MaxKey = "UI_Chardata_Char_Year", Loader = function()
-        return {
             ["UI_COMMONPOP_TITLE_100012"] = {
                 ["ContentKR"] = "단축키 충돌",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100012",
@@ -46770,6 +46778,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "캐릭터 이름",
                 ["TextMapId"] = "UI_Chardata_Char_Name",
             },
+        }
+    end },
+    { MinKey = "UI_Chardata_Char_Sex", MaxKey = "UI_DUNGEON_DES_SABOTAGE_1", Loader = function()
+        return {
             ["UI_Chardata_Char_Sex"] = {
                 ["ContentKR"] = "성별",
                 ["TextMapId"] = "UI_Chardata_Char_Sex",
@@ -46778,10 +46790,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "년 ",
                 ["TextMapId"] = "UI_Chardata_Char_Year",
             },
-        }
-    end },
-    { MinKey = "UI_Chardata_Data", MaxKey = "UI_DUNGEON_DES_SURVIVAL_1", Loader = function()
-        return {
             ["UI_Chardata_Data"] = {
                 ["ContentKR"] = "자료",
                 ["TextMapId"] = "UI_Chardata_Data",
@@ -47574,6 +47582,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "포세이큰 동맹의 '글로리' 폭발을 막아, 분쟁 격화 방지하기",
                 ["TextMapId"] = "UI_DUNGEON_DES_SABOTAGE_1",
             },
+        }
+    end },
+    { MinKey = "UI_DUNGEON_DES_SURVIVALPRO_1", MaxKey = "UI_Disptach_Agent_State_Busy", Loader = function()
+        return {
             ["UI_DUNGEON_DES_SURVIVALPRO_1"] = {
                 ["ContentKR"] = "혈청을 획득하고 탐사 지속하기",
                 ["TextMapId"] = "UI_DUNGEON_DES_SURVIVALPRO_1",
@@ -47582,10 +47594,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "혈청을 손에 넣어 탐사 지속하기",
                 ["TextMapId"] = "UI_DUNGEON_DES_SURVIVAL_1",
             },
-        }
-    end },
-    { MinKey = "UI_DUNGEON_DES_TESTING_1", MaxKey = "UI_Disptach_Agent_State_Release", Loader = function()
-        return {
             ["UI_DUNGEON_DES_TESTING_1"] = {
                 ["ContentKR"] = "적을 처치하고 격퇴 완료",
                 ["TextMapId"] = "UI_DUNGEON_DES_TESTING_1",
@@ -48378,6 +48386,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "출전 중",
                 ["TextMapId"] = "UI_Disptach_Agent_State_Busy",
             },
+        }
+    end },
+    { MinKey = "UI_Disptach_Agent_State_Doing", MaxKey = "UI_Friend_AddBlackList", Loader = function()
+        return {
             ["UI_Disptach_Agent_State_Doing"] = {
                 ["ContentKR"] = "파견 중",
                 ["TextMapId"] = "UI_Disptach_Agent_State_Doing",
@@ -48386,10 +48398,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "휴식",
                 ["TextMapId"] = "UI_Disptach_Agent_State_Release",
             },
-        }
-    end },
-    { MinKey = "UI_Disptach_AllRegion", MaxKey = "UI_Friend_AddStar", Loader = function()
-        return {
             ["UI_Disptach_AllRegion"] = {
                 ["ContentKR"] = "모든 구역",
                 ["TextMapId"] = "UI_Disptach_AllRegion",
@@ -49183,6 +49191,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "차단 목록에 추가",
                 ["TextMapId"] = "UI_Friend_AddBlackList",
             },
+        }
+    end },
+    { MinKey = "UI_Friend_AddFriend", MaxKey = "UI_IMPRESSIONSHOP_SUBTAB_WISDOM", Loader = function()
+        return {
             ["UI_Friend_AddFriend"] = {
                 ["ContentKR"] = "친구 추가",
                 ["TextMapId"] = "UI_Friend_AddFriend",
@@ -49191,10 +49203,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "즐겨찾기 추가",
                 ["TextMapId"] = "UI_Friend_AddStar",
             },
-        }
-    end },
-    { MinKey = "UI_Friend_AlreadyBlacklist", MaxKey = "UI_INTERACTIVE_CONDITION_910", Loader = function()
-        return {
             ["UI_Friend_AlreadyBlacklist"] = {
                 ["ContentKR"] = "해당 플레이어를 차단 목록에 추가했습니다",
                 ["TextMapId"] = "UI_Friend_AlreadyBlacklist",
@@ -49987,6 +49995,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "재치",
                 ["TextMapId"] = "UI_IMPRESSIONSHOP_SUBTAB_WISDOM",
             },
+        }
+    end },
+    { MinKey = "UI_INTERACTIVE_CONDITION_909", MaxKey = "UI_MECHANISM_10427", Loader = function()
+        return {
             ["UI_INTERACTIVE_CONDITION_909"] = {
                 ["ContentKR"] = "10레벨 필요. 상자가 10초 동안 잠깁니다.",
                 ["TextMapId"] = "UI_INTERACTIVE_CONDITION_909",
@@ -49995,10 +50007,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "20레벨 필요. 상자가 10초 동안 잠깁니다.",
                 ["TextMapId"] = "UI_INTERACTIVE_CONDITION_910",
             },
-        }
-    end },
-    { MinKey = "UI_INTERACTIVE_FAILMSG", MaxKey = "UI_MECHANISM_10429", Loader = function()
-        return {
             ["UI_INTERACTIVE_FAILMSG"] = {
                 ["ContentKR"] = "현재 상태에서는 상호작용할 수 없습니다.",
                 ["TextMapId"] = "UI_INTERACTIVE_FAILMSG",
@@ -50792,6 +50800,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "바리케이드",
                 ["TextMapId"] = "UI_MECHANISM_10427",
             },
+        }
+    end },
+    { MinKey = "UI_MECHANISM_10428", MaxKey = "UI_Mod_EquipPreview", Loader = function()
+        return {
             ["UI_MECHANISM_10428"] = {
                 ["ContentKR"] = "난방 시설",
                 ["TextMapId"] = "UI_MECHANISM_10428",
@@ -50800,10 +50812,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "페인트",
                 ["TextMapId"] = "UI_MECHANISM_10429",
             },
-        }
-    end },
-    { MinKey = "UI_MECHANISM_10430", MaxKey = "UI_Mod_NotOwned_Char", Loader = function()
-        return {
             ["UI_MECHANISM_10430"] = {
                 ["ContentKR"] = "무덤",
                 ["TextMapId"] = "UI_MECHANISM_10430",
@@ -51596,6 +51604,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "장착 후 속성",
                 ["TextMapId"] = "UI_Mod_EquipPreview",
             },
+        }
+    end },
+    { MinKey = "UI_Mod_ImportPlan", MaxKey = "UI_Npc_Name_Oliver", Loader = function()
+        return {
             ["UI_Mod_ImportPlan"] = {
                 ["ContentKR"] = "방안 가져오기",
                 ["TextMapId"] = "UI_Mod_ImportPlan",
@@ -51604,10 +51616,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "해당 캐릭터 미보유",
                 ["TextMapId"] = "UI_Mod_NotOwned_Char",
             },
-        }
-    end },
-    { MinKey = "UI_Mod_NotOwned_Weapon", MaxKey = "UI_Npc_Name_PanBeikun", Loader = function()
-        return {
             ["UI_Mod_NotOwned_Weapon"] = {
                 ["ContentKR"] = "해당 무기 미보유",
                 ["TextMapId"] = "UI_Mod_NotOwned_Weapon",
@@ -52400,6 +52408,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "올리버",
                 ["TextMapId"] = "UI_Npc_Name_Oliver",
             },
+        }
+    end },
+    { MinKey = "UI_Npc_Name_OreKuanggong", MaxKey = "UI_OPTION_Tessellation", Loader = function()
+        return {
             ["UI_Npc_Name_OreKuanggong"] = {
                 ["ContentKR"] = "고뇌하는 월석 사냥꾼",
                 ["TextMapId"] = "UI_Npc_Name_OreKuanggong",
@@ -52408,10 +52420,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "다시 갇힌 마령",
                 ["TextMapId"] = "UI_Npc_Name_PanBeikun",
             },
-        }
-    end },
-    { MinKey = "UI_Npc_Name_PanTuokun", MaxKey = "UI_OPTION_ThisKeyIsUsed", Loader = function()
-        return {
             ["UI_Npc_Name_PanTuokun"] = {
                 ["ContentKR"] = "탈출한 마령",
                 ["TextMapId"] = "UI_Npc_Name_PanTuokun",
@@ -53204,6 +53212,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "곡면 디테일",
                 ["TextMapId"] = "UI_OPTION_Tessellation",
             },
+        }
+    end },
+    { MinKey = "UI_OPTION_ThirdPartySDK", MaxKey = "UI_PlayerHead_Name_10011", Loader = function()
+        return {
             ["UI_OPTION_ThirdPartySDK"] = {
                 ["ContentKR"] = "써드파티 SDK 제공 동의서",
                 ["TextMapId"] = "UI_OPTION_ThirdPartySDK",
@@ -53212,10 +53224,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "변경을 지원하지 않는 <Highlight>%s </>에 사용되고 있습니다",
                 ["TextMapId"] = "UI_OPTION_ThisKeyIsUsed",
             },
-        }
-    end },
-    { MinKey = "UI_OPTION_TotalVolume", MaxKey = "UI_PlayerHead_Name_10013", Loader = function()
-        return {
             ["UI_OPTION_TotalVolume"] = {
                 ["ContentKR"] = "마스터 볼륨",
                 ["TextMapId"] = "UI_OPTION_TotalVolume",
@@ -54009,6 +54017,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "죄를 진 자의 초상화",
                 ["TextMapId"] = "UI_PlayerHead_Name_10011",
             },
+        }
+    end },
+    { MinKey = "UI_PlayerHead_Name_10012", MaxKey = "UI_Rouge_Shop_MainTab", Loader = function()
+        return {
             ["UI_PlayerHead_Name_10012"] = {
                 ["ContentKR"] = "악마대도의 초상화",
                 ["TextMapId"] = "UI_PlayerHead_Name_10012",
@@ -54017,10 +54029,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "연금술사의 초상화",
                 ["TextMapId"] = "UI_PlayerHead_Name_10013",
             },
-        }
-    end },
-    { MinKey = "UI_PlayerHead_Name_10014", MaxKey = "UI_Rouge_Shop_SubTab_Treasure", Loader = function()
-        return {
             ["UI_PlayerHead_Name_10014"] = {
                 ["ContentKR"] = "나이팅게일 양의 초상화",
                 ["TextMapId"] = "UI_PlayerHead_Name_10014",
@@ -54813,6 +54821,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "미스터리 행상인",
                 ["TextMapId"] = "UI_Rouge_Shop_MainTab",
             },
+        }
+    end },
+    { MinKey = "UI_Rouge_Shop_SubTab_Blessing", MaxKey = "UI_Select_Level", Loader = function()
+        return {
             ["UI_Rouge_Shop_SubTab_Blessing"] = {
                 ["ContentKR"] = "심지",
                 ["TextMapId"] = "UI_Rouge_Shop_SubTab_Blessing",
@@ -54821,10 +54833,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "유물",
                 ["TextMapId"] = "UI_Rouge_Shop_SubTab_Treasure",
             },
-        }
-    end },
-    { MinKey = "UI_Rouge_TalentSubTitle_CHARATK", MaxKey = "UI_Select_Price", Loader = function()
-        return {
             ["UI_Rouge_TalentSubTitle_CHARATK"] = {
                 ["ContentKR"] = "등불 덮개: 명예의 축복",
                 ["TextMapId"] = "UI_Rouge_TalentSubTitle_CHARATK",
@@ -55619,6 +55627,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "레벨",
                 ["TextMapId"] = "UI_Select_Level",
             },
+        }
+    end },
+    { MinKey = "UI_Select_Name", MaxKey = "UI_TEMPLE_DES_81103", Loader = function()
+        return {
             ["UI_Select_Name"] = {
                 ["ContentKR"] = "이름",
                 ["TextMapId"] = "UI_Select_Name",
@@ -55627,10 +55639,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "판매 가격",
                 ["TextMapId"] = "UI_Select_Price",
             },
-        }
-    end },
-    { MinKey = "UI_Select_Time", MaxKey = "UI_TEMPLE_FAILURE_LIFE", Loader = function()
-        return {
             ["UI_Select_Time"] = {
                 ["ContentKR"] = "출시 시간",
                 ["TextMapId"] = "UI_Select_Time",
@@ -56425,6 +56433,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "적의 시야를 피해 적 뒤에서 근접 공격하면 처치할 수 있습니다.",
                 ["TextMapId"] = "UI_TEMPLE_DES_81103",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_FAILURE_FALL", MaxKey = "UI_WEAPON_DESC_10206", Loader = function()
+        return {
             ["UI_TEMPLE_FAILURE_FALL"] = {
                 ["ContentKR"] = "추락 횟수 초과",
                 ["TextMapId"] = "UI_TEMPLE_FAILURE_FALL",
@@ -56433,10 +56445,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "남은 생명력 소진",
                 ["TextMapId"] = "UI_TEMPLE_FAILURE_LIFE",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_FAILURE_QUIT", MaxKey = "UI_WEAPON_DESC_10208", Loader = function()
-        return {
             ["UI_TEMPLE_FAILURE_QUIT"] = {
                 ["ContentKR"] = "먼저 시련 나가기",
                 ["TextMapId"] = "UI_TEMPLE_FAILURE_QUIT",
@@ -57240,6 +57248,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "부식은 생명의 끝이다. 그걸 품을 수 있어야 영원하고 고요한 항구로 향할 수 있다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10206",
             },
+        }
+    end },
+    { MinKey = "UI_WEAPON_DESC_10207", MaxKey = "UI_WeaponAccessory_Name_10004", Loader = function()
+        return {
             ["UI_WEAPON_DESC_10207"] = {
                 ["ContentKR"] = "푸른 수정 속에 바다의 세찬 물결이 봉인되어 있다. 적에게 용서를 비는 것은 불협화음의 음표이니, 물결이 쏟아져 나오기 전에 이 경계의 악보에 묻어버려야 한다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10207",
@@ -57248,10 +57260,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "존엄을 지키기 위해 싸우는 흰 비둘기. 모든 깃털을 평화의 결실에 바치겠다고 맹세했다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10208",
             },
-        }
-    end },
-    { MinKey = "UI_WEAPON_DESC_10209", MaxKey = "UI_WeaponAccessory_Name_10006", Loader = function()
-        return {
             ["UI_WEAPON_DESC_10209"] = {
                 ["ContentKR"] = "피투성이의 날카로운 칼날은 이미 심장을 향했다. 뜨거운 용암이 식기 전이니 아직 도망칠 수 있다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10209",
@@ -58049,6 +58057,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "음표·화이트 사쿠라",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10004",
             },
+        }
+    end },
+    { MinKey = "UI_WeaponAccessory_Name_10005", MaxKey = "VoiceDes126", Loader = function()
+        return {
             ["UI_WeaponAccessory_Name_10005"] = {
                 ["ContentKR"] = "리본·제트 블랙",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10005",
@@ -58057,10 +58069,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "리본·아이보리",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10006",
             },
-        }
-    end },
-    { MinKey = "UI_WeaponAccessory_Name_10007", MaxKey = "VoiceDes128", Loader = function()
-        return {
             ["UI_WeaponAccessory_Name_10007"] = {
                 ["ContentKR"] = "리본·러스트 레드",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10007",
@@ -58860,6 +58868,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "공연에 관하여",
                 ["TextMapId"] = "VoiceDes126",
             },
+        }
+    end },
+    { MinKey = "VoiceDes127", MaxKey = "voice_ch_char_Aote_vo_be_hit_heavy_r02", Loader = function()
+        return {
             ["VoiceDes127"] = {
                 ["ContentKR"] = "극장에 관하여",
                 ["TextMapId"] = "VoiceDes127",
@@ -58868,10 +58880,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "의학에 관하여",
                 ["TextMapId"] = "VoiceDes128",
             },
-        }
-    end },
-    { MinKey = "VoiceDes129", MaxKey = "voice_ch_char_Aote_vo_companio_01", Loader = function()
-        return {
             ["VoiceDes129"] = {
                 ["ContentKR"] = "연금원에 관하여",
                 ["TextMapId"] = "VoiceDes129",
@@ -59716,6 +59724,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "스읍....",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_be_hit_heavy_r02",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Aote_vo_birthday", MaxKey = "voice_ch_char_Heitao_vo_companio_02_1", Loader = function()
+        return {
             ["voice_ch_char_Aote_vo_birthday"] = {
                 ["ContentKR"] = "생일 축하합니다! 생일 축하합니다... 아, 아. 우리가 처음 만난 것도 '생일' 때문이었던 게 생각나서. 서로를 의지하며 또 한 번의 '생일'을 맞게 되었다는 게 감격스러워. 예전에는 이런 건 생각도 못했는데, 운명이란 참 신기하다니까.",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_birthday",
@@ -59724,10 +59736,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "왜 여기 있어? 몸은 괜찮아? 병은 나았고? 밥은? 휴... 필요한 거 있으면 나한테 말해. 아무 데나 돌아다니지 말고.",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_companio_01",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Aote_vo_companio_02_1", MaxKey = "voice_ch_char_Heitao_vo_companio_03", Loader = function()
-        return {
             ["voice_ch_char_Aote_vo_companio_02_1"] = {
                 ["ContentKR"] = "{nickname}, 그 녀석과 친하다는 그 여자아이구나... 몸이 약하다고 들었어. 앉아 좀 쉬고 있어.",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_companio_02_1",
@@ -60524,6 +60532,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "꼬마 트러플 아가씨. 그쪽 돼지…… 만져봐도 돼? 딱 한 번이면 돼. 그리고 도망갈 수도 있으니, 잠깐 잡아줄래? 동물들은 날 보면 항상 도망치거든.",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_02_1",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Heitao_vo_companio_02_2", MaxKey = "voice_ch_char_Maer_vo_revive", Loader = function()
+        return {
             ["voice_ch_char_Heitao_vo_companio_02_2"] = {
                 ["ContentKR"] = "고마워…… 아, 따뜻하고 털이 정말 복슬복슬한 게, 기분이 좋아지네……",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_02_2",
@@ -60532,10 +60544,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "난 군단의 '제로'도 아니고, 네 장난감도 아니야. 당장 떠나든지, 아니면 내 시체와 함께 돌아가든지.",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_03",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Heitao_vo_companio_04_1", MaxKey = "voice_ch_char_Maer_vo_skill01_r02", Loader = function()
-        return {
             ["voice_ch_char_Heitao_vo_companio_04_1"] = {
                 ["ContentKR"] = "네가 뛰어난 미식가라던데 네 레시피를 좀 볼 수 있을까? 네가 한 음식은 항상 맛있다는 {nickname}의 칭찬이, 빈 말은 아닌 것 같았거든.",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_04_1",
@@ -61334,6 +61342,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "완벽한 재활용!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_revive",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Maer_vo_skill01_r01", MaxKey = "voice_ch_char_Tuosi_vo_battleidle", Loader = function()
+        return {
             ["voice_ch_char_Maer_vo_skill01_r01"] = {
                 ["ContentKR"] = "재활용 가능!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_skill01_r01",
@@ -61342,10 +61354,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "재활용 불가!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_skill01_r02",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Maer_vo_skill02_r01", MaxKey = "voice_ch_char_Tuosi_vo_be_hit_heavy_r01", Loader = function()
-        return {
             ["voice_ch_char_Maer_vo_skill02_r01"] = {
                 ["ContentKR"] = "남는 쓰레기는 태워버릴 수밖에 없어요!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_skill02_r01",
@@ -62146,6 +62154,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "나는 원래 어떤 모습이었지...",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_battleidle",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Tuosi_vo_battlestart", MaxKey = "voice_ch_char_Zhangyu_vo_be_hit_r01", Loader = function()
+        return {
             ["voice_ch_char_Tuosi_vo_battlestart"] = {
                 ["ContentKR"] = "기대하시라, 이 로맨틱한 모험극을.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_battlestart",
@@ -62154,10 +62166,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "난 괜찮아.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_be_hit_heavy_r01",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Tuosi_vo_be_hit_heavy_r02", MaxKey = "voice_ch_char_Zhangyu_vo_birthday", Loader = function()
-        return {
             ["voice_ch_char_Tuosi_vo_be_hit_heavy_r02"] = {
                 ["ContentKR"] = "비극이네.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_be_hit_heavy_r02",
@@ -62965,6 +62973,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "아!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_be_hit_r01",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Zhangyu_vo_be_hit_r02", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Zhangyu_vo_be_hit_r02"] = {
                 ["ContentKR"] = "윽!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_be_hit_r02",
@@ -62973,10 +62985,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "난 생일을 축하해 본 적이 없는데! 배부르게 밥 먹고 사는 것도 힘들거든! 그래서…… 넌 항상 배부르게 먹었으면 좋겠어…… 도둑질할 필요 없이!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_birthday",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Zhangyu_vo_companio_01", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Zhangyu_vo_companio_01"] = {
                 ["ContentKR"] = "나를 잡는다고? 난 나쁜 사람이 아니야! 그냥 좀 슬쩍한 것뿐이야. 그것도 도둑의 물건을……. 우앗, 너 오지 마! 덥다고!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_companio_01",
