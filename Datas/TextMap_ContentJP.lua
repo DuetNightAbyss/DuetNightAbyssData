@@ -51993,7 +51993,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             },
         }
     end },
-    { MinKey = "UI_ModGuideBook_Task_Title_Collect_05", MaxKey = "UI_Npc_Name_Man_5", Loader = function()
+    { MinKey = "UI_ModGuideBook_Task_Title_Collect_05", MaxKey = "UI_Npc_Name_Man_4", Loader = function()
         return {
             ["UI_ModGuideBook_Task_Title_Collect_05"] = {
                 ["ContentJP"] = "魔の楔収集 Ⅴ",
@@ -52575,6 +52575,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "うっかり屋の漁師",
                 ["TextMapId"] = "UI_Npc_Name_FisherMonster",
             },
+            ["UI_Npc_Name_FishingShop"] = {
+                ["ContentJP"] = "ルーナ族の漁師",
+                ["TextMapId"] = "UI_Npc_Name_FishingShop",
+            },
             ["UI_Npc_Name_FlowerGirl"] = {
                 ["ContentJP"] = "呼び込みをする少女",
                 ["TextMapId"] = "UI_Npc_Name_FlowerGirl",
@@ -52791,14 +52795,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "見張りの兵士",
                 ["TextMapId"] = "UI_Npc_Name_Man_4",
             },
+        }
+    end },
+    { MinKey = "UI_Npc_Name_Man_5", MaxKey = "UI_OPTION_Rendering", Loader = function()
+        return {
             ["UI_Npc_Name_Man_5"] = {
                 ["ContentJP"] = "乱暴な兵士",
                 ["TextMapId"] = "UI_Npc_Name_Man_5",
             },
-        }
-    end },
-    { MinKey = "UI_Npc_Name_Man_6", MaxKey = "UI_OPTION_Resolution", Loader = function()
-        return {
             ["UI_Npc_Name_Man_6"] = {
                 ["ContentJP"] = "あざ笑う兵士",
                 ["TextMapId"] = "UI_Npc_Name_Man_6",
@@ -53595,14 +53599,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "レンダリング倍率",
                 ["TextMapId"] = "UI_OPTION_Rendering",
             },
+        }
+    end },
+    { MinKey = "UI_OPTION_Resolution", MaxKey = "UI_PlayerHead_Des_10012", Loader = function()
+        return {
             ["UI_OPTION_Resolution"] = {
                 ["ContentJP"] = "解像度",
                 ["TextMapId"] = "UI_OPTION_Resolution",
             },
-        }
-    end },
-    { MinKey = "UI_OPTION_ResolutionRatio", MaxKey = "UI_PlayerHead_Des_10013", Loader = function()
-        return {
             ["UI_OPTION_ResolutionRatio"] = {
                 ["ContentJP"] = "アスペクト比",
                 ["TextMapId"] = "UI_OPTION_ResolutionRatio",
@@ -54400,14 +54404,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "タビテのアイコンに変更できる。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10012",
             },
+        }
+    end },
+    { MinKey = "UI_PlayerHead_Des_10013", MaxKey = "UI_RougeLike_End_Event", Loader = function()
+        return {
             ["UI_PlayerHead_Des_10013"] = {
                 ["ContentJP"] = "ダフネのアイコンに変更できる。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10013",
             },
-        }
-    end },
-    { MinKey = "UI_PlayerHead_Des_10014", MaxKey = "UI_RougeLike_End_Fail01", Loader = function()
-        return {
             ["UI_PlayerHead_Des_10014"] = {
                 ["ContentJP"] = "フィーナのアイコンに変更できる。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10014",
@@ -55204,14 +55208,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "遭遇",
                 ["TextMapId"] = "UI_RougeLike_End_Event",
             },
+        }
+    end },
+    { MinKey = "UI_RougeLike_End_Fail01", MaxKey = "UI_SUBREGION_NAME_101205", Loader = function()
+        return {
             ["UI_RougeLike_End_Fail01"] = {
                 ["ContentJP"] = "探索失敗",
                 ["TextMapId"] = "UI_RougeLike_End_Fail01",
             },
-        }
-    end },
-    { MinKey = "UI_RougeLike_End_Fail02", MaxKey = "UI_SUBREGION_NAME_101301", Loader = function()
-        return {
             ["UI_RougeLike_End_Fail02"] = {
                 ["ContentJP"] = "探索失敗",
                 ["TextMapId"] = "UI_RougeLike_End_Fail02",
@@ -56010,14 +56014,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "下水道 5",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101205",
             },
+        }
+    end },
+    { MinKey = "UI_SUBREGION_NAME_101301", MaxKey = "UI_TEMPLE_DES_80401", Loader = function()
+        return {
             ["UI_SUBREGION_NAME_101301"] = {
                 ["ContentJP"] = "鉱山 1",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101301",
             },
-        }
-    end },
-    { MinKey = "UI_SUBREGION_NAME_101303", MaxKey = "UI_TEMPLE_DES_80402", Loader = function()
-        return {
             ["UI_SUBREGION_NAME_101303"] = {
                 ["ContentJP"] = "鉱山 3",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101303",
@@ -56814,14 +56818,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "適した遠隔武器で試練に挑もう。",
                 ["TextMapId"] = "UI_TEMPLE_DES_80401",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_DES_80402", MaxKey = "UI_Vote_Finish_Notenough", Loader = function()
+        return {
             ["UI_TEMPLE_DES_80402"] = {
                 ["ContentJP"] = "特定位置ではトラップの破壊がしやすくなる。",
                 ["TextMapId"] = "UI_TEMPLE_DES_80402",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_DES_80501", MaxKey = "UI_Vote_Finish_Retreat", Loader = function()
-        return {
             ["UI_TEMPLE_DES_80501"] = {
                 ["ContentJP"] = "動き続けながら、敵を狙うのに適した角度を探そう。",
                 ["TextMapId"] = "UI_TEMPLE_DES_80501",
@@ -57629,14 +57633,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "スタミナが足りないため、挑戦続行できません",
                 ["TextMapId"] = "UI_Vote_Finish_Notenough",
             },
+        }
+    end },
+    { MinKey = "UI_Vote_Finish_Retreat", MaxKey = "UI_Walnut_Selecting", Loader = function()
+        return {
             ["UI_Vote_Finish_Retreat"] = {
                 ["ContentJP"] = "撤退",
                 ["TextMapId"] = "UI_Vote_Finish_Retreat",
             },
-        }
-    end },
-    { MinKey = "UI_Vote_Finish_Retreated", MaxKey = "UI_Walnut_Type_Des_1", Loader = function()
-        return {
             ["UI_Vote_Finish_Retreated"] = {
                 ["ContentJP"] = "撤退を選択済み",
                 ["TextMapId"] = "UI_Vote_Finish_Retreated",
@@ -58434,14 +58438,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "選択中",
                 ["TextMapId"] = "UI_Walnut_Selecting",
             },
+        }
+    end },
+    { MinKey = "UI_Walnut_Type_Des_1", MaxKey = "VoiceDes105", Loader = function()
+        return {
             ["UI_Walnut_Type_Des_1"] = {
                 ["ContentJP"] = "秩序の密書",
                 ["TextMapId"] = "UI_Walnut_Type_Des_1",
             },
-        }
-    end },
-    { MinKey = "UI_Walnut_Type_Des_2", MaxKey = "VoiceDes106", Loader = function()
-        return {
             ["UI_Walnut_Type_Des_2"] = {
                 ["ContentJP"] = "中立の密書",
                 ["TextMapId"] = "UI_Walnut_Type_Des_2",
@@ -58951,43 +58955,43 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "VoiceDes028",
             },
             ["VoiceDes031"] = {
-                ["ContentJP"] = "{空格}その1",
+                ["ContentJP"] = "その1",
                 ["TextMapId"] = "VoiceDes031",
             },
             ["VoiceDes032"] = {
-                ["ContentJP"] = "{空格}その2",
+                ["ContentJP"] = "その2",
                 ["TextMapId"] = "VoiceDes032",
             },
             ["VoiceDes033"] = {
-                ["ContentJP"] = "{空格}その3",
+                ["ContentJP"] = "その3",
                 ["TextMapId"] = "VoiceDes033",
             },
             ["VoiceDes034"] = {
-                ["ContentJP"] = "{空格}その4",
+                ["ContentJP"] = "その4",
                 ["TextMapId"] = "VoiceDes034",
             },
             ["VoiceDes035"] = {
-                ["ContentJP"] = "{空格}その5",
+                ["ContentJP"] = "その5",
                 ["TextMapId"] = "VoiceDes035",
             },
             ["VoiceDes036"] = {
-                ["ContentJP"] = "{空格}その6",
+                ["ContentJP"] = "その6",
                 ["TextMapId"] = "VoiceDes036",
             },
             ["VoiceDes037"] = {
-                ["ContentJP"] = "{空格}その7",
+                ["ContentJP"] = "その7",
                 ["TextMapId"] = "VoiceDes037",
             },
             ["VoiceDes038"] = {
-                ["ContentJP"] = "{空格}その8",
+                ["ContentJP"] = "その8",
                 ["TextMapId"] = "VoiceDes038",
             },
             ["VoiceDes039"] = {
-                ["ContentJP"] = "{空格}その9",
+                ["ContentJP"] = "その9",
                 ["TextMapId"] = "VoiceDes039",
             },
             ["VoiceDes040"] = {
-                ["ContentJP"] = "{空格}その10",
+                ["ContentJP"] = "その10",
                 ["TextMapId"] = "VoiceDes040",
             },
             ["VoiceDes041"] = {
@@ -59250,14 +59254,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "夢の世界",
                 ["TextMapId"] = "VoiceDes105",
             },
+        }
+    end },
+    { MinKey = "VoiceDes106", MaxKey = "WikiText_40800801", Loader = function()
+        return {
             ["VoiceDes106"] = {
                 ["ContentJP"] = "お父さんとお母さん",
                 ["TextMapId"] = "VoiceDes106",
             },
-        }
-    end },
-    { MinKey = "VoiceDes107", MaxKey = "WikiText_40800901", Loader = function()
-        return {
             ["VoiceDes107"] = {
                 ["ContentJP"] = "アウトサイダーについて",
                 ["TextMapId"] = "VoiceDes107",
@@ -59375,7 +59379,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "VoiceDes135",
             },
             ["VoiceDes136"] = {
-                ["ContentJP"] = "{空格}その11",
+                ["ContentJP"] = "その11",
                 ["TextMapId"] = "VoiceDes136",
             },
             ["VoiceDes137"] = {
@@ -60103,14 +60107,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "皇都ディズマニアにおける最も繁華な商業街のひとつ。首都最高級のレストランや娯楽施設が立ち並び、その喧騒と華やかな灯火は、夜を徹して消えることがない。",
                 ["TextMapId"] = "WikiText_40800801",
             },
+        }
+    end },
+    { MinKey = "WikiText_40800901", MaxKey = "voice_ch_char_Haier_vo_topic_01_2", Loader = function()
+        return {
             ["WikiText_40800901"] = {
                 ["ContentJP"] = "皇都ディズマニアを横切る大河。かつては水上輸送の要として重要な役割を果たしていたが、現在では景勝地として知られ、多くの人々がその美しさに心を寄せている。雨季になると、絶え間なく降り注ぐ雨粒が川面を打ち、「しとしと」と優しく響くその音は、まるで耳元に寄り添うささやきのように感じられる。",
                 ["TextMapId"] = "WikiText_40800901",
             },
-        }
-    end },
-    { MinKey = "Wiki_RewardList_Content", MaxKey = "voice_ch_char_Haier_vo_topic_01_3", Loader = function()
-        return {
             ["Wiki_RewardList_Content"] = {
                 ["ContentJP"] = "用語解放進捗",
                 ["TextMapId"] = "Wiki_RewardList_Content",
@@ -60912,14 +60916,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "私は彼女の子孫であり、名を頂いた後継者でもある。全ての罪を灰燼に帰すべく、彼女と同じ煉火を得たのだ。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_01_2",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Haier_vo_topic_01_3", MaxKey = "voice_ch_char_Lise_vo_topic_07_3", Loader = function()
+        return {
             ["voice_ch_char_Haier_vo_topic_01_3"] = {
                 ["ContentJP"] = "少しだけな。木造の部屋に長期間の滞在はできないし、ベッドはもちろん鉄製を選ぶことになるが、まあ些末事だろう。代わりに火災現場でも臆せず犯罪者を法の前へ引っ張り出せるぞ。寒さに恐怖を抱かずともよくなるのも零幸いだ。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_01_3",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Haier_vo_topic_01_4", MaxKey = "voice_ch_char_Lise_vo_victory", Loader = function()
-        return {
             ["voice_ch_char_Haier_vo_topic_01_4"] = {
                 ["ContentJP"] = "外見が一般人と異なろうが私にとっては利点であるし、強いて不便を挙げるとすれば……アイスクリームというデザートを食せない点ぐらいか。味わってみたいのだが、手にした瞬間に溶けてしまう……",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_01_4",
@@ -61720,14 +61724,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "……ごめんなさい、取り乱してしまって。あなたのいう通り、他人に問題を押し付けず、自分で答えを見つけないとだよね。たとえ、長い時間をかけることになっても……",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_topic_07_3",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Lise_vo_victory", MaxKey = "voice_ch_char_Songlu_vo_topic_01_5", Loader = function()
+        return {
             ["voice_ch_char_Lise_vo_victory"] = {
                 ["ContentJP"] = "終わっちゃった……次の任務も私に任せて。あなたは戦果を上げられるし、私も時間を潰せるから一挙両得だわ。",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_victory",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Lise_vo_welcome", MaxKey = "voice_ch_char_Songlu_vo_topic_02_1", Loader = function()
-        return {
             ["voice_ch_char_Lise_vo_welcome"] = {
                 ["ContentJP"] = "ベースのパトロール完了。危険生物の痕跡なし、塀の損傷なし、すべて異常なしーー警戒体制を解除し、日常活動を承認する。以上。",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_welcome",
@@ -62530,14 +62534,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "でもでも、私の住んでる町は人が少ないし、私とヘーゼルナッツだけでいいんですって！さもなくば申請書やらの書き方を覚えなくちゃいけないかもで……んにゃぁ～そんなの覚えられないよ～……",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_01_5",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Songlu_vo_topic_02_1", MaxKey = "voice_ch_char_Yuming_vo_revive", Loader = function()
+        return {
             ["voice_ch_char_Songlu_vo_topic_02_1"] = {
                 ["ContentJP"] = "ふぇっ？それは痛いでしょうけど……あんまり気にしたことないや。だってヘーゼルが吹っ飛ばすのは喧嘩好きでギャーギャーうるさいヤツらばっかりだし！自業自得なのです！",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Songlu_vo_topic_02_2", MaxKey = "voice_ch_char_Yuming_vo_skill01_r01", Loader = function()
-        return {
             ["voice_ch_char_Songlu_vo_topic_02_2"] = {
                 ["ContentJP"] = "あいつら喧嘩した後いつもお腹すいた～って騒ぐんです。武器を振りまわす元気があるなら、畑を耕したらいいのに。そしたら、もっとたくさんの人がお腹いっぱいになれるのになぁ。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_2",
@@ -63349,14 +63353,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "冥府に逃れても、この枷は俺を追いかけてくるのか？",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_revive",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Yuming_vo_skill01_r01", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Yuming_vo_skill01_r01"] = {
                 ["ContentJP"] = "玉山崩る。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r01",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Yuming_vo_skill01_r02", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Yuming_vo_skill01_r02"] = {
                 ["ContentJP"] = "星垂れる平野よ。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r02",

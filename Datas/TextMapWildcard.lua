@@ -240,50 +240,6 @@ return ReadOnly("TextMapWildcard", {
 		["TextMapId"] = "VoiceDes001",
 		["WildcardClassification"] = "Story",
 	},
-	["VoiceDes031"] = {
-		["TextMapId"] = "VoiceDes031",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes032"] = {
-		["TextMapId"] = "VoiceDes032",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes033"] = {
-		["TextMapId"] = "VoiceDes033",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes034"] = {
-		["TextMapId"] = "VoiceDes034",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes035"] = {
-		["TextMapId"] = "VoiceDes035",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes036"] = {
-		["TextMapId"] = "VoiceDes036",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes037"] = {
-		["TextMapId"] = "VoiceDes037",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes038"] = {
-		["TextMapId"] = "VoiceDes038",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes039"] = {
-		["TextMapId"] = "VoiceDes039",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes040"] = {
-		["TextMapId"] = "VoiceDes040",
-		["WildcardClassification"] = "Story",
-	},
-	["VoiceDes136"] = {
-		["TextMapId"] = "VoiceDes136",
-		["WildcardClassification"] = "Story",
-	},
 	["WikiText_10101001"] = {
 		["TextMapId"] = "WikiText_10101001",
 		["WildcardClassification"] = "Story",
