@@ -90,7 +90,7 @@ return ReadOnly("EventMain", {
 		EventId = 103005,
 		EventName = "Event_Title_103005",
 		EventNameBPPath = "/Game/UI/WBP/Activity/Widget/ZhiliuEvent/WBP_Activity_ZhiliuEvent_Title.WBP_Activity_ZhiliuEvent_Title",
-		EventStartTime = 1704081600,
+		EventStartTime = 1750453200,
 		EventTypeId = 103,
 		EventUnlockCondition = 4220,
 		MobileBluePrint = "/Game/UI/WBP/Activity/Mobile/ActivityJump/WBP_Activity_Jump_M.WBP_Activity_Jump_M",

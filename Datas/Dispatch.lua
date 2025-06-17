@@ -26,91 +26,95 @@ T.RT_7 = {
 		Collect = 1,
 	}
 T.RT_8 = {
-		Morality = 1,
-	}
-T.RT_9 = {
 		Empathy = 1,
 	}
+T.RT_9 = {
+		1,
+		2,
+	}
 T.RT_10 = {
-		Morality = 2,
+		Morality = 1,
 	}
 T.RT_11 = {
-		Chaos = 1,
+		Morality = 2,
 	}
 T.RT_12 = {
-		Chaos = 2,
+		Chaos = 1,
 	}
 T.RT_13 = {
-		Battle = 3,
+		Chaos = 2,
 	}
 T.RT_14 = {
-		Benefit = 1,
+		Battle = 3,
 	}
 T.RT_15 = {
-		Benefit = 2,
+		Benefit = 1,
 	}
 T.RT_16 = {
-		Empathy = 2,
+		Benefit = 2,
 	}
 T.RT_17 = {
+		Empathy = 2,
+	}
+T.RT_18 = {
 		60,
 		65,
 	}
-T.RT_18 = {
+T.RT_19 = {
 		207005,
 	}
-T.RT_19 = {
+T.RT_20 = {
 		Wisdom = 2,
 	}
-T.RT_20 = {
+T.RT_21 = {
 		Wisdom = 3,
 	}
-T.RT_21 = {
+T.RT_22 = {
 		Collect = 3,
 	}
-T.RT_22 = {
+T.RT_23 = {
 		Collect = 2,
 	}
-T.RT_23 = {
+T.RT_24 = {
 		Chaos = 3,
 	}
-T.RT_24 = {
+T.RT_25 = {
 		Wisdom = 1,
 	}
-T.RT_25 = {
+T.RT_26 = {
 		Collect = 4,
 	}
-T.RT_26 = {
+T.RT_27 = {
 		Fish = 3,
 	}
-T.RT_27 = {
+T.RT_28 = {
 		Fish = 4,
 	}
-T.RT_28 = {
+T.RT_29 = {
 		Benefit = 3,
 	}
-T.RT_29 = {
+T.RT_30 = {
 		Benefit = 4,
 	}
-T.RT_30 = {
+T.RT_31 = {
 		Chaos = 4,
 	}
-T.RT_31 = {
+T.RT_32 = {
 		207614,
 	}
-T.RT_32 = {
+T.RT_33 = {
 		Collect = 5,
 	}
-T.RT_33 = {
+T.RT_34 = {
 		Mine = 3,
 	}
-T.RT_34 = {
+T.RT_35 = {
 		Pet = 5,
 	}
-T.RT_35 = {
+T.RT_36 = {
 		Pet = 3,
 	}
-T.RT_36 = {
+T.RT_37 = {
 		Pet = 2,
 	}
 local ReadOnly = (DataMgr or {})["ReadOnly"] or function(n, x) return x end
@@ -349,7 +353,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			100641,
 		},
-		PlayerLevel = T.RT_2,
+		PlayerLevel = T.RT_9,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -372,7 +376,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			100642,
 		},
-		PlayerLevel = T.RT_3,
+		PlayerLevel = T.RT_9,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -387,7 +391,7 @@ return ReadOnly("Dispatch", {
 	[100641] = {
 		DispatchCD = 300,
 		DispatchCondition = 89006,
-		DispatchDemand = T.RT_9,
+		DispatchDemand = T.RT_8,
 		DispatchId = 100641,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -395,7 +399,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			100621,
 		},
-		PlayerLevel = T.RT_2,
+		PlayerLevel = T.RT_9,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -410,7 +414,7 @@ return ReadOnly("Dispatch", {
 	[100642] = {
 		DispatchCD = 300,
 		DispatchCondition = 89006,
-		DispatchDemand = T.RT_9,
+		DispatchDemand = T.RT_8,
 		DispatchId = 100642,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -418,7 +422,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			100622,
 		},
-		PlayerLevel = T.RT_3,
+		PlayerLevel = T.RT_9,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -433,7 +437,7 @@ return ReadOnly("Dispatch", {
 	[100921] = {
 		DispatchCD = 300,
 		DispatchCondition = 89009,
-		DispatchDemand = T.RT_8,
+		DispatchDemand = T.RT_10,
 		DispatchId = 100921,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -458,7 +462,7 @@ return ReadOnly("Dispatch", {
 	[100922] = {
 		DispatchCD = 300,
 		DispatchCondition = 89009,
-		DispatchDemand = T.RT_8,
+		DispatchDemand = T.RT_10,
 		DispatchId = 100922,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -483,7 +487,7 @@ return ReadOnly("Dispatch", {
 	[100923] = {
 		DispatchCD = 300,
 		DispatchCondition = 89009,
-		DispatchDemand = T.RT_10,
+		DispatchDemand = T.RT_11,
 		DispatchId = 100923,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -508,7 +512,7 @@ return ReadOnly("Dispatch", {
 	[100951] = {
 		DispatchCD = 300,
 		DispatchCondition = 89009,
-		DispatchDemand = T.RT_11,
+		DispatchDemand = T.RT_12,
 		DispatchId = 100951,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -533,7 +537,7 @@ return ReadOnly("Dispatch", {
 	[100952] = {
 		DispatchCD = 300,
 		DispatchCondition = 89009,
-		DispatchDemand = T.RT_11,
+		DispatchDemand = T.RT_12,
 		DispatchId = 100952,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -558,7 +562,7 @@ return ReadOnly("Dispatch", {
 	[100953] = {
 		DispatchCD = 300,
 		DispatchCondition = 89009,
-		DispatchDemand = T.RT_12,
+		DispatchDemand = T.RT_13,
 		DispatchId = 100953,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -583,7 +587,7 @@ return ReadOnly("Dispatch", {
 	[101100] = {
 		DispatchCD = 300,
 		DispatchCondition = 4330,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 101100,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
@@ -610,7 +614,7 @@ return ReadOnly("Dispatch", {
 	[101211] = {
 		DispatchCD = 300,
 		DispatchCondition = 89012,
-		DispatchDemand = T.RT_14,
+		DispatchDemand = T.RT_15,
 		DispatchId = 101211,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -635,7 +639,7 @@ return ReadOnly("Dispatch", {
 	[101212] = {
 		DispatchCD = 300,
 		DispatchCondition = 89012,
-		DispatchDemand = T.RT_14,
+		DispatchDemand = T.RT_15,
 		DispatchId = 101212,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -660,7 +664,7 @@ return ReadOnly("Dispatch", {
 	[101213] = {
 		DispatchCD = 300,
 		DispatchCondition = 89012,
-		DispatchDemand = T.RT_15,
+		DispatchDemand = T.RT_16,
 		DispatchId = 101213,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -685,7 +689,7 @@ return ReadOnly("Dispatch", {
 	[101241] = {
 		DispatchCD = 300,
 		DispatchCondition = 89012,
-		DispatchDemand = T.RT_9,
+		DispatchDemand = T.RT_8,
 		DispatchId = 101241,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -710,7 +714,7 @@ return ReadOnly("Dispatch", {
 	[101242] = {
 		DispatchCD = 300,
 		DispatchCondition = 89012,
-		DispatchDemand = T.RT_9,
+		DispatchDemand = T.RT_8,
 		DispatchId = 101242,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -735,7 +739,7 @@ return ReadOnly("Dispatch", {
 	[101243] = {
 		DispatchCD = 300,
 		DispatchCondition = 89012,
-		DispatchDemand = T.RT_16,
+		DispatchDemand = T.RT_17,
 		DispatchId = 101243,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -760,7 +764,7 @@ return ReadOnly("Dispatch", {
 	[101313] = {
 		DispatchCD = 300,
 		DispatchCondition = 89013,
-		DispatchDemand = T.RT_15,
+		DispatchDemand = T.RT_16,
 		DispatchId = 101313,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -783,7 +787,7 @@ return ReadOnly("Dispatch", {
 	[101323] = {
 		DispatchCD = 300,
 		DispatchCondition = 89013,
-		DispatchDemand = T.RT_10,
+		DispatchDemand = T.RT_11,
 		DispatchId = 101323,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -806,7 +810,7 @@ return ReadOnly("Dispatch", {
 	[101405] = {
 		DispatchCD = 300,
 		DispatchCondition = 89014,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 101405,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
@@ -814,7 +818,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			307105,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1013,
 		RewardId = {
@@ -829,7 +833,7 @@ return ReadOnly("Dispatch", {
 	[101705] = {
 		DispatchCD = 300,
 		DispatchCondition = 89017,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 101705,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
@@ -840,7 +844,7 @@ return ReadOnly("Dispatch", {
 			102905,
 			304705,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -855,7 +859,7 @@ return ReadOnly("Dispatch", {
 	[102005] = {
 		DispatchCD = 300,
 		DispatchCondition = 89020,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 102005,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
@@ -866,7 +870,7 @@ return ReadOnly("Dispatch", {
 			207315,
 			207355,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1013,
 		RewardId = {
@@ -881,13 +885,13 @@ return ReadOnly("Dispatch", {
 	[102205] = {
 		DispatchCD = 300,
 		DispatchCondition = 89022,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 102205,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
 		DispatchUIId = 102205,
-		ExcId = T.RT_18,
-		PlayerLevel = T.RT_17,
+		ExcId = T.RT_19,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1017,
 		RewardId = {
@@ -902,12 +906,12 @@ return ReadOnly("Dispatch", {
 	[102305] = {
 		DispatchCD = 300,
 		DispatchCondition = 89023,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 102305,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
 		DispatchUIId = 102305,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1017,
 		RewardId = {
@@ -922,7 +926,7 @@ return ReadOnly("Dispatch", {
 	[102524] = {
 		DispatchCD = 300,
 		DispatchCondition = 89025,
-		DispatchDemand = T.RT_10,
+		DispatchDemand = T.RT_11,
 		DispatchId = 102524,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -953,7 +957,7 @@ return ReadOnly("Dispatch", {
 		DispatchPerson = 2,
 		DispatchType = "Social",
 		DispatchUIId = 102525,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -968,7 +972,7 @@ return ReadOnly("Dispatch", {
 	[102534] = {
 		DispatchCD = 300,
 		DispatchCondition = 89025,
-		DispatchDemand = T.RT_19,
+		DispatchDemand = T.RT_20,
 		DispatchId = 102534,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -992,7 +996,7 @@ return ReadOnly("Dispatch", {
 	[102535] = {
 		DispatchCD = 300,
 		DispatchCondition = 89025,
-		DispatchDemand = T.RT_20,
+		DispatchDemand = T.RT_21,
 		DispatchId = 102535,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1000,7 +1004,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			102535,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -1015,7 +1019,7 @@ return ReadOnly("Dispatch", {
 	[102905] = {
 		DispatchCD = 300,
 		DispatchCondition = 89029,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 102905,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1024,7 +1028,7 @@ return ReadOnly("Dispatch", {
 			101705,
 			304705,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -1059,7 +1063,7 @@ return ReadOnly("Dispatch", {
 	[104524] = {
 		DispatchCD = 300,
 		DispatchCondition = 89045,
-		DispatchDemand = T.RT_10,
+		DispatchDemand = T.RT_11,
 		DispatchId = 104524,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1082,7 +1086,7 @@ return ReadOnly("Dispatch", {
 	[104554] = {
 		DispatchCD = 300,
 		DispatchCondition = 89045,
-		DispatchDemand = T.RT_12,
+		DispatchDemand = T.RT_13,
 		DispatchId = 104554,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1188,7 +1192,7 @@ return ReadOnly("Dispatch", {
 	[105904] = {
 		DispatchCD = 300,
 		DispatchCondition = 89059,
-		DispatchDemand = T.RT_22,
+		DispatchDemand = T.RT_23,
 		DispatchId = 105904,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1208,12 +1212,12 @@ return ReadOnly("Dispatch", {
 	[105905] = {
 		DispatchCD = 300,
 		DispatchCondition = 89059,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 105905,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 105905,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -1228,7 +1232,7 @@ return ReadOnly("Dispatch", {
 	[106543] = {
 		DispatchCD = 300,
 		DispatchCondition = 89065,
-		DispatchDemand = T.RT_16,
+		DispatchDemand = T.RT_17,
 		DispatchId = 106543,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1253,7 +1257,7 @@ return ReadOnly("Dispatch", {
 	[106544] = {
 		DispatchCD = 300,
 		DispatchCondition = 89065,
-		DispatchDemand = T.RT_16,
+		DispatchDemand = T.RT_17,
 		DispatchId = 106544,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1276,7 +1280,7 @@ return ReadOnly("Dispatch", {
 	[106553] = {
 		DispatchCD = 300,
 		DispatchCondition = 89065,
-		DispatchDemand = T.RT_12,
+		DispatchDemand = T.RT_13,
 		DispatchId = 106553,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1301,7 +1305,7 @@ return ReadOnly("Dispatch", {
 	[106554] = {
 		DispatchCD = 300,
 		DispatchCondition = 89065,
-		DispatchDemand = T.RT_12,
+		DispatchDemand = T.RT_13,
 		DispatchId = 106554,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1324,7 +1328,7 @@ return ReadOnly("Dispatch", {
 	[106635] = {
 		DispatchCD = 300,
 		DispatchCondition = 89066,
-		DispatchDemand = T.RT_20,
+		DispatchDemand = T.RT_21,
 		DispatchId = 106635,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1332,7 +1336,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			106655,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -1347,7 +1351,7 @@ return ReadOnly("Dispatch", {
 	[106655] = {
 		DispatchCD = 300,
 		DispatchCondition = 89066,
-		DispatchDemand = T.RT_23,
+		DispatchDemand = T.RT_24,
 		DispatchId = 106655,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1355,7 +1359,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			106635,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 1,
 		RegionId = 1011,
 		RewardId = {
@@ -1370,7 +1374,7 @@ return ReadOnly("Dispatch", {
 	[108103] = {
 		DispatchCD = 300,
 		DispatchCondition = 89081,
-		DispatchDemand = T.RT_22,
+		DispatchDemand = T.RT_23,
 		DispatchId = 108103,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1414,7 +1418,7 @@ return ReadOnly("Dispatch", {
 	[200702] = {
 		DispatchCD = 450,
 		DispatchCondition = 89007,
-		DispatchDemand = T.RT_22,
+		DispatchDemand = T.RT_23,
 		DispatchId = 200702,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1459,7 +1463,7 @@ return ReadOnly("Dispatch", {
 	[200802] = {
 		DispatchCD = 450,
 		DispatchCondition = 89008,
-		DispatchDemand = T.RT_22,
+		DispatchDemand = T.RT_23,
 		DispatchId = 200802,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1479,7 +1483,7 @@ return ReadOnly("Dispatch", {
 	[200803] = {
 		DispatchCD = 450,
 		DispatchCondition = 89008,
-		DispatchDemand = T.RT_22,
+		DispatchDemand = T.RT_23,
 		DispatchId = 200803,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1499,7 +1503,7 @@ return ReadOnly("Dispatch", {
 	[201031] = {
 		DispatchCD = 450,
 		DispatchCondition = 89010,
-		DispatchDemand = T.RT_24,
+		DispatchDemand = T.RT_25,
 		DispatchId = 201031,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1523,7 +1527,7 @@ return ReadOnly("Dispatch", {
 	[201032] = {
 		DispatchCD = 450,
 		DispatchCondition = 89010,
-		DispatchDemand = T.RT_19,
+		DispatchDemand = T.RT_20,
 		DispatchId = 201032,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1548,7 +1552,7 @@ return ReadOnly("Dispatch", {
 	[201033] = {
 		DispatchCD = 450,
 		DispatchCondition = 89010,
-		DispatchDemand = T.RT_19,
+		DispatchDemand = T.RT_20,
 		DispatchId = 201033,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1574,7 +1578,7 @@ return ReadOnly("Dispatch", {
 	[201051] = {
 		DispatchCD = 450,
 		DispatchCondition = 89010,
-		DispatchDemand = T.RT_11,
+		DispatchDemand = T.RT_12,
 		DispatchId = 201051,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1598,7 +1602,7 @@ return ReadOnly("Dispatch", {
 	[201052] = {
 		DispatchCD = 450,
 		DispatchCondition = 89010,
-		DispatchDemand = T.RT_12,
+		DispatchDemand = T.RT_13,
 		DispatchId = 201052,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1623,7 +1627,7 @@ return ReadOnly("Dispatch", {
 	[201053] = {
 		DispatchCD = 450,
 		DispatchCondition = 89010,
-		DispatchDemand = T.RT_12,
+		DispatchDemand = T.RT_13,
 		DispatchId = 201053,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1669,7 +1673,7 @@ return ReadOnly("Dispatch", {
 	[201504] = {
 		DispatchCD = 450,
 		DispatchCondition = 89015,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 201504,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
@@ -1689,7 +1693,7 @@ return ReadOnly("Dispatch", {
 	[202123] = {
 		DispatchCD = 450,
 		DispatchCondition = 89021,
-		DispatchDemand = T.RT_10,
+		DispatchDemand = T.RT_11,
 		DispatchId = 202123,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1712,7 +1716,7 @@ return ReadOnly("Dispatch", {
 	[202143] = {
 		DispatchCD = 450,
 		DispatchCondition = 89021,
-		DispatchDemand = T.RT_16,
+		DispatchDemand = T.RT_17,
 		DispatchId = 202143,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -1735,7 +1739,7 @@ return ReadOnly("Dispatch", {
 	[202405] = {
 		DispatchCD = 450,
 		DispatchCondition = 89024,
-		DispatchDemand = T.RT_25,
+		DispatchDemand = T.RT_26,
 		DispatchId = 202405,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1744,7 +1748,7 @@ return ReadOnly("Dispatch", {
 			306305,
 			101705,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1011,
 		RewardId = {
@@ -1759,13 +1763,13 @@ return ReadOnly("Dispatch", {
 	[203205] = {
 		DispatchCD = 450,
 		DispatchCondition = 89032,
-		DispatchDemand = T.RT_25,
+		DispatchDemand = T.RT_26,
 		DispatchId = 203205,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 203205,
-		ExcId = T.RT_18,
-		PlayerLevel = T.RT_17,
+		ExcId = T.RT_19,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1017,
 		RewardId = {
@@ -1780,12 +1784,12 @@ return ReadOnly("Dispatch", {
 	[203305] = {
 		DispatchCD = 450,
 		DispatchCondition = 89033,
-		DispatchDemand = T.RT_25,
+		DispatchDemand = T.RT_26,
 		DispatchId = 203305,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 203305,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1001,
 		RewardId = {
@@ -1800,7 +1804,7 @@ return ReadOnly("Dispatch", {
 	[203704] = {
 		DispatchCD = 450,
 		DispatchCondition = 89037,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 203704,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1820,7 +1824,7 @@ return ReadOnly("Dispatch", {
 	[203705] = {
 		DispatchCD = 450,
 		DispatchCondition = 89037,
-		DispatchDemand = T.RT_25,
+		DispatchDemand = T.RT_26,
 		DispatchId = 203705,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1828,7 +1832,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			302705,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1013,
 		RewardId = {
@@ -1843,12 +1847,12 @@ return ReadOnly("Dispatch", {
 	[204405] = {
 		DispatchCD = 450,
 		DispatchCondition = 89044,
-		DispatchDemand = T.RT_25,
+		DispatchDemand = T.RT_26,
 		DispatchId = 204405,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
 		DispatchUIId = 204405,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1011,
 		RewardId = {
@@ -1863,12 +1867,12 @@ return ReadOnly("Dispatch", {
 	[205105] = {
 		DispatchCD = 450,
 		DispatchCondition = 89051,
-		DispatchDemand = T.RT_25,
+		DispatchDemand = T.RT_26,
 		DispatchId = 205105,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 205105,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1001,
 		RewardId = {
@@ -1883,12 +1887,12 @@ return ReadOnly("Dispatch", {
 	[205405] = {
 		DispatchCD = 450,
 		DispatchCondition = 89054,
-		DispatchDemand = T.RT_25,
+		DispatchDemand = T.RT_26,
 		DispatchId = 205405,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 205405,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1001,
 		RewardId = {
@@ -1903,12 +1907,12 @@ return ReadOnly("Dispatch", {
 	[205705] = {
 		DispatchCD = 450,
 		DispatchCondition = 89057,
-		DispatchDemand = T.RT_25,
+		DispatchDemand = T.RT_26,
 		DispatchId = 205705,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 205705,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1021,
 		RewardId = {
@@ -1923,7 +1927,7 @@ return ReadOnly("Dispatch", {
 	[206004] = {
 		DispatchCD = 450,
 		DispatchCondition = 89060,
-		DispatchDemand = T.RT_26,
+		DispatchDemand = T.RT_27,
 		DispatchId = 206004,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -1943,12 +1947,12 @@ return ReadOnly("Dispatch", {
 	[206005] = {
 		DispatchCD = 450,
 		DispatchCondition = 89060,
-		DispatchDemand = T.RT_27,
+		DispatchDemand = T.RT_28,
 		DispatchId = 206005,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 206005,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1011,
 		RewardId = {
@@ -1963,7 +1967,7 @@ return ReadOnly("Dispatch", {
 	[206434] = {
 		DispatchCD = 450,
 		DispatchCondition = 89064,
-		DispatchDemand = T.RT_20,
+		DispatchDemand = T.RT_21,
 		DispatchId = 206434,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2011,7 +2015,7 @@ return ReadOnly("Dispatch", {
 	[206711] = {
 		DispatchCD = 450,
 		DispatchCondition = 89067,
-		DispatchDemand = T.RT_14,
+		DispatchDemand = T.RT_15,
 		DispatchId = 206711,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2034,7 +2038,7 @@ return ReadOnly("Dispatch", {
 	[206712] = {
 		DispatchCD = 450,
 		DispatchCondition = 89067,
-		DispatchDemand = T.RT_15,
+		DispatchDemand = T.RT_16,
 		DispatchId = 206712,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2057,7 +2061,7 @@ return ReadOnly("Dispatch", {
 	[206713] = {
 		DispatchCD = 450,
 		DispatchCondition = 89067,
-		DispatchDemand = T.RT_15,
+		DispatchDemand = T.RT_16,
 		DispatchId = 206713,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2080,7 +2084,7 @@ return ReadOnly("Dispatch", {
 	[206731] = {
 		DispatchCD = 450,
 		DispatchCondition = 89067,
-		DispatchDemand = T.RT_24,
+		DispatchDemand = T.RT_25,
 		DispatchId = 206731,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2103,7 +2107,7 @@ return ReadOnly("Dispatch", {
 	[206732] = {
 		DispatchCD = 450,
 		DispatchCondition = 89067,
-		DispatchDemand = T.RT_19,
+		DispatchDemand = T.RT_20,
 		DispatchId = 206732,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2126,7 +2130,7 @@ return ReadOnly("Dispatch", {
 	[206733] = {
 		DispatchCD = 450,
 		DispatchCondition = 89067,
-		DispatchDemand = T.RT_19,
+		DispatchDemand = T.RT_20,
 		DispatchId = 206733,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2149,12 +2153,12 @@ return ReadOnly("Dispatch", {
 	[206905] = {
 		DispatchCD = 450,
 		DispatchCondition = 89069,
-		DispatchDemand = T.RT_27,
+		DispatchDemand = T.RT_28,
 		DispatchId = 206905,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 206905,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1017,
 		RewardId = {
@@ -2169,7 +2173,7 @@ return ReadOnly("Dispatch", {
 	[207005] = {
 		DispatchCD = 450,
 		DispatchCondition = 89070,
-		DispatchDemand = T.RT_27,
+		DispatchDemand = T.RT_28,
 		DispatchId = 207005,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -2178,7 +2182,7 @@ return ReadOnly("Dispatch", {
 			102205,
 			203205,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1017,
 		RewardId = {
@@ -2193,7 +2197,7 @@ return ReadOnly("Dispatch", {
 	[207213] = {
 		DispatchCD = 450,
 		DispatchCondition = 89072,
-		DispatchDemand = T.RT_15,
+		DispatchDemand = T.RT_16,
 		DispatchId = 207213,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2216,7 +2220,7 @@ return ReadOnly("Dispatch", {
 	[207214] = {
 		DispatchCD = 450,
 		DispatchCondition = 89072,
-		DispatchDemand = T.RT_28,
+		DispatchDemand = T.RT_29,
 		DispatchId = 207214,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2239,7 +2243,7 @@ return ReadOnly("Dispatch", {
 	[207233] = {
 		DispatchCD = 450,
 		DispatchCondition = 89072,
-		DispatchDemand = T.RT_19,
+		DispatchDemand = T.RT_20,
 		DispatchId = 207233,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2262,7 +2266,7 @@ return ReadOnly("Dispatch", {
 	[207234] = {
 		DispatchCD = 450,
 		DispatchCondition = 89072,
-		DispatchDemand = T.RT_20,
+		DispatchDemand = T.RT_21,
 		DispatchId = 207234,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2285,7 +2289,7 @@ return ReadOnly("Dispatch", {
 	[207315] = {
 		DispatchCD = 450,
 		DispatchCondition = 89073,
-		DispatchDemand = T.RT_29,
+		DispatchDemand = T.RT_30,
 		DispatchId = 207315,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2295,7 +2299,7 @@ return ReadOnly("Dispatch", {
 			207345,
 			207355,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1013,
 		RewardId = {
@@ -2322,7 +2326,7 @@ return ReadOnly("Dispatch", {
 			207315,
 			207355,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1013,
 		RewardId = {
@@ -2337,7 +2341,7 @@ return ReadOnly("Dispatch", {
 	[207355] = {
 		DispatchCD = 450,
 		DispatchCondition = 89073,
-		DispatchDemand = T.RT_30,
+		DispatchDemand = T.RT_31,
 		DispatchId = 207355,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2347,7 +2351,7 @@ return ReadOnly("Dispatch", {
 			207315,
 			207345,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1013,
 		RewardId = {
@@ -2362,7 +2366,7 @@ return ReadOnly("Dispatch", {
 	[207614] = {
 		DispatchCD = 450,
 		DispatchCondition = 89076,
-		DispatchDemand = T.RT_28,
+		DispatchDemand = T.RT_29,
 		DispatchId = 207614,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2385,13 +2389,13 @@ return ReadOnly("Dispatch", {
 	[207615] = {
 		DispatchCD = 450,
 		DispatchCondition = 89076,
-		DispatchDemand = T.RT_29,
+		DispatchDemand = T.RT_30,
 		DispatchId = 207615,
 		DispatchPerson = 2,
 		DispatchType = "Social",
 		DispatchUIId = 207615,
-		ExcId = T.RT_31,
-		PlayerLevel = T.RT_17,
+		ExcId = T.RT_32,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1013,
 		RewardId = {
@@ -2406,12 +2410,12 @@ return ReadOnly("Dispatch", {
 	[207654] = {
 		DispatchCD = 450,
 		DispatchCondition = 89076,
-		DispatchDemand = T.RT_23,
+		DispatchDemand = T.RT_24,
 		DispatchId = 207654,
 		DispatchPerson = 2,
 		DispatchType = "Social",
 		DispatchUIId = 207654,
-		ExcId = T.RT_31,
+		ExcId = T.RT_32,
 		PlayerLevel = T.RT_6,
 		Rarity = 2,
 		RegionId = 1013,
@@ -2427,7 +2431,7 @@ return ReadOnly("Dispatch", {
 	[207655] = {
 		DispatchCD = 450,
 		DispatchCondition = 89076,
-		DispatchDemand = T.RT_30,
+		DispatchDemand = T.RT_31,
 		DispatchId = 207655,
 		DispatchPerson = 2,
 		DispatchType = "Social",
@@ -2436,7 +2440,7 @@ return ReadOnly("Dispatch", {
 			207615,
 			307105,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1013,
 		RewardId = {
@@ -2451,7 +2455,7 @@ return ReadOnly("Dispatch", {
 	[207704] = {
 		DispatchCD = 450,
 		DispatchCondition = 89077,
-		DispatchDemand = T.RT_26,
+		DispatchDemand = T.RT_27,
 		DispatchId = 207704,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -2471,12 +2475,12 @@ return ReadOnly("Dispatch", {
 	[207705] = {
 		DispatchCD = 450,
 		DispatchCondition = 89077,
-		DispatchDemand = T.RT_27,
+		DispatchDemand = T.RT_28,
 		DispatchId = 207705,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 207705,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1011,
 		RewardId = {
@@ -2491,7 +2495,7 @@ return ReadOnly("Dispatch", {
 	[207804] = {
 		DispatchCD = 450,
 		DispatchCondition = 89078,
-		DispatchDemand = T.RT_26,
+		DispatchDemand = T.RT_27,
 		DispatchId = 207804,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
@@ -2511,12 +2515,12 @@ return ReadOnly("Dispatch", {
 	[207805] = {
 		DispatchCD = 450,
 		DispatchCondition = 89078,
-		DispatchDemand = T.RT_27,
+		DispatchDemand = T.RT_28,
 		DispatchId = 207805,
 		DispatchPerson = 2,
 		DispatchType = "Collect",
 		DispatchUIId = 207805,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 2,
 		RegionId = 1011,
 		RewardId = {
@@ -2531,7 +2535,7 @@ return ReadOnly("Dispatch", {
 	[207903] = {
 		DispatchCD = 450,
 		DispatchCondition = 89079,
-		DispatchDemand = T.RT_22,
+		DispatchDemand = T.RT_23,
 		DispatchId = 207903,
 		DispatchPerson = 2,
 		DispatchType = "Battle",
@@ -2576,7 +2580,7 @@ return ReadOnly("Dispatch", {
 	[301803] = {
 		DispatchCD = 600,
 		DispatchCondition = 89018,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 301803,
 		DispatchPerson = 3,
 		DispatchType = "Battle",
@@ -2600,7 +2604,7 @@ return ReadOnly("Dispatch", {
 	[301804] = {
 		DispatchCD = 600,
 		DispatchCondition = 89018,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 301804,
 		DispatchPerson = 3,
 		DispatchType = "Battle",
@@ -2620,7 +2624,7 @@ return ReadOnly("Dispatch", {
 	[302605] = {
 		DispatchCD = 600,
 		DispatchCondition = 89026,
-		DispatchDemand = T.RT_32,
+		DispatchDemand = T.RT_33,
 		DispatchId = 302605,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2628,7 +2632,7 @@ return ReadOnly("Dispatch", {
 		ExcId = {
 			102525,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1011,
 		RewardId = {
@@ -2643,7 +2647,7 @@ return ReadOnly("Dispatch", {
 	[302705] = {
 		DispatchCD = 600,
 		DispatchCondition = 89027,
-		DispatchDemand = T.RT_32,
+		DispatchDemand = T.RT_33,
 		DispatchId = 302705,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2652,7 +2656,7 @@ return ReadOnly("Dispatch", {
 			203705,
 			102005,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1013,
 		RewardId = {
@@ -2667,7 +2671,7 @@ return ReadOnly("Dispatch", {
 	[302802] = {
 		DispatchCD = 600,
 		DispatchCondition = 89028,
-		DispatchDemand = T.RT_22,
+		DispatchDemand = T.RT_23,
 		DispatchId = 302802,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2687,7 +2691,7 @@ return ReadOnly("Dispatch", {
 	[302803] = {
 		DispatchCD = 600,
 		DispatchCondition = 89028,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 302803,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2707,7 +2711,7 @@ return ReadOnly("Dispatch", {
 	[303003] = {
 		DispatchCD = 600,
 		DispatchCondition = 89030,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 303003,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2727,7 +2731,7 @@ return ReadOnly("Dispatch", {
 	[303004] = {
 		DispatchCD = 600,
 		DispatchCondition = 89030,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 303004,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2747,7 +2751,7 @@ return ReadOnly("Dispatch", {
 	[303103] = {
 		DispatchCD = 600,
 		DispatchCondition = 89031,
-		DispatchDemand = T.RT_33,
+		DispatchDemand = T.RT_34,
 		DispatchId = 303103,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2770,7 +2774,7 @@ return ReadOnly("Dispatch", {
 	[303104] = {
 		DispatchCD = 600,
 		DispatchCondition = 89031,
-		DispatchDemand = T.RT_33,
+		DispatchDemand = T.RT_34,
 		DispatchId = 303104,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2810,7 +2814,7 @@ return ReadOnly("Dispatch", {
 	[303403] = {
 		DispatchCD = 600,
 		DispatchCondition = 89034,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 303403,
 		DispatchPerson = 3,
 		DispatchType = "Battle",
@@ -2850,7 +2854,7 @@ return ReadOnly("Dispatch", {
 	[303503] = {
 		DispatchCD = 600,
 		DispatchCondition = 89035,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 303503,
 		DispatchPerson = 3,
 		DispatchType = "Battle",
@@ -2870,7 +2874,7 @@ return ReadOnly("Dispatch", {
 	[303504] = {
 		DispatchCD = 600,
 		DispatchCondition = 89035,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 303504,
 		DispatchPerson = 3,
 		DispatchType = "Battle",
@@ -2890,12 +2894,12 @@ return ReadOnly("Dispatch", {
 	[303805] = {
 		DispatchCD = 600,
 		DispatchCondition = 89038,
-		DispatchDemand = T.RT_34,
+		DispatchDemand = T.RT_35,
 		DispatchId = 303805,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
 		DispatchUIId = 303805,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1011,
 		RewardId = {
@@ -2910,7 +2914,7 @@ return ReadOnly("Dispatch", {
 	[304604] = {
 		DispatchCD = 600,
 		DispatchCondition = 89046,
-		DispatchDemand = T.RT_13,
+		DispatchDemand = T.RT_14,
 		DispatchId = 304604,
 		DispatchPerson = 3,
 		DispatchType = "Battle",
@@ -2933,7 +2937,7 @@ return ReadOnly("Dispatch", {
 	[304705] = {
 		DispatchCD = 600,
 		DispatchCondition = 89047,
-		DispatchDemand = T.RT_32,
+		DispatchDemand = T.RT_33,
 		DispatchId = 304705,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2943,7 +2947,7 @@ return ReadOnly("Dispatch", {
 			102905,
 			202405,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1011,
 		RewardId = {
@@ -2958,7 +2962,7 @@ return ReadOnly("Dispatch", {
 	[305304] = {
 		DispatchCD = 600,
 		DispatchCondition = 89053,
-		DispatchDemand = T.RT_35,
+		DispatchDemand = T.RT_36,
 		DispatchId = 305304,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2978,7 +2982,7 @@ return ReadOnly("Dispatch", {
 	[305503] = {
 		DispatchCD = 600,
 		DispatchCondition = 89055,
-		DispatchDemand = T.RT_35,
+		DispatchDemand = T.RT_36,
 		DispatchId = 305503,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -2998,7 +3002,7 @@ return ReadOnly("Dispatch", {
 	[305604] = {
 		DispatchCD = 600,
 		DispatchCondition = 89056,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 305604,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3021,12 +3025,12 @@ return ReadOnly("Dispatch", {
 	[305605] = {
 		DispatchCD = 600,
 		DispatchCondition = 89056,
-		DispatchDemand = T.RT_32,
+		DispatchDemand = T.RT_33,
 		DispatchId = 305605,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
 		DispatchUIId = 305605,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1021,
 		RewardId = {
@@ -3041,7 +3045,7 @@ return ReadOnly("Dispatch", {
 	[305804] = {
 		DispatchCD = 600,
 		DispatchCondition = 89058,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 305804,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3061,12 +3065,12 @@ return ReadOnly("Dispatch", {
 	[305805] = {
 		DispatchCD = 600,
 		DispatchCondition = 89058,
-		DispatchDemand = T.RT_32,
+		DispatchDemand = T.RT_33,
 		DispatchId = 305805,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
 		DispatchUIId = 305805,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1021,
 		RewardId = {
@@ -3081,12 +3085,12 @@ return ReadOnly("Dispatch", {
 	[306105] = {
 		DispatchCD = 600,
 		DispatchCondition = 89061,
-		DispatchDemand = T.RT_34,
+		DispatchDemand = T.RT_35,
 		DispatchId = 306105,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
 		DispatchUIId = 306105,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1011,
 		RewardId = {
@@ -3101,7 +3105,7 @@ return ReadOnly("Dispatch", {
 	[306204] = {
 		DispatchCD = 600,
 		DispatchCondition = 89062,
-		DispatchDemand = T.RT_21,
+		DispatchDemand = T.RT_22,
 		DispatchId = 306204,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3121,12 +3125,12 @@ return ReadOnly("Dispatch", {
 	[306205] = {
 		DispatchCD = 600,
 		DispatchCondition = 89062,
-		DispatchDemand = T.RT_32,
+		DispatchDemand = T.RT_33,
 		DispatchId = 306205,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
 		DispatchUIId = 306205,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1011,
 		RewardId = {
@@ -3141,7 +3145,7 @@ return ReadOnly("Dispatch", {
 	[306304] = {
 		DispatchCD = 600,
 		DispatchCondition = 89063,
-		DispatchDemand = T.RT_35,
+		DispatchDemand = T.RT_36,
 		DispatchId = 306304,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3161,7 +3165,7 @@ return ReadOnly("Dispatch", {
 	[306305] = {
 		DispatchCD = 600,
 		DispatchCondition = 89063,
-		DispatchDemand = T.RT_34,
+		DispatchDemand = T.RT_35,
 		DispatchId = 306305,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3170,7 +3174,7 @@ return ReadOnly("Dispatch", {
 			202405,
 			101705,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1011,
 		RewardId = {
@@ -3185,7 +3189,7 @@ return ReadOnly("Dispatch", {
 	[306802] = {
 		DispatchCD = 600,
 		DispatchCondition = 89068,
-		DispatchDemand = T.RT_36,
+		DispatchDemand = T.RT_37,
 		DispatchId = 306802,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3205,7 +3209,7 @@ return ReadOnly("Dispatch", {
 	[307105] = {
 		DispatchCD = 600,
 		DispatchCondition = 89071,
-		DispatchDemand = T.RT_34,
+		DispatchDemand = T.RT_35,
 		DispatchId = 307105,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3215,7 +3219,7 @@ return ReadOnly("Dispatch", {
 			207615,
 			207655,
 		},
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1013,
 		RewardId = {
@@ -3230,7 +3234,7 @@ return ReadOnly("Dispatch", {
 	[307402] = {
 		DispatchCD = 600,
 		DispatchCondition = 89074,
-		DispatchDemand = T.RT_36,
+		DispatchDemand = T.RT_37,
 		DispatchId = 307402,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3250,7 +3254,7 @@ return ReadOnly("Dispatch", {
 	[307403] = {
 		DispatchCD = 600,
 		DispatchCondition = 89074,
-		DispatchDemand = T.RT_35,
+		DispatchDemand = T.RT_36,
 		DispatchId = 307403,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3273,7 +3277,7 @@ return ReadOnly("Dispatch", {
 	[307504] = {
 		DispatchCD = 600,
 		DispatchCondition = 89075,
-		DispatchDemand = T.RT_35,
+		DispatchDemand = T.RT_36,
 		DispatchId = 307504,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
@@ -3293,12 +3297,12 @@ return ReadOnly("Dispatch", {
 	[307505] = {
 		DispatchCD = 600,
 		DispatchCondition = 89075,
-		DispatchDemand = T.RT_34,
+		DispatchDemand = T.RT_35,
 		DispatchId = 307505,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
 		DispatchUIId = 307505,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1017,
 		RewardId = {
@@ -3313,12 +3317,12 @@ return ReadOnly("Dispatch", {
 	[308005] = {
 		DispatchCD = 600,
 		DispatchCondition = 89080,
-		DispatchDemand = T.RT_32,
+		DispatchDemand = T.RT_33,
 		DispatchId = 308005,
 		DispatchPerson = 3,
 		DispatchType = "Collect",
 		DispatchUIId = 308005,
-		PlayerLevel = T.RT_17,
+		PlayerLevel = T.RT_18,
 		Rarity = 3,
 		RegionId = 1017,
 		RewardId = {

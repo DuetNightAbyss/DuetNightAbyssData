@@ -6021,6 +6021,7 @@ return ReadOnly("Npc", {
 		NpcType = "Normal",
 		UnitBPPath = "/Game/AssetDesign/Char/Npc/Custom/IceLakeCity/People/BP_Blue1",
 		UnitId = 700230,
+		UnitName = "UI_CMNpc_Name_scavengerOLD",
 	},
 	[700231] = {
 		BattleRoleId = 101,

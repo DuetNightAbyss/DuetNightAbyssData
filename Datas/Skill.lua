@@ -8902,7 +8902,7 @@ T.RT_991 = {
 		[1] = "SKILL_DESC_4301Skill04Rate",
 	}
 T.RT_992 = {
-		[1] = "$#PassiveEffect[430102].Vars.Rate*100$%$GText(\"SKILL_DESC_RangedTriggerProb\")$",
+		[1] = "$#PassiveEffect[430102].Vars.Rate*100$%$GText(\"SKILL_DESC_MeleeTriggerProb\")$",
 	}
 T.RT_993 = {
 		PassiveEffects = T.RT_990,

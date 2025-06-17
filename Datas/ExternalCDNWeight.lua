@@ -4,27 +4,27 @@ return ReadOnly("ExternalCDNWeight", {
 	["http://pan01-1-eo.shyxhy.com/Patches/FinalPatch/"] = {
 		CDNPath = "http://pan01-1-eo.shyxhy.com/Patches/FinalPatch/",
 		IsGlobal = false,
-		Weight = 5,
+		Weight = 80,
 	},
 	["http://pan01-1-hs.shyxhy.com/Patches/FinalPatch/"] = {
 		CDNPath = "http://pan01-1-hs.shyxhy.com/Patches/FinalPatch/",
 		IsGlobal = false,
-		Weight = 15,
+		Weight = 25,
 	},
 	["http://pan01-cdn-akm-jp.dna-panstudio.com/Patches/FinalPatch/"] = {
 		CDNPath = "http://pan01-cdn-akm-jp.dna-panstudio.com/Patches/FinalPatch/",
 		IsGlobal = true,
-		Weight = 15,
+		Weight = 20,
 	},
 	["http://pan01-cdn-ali-jp.dna-panstudio.com/Patches/FinalPatch/"] = {
 		CDNPath = "http://pan01-cdn-ali-jp.dna-panstudio.com/Patches/FinalPatch/",
 		IsGlobal = true,
-		Weight = 100,
+		Weight = 50,
 	},
 	["http://pan01-cdn-aws-jp.dna-herogame.com/Patches/FinalPatch/"] = {
 		CDNPath = "http://pan01-cdn-aws-jp.dna-herogame.com/Patches/FinalPatch/",
 		IsGlobal = true,
-		Weight = 35,
+		Weight = 50,
 	},
 	["http://pan01-cdn-dna-ali.shyxhy.com/Patches/FinalPatch/"] = {
 		CDNPath = "http://pan01-cdn-dna-ali.shyxhy.com/Patches/FinalPatch/",
@@ -34,11 +34,11 @@ return ReadOnly("ExternalCDNWeight", {
 	["http://pan01-cdn-dna-huawei.shyxhy.com/Patches/FinalPatch/"] = {
 		CDNPath = "http://pan01-cdn-dna-huawei.shyxhy.com/Patches/FinalPatch/",
 		IsGlobal = false,
-		Weight = 35,
+		Weight = 30,
 	},
 	["http://pan01-cdn-hs-jp.dna-panstudio.com/Patches/FinalPatch/"] = {
 		CDNPath = "http://pan01-cdn-hs-jp.dna-panstudio.com/Patches/FinalPatch/",
 		IsGlobal = true,
-		Weight = 5,
+		Weight = 10,
 	},
 })

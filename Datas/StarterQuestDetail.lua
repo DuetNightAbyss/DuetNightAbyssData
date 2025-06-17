@@ -360,9 +360,7 @@ return ReadOnly("StarterQuestDetail", {
 		StarterQuestDes = "StarterQuest_Des_102001_5_1",
 		Target = 1,
 		TargetId = {
-			5041,
-			5042,
-			5043,
+			5040,
 		},
 	},
 	[10200127] = {
@@ -436,7 +434,7 @@ return ReadOnly("StarterQuestDetail", {
 		TargetId = T.RT_6,
 	},
 	[10200133] = {
-		JumpUIId = 21,
+		JumpUIId = 20,
 		QuestId = 10200133,
 		QuestPhaseId = 1007,
 		QuestReward = {

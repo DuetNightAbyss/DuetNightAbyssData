@@ -4,9 +4,6 @@ T.RT_1 = {
 		8002,
 	}
 T.RT_2 = {
-		4010,
-	}
-T.RT_3 = {
 		4030,
 	}
 local ReadOnly = (DataMgr or {})["ReadOnly"] or function(n, x) return x end
@@ -155,7 +152,9 @@ return ReadOnly("InterfaceJump", {
 		JumpParameter2 = "NewDeputeRoot",
 		JumpParameter3 = "NightBook",
 		JumpType = "SelfDefinedJump",
-		PortalUnlockCondition = T.RT_2,
+		PortalUnlockCondition = {
+			4360,
+		},
 		PortalUnlockTips = "UI_Locked_Des_ModDungeon",
 	},
 	[21] = {
@@ -164,7 +163,9 @@ return ReadOnly("InterfaceJump", {
 		JumpParameter2 = "NewDeputeRoot",
 		JumpParameter3 = "Walnut",
 		JumpType = "SelfDefinedJump",
-		PortalUnlockCondition = T.RT_2,
+		PortalUnlockCondition = {
+			4340,
+		},
 		PortalUnlockTips = "UI_Locked_Des_WalnutBag",
 	},
 	[22] = {
@@ -202,7 +203,7 @@ return ReadOnly("InterfaceJump", {
 		JumpParameter4 = "nil",
 		JumpParameter5 = "Shop",
 		JumpType = "SelfDefinedJump",
-		PortalUnlockCondition = T.RT_3,
+		PortalUnlockCondition = T.RT_2,
 		PortalUnlockTips = "UI_Locked_Des_Shop",
 	},
 	[27] = {
@@ -213,7 +214,7 @@ return ReadOnly("InterfaceJump", {
 		JumpParameter4 = "160201.0",
 		JumpParameter5 = "Shop",
 		JumpType = "SelfDefinedJump",
-		PortalUnlockCondition = T.RT_3,
+		PortalUnlockCondition = T.RT_2,
 		PortalUnlockTips = "UI_Locked_Des_Shop",
 	},
 	[28] = {
@@ -275,7 +276,7 @@ return ReadOnly("InterfaceJump", {
 		JumpParameter4 = "nil",
 		JumpParameter5 = "Shop",
 		JumpType = "SelfDefinedJump",
-		PortalUnlockCondition = T.RT_3,
+		PortalUnlockCondition = T.RT_2,
 		PortalUnlockTips = "UI_Locked_Des_Shop",
 	},
 	[34] = {
