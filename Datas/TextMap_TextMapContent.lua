@@ -34745,7 +34745,7 @@ C区 阿妮塔\
                 ["TextMapId"] = "SKILL_DESC_3103BuffSkillEff",
             },
             ["SKILL_DESC_3103DomainBuffRate"] = {
-                ["TextMapContent"] = "每引爆1枚[人格炸弹]额外伤害倍率",
+                ["TextMapContent"] = "每引爆1枚[小可爱]额外伤害倍率",
                 ["TextMapId"] = "SKILL_DESC_3103DomainBuffRate",
             },
             ["SKILL_DESC_3103DomainDamage"] = {
@@ -34765,7 +34765,7 @@ C区 阿妮塔\
                 ["TextMapId"] = "SKILL_DESC_3103DomainRadius",
             },
             ["SKILL_DESC_3103DomainSpRecover"] = {
-                ["TextMapContent"] = "每引爆1枚[人格炸弹]神智回复",
+                ["TextMapContent"] = "每引爆1枚[小可爱]神智回复",
                 ["TextMapId"] = "SKILL_DESC_3103DomainSpRecover",
             },
             ["SKILL_DESC_3103ExBombDamage"] = {

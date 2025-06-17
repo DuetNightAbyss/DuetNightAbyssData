@@ -32842,7 +32842,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "SKILL_DESC_3103BuffSkillEff",
             },
             ["SKILL_DESC_3103DomainBuffRate"] = {
-                ["ContentKR"] = "[인격 폭탄] 1발당 추가 대미지 배율",
+                ["ContentKR"] = "[귀요미] 1발당 추가 대미지 배율",
                 ["TextMapId"] = "SKILL_DESC_3103DomainBuffRate",
             },
             ["SKILL_DESC_3103DomainDamage"] = {
@@ -32862,7 +32862,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "SKILL_DESC_3103DomainRadius",
             },
             ["SKILL_DESC_3103DomainSpRecover"] = {
-                ["ContentKR"] = "[인격 폭탄] 1발당 정신력 회복",
+                ["ContentKR"] = "[귀요미] 1발당 정신력 회복",
                 ["TextMapId"] = "SKILL_DESC_3103DomainSpRecover",
             },
             ["SKILL_DESC_3103ExBombDamage"] = {

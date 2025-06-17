@@ -33095,7 +33095,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_3103BuffSkillEff",
             },
             ["SKILL_DESC_3103DomainBuffRate"] = {
-                ["ContentJP"] = "1つの「人格爆弾」爆発によるダメージ倍率",
+                ["ContentJP"] = "1つの「キュートちゃん」爆発によるダメージ倍率",
                 ["TextMapId"] = "SKILL_DESC_3103DomainBuffRate",
             },
             ["SKILL_DESC_3103DomainDamage"] = {
@@ -33115,7 +33115,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_3103DomainRadius",
             },
             ["SKILL_DESC_3103DomainSpRecover"] = {
-                ["ContentJP"] = "1つの「人格爆弾」爆発によるSP回復",
+                ["ContentJP"] = "1つの「キュートちゃん」爆発によるSP回復",
                 ["TextMapId"] = "SKILL_DESC_3103DomainSpRecover",
             },
             ["SKILL_DESC_3103ExBombDamage"] = {

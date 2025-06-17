@@ -7245,7 +7245,7 @@ return ReadOnly("SkillCreature", {
 		WindInfo = T.RT_13,
 	},
 	[1040241] = {
-		AttachPlayer = true,
+		AttachOwner = T.RT_7,
 		BoundCount = -1,
 		ClientOwner = true,
 		CreatureId = 1040241,
@@ -7263,7 +7263,7 @@ return ReadOnly("SkillCreature", {
 		SpawnSocket = T.RT_18,
 		Speed = 0,
 		Tags = T.RT_1,
-		TimeLife = 0.5,
+		TimeLife = 0.6,
 	},
 	[1050121] = {
 		BoundCount = -1,
