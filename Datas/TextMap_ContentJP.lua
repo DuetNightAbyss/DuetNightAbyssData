@@ -55017,7 +55017,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_RegionMap_Scale",
             },
             ["UI_RegionMap_SeeTemple"] = {
-                ["ContentJP"] = "神殿表示",
+                ["ContentJP"] = "霊鳥の試練を確認",
                 ["TextMapId"] = "UI_RegionMap_SeeTemple",
             },
             ["UI_RegionMap_SelectRegion"] = {

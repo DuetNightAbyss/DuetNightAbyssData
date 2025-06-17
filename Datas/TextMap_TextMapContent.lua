@@ -56665,7 +56665,7 @@ C区 阿妮塔\
                 ["TextMapId"] = "UI_RegionMap_Scale",
             },
             ["UI_RegionMap_SeeTemple"] = {
-                ["TextMapContent"] = "查看神庙",
+                ["TextMapContent"] = "查看灵鸟试炼",
                 ["TextMapId"] = "UI_RegionMap_SeeTemple",
             },
             ["UI_RegionMap_SelectRegion"] = {

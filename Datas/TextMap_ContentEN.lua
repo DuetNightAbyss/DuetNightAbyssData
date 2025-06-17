@@ -55138,7 +55138,7 @@ Completing the trial in Co-Op Mode allows you to claim repeat-clear rewards. The
                 ["TextMapId"] = "UI_RegionMap_Scale",
             },
             ["UI_RegionMap_SeeTemple"] = {
-                ["ContentEN"] = "Check the temple",
+                ["ContentEN"] = "Check Avian Spirit Trial",
                 ["TextMapId"] = "UI_RegionMap_SeeTemple",
             },
             ["UI_RegionMap_SelectRegion"] = {

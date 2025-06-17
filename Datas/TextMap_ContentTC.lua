@@ -55033,7 +55033,7 @@ C區 阿妮塔\
                 ["TextMapId"] = "UI_RegionMap_Scale",
             },
             ["UI_RegionMap_SeeTemple"] = {
-                ["ContentTC"] = "查看神廟",
+                ["ContentTC"] = "查看靈鳥試煉",
                 ["TextMapId"] = "UI_RegionMap_SeeTemple",
             },
             ["UI_RegionMap_SelectRegion"] = {

@@ -54554,7 +54554,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_RegionMap_Scale",
             },
             ["UI_RegionMap_SeeTemple"] = {
-                ["ContentKR"] = "신묘 보기",
+                ["ContentKR"] = "영혼의 새 시련 확인",
                 ["TextMapId"] = "UI_RegionMap_SeeTemple",
             },
             ["UI_RegionMap_SelectRegion"] = {
