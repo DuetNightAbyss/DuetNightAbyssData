@@ -34830,8 +34830,8 @@ return ReadOnly("DialogueScripts2Table", {
 			[1] = T.RT_3645,
 			[2] = {
 				["PlayOrStopBGM"] = {
-					["EventPath"] = "event:/bgm/mute",
-					["PlayType"] = "Stop",
+					["EventPath"] = "event:/bgm/cbt03/0081_scene_alchemyacademy",
+					["PlayType"] = "Play",
 					["RelatedRegionId"] = 101901,
 					["SoundType"] = "SOUND_BGM",
 				},

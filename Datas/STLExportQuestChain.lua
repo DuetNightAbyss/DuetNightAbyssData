@@ -115,7 +115,7 @@ return ReadOnly("STLExportQuestChain", {
 			},
 			[10010104] = {
 				IsMultiQuest = false,
-				SubRegionId = 100101,
+				SubRegionId = 0,
 				nextQuestId = 10010105,
 				nextQuestIds = {
 					Success = 10010105,

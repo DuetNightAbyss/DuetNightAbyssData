@@ -22,7 +22,7 @@ return ReadOnly("SystemGuide", {
 		UIUnlockRule = "Map",
 	},
 	[2002] = {
-		GuideEnd = 1,
+		GuideEnd = 0,
 		GuideStoryline = "Guide/Guide_Armory_ChangeWeapon.story",
 		IsInRegion = 1,
 		OpenInterface = "BattleMain",
