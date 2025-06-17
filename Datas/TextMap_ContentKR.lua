@@ -11256,7 +11256,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_BattleBag_14",
             },
             ["Message_Guide_BattleBag_15"] = {
-                ["ContentKR"] = "이곳에서 악마의 쐐기 무기를 빠르게 장착할 수 있습니다.",
+                ["ContentKR"] = "이곳에서 악마의 쐐기 무기를 빠르게 장착할 수 있어.",
                 ["TextMapId"] = "Message_Guide_BattleBag_15",
             },
             ["Message_Guide_BattleBag_3"] = {
