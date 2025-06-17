@@ -67,15 +67,15 @@ local Data = {
                 ["TextMapId"] = "AFFIX_1016_DESC",
             },
             ["AREA_NAME_1"] = {
-                ["ContentJP"] = "パーガトリー島・村落",
+                ["ContentJP"] = "パーガトリー島‐村落",
                 ["TextMapId"] = "AREA_NAME_1",
             },
             ["AREA_NAME_2"] = {
-                ["ContentJP"] = "パーガトリー島・遺跡",
+                ["ContentJP"] = "パーガトリー島‐遺跡",
                 ["TextMapId"] = "AREA_NAME_2",
             },
             ["AREA_NAME_3"] = {
-                ["ContentJP"] = "アイスレイク城・郊外",
+                ["ContentJP"] = "アイスレイク城‐郊外",
                 ["TextMapId"] = "AREA_NAME_3",
             },
             ["AREA_NAME_4"] = {
@@ -87,7 +87,7 @@ local Data = {
                 ["TextMapId"] = "ATTR_DESC_ATK_Dark",
             },
             ["ATTR_DESC_ATK_Fire"] = {
-                ["ContentJP"] = "追加効果が発生すると、対象に火属属性の持続ダメージを与える（6秒持続）。最大6回まで重ねがけできる。",
+                ["ContentJP"] = "追加効果が発生すると、対象に火属性の持続ダメージを与える（6秒持続）。最大6回まで重ねがけできる。",
                 ["TextMapId"] = "ATTR_DESC_ATK_Fire",
             },
             ["ATTR_DESC_ATK_Light"] = {
@@ -107,15 +107,15 @@ local Data = {
                 ["TextMapId"] = "ATTR_DESC_ATK_Spike",
             },
             ["ATTR_DESC_ATK_Thunder"] = {
-                ["ContentJP"] = "追加効果が発生すると、対象に雷属属性の持続ダメージを与える（6秒持続）。最大6回まで重ねがけできる。",
+                ["ContentJP"] = "追加効果が発生すると、対象に雷属性の持続ダメージを与える（6秒持続）。最大6回まで重ねがけできる。",
                 ["TextMapId"] = "ATTR_DESC_ATK_Thunder",
             },
             ["ATTR_DESC_ATK_Water"] = {
-                ["ContentJP"] = "追加効果が発生すると、標的に水属属性の持続ダメージを与える（6秒持続）。最大6回まで重ねがけできる。",
+                ["ContentJP"] = "追加効果が発生すると、標的に水属性の持続ダメージを与える（6秒持続）。最大6回まで重ねがけできる。",
                 ["TextMapId"] = "ATTR_DESC_ATK_Water",
             },
             ["ATTR_DESC_ATK_Wind"] = {
-                ["ContentJP"] = "追加効果が発生すると、対象に風属属性の持続ダメージを与える（6秒持続）。最大6回まで重ねがけできる。",
+                ["ContentJP"] = "追加効果が発生すると、対象に風属性の持続ダメージを与える（6秒持続）。最大6回まで重ねがけできる。",
                 ["TextMapId"] = "ATTR_DESC_ATK_Wind",
             },
             ["ATTR_DESC_BulletConver"] = {
@@ -463,7 +463,7 @@ local Data = {
                 ["TextMapId"] = "Access_EggBai",
             },
             ["Access_Monster_HardNormal"] = {
-                ["ContentJP"] = "一部の強敵がドロップ",
+                ["ContentJP"] = "依頼で一部の強敵がドロップ",
                 ["TextMapId"] = "Access_Monster_HardNormal",
             },
             ["Access_Monster_Normal"] = {
@@ -695,7 +695,7 @@ local Data = {
                 ["TextMapId"] = "Attr_OnceDamagedPercent_Name",
             },
             ["Attr_Positioning"] = {
-                ["ContentJP"] = "ロケーション",
+                ["ContentJP"] = "ポジション",
                 ["TextMapId"] = "Attr_Positioning",
             },
             ["Attr_RayLength_Name"] = {
@@ -804,7 +804,7 @@ local Data = {
             },
         }
     end },
-    { MinKey = "BATTLE_COMBO_3", MaxKey = "CVName4005", Loader = function()
+    { MinKey = "BATTLE_COMBO_3", MaxKey = "CVName4004", Loader = function()
         return {
             ["BATTLE_COMBO_3"] = {
                 ["ContentJP"] = "A",
@@ -1031,7 +1031,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001004",
             },
             ["BattlePass_Task_Des_100001005"] = {
-                ["ContentJP"] = "ジェネモンを<H>1</>体捕獲する",
+                ["ContentJP"] = "ジェネモンを<H>1</>体と仲良しする",
                 ["TextMapId"] = "BattlePass_Task_Des_100001005",
             },
             ["BattlePass_Task_Des_100001101"] = {
@@ -1055,7 +1055,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001105",
             },
             ["BattlePass_Task_Des_100001106"] = {
-                ["ContentJP"] = "ジェネモンを<H>10</>体を捕獲する",
+                ["ContentJP"] = "ジェネモンを<H>10</>体を仲良しする",
                 ["TextMapId"] = "BattlePass_Task_Des_100001106",
             },
             ["BattlePass_Task_Des_100001107"] = {
@@ -1063,7 +1063,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001107",
             },
             ["BattlePass_Task_Des_100001108"] = {
-                ["ContentJP"] = "悪夢の残響を<H>2</>回を完了する",
+                ["ContentJP"] = "悪夢の残響を<H>1</>回を完了する",
                 ["TextMapId"] = "BattlePass_Task_Des_100001108",
             },
             ["BattlePass_Task_Des_100001109"] = {
@@ -1181,6 +1181,10 @@ local Data = {
             ["BossSkillToast_Saiqi_Skill10"] = {
                 ["ContentJP"] = "枯羽墜",
                 ["TextMapId"] = "BossSkillToast_Saiqi_Skill10",
+            },
+            ["BossSkillToast_Saiqi_Skill23"] = {
+                ["ContentJP"] = "光なき哀歌",
+                ["TextMapId"] = "BossSkillToast_Saiqi_Skill23",
             },
             ["BossSkillToast_Shenpan_Skill02"] = {
                 ["ContentJP"] = "輝く洗礼",
@@ -1443,7 +1447,7 @@ local Data = {
                 ["TextMapId"] = "CVName2008",
             },
             ["CVName2009"] = {
-                ["ContentJP"] = "James MacNaughton",
+                ["ContentJP"] = "James Macnaughton",
                 ["TextMapId"] = "CVName2009",
             },
             ["CVName2010"] = {
@@ -1602,14 +1606,14 @@ local Data = {
                 ["ContentJP"] = "이다은",
                 ["TextMapId"] = "CVName4004",
             },
+        }
+    end },
+    { MinKey = "CVName4005", MaxKey = "Condition_Toast_PlayerLv_ModGuideBook_35", Loader = function()
+        return {
             ["CVName4005"] = {
                 ["ContentJP"] = "소연",
                 ["TextMapId"] = "CVName4005",
             },
-        }
-    end },
-    { MinKey = "CVName4006", MaxKey = "Content_110103_3", Loader = function()
-        return {
             ["CVName4006"] = {
                 ["ContentJP"] = "성예원",
                 ["TextMapId"] = "CVName4006",
@@ -1804,6 +1808,10 @@ local Data = {
                 ["ContentJP"] = "トリュフ＆ヘーゼルナッツ",
                 ["TextMapId"] = "ChatCharacter13",
             },
+            ["ChatCharacter14"] = {
+                ["ContentJP"] = "アウトサイダー",
+                ["TextMapId"] = "ChatCharacter14",
+            },
             ["ChatCharacter15"] = {
                 ["ContentJP"] = "レベッカ",
                 ["TextMapId"] = "ChatCharacter15",
@@ -1828,9 +1836,29 @@ local Data = {
                 ["ContentJP"] = "リズム",
                 ["TextMapId"] = "ChatCharacter20",
             },
+            ["ChatCharacter22"] = {
+                ["ContentJP"] = "エレウテリア",
+                ["TextMapId"] = "ChatCharacter22",
+            },
+            ["ChatCharacter23"] = {
+                ["ContentJP"] = "ニフル夫人",
+                ["TextMapId"] = "ChatCharacter23",
+            },
+            ["ChatCharacter24"] = {
+                ["ContentJP"] = "イェール＆オリバー",
+                ["TextMapId"] = "ChatCharacter24",
+            },
             ["ChatCharacter26"] = {
                 ["ContentJP"] = "マギー",
                 ["TextMapId"] = "ChatCharacter26",
+            },
+            ["ChatCharacter31"] = {
+                ["ContentJP"] = "キョウン",
+                ["TextMapId"] = "ChatCharacter31",
+            },
+            ["ChatCharacter34"] = {
+                ["ContentJP"] = "ダフネ",
+                ["TextMapId"] = "ChatCharacter34",
             },
             ["Comma"] = {
                 ["ContentJP"] = ",",
@@ -2384,6 +2412,10 @@ local Data = {
                 ["ContentJP"] = "未公開、冒険レベル35になると確認可能",
                 ["TextMapId"] = "Condition_Toast_PlayerLv_ModGuideBook_35",
             },
+        }
+    end },
+    { MinKey = "Content_110101_1", MaxKey = "Content_200215_7", Loader = function()
+        return {
             ["Content_110101_1"] = {
                 ["ContentJP"] = "誰かがあなたを呼んでいるような気がする……",
                 ["TextMapId"] = "Content_110101_1",
@@ -2413,10 +2445,6 @@ local Data = {
                 ["ContentJP"] = "廊下の方向から突然、穢獣の大群が襲いかかってきた。負傷者たちはもはや戦意を失っている。隊長であり、最後の戦力であるあなたは、戦線を死守し、仲間たちを守らねばならない。",
                 ["TextMapId"] = "Content_110103_3",
             },
-        }
-    end },
-    { MinKey = "Content_110103_3_2", MaxKey = "Content_200219_4", Loader = function()
-        return {
             ["Content_110103_3_2"] = {
                 ["ContentJP"] = "アヴァールが支援に駆けつけ、戦局をひっくり返した。 穢獣のボスを撃破し、この戦闘に終止符を打とう。",
                 ["TextMapId"] = "Content_110103_3_2",
@@ -2426,7 +2454,7 @@ local Data = {
                 ["TextMapId"] = "Content_110103_4",
             },
             ["Content_110104_1"] = {
-                ["ContentJP"] = "アヴァールはダフネと負傷者たちに「白狼」小隊の迎えを待つよう指示した。あなたは彼と一緒に要塞内部に侵入し、任務を続行することにした。",
+                ["ContentJP"] = "アヴァールはダフネと負傷者たちに「雪狼」小隊の迎えを待つよう指示した。あなたは彼と一緒に要塞内部に侵入し、任務を続行することにした。",
                 ["TextMapId"] = "Content_110104_1",
             },
             ["Content_110104_2"] = {
@@ -2440,7 +2468,7 @@ local Data = {
                 ["TextMapId"] = "Content_110104_3",
             },
             ["Content_110105_1"] = {
-                ["ContentJP"] = "あなたたちは「白狼」小隊の2人の隊員を見つけたが、そのうちの1人、ヴィックが機関室の中に閉じ込められている。\
+                ["ContentJP"] = "あなたたちは「雪狼」小隊の2人の隊員を見つけたが、そのうちの1人、ヴィックが機関室の中に閉じ込められている。\
 アヴァールと協力して電源を切り、一刻も早く仲間を救助しよう。",
                 ["TextMapId"] = "Content_110105_1",
             },
@@ -2839,7 +2867,8 @@ local Data = {
                 ["TextMapId"] = "Content_200103_4",
             },
             ["Content_200103_5"] = {
-                ["ContentJP"] = "「ジェネモン」システムが解放されました。ジェネモンを捕獲して、これからの旅に備えよう。",
+                ["ContentJP"] = "「ジェネモン」システムが解放されました。\
+ジェネモンと仲良しをして、これからの旅に備えよう。",
                 ["TextMapId"] = "Content_200103_5",
             },
             ["Content_200104_1"] = {
@@ -2887,15 +2916,15 @@ local Data = {
                 ["TextMapId"] = "Content_200201_2",
             },
             ["Content_200201_3"] = {
-                ["ContentJP"] = "セリーヌ夫人は長い間、「ハーメル・ディキンソン」というカロンの男性を孤独に待ち続けている。彼女とても思い悩んでいるようだ。セリーヌ夫人を手伝ってハーメル・ディキンソンの手がかりを探そう。",
+                ["ContentJP"] = "セリーヌ夫人は長い間、「ハーメル‐ディキンソン」というカロンの男性を孤独に待ち続けている。彼女とても思い悩んでいるようだ。セリーヌ夫人を手伝ってハーメル‐ディキンソンの手がかりを探そう。",
                 ["TextMapId"] = "Content_200201_3",
             },
             ["Content_200201_4"] = {
-                ["ContentJP"] = "廃坑の奥に進み、ハーメル・ディキンソンの手がかりを探そう。",
+                ["ContentJP"] = "廃坑の奥に進み、ハーメル‐ディキンソンの手がかりを探そう。",
                 ["TextMapId"] = "Content_200201_4",
             },
             ["Content_200201_5"] = {
-                ["ContentJP"] = "あなたは廃坑の奥深くで、日記帳を見つけた。書物の扉には所有者の名前、ハーメル・ディキンソンという文字が書かれている。\
+                ["ContentJP"] = "あなたは廃坑の奥深くで、日記帳を見つけた。書物の扉には所有者の名前、ハーメル‐ディキンソンという文字が書かれている。\
 どうやら、この日記にはハーメルのことが記録されているようだ。アイスレイク城に戻り、この日記をセリーヌ夫人に渡そう。",
                 ["TextMapId"] = "Content_200201_5",
             },
@@ -2920,6 +2949,18 @@ local Data = {
                 ["ContentJP"] = "女性の声はしゃがれ、仕立てのいい服も薄汚れてしまっている。\
 彼女は道行く人々をひとりひとり呼び止めて、何かを探しているようだ……",
                 ["TextMapId"] = "Content_200203_1",
+            },
+            ["Content_200203_12"] = {
+                ["ContentJP"] = "あなたがあの悲しげな中年女性のもとを離れて以来、誰かがずっとあなたを見つめている。彼は何か言いたげな様子だ。",
+                ["TextMapId"] = "Content_200203_12",
+            },
+            ["Content_200203_13"] = {
+                ["ContentJP"] = "他の人にも何か手がかりがないか聞いてみよう。",
+                ["TextMapId"] = "Content_200203_13",
+            },
+            ["Content_200203_14"] = {
+                ["ContentJP"] = "周囲に事情を知る者がまだいるようだ。もう一度、あの医者の行方を聞いてみよう。",
+                ["TextMapId"] = "Content_200203_14",
             },
             ["Content_200203_2"] = {
                 ["ContentJP"] = "エルザ夫人の一人娘のアニーが行方不明になってしまったらしい。\
@@ -3125,7 +3166,7 @@ local Data = {
                 ["TextMapId"] = "Content_200209_4",
             },
             ["Content_200209_5"] = {
-                ["ContentJP"] = "療養所を捜索すれば、何か手がかりや役立つ情報が見つかるかもしれない。運が良ければ処方箋さえ見つかるかも。",
+                ["ContentJP"] = "ヒュプノスの家を捜索すれば、何か手がかりや役立つ情報が見つかるかもしれない。運が良ければ処方箋さえ見つかるかも。",
                 ["TextMapId"] = "Content_200209_5",
             },
             ["Content_200209_6"] = {
@@ -3246,6 +3287,10 @@ local Data = {
 さて、彼の次の計画を聞いてみよう。",
                 ["TextMapId"] = "Content_200215_4",
             },
+            ["Content_200215_41"] = {
+                ["ContentJP"] = "信じがたいが、自分で釣り上げた新鮮な魚だ。仕方ない、マーカスの腕前を試してみましょう。",
+                ["TextMapId"] = "Content_200215_41",
+            },
             ["Content_200215_5"] = {
                 ["ContentJP"] = "マーカスの独創的な料理は、まだ形になっていないが、彼はレシピの改良を諦めていない。今度は霜降りトゲウオが必要だと言う。釣ってあげよう。",
                 ["TextMapId"] = "Content_200215_5",
@@ -3259,6 +3304,10 @@ local Data = {
 最近、アイスレイク城の門前でよく見かけるという噂を耳にした。様子を見に行ってみよう。",
                 ["TextMapId"] = "Content_200215_7",
             },
+        }
+    end },
+    { MinKey = "Content_200215_8", MaxKey = "DUNGEON_NAME_30006", Loader = function()
+        return {
             ["Content_200215_8"] = {
                 ["ContentJP"] = "マーカスはアイスレイクの城門のベンチに座っている。話しかけてみよう",
                 ["TextMapId"] = "Content_200215_8",
@@ -3307,10 +3356,6 @@ local Data = {
                 ["ContentJP"] = "あのごみ拾いの老人はずっとあなたを見つめている。何か言いたそうだ。話しかけてみてもいいかもしれない。",
                 ["TextMapId"] = "Content_200219_4",
             },
-        }
-    end },
-    { MinKey = "Content_200219_5", MaxKey = "DUNGEON_NAME_80302", Loader = function()
-        return {
             ["Content_200219_5"] = {
                 ["ContentJP"] = "リアンダーと共に折り紙を完成させよう。自分の手で美しい願いを仕上げるのは素敵なことだ。",
                 ["TextMapId"] = "Content_200219_5",
@@ -4017,7 +4062,7 @@ local Data = {
                 ["TextMapId"] = "DUNGEON_HIJACK_121",
             },
             ["DUNGEON_NAME_10"] = {
-                ["ContentJP"] = "ボス・晶嗜獣",
+                ["ContentJP"] = "ボス‐晶嗜獣",
                 ["TextMapId"] = "DUNGEON_NAME_10",
             },
             ["DUNGEON_NAME_10001"] = {
@@ -4029,7 +4074,7 @@ local Data = {
                 ["TextMapId"] = "DUNGEON_NAME_10002",
             },
             ["DUNGEON_NAME_18"] = {
-                ["ContentJP"] = "ボス・晶嗜獣",
+                ["ContentJP"] = "ボス‐晶嗜獣",
                 ["TextMapId"] = "DUNGEON_NAME_18",
             },
             ["DUNGEON_NAME_20001"] = {
@@ -4072,6 +4117,10 @@ local Data = {
                 ["ContentJP"] = "移動Ⅰ",
                 ["TextMapId"] = "DUNGEON_NAME_30006",
             },
+        }
+    end },
+    { MinKey = "DUNGEON_NAME_30007", MaxKey = "Description_110105_2_2", Loader = function()
+        return {
             ["DUNGEON_NAME_30007"] = {
                 ["ContentJP"] = "護送",
                 ["TextMapId"] = "DUNGEON_NAME_30007",
@@ -4116,10 +4165,6 @@ local Data = {
                 ["ContentJP"] = "マシンダッシュ Ⅱ",
                 ["TextMapId"] = "DUNGEON_NAME_80302",
             },
-        }
-    end },
-    { MinKey = "DUNGEON_NAME_80303", MaxKey = "Description_110106_1_3", Loader = function()
-        return {
             ["DUNGEON_NAME_80303"] = {
                 ["ContentJP"] = "マシンダッシュ Ⅲ",
                 ["TextMapId"] = "DUNGEON_NAME_80303",
@@ -4197,15 +4242,15 @@ local Data = {
                 ["TextMapId"] = "DUNGEON_NAME_80803",
             },
             ["DUNGEON_NAME_80901"] = {
-                ["ContentJP"] = "反応速度・遠隔 I",
+                ["ContentJP"] = "反応速度‐遠隔 I",
                 ["TextMapId"] = "DUNGEON_NAME_80901",
             },
             ["DUNGEON_NAME_80902"] = {
-                ["ContentJP"] = "反応速度・近接 I",
+                ["ContentJP"] = "反応速度‐近接 I",
                 ["TextMapId"] = "DUNGEON_NAME_80902",
             },
             ["DUNGEON_NAME_80903"] = {
-                ["ContentJP"] = "反応速度・近接 Ⅱ",
+                ["ContentJP"] = "反応速度‐近接 Ⅱ",
                 ["TextMapId"] = "DUNGEON_NAME_80903",
             },
             ["DUNGEON_NAME_80904"] = {
@@ -4561,7 +4606,7 @@ local Data = {
                 ["TextMapId"] = "DUNGEON_SURVIVALPRO_118",
             },
             ["DUNGEON_SURVIVALPRO_119"] = {
-                ["ContentJP"] = "浄化装置は<Highlight>資源</>、<Highlight>攻撃</>、<Highlight>回復</>などのタイプがあり、タイプに応じて異なるバフ効果を獲得できます",
+                ["ContentJP"] = "浄化装置は<Highlight>資源</>、<Highlight>回復</>、<Highlight>攻撃</>などのタイプがあり、タイプに応じて異なるバフ効果を獲得できます",
                 ["TextMapId"] = "DUNGEON_SURVIVALPRO_119",
             },
             ["DUNGEON_SURVIVALPRO_120"] = {
@@ -4876,6 +4921,10 @@ local Data = {
                 ["ContentJP"] = "作動中のイコル駆動輪または変電モジュールをオフにする 2/3",
                 ["TextMapId"] = "Description_110105_2_2",
             },
+        }
+    end },
+    { MinKey = "Description_110105_2_3", MaxKey = "Description_200207_6", Loader = function()
+        return {
             ["Description_110105_2_3"] = {
                 ["ContentJP"] = "作動中のイコル駆動輪または変電モジュールをオフにする 3/3",
                 ["TextMapId"] = "Description_110105_2_3",
@@ -4920,10 +4969,6 @@ local Data = {
                 ["ContentJP"] = "予備のイコル駆動輪2号を起動する",
                 ["TextMapId"] = "Description_110106_1_3",
             },
-        }
-    end },
-    { MinKey = "Description_110106_1_4", MaxKey = "Description_200209_6", Loader = function()
-        return {
             ["Description_110106_1_4"] = {
                 ["ContentJP"] = "予備のイコル駆動輪3号を起動する",
                 ["TextMapId"] = "Description_110106_1_4",
@@ -5425,7 +5470,7 @@ local Data = {
                 ["TextMapId"] = "Description_200103_4",
             },
             ["Description_200103_5"] = {
-                ["ContentJP"] = "ジェネモンを捕獲",
+                ["ContentJP"] = "1体のジェネモンと仲良しをする",
                 ["TextMapId"] = "Description_200103_5",
             },
             ["Description_200104_1"] = {
@@ -5680,6 +5725,10 @@ local Data = {
                 ["ContentJP"] = "鉄器をベリンダに渡す",
                 ["TextMapId"] = "Description_200207_6",
             },
+        }
+    end },
+    { MinKey = "Description_200207_7", MaxKey = "DynQuest_SewPet_Des", Loader = function()
+        return {
             ["Description_200207_7"] = {
                 ["ContentJP"] = "ルーナ族の略奪者に勝つ",
                 ["TextMapId"] = "Description_200207_7",
@@ -5717,17 +5766,13 @@ local Data = {
                 ["TextMapId"] = "Description_200209_4",
             },
             ["Description_200209_5"] = {
-                ["ContentJP"] = "療養所に向かう",
+                ["ContentJP"] = "ヒュプノスの家に向かう",
                 ["TextMapId"] = "Description_200209_5",
             },
             ["Description_200209_6"] = {
                 ["ContentJP"] = "ルナに返事をする",
                 ["TextMapId"] = "Description_200209_6",
             },
-        }
-    end },
-    { MinKey = "Description_200209_7", MaxKey = "DynQuest_TrafficwayProtectwuzi_Des", Loader = function()
-        return {
             ["Description_200209_7"] = {
                 ["ContentJP"] = "ルナを助ける",
                 ["TextMapId"] = "Description_200209_7",
@@ -5847,6 +5892,10 @@ local Data = {
             ["Description_200215_4"] = {
                 ["ContentJP"] = "再びマーカスと話す",
                 ["TextMapId"] = "Description_200215_4",
+            },
+            ["Description_200215_41"] = {
+                ["ContentJP"] = "マーカスの作った魚を味わってみましょう",
+                ["TextMapId"] = "Description_200215_41",
             },
             ["Description_200215_5"] = {
                 ["ContentJP"] = "霜降りトゲウオを1匹釣る",
@@ -6189,11 +6238,11 @@ local Data = {
                 ["TextMapId"] = "DynQuest_FortInBox_Title",
             },
             ["DynQuest_FortPet_Des"] = {
-                ["ContentJP"] = "敵を倒し、ジェネモンを捕獲しよう",
+                ["ContentJP"] = "敵を倒し、ジェネモンを救援しよう",
                 ["TextMapId"] = "DynQuest_FortPet_Des",
             },
             ["DynQuest_FortPet_Title"] = {
-                ["ContentJP"] = "ジェネモン捕獲！",
+                ["ContentJP"] = "ジェネモンを救援！",
                 ["TextMapId"] = "DynQuest_FortPet_Title",
             },
             ["DynQuest_FortXianjing_Des"] = {
@@ -6341,11 +6390,11 @@ local Data = {
                 ["TextMapId"] = "DynQuest_IcelakeOldFisher_Title",
             },
             ["DynQuest_IcelakePet_Des"] = {
-                ["ContentJP"] = "敵を倒し、ジェネモンを捕獲しよう",
+                ["ContentJP"] = "敵を倒し、ジェネモンを救援しましょう！",
                 ["TextMapId"] = "DynQuest_IcelakePet_Des",
             },
             ["DynQuest_IcelakePet_Title"] = {
-                ["ContentJP"] = "ジェネモン、ゲットだぜ！",
+                ["ContentJP"] = "ジェネモンを救援！",
                 ["TextMapId"] = "DynQuest_IcelakePet_Title",
             },
             ["DynQuest_IcelakeXiaoresearch_Des"] = {
@@ -6477,11 +6526,15 @@ local Data = {
                 ["TextMapId"] = "DynQuest_SewHuishoulaixi_Title",
             },
             ["DynQuest_SewPet_Des"] = {
-                ["ContentJP"] = "敵を倒し、ジェネモンを捕獲しよう",
+                ["ContentJP"] = "敵を倒し、ジェネモンを救援しよう",
                 ["TextMapId"] = "DynQuest_SewPet_Des",
             },
+        }
+    end },
+    { MinKey = "DynQuest_SewPet_Title", MaxKey = "FailureGuidance_Text_1002", Loader = function()
+        return {
             ["DynQuest_SewPet_Title"] = {
-                ["ContentJP"] = "ジェネモン捕獲！",
+                ["ContentJP"] = "ジェネモン救援！",
                 ["TextMapId"] = "DynQuest_SewPet_Title",
             },
             ["DynQuest_SewSaveFisher_Des"] = {
@@ -6528,10 +6581,6 @@ local Data = {
                 ["ContentJP"] = "物資を指定された場所まで届けよう",
                 ["TextMapId"] = "DynQuest_TrafficwayProtectwuzi_Des",
             },
-        }
-    end },
-    { MinKey = "DynQuest_TrafficwayProtectwuzi_Title", MaxKey = "FeeRefund_MonthlyCard_Addup", Loader = function()
-        return {
             ["DynQuest_TrafficwayProtectwuzi_Title"] = {
                 ["ContentJP"] = "ちょっとした誤解",
                 ["TextMapId"] = "DynQuest_TrafficwayProtectwuzi_Title",
@@ -6725,7 +6774,7 @@ local Data = {
                 ["TextMapId"] = "EntryTitle_201026",
             },
             ["EntryTitle_204001"] = {
-                ["ContentJP"] = "夢の中の{性别2：少年|少女}",
+                ["ContentJP"] = "夢の中の{性别2:少年|少女}",
                 ["TextMapId"] = "EntryTitle_204001",
             },
             ["EntryTitle_204002"] = {
@@ -6873,7 +6922,7 @@ local Data = {
                 ["TextMapId"] = "EntryTitle_407001",
             },
             ["EntryTitle_407002"] = {
-                ["ContentJP"] = "树刑",
+                ["ContentJP"] = "磔刑",
                 ["TextMapId"] = "EntryTitle_407002",
             },
             ["EntryTitle_407003"] = {
@@ -7145,11 +7194,11 @@ local Data = {
                 ["TextMapId"] = "Event_Des_103002",
             },
             ["Event_Des_103003"] = {
-                ["ContentJP"] = "メインストーリー「そよ風に乗って」をクリアして、【アウトサイダー】などの報酬を獲得。",
+                ["ContentJP"] = "メインストーリー「獲物と狩人」をクリアして、【アウトサイダー】などの報酬を獲得。",
                 ["TextMapId"] = "Event_Des_103003",
             },
             ["Event_Des_103004"] = {
-                ["ContentJP"] = "メインストーリー「審判の日」をクリアして、【ダフネ】などの報酬を獲得。",
+                ["ContentJP"] = "メインストーリー「観察者たち」をクリアして、【ダフネ】などの報酬を獲得。",
                 ["TextMapId"] = "Event_Des_103004",
             },
             ["Event_Des_103005"] = {
@@ -7169,7 +7218,7 @@ local Data = {
                 ["TextMapId"] = "Event_Des_105102013",
             },
             ["Event_Des_106001"] = {
-                ["ContentJP"] = "冒険レベルをアップすることで、合計純白の砂時計×40、月ノ石×1600、星5武器×1などの報酬を獲得します。",
+                ["ContentJP"] = "冒険レベルをアップすることで、合計純白の砂時計×40、月ノ石×1600、★5武器×1などの報酬を獲得します。",
                 ["TextMapId"] = "Event_Des_106001",
             },
             ["Event_Des_WorldLan_101001"] = {
@@ -7178,10 +7227,10 @@ local Data = {
             },
             ["Event_Rule_103002"] = {
                 ["ContentJP"] = "<Title>体験型劇場のルール</>\
-1．体験型劇場は「クラシック劇」「ヒット劇」「不滅の名作」の三部構成。前の劇をクリアすると次の劇が解放されます。「クラシック劇」は一度限りの挑戦となり、「ヒット劇」と「不滅の名作」はバージョン更新にあわせて内容が変わります。「不滅の名作」は条件を満たせば無制限に挑戦できます。\
-2．制限時間内にステージ内のすべての敵を倒せば挑戦成功です。各ステージをクリアすると「スター」と「チケット」が手に入り、スター報酬や劇場記念ショップで好きなアイテムと交換できます。\
-3．「クラシック劇」と「ヒット劇」は「勇者帰郷」と「勇者征途」の2ラウンドの戦闘で構成されます。異なるチームで挑戦し、2ラウンドで獲得したスターの合計に応じて報酬が決まります。「不滅の名作」は「勇者帰郷」の1戦闘みです。\
-4．各戦闘は5つの部屋で構成され、順番に進んでいきます。両方の戦闘ですべての部屋をクリアすると次の劇が解放されます。制限時間を超えたり、敵を倒しきれなかった場合は次の部屋に進めません。\
+1．体験型劇場は「古典劇」「話題作」「不滅の名作」の三つで構成され、前の劇をクリアすると次の劇が解放されます。「古典劇」は一度限りの挑戦となり、「話題作」と「不滅の名作」はバージョン更新にあわせて内容が変わり、「不滅の名作」は条件を満たせば無制限に挑戦できます。\
+2．制限時間内にステージ内のすべての敵を倒せば挑戦成功です。各ステージをクリアすると「スター」と「半券」を獲得し、スター報酬や観劇記念ショップで好きなアイテムと交換できます。\
+3．「古典劇」と「話題作」は「勇者帰郷」と「勇者征途」の2ラウンドの戦闘で構成され、それぞれ異なる編成のチームで挑戦する必要があります。2ラウンドで獲得したスターの合計に応じて報酬が決まります。「不滅の名作」は「勇者征途」の1ラウンド戦闘のみです。\
+4．各戦闘は5つの部屋で構成され、順番に進んでいきます。両方の戦闘ですべての部屋をクリアすると次の劇が解放されます。制限時間オーバー、または敵を倒しきれなかった場合、次の部屋に進めません。\
 5．すべてのステージには「舞台伴奏」効果（戦闘中のバフやデバフ）が付きます。効果ごとに、戦い方を調整してください。",
                 ["TextMapId"] = "Event_Rule_103002",
             },
@@ -7210,7 +7259,7 @@ local Data = {
                 ["TextMapId"] = "Event_Tab_103004",
             },
             ["Event_Tab_103005"] = {
-                ["ContentJP"] = "異郷の来客",
+                ["ContentJP"] = "異郷の来訪者",
                 ["TextMapId"] = "Event_Tab_103005",
             },
             ["Event_Tab_105001"] = {
@@ -7251,7 +7300,7 @@ local Data = {
                 ["TextMapId"] = "Event_Title_103004",
             },
             ["Event_Title_103005"] = {
-                ["ContentJP"] = "異郷の来客",
+                ["ContentJP"] = "異郷の来訪者",
                 ["TextMapId"] = "Event_Title_103005",
             },
             ["Event_Title_106001"] = {
@@ -7290,6 +7339,10 @@ local Data = {
                 ["ContentJP"] = "キャラクターやスキルをレベルアップし、魔の楔の組み合わせを工夫して、戦闘能力を高めよう。",
                 ["TextMapId"] = "FailureGuidance_Text_1002",
             },
+        }
+    end },
+    { MinKey = "FailureGuidance_Text_1003", MaxKey = "Guide_Message_DailyGoalUI_5", Loader = function()
+        return {
             ["FailureGuidance_Text_1003"] = {
                 ["ContentJP"] = "武器をレベルアップし、魔の楔の組み合わせを工夫して、武器の潜在能力を引きだそう。",
                 ["TextMapId"] = "FailureGuidance_Text_1003",
@@ -7338,10 +7391,6 @@ local Data = {
                 ["ContentJP"] = "累計購入：月額利用料*",
                 ["TextMapId"] = "FeeRefund_MonthlyCard_Addup",
             },
-        }
-    end },
-    { MinKey = "FeeRefund_MonthlyCard_Tips", MaxKey = "Guide_Message_ModArchiveUI_8", Loader = function()
-        return {
             ["FeeRefund_MonthlyCard_Tips"] = {
                 ["ContentJP"] = "（すべての月額利用料の消費が累計金額に計上されました。還元上限残り<highlight>%s</>枚）",
                 ["TextMapId"] = "FeeRefund_MonthlyCard_Tips",
@@ -7410,7 +7459,7 @@ local Data = {
                 ["TextMapId"] = "Four",
             },
             ["GACHAMAIN_TITLE_SHOWTIMES"] = {
-                ["ContentJP"] = "<highlight>%d</>回以内に必ず獲得する",
+                ["ContentJP"] = "<highlight>%d</>回以内の追憶で必ず獲得する",
                 ["TextMapId"] = "GACHAMAIN_TITLE_SHOWTIMES",
             },
             ["GACHA_BONUS"] = {
@@ -7475,7 +7524,7 @@ local Data = {
                 ["TextMapId"] = "GACHA_TITLE_100UP",
             },
             ["GACHA_TITLE_SHOWTIMES"] = {
-                ["ContentJP"] = "<Title>必ず星5を獲得 </>\
+                ["ContentJP"] = "<Title>必ず★5を獲得 </>\
  進行中の追憶 <highlight>%d</>/%d",
                 ["TextMapId"] = "GACHA_TITLE_SHOWTIMES",
             },
@@ -7535,11 +7584,11 @@ local Data = {
 ※排出確率アップや天井システムなどの具体的なルールはイベントの詳細をご確認ください。それ以外はすべてのキャラクターと武器に基本排出確率が適用されます。\
 \
 <Title>重複獲得について</> \
-・所有している★5キャラクターを重複して獲得した場合、2回目から7回目まではそのキャラクターの「ルート」*<highlight>1</>と「煌めく砂粒」*<highlight>50</>、8回目以降は「煌めく砂粒」*<highlight>125</>を獲得します。\
-・所有している★4キャラクターを重複して獲得した場合、2回目から7回目まではそのキャラクターの「ルート」*<highlight>1</>と「煌めく砂粒」*<highlight>10</>、8回目以降は、「煌めく砂粒」*<highlight>25</>を獲得します。\
-・★5武器を1つ獲得するごとに、「煌めく砂粒」*<highlight>25</>を獲得します。\
-・★4武器を1つ獲得するごとに、*「煌めく砂粒」<highlight>5</>を獲得します。\
-・★3武器を1つ獲得するごとに、「純白の砂粒」*<highlight>20</>を獲得します。\
+‐所有している★5キャラクターを重複して獲得した場合、2回目から7回目まではそのキャラクターの「ルート」*<highlight>1</>と「煌めく砂粒」*<highlight>50</>、8回目以降は「煌めく砂粒」*<highlight>125</>を獲得します。\
+‐所有している★4キャラクターを重複して獲得した場合、2回目から7回目まではそのキャラクターの「ルート」*<highlight>1</>と「煌めく砂粒」*<highlight>10</>、8回目以降は、「煌めく砂粒」*<highlight>25</>を獲得します。\
+★5武器を1つ獲得するごとに、「煌めく砂粒」*<highlight>25</>を獲得します。\
+★4武器を1つ獲得するごとに、*「煌めく砂粒」<highlight>5</>を獲得します。\
+★3武器を1つ獲得するごとに、「純白の砂粒」*<highlight>20</>を獲得します。\
 \
 「常設追憶」の回数は独立してカウントされ、ほかの追憶とは合算されません。",
                 ["TextMapId"] = "GACHA_WARNING_NORMAL",
@@ -7627,43 +7676,44 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_1101_05",
             },
             ["GRADEUP_1101_06"] = {
-                ["ContentJP"] = "［ゲヘナ］発動中に剣波を放つ際、一定確率で追加の剣波をもう1発放つ。この確率は「ユミル」が有する発動確率の#5に基づく。",
+                ["ContentJP"] = "「ゲヘナ」発動中に剣波を放つ際、一定確率で追加の剣波をもう1発放つ。この確率は「ユミル」が有する発動確率の#5に基づく。",
                 ["TextMapId"] = "GRADEUP_1101_06",
             },
             ["GRADEUP_1103_01"] = {
-                ["ContentJP"] = "［デュエット］で獲得する［イマージョン］が最大SPの#1までアップする。",
+                ["ContentJP"] = "「デュエット」で獲得する「イマージョン」が最大SPの#1までアップする。",
                 ["TextMapId"] = "GRADEUP_1103_01",
             },
             ["GRADEUP_1103_02"] = {
-                ["ContentJP"] = "［怒りの爪］の3段目の攻撃と［悲嘆の咆哮］を発動している間、被ダメージが#2ダウンする。［コンチェルト］で［アダージョ］を付与する確率が100%までアップする。",
+                ["ContentJP"] = "「怒りの爪」の3段目の攻撃と「悲嘆の咆哮」を発動している間、被ダメージが#2ダウンする。「コンチェルト」で「アダージョ」を付与する確率が100%までアップする。",
                 ["TextMapId"] = "GRADEUP_1103_02",
             },
             ["GRADEUP_1103_03"] = {
-                ["ContentJP"] = "［レチタティーヴォ］レベル+2、［舞台演出］レベル+1。",
+                ["ContentJP"] = "「レチタティーヴォ」レベル+2、「舞台演出」レベル+1。",
                 ["TextMapId"] = "GRADEUP_1103_03",
             },
             ["GRADEUP_1103_04"] = {
-                ["ContentJP"] = "［怒りの爪］の4段目の攻撃と空中からの落下攻撃でダメージを与えた時、目標に10スタックの［イアダージョ］が付与されている場合、ダメージが#4アップする。",
+                ["ContentJP"] = "「怒りの爪」の4段目の攻撃と空中からの落下攻撃でダメージを与えた時、目標に10スタックの「イアダージョ」が付与されている場合、ダメージが#4アップする。",
                 ["TextMapId"] = "GRADEUP_1103_04",
             },
             ["GRADEUP_1103_05"] = {
-                ["ContentJP"] = "［幕開け］レベル+2、［舞台演出］レベル+1。",
+                ["ContentJP"] = "「幕開け」レベル+2、「舞台演出」レベル+1。",
                 ["TextMapId"] = "GRADEUP_1103_05",
             },
             ["GRADEUP_1103_06"] = {
-                ["ContentJP"] = "［プレスト］が追加で高揚#5アップの効果を得る。［デュエット］効果で［イマージョン］を獲得すると、［プレスト］の持続時間が0.2秒延長する。",
+                ["ContentJP"] = "「プレスト」が追加で高揚#5アップの効果を得る。「デュエット」効果で「イマージョン」を獲得すると、「プレスト」の持続時間が0.2秒延長する。",
                 ["TextMapId"] = "GRADEUP_1103_06",
             },
             ["GRADEUP_1502_01"] = {
-                ["ContentJP"] = "［百鳥の輪唱］効果確率が#1アップする（確率上限が#6までアップ）。",
+                ["ContentJP"] = "「百鳥の輪唱」効果確率が#1アップする（確率上限が#6までアップ）。",
                 ["TextMapId"] = "GRADEUP_1502_01",
             },
             ["GRADEUP_1502_02"] = {
-                ["ContentJP"] = "［日食］でダメージを与えると、3秒以内に目標が受ける［月食］ダメージが#2アップする。また［月食］でダメージを与えると、3秒以内に目標が受ける［日食］ダメージが#2アップする。",
+                ["ContentJP"] = "「日食」でダメージを与えると、3秒以内に目標が受ける「月食」ダメージが#2アップする。\
+「月食」でダメージを与えると、3秒以内に目標が受ける「日食」ダメージが#2アップする。",
                 ["TextMapId"] = "GRADEUP_1502_02",
             },
             ["GRADEUP_1502_03"] = {
-                ["ContentJP"] = "［日食］レベル+2、［百鳥の輪唱］レベル+1。",
+                ["ContentJP"] = "「日食」レベル+2、「百鳥の輪唱」レベル+1。",
                 ["TextMapId"] = "GRADEUP_1502_03",
             },
             ["GRADEUP_1502_04"] = {
@@ -7671,15 +7721,18 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_1502_04",
             },
             ["GRADEUP_1502_05"] = {
-                ["ContentJP"] = "［朧海の安らぎ］レベル+2、［百鳥の輪唱］レベル+1。",
+                ["ContentJP"] = "「ニヴルヘイムのレクイエム」レベル+2、「百鳥の輪唱」レベル+1。",
                 ["TextMapId"] = "GRADEUP_1502_05",
             },
             ["GRADEUP_1502_06"] = {
-                ["ContentJP"] = "遠隔武器でダメージを与えると、#5の確率で目標位置に1個の［月食］または［日食］を生成する。この効果は1秒ごとに1回のみ発動できる。",
+                ["ContentJP"] = "遠隔武器でダメージを与えると、#5の確率で目標位置に1個の「月食」または「日食」を生成する。この効果は1秒ごとに1回のみ発動できる。",
                 ["TextMapId"] = "GRADEUP_1502_06",
             },
             ["GRADEUP_1503_01"] = {
-                ["ContentJP"] = "［無常たる浮世］の［剣意］［弦意」バフ倍率が#1アップする。",
+                ["ContentJP"] = "「無常たる浮世」の「剣意」と「弦意」バフ倍率が#1アップする。\
+自身の20メートル以内に敵1体しかいない場合は、武器ダメージで転換された「剣意」は3点となる。\
+自身の20メートル以内に敵2体しかいない場合は、武器ダメージで転換された「弦意」は2点となる。\
+",
                 ["TextMapId"] = "GRADEUP_1503_01",
             },
             ["GRADEUP_1503_02"] = {
@@ -7687,35 +7740,35 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_1503_02",
             },
             ["GRADEUP_1503_03"] = {
-                ["ContentJP"] = "［少年の遊］レベル+2、［無常たる浮世］レベル+1",
+                ["ContentJP"] = "「少年の遊」レベル+2、「無常たる浮世」レベル+1",
                 ["TextMapId"] = "GRADEUP_1503_03",
             },
             ["GRADEUP_1503_04"] = {
-                ["ContentJP"] = "必殺技を発動すると、［月影風陣］を得る：#5秒間ダメージを受けてものけ反らなくなり、被ダメージが#4ダウンする。",
+                ["ContentJP"] = "必殺技を発動すると、「月影風陣」を得る：#5秒間ダメージを受けてものけ反らなくなり、被ダメージが#4ダウンする。",
                 ["TextMapId"] = "GRADEUP_1503_04",
             },
             ["GRADEUP_1503_05"] = {
-                ["ContentJP"] = "［星霜の神撃］レベル+2、［無常たる浮世］レベル+1。",
+                ["ContentJP"] = "「星霜の神撃」レベル+2、「無常たる浮世」レベル+1。",
                 ["TextMapId"] = "GRADEUP_1503_05",
             },
             ["GRADEUP_1503_06"] = {
-                ["ContentJP"] = "ダメージを与えて追加効果が発動すると、#7秒間属性貫通効果#6アップの効果を得る（最大5回まで重ねがけ可）。",
+                ["ContentJP"] = "ダメージを与えて追加効果が発動すると、#7秒間属性貫通効果#6アップの効果を得る（最大6回まで重ねがけ可）。",
                 ["TextMapId"] = "GRADEUP_1503_06",
             },
             ["GRADEUP_1801_01"] = {
-                ["ContentJP"] = "［あるうららかな午後のこと］の追加ダメージ効果を持つ目標の全属性貫通が、1つの属性追加ダメージ効果につき#1アップする。",
+                ["ContentJP"] = "「あるうららかな午後のこと」の追加ダメージ効果を持つ目標の全属性貫通が、1つの属性追加ダメージ効果につき#1アップする。",
                 ["TextMapId"] = "GRADEUP_1801_01",
             },
             ["GRADEUP_1801_02"] = {
-                ["ContentJP"] = "［夢に咲く花］が最大45スタックまで重ねがけ可能。［あるうららかな午後のこと］を発動する時、追加で［夢に咲く花］を2スタック得る。［にぎやかなお茶会］領域展開中、1秒ごとに「夢に咲く花」を追加で1スタック得る。",
+                ["ContentJP"] = "「夢に咲く花」が最大45スタックまで重ねがけ可能。「あるうららかな午後」を発動する時、追加で「夢に咲く花」を2スタック得る。「にぎやかなお茶会」領域展開中、1秒ごとに「夢に咲く花」を追加で1スタック得る。",
                 ["TextMapId"] = "GRADEUP_1801_02",
             },
             ["GRADEUP_1801_03"] = {
-                ["ContentJP"] = "「あるうららかな午後のこと」Lv.+2、「悪い魔法使いは光が苦手」Lv.+1 ",
+                ["ContentJP"] = "「あるうららかな午後」Lv.+2、「悪い魔法使いは光が苦手」Lv.+1 ",
                 ["TextMapId"] = "GRADEUP_1801_03",
             },
             ["GRADEUP_1801_04"] = {
-                ["ContentJP"] = "［夢に咲く花］1スタックにつき、自身のスキル威力が#2アップし、スキル範囲が#3アップする。",
+                ["ContentJP"] = "「夢に咲く花」1スタックにつき、自身のスキル威力が#2アップし、スキル範囲が#3アップする。",
                 ["TextMapId"] = "GRADEUP_1801_04",
             },
             ["GRADEUP_1801_05"] = {
@@ -7723,7 +7776,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_1801_05",
             },
             ["GRADEUP_1801_06"] = {
-                ["ContentJP"] = "［にぎやかなお茶会］領域展開中、武器ダメージを与える時、目標の追加属性効果1つにつき、クリティカル率が#4アップする。また、与える元素属性ダメージが目標の弱点属性ダメージに変換される。",
+                ["ContentJP"] = "「にぎやかなお茶会」領域展開中、武器ダメージを与える時、目標の追加属性効果1つにつき、クリティカル率が#4アップする。また、与える元素属性ダメージが目標の弱点属性ダメージに変換される。",
                 ["TextMapId"] = "GRADEUP_1801_06",
             },
             ["GRADEUP_2101_01"] = {
@@ -7731,7 +7784,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_2101_01",
             },
             ["GRADEUP_2101_02"] = {
-                ["ContentJP"] = "「召喚ユニット・クラゲ」がフィールドに同時に存在できる数が最大5匹まで、「愛の毒」の重ねがけできる回数が最大8回までになる。",
+                ["ContentJP"] = "「召喚ユニット‐クラゲ」がフィールドに同時に存在できる数が最大5匹まで、「愛の毒」の重ねがけできる回数が最大8回までになる。",
                 ["TextMapId"] = "GRADEUP_2101_02",
             },
             ["GRADEUP_2101_03"] = {
@@ -7751,11 +7804,11 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_2101_06",
             },
             ["GRADEUP_2301_01"] = {
-                ["ContentJP"] = "「正義のタコ殴りだ！」で召喚できる「召喚ユニット・触手」の数が12本になり、フィールドに同時に24本まで存在できる。",
+                ["ContentJP"] = "「正義のタコ殴りだ！」で召喚できる「召喚ユニット‐触手」の数が12本になり、フィールドに同時に24本まで存在できる。",
                 ["TextMapId"] = "GRADEUP_2301_01",
             },
             ["GRADEUP_2301_02"] = {
-                ["ContentJP"] = "「召喚ユニット・触手」の攻撃でダメージを与えると、#1の確率で「タビテ」の弾薬が1発補充される。1秒ごとに1回のみ発動可能。",
+                ["ContentJP"] = "「召喚ユニット‐触手」の攻撃でダメージを与えると、#1の確率で「タビテ」の弾薬が1発補充される。1秒ごとに1回のみ発動可能。",
                 ["TextMapId"] = "GRADEUP_2301_02",
             },
             ["GRADEUP_2301_03"] = {
@@ -7763,7 +7816,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_2301_03",
             },
             ["GRADEUP_2301_04"] = {
-                ["ContentJP"] = "フィールドに存在する自身の召喚した「召喚ユニット・触手」1本につき、タビテのクリティカル率が#2アップ。",
+                ["ContentJP"] = "フィールドに存在する自身の召喚した「召喚ユニット‐触手」1本につき、タビテのクリティカル率が#2アップ。",
                 ["TextMapId"] = "GRADEUP_2301_04",
             },
             ["GRADEUP_2301_05"] = {
@@ -7771,15 +7824,15 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_2301_05",
             },
             ["GRADEUP_2301_06"] = {
-                ["ContentJP"] = "「召喚ユニット・触手」に捕らえられた敵は、2秒ごとに「召喚ユニット・触手」攻撃力#3の水属性持続ダメージを受ける。",
+                ["ContentJP"] = "「召喚ユニット‐触手」に捕らえられた敵は、2秒ごとに「召喚ユニット‐触手」攻撃力#3の水属性持続ダメージを受ける。",
                 ["TextMapId"] = "GRADEUP_2301_06",
             },
             ["GRADEUP_2401_01"] = {
-                ["ContentJP"] = "［九針擁護］を持つ目標がスキルダメージを与える時、目標の防御力を#1無視する。",
+                ["ContentJP"] = "「九針擁護」を持つ目標がスキルダメージを与える時、目標の防御力を#1無視する。",
                 ["TextMapId"] = "GRADEUP_2401_01",
             },
             ["GRADEUP_2401_02"] = {
-                ["ContentJP"] = "フィールドに同時に存在する［召喚ユニット・雲龍］の最大数が#2体まで増加。",
+                ["ContentJP"] = "フィールドに同時に存在する「召喚ユニット‐雲龍」の最大数が#2体まで増加。",
                 ["TextMapId"] = "GRADEUP_2401_02",
             },
             ["GRADEUP_2401_03"] = {
@@ -7787,7 +7840,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_2401_03",
             },
             ["GRADEUP_2401_04"] = {
-                ["ContentJP"] = "［誠心に帰すべし］の最大スタック数が#3まで増加。",
+                ["ContentJP"] = "「誠心に帰すべし」の最大スタック数が#3まで増加。",
                 ["TextMapId"] = "GRADEUP_2401_04",
             },
             ["GRADEUP_2401_05"] = {
@@ -7795,7 +7848,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_2401_05",
             },
             ["GRADEUP_2401_06"] = {
-                ["ContentJP"] = "［神の御座す形］の攻撃速度アップ効果期間中、自身が水属性追加ダメージを#4得る。",
+                ["ContentJP"] = "「神の御座す形」の攻撃速度アップ効果期間中、自身が水属性追加ダメージを#4得る。",
                 ["TextMapId"] = "GRADEUP_2401_06",
             },
             ["GRADEUP_3101_01"] = {
@@ -7823,11 +7876,11 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_3101_06",
             },
             ["GRADEUP_3102_01"] = {
-                ["ContentJP"] = "回避回数+2、［華麗なる怒り］効果倍率30%アップ。",
+                ["ContentJP"] = "回避回数+2、「華麗なる怒り」効果倍率30%アップ。",
                 ["TextMapId"] = "GRADEUP_3102_01",
             },
             ["GRADEUP_3102_02"] = {
-                ["ContentJP"] = "「高温洗浄フレイム」の長さが50%アップする。ダメージを与えると、その目標は#4秒間［ヒルダ］から受けるダメージが#3アップする。",
+                ["ContentJP"] = "「高温洗浄フレイム」の長さが50%アップする。ダメージを与えると、その目標は#4秒間「ヒルダ」から受けるダメージが#3アップする。",
                 ["TextMapId"] = "GRADEUP_3102_02",
             },
             ["GRADEUP_3102_03"] = {
@@ -7835,7 +7888,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_3102_03",
             },
             ["GRADEUP_3102_04"] = {
-                ["ContentJP"] = "「真心込めたご奉仕」を発動するたびに、追加で2台の［小型掃除機］を生成し、#2秒間目標に与える付加ダメージが#1ダウンする。",
+                ["ContentJP"] = "「真心込めたご奉仕」を発動するたびに、追加で2台の「小型掃除機」を生成し、#2秒間目標に与える付加ダメージが#1ダウンする。",
                 ["TextMapId"] = "GRADEUP_3102_04",
             },
             ["GRADEUP_3102_05"] = {
@@ -7843,7 +7896,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_3102_05",
             },
             ["GRADEUP_3102_06"] = {
-                ["ContentJP"] = "［高温につきご注意を］効果期間中、自身の全属性貫通が#5アップする。",
+                ["ContentJP"] = "「高温につきご注意を」効果期間中、自身の全属性貫通が#5アップする。",
                 ["TextMapId"] = "GRADEUP_3102_06",
             },
             ["GRADEUP_3103_01"] = {
@@ -7875,7 +7928,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_3201_01",
             },
             ["GRADEUP_3201_02"] = {
-                ["ContentJP"] = "［パニッシュディシジョン］のHP持続回復効果が#2までアップする。",
+                ["ContentJP"] = "「パニッシュディシジョン」のHP持続回復効果が#2までアップする。",
                 ["TextMapId"] = "GRADEUP_3201_02",
             },
             ["GRADEUP_3201_03"] = {
@@ -7927,7 +7980,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_4101_02",
             },
             ["GRADEUP_4101_03"] = {
-                ["ContentJP"] = "［サンダーブリッツ］レベル+2、［省エネ戦術］レベル+1。",
+                ["ContentJP"] = "「サンダーブリッツ」レベル+2、「省エネ戦術」レベル+1。",
                 ["TextMapId"] = "GRADEUP_4101_03",
             },
             ["GRADEUP_4101_04"] = {
@@ -7935,43 +7988,44 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_4101_04",
             },
             ["GRADEUP_4101_05"] = {
-                ["ContentJP"] = "［テスラコイル］レベル+2、［省エネ戦術］レベル+1。",
+                ["ContentJP"] = "「テスラコイル」レベル+2、「省エネ戦術」レベル+1。",
                 ["TextMapId"] = "GRADEUP_4101_05",
             },
             ["GRADEUP_4101_06"] = {
-                ["ContentJP"] = "1秒ごとに［パルスレギュレーター］で選択できる目標の数が2体まで増える。",
+                ["ContentJP"] = "1秒ごとに「パルスレギュレーター」で選択できる目標の数が2体まで増える。",
                 ["TextMapId"] = "GRADEUP_4101_06",
             },
             ["GRADEUP_4102_01"] = {
-                ["ContentJP"] = "「雷鳴招来」を発動する時、［雷風四方陣］が追加でいくつかの［雷風相和］を1回生成する。",
+                ["ContentJP"] = "「雷鳴招来」を発動する時、「雷風四方陣」が追加でいくつかの「雷風相和」を1回生成する。",
                 ["TextMapId"] = "GRADEUP_4102_01",
             },
             ["GRADEUP_4102_02"] = {
-                ["ContentJP"] = "必殺技を発動する時、［泉の符］の保留確率が#1アップする。［相生］は最大#2まで重ねがけ可。",
+                ["ContentJP"] = "必殺技を発動する時、「泉の符」の保留確率が#1アップする。「相生」は最大#2まで重ねがけ可。",
                 ["TextMapId"] = "GRADEUP_4102_02",
             },
             ["GRADEUP_4102_03"] = {
-                ["ContentJP"] = "［解天道］レベル+2、［双水演舞］レベル+1。",
+                ["ContentJP"] = "「解天道」レベル+2、「双水演舞」レベル+1。",
                 ["TextMapId"] = "GRADEUP_4102_03",
             },
             ["GRADEUP_4102_04"] = {
-                ["ContentJP"] = "［解天道］を発動する時、#4秒間自身および近くにいる隊員の攻撃力が#3アップする。",
+                ["ContentJP"] = "「解天道」を発動する時、#4秒間自身および近くにいる隊員の攻撃力が#3アップする。",
                 ["TextMapId"] = "GRADEUP_4102_04",
             },
             ["GRADEUP_4102_05"] = {
-                ["ContentJP"] = "［天地の理］レベル+2、［双水演舞］レベル+1。",
+                ["ContentJP"] = "「天地の理」レベル+2、「双水演舞」レベル+1。",
                 ["TextMapId"] = "GRADEUP_4102_05",
             },
             ["GRADEUP_4102_06"] = {
-                ["ContentJP"] = "自身が［雷風四方陣］の領域内にいる場合、全属性貫通が#5アップする。",
+                ["ContentJP"] = "自身が「雷風四方陣」の領域内にいる場合、全属性貫通が#5アップする。",
                 ["TextMapId"] = "GRADEUP_4102_06",
             },
             ["GRADEUP_4201_01"] = {
-                ["ContentJP"] = "［ミズチ憑依］状態では、［玉山崩れ］を発動するたびに追加で1枚の［逆鱗］を得る。［星川凋零］を発動する時、#3秒間追加で自身および近くにいる隊員の武器攻撃範囲を#1、スキル範囲を#2アップさせる。",
+                ["ContentJP"] = "「ミズチ憑依」状態では、「玉山崩れ」を発動するたびに追加で1枚の「逆鱗」を得る。\
+「星川凋零」を発動する時、#3秒間追加で自身および近くにいる隊員の武器攻撃範囲を#1、スキル範囲を#2アップさせる。",
                 ["TextMapId"] = "GRADEUP_4201_01",
             },
             ["GRADEUP_4201_02"] = {
-                ["ContentJP"] = "自身および他の隊員が［魚竜演舞］を生成する時、目標位置を中心とする10メートル範囲内の目標を選択して2つの追加［魚竜演舞］を生成する。",
+                ["ContentJP"] = "自身および他の隊員が「魚竜演舞」を生成する時、目標位置を中心とする10メートル範囲内の目標を選択して2つの追加「魚竜演舞」を生成する。",
                 ["TextMapId"] = "GRADEUP_4201_02",
             },
             ["GRADEUP_4201_03"] = {
@@ -7987,7 +8041,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_4201_05",
             },
             ["GRADEUP_4201_06"] = {
-                ["ContentJP"] = "［流星群］「星川凋零］でダメージを与える時、目標の「激戦］スタック数に応じてダメージがアップし、「激戦］1スタックごとにダメージが#6アップする。「星川凋零］を発動する時、「ミズチ」の吸収可能ダメージ量を#7回復する。",
+                ["ContentJP"] = "「流星群」「星川凋零」でダメージを与える時、目標の「激戦」スタック数に応じてダメージがアップし、「激戦」1スタックごとにダメージが#6アップする。「星川凋零」を発動する時、「ミズチ」の吸収可能ダメージ量を#7回復する。",
                 ["TextMapId"] = "GRADEUP_4201_06",
             },
             ["GRADEUP_4202_01"] = {
@@ -8011,15 +8065,15 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_4202_05",
             },
             ["GRADEUP_4202_06"] = {
-                ["ContentJP"] = "持続ダメージスキル以外でダメージを与えると、追加で【自身のシールド+過負荷シールド】#2相当の雷属性ダメージを与える。",
+                ["ContentJP"] = "持続ダメージスキル以外でダメージを与えると、追加で「自身のシールド+過負荷シールド」#2相当の雷属性ダメージを与える。",
                 ["TextMapId"] = "GRADEUP_4202_06",
             },
             ["GRADEUP_4301_01"] = {
-                ["ContentJP"] = "「召喚ユニット・サンダーボール］が「エクスディウム」および「軍団懲戒」からダメージ受ける時、ダメージ伝達率が#3アップする。",
+                ["ContentJP"] = "「召喚ユニット・サンダーボール」が「エクスディウム」もしくは「軍団懲戒」からのダメージを受けると、リンクされた敵へのダメージ伝達率が#3アップ、最大で4回までアップ可能。",
                 ["TextMapId"] = "GRADEUP_4301_01",
             },
             ["GRADEUP_4301_02"] = {
-                ["ContentJP"] = "「雷霆万鈞」の上限が600までアップする。「軍団懲戒」がダメージを与える時、「雷霆万鈞」1ptごとにダメージが#1アップする。また、「召喚ユニット・サンダーボール］がダメージを伝達する時、「雷霆万鈞」1ptごとにダメージ伝達率が#2アップする。",
+                ["ContentJP"] = "「雷霆万鈞」の上限が600までアップする。「軍団懲戒」がダメージを与える時、「雷霆万鈞」1ptごとにダメージが#1アップする。また、「召喚ユニット‐サンダーボール」がダメージを伝達する時、「雷霆万鈞」1ptごとにダメージ伝達率が#2アップする。",
                 ["TextMapId"] = "GRADEUP_4301_02",
             },
             ["GRADEUP_4301_03"] = {
@@ -8035,7 +8089,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_4301_05",
             },
             ["GRADEUP_4301_06"] = {
-                ["ContentJP"] = "「召喚ユニット・サンダーボール］が敵をリンクした時、初めてリンクされる目標には「シビル」が追加で元々倍率の350％分の雷属性ダメージを1回与え、雷属性追加効果を発動する。",
+                ["ContentJP"] = "「召喚ユニット‐サンダーボール」が敵をリンクした時、初めてリンクされる目標には「シビル」が追加で元々倍率の350％分の雷属性ダメージを1回与え、雷属性追加効果を発動する。",
                 ["TextMapId"] = "GRADEUP_4301_06",
             },
             ["GRADEUP_5101_01"] = {
@@ -8051,7 +8105,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_5101_03",
             },
             ["GRADEUP_5101_04"] = {
-                ["ContentJP"] = "「重量人物」を最大15トークンまで重ねがけできるようになる。「ヘーゼルナッツ」に騎乗すると直ちに「重量人物」15トークンを獲得する。",
+                ["ContentJP"] = "「重量人物」を最大20トークンまで重ねがけできるようになる。「ヘーゼルナッツ」に騎乗すると直ちに「重量人物」20トークンを獲得する。",
                 ["TextMapId"] = "GRADEUP_5101_04",
             },
             ["GRADEUP_5101_05"] = {
@@ -8063,15 +8117,15 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_5101_06",
             },
             ["GRADEUP_5102_01"] = {
-                ["ContentJP"] = "自ら「朧足」状態を解除する時、#3秒間武器のクリティカル率が#4アップする。",
+                ["ContentJP"] = "自ら「潜行」状態を解除する時、#3秒間武器のクリティカル率が#4アップする。",
                 ["TextMapId"] = "GRADEUP_5102_01",
             },
             ["GRADEUP_5102_02"] = {
-                ["ContentJP"] = "［牙返し］と［牙蝕］の効果によって「喰い牙」を生成する時、#2の確率で追加で1本生成する。",
+                ["ContentJP"] = "「歯には歯を」と「嚙みつく」の効果によって「ファングスラスト」を生成する時、#2の確率で追加で1本生成する。",
                 ["TextMapId"] = "GRADEUP_5102_02",
             },
             ["GRADEUP_5102_03"] = {
-                ["ContentJP"] = "「隠密」レベル+2、「喰い牙」レベル+1。",
+                ["ContentJP"] = "「隠密」レベル+2、「ファングスラスト」レベル+1。",
                 ["TextMapId"] = "GRADEUP_5102_03",
             },
             ["GRADEUP_5102_04"] = {
@@ -8079,7 +8133,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_5102_04",
             },
             ["GRADEUP_5102_05"] = {
-                ["ContentJP"] = "「瞬喰い」レベル+2、「喰い牙」レベル+1。",
+                ["ContentJP"] = "「襲撃狩り」レベル+2、「ファングスラスト」レベル+1。",
                 ["TextMapId"] = "GRADEUP_5102_05",
             },
             ["GRADEUP_5102_06"] = {
@@ -8099,11 +8153,11 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_5301_03",
             },
             ["GRADEUP_5301_04"] = {
-                ["ContentJP"] = "「羽化」状態では自身が「胡蝶」を獲得する。「羽化」：ダメージを受けてものけ反らない。被ダメージが#5ダウンする。",
+                ["ContentJP"] = "「羽化」状態では自身が「胡蝶」を獲得する。「羽化」：ダメージを受けてものけ反らない。被ダメージが#5ダウンし、回収範囲が15増加する。",
                 ["TextMapId"] = "GRADEUP_5301_04",
             },
             ["GRADEUP_5301_05"] = {
-                ["ContentJP"] = "「メメント・モリ」Lv.+2、「ホタルの光」Lv.+1。",
+                ["ContentJP"] = "「メメント‐モリ」Lv.+2、「ホタルの光」Lv.+1。",
                 ["TextMapId"] = "GRADEUP_5301_05",
             },
             ["GRADEUP_5301_06"] = {
@@ -8111,27 +8165,27 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_5301_06",
             },
             ["GRADEUP_5401_01"] = {
-                ["ContentJP"] = "［ジェイドミラージュ］範囲内の味方の与ダメージが#3アップする。",
+                ["ContentJP"] = "「ジェイドミラージュ」範囲内の味方の与ダメージが#3アップする。",
                 ["TextMapId"] = "GRADEUP_5401_01",
             },
             ["GRADEUP_5401_02"] = {
-                ["ContentJP"] = "［ジェイドミラージュ］持続時間中、1秒ごとに獲得する［アゾット弾］が#1発まで増加。",
+                ["ContentJP"] = "「ジェイドミラージュ」持続時間中、1秒ごとに獲得する「アゾット弾」が#1発まで増加。",
                 ["TextMapId"] = "GRADEUP_5401_02",
             },
             ["GRADEUP_5401_03"] = {
-                ["ContentJP"] = "［ジェイドミラージュ］レベル+2、［弾丸錬金］レベル+1。",
+                ["ContentJP"] = "「ジェイドミラージュ」レベル+2、「弾丸錬金」レベル+1。",
                 ["TextMapId"] = "GRADEUP_5401_03",
             },
             ["GRADEUP_5401_04"] = {
-                ["ContentJP"] = "1発の［アゾット弾］を消費するたびに、自身のSPが#2回復する。",
+                ["ContentJP"] = "1発の「アゾット弾」を消費するたびに、自身のSPが#2回復する。",
                 ["TextMapId"] = "GRADEUP_5401_04",
             },
             ["GRADEUP_5401_05"] = {
-                ["ContentJP"] = "［アンビバレントフォーミュラ］レベル+2、［弾丸錬金］レベル+1。",
+                ["ContentJP"] = "「アンビバレントフォーミュラ」レベル+2、「弾丸錬金」レベル+1。",
                 ["TextMapId"] = "GRADEUP_5401_05",
             },
             ["GRADEUP_5401_06"] = {
-                ["ContentJP"] = "［活性処方］を持つ目標が［腐蝕処方］を持つ目標にダメージを与えた時、#5秒間ダメージが#4アップする（最大6回まで重ねがけ可）。この効果は1秒ごとに1回のみ発動可能。",
+                ["ContentJP"] = "「活性処方」を持つ目標が「腐蝕処方」を持つ目標にダメージを与えた時、#5秒間ダメージが#4アップする（最大6回まで重ねがけ可）。この効果は1秒ごとに1回のみ発動可能。",
                 ["TextMapId"] = "GRADEUP_5401_06",
             },
             ["Guide_HighlightButton_Attack"] = {
@@ -8163,7 +8217,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_AbyssUI_3",
             },
             ["Guide_Message_AbyssUI_3_Pad"] = {
-                ["ContentJP"] = "各演目はいくつかの幕で構成されています。<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押すと、ここで幕を選択できます。",
+                ["ContentJP"] = "各演目はいくつかの幕で構成されています。タップしてここで幕を選択できます。",
                 ["TextMapId"] = "Guide_Message_AbyssUI_3_Pad",
             },
             ["Guide_Message_AbyssUI_4"] = {
@@ -8183,7 +8237,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_AbyssUI_7",
             },
             ["Guide_Message_AbyssUI_8"] = {
-                ["ContentJP"] = "<H>リセット</>をクリックすると、その幕の挑戦が開始されます。",
+                ["ContentJP"] = "<H>GO</>をタップすると、その幕の挑戦が開始されます。",
                 ["TextMapId"] = "Guide_Message_AbyssUI_8",
             },
             ["Guide_Message_DailyGoalUI_1"] = {
@@ -8195,7 +8249,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_2",
             },
             ["Guide_Message_DailyGoalUI_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>冒険</>を選択し、冒険画面を開いてください。",
+                ["ContentJP"] = "タップして<H>冒険</>を選択し、冒険画面を開いてください。",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_2_Pad",
             },
             ["Guide_Message_DailyGoalUI_3"] = {
@@ -8203,7 +8257,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_3",
             },
             ["Guide_Message_DailyGoalUI_3_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>メモ帳</>を開いてください。",
+                ["ContentJP"] = "タップして、<H>メモ帳</>を開いてください。",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_3_Pad",
             },
             ["Guide_Message_DailyGoalUI_4"] = {
@@ -8214,6 +8268,10 @@ local Data = {
                 ["ContentJP"] = "クエストを達成することで達成率を獲得し、豪華な報酬を受け取ることができます。",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_5",
             },
+        }
+    end },
+    { MinKey = "Guide_Message_DailyGoalUI_PHONE_2", MaxKey = "MAIN_UI_PLAY", Loader = function()
+        return {
             ["Guide_Message_DailyGoalUI_PHONE_2"] = {
                 ["ContentJP"] = "<H>冒険</>をクリックして、冒険画面を開いてください。",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_PHONE_2",
@@ -8227,7 +8285,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_2",
             },
             ["Guide_Message_ModArchiveUI_2_Pad"] = {
-                ["ContentJP"] = "<H>&ShowCursor&</>を押して、メニューを開いてください。",
+                ["ContentJP"] = "タップしてメニューを開いてください。",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_2_Pad",
             },
             ["Guide_Message_ModArchiveUI_3"] = {
@@ -8235,7 +8293,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_3",
             },
             ["Guide_Message_ModArchiveUI_3_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>魔の箱</>を開いてください。",
+                ["ContentJP"] = "タップして<H>魔の箱</>を開いてください。",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_3_Pad",
             },
             ["Guide_Message_ModArchiveUI_4"] = {
@@ -8251,7 +8309,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_6",
             },
             ["Guide_Message_ModArchiveUI_6_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>魔の楔図鑑</>を選択してください。",
+                ["ContentJP"] = "タップして<H>魔の楔図鑑</>を選択してください。",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_6_Pad",
             },
             ["Guide_Message_ModArchiveUI_7"] = {
@@ -8262,12 +8320,8 @@ local Data = {
                 ["ContentJP"] = "<H>おすすめ設定</>をクリックしてください。",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_8",
             },
-        }
-    end },
-    { MinKey = "Guide_Message_ModArchiveUI_8_Pad", MaxKey = "MESSAGE_ANGLE_GAMEPAD", Loader = function()
-        return {
             ["Guide_Message_ModArchiveUI_8_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>おすすめ設定</>を選択してください。",
+                ["ContentJP"] = "タップして<H>おすすめ設定</>を選択してください。",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_8_Pad",
             },
             ["Guide_Message_ModArchiveUI_9"] = {
@@ -8338,6 +8392,26 @@ local Data = {
                 ["ContentJP"] = "Home",
                 ["TextMapId"] = "Home",
             },
+            ["HomePianoAcc_1001001"] = {
+                ["ContentJP"] = "しばらくは入手方法なし",
+                ["TextMapId"] = "HomePianoAcc_1001001",
+            },
+            ["HomePianoAcc_1001002"] = {
+                ["ContentJP"] = "しばらくは入手方法なし",
+                ["TextMapId"] = "HomePianoAcc_1001002",
+            },
+            ["HomePianoAcc_1001003"] = {
+                ["ContentJP"] = "しばらくは入手方法なし",
+                ["TextMapId"] = "HomePianoAcc_1001003",
+            },
+            ["HomePianoAcc_2002001"] = {
+                ["ContentJP"] = "しばらくは入手方法なし",
+                ["TextMapId"] = "HomePianoAcc_2002001",
+            },
+            ["HomePianoAcc_2002002"] = {
+                ["ContentJP"] = "しばらくは入手方法なし",
+                ["TextMapId"] = "HomePianoAcc_2002002",
+            },
             ["HomePianoDes_1001001"] = {
                 ["ContentJP"] = "終点に辿り着くまで、ここはいつも居場所。",
                 ["TextMapId"] = "HomePianoDes_1001001",
@@ -8395,7 +8469,7 @@ local Data = {
                 ["TextMapId"] = "HomePiano_HandleViewing",
             },
             ["HomePiano_HomePiano"] = {
-                ["ContentJP"] = "ベースで音楽を流す",
+                ["ContentJP"] = "音楽鑑賞",
                 ["TextMapId"] = "HomePiano_HomePiano",
             },
             ["HomePiano_MusicDetails"] = {
@@ -8591,7 +8665,7 @@ local Data = {
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_ABYSS_5",
             },
             ["MAINUIGUIDE_TITLE_ASSISTANCESKILL"] = {
-                ["ContentJP"] = "レゾナンスサポート",
+                ["ContentJP"] = "ジェネモンサポート",
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_ASSISTANCESKILL",
             },
             ["MAINUIGUIDE_TITLE_BATTLEWHEEL"] = {
@@ -8759,7 +8833,7 @@ local Data = {
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_PERFECTDODGE",
             },
             ["MAINUIGUIDE_TITLE_PET"] = {
-                ["ContentJP"] = "ジェネモン捕獲",
+                ["ContentJP"] = "ジェネモンと出会い",
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_PET",
             },
             ["MAINUIGUIDE_TITLE_PETTRAIN"] = {
@@ -8998,6 +9072,10 @@ local Data = {
                 ["ContentJP"] = "冒険",
                 ["TextMapId"] = "MAIN_UI_PLAY",
             },
+        }
+    end },
+    { MinKey = "MAIN_UI_POLARITY", MaxKey = "MOD_DESC_1802", Loader = function()
+        return {
             ["MAIN_UI_POLARITY"] = {
                 ["ContentJP"] = "ルーン変更",
                 ["TextMapId"] = "MAIN_UI_POLARITY",
@@ -9066,10 +9144,6 @@ local Data = {
                 ["ContentJP"] = "&R&をドラッグして視点を調整する",
                 ["TextMapId"] = "MESSAGE_ANGLE_GAMEPAD",
             },
-        }
-    end },
-    { MinKey = "MESSAGE_ANGLE_PC", MaxKey = "MOD_DESC_1961", Loader = function()
-        return {
             ["MESSAGE_ANGLE_PC"] = {
                 ["ContentJP"] = "マウスを動かして視点を調整する",
                 ["TextMapId"] = "MESSAGE_ANGLE_PC",
@@ -9163,7 +9237,7 @@ local Data = {
                 ["TextMapId"] = "MESSAGE_CAMERALENGTH_PC",
             },
             ["MESSAGE_CAMERALENGTH_PHONE"] = {
-                ["ContentJP"] = "ピンチイン・アウト操作でカメラのズームを調整できます",
+                ["ContentJP"] = "ピンチイン‐アウト操作でカメラのズームを調整できます",
                 ["TextMapId"] = "MESSAGE_CAMERALENGTH_PHONE",
             },
             ["MESSAGE_CHARGEATTACK_PC"] = {
@@ -9187,7 +9261,7 @@ local Data = {
                 ["TextMapId"] = "MESSAGE_INTERACTIVE_PC",
             },
             ["MESSAGE_INTERACTIVE_Phone"] = {
-                ["ContentJP"] = "すでに敵のリーダーに接近したので「アスクパニッシュ」を実行しよう",
+                ["ContentJP"] = "すでにボスに接近したので「アスクパニッシュ」を実行しよう",
                 ["TextMapId"] = "MESSAGE_INTERACTIVE_Phone",
             },
             ["MESSAGE_JUMP_PC"] = {
@@ -9411,7 +9485,7 @@ local Data = {
                 ["TextMapId"] = "MESSAGE_RECETCAMERA_PC",
             },
             ["MESSAGE_RECETCAMERA_Phone"] = {
-                ["ContentJP"] = "敵のリーダーを狙いながらボタンをタップすると視点をロック。再度押すとロックを解除できる",
+                ["ContentJP"] = "ボスを狙いながらボタンをタップすると視点をロック。再度押すとロックを解除できる",
                 ["TextMapId"] = "MESSAGE_RECETCAMERA_Phone",
             },
             ["MESSAGE_SHOOT_PC"] = {
@@ -9730,40 +9804,44 @@ local Data = {
                 ["ContentJP"] = "自身や隊員の与ダメージが#1アップ。",
                 ["TextMapId"] = "MOD_DESC_1440",
             },
+            ["MOD_DESC_1500"] = {
+                ["ContentJP"] = "自身のコスト上限が増加する。その数値はこの魔の楔コストの2.5倍となる。",
+                ["TextMapId"] = "MOD_DESC_1500",
+            },
             ["MOD_DESC_1502"] = {
-                ["ContentJP"] = "スピンジャンプの際、周囲の敵に自身の攻撃力#1の風属性ダメージを与える。",
+                ["ContentJP"] = "スピンジャンプ時、周囲の敵に自身攻撃力の#1の風属性ダメージを与える。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1502",
             },
             ["MOD_DESC_1512"] = {
-                ["ContentJP"] = "空中で敵を撃破すると、自身の滞空ジャンプ回数がリセットされる。最大#1回までリセット可能。",
+                ["ContentJP"] = "空中で敵を倒した後、空中滞空ジャンプ回数をリセットする。最大#1回までリセット可能。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1512",
             },
             ["MOD_DESC_1513"] = {
-                ["ContentJP"] = "高所からの着地時、周囲の敵に自身の攻撃力#1の衝撃ダメージを与える。",
+                ["ContentJP"] = "高所から着地した時、周囲の敵に自身攻撃力の#1の衝撃ダメージを与える。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1513",
             },
             ["MOD_DESC_1522"] = {
-                ["ContentJP"] = "空中にいる時、被ダメージが#1ダウンする。",
+                ["ContentJP"] = "空中にいる間、被ダメージが#1減少する。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1522",
             },
             ["MOD_DESC_1523"] = {
-                ["ContentJP"] = "致命傷を受ける時、撃破されずにHPが1になる。#1秒に1回のみ発動可能。",
+                ["ContentJP"] = "致命傷を受ける時、撃破されずにHPが1になる。#1秒に1回のみ発動可能。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1523",
             },
             ["MOD_DESC_1524"] = {
-                ["ContentJP"] = "ダメージを受ける時、#1の確率で被ダメージが#2ダウンする。",
+                ["ContentJP"] = "ダメージを受けた時、#1の確率で敵の与ダメージを#2減少させる。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1524",
             },
             ["MOD_DESC_1525"] = {
-                ["ContentJP"] = "必殺技を発動する時、自身および周囲10メートル以内の隊員にその最大HPの#1を回復する。#2秒に1回のみ発動可能。",
+                ["ContentJP"] = "必殺技を発動する時、自身および周囲10メートル以内の隊員にその最大HPの#1を回復する。#2秒に1回のみ発動可能。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1525",
             },
             ["MOD_DESC_1526"] = {
-                ["ContentJP"] = "ダメージを受けてもひるまないが、自身が与えるダメージが#1（独立）減少する。",
+                ["ContentJP"] = "ダメージを受けてものけ反らなくなるが、自身の与ダメージが#1減少する（独立計算）。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1526",
             },
             ["MOD_DESC_1532"] = {
-                ["ContentJP"] = "回避すると、回避の起点周囲の敵に自身の攻撃力#1の火属性ダメージを与える。",
+                ["ContentJP"] = "回避時、その起点の周囲にいる敵に自身攻撃力の#1の火属性ダメージを与える。自身のコスト上限が増加し、その数値はこの魔の楔コストの2.5倍となる。",
                 ["TextMapId"] = "MOD_DESC_1532",
             },
             ["MOD_DESC_1601"] = {
@@ -9802,6 +9880,10 @@ local Data = {
                 ["ContentJP"] = "自身および戦友が長柄武器を装備するごとに、自身の与ダメージが#1アップする（最大#2まで）。戦友の場合は無効。",
                 ["TextMapId"] = "MOD_DESC_1802",
             },
+        }
+    end },
+    { MinKey = "MOD_DESC_1803", MaxKey = "MOD_NAME_2512", Loader = function()
+        return {
             ["MOD_DESC_1803"] = {
                 ["ContentJP"] = "自身および戦友が大剣を装備するごとに、自身の与ダメージが#1アップする（最大#2まで）。戦友の場合は無効。",
                 ["TextMapId"] = "MOD_DESC_1803",
@@ -9851,7 +9933,7 @@ local Data = {
                 ["TextMapId"] = "MOD_DESC_1921",
             },
             ["MOD_DESC_1922"] = {
-                ["ContentJP"] = "水属性キャラがスキルを使用すると、#1秒間近くにいる隊員の攻撃力が自身攻撃力の#2分アップする（最大120まで）。",
+                ["ContentJP"] = "水属性キャラがスキルを使用すると、#1秒間近くにいる隊員の攻撃力が自身攻撃力の#2分アップする（最大275まで）。",
                 ["TextMapId"] = "MOD_DESC_1922",
             },
             ["MOD_DESC_1931"] = {
@@ -9874,10 +9956,6 @@ local Data = {
                 ["ContentJP"] = "光属性キャラ周囲の敵の被ダメージが#1アップ。標的の持つ元素属性の追加効果1種類につき、さらに#1アップ。",
                 ["TextMapId"] = "MOD_DESC_1961",
             },
-        }
-    end },
-    { MinKey = "MOD_DESC_1962", MaxKey = "MOD_NAME_31323", Loader = function()
-        return {
             ["MOD_DESC_1962"] = {
                 ["ContentJP"] = "光属性キャラクターの攻撃力が自身スキル耐久の#1分アップする（最大#2まで）。",
                 ["TextMapId"] = "MOD_DESC_1962",
@@ -9939,7 +10017,7 @@ local Data = {
                 ["TextMapId"] = "MOD_DESC_3321",
             },
             ["MOD_DESC_3322"] = {
-                ["ContentJP"] = "クリティカルダメージが発生後、#1の確率でターゲットの武器を取り上げる。",
+                ["ContentJP"] = "クリティカルダメージが発生後、#1の確率でターゲットを武装解除する。",
                 ["TextMapId"] = "MOD_DESC_3322",
             },
             ["MOD_DESC_3331"] = {
@@ -9963,7 +10041,7 @@ local Data = {
                 ["TextMapId"] = "MOD_DESC_3402",
             },
             ["MOD_DESC_3604"] = {
-                ["ContentJP"] = "与ダメージが#1ダウンする（ユニーク）。",
+                ["ContentJP"] = "与ダメージが#1ダウンする（独立計算）。",
                 ["TextMapId"] = "MOD_DESC_3604",
             },
             ["MOD_DES_1001"] = {
@@ -10103,7 +10181,7 @@ local Data = {
                 ["TextMapId"] = "MOD_NAME_1215",
             },
             ["MOD_NAME_1216"] = {
-                ["ContentJP"] = "羽翼・爆散",
+                ["ContentJP"] = "鼓舞・爆散",
                 ["TextMapId"] = "MOD_NAME_1216",
             },
             ["MOD_NAME_1217"] = {
@@ -10606,6 +10684,10 @@ local Data = {
                 ["ContentJP"] = "裂傷",
                 ["TextMapId"] = "MOD_NAME_2512",
             },
+        }
+    end },
+    { MinKey = "MOD_NAME_3001", MaxKey = "Message_Guide_Dispatch_05", Loader = function()
+        return {
             ["MOD_NAME_3001"] = {
                 ["ContentJP"] = "攻勢",
                 ["TextMapId"] = "MOD_NAME_3001",
@@ -10678,10 +10760,6 @@ local Data = {
                 ["ContentJP"] = "焚炎・断決",
                 ["TextMapId"] = "MOD_NAME_31323",
             },
-        }
-    end },
-    { MinKey = "MOD_NAME_31324", MaxKey = "Message_Guide_Dungeon_8", Loader = function()
-        return {
             ["MOD_NAME_31324"] = {
                 ["ContentJP"] = "雷鳴・断決",
                 ["TextMapId"] = "MOD_NAME_31324",
@@ -10999,7 +11077,8 @@ local Data = {
                 ["TextMapId"] = "Mail_Content_100003",
             },
             ["Mail_Content_100005"] = {
-                ["ContentJP"] = "月狩り人さんへ/n受け取っていないイベント報酬をメールボックスに送っておいたよ。依頼がんばってね！",
+                ["ContentJP"] = "月狩り人さんへ\
+受け取っていないイベント報酬をメールボックスに送っておいたよ。依頼がんばってね！",
                 ["TextMapId"] = "Mail_Content_100005",
             },
             ["Mail_Content_10008"] = {
@@ -11125,7 +11204,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Achievement_2_PC",
             },
             ["Message_Guide_Achievement_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>「アチーブメント」</>にてアチーブメント画面を開いてください。",
+                ["ContentJP"] = "タップすると、「アチーブメント」にてアチーブメント画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_Achievement_2_Pad",
             },
             ["Message_Guide_Achievement_2_Phone"] = {
@@ -11141,7 +11220,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Achievement_4",
             },
             ["Message_Guide_Achievement_4_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して「受取」を選択し、報酬を受け取ってください。",
+                ["ContentJP"] = "タップすると、「受取」を選択し報酬を受け取ってください。",
                 ["TextMapId"] = "Message_Guide_Achievement_4_Pad",
             },
             ["Message_Guide_Achievement_5"] = {
@@ -11209,7 +11288,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_BattleBag_3",
             },
             ["Message_Guide_BattleBag_3_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>タクティカルバッグ</>を開いてください。",
+                ["ContentJP"] = "タップすると、、<H>タクティカルバッグ</>を開いてください。",
                 ["TextMapId"] = "Message_Guide_BattleBag_3_Pad",
             },
             ["Message_Guide_BattleBag_4"] = {
@@ -11249,7 +11328,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_10",
             },
             ["Message_Guide_ChangeColor_10_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>武器外見</>を選択し、武器外見画面を開いてください。",
+                ["ContentJP"] = "タップして<H>武器外見</>を選択し、武器外見画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_10_Pad",
             },
             ["Message_Guide_ChangeColor_11"] = {
@@ -11257,7 +11336,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_11",
             },
             ["Message_Guide_ChangeColor_11_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>カラーリング</>を開いてください。",
+                ["ContentJP"] = "タップして、<H>カラーリング</>を開いてください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_11_Pad",
             },
             ["Message_Guide_ChangeColor_12"] = {
@@ -11269,7 +11348,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_13",
             },
             ["Message_Guide_ChangeColor_13_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>全体染色</>を開いてください。",
+                ["ContentJP"] = "タップして、<H>全体カラーリング</>を開いてください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_13_Pad",
             },
             ["Message_Guide_ChangeColor_14"] = {
@@ -11281,7 +11360,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_15",
             },
             ["Message_Guide_ChangeColor_1_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>準備</>を選択し、準備画面を開いてください。",
+                ["ContentJP"] = "タップして<H>準備</>を選択し、準備画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_1_Pad",
             },
             ["Message_Guide_ChangeColor_2"] = {
@@ -11289,7 +11368,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_2",
             },
             ["Message_Guide_ChangeColor_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>外見</>を開いてください。",
+                ["ContentJP"] = "タップして、<H>外見</>を開いてください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_2_Pad",
             },
             ["Message_Guide_ChangeColor_3"] = {
@@ -11297,7 +11376,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_3",
             },
             ["Message_Guide_ChangeColor_3_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>装飾</>を選択し、装飾画面を開いてください。",
+                ["ContentJP"] = "タップして<H>装飾</>を選択し、装飾画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_3_Pad",
             },
             ["Message_Guide_ChangeColor_4"] = {
@@ -11317,7 +11396,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_7",
             },
             ["Message_Guide_ChangeColor_7_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、準備画面に戻ってください。",
+                ["ContentJP"] = "タップして、準備画面に戻ってください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_7_Pad",
             },
             ["Message_Guide_ChangeColor_8"] = {
@@ -11325,7 +11404,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_8",
             },
             ["Message_Guide_ChangeColor_8_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>近接武器</>画面を開いてください。",
+                ["ContentJP"] = "タップして、<H>近接武器</>画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_8_Pad",
             },
             ["Message_Guide_ChangeColor_9"] = {
@@ -11333,7 +11412,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_9",
             },
             ["Message_Guide_ChangeColor_9_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>外見</>を開いてください。",
+                ["ContentJP"] = "タップして、<H>外見</>を開いてください。",
                 ["TextMapId"] = "Message_Guide_ChangeColor_9_Pad",
             },
             ["Message_Guide_ChangeWeapon_1"] = {
@@ -11361,11 +11440,11 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_3",
             },
             ["Message_Guide_ChangeWeapon_3_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押すと、「近接武器」タブから近接武器の装着や変更ができます。",
+                ["ContentJP"] = "タップすると、「近接武器」タブから近接武器の装着や変更ができます。",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_3_Pad",
             },
             ["Message_Guide_ChangeWeapon_4"] = {
-                ["ContentJP"] = "「キャラクター」画面では、キャラクターや近接・遠隔・同調武器の確認、付け替え、レベルアップができるよ",
+                ["ContentJP"] = "「キャラクター」画面では、キャラクターや近接‐遠隔‐同調武器の確認、付け替え、レベルアップができるよ",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_4",
             },
             ["Message_Guide_ChangeWeapon_5"] = {
@@ -11377,7 +11456,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_6",
             },
             ["Message_Guide_ChangeWeapon_6_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、新たに獲得した武器を選択してください。",
+                ["ContentJP"] = "タップすると、新たに獲得した武器を選択してください。",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_6_Pad",
             },
             ["Message_Guide_ChangeWeapon_7"] = {
@@ -11385,7 +11464,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_7",
             },
             ["Message_Guide_ChangeWeapon_7_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、「装着」にて近接武器に切り替えてください。",
+                ["ContentJP"] = "タップすると、「装着」にて近接武器に切り替えてください。",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_7_Pad",
             },
             ["Message_Guide_ChangeWeapon_8"] = {
@@ -11397,19 +11476,59 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_9",
             },
             ["Message_Guide_ChangeWeapon_9_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、「レベルアップ」にて武器をレベルアップしてください。",
+                ["ContentJP"] = "タップすると、「レベルアップ」にて武器をレベルアップしてください。",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_9_Pad",
             },
+            ["Message_Guide_Dispatch_01"] = {
+                ["ContentJP"] = "世界中によくいろいろな突発イベントが発生する。忙しくて手が回らない場合は、自分の代わりに仲間に頼んで突発イベントを処理する。",
+                ["TextMapId"] = "Message_Guide_Dispatch_01",
+            },
+            ["Message_Guide_Dispatch_02"] = {
+                ["ContentJP"] = "ここをタップして派遣リストを確認する。",
+                ["TextMapId"] = "Message_Guide_Dispatch_02",
+            },
             ["Message_Guide_Dispatch_02_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、派遣リストを確認してください。",
+                ["ContentJP"] = "タップして派遣リストを確認してください。",
                 ["TextMapId"] = "Message_Guide_Dispatch_02_Pad",
             },
+            ["Message_Guide_Dispatch_03"] = {
+                ["ContentJP"] = "ここは進行中の突発イベントを確認する",
+                ["TextMapId"] = "Message_Guide_Dispatch_03",
+            },
+            ["Message_Guide_Dispatch_04"] = {
+                ["ContentJP"] = "ここは選択される突発イベントの詳細を確認する",
+                ["TextMapId"] = "Message_Guide_Dispatch_04",
+            },
+            ["Message_Guide_Dispatch_05"] = {
+                ["ContentJP"] = "突発イベントをクリアすることで基本報酬とおまけ報酬を獲得できる。",
+                ["TextMapId"] = "Message_Guide_Dispatch_05",
+            },
+        }
+    end },
+    { MinKey = "Message_Guide_Dispatch_06", MaxKey = "Message_Guide_WeaponTrigger_1", Loader = function()
+        return {
+            ["Message_Guide_Dispatch_06"] = {
+                ["ContentJP"] = "自ら突発イベントの発生する場所に行くと、早めに基本報酬がもらえる。",
+                ["TextMapId"] = "Message_Guide_Dispatch_06",
+            },
+            ["Message_Guide_Dispatch_07"] = {
+                ["ContentJP"] = "ここをクリックして代理人リストを開く",
+                ["TextMapId"] = "Message_Guide_Dispatch_07",
+            },
             ["Message_Guide_Dispatch_07_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、代理人リストを開いてください。",
+                ["ContentJP"] = "タップして代理人リストを開いてください。",
                 ["TextMapId"] = "Message_Guide_Dispatch_07_Pad",
             },
+            ["Message_Guide_Dispatch_08"] = {
+                ["ContentJP"] = "代理人リストで代理人候補とそれぞれの特性を確認できる",
+                ["TextMapId"] = "Message_Guide_Dispatch_08",
+            },
+            ["Message_Guide_Dispatch_09"] = {
+                ["ContentJP"] = "おまかせ選択ボタンをクリックすると、代理人を一括で選択できます。",
+                ["TextMapId"] = "Message_Guide_Dispatch_09",
+            },
             ["Message_Guide_Dispatch_09_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>でおまかせ選択ボタンを押すと、代理人を一括で選択できます。",
+                ["ContentJP"] = "おまかせ選択ボタンをタップすると、代理人を一括で選択できます。",
                 ["TextMapId"] = "Message_Guide_Dispatch_09_Pad",
             },
             ["Message_Guide_DungeonSec_1"] = {
@@ -11429,7 +11548,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Dungeon_10",
             },
             ["Message_Guide_Dungeon_10_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押すと、プリセット編成を設定できます。適切な出撃キャラクターやパートナーを組み合わせて、さまざまな任務に挑みましょう。",
+                ["ContentJP"] = "タップすると、プリセット編成を設定できます。適切な出撃キャラクターやパートナーを組み合わせて、さまざまな任務に挑みましょう。",
                 ["TextMapId"] = "Message_Guide_Dungeon_10_Pad",
             },
             ["Message_Guide_Dungeon_11"] = {
@@ -11437,7 +11556,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Dungeon_11",
             },
             ["Message_Guide_Dungeon_11_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、プリセット編成画面を開いてください。",
+                ["ContentJP"] = "タップしてプリセット編成画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_Dungeon_11_Pad",
             },
             ["Message_Guide_Dungeon_12"] = {
@@ -11449,15 +11568,39 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Dungeon_13",
             },
             ["Message_Guide_Dungeon_13_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>依頼</>画面を開いてください。",
+                ["ContentJP"] = "タップして<H>依頼</>画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_Dungeon_13_Pad",
+            },
+            ["Message_Guide_Dungeon_14"] = {
+                ["ContentJP"] = "ここをタップすると出撃編成を設定できます",
+                ["TextMapId"] = "Message_Guide_Dungeon_14",
+            },
+            ["Message_Guide_Dungeon_14_Pad"] = {
+                ["ContentJP"] = "ここをタップすると出撃編成を設定できます",
+                ["TextMapId"] = "Message_Guide_Dungeon_14_Pad",
+            },
+            ["Message_Guide_Dungeon_15"] = {
+                ["ContentJP"] = "ここをタップすると設定を保存できます",
+                ["TextMapId"] = "Message_Guide_Dungeon_15",
+            },
+            ["Message_Guide_Dungeon_15_Pad"] = {
+                ["ContentJP"] = "ここをタップすると設定を保存できます",
+                ["TextMapId"] = "Message_Guide_Dungeon_15_Pad",
+            },
+            ["Message_Guide_Dungeon_16"] = {
+                ["ContentJP"] = "もう一度タップして保存を確定してください",
+                ["TextMapId"] = "Message_Guide_Dungeon_16",
+            },
+            ["Message_Guide_Dungeon_16_Pad"] = {
+                ["ContentJP"] = "もう一度タップして保存を確定してください",
+                ["TextMapId"] = "Message_Guide_Dungeon_16_Pad",
             },
             ["Message_Guide_Dungeon_1_PC"] = {
                 ["ContentJP"] = "<H>&ShowCursor&</>を押し続けてマウスを表示させ、<H>「冒険」</>をクリックして冒険画面を開きます。",
                 ["TextMapId"] = "Message_Guide_Dungeon_1_PC",
             },
             ["Message_Guide_Dungeon_1_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>「冒険」</>を選択し、冒険画面を開いてください。",
+                ["ContentJP"] = "タップすると、冒険画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_Dungeon_1_Pad",
             },
             ["Message_Guide_Dungeon_1_Phone"] = {
@@ -11481,7 +11624,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Dungeon_5",
             },
             ["Message_Guide_Dungeon_5_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<Img id=\"Key_A\" height=\"32\" width=\"32\"/>「依頼を受ける」<H>を選択すると、様々な依頼に挑戦できます！",
+                ["ContentJP"] = "タップすると、<H>「依頼を受ける」</>を選択し、様々な依頼に挑戦できます！",
                 ["TextMapId"] = "Message_Guide_Dungeon_5_Pad",
             },
             ["Message_Guide_Dungeon_6"] = {
@@ -11496,12 +11639,8 @@ local Data = {
                 ["ContentJP"] = "ここで、依頼開始時のプリセット編成を変更できます。",
                 ["TextMapId"] = "Message_Guide_Dungeon_8",
             },
-        }
-    end },
-    { MinKey = "Message_Guide_Dungeon_8_Pad", MaxKey = "Minigame_Textmap_100332", Loader = function()
-        return {
             ["Message_Guide_Dungeon_8_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押すと、依頼開始時のプリセット編成を変更できます。",
+                ["ContentJP"] = "タップすると、依頼開始時のプリセット編成を変更できます。",
                 ["TextMapId"] = "Message_Guide_Dungeon_8_Pad",
             },
             ["Message_Guide_Dungeon_9"] = {
@@ -11545,7 +11684,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Forge_4",
             },
             ["Message_Guide_Forge_4_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、「製造を開始」してください。",
+                ["ContentJP"] = "タップすると、「製造を開始」してください。",
                 ["TextMapId"] = "Message_Guide_Forge_4_Pad",
             },
             ["Message_Guide_Forge_5"] = {
@@ -11557,7 +11696,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Forge_6",
             },
             ["Message_Guide_Forge_6_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、「確定」してください。",
+                ["ContentJP"] = "タップすると、「確定」してください。",
                 ["TextMapId"] = "Message_Guide_Forge_6_Pad",
             },
             ["Message_Guide_Forge_7"] = {
@@ -11565,7 +11704,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Forge_7",
             },
             ["Message_Guide_Forge_7_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して「すべて受領」を選択し、製造完了のアイテムをすべて受け取ってください。",
+                ["ContentJP"] = "「すべて受領」ボタンは製造完了のアイテムをすべて受け取ってください。",
                 ["TextMapId"] = "Message_Guide_Forge_7_Pad",
             },
             ["Message_Guide_Gacha_1"] = {
@@ -11585,7 +11724,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_GameEvent_2_PC",
             },
             ["Message_Guide_GameEvent_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<Highlight>「イベント」</>を選択し、イベント画面を開いてください。",
+                ["ContentJP"] = "タップして<Highlight>「イベント」</>を選択し、イベント画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_GameEvent_2_Pad",
             },
             ["Message_Guide_GameEvent_2_Phone"] = {
@@ -11597,7 +11736,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_GameEvent_3",
             },
             ["Message_Guide_GameEvent_3_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して「すべて受取」を選択し、イベント報酬を受け取ってください。",
+                ["ContentJP"] = "タップして「すべて受取」を選択し、イベント報酬を受け取ってください。",
                 ["TextMapId"] = "Message_Guide_GameEvent_3_Pad",
             },
             ["Message_Guide_Impression_1"] = {
@@ -11625,7 +11764,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ModLevelUp_4",
             },
             ["Message_Guide_ModLevelUp_4_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、魔の楔を選択してください。",
+                ["ContentJP"] = "タップして魔の楔を選択してください。",
                 ["TextMapId"] = "Message_Guide_ModLevelUp_4_Pad",
             },
             ["Message_Guide_ModLevelUp_5"] = {
@@ -11633,7 +11772,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ModLevelUp_5",
             },
             ["Message_Guide_ModLevelUp_5_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、「魔の楔レベルアップ」を選択してください。",
+                ["ContentJP"] = "タップして「魔の楔レベルアップ」を選択してください。",
                 ["TextMapId"] = "Message_Guide_ModLevelUp_5_Pad",
             },
             ["Message_Guide_ModLevelUp_6"] = {
@@ -11661,7 +11800,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ModTendency_4",
             },
             ["Message_Guide_ModTendency_4_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、魔の楔スロットを選択してください。",
+                ["ContentJP"] = "タップして魔の楔スロットを選択してください。",
                 ["TextMapId"] = "Message_Guide_ModTendency_4_Pad",
             },
             ["Message_Guide_ModTendency_5"] = {
@@ -11669,7 +11808,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ModTendency_5",
             },
             ["Message_Guide_ModTendency_5_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、「スロットのルーン変更」を選択してください。",
+                ["ContentJP"] = "タップして「スロットのルーン変更」を選択してください。",
                 ["TextMapId"] = "Message_Guide_ModTendency_5_Pad",
             },
             ["Message_Guide_ModTendency_6"] = {
@@ -11717,7 +11856,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Mod_2",
             },
             ["Message_Guide_Mod_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押し、「魔の楔」にて装着してください。",
+                ["ContentJP"] = "タップすると、「魔の楔」にて装着してください。",
                 ["TextMapId"] = "Message_Guide_Mod_2_Pad",
             },
             ["Message_Guide_Mod_3"] = {
@@ -11753,7 +11892,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_OpenArmory_PC",
             },
             ["Message_Guide_OpenArmory_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>をクリックして装備画面を開く。",
+                ["ContentJP"] = "タップして装備画面を開く。",
                 ["TextMapId"] = "Message_Guide_OpenArmory_Pad",
             },
             ["Message_Guide_OpenArmory_Phone"] = {
@@ -11765,7 +11904,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_PetTrain_1",
             },
             ["Message_Guide_PetTrain_1_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>準備</>を選択し、準備画面を開いてください。",
+                ["ContentJP"] = "タップして<H>準備</>を選択し、準備画面を開いてください。",
                 ["TextMapId"] = "Message_Guide_PetTrain_1_Pad",
             },
             ["Message_Guide_PetTrain_2"] = {
@@ -11773,7 +11912,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_PetTrain_2",
             },
             ["Message_Guide_PetTrain_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>ジェネモン</>を開いてください。",
+                ["ContentJP"] = "タップして、<H>ジェネモン</>を開いてください。",
                 ["TextMapId"] = "Message_Guide_PetTrain_2_Pad",
             },
             ["Message_Guide_PetTrain_3"] = {
@@ -11781,7 +11920,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_PetTrain_3",
             },
             ["Message_Guide_PetTrain_3_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>ポテンシャル</>を開いてください。",
+                ["ContentJP"] = "タップして<H>ポテンシャル</>を開いてください。",
                 ["TextMapId"] = "Message_Guide_PetTrain_3_Pad",
             },
             ["Message_Guide_PetTrain_4"] = {
@@ -11797,19 +11936,19 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_PetTrain_6",
             },
             ["Message_Guide_Pet_01"] = {
-                ["ContentJP"] = "「ジェネモン捕獲」をタップ",
+                ["ContentJP"] = "「ジェネモン給餌」をタップ",
                 ["TextMapId"] = "Message_Guide_Pet_01",
             },
             ["Message_Guide_Pet_02"] = {
-                ["ContentJP"] = "缶詰を選んでジェネモンを引き寄せることができます。缶詰のレアリティが高いほど、捕獲の成功率が上がります。",
+                ["ContentJP"] = "缶詰を選んでジェネモンを引き寄せることができます。缶詰のレアリティが高いほど、ジェネモンと仲良しの成功率が上がります。",
                 ["TextMapId"] = "Message_Guide_Pet_02",
             },
             ["Message_Guide_Pet_03"] = {
-                ["ContentJP"] = "捕獲のタイミングによって捕獲成功率が変動します。成功率が一番高いのは<H>真ん中のエリア</>です。",
+                ["ContentJP"] = "給餌のタイミングによってジェネモンと仲良しの成功率が変動します。成功率が一番高いのは<H>真ん中のエリア</>です。",
                 ["TextMapId"] = "Message_Guide_Pet_03",
             },
             ["Message_Guide_Pet_04"] = {
-                ["ContentJP"] = "ここをタップして捕獲を始めましょう。",
+                ["ContentJP"] = "ここをタップして給餌を始めましょう。",
                 ["TextMapId"] = "Message_Guide_Pet_04",
             },
             ["Message_Guide_Pet_05"] = {
@@ -11817,7 +11956,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Pet_05",
             },
             ["Message_Guide_Pet_06"] = {
-                ["ContentJP"] = "ジェネモンの捕獲に成功しました。<H>キャラクター</>画面でチェックしましょう。",
+                ["ContentJP"] = "ジェネモンと仲良しできました。<H>キャラクター</>画面でチェックしましょう。",
                 ["TextMapId"] = "Message_Guide_Pet_06",
             },
             ["Message_Guide_Pet_07"] = {
@@ -11825,11 +11964,11 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Pet_07",
             },
             ["Message_Guide_Pet_08"] = {
-                ["ContentJP"] = "ここでジェネモンがレゾナンスに与える効果を確認しましょう。",
+                ["ContentJP"] = "ここでジェネモンが持ってる特殊能力を確認しましょう。",
                 ["TextMapId"] = "Message_Guide_Pet_08",
             },
             ["Message_Guide_Pet_08_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、ジェネモンがレゾナンスに与える効果を確認してください。",
+                ["ContentJP"] = "タップしてジェネモンの特殊能力を確認してください。",
                 ["TextMapId"] = "Message_Guide_Pet_08_Pad",
             },
             ["Message_Guide_Pet_09"] = {
@@ -11841,8 +11980,16 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Pet_10",
             },
             ["Message_Guide_Pet_11"] = {
-                ["ContentJP"] = "戦闘中に<H>&Skill3&</>をタップすることでジェネモンサポートを発動できます。",
+                ["ContentJP"] = "戦闘中に&Skill3&をタップすることでジェネモンサポートを発動できます。",
                 ["TextMapId"] = "Message_Guide_Pet_11",
+            },
+            ["Message_Guide_Pet_11_PAD"] = {
+                ["ContentJP"] = "戦闘中に&GamepadUseSkill&+&Skill3&を押すとジェネモン支援を発動します",
+                ["TextMapId"] = "Message_Guide_Pet_11_PAD",
+            },
+            ["Message_Guide_Pet_11_PHONE"] = {
+                ["ContentJP"] = "戦闘中にジェネモンスキルを押すと、ジェネモン支援を発動します",
+                ["TextMapId"] = "Message_Guide_Pet_11_PHONE",
             },
             ["Message_Guide_Quest_1"] = {
                 ["ContentJP"] = "何をすべきか迷ったら、<H>クエストノート</>をチェックしてみましょう！",
@@ -11853,7 +12000,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Quest_2_PC",
             },
             ["Message_Guide_Quest_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、クエストノートを確認してください。",
+                ["ContentJP"] = "タップすると、クエストノートを確認してください。",
                 ["TextMapId"] = "Message_Guide_Quest_2_Pad",
             },
             ["Message_Guide_Quest_2_Phone"] = {
@@ -11869,7 +12016,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Quest_4",
             },
             ["Message_Guide_Quest_4_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、クエスト「鍛冶師登場」を確認してください。",
+                ["ContentJP"] = "タップすると、クエスト「鍛冶師登場」を確認してください。",
                 ["TextMapId"] = "Message_Guide_Quest_4_Pad",
             },
             ["Message_Guide_Quest_5"] = {
@@ -11877,7 +12024,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Quest_5",
             },
             ["Message_Guide_Quest_5_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押すと、クエストを追跡/取消できます。",
+                ["ContentJP"] = "タップすると、クエストを追跡/取消できます。",
                 ["TextMapId"] = "Message_Guide_Quest_5_Pad",
             },
             ["Message_Guide_ReplaceChar_1"] = {
@@ -11945,7 +12092,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_8",
             },
             ["Message_Guide_Rouge3choose1_8_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>探索詳細</>を開くと、現在所持しているキャンドルの芯を確認できます。",
+                ["ContentJP"] = "タップして<H>探索詳細</>を開くと、現在所持しているキャンドルの芯を確認できます。",
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_8_Pad",
             },
             ["Message_Guide_Rouge3choose1_9"] = {
@@ -11985,7 +12132,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_RougeLantern_2",
             },
             ["Message_Guide_RougeLantern_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、「ランタン点検」を選択してください。",
+                ["ContentJP"] = "タップして「ランタン点検」を選択してください。",
                 ["TextMapId"] = "Message_Guide_RougeLantern_2_Pad",
             },
             ["Message_Guide_RougeLantern_3"] = {
@@ -12013,7 +12160,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_RougeLantern_8",
             },
             ["Message_Guide_RougeLantern_8_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>瑠璃</>を選択し、ランタンを修復すると、さまざまな「賜福」を獲得し、戦闘力を強化できます。",
+                ["ContentJP"] = "タップして<H>瑠璃</>を選択し、ランタンを修復すると、さまざまな「賜福」を獲得し、戦闘力を強化できます。",
                 ["TextMapId"] = "Message_Guide_RougeLantern_8_Pad",
             },
             ["Message_Guide_RougeLantern_9"] = {
@@ -12021,7 +12168,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_RougeLantern_9",
             },
             ["Message_Guide_RougeLantern_9_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>スキル強化</>を選択してください。",
+                ["ContentJP"] = "タップして<H>スキル強化</>を選択してください。",
                 ["TextMapId"] = "Message_Guide_RougeLantern_9_Pad",
             },
             ["Message_Guide_RougeSettlement_1"] = {
@@ -12061,7 +12208,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Rouge_3",
             },
             ["Message_Guide_Rouge_3_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、<H>「岐路に響く足音」</>を選択してください。",
+                ["ContentJP"] = "タップして<H>「岐路に響く足音」</>を選択してください。",
                 ["TextMapId"] = "Message_Guide_Rouge_3_Pad",
             },
             ["Message_Guide_Rouge_4"] = {
@@ -12069,7 +12216,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Rouge_4",
             },
             ["Message_Guide_Rouge_4_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<H>「GO」</>を選択し、岐路に移動してください。",
+                ["ContentJP"] = "タップして<H>「GO」</>を選択し、岐路に移動してください。",
                 ["TextMapId"] = "Message_Guide_Rouge_4_Pad",
             },
             ["Message_Guide_Rouge_5"] = {
@@ -12085,7 +12232,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Rouge_7",
             },
             ["Message_Guide_Rouge_7_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、「深淵へ堕ちる」を選択してください。",
+                ["ContentJP"] = "タップして「深淵へ堕ちる」を選択してください。",
                 ["TextMapId"] = "Message_Guide_Rouge_7_Pad",
             },
             ["Message_Guide_Rouge_8"] = {
@@ -12100,6 +12247,14 @@ local Data = {
                 ["ContentJP"] = "ボタンをタップするとナビゲーションが表示され、クエストの目的地まで案内されます。",
                 ["TextMapId"] = "Message_Guide_Tracking_1",
             },
+            ["Message_Guide_Tracking_1_PAD"] = {
+                ["ContentJP"] = "ここをタップするとナビゲーションが表示され、クエストの目的地まで案内されます。",
+                ["TextMapId"] = "Message_Guide_Tracking_1_PAD",
+            },
+            ["Message_Guide_Tracking_1_PHONE"] = {
+                ["ContentJP"] = "このボタンをタップするとナビゲーションが表示され、クエストの目的地まで案内されます。",
+                ["TextMapId"] = "Message_Guide_Tracking_1_PHONE",
+            },
             ["Message_Guide_TrainingGround_1"] = {
                 ["ContentJP"] = "「砂海の瞑想」では、以前に見た敵を思い出し、自由に戦うことができます。これにより、敵の技を学び、自分のスキルを練習できます。",
                 ["TextMapId"] = "Message_Guide_TrainingGround_1",
@@ -12109,7 +12264,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_TrainingGround_2",
             },
             ["Message_Guide_TrainingGround_2_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、敵を選んでください。",
+                ["ContentJP"] = "タップして敵を選んでください。",
                 ["TextMapId"] = "Message_Guide_TrainingGround_2_Pad",
             },
             ["Message_Guide_TrainingGround_3"] = {
@@ -12121,7 +12276,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_TrainingGround_4",
             },
             ["Message_Guide_TrainingGround_4_Pad"] = {
-                ["ContentJP"] = "<H>複数の敵</>を選択した場合、<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押してそれぞれの登場数を調整してください。",
+                ["ContentJP"] = "タップしてそれぞれの登場数を調整してください。",
                 ["TextMapId"] = "Message_Guide_TrainingGround_4_Pad",
             },
             ["Message_Guide_TrainingGround_5"] = {
@@ -12152,6 +12307,10 @@ local Data = {
                 ["ContentJP"] = "武器でダメージを与えると、ダメージの属性に応じた<H>追加効果</>が発生することがあります。発動率は武器の<H>発動確率</>に基づきます。",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_1",
             },
+        }
+    end },
+    { MinKey = "Message_Guide_WeaponTrigger_2", MaxKey = "Mon_DesDetail_8515001", Loader = function()
+        return {
             ["Message_Guide_WeaponTrigger_2"] = {
                 ["ContentJP"] = "属性ごとに<H>追加効果</>が異なります。詳細は<H>ステータス説明</>で確認できます。",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_2",
@@ -12300,10 +12459,6 @@ local Data = {
                 ["ContentJP"] = "事件の手がかりを獲得しました",
                 ["TextMapId"] = "Minigame_Textmap_100332",
             },
-        }
-    end },
-    { MinKey = "Minigame_Textmap_100333", MaxKey = "Mon_Description_8001001", Loader = function()
-        return {
             ["Minigame_Textmap_100333"] = {
                 ["ContentJP"] = "提出した手がかりによって展開が変わります。慎重に選びましょう。",
                 ["TextMapId"] = "Minigame_Textmap_100333",
@@ -12520,40 +12675,44 @@ local Data = {
                 ["ContentJP"] = "フェンリル I",
                 ["TextMapId"] = "ModArchive_Name_Melee_2030",
             },
+            ["ModArchive_Name_Melee_2031"] = {
+                ["ContentJP"] = "フェンリル III",
+                ["TextMapId"] = "ModArchive_Name_Melee_2031",
+            },
             ["ModArchive_Name_Melee_2040"] = {
                 ["ContentJP"] = "ケルベロス III",
                 ["TextMapId"] = "ModArchive_Name_Melee_2040",
             },
             ["ModArchive_Name_Melee_2050"] = {
-                ["ContentJP"] = "フェンリル II",
+                ["ContentJP"] = "フェンリル III",
                 ["TextMapId"] = "ModArchive_Name_Melee_2050",
             },
             ["ModArchive_Name_Melee_2060"] = {
-                ["ContentJP"] = "フェンリル III",
+                ["ContentJP"] = "フェンリル IV",
                 ["TextMapId"] = "ModArchive_Name_Melee_2060",
             },
             ["ModArchive_Name_Melee_2070"] = {
-                ["ContentJP"] = "フェンリル IV",
+                ["ContentJP"] = "フェンリル V",
                 ["TextMapId"] = "ModArchive_Name_Melee_2070",
             },
             ["ModArchive_Name_Melee_2080"] = {
-                ["ContentJP"] = "フェンリル V",
+                ["ContentJP"] = "フェンリル VI",
                 ["TextMapId"] = "ModArchive_Name_Melee_2080",
             },
             ["ModArchive_Name_Melee_2090"] = {
-                ["ContentJP"] = "フェンリル VI",
+                ["ContentJP"] = "フェンリル VII",
                 ["TextMapId"] = "ModArchive_Name_Melee_2090",
             },
             ["ModArchive_Name_Melee_2100"] = {
-                ["ContentJP"] = "フェンリル VII",
+                ["ContentJP"] = "フェンリル VIII",
                 ["TextMapId"] = "ModArchive_Name_Melee_2100",
             },
             ["ModArchive_Name_Melee_2110"] = {
-                ["ContentJP"] = "フェンリル VIII",
+                ["ContentJP"] = "フェンリル IX",
                 ["TextMapId"] = "ModArchive_Name_Melee_2110",
             },
             ["ModArchive_Name_Melee_2120"] = {
-                ["ContentJP"] = "フェンリル IX",
+                ["ContentJP"] = "フェンリル Ⅹ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2120",
             },
             ["ModArchive_Name_Melee_2130"] = {
@@ -12955,6 +13114,10 @@ local Data = {
                 ["ContentJP"] = "淵食いは単純な個体として存在する穢獣ではなく、無数の物質によって構成される集合体と見なすべきである。あらゆる動物、植物、穢獣、果ては人間に至るまでを食い込んで、強制的に自分と融合させる。歪んだ肉体を蠢かせながら、次の部品を求めて彷徨うその姿は、抑えがたい渇望そのものの具現と言えるだろう。",
                 ["TextMapId"] = "Mon_DesDetail_8515001",
             },
+        }
+    end },
+    { MinKey = "Mon_DesDetail_9001001", MaxKey = "Mon_Name_6004024", Loader = function()
+        return {
             ["Mon_DesDetail_9001001"] = {
                 ["ContentJP"] = "フォーセイクン同盟のメンバー、「スティン」階級。近距離突撃を得意とする。武器を手にする前、彼らの多くは帝国において、ごく普通のカロン族の民に過ぎなかった。高度な戦闘技術を持つとは言えないが、同族の血に染まった怒りは、いずれ枷を打ち破り、鉄槌さえも粉砕する鋭き剣となる。",
                 ["TextMapId"] = "Mon_DesDetail_9001001",
@@ -13107,10 +13270,6 @@ local Data = {
                 ["ContentJP"] = "エリュシオン礼賛会の射撃手。",
                 ["TextMapId"] = "Mon_Description_8001001",
             },
-        }
-    end },
-    { MinKey = "Mon_Description_8002001", MaxKey = "Mon_Name_6011301", Loader = function()
-        return {
             ["Mon_Description_8002001"] = {
                 ["ContentJP"] = "エリュシオン礼賛会の切込兵。",
                 ["TextMapId"] = "Mon_Description_8002001",
@@ -13783,6 +13942,10 @@ local Data = {
                 ["ContentJP"] = "シャドウ-凶暴な穢獣",
                 ["TextMapId"] = "Mon_Name_6004024",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_6004201", MaxKey = "Mon_Name_7010011", Loader = function()
+        return {
             ["Mon_Name_6004201"] = {
                 ["ContentJP"] = "ボム・ブリザード-凶暴な穢獣",
                 ["TextMapId"] = "Mon_Name_6004201",
@@ -13935,10 +14098,6 @@ local Data = {
                 ["ContentJP"] = "バーサーク・ウィザー・ボム-疾駆の穢獣Ⅱ",
                 ["TextMapId"] = "Mon_Name_6011301",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_6012001", MaxKey = "Mon_Name_7012015", Loader = function()
-        return {
             ["Mon_Name_6012001"] = {
                 ["ContentJP"] = "遊撃の穢獣Ⅱ",
                 ["TextMapId"] = "Mon_Name_6012001",
@@ -14587,6 +14746,10 @@ local Data = {
                 ["ContentJP"] = "フロスト-剣の錬金術師",
                 ["TextMapId"] = "Mon_Name_7010011",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_7010012", MaxKey = "Mon_Name_8514018", Loader = function()
+        return {
             ["Mon_Name_7010012"] = {
                 ["ContentJP"] = "ボム-剣の錬金術師",
                 ["TextMapId"] = "Mon_Name_7010012",
@@ -14739,10 +14902,6 @@ local Data = {
                 ["ContentJP"] = "ブラッド-切込兵Ⅱ",
                 ["TextMapId"] = "Mon_Name_7012015",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_7012016", MaxKey = "Mon_Name_9001201", Loader = function()
-        return {
             ["Mon_Name_7012016"] = {
                 ["ContentJP"] = "ウィザー-切込兵Ⅱ",
                 ["TextMapId"] = "Mon_Name_7012016",
@@ -15391,6 +15550,10 @@ local Data = {
                 ["ContentJP"] = "リベンジャー-恩寵の審問官",
                 ["TextMapId"] = "Mon_Name_8514018",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_8514019", MaxKey = "Name_901201", Loader = function()
+        return {
             ["Mon_Name_8514019"] = {
                 ["ContentJP"] = "ブリザード-恩寵の審問官",
                 ["TextMapId"] = "Mon_Name_8514019",
@@ -15543,10 +15706,6 @@ local Data = {
                 ["ContentJP"] = "レイズ・シャドウ-スティンソード",
                 ["TextMapId"] = "Mon_Name_9001201",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_9001301", MaxKey = "NpcBiography_Information_XiAo_2", Loader = function()
-        return {
             ["Mon_Name_9001301"] = {
                 ["ContentJP"] = "レイズ・ボム・フレイム-スティンソード",
                 ["TextMapId"] = "Mon_Name_9001301",
@@ -15919,6 +16078,10 @@ local Data = {
                 ["ContentJP"] = "ハンター",
                 ["TextMapId"] = "Mon_Name_9503051",
             },
+            ["Mon_Name_9801001"] = {
+                ["ContentJP"] = "白いオオカミ",
+                ["TextMapId"] = "Mon_Name_9801001",
+            },
             ["Mon_Name_9802001"] = {
                 ["ContentJP"] = "血角鹿",
                 ["TextMapId"] = "Mon_Name_9802001",
@@ -16050,6 +16213,14 @@ local Data = {
             ["Name_110109"] = {
                 ["ContentJP"] = "裁きの日",
                 ["TextMapId"] = "Name_110109",
+            },
+            ["Name_120001"] = {
+                ["ContentJP"] = "トーン・トーン・タウン",
+                ["TextMapId"] = "Name_120001",
+            },
+            ["Name_120002"] = {
+                ["ContentJP"] = "異郷の来訪者",
+                ["TextMapId"] = "Name_120002",
             },
             ["Name_200101"] = {
                 ["ContentJP"] = "鍛冶師登場",
@@ -16183,6 +16354,10 @@ local Data = {
                 ["ContentJP"] = "狩りの依頼1",
                 ["TextMapId"] = "Name_901201",
             },
+        }
+    end },
+    { MinKey = "Name_901202", MaxKey = "Pack_Name_Shop_Level_10", Loader = function()
+        return {
             ["Name_901202"] = {
                 ["ContentJP"] = "狩りの依頼2",
                 ["TextMapId"] = "Name_901202",
@@ -16430,16 +16605,12 @@ local Data = {
                 ["TextMapId"] = "NpcBiography_Information_XiAo_1",
             },
             ["NpcBiography_Information_XiAo_2"] = {
-                ["ContentJP"] = "{NickName}と過ごすうちにセオの心は大きく揺さぶられていく。その知性、その力――何よりその優しさに、深く心を打たれたのだ。カロン族の「本質」を自分の目で見て、知った彼は決意した。「立派な錬金術師になって、カロン族の病を癒すんだ」と。",
+                ["ContentJP"] = "{nickname}と過ごすうちにセオの心は大きく揺さぶられていく。その知性、その力――何よりその優しさに、深く心を打たれたのだ。カロン族の「本質」を自分の目で見て、知った彼は決意した。「立派な錬金術師になって、カロン族の病を癒すんだ」と。",
                 ["TextMapId"] = "NpcBiography_Information_XiAo_2",
             },
-        }
-    end },
-    { MinKey = "NpcBiography_Information_Xilin_1", MaxKey = "PartyReward_Name_180103", Loader = function()
-        return {
             ["NpcBiography_Information_Xilin_1"] = {
                 ["ContentJP"] = "フレグサン領の上流階級の未亡人。\
-40年前に生き別れたカロン族の男性、ハーメル・ディキンソンを探し求めて、アイスレイク城に引っ越してきた。",
+40年前に生き別れたカロン族の男性、ハーメル‐ディキンソンを探し求めて、アイスレイク城に引っ越してきた。",
                 ["TextMapId"] = "NpcBiography_Information_Xilin_1",
             },
             ["NpcBiography_Information_Xilin_2"] = {
@@ -16505,7 +16676,7 @@ local Data = {
                 ["TextMapId"] = "One",
             },
             ["PET_401_PASSIVE"] = {
-                ["ContentJP"] = "闇属性攻撃力+#1、最大HP+#2。",
+                ["ContentJP"] = "自身と戦友の闇属性攻撃力+#1、最大HP+#2。",
                 ["TextMapId"] = "PET_401_PASSIVE",
             },
             ["PET_401_SKILL"] = {
@@ -16513,7 +16684,7 @@ local Data = {
                 ["TextMapId"] = "PET_401_SKILL",
             },
             ["PET_402_PASSIVE"] = {
-                ["ContentJP"] = "水属性攻撃力+#1、最大HP+#2。",
+                ["ContentJP"] = "自身と戦友の水属性攻撃力+#1、最大HP+#2。",
                 ["TextMapId"] = "PET_402_PASSIVE",
             },
             ["PET_402_SKILL"] = {
@@ -16521,7 +16692,7 @@ local Data = {
                 ["TextMapId"] = "PET_402_SKILL",
             },
             ["PET_403_PASSIVE"] = {
-                ["ContentJP"] = "火属性攻撃力+#1、最大HP+#2。",
+                ["ContentJP"] = "自身と戦友の火属性攻撃力+#1、最大HP+#2。",
                 ["TextMapId"] = "PET_403_PASSIVE",
             },
             ["PET_403_SKILL"] = {
@@ -16529,7 +16700,7 @@ local Data = {
                 ["TextMapId"] = "PET_403_SKILL",
             },
             ["PET_404_PASSIVE"] = {
-                ["ContentJP"] = "雷属性攻撃力+#1、最大HP+#2。",
+                ["ContentJP"] = "自身と戦友の雷属性攻撃力+#1、最大HP+#2。",
                 ["TextMapId"] = "PET_404_PASSIVE",
             },
             ["PET_404_SKILL"] = {
@@ -16537,7 +16708,7 @@ local Data = {
                 ["TextMapId"] = "PET_404_SKILL",
             },
             ["PET_405_PASSIVE"] = {
-                ["ContentJP"] = "風属性攻撃力+#1、最大HP+#2。",
+                ["ContentJP"] = "自身と戦友の風属性攻撃力+#1、最大HP+#2。",
                 ["TextMapId"] = "PET_405_PASSIVE",
             },
             ["PET_405_SKILL"] = {
@@ -16545,7 +16716,7 @@ local Data = {
                 ["TextMapId"] = "PET_405_SKILL",
             },
             ["PET_406_PASSIVE"] = {
-                ["ContentJP"] = "光属性攻撃力が#1アップ。接頭辞が「スフィンクス」「セイレーン」「グリフォン」「ヒュドラ」「カヴェナンター」「ヘリオス」の魔の楔によるステータスが#2アップ。",
+                ["ContentJP"] = "自身と戦友の光属性攻撃力が#1アップ。接頭辞が「スフィンクス」「セイレーン」「グリフォン」「ヒュドラ」「カヴェナンター」「ヘリオス」の魔の楔によるステータスが#2アップ。",
                 ["TextMapId"] = "PET_406_PASSIVE",
             },
             ["PET_406_SKILL"] = {
@@ -16553,11 +16724,11 @@ local Data = {
                 ["TextMapId"] = "PET_406_SKILL",
             },
             ["PET_407_PASSIVE"] = {
-                ["ContentJP"] = "回収範囲+#1、敵撃破による経験値+#2、一定確率で追加ドロップを獲得する。",
+                ["ContentJP"] = "敵撃破による経験値+#2、一定確率で追加ドロップを獲得する。",
                 ["TextMapId"] = "PET_407_PASSIVE",
             },
             ["PET_407_SKILL"] = {
-                ["ContentJP"] = "周囲の敵に対してメインキャラ攻撃力#1相当のダメージを与える。宝箱付属の属性破壊オブジェクトを直接破壊可能。100メートル以内の「ペット1体」と「宝箱1個」を自動探知し、発見した対象の位置を30秒間持続表示する。",
+                ["ContentJP"] = "周囲の敵に対してメインキャラ攻撃力#1相当のダメージを与える。貯蔵箱付属の属性破壊オブジェクトを直接破壊可能。100メートル以内の「ジェネモン1体」と「貯蔵箱1個」を自動探知し、発見した対象の位置を30秒間持続表示する。",
                 ["TextMapId"] = "PET_407_SKILL",
             },
             ["PET_408_PASSIVE"] = {
@@ -16629,7 +16800,7 @@ local Data = {
                 ["TextMapId"] = "PET_421_PASSIVE",
             },
             ["PET_421_SKILL"] = {
-                ["ContentJP"] = "周囲の敵にメインキャラ攻撃力#1に相当する闇属性ダメージを与える。また、#3秒間近くにいる味方に「渾身」#2アップの効果を付与する。",
+                ["ContentJP"] = "周囲の敵にメインキャラ攻撃力#1に相当する闇属性ダメージを与える。また、#3秒間近くにいる味方に「高揚」#2アップの効果を付与する。",
                 ["TextMapId"] = "PET_421_SKILL",
             },
             ["PET_422_PASSIVE"] = {
@@ -16665,7 +16836,7 @@ local Data = {
                 ["TextMapId"] = "PET_425_SKILL",
             },
             ["PET_426_PASSIVE"] = {
-                ["ContentJP"] = "自身および戦友の光属性攻撃+#1。接頭辞が「グリフォン」「ヒュドラ」「カヴェナンター」の光と闇属性の魔の楔によるステータスが#2アップする。",
+                ["ContentJP"] = "自身および戦友の光属性攻撃+#1。接頭辞が「グリフォン」「ヒュドラ」「カヴェナンター」の光属性の魔の楔によるステータスが#2アップする。",
                 ["TextMapId"] = "PET_426_PASSIVE",
             },
             ["PET_426_SKILL"] = {
@@ -16745,15 +16916,15 @@ local Data = {
                 ["TextMapId"] = "Pack_Des_Char_5301",
             },
             ["Pack_Des_Draft_Melee"] = {
-                ["ContentJP"] = "ランダムに設計図・近接武器を1枚獲得",
+                ["ContentJP"] = "ランダムに設計図‐近接武器を1枚獲得",
                 ["TextMapId"] = "Pack_Des_Draft_Melee",
             },
             ["Pack_Des_Draft_Mod_04"] = {
-                ["ContentJP"] = "ランダムに紫ランク設計図・魔の楔を1枚獲得",
+                ["ContentJP"] = "ランダムに紫ランク設計図‐魔の楔を1枚獲得",
                 ["TextMapId"] = "Pack_Des_Draft_Mod_04",
             },
             ["Pack_Des_Draft_Range"] = {
-                ["ContentJP"] = "ランダムに設計図・近接武器を1枚獲得",
+                ["ContentJP"] = "ランダムに設計図‐近接武器を1枚獲得",
                 ["TextMapId"] = "Pack_Des_Draft_Range",
             },
             ["Pack_Des_Mod_01"] = {
@@ -16777,7 +16948,7 @@ local Data = {
                 ["TextMapId"] = "Pack_Des_Mod_05",
             },
             ["Pack_Des_Resource_Fuma"] = {
-                ["ContentJP"] = "ランダムに設計図・移転モジュールを1枚獲得",
+                ["ContentJP"] = "ランダムに設計図‐移転モジュールを1枚獲得",
                 ["TextMapId"] = "Pack_Des_Resource_Fuma",
             },
             ["Pack_Des_Shop_Accessory_01"] = {
@@ -16789,7 +16960,7 @@ local Data = {
                 ["TextMapId"] = "Pack_Des_Shop_Accessory_02",
             },
             ["Pack_Des_Shop_Accessory_03"] = {
-                ["ContentJP"] = "奏の詩篇アイボリーパック/紗幕と囁き-アイボリーパックはどちらか一つしか購入できません",
+                ["ContentJP"] = "奏の詩篇-アイボリーパック/紗幕と囁き-アイボリ-パックはどちらか一つしか購入できません",
                 ["TextMapId"] = "Pack_Des_Shop_Accessory_03",
             },
             ["Pack_Des_Shop_Exp_01"] = {
@@ -16850,32 +17021,204 @@ local Data = {
                 ["ContentJP"] = "日常で得られる物資支援、依頼手帳が含まれている",
                 ["TextMapId"] = "Pack_Des_Shop_WeiTuo_01",
             },
+            ["Pack_Des_Walnut_Order_001_015"] = {
+                ["ContentJP"] = "番号001～015の秩序の密書をランダムに1つ獲得する",
+                ["TextMapId"] = "Pack_Des_Walnut_Order_001_015",
+            },
+            ["Pack_Des_Weapon_Decompose"] = {
+                ["ContentJP"] = "ランダムで銅貨もしくは武器限界突破素材を獲得する",
+                ["TextMapId"] = "Pack_Des_Weapon_Decompose",
+            },
+            ["Pack_Name_Battle_Dispatch_1"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.1",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_1",
+            },
+            ["Pack_Name_Battle_Dispatch_10"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.10",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_10",
+            },
+            ["Pack_Name_Battle_Dispatch_2"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.2",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_2",
+            },
+            ["Pack_Name_Battle_Dispatch_3"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.3",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_3",
+            },
+            ["Pack_Name_Battle_Dispatch_4"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.4",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_4",
+            },
+            ["Pack_Name_Battle_Dispatch_5"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.5",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_5",
+            },
+            ["Pack_Name_Battle_Dispatch_6"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.6",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_6",
+            },
+            ["Pack_Name_Battle_Dispatch_7"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.7",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_7",
+            },
+            ["Pack_Name_Battle_Dispatch_8"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.8",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_8",
+            },
+            ["Pack_Name_Battle_Dispatch_9"] = {
+                ["ContentJP"] = "派遣戦闘報酬パックLv.9",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_9",
+            },
+            ["Pack_Name_Collect_Dispatch_1"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.1",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_1",
+            },
+            ["Pack_Name_Collect_Dispatch_10"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.10",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_10",
+            },
+            ["Pack_Name_Collect_Dispatch_2"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.2",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_2",
+            },
+            ["Pack_Name_Collect_Dispatch_3"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.3",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_3",
+            },
+            ["Pack_Name_Collect_Dispatch_4"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.4",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_4",
+            },
+            ["Pack_Name_Collect_Dispatch_5"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.5",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_5",
+            },
+            ["Pack_Name_Collect_Dispatch_6"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.6",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_6",
+            },
+            ["Pack_Name_Collect_Dispatch_7"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.7",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_7",
+            },
+            ["Pack_Name_Collect_Dispatch_8"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.8",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_8",
+            },
+            ["Pack_Name_Collect_Dispatch_9"] = {
+                ["ContentJP"] = "派遣収集報酬パックLv.9",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_9",
+            },
             ["Pack_Name_Draft_Melee"] = {
-                ["ContentJP"] = "未知の設計図・近接武器",
+                ["ContentJP"] = "未知の設計図‐近接武器",
                 ["TextMapId"] = "Pack_Name_Draft_Melee",
             },
             ["Pack_Name_Draft_Mod"] = {
-                ["ContentJP"] = "未知の設計図・魔の楔",
+                ["ContentJP"] = "未知の設計図‐魔の楔",
                 ["TextMapId"] = "Pack_Name_Draft_Mod",
             },
             ["Pack_Name_Draft_Range"] = {
-                ["ContentJP"] = "未知の設計図・遠隔武器",
+                ["ContentJP"] = "未知の設計図‐遠隔武器",
                 ["TextMapId"] = "Pack_Name_Draft_Range",
             },
+            ["Pack_Name_Fish_Dispatch_1"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.1",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_1",
+            },
+            ["Pack_Name_Fish_Dispatch_10"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.10",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_10",
+            },
+            ["Pack_Name_Fish_Dispatch_2"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.2",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_2",
+            },
+            ["Pack_Name_Fish_Dispatch_3"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.3",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_3",
+            },
+            ["Pack_Name_Fish_Dispatch_4"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.4",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_4",
+            },
+            ["Pack_Name_Fish_Dispatch_5"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.5",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_5",
+            },
+            ["Pack_Name_Fish_Dispatch_6"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.6",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_6",
+            },
+            ["Pack_Name_Fish_Dispatch_7"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.7",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_7",
+            },
+            ["Pack_Name_Fish_Dispatch_8"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.8",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_8",
+            },
+            ["Pack_Name_Fish_Dispatch_9"] = {
+                ["ContentJP"] = "派遣釣り報酬パックLv.9",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_9",
+            },
+            ["Pack_Name_Mine_Dispatch_1"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.1",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_1",
+            },
+            ["Pack_Name_Mine_Dispatch_10"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.10",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_10",
+            },
+            ["Pack_Name_Mine_Dispatch_2"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.2",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_2",
+            },
+            ["Pack_Name_Mine_Dispatch_3"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.3",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_3",
+            },
+            ["Pack_Name_Mine_Dispatch_4"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.4",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_4",
+            },
+            ["Pack_Name_Mine_Dispatch_5"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.5",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_5",
+            },
+            ["Pack_Name_Mine_Dispatch_6"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.6",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_6",
+            },
+            ["Pack_Name_Mine_Dispatch_7"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.7",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_7",
+            },
+            ["Pack_Name_Mine_Dispatch_8"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.8",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_8",
+            },
+            ["Pack_Name_Mine_Dispatch_9"] = {
+                ["ContentJP"] = "派遣採掘報酬パックLv.9",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_9",
+            },
             ["Pack_Name_Mod_Char"] = {
-                ["ContentJP"] = "未知の魔の楔・キャラクター",
+                ["ContentJP"] = "未知の魔の楔‐キャラクター",
                 ["TextMapId"] = "Pack_Name_Mod_Char",
             },
             ["Pack_Name_Mod_Melee"] = {
-                ["ContentJP"] = "未知の魔の楔・近接武器",
+                ["ContentJP"] = "未知の魔の楔‐近接武器",
                 ["TextMapId"] = "Pack_Name_Mod_Melee",
             },
             ["Pack_Name_Mod_Range"] = {
-                ["ContentJP"] = "未知の魔の楔・遠隔武器",
+                ["ContentJP"] = "未知の魔の楔‐遠隔武器",
                 ["TextMapId"] = "Pack_Name_Mod_Range",
             },
+            ["Pack_Name_Mod_Task"] = {
+                ["ContentJP"] = "白ランク魔の楔を獲得",
+                ["TextMapId"] = "Pack_Name_Mod_Task",
+            },
             ["Pack_Name_Resource_Fuma"] = {
-                ["ContentJP"] = "未知の設計図・移転モジュール",
+                ["ContentJP"] = "未知の設計図‐移転モジュール",
                 ["TextMapId"] = "Pack_Name_Resource_Fuma",
             },
             ["Pack_Name_Shop_Accessory_01"] = {
@@ -16891,21 +17234,25 @@ local Data = {
                 ["TextMapId"] = "Pack_Name_Shop_Accessory_03",
             },
             ["Pack_Name_Shop_Exp_01"] = {
-                ["ContentJP"] = "物資支援・戦闘経験",
+                ["ContentJP"] = "物資支援‐戦闘経験",
                 ["TextMapId"] = "Pack_Name_Shop_Exp_01",
             },
             ["Pack_Name_Shop_Exp_02"] = {
-                ["ContentJP"] = "上級物資支援・戦闘経験",
+                ["ContentJP"] = "上級物資支援‐戦闘経験",
                 ["TextMapId"] = "Pack_Name_Shop_Exp_02",
             },
             ["Pack_Name_Shop_Jingli"] = {
-                ["ContentJP"] = "物資支援・スタミナ",
+                ["ContentJP"] = "物資支援‐スタミナ",
                 ["TextMapId"] = "Pack_Name_Shop_Jingli",
             },
             ["Pack_Name_Shop_Level_10"] = {
                 ["ContentJP"] = "冒険レベルパックLv.10",
                 ["TextMapId"] = "Pack_Name_Shop_Level_10",
             },
+        }
+    end },
+    { MinKey = "Pack_Name_Shop_Level_20", MaxKey = "PartyTopic_Name_310201", Loader = function()
+        return {
             ["Pack_Name_Shop_Level_20"] = {
                 ["ContentJP"] = "冒険レベルパックLv.20",
                 ["TextMapId"] = "Pack_Name_Shop_Level_20",
@@ -16927,12 +17274,24 @@ local Data = {
                 ["TextMapId"] = "Pack_Name_Shop_Level_60",
             },
             ["Pack_Name_Shop_Mod"] = {
-                ["ContentJP"] = "物資支援・魔の楔",
+                ["ContentJP"] = "物資支援‐魔の楔",
                 ["TextMapId"] = "Pack_Name_Shop_Mod",
             },
             ["Pack_Name_Shop_Pay_01"] = {
-                ["ContentJP"] = "雪解けを待つ心",
+                ["ContentJP"] = "「雪解けを待つ心」限定パック・一",
                 ["TextMapId"] = "Pack_Name_Shop_Pay_01",
+            },
+            ["Pack_Name_Shop_Pay_02"] = {
+                ["ContentJP"] = "「雪解けを待つ心」限定パック・二",
+                ["TextMapId"] = "Pack_Name_Shop_Pay_02",
+            },
+            ["Pack_Name_Shop_Pay_03"] = {
+                ["ContentJP"] = "「雪解けを待つ心」限定パック・三",
+                ["TextMapId"] = "Pack_Name_Shop_Pay_03",
+            },
+            ["Pack_Name_Shop_Pay_04"] = {
+                ["ContentJP"] = "「雪解けを待つ心」限定パック・四",
+                ["TextMapId"] = "Pack_Name_Shop_Pay_04",
             },
             ["Pack_Name_Shop_Random_Ranse"] = {
                 ["ContentJP"] = "ランダムな基本染料",
@@ -16991,8 +17350,16 @@ local Data = {
                 ["TextMapId"] = "Pack_Name_Shop_Start_04",
             },
             ["Pack_Name_Shop_WeiTuo"] = {
-                ["ContentJP"] = "物資支援・依頼手帳",
+                ["ContentJP"] = "物資支援‐依頼手帳",
                 ["TextMapId"] = "Pack_Name_Shop_WeiTuo",
+            },
+            ["Pack_Name_Walnut_Order_001_015"] = {
+                ["ContentJP"] = "ランダムな秩序の密書",
+                ["TextMapId"] = "Pack_Name_Walnut_Order_001_015",
+            },
+            ["Pack_Name_Weapon_Decompose"] = {
+                ["ContentJP"] = "未知の武器分解報酬",
+                ["TextMapId"] = "Pack_Name_Weapon_Decompose",
             },
             ["PageDown"] = {
                 ["ContentJP"] = "PgDn",
@@ -17242,56 +17609,52 @@ local Data = {
                 ["ContentJP"] = "ユニコーンの温もり",
                 ["TextMapId"] = "PartyReward_Name_180103",
             },
-        }
-    end },
-    { MinKey = "PartyReward_Name_180104", MaxKey = "Pet_Name_402", Loader = function()
-        return {
             ["PartyReward_Name_180104"] = {
                 ["ContentJP"] = "新しい物語",
                 ["TextMapId"] = "PartyReward_Name_180104",
             },
             ["PartyReward_Name_210101"] = {
-                ["ContentJP"] = "飲料・つぼみ",
+                ["ContentJP"] = "飲料‐つぼみ",
                 ["TextMapId"] = "PartyReward_Name_210101",
             },
             ["PartyReward_Name_210102"] = {
-                ["ContentJP"] = "飲料・孤独なクラゲ",
+                ["ContentJP"] = "飲料‐孤独なクラゲ",
                 ["TextMapId"] = "PartyReward_Name_210102",
             },
             ["PartyReward_Name_210103"] = {
-                ["ContentJP"] = "飲料・氷と炎の歌",
+                ["ContentJP"] = "飲料‐氷と炎の歌",
                 ["TextMapId"] = "PartyReward_Name_210103",
             },
             ["PartyReward_Name_210104"] = {
-                ["ContentJP"] = "飲料・本当の恋",
+                ["ContentJP"] = "飲料‐本当の恋",
                 ["TextMapId"] = "PartyReward_Name_210104",
             },
             ["PartyReward_Name_230101"] = {
-                ["ContentJP"] = "飲料・オレンジスカッシュ",
+                ["ContentJP"] = "飲料‐オレンジスカッシュ",
                 ["TextMapId"] = "PartyReward_Name_230101",
             },
             ["PartyReward_Name_230102"] = {
-                ["ContentJP"] = "飲料・スウィートシーソルト",
+                ["ContentJP"] = "飲料‐スウィートシーソルト",
                 ["TextMapId"] = "PartyReward_Name_230102",
             },
             ["PartyReward_Name_230103"] = {
-                ["ContentJP"] = "飲料・ブルーベリーヨーグルト",
+                ["ContentJP"] = "飲料‐ブルーベリーヨーグルト",
                 ["TextMapId"] = "PartyReward_Name_230103",
             },
             ["PartyReward_Name_230104"] = {
-                ["ContentJP"] = "飲料・デビルシーフ",
+                ["ContentJP"] = "飲料‐デビルシーフ",
                 ["TextMapId"] = "PartyReward_Name_230104",
             },
             ["PartyReward_Name_310101"] = {
-                ["ContentJP"] = "飲料・スパイシーグリーティング",
+                ["ContentJP"] = "飲料‐スパイシーグリーティング",
                 ["TextMapId"] = "PartyReward_Name_310101",
             },
             ["PartyReward_Name_310102"] = {
-                ["ContentJP"] = "飲料・ほろ酔いの契約",
+                ["ContentJP"] = "飲料‐ほろ酔いの契約",
                 ["TextMapId"] = "PartyReward_Name_310102",
             },
             ["PartyReward_Name_310103"] = {
-                ["ContentJP"] = "飲料・氷と炎の歌",
+                ["ContentJP"] = "飲料‐氷と炎の歌",
                 ["TextMapId"] = "PartyReward_Name_310103",
             },
             ["PartyReward_Name_310201"] = {
@@ -17307,7 +17670,7 @@ local Data = {
                 ["TextMapId"] = "PartyReward_Name_310203",
             },
             ["PartyReward_Name_310204"] = {
-                ["ContentJP"] = "飲料・フローラルティー",
+                ["ContentJP"] = "飲料‐フローラルティー",
                 ["TextMapId"] = "PartyReward_Name_310204",
             },
             ["PartyReward_Name_310301"] = {
@@ -17315,11 +17678,11 @@ local Data = {
                 ["TextMapId"] = "PartyReward_Name_310301",
             },
             ["PartyReward_Name_310302"] = {
-                ["ContentJP"] = "飲料・赤獅子",
+                ["ContentJP"] = "飲料‐赤獅子",
                 ["TextMapId"] = "PartyReward_Name_310302",
             },
             ["PartyReward_Name_310303"] = {
-                ["ContentJP"] = "飲料・蒼ウサギ",
+                ["ContentJP"] = "飲料‐蒼ウサギ",
                 ["TextMapId"] = "PartyReward_Name_310303",
             },
             ["PartyReward_Name_310304"] = {
@@ -17343,11 +17706,11 @@ local Data = {
                 ["TextMapId"] = "PartyReward_Name_330104",
             },
             ["PartyReward_Name_420201"] = {
-                ["ContentJP"] = "合成物1：飲料・社畜の休日",
+                ["ContentJP"] = "合成物1：飲料‐社畜の休日",
                 ["TextMapId"] = "PartyReward_Name_420201",
             },
             ["PartyReward_Name_420202"] = {
-                ["ContentJP"] = "飲料・凱旋20",
+                ["ContentJP"] = "飲料‐凱旋20",
                 ["TextMapId"] = "PartyReward_Name_420202",
             },
             ["PartyReward_Name_420203"] = {
@@ -17355,7 +17718,7 @@ local Data = {
                 ["TextMapId"] = "PartyReward_Name_420203",
             },
             ["PartyReward_Name_420204"] = {
-                ["ContentJP"] = "飲料・フラワリーオレンジペコ",
+                ["ContentJP"] = "飲料‐フラワリーオレンジペコ",
                 ["TextMapId"] = "PartyReward_Name_420204",
             },
             ["PartyReward_Name_430101"] = {
@@ -17371,7 +17734,7 @@ local Data = {
                 ["TextMapId"] = "PartyReward_Name_430103",
             },
             ["PartyReward_Name_510101"] = {
-                ["ContentJP"] = "飲料・クワス",
+                ["ContentJP"] = "飲料‐クワス",
                 ["TextMapId"] = "PartyReward_Name_510101",
             },
             ["PartyReward_Name_510102"] = {
@@ -17379,7 +17742,7 @@ local Data = {
                 ["TextMapId"] = "PartyReward_Name_510102",
             },
             ["PartyReward_Name_510103"] = {
-                ["ContentJP"] = "飲料・季節のアイスベリー",
+                ["ContentJP"] = "飲料‐季節のアイスベリー",
                 ["TextMapId"] = "PartyReward_Name_510103",
             },
             ["PartyReward_Name_510104"] = {
@@ -17690,6 +18053,10 @@ local Data = {
                 ["ContentJP"] = "もうひとつの顔",
                 ["TextMapId"] = "PartyTopic_Name_310201",
             },
+        }
+    end },
+    { MinKey = "PartyTopic_Name_310202", MaxKey = "QuestDesc_10020308", Loader = function()
+        return {
             ["PartyTopic_Name_310202"] = {
                 ["ContentJP"] = "コーディネートの極意",
                 ["TextMapId"] = "PartyTopic_Name_310202",
@@ -17783,7 +18150,7 @@ local Data = {
                 ["TextMapId"] = "PartyTopic_Name_530101",
             },
             ["PartyTopic_Name_530102"] = {
-                ["ContentJP"] = "風と水の記憶",
+                ["ContentJP"] = "風と水に溶け込む記憶",
                 ["TextMapId"] = "PartyTopic_Name_530102",
             },
             ["PartyTopic_Name_530103"] = {
@@ -17883,7 +18250,7 @@ local Data = {
                 ["TextMapId"] = "Pet_BreakLevelUp_Success",
             },
             ["Pet_Break_CostToast"] = {
-                ["ContentJP"] = "ジェネモン消費（%s/%s）",
+                ["ContentJP"] = "選択してください",
                 ["TextMapId"] = "Pet_Break_CostToast",
             },
             ["Pet_Break_LevelReset"] = {
@@ -18015,7 +18382,7 @@ local Data = {
                 ["TextMapId"] = "Pet_LevelUp_AddMax",
             },
             ["Pet_LevelUp_CostToast"] = {
-                ["ContentJP"] = "任意ジェネモンを消費",
+                ["ContentJP"] = "素材を選択してください",
                 ["TextMapId"] = "Pet_LevelUp_CostToast",
             },
             ["Pet_LevelUp_ExpOverflow_Content"] = {
@@ -18046,10 +18413,6 @@ local Data = {
                 ["ContentJP"] = "ピチョン",
                 ["TextMapId"] = "Pet_Name_402",
             },
-        }
-    end },
-    { MinKey = "Pet_Name_403", MaxKey = "QuestDesc_10030211", Loader = function()
-        return {
             ["Pet_Name_403"] = {
                 ["ContentJP"] = "モエドリ",
                 ["TextMapId"] = "Pet_Name_403",
@@ -18103,27 +18466,27 @@ local Data = {
                 ["TextMapId"] = "Pet_Name_416",
             },
             ["Pet_Name_421"] = {
-                ["ContentJP"] = "オブシディアン・エルフ",
+                ["ContentJP"] = "オブシディアン‐エルフ",
                 ["TextMapId"] = "Pet_Name_421",
             },
             ["Pet_Name_422"] = {
-                ["ContentJP"] = "アイオライト・エルフ",
+                ["ContentJP"] = "アイオライト‐エルフ",
                 ["TextMapId"] = "Pet_Name_422",
             },
             ["Pet_Name_423"] = {
-                ["ContentJP"] = "アゲート・エルフ",
+                ["ContentJP"] = "アゲート‐エルフ",
                 ["TextMapId"] = "Pet_Name_423",
             },
             ["Pet_Name_424"] = {
-                ["ContentJP"] = "アメジスト・エルフ",
+                ["ContentJP"] = "アメジスト‐エルフ",
                 ["TextMapId"] = "Pet_Name_424",
             },
             ["Pet_Name_425"] = {
-                ["ContentJP"] = "エメラルド・エルフ",
+                ["ContentJP"] = "エメラルド‐エルフ",
                 ["TextMapId"] = "Pet_Name_425",
             },
             ["Pet_Name_426"] = {
-                ["ContentJP"] = "オパール・エルフ",
+                ["ContentJP"] = "オパール‐エルフ",
                 ["TextMapId"] = "Pet_Name_426",
             },
             ["Pet_Name_491"] = {
@@ -18143,11 +18506,11 @@ local Data = {
                 ["TextMapId"] = "Pet_RarePet_ReConfirm",
             },
             ["Pet_Rarity_3"] = {
-                ["ContentJP"] = "ジェネモン・レア",
+                ["ContentJP"] = "ジェネモン‐レア",
                 ["TextMapId"] = "Pet_Rarity_3",
             },
             ["Pet_Rarity_4"] = {
-                ["ContentJP"] = "ジェネモン・レジェンド",
+                ["ContentJP"] = "ジェネモン‐レジェンド",
                 ["TextMapId"] = "Pet_Rarity_4",
             },
             ["Pet_Rarity_4_Below"] = {
@@ -18155,7 +18518,7 @@ local Data = {
                 ["TextMapId"] = "Pet_Rarity_4_Below",
             },
             ["Pet_Rarity_5"] = {
-                ["ContentJP"] = "ジェネモン・エピック",
+                ["ContentJP"] = "ジェネモン‐エピック",
                 ["TextMapId"] = "Pet_Rarity_5",
             },
             ["Pet_Rarity_5_Below"] = {
@@ -18484,7 +18847,7 @@ local Data = {
                 ["TextMapId"] = "QuestDesc_10020223",
             },
             ["QuestDesc_10020224"] = {
-                ["ContentJP"] = "「ジェネモン」システムが解放されました。ジェネモンを捕獲して、これからの旅に備えよう。",
+                ["ContentJP"] = "「ジェネモン」システムが解放されました。ジェネモンと仲良くし、これからの旅に備えよう。",
                 ["TextMapId"] = "QuestDesc_10020224",
             },
             ["QuestDesc_10020301"] = {
@@ -18531,6 +18894,10 @@ local Data = {
 廃坑内には穢獣が住みついている。行く手をさえぎる穢獣を倒して、先に進もう。",
                 ["TextMapId"] = "QuestDesc_10020308",
             },
+        }
+    end },
+    { MinKey = "QuestDesc_10020309", MaxKey = "QuestName_10020208", Loader = function()
+        return {
             ["QuestDesc_10020309"] = {
                 ["ContentJP"] = "廃棄されたパイプラインを通って、グルビューム廃坑内部に入った。\
 かつては巨大な天上樹が山を貫いていたが、今では完全に掘り尽くされ、わずかな根っこだけが残されている。残された鉱脈がかつての栄華を物語っているようだ。\
@@ -18963,10 +19330,6 @@ local Data = {
                 ["ContentJP"] = "誰もが予想しなかった展開──カロン狩りの犯人は、なんと2人だった。あなたを守るためにリズムは重傷を負ってしまう。この先の捜査と犯人の捕獲は、帝国軍の増援に任せよう。「ノクトボイジャー」の面々は相談の末、カロン狩りの報酬と彼女に救われたことに感謝するため、まずは軍立病院へ見舞いに向かうことを決めた。",
                 ["TextMapId"] = "QuestDesc_10030211",
             },
-        }
-    end },
-    { MinKey = "QuestDesc_10030212", MaxKey = "QuestName_10029801", Loader = function()
-        return {
             ["QuestDesc_10030212"] = {
                 ["ContentJP"] = "帝国軍からは護衛が派遣されるはずだったが、現地に着いても人影はない。代わりに目に入ったのは、壁に無数刻まれた銃痕。どうやら逃走した犯人と兵士たちがここで交戦していたらしい。下水道の出口を目指す中、その痕跡をたどってみよう。",
                 ["TextMapId"] = "QuestDesc_10030212",
@@ -19412,6 +19775,10 @@ local Data = {
                 ["ContentJP"] = "ゴミ箱3号付近の痕跡を調べる",
                 ["TextMapId"] = "QuestName_10020208",
             },
+        }
+    end },
+    { MinKey = "QuestName_10020209", MaxKey = "QuestName_99999801", Loader = function()
+        return {
             ["QuestName_10020209"] = {
                 ["ContentJP"] = "痕跡をたどり、屋上へ登る",
                 ["TextMapId"] = "QuestName_10020209",
@@ -19457,7 +19824,7 @@ local Data = {
                 ["TextMapId"] = "QuestName_10020223",
             },
             ["QuestName_10020224"] = {
-                ["ContentJP"] = "ジェネモンを捕獲",
+                ["ContentJP"] = "ジェネモンと仲良くする",
                 ["TextMapId"] = "QuestName_10020224",
             },
             ["QuestName_10020301"] = {
@@ -19768,10 +20135,6 @@ local Data = {
                 ["ContentJP"] = "冒険Lv.をあげてメインストーリーを続行しよう",
                 ["TextMapId"] = "QuestName_10029801",
             },
-        }
-    end },
-    { MinKey = "QuestName_10029901", MaxKey = "READ_NAME_2000016", Loader = function()
-        return {
             ["QuestName_10029901"] = {
                 ["ContentJP"] = "冒険Lv.をあげてメインストーリーを続行しよう",
                 ["TextMapId"] = "QuestName_10029901",
@@ -19939,6 +20302,10 @@ local Data = {
             ["QuestName_10030301"] = {
                 ["ContentJP"] = "軍立病院へ向かう",
                 ["TextMapId"] = "QuestName_10030301",
+            },
+            ["QuestName_10030302"] = {
+                ["ContentJP"] = "帝国軍第十三軍団を手伝う",
+                ["TextMapId"] = "QuestName_10030302",
             },
             ["QuestName_10030303"] = {
                 ["ContentJP"] = "下水道へ向かう",
@@ -20212,6 +20579,10 @@ local Data = {
                 ["ContentJP"] = "ダクリ湖のほとりへ",
                 ["TextMapId"] = "QuestName_99999801",
             },
+        }
+    end },
+    { MinKey = "QuestName_99999802", MaxKey = "READ_TEXT_2000054", Loader = function()
+        return {
             ["QuestName_99999802"] = {
                 ["ContentJP"] = "ダクリ湖のほとりへで、クエスト対象の強敵を倒す",
                 ["TextMapId"] = "QuestName_99999802",
@@ -20249,15 +20620,15 @@ local Data = {
                 ["TextMapId"] = "Quest_Tips_LeaveHintTrigger",
             },
             ["READSERIES_1001"] = {
-                ["ContentJP"] = "残された紙片・パーガトリー島",
+                ["ContentJP"] = "残された紙片‐パーガトリー島",
                 ["TextMapId"] = "READSERIES_1001",
             },
             ["READSERIES_1002"] = {
-                ["ContentJP"] = "残された紙片・アイスレイク城",
+                ["ContentJP"] = "残された紙片‐アイスレイク城",
                 ["TextMapId"] = "READSERIES_1002",
             },
             ["READSERIES_1003"] = {
-                ["ContentJP"] = "残された紙片・ロンザ要塞",
+                ["ContentJP"] = "残された紙片‐ロンザ要塞",
                 ["TextMapId"] = "READSERIES_1003",
             },
             ["READSERIES_1005"] = {
@@ -20321,7 +20692,7 @@ local Data = {
                 ["TextMapId"] = "READ_DESC_2000008",
             },
             ["READ_DESC_2000009"] = {
-                ["ContentJP"] = "引き出しに入っている手紙は豪華に装丁されている。宛名はヘンリック・エセルレッド。",
+                ["ContentJP"] = "引き出しに入っている手紙は豪華に装丁されている。宛名はヘンリック‐エセルレッド。",
                 ["TextMapId"] = "READ_DESC_2000009",
             },
             ["READ_DESC_2000010"] = {
@@ -20439,7 +20810,7 @@ local Data = {
                 ["TextMapId"] = "READ_DESC_2000036",
             },
             ["READ_DESC_2000037"] = {
-                ["ContentJP"] = "机の上に手紙が置かれている。すでに開封されており、きちんとした筆跡で書かれた宛名はヘンリック・エセルレッド。",
+                ["ContentJP"] = "机の上に手紙が置かれている。すでに開封されており、きちんとした筆跡で書かれた宛名はヘンリック‐エセルレッド。",
                 ["TextMapId"] = "READ_DESC_2000037",
             },
             ["READ_DESC_2000038"] = {
@@ -20580,10 +20951,6 @@ local Data = {
                 ["ContentJP"] = "『観察日記 』その3",
                 ["TextMapId"] = "READ_NAME_2000016",
             },
-        }
-    end },
-    { MinKey = "READ_NAME_2000017", MaxKey = "RESOURCE_DESC_12003", Loader = function()
-        return {
             ["READ_NAME_2000017"] = {
                 ["ContentJP"] = "アニーからの手紙",
                 ["TextMapId"] = "READ_NAME_2000017",
@@ -20637,7 +21004,7 @@ local Data = {
                 ["TextMapId"] = "READ_NAME_2000029",
             },
             ["READ_NAME_2000030"] = {
-                ["ContentJP"] = "トリウンプス・デーの休暇のお知らせ",
+                ["ContentJP"] = "トリウンプス‐デーの休暇のお知らせ",
                 ["TextMapId"] = "READ_NAME_2000030",
             },
             ["READ_NAME_2000031"] = {
@@ -20681,15 +21048,15 @@ local Data = {
                 ["TextMapId"] = "READ_NAME_2000040",
             },
             ["READ_NAME_2000041"] = {
-                ["ContentJP"] = "サイキ・フレイのカルテ",
+                ["ContentJP"] = "サイキ‐フレイのカルテ",
                 ["TextMapId"] = "READ_NAME_2000041",
             },
             ["READ_NAME_2000042"] = {
-                ["ContentJP"] = "エリーザ・テイラーのカルテ",
+                ["ContentJP"] = "エリーザ‐テイラーのカルテ",
                 ["TextMapId"] = "READ_NAME_2000042",
             },
             ["READ_NAME_2000043"] = {
-                ["ContentJP"] = "ハンター・クラークのカルテ",
+                ["ContentJP"] = "ハンター‐クラークのカルテ",
                 ["TextMapId"] = "READ_NAME_2000043",
             },
             ["READ_NAME_2000044"] = {
@@ -20721,7 +21088,7 @@ local Data = {
                 ["TextMapId"] = "READ_NAME_2000050",
             },
             ["READ_NAME_2000051"] = {
-                ["ContentJP"] = "『不敗の大軍団長』・その2",
+                ["ContentJP"] = "『不敗の大軍団長』‐その2",
                 ["TextMapId"] = "READ_NAME_2000051",
             },
             ["READ_NAME_2000052"] = {
@@ -20729,19 +21096,19 @@ local Data = {
                 ["TextMapId"] = "READ_NAME_2000052",
             },
             ["READ_NAME_2000053"] = {
-                ["ContentJP"] = "『紅葉返り討ち秘話』・その1",
+                ["ContentJP"] = "『紅葉返り討ち秘話』‐その1",
                 ["TextMapId"] = "READ_NAME_2000053",
             },
             ["READ_NAME_2000054"] = {
-                ["ContentJP"] = "『紅葉返り討ち秘話』・その2",
+                ["ContentJP"] = "『紅葉返り討ち秘話』‐その2",
                 ["TextMapId"] = "READ_NAME_2000054",
             },
             ["READ_NAME_2000055"] = {
-                ["ContentJP"] = "『紅葉返り討ち秘話』・その3",
+                ["ContentJP"] = "『紅葉返り討ち秘話』‐その3",
                 ["TextMapId"] = "READ_NAME_2000055",
             },
             ["READ_NAME_2000056"] = {
-                ["ContentJP"] = "『紅葉返り討ち秘話』・その4",
+                ["ContentJP"] = "『紅葉返り討ち秘話』‐その4",
                 ["TextMapId"] = "READ_NAME_2000056",
             },
             ["READ_NAME_20602"] = {
@@ -20765,7 +21132,7 @@ local Data = {
                 ["TextMapId"] = "READ_NAME_20608",
             },
             ["READ_NAME_20609"] = {
-                ["ContentJP"] = "アイスレイク城・その2",
+                ["ContentJP"] = "アイスレイク城‐その2",
                 ["TextMapId"] = "READ_NAME_20609",
             },
             ["READ_NAME_20610"] = {
@@ -20789,23 +21156,23 @@ local Data = {
                 ["TextMapId"] = "READ_NAME_20614",
             },
             ["READ_NAME_20615"] = {
-                ["ContentJP"] = "アイスレイク城・その8",
+                ["ContentJP"] = "アイスレイク城‐その8",
                 ["TextMapId"] = "READ_NAME_20615",
             },
             ["READ_NAME_20616"] = {
-                ["ContentJP"] = "アイスレイク城・その9",
+                ["ContentJP"] = "アイスレイク城‐その9",
                 ["TextMapId"] = "READ_NAME_20616",
             },
             ["READ_NAME_20617"] = {
-                ["ContentJP"] = "アイスレイク城・その10",
+                ["ContentJP"] = "アイスレイク城‐その10",
                 ["TextMapId"] = "READ_NAME_20617",
             },
             ["READ_NAME_20620"] = {
-                ["ContentJP"] = "ロンザ要塞・その1",
+                ["ContentJP"] = "ロンザ要塞‐その1",
                 ["TextMapId"] = "READ_NAME_20620",
             },
             ["READ_NAME_20621"] = {
-                ["ContentJP"] = "ロンザ要塞・その2",
+                ["ContentJP"] = "ロンザ要塞‐その2",
                 ["TextMapId"] = "READ_NAME_20621",
             },
             ["READ_TEXT_2000001"] = {
@@ -20922,6 +21289,28 @@ local Data = {
 \
 ……",
                 ["TextMapId"] = "READ_TEXT_2000005",
+            },
+            ["READ_TEXT_2000006"] = {
+                ["ContentJP"] = "……\
+サイキ:「約束して、ヘンリックおじさん…」\
+ヘンリック:「<H>無理だ。穢蝕を抑える手術はまだ理論の段階で臨床試験で証明されてない治療手段を君たちに適用するわけにはいかない。</>」\
+サイキ:「ヘンリックおじさんはこんなに優しいからこそ…穢蝕を抑える手術はずっと実用できなくなってる。」\
+ヘンリック:「ヒュプノスの家を設立するのは、痛みを緩和するためだ。お前たちを実験対象にしたら軍団のやったことと同然じゃないか。」\
+サイキ:「違うの…」\
+サイキ:「ヘンリックおじさんはずっと私たちの面倒を見てくれてるし、願いを叶えてくれたりもして、だけど痛みはぜんぜん消えなく、ただヘンリックおじさんが一人で背負っただけなの。」\
+サイキ:「穢蝕を抑える手術はあくまで私たちの痛みを緩和できる可能性の一つに過ぎない。<H>例え危険だとしても、副作用があっても、成功になったら、僅かな確率だとしてもヘンリックおじさんの手術に協力してほしい。</>」\
+ヘンリック:「…これ以上話すな、無理だと言ったはず…」\
+（さわさわ...）\
+ヘンリック：「お前、何をしてるんだ。早く横になりなさい......」\
+サイキ：「しーー、ヘンリックおじさん、聞こえたか、心臓の鼓動を…」\
+サイキ：「今晩か明日か、穢獣に成り下がる時がくると、心臓まで止まると思うの。だからこそ、その日は一日でも引き延ばしたい。私だって、扉を開けてみんなの顔に触れたい、目を閉じて心臓の鼓動を聴きたい、疲れたヘンリックおじさんの姿を思い浮かべて悲しみたい、両親の優しさを思い出して温もりを感じたい、{nickname}から貰った励ましを思い付くと立ち上がりたい、それと…」\
+ヘンリック：「…泣くな、…泣くなよ…」\
+サイキ：「ヘンリックおじさんだって…」\
+ヘンリック：「俺は…」\
+（さわさわ...）\
+サイキ：「お願い....ヘンリックおじさん。」\
+ヘンリック：「…分かった。」",
+                ["TextMapId"] = "READ_TEXT_2000006",
             },
             ["READ_TEXT_2000007"] = {
                 ["ContentJP"] = "……\
@@ -21240,7 +21629,7 @@ local Data = {
                 ["TextMapId"] = "READ_TEXT_2000029",
             },
             ["READ_TEXT_2000030"] = {
-                ["ContentJP"] = "軍団本部の指示により、トライアンフ・デー当日、カロン兵以外のすべての兵士には半日の休暇が与えられる。休暇の具体的な時間帯については、各部隊内での通知を待つこと。\
+                ["ContentJP"] = "軍団本部の指示により、トライアンフ‐デー当日、カロン兵以外のすべての兵士には半日の休暇が与えられる。休暇の具体的な時間帯については、各部隊内での通知を待つこと。\
 なお、休暇中の兵士は、以下のいずれかの時間帯に模擬戦場で行われる祝賀式に参加する必要がある。参加しない場合は無断欠勤とみなされる。\
 午前休暇者：9時から11時\
 午後休暇者：15時から17時\
@@ -21274,18 +21663,18 @@ local Data = {
 ……\
 \
 8月12日\
-【参加者】グリーンオニオン 対 ピンクキャット(=^・^=)\
+【参加者】グリーンオニオン 対 ピンクキャット(=^‐^=)\
 【戦績】4:5\
 【総括】次は必ず完勝するぞ！\
 PS：この帝国のおもちゃ結構おもしろいじゃん。\
 \
 8月14日\
-【参加者】グリーンオニオン 対 ピンクキャット(=^・^=)\
+【参加者】グリーンオニオン 対 ピンクキャット(=^‐^=)\
 【戦績】7:6\
 【総括】調子が悪かったから、今回はノーカン(;_;)\
 \
 8月17日\
-【参加者】グリーンオニオン 対 ピンクキャット(=^・^=)\
+【参加者】グリーンオニオン 対 ピンクキャット(=^‐^=)\
 【戦績】5:3\
 【要点まとめ】こっちは丸一日かけて機関を修理していたのに、少しは手加減してよ！\
 みんな仲間だろ(/_;)",
@@ -21343,7 +21732,7 @@ C区 アニタ\
                 ["TextMapId"] = "READ_TEXT_2000034",
             },
             ["READ_TEXT_2000035"] = {
-                ["ContentJP"] = "グレイシア：カーチャ・オーエン、23歳。ディズマニアのエンジニアの家に生まれ、両親は工学錬金院の桂冠カロン族。6年前、カロン族への同情と両親への反発心から家を出て、貧しいカロン族の生活向上のために独学で機械技術を学んでいる。\
+                ["ContentJP"] = "グレイシア：カーチャ‐オーエン、23歳。ディズマニアのエンジニアの家に生まれ、両親は工学錬金院の桂冠カロン族。6年前、カロン族への同情と両親への反発心から家を出て、貧しいカロン族の生活向上のために独学で機械技術を学んでいる。\
 オヴィス村で小型暖房機を広めていた際、ヒュペリアの兵士たちが労働者の徴用にやってきた。カーチャは捕らえられ、ロンザ要塞で10ヶ月間苦役を強いられた。しかし、フォーセイクン同盟に救出され、現在は治療中であり、1ヶ月が経過した今では体調も回復し、精神的にも安定している。私たちの調査によれば…\
 \
 カーチャ：へえ、悲惨な過去をわざわざ本人の前でお話してくれるなんて、フォーセイクン同盟の人たちって、ほんっと礼儀正しいんだねぇ。\
@@ -21377,7 +21766,7 @@ C区 アニタ\
             },
             ["READ_TEXT_2000036"] = {
                 ["ContentJP"] = "……\
-悲しいことに、今日はジョー・フランクを見送った。あの子は私の腕の中で最期に血を吐き、ようやく静かな眠りについたのだ。今頃、ニヴルヘイムで両親と再会しているだろう。\
+悲しいことに、今日はジョー‐フランクを見送った。あの子は私の腕の中で最期に血を吐き、ようやく静かな眠りについたのだ。今頃、ニヴルヘイムで両親と再会しているだろう。\
 \
 ジョーがようやく苦しみから解放されたことがせめてもの救いだが、あの子が受けた苦しみを思うと、怒りがおさまらない。ジョーの両親が過労と病気で亡くなった後も、ヒュペリアの兵士たちは彼を苛酷に扱った。まだ10歳の子供になぜあんなひどいことができるのか？\
 私たちが彼を見つけたとき、体重はわずか15キロまで痩せこけていて、カラス一羽でも命を奪えそうなほどだった。さらに腹立たしいのは、彼の胸腔内に大量の血液が溜まっていたこと。これは最近の激しい外傷によるものだった。\
@@ -21412,7 +21801,7 @@ C区 アニタ\
                 ["TextMapId"] = "READ_TEXT_2000040",
             },
             ["READ_TEXT_2000041"] = {
-                ["ContentJP"] = "氏名: サイキ・フレイ\
+                ["ContentJP"] = "氏名: サイキ‐フレイ\
 年齢: 17歳\
 症状: 間欠性失明\
 \
@@ -21423,7 +21812,7 @@ C区 アニタ\
 ……\
 2階の空き部屋を片付けた。あちらのほうが日当たりが良いので、サイキと花をあそこに移せば、もう少し快適に過ごせるだろう。\
 ……\
-サイキは本当に花が好きだ。毎日丁寧に花の手入れをして、他の子供たちにも分けてあげている。穢蝕さえなければ、将来、彼女は「フローリスト・リメンブランス」を両親以上に立派に切り盛りできたはずなのに。\
+サイキは本当に花が好きだ。毎日丁寧に花の手入れをして、他の子供たちにも分けてあげている。穢蝕さえなければ、将来、彼女は「フローリスト‐リメンブランス」を両親以上に立派に切り盛りできたはずなのに。\
 ……\
 サイキは今日、私にも花をくれた。彼女の穏やかな笑顔を見ていると、ヘイリー……おまえにまた会えたような気分だ。\
 ……\
@@ -21441,7 +21830,7 @@ C区 アニタ\
                 ["TextMapId"] = "READ_TEXT_2000041",
             },
             ["READ_TEXT_2000042"] = {
-                ["ContentJP"] = "氏名：エリーザ・テイラー\
+                ["ContentJP"] = "氏名：エリーザ‐テイラー\
 年齢：17歳\
 症状：味覚消失\
 \
@@ -21456,7 +21845,7 @@ C区 アニタ\
                 ["TextMapId"] = "READ_TEXT_2000042",
             },
             ["READ_TEXT_2000043"] = {
-                ["ContentJP"] = "名前: ハンター・クラーク\
+                ["ContentJP"] = "名前: ハンター‐クラーク\
 年齢: 18歳\
 症状: 間欠性失聴\
 \
@@ -21656,6 +22045,10 @@ C区 アニタ\
 パシファル注：この幕は独唱が必要。紅葉の役は通常女性が演じるが、過去に男性演者で成功例あり。ぜひ挑戦したい。",
                 ["TextMapId"] = "READ_TEXT_2000054",
             },
+        }
+    end },
+    { MinKey = "READ_TEXT_2000055", MaxKey = "RESOURCE_DESC_12111", Loader = function()
+        return {
             ["READ_TEXT_2000055"] = {
                 ["ContentJP"] = "第三幕 千行の密書\
 \
@@ -21867,7 +22260,8 @@ C区 アニタ\
             },
             ["READ_TEXT_20616"] = {
                 ["ContentJP"] = "卵って、あったかいとこに置いとくとヒヨコになる。……なら、月ノ石だって、あったかいとこに置いとけば、天上樹が生えてきてもおかしくない……はず。もしそうなったら、一生お金に困らないじゃん。やばい、天才じゃん、自分。\
-ちょうど<H>加熱炉</>の点検を担当してるんだ。へへ……明日、こっそり月ノ石持っていって、中に入れよっと……",
+ちょうど<H>加熱炉</>の点検を担当してるんだ。へへ……明日、こっそり月ノ石持っていって、中に入れよっと……\
+",
                 ["TextMapId"] = "READ_TEXT_20616",
             },
             ["READ_TEXT_20617"] = {
@@ -22182,43 +22576,39 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_12002",
             },
             ["RESOURCE_DESC_12003"] = {
-                ["ContentJP"] = "使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
+                ["ContentJP"] = "設計図に基づき製造された「紅葉の一滴」のパーツ。使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
                 ["TextMapId"] = "RESOURCE_DESC_12003",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_12004", MaxKey = "RESOURCE_DESC_207", Loader = function()
-        return {
             ["RESOURCE_DESC_12004"] = {
-                ["ContentJP"] = "まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
+                ["ContentJP"] = "設計図に基づき製造された「紅葉の一滴」のパーツ。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
                 ["TextMapId"] = "RESOURCE_DESC_12004",
             },
             ["RESOURCE_DESC_12005"] = {
-                ["ContentJP"] = "使用者の希望が形状に反映されている。強さこそが戦場で唯一無二の存在となる資格なのだ。",
+                ["ContentJP"] = "設計図に基づき製造された「紅葉の一滴」のパーツ。使用者の希望が形状に反映されている。強さこそが戦場で唯一無二の存在となる資格なのだ。",
                 ["TextMapId"] = "RESOURCE_DESC_12005",
             },
             ["RESOURCE_DESC_12006"] = {
-                ["ContentJP"] = "引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
+                ["ContentJP"] = "設計図に基づき製造された「星々の裁き」のパーツ。引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
                 ["TextMapId"] = "RESOURCE_DESC_12006",
             },
             ["RESOURCE_DESC_12007"] = {
-                ["ContentJP"] = "鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
+                ["ContentJP"] = "設計図に基づき製造された「星々の裁き」のパーツ。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12007",
             },
             ["RESOURCE_DESC_12008"] = {
-                ["ContentJP"] = "弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
+                ["ContentJP"] = "設計図に基づき製造された「星々の裁き」のパーツ。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12008",
             },
             ["RESOURCE_DESC_12009"] = {
-                ["ContentJP"] = "引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
+                ["ContentJP"] = "設計図に基づき製造された「サイレントソウアー」のパーツ。引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
                 ["TextMapId"] = "RESOURCE_DESC_12009",
             },
             ["RESOURCE_DESC_12010"] = {
-                ["ContentJP"] = "鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
+                ["ContentJP"] = "設計図に基づき製造された「サイレントソウアー」のパーツ。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12010",
             },
             ["RESOURCE_DESC_12011"] = {
-                ["ContentJP"] = "弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
+                ["ContentJP"] = "設計図に基づき製造された「サイレントソウアー」のパーツ。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12011",
             },
             ["RESOURCE_DESC_12012"] = {
@@ -22234,31 +22624,31 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_12014",
             },
             ["RESOURCE_DESC_12015"] = {
-                ["ContentJP"] = "引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
+                ["ContentJP"] = "設計図に基づき製造された「夜明け」のパーツ。引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
                 ["TextMapId"] = "RESOURCE_DESC_12015",
             },
             ["RESOURCE_DESC_12016"] = {
-                ["ContentJP"] = "鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
+                ["ContentJP"] = "設計図に基づき製造された「夜明け」のパーツ。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12016",
             },
             ["RESOURCE_DESC_12017"] = {
-                ["ContentJP"] = "弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
+                ["ContentJP"] = "設計図に基づき製造された「夜明け」のパーツ。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12017",
             },
             ["RESOURCE_DESC_12018"] = {
-                ["ContentJP"] = "飛び跳ねる直前のバネのような反発力を持ち、ほんの少し触れるだけで、溜まった力が一気に解放される。",
+                ["ContentJP"] = "設計図に基づき製造された「エムブラの花」のパーツ。飛び跳ねる直前のバネのような反発力を持ち、ほんの少し触れるだけで、溜まった力が一気に解放される。",
                 ["TextMapId"] = "RESOURCE_DESC_12018",
             },
             ["RESOURCE_DESC_12019"] = {
-                ["ContentJP"] = "調和の取れた曲線が、圧縮強度と耐屈曲性を実現し、力の伝達もより集中的かつ効率的になっている。",
+                ["ContentJP"] = "設計図に基づき製造された「エムブラの花」のパーツ。調和の取れた曲線が、圧縮強度と耐屈曲性を実現し、力の伝達もより集中的かつ効率的になっている。",
                 ["TextMapId"] = "RESOURCE_DESC_12019",
             },
             ["RESOURCE_DESC_12020"] = {
-                ["ContentJP"] = "調和の取れた曲線が、圧縮強度と耐屈曲性を実現し、力の伝達もより集中的かつ効率的になっている。",
+                ["ContentJP"] = "設計図に基づき製造された「エムブラの花」のパーツ。調和の取れた曲線が、圧縮強度と耐屈曲性を実現し、力の伝達もより集中的かつ効率的になっている。",
                 ["TextMapId"] = "RESOURCE_DESC_12020",
             },
             ["RESOURCE_DESC_12021"] = {
-                ["ContentJP"] = "強度と剛性を兼ね備え、精度とパワーも優れている。それは、経験豊富な舵手のように、放たれた弓を正しい軌道へと導く。",
+                ["ContentJP"] = "設計図に基づき製造された「エムブラの花」のパーツ。強度と剛性を兼ね備え、精度とパワーも優れている。それは、経験豊富な舵手のように、放たれた弓を正しい軌道へと導く。",
                 ["TextMapId"] = "RESOURCE_DESC_12021",
             },
             ["RESOURCE_DESC_12022"] = {
@@ -22286,35 +22676,35 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_12027",
             },
             ["RESOURCE_DESC_12028"] = {
-                ["ContentJP"] = "引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
+                ["ContentJP"] = "設計図に基づき製造された「エントロピーゼロ」のパーツ引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
                 ["TextMapId"] = "RESOURCE_DESC_12028",
             },
             ["RESOURCE_DESC_12029"] = {
-                ["ContentJP"] = "鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
+                ["ContentJP"] = "設計図に基づき製造された「エントロピーゼロ」のパーツ鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12029",
             },
             ["RESOURCE_DESC_12030"] = {
-                ["ContentJP"] = "弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
+                ["ContentJP"] = "設計図に基づき製造された「エントロピーゼロ」のパーツ弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12030",
             },
             ["RESOURCE_DESC_12031"] = {
-                ["ContentJP"] = "設計図に基づき製造された「マリスプルサーレ」のパーツ。使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
+                ["ContentJP"] = "設計図に基づき製造された「マリスプルサーレ」のパーツ。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12031",
             },
             ["RESOURCE_DESC_12032"] = {
-                ["ContentJP"] = "設計図に基づき製造された「マリスプルサーレ」のパーツ。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
+                ["ContentJP"] = "設計図に基づき製造された「マリスプルサーレ」のパーツ。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12032",
             },
             ["RESOURCE_DESC_12033"] = {
-                ["ContentJP"] = "引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
+                ["ContentJP"] = "設計図に基づき製造された「アートオブバースト」のパーツ。引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
                 ["TextMapId"] = "RESOURCE_DESC_12033",
             },
             ["RESOURCE_DESC_12034"] = {
-                ["ContentJP"] = "鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
+                ["ContentJP"] = "設計図に基づき製造された「アートオブバースト」のパーツ。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12034",
             },
             ["RESOURCE_DESC_12035"] = {
-                ["ContentJP"] = "弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
+                ["ContentJP"] = "設計図に基づき製造された「アートオブバースト」のパーツ。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12035",
             },
             ["RESOURCE_DESC_12036"] = {
@@ -22350,27 +22740,27 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_12043",
             },
             ["RESOURCE_DESC_12044"] = {
-                ["ContentJP"] = "使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
+                ["ContentJP"] = "設計図に基づき製造された「エクソダスファング」のパーツ。使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
                 ["TextMapId"] = "RESOURCE_DESC_12044",
             },
             ["RESOURCE_DESC_12045"] = {
-                ["ContentJP"] = "まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
+                ["ContentJP"] = "設計図に基づき製造された「エクソダスファング」のパーツ。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
                 ["TextMapId"] = "RESOURCE_DESC_12045",
             },
             ["RESOURCE_DESC_12046"] = {
-                ["ContentJP"] = "まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
+                ["ContentJP"] = "設計図に基づき製造された「エクソダスファング」のパーツ。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
                 ["TextMapId"] = "RESOURCE_DESC_12046",
             },
             ["RESOURCE_DESC_12047"] = {
-                ["ContentJP"] = "引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
+                ["ContentJP"] = "設計図に基づき製造された「帰墟棘輪」のパーツ。引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
                 ["TextMapId"] = "RESOURCE_DESC_12047",
             },
             ["RESOURCE_DESC_12048"] = {
-                ["ContentJP"] = "鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
+                ["ContentJP"] = "設計図に基づき製造された「帰墟棘輪」のパーツ。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12048",
             },
             ["RESOURCE_DESC_12049"] = {
-                ["ContentJP"] = "弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
+                ["ContentJP"] = "設計図に基づき製造された「帰墟棘輪」のパーツ。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12049",
             },
             ["RESOURCE_DESC_12050"] = {
@@ -22394,19 +22784,19 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_12054",
             },
             ["RESOURCE_DESC_12055"] = {
-                ["ContentJP"] = "使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
+                ["ContentJP"] = "設計図に基づき製造された「永久の決別」のパーツ。使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
                 ["TextMapId"] = "RESOURCE_DESC_12055",
             },
             ["RESOURCE_DESC_12056"] = {
-                ["ContentJP"] = "まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
+                ["ContentJP"] = "設計図に基づき製造された「永久の決別」のパーツ。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
                 ["TextMapId"] = "RESOURCE_DESC_12056",
             },
             ["RESOURCE_DESC_12057"] = {
-                ["ContentJP"] = "使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
+                ["ContentJP"] = "設計図に基づき製造された「恩恵の雨」のパーツ。使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
                 ["TextMapId"] = "RESOURCE_DESC_12057",
             },
             ["RESOURCE_DESC_12058"] = {
-                ["ContentJP"] = "まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
+                ["ContentJP"] = "設計図に基づき製造された「恩恵の雨」のパーツ。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
                 ["TextMapId"] = "RESOURCE_DESC_12058",
             },
             ["RESOURCE_DESC_12059"] = {
@@ -22422,27 +22812,27 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_12061",
             },
             ["RESOURCE_DESC_12062"] = {
-                ["ContentJP"] = "引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
+                ["ContentJP"] = "設計図に基づき製造された「若華の飛光」のパーツ。引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
                 ["TextMapId"] = "RESOURCE_DESC_12062",
             },
             ["RESOURCE_DESC_12063"] = {
-                ["ContentJP"] = "鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
+                ["ContentJP"] = "設計図に基づき製造された「若華の飛光」のパーツ。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12063",
             },
             ["RESOURCE_DESC_12064"] = {
-                ["ContentJP"] = "弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
+                ["ContentJP"] = "設計図に基づき製造された「若華の飛光」のパーツ。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12064",
             },
             ["RESOURCE_DESC_12065"] = {
-                ["ContentJP"] = "引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
+                ["ContentJP"] = "設計図に基づき製造された「夢の羽根」のパーツ。引き金を引けばもう後戻りはできない。――決意を下す瞬間のように。",
                 ["TextMapId"] = "RESOURCE_DESC_12065",
             },
             ["RESOURCE_DESC_12066"] = {
-                ["ContentJP"] = "鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
+                ["ContentJP"] = "設計図に基づき製造された「夢の羽根」のパーツ。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12066",
             },
             ["RESOURCE_DESC_12067"] = {
-                ["ContentJP"] = "弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
+                ["ContentJP"] = "設計図に基づき製造された「夢の羽根」のパーツ。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12067",
             },
             ["RESOURCE_DESC_12068"] = {
@@ -22566,11 +22956,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_12097",
             },
             ["RESOURCE_DESC_12098"] = {
-                ["ContentJP"] = "設計図どおりに精密に造られた聖音の部品。使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
+                ["ContentJP"] = "設計図どおりに精密に造られた聖音の部品。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12098",
             },
             ["RESOURCE_DESC_12099"] = {
-                ["ContentJP"] = "設計図どおりに精密に造られた聖音の部品。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
+                ["ContentJP"] = "設計図どおりに精密に造られた聖音の部品。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12099",
             },
             ["RESOURCE_DESC_121"] = {
@@ -22625,6 +23015,10 @@ C区 アニタ\
                 ["ContentJP"] = "設計図どおりに精密に造られた朽滅の部品。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
                 ["TextMapId"] = "RESOURCE_DESC_12111",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_12112", MaxKey = "RESOURCE_DESC_5210300", Loader = function()
+        return {
             ["RESOURCE_DESC_12112"] = {
                 ["ContentJP"] = "設計図どおりに精密に造られた焦渇ノ牙の部品。使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
                 ["TextMapId"] = "RESOURCE_DESC_12112",
@@ -22666,11 +23060,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_12121",
             },
             ["RESOURCE_DESC_12122"] = {
-                ["ContentJP"] = "設計図どおりに精密に造られた繰生ノ爪の部品。使用者が一番よく触れる部分で、「使いやすさ」を最優先に設計されている。",
+                ["ContentJP"] = "設計図どおりに精密に造られた繰生ノ爪の部品。鋼鉄製で非常に硬い。弾丸が空になっても鈍器や投げ道具として使用できる。",
                 ["TextMapId"] = "RESOURCE_DESC_12122",
             },
             ["RESOURCE_DESC_12123"] = {
-                ["ContentJP"] = "設計図どおりに精密に造られた繰生ノ爪の部品。まっすぐであろうと、弧を描いていようと、重かろうが軽かろうが、すべての鋭い刃は戦いのために生まれた。",
+                ["ContentJP"] = "設計図どおりに精密に造られた繰生ノ爪の部品。弾丸が飛び出すとき、射撃手の心は銃身と同じくらい熱くなる。",
                 ["TextMapId"] = "RESOURCE_DESC_12123",
             },
             ["RESOURCE_DESC_12124"] = {
@@ -22998,10 +23392,6 @@ C区 アニタ\
 「ノクトボイジャー」が月狩り人のなかで頭角を現すにつれて指名依頼が増えてきた。つまり仕事が忙しくなったが、その分報酬もアップした。",
                 ["TextMapId"] = "RESOURCE_DESC_207",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_208", MaxKey = "RESOURCE_NAME_10013", Loader = function()
-        return {
             ["RESOURCE_DESC_208"] = {
                 ["ContentJP"] = "手帳に記載された依頼は報酬が800%アップ。\
 「ノクトボイジャー」が月狩り人のなかで頭角を現すにつれて指名依頼が増えてきた。つまり仕事が忙しくなったが、その分報酬もアップした。",
@@ -23029,7 +23419,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_213",
             },
             ["RESOURCE_DESC_214"] = {
-                ["ContentJP"] = "オペラチケットの半券。半券を持っていれば、記念品ショップでアイテムと交換できる。",
+                ["ContentJP"] = "オペラチケットの半券。「イベント」‐「体験型劇場」‐「観劇記念ショップ」でアイテムと交換できる。",
                 ["TextMapId"] = "RESOURCE_DESC_214",
             },
             ["RESOURCE_DESC_215"] = {
@@ -23037,15 +23427,15 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_215",
             },
             ["RESOURCE_DESC_29001"] = {
-                ["ContentJP"] = "パーガトリー島の各地で集めた徽章。一定数を集めてアイスレイク城の広場にいるルーナ族の探検家に渡すことで、探検における勇気・知恵・忍耐力の証として、さまざまな報酬と交換できる。",
+                ["ContentJP"] = "パーガトリー島の各地で集めた探検の証。一定数を集めてアイスレイク城の広場にいるルーナ族の探検家に渡すことで、探検における勇気・知恵・忍耐力の証として、さまざまな報酬と交換できる。",
                 ["TextMapId"] = "RESOURCE_DESC_29001",
             },
             ["RESOURCE_DESC_29002"] = {
-                ["ContentJP"] = "アイスレイク城の各地で集めた徽章。一定数を集めてアイスレイク城の広場にいるルーナ族の探検家に渡すことで、探検における勇気・知恵・忍耐力の証として、さまざまな報酬と交換できる。",
+                ["ContentJP"] = "アイスレイク城の各地で集めた探検の証。一定数を集めてアイスレイク城の広場にいるルーナ族の探検家に渡すことで、探検における勇気・知恵・忍耐力の証として、さまざまな報酬と交換できる。",
                 ["TextMapId"] = "RESOURCE_DESC_29002",
             },
             ["RESOURCE_DESC_29003"] = {
-                ["ContentJP"] = "ロンザ要塞の各地で集めた徽章。一定数を集めてアイスレイク城の広場にいるルーナ族の探検家に渡すことで、探検における勇気・知恵・忍耐力の証として、さまざまな報酬と交換できる。",
+                ["ContentJP"] = "ロンザ要塞の各地で集めた探検の証。一定数を集めてアイスレイク城の広場にいるルーナ族の探検家に渡すことで、探検における勇気・知恵・忍耐力の証として、さまざまな報酬と交換できる。",
                 ["TextMapId"] = "RESOURCE_DESC_29003",
             },
             ["RESOURCE_DESC_3000001"] = {
@@ -23077,7 +23467,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_3000007",
             },
             ["RESOURCE_DESC_3000008"] = {
-                ["ContentJP"] = "サイキから送られた花。彼女の手のひらのぬくもりがまだ残っているようだ。",
+                ["ContentJP"] = "サイキからもらった花。彼女の手のひらのぬくもりがまだ残っているようだ。",
                 ["TextMapId"] = "RESOURCE_DESC_3000008",
             },
             ["RESOURCE_DESC_3000009"] = {
@@ -23106,18 +23496,18 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_DESC_3001",
             },
             ["RESOURCE_DESC_3002"] = {
-                ["ContentJP"] = "ジェネモンの大好物。ジェネモンの捕獲に使用できる。\
+                ["ContentJP"] = "ジェネモンの大好物。ジェネモンの給餌に使用できる。\
 その名の通り、もしジェネモンが話せるなら、きっと「すごい、うまうま！」と叫ぶだろう。",
                 ["TextMapId"] = "RESOURCE_DESC_3002",
             },
             ["RESOURCE_DESC_3003"] = {
-                ["ContentJP"] = "ジェネモンの大好物。ジェネモンの捕獲に使用できる。\
+                ["ContentJP"] = "ジェネモンの大好物。ジェネモンの給餌に使用できる。\
 その名の通り、もしジェネモンが話せるなら、きっと「すごい、うまうま！」と叫ぶだろう。",
                 ["TextMapId"] = "RESOURCE_DESC_3003",
             },
             ["RESOURCE_DESC_3004"] = {
                 ["ContentJP"] = "ジェネモンの大好物の栄養剤。ジェネモンのレベルアップに使用できる。使用すると経験値100アップする。\
-その名の通り、もしジェネモンが話せるなら、きっと「すごい！」と叫ぶだろう。",
+その名の通り、もしジェネモンが話せるなら、きっと「うまい！」と叫ぶだろう。",
                 ["TextMapId"] = "RESOURCE_DESC_3004",
             },
             ["RESOURCE_DESC_3005"] = {
@@ -23453,8 +23843,12 @@ C区 アニタ\
                 ["ContentJP"] = "変異種の食いつき率を高める特別な餌。見た目はただの金属片だが、その光沢のせいか、変異種の目にはたまらなく魅力的に映るらしい。",
                 ["TextMapId"] = "RESOURCE_DESC_5210300",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_5210400", MaxKey = "RESOURCE_NAME_12005", Loader = function()
+        return {
             ["RESOURCE_DESC_5210400"] = {
-                ["ContentJP"] = "変異種を釣り上げる確率を高める特別な餌。見た目は地味だが、原材料は一級品。ひとたび味わえば、どんな偏食の魚でも完食せずにはいられない。",
+                ["ContentJP"] = "レア魚種を釣り上げる確率を高める特別な餌。見た目は地味だが、原材料は一級品。ひとたび味わえば、どんな偏食の魚でも完食せずにはいられない。",
                 ["TextMapId"] = "RESOURCE_DESC_5210400",
             },
             ["RESOURCE_DESC_6000001"] = {
@@ -23621,7 +24015,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_FUNCTION_CHARPOL",
             },
             ["RESOURCE_FUNCTION_CHAR_EXP"] = {
-                ["ContentJP"] = "キャラクターExp用素材",
+                ["ContentJP"] = "キャラクターExpを上げる素材",
                 ["TextMapId"] = "RESOURCE_FUNCTION_CHAR_EXP",
             },
             ["RESOURCE_FUNCTION_COIN"] = {
@@ -23637,15 +24031,15 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_FUNCTION_DYE",
             },
             ["RESOURCE_FUNCTION_FISHINGLURE_1"] = {
-                ["ContentJP"] = "[釣り]に使用する普通のエサ。",
+                ["ContentJP"] = "「釣り」に使用する普通のエサ。",
                 ["TextMapId"] = "RESOURCE_FUNCTION_FISHINGLURE_1",
             },
             ["RESOURCE_FUNCTION_FISHINGLURE_2"] = {
-                ["ContentJP"] = "[釣り]に使用する希少なエサ。",
+                ["ContentJP"] = "「釣り」に使用する希少なエサ。",
                 ["TextMapId"] = "RESOURCE_FUNCTION_FISHINGLURE_2",
             },
             ["RESOURCE_FUNCTION_FISHINGROD"] = {
-                ["ContentJP"] = "[釣り]に使用する釣り竿。",
+                ["ContentJP"] = "「釣り」に使用する釣り竿。",
                 ["TextMapId"] = "RESOURCE_FUNCTION_FISHINGROD",
             },
             ["RESOURCE_FUNCTION_FISH_1"] = {
@@ -23705,7 +24099,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_FUNCTION_PETEXP",
             },
             ["RESOURCE_FUNCTION_PETFOOD"] = {
-                ["ContentJP"] = "ジェネモンの捕獲に使用可能",
+                ["ContentJP"] = "ジェネモンの給餌に使用可能",
                 ["TextMapId"] = "RESOURCE_FUNCTION_PETFOOD",
             },
             ["RESOURCE_FUNCTION_PHANTOM"] = {
@@ -23713,7 +24107,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_FUNCTION_PHANTOM",
             },
             ["RESOURCE_FUNCTION_PLAYEREXP"] = {
-                ["ContentJP"] = "冒険レベルを上げるために使用できる。",
+                ["ContentJP"] = "冒険レベルを上げることができる。",
                 ["TextMapId"] = "RESOURCE_FUNCTION_PLAYEREXP",
             },
             ["RESOURCE_FUNCTION_RARECOIN"] = {
@@ -23741,7 +24135,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_FUNCTION_WEAPONPOL",
             },
             ["RESOURCE_FUNCTION_WEAPON_EXP"] = {
-                ["ContentJP"] = "武器Exp用素材",
+                ["ContentJP"] = "武器Expを上げる素材",
                 ["TextMapId"] = "RESOURCE_FUNCTION_WEAPON_EXP",
             },
             ["RESOURCE_FUNCTION_XIANSHIZHUIMI"] = {
@@ -23806,12 +24200,16 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10011",
             },
             ["RESOURCE_NAME_1001101"] = {
-                ["ContentJP"] = "ルート・ベレニカ",
+                ["ContentJP"] = "ルート‐ベレニカ",
                 ["TextMapId"] = "RESOURCE_NAME_1001101",
             },
             ["RESOURCE_NAME_1001103"] = {
-                ["ContentJP"] = "ルート・ファンタジオ",
+                ["ContentJP"] = "ルート‐ファンタジオ",
                 ["TextMapId"] = "RESOURCE_NAME_1001103",
+            },
+            ["RESOURCE_NAME_1001104"] = {
+                ["ContentJP"] = "ルート・キョウン",
+                ["TextMapId"] = "RESOURCE_NAME_1001104",
             },
             ["RESOURCE_NAME_10012"] = {
                 ["ContentJP"] = "氷川の涙石",
@@ -23821,10 +24219,6 @@ C区 アニタ\
                 ["ContentJP"] = "雷針",
                 ["TextMapId"] = "RESOURCE_NAME_10013",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_10014", MaxKey = "RESOURCE_NAME_12098", Loader = function()
-        return {
             ["RESOURCE_NAME_10014"] = {
                 ["ContentJP"] = "雷夜の隕石",
                 ["TextMapId"] = "RESOURCE_NAME_10014",
@@ -23834,15 +24228,15 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10015",
             },
             ["RESOURCE_NAME_1001501"] = {
-                ["ContentJP"] = "ルート・リズベル",
+                ["ContentJP"] = "ルート‐リズベル",
                 ["TextMapId"] = "RESOURCE_NAME_1001501",
             },
             ["RESOURCE_NAME_1001502"] = {
-                ["ContentJP"] = "ルート・ニフル夫人",
+                ["ContentJP"] = "ルート‐ニフル夫人",
                 ["TextMapId"] = "RESOURCE_NAME_1001502",
             },
             ["RESOURCE_NAME_1001503"] = {
-                ["ContentJP"] = "ルート・カシュウ",
+                ["ContentJP"] = "ルート‐カシュウ",
                 ["TextMapId"] = "RESOURCE_NAME_1001503",
             },
             ["RESOURCE_NAME_10016"] = {
@@ -23858,7 +24252,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10018",
             },
             ["RESOURCE_NAME_1001801"] = {
-                ["ContentJP"] = "ルート・フィーナ",
+                ["ContentJP"] = "ルート‐フィーナ",
                 ["TextMapId"] = "RESOURCE_NAME_1001801",
             },
             ["RESOURCE_NAME_10019"] = {
@@ -23878,7 +24272,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10021",
             },
             ["RESOURCE_NAME_1002101"] = {
-                ["ContentJP"] = "ルート・レベッカ",
+                ["ContentJP"] = "ルート‐レベッカ",
                 ["TextMapId"] = "RESOURCE_NAME_1002101",
             },
             ["RESOURCE_NAME_10022"] = {
@@ -23890,7 +24284,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10023",
             },
             ["RESOURCE_NAME_1002301"] = {
-                ["ContentJP"] = "ルート・タビテ",
+                ["ContentJP"] = "ルート‐タビテ",
                 ["TextMapId"] = "RESOURCE_NAME_1002301",
             },
             ["RESOURCE_NAME_10024"] = {
@@ -23898,7 +24292,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10024",
             },
             ["RESOURCE_NAME_1002401"] = {
-                ["ContentJP"] = "ルート・フーシュ",
+                ["ContentJP"] = "ルート‐フーシュ",
                 ["TextMapId"] = "RESOURCE_NAME_1002401",
             },
             ["RESOURCE_NAME_1003"] = {
@@ -23906,23 +24300,23 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_1003",
             },
             ["RESOURCE_NAME_1003101"] = {
-                ["ContentJP"] = "ルート・リーン",
+                ["ContentJP"] = "ルート‐リーン",
                 ["TextMapId"] = "RESOURCE_NAME_1003101",
             },
             ["RESOURCE_NAME_1003102"] = {
-                ["ContentJP"] = "ルート・ヒルダ",
+                ["ContentJP"] = "ルート‐ヒルダ",
                 ["TextMapId"] = "RESOURCE_NAME_1003102",
             },
             ["RESOURCE_NAME_1003103"] = {
-                ["ContentJP"] = "ルート・イェール＆オリバー",
+                ["ContentJP"] = "ルート‐イェール＆オリバー",
                 ["TextMapId"] = "RESOURCE_NAME_1003103",
             },
             ["RESOURCE_NAME_1003201"] = {
-                ["ContentJP"] = "ルート・ヘルファイア",
+                ["ContentJP"] = "ルート‐ヘルファイア",
                 ["TextMapId"] = "RESOURCE_NAME_1003201",
             },
             ["RESOURCE_NAME_1003301"] = {
-                ["ContentJP"] = "ルート・マギー",
+                ["ContentJP"] = "ルート‐マギー",
                 ["TextMapId"] = "RESOURCE_NAME_1003301",
             },
             ["RESOURCE_NAME_1004"] = {
@@ -23930,23 +24324,23 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_1004",
             },
             ["RESOURCE_NAME_1004101"] = {
-                ["ContentJP"] = "ルート・リズム",
+                ["ContentJP"] = "ルート‐リズム",
                 ["TextMapId"] = "RESOURCE_NAME_1004101",
             },
             ["RESOURCE_NAME_1004102"] = {
-                ["ContentJP"] = "ルート・シリュウ",
+                ["ContentJP"] = "ルート‐シリュウ",
                 ["TextMapId"] = "RESOURCE_NAME_1004102",
             },
             ["RESOURCE_NAME_1004201"] = {
-                ["ContentJP"] = "ルート・ユーミン",
+                ["ContentJP"] = "ルート‐ユーミン",
                 ["TextMapId"] = "RESOURCE_NAME_1004201",
             },
             ["RESOURCE_NAME_1004202"] = {
-                ["ContentJP"] = "ルート・ランディー",
+                ["ContentJP"] = "ルート‐ランディー",
                 ["TextMapId"] = "RESOURCE_NAME_1004202",
             },
             ["RESOURCE_NAME_1004301"] = {
-                ["ContentJP"] = "ルート・シビル",
+                ["ContentJP"] = "ルート‐シビル",
                 ["TextMapId"] = "RESOURCE_NAME_1004301",
             },
             ["RESOURCE_NAME_1005"] = {
@@ -23954,19 +24348,19 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_1005",
             },
             ["RESOURCE_NAME_1005101"] = {
-                ["ContentJP"] = "ルート・トリュフ",
+                ["ContentJP"] = "ルート‐トリュフ",
                 ["TextMapId"] = "RESOURCE_NAME_1005101",
             },
             ["RESOURCE_NAME_1005102"] = {
-                ["ContentJP"] = "ルート・アウトサイダー",
+                ["ContentJP"] = "ルート‐アウトサイダー",
                 ["TextMapId"] = "RESOURCE_NAME_1005102",
             },
             ["RESOURCE_NAME_1005301"] = {
-                ["ContentJP"] = "ルート・サイキ",
+                ["ContentJP"] = "ルート‐サイキ",
                 ["TextMapId"] = "RESOURCE_NAME_1005301",
             },
             ["RESOURCE_NAME_1005401"] = {
-                ["ContentJP"] = "ルート・ダフネ",
+                ["ContentJP"] = "ルート‐ダフネ",
                 ["TextMapId"] = "RESOURCE_NAME_1005401",
             },
             ["RESOURCE_NAME_101"] = {
@@ -23994,95 +24388,99 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10104",
             },
             ["RESOURCE_NAME_1011101"] = {
-                ["ContentJP"] = "シジル・ベレニカ",
+                ["ContentJP"] = "シジル‐ベレニカ",
                 ["TextMapId"] = "RESOURCE_NAME_1011101",
             },
             ["RESOURCE_NAME_1011103"] = {
-                ["ContentJP"] = "シジル・ファンタジオ",
+                ["ContentJP"] = "シジル‐ファンタジオ",
                 ["TextMapId"] = "RESOURCE_NAME_1011103",
             },
+            ["RESOURCE_NAME_1011104"] = {
+                ["ContentJP"] = "シジル・キョウン",
+                ["TextMapId"] = "RESOURCE_NAME_1011104",
+            },
             ["RESOURCE_NAME_1011501"] = {
-                ["ContentJP"] = "シジル・リズベル",
+                ["ContentJP"] = "シジル‐リズベル",
                 ["TextMapId"] = "RESOURCE_NAME_1011501",
             },
             ["RESOURCE_NAME_1011502"] = {
-                ["ContentJP"] = "シジル・ニフル夫人",
+                ["ContentJP"] = "シジル‐ニフル夫人",
                 ["TextMapId"] = "RESOURCE_NAME_1011502",
             },
             ["RESOURCE_NAME_1011503"] = {
-                ["ContentJP"] = "シジル・カシュウ",
+                ["ContentJP"] = "シジル‐カシュウ",
                 ["TextMapId"] = "RESOURCE_NAME_1011503",
             },
             ["RESOURCE_NAME_1011801"] = {
-                ["ContentJP"] = "シジル・フィーナ",
+                ["ContentJP"] = "シジル‐フィーナ",
                 ["TextMapId"] = "RESOURCE_NAME_1011801",
             },
             ["RESOURCE_NAME_1012101"] = {
-                ["ContentJP"] = "シジル・レベッカ",
+                ["ContentJP"] = "シジル‐レベッカ",
                 ["TextMapId"] = "RESOURCE_NAME_1012101",
             },
             ["RESOURCE_NAME_1012301"] = {
-                ["ContentJP"] = "シジル・タビテ",
+                ["ContentJP"] = "シジル‐タビテ",
                 ["TextMapId"] = "RESOURCE_NAME_1012301",
             },
             ["RESOURCE_NAME_1012401"] = {
-                ["ContentJP"] = "シジル・フーシュ",
+                ["ContentJP"] = "シジル‐フーシュ",
                 ["TextMapId"] = "RESOURCE_NAME_1012401",
             },
             ["RESOURCE_NAME_1013101"] = {
-                ["ContentJP"] = "シジル・リーン",
+                ["ContentJP"] = "シジル‐リーン",
                 ["TextMapId"] = "RESOURCE_NAME_1013101",
             },
             ["RESOURCE_NAME_1013102"] = {
-                ["ContentJP"] = "シジル・ヒルダ",
+                ["ContentJP"] = "シジル‐ヒルダ",
                 ["TextMapId"] = "RESOURCE_NAME_1013102",
             },
             ["RESOURCE_NAME_1013103"] = {
-                ["ContentJP"] = "シジル・イェール＆オリバー",
+                ["ContentJP"] = "シジル‐イェール＆オリバー",
                 ["TextMapId"] = "RESOURCE_NAME_1013103",
             },
             ["RESOURCE_NAME_1013201"] = {
-                ["ContentJP"] = "シジル・ヘルファイア",
+                ["ContentJP"] = "シジル‐ヘルファイア",
                 ["TextMapId"] = "RESOURCE_NAME_1013201",
             },
             ["RESOURCE_NAME_1013301"] = {
-                ["ContentJP"] = "シジル・マギー",
+                ["ContentJP"] = "シジル‐マギー",
                 ["TextMapId"] = "RESOURCE_NAME_1013301",
             },
             ["RESOURCE_NAME_1014101"] = {
-                ["ContentJP"] = "シジル・リズム",
+                ["ContentJP"] = "シジル‐リズム",
                 ["TextMapId"] = "RESOURCE_NAME_1014101",
             },
             ["RESOURCE_NAME_1014102"] = {
-                ["ContentJP"] = "シジル・シリュウ",
+                ["ContentJP"] = "シジル‐シリュウ",
                 ["TextMapId"] = "RESOURCE_NAME_1014102",
             },
             ["RESOURCE_NAME_1014201"] = {
-                ["ContentJP"] = "シジル・ユーミン",
+                ["ContentJP"] = "シジル‐ユーミン",
                 ["TextMapId"] = "RESOURCE_NAME_1014201",
             },
             ["RESOURCE_NAME_1014202"] = {
-                ["ContentJP"] = "シジル・ランディー",
+                ["ContentJP"] = "シジル‐ランディー",
                 ["TextMapId"] = "RESOURCE_NAME_1014202",
             },
             ["RESOURCE_NAME_1014301"] = {
-                ["ContentJP"] = "シジル・シビル",
+                ["ContentJP"] = "シジル‐シビル",
                 ["TextMapId"] = "RESOURCE_NAME_1014301",
             },
             ["RESOURCE_NAME_1015101"] = {
-                ["ContentJP"] = "シジル・トリュフ",
+                ["ContentJP"] = "シジル‐トリュフ",
                 ["TextMapId"] = "RESOURCE_NAME_1015101",
             },
             ["RESOURCE_NAME_1015102"] = {
-                ["ContentJP"] = "シジル・アウトサイダー",
+                ["ContentJP"] = "シジル‐アウトサイダー",
                 ["TextMapId"] = "RESOURCE_NAME_1015102",
             },
             ["RESOURCE_NAME_1015301"] = {
-                ["ContentJP"] = "シジル・サイキ",
+                ["ContentJP"] = "シジル‐サイキ",
                 ["TextMapId"] = "RESOURCE_NAME_1015301",
             },
             ["RESOURCE_NAME_1015401"] = {
-                ["ContentJP"] = "シジル・ダフネ",
+                ["ContentJP"] = "シジル‐ダフネ",
                 ["TextMapId"] = "RESOURCE_NAME_1015401",
             },
             ["RESOURCE_NAME_102"] = {
@@ -24114,7 +24512,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10205",
             },
             ["RESOURCE_NAME_10206"] = {
-                ["ContentJP"] = "一本の薬草",
+                ["ContentJP"] = "一本の碧薷（ヘキジュ）",
                 ["TextMapId"] = "RESOURCE_NAME_10206",
             },
             ["RESOURCE_NAME_10207"] = {
@@ -24126,11 +24524,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_10208",
             },
             ["RESOURCE_NAME_10209"] = {
-                ["ContentJP"] = "矢尻",
+                ["ContentJP"] = "流光の矢",
                 ["TextMapId"] = "RESOURCE_NAME_10209",
             },
             ["RESOURCE_NAME_10210"] = {
-                ["ContentJP"] = "スコープ",
+                ["ContentJP"] = "流光のスコープ",
                 ["TextMapId"] = "RESOURCE_NAME_10210",
             },
             ["RESOURCE_NAME_10211"] = {
@@ -24142,11 +24540,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_103",
             },
             ["RESOURCE_NAME_104"] = {
-                ["ContentJP"] = "ルーナ族の記念コイン",
+                ["ContentJP"] = "1冊の楽譜",
                 ["TextMapId"] = "RESOURCE_NAME_104",
             },
             ["RESOURCE_NAME_105"] = {
-                ["ContentJP"] = "ルーナ族の記念コイン・夜明けへの旅",
+                ["ContentJP"] = "ルーナ族の記念コイン‐夜明けへの旅",
                 ["TextMapId"] = "RESOURCE_NAME_105",
             },
             ["RESOURCE_NAME_110"] = {
@@ -24154,75 +24552,75 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_110",
             },
             ["RESOURCE_NAME_11001"] = {
-                ["ContentJP"] = "初級武器パーツ・柄",
+                ["ContentJP"] = "初級武器パーツ‐柄",
                 ["TextMapId"] = "RESOURCE_NAME_11001",
             },
             ["RESOURCE_NAME_11002"] = {
-                ["ContentJP"] = "中級武器パーツ・柄",
+                ["ContentJP"] = "中級武器パーツ‐柄",
                 ["TextMapId"] = "RESOURCE_NAME_11002",
             },
             ["RESOURCE_NAME_11003"] = {
-                ["ContentJP"] = "上級武器パーツ・柄",
+                ["ContentJP"] = "上級武器パーツ‐柄",
                 ["TextMapId"] = "RESOURCE_NAME_11003",
             },
             ["RESOURCE_NAME_11004"] = {
-                ["ContentJP"] = "初級武器パーツ・刃",
+                ["ContentJP"] = "初級武器パーツ‐刃",
                 ["TextMapId"] = "RESOURCE_NAME_11004",
             },
             ["RESOURCE_NAME_11005"] = {
-                ["ContentJP"] = "中級武器パーツ・刃",
+                ["ContentJP"] = "中級武器パーツ‐刃",
                 ["TextMapId"] = "RESOURCE_NAME_11005",
             },
             ["RESOURCE_NAME_11006"] = {
-                ["ContentJP"] = "上級武器パーツ・刃",
+                ["ContentJP"] = "上級武器パーツ‐刃",
                 ["TextMapId"] = "RESOURCE_NAME_11006",
             },
             ["RESOURCE_NAME_11007"] = {
-                ["ContentJP"] = "初級武器パーツ・装飾",
+                ["ContentJP"] = "初級武器パーツ‐装飾",
                 ["TextMapId"] = "RESOURCE_NAME_11007",
             },
             ["RESOURCE_NAME_11008"] = {
-                ["ContentJP"] = "中級武器パーツ・装飾",
+                ["ContentJP"] = "中級武器パーツ‐装飾",
                 ["TextMapId"] = "RESOURCE_NAME_11008",
             },
             ["RESOURCE_NAME_11009"] = {
-                ["ContentJP"] = "上級武器パーツ・装飾",
+                ["ContentJP"] = "上級武器パーツ‐装飾",
                 ["TextMapId"] = "RESOURCE_NAME_11009",
             },
             ["RESOURCE_NAME_11010"] = {
-                ["ContentJP"] = "初級武器パーツ・銃身",
+                ["ContentJP"] = "初級武器パーツ‐銃身",
                 ["TextMapId"] = "RESOURCE_NAME_11010",
             },
             ["RESOURCE_NAME_11011"] = {
-                ["ContentJP"] = "中級武器パーツ・銃身",
+                ["ContentJP"] = "中級武器パーツ‐銃身",
                 ["TextMapId"] = "RESOURCE_NAME_11011",
             },
             ["RESOURCE_NAME_11012"] = {
-                ["ContentJP"] = "上級武器パーツ・銃身",
+                ["ContentJP"] = "上級武器パーツ‐銃身",
                 ["TextMapId"] = "RESOURCE_NAME_11012",
             },
             ["RESOURCE_NAME_11013"] = {
-                ["ContentJP"] = "初級武器パーツ・銃把",
+                ["ContentJP"] = "初級武器パーツ‐銃把",
                 ["TextMapId"] = "RESOURCE_NAME_11013",
             },
             ["RESOURCE_NAME_11014"] = {
-                ["ContentJP"] = "中級武器パーツ・銃把",
+                ["ContentJP"] = "中級武器パーツ‐銃把",
                 ["TextMapId"] = "RESOURCE_NAME_11014",
             },
             ["RESOURCE_NAME_11015"] = {
-                ["ContentJP"] = "上級武器パーツ・銃把",
+                ["ContentJP"] = "上級武器パーツ‐銃把",
                 ["TextMapId"] = "RESOURCE_NAME_11015",
             },
             ["RESOURCE_NAME_11016"] = {
-                ["ContentJP"] = "初級武器パーツ・銃底",
+                ["ContentJP"] = "初級武器パーツ‐銃底",
                 ["TextMapId"] = "RESOURCE_NAME_11016",
             },
             ["RESOURCE_NAME_11017"] = {
-                ["ContentJP"] = "中級武器パーツ・銃底",
+                ["ContentJP"] = "中級武器パーツ‐銃底",
                 ["TextMapId"] = "RESOURCE_NAME_11017",
             },
             ["RESOURCE_NAME_11018"] = {
-                ["ContentJP"] = "上級武器パーツ・銃底",
+                ["ContentJP"] = "上級武器パーツ‐銃底",
                 ["TextMapId"] = "RESOURCE_NAME_11018",
             },
             ["RESOURCE_NAME_111"] = {
@@ -24253,6 +24651,10 @@ C区 アニタ\
                 ["ContentJP"] = "紅葉の一滴の飾り",
                 ["TextMapId"] = "RESOURCE_NAME_12005",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_12006", MaxKey = "RESOURCE_NAME_20517", Loader = function()
+        return {
             ["RESOURCE_NAME_12006"] = {
                 ["ContentJP"] = "星々の裁きの銃把",
                 ["TextMapId"] = "RESOURCE_NAME_12006",
@@ -24354,11 +24756,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_12030",
             },
             ["RESOURCE_NAME_12031"] = {
-                ["ContentJP"] = "マリスプルサーレの柄",
+                ["ContentJP"] = "マリスプルサーレの銃底",
                 ["TextMapId"] = "RESOURCE_NAME_12031",
             },
             ["RESOURCE_NAME_12032"] = {
-                ["ContentJP"] = "マリスプルサーレの刃",
+                ["ContentJP"] = "マリスプルサーレの銃身",
                 ["TextMapId"] = "RESOURCE_NAME_12032",
             },
             ["RESOURCE_NAME_12033"] = {
@@ -24622,15 +25024,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_12097",
             },
             ["RESOURCE_NAME_12098"] = {
-                ["ContentJP"] = "聖音の柄",
+                ["ContentJP"] = "聖音の銃底",
                 ["TextMapId"] = "RESOURCE_NAME_12098",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_12099", MaxKey = "RESOURCE_NAME_5011021", Loader = function()
-        return {
             ["RESOURCE_NAME_12099"] = {
-                ["ContentJP"] = "聖音の刃",
+                ["ContentJP"] = "聖音の銃身",
                 ["TextMapId"] = "RESOURCE_NAME_12099",
             },
             ["RESOURCE_NAME_121"] = {
@@ -24726,11 +25124,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_12121",
             },
             ["RESOURCE_NAME_12122"] = {
-                ["ContentJP"] = "繰生ノ爪の柄",
+                ["ContentJP"] = "繰生ノ爪の銃底",
                 ["TextMapId"] = "RESOURCE_NAME_12122",
             },
             ["RESOURCE_NAME_12123"] = {
-                ["ContentJP"] = "繰生ノ爪の刃",
+                ["ContentJP"] = "繰生ノ爪の銃身",
                 ["TextMapId"] = "RESOURCE_NAME_12123",
             },
             ["RESOURCE_NAME_12124"] = {
@@ -24786,39 +25184,39 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_125",
             },
             ["RESOURCE_NAME_19000"] = {
-                ["ContentJP"] = "想い・万華",
+                ["ContentJP"] = "想い‐万華",
                 ["TextMapId"] = "RESOURCE_NAME_19000",
             },
             ["RESOURCE_NAME_19001"] = {
-                ["ContentJP"] = "想い・歓び",
+                ["ContentJP"] = "想い‐歓び",
                 ["TextMapId"] = "RESOURCE_NAME_19001",
             },
             ["RESOURCE_NAME_19002"] = {
-                ["ContentJP"] = "想い・悲しみ",
+                ["ContentJP"] = "想い‐悲しみ",
                 ["TextMapId"] = "RESOURCE_NAME_19002",
             },
             ["RESOURCE_NAME_19003"] = {
-                ["ContentJP"] = "想い・恐れ",
+                ["ContentJP"] = "想い‐恐れ",
                 ["TextMapId"] = "RESOURCE_NAME_19003",
             },
             ["RESOURCE_NAME_19004"] = {
-                ["ContentJP"] = "想い・怒り",
+                ["ContentJP"] = "想い‐怒り",
                 ["TextMapId"] = "RESOURCE_NAME_19004",
             },
             ["RESOURCE_NAME_19005"] = {
-                ["ContentJP"] = "想い・信頼",
+                ["ContentJP"] = "想い‐信頼",
                 ["TextMapId"] = "RESOURCE_NAME_19005",
             },
             ["RESOURCE_NAME_19006"] = {
-                ["ContentJP"] = "想い・安らぎ",
+                ["ContentJP"] = "想い‐安らぎ",
                 ["TextMapId"] = "RESOURCE_NAME_19006",
             },
             ["RESOURCE_NAME_19007"] = {
-                ["ContentJP"] = "想い・困惑",
+                ["ContentJP"] = "想い‐困惑",
                 ["TextMapId"] = "RESOURCE_NAME_19007",
             },
             ["RESOURCE_NAME_19008"] = {
-                ["ContentJP"] = "想い・渇望",
+                ["ContentJP"] = "想い‐渇望",
                 ["TextMapId"] = "RESOURCE_NAME_19008",
             },
             ["RESOURCE_NAME_20001"] = {
@@ -25057,6 +25455,10 @@ C区 アニタ\
                 ["ContentJP"] = "枯枝",
                 ["TextMapId"] = "RESOURCE_NAME_20517",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_20518", MaxKey = "RESOURCE_TEXT_101", Loader = function()
+        return {
             ["RESOURCE_NAME_20518"] = {
                 ["ContentJP"] = "女神の宝石",
                 ["TextMapId"] = "RESOURCE_NAME_20518",
@@ -25102,15 +25504,15 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_215",
             },
             ["RESOURCE_NAME_29001"] = {
-                ["ContentJP"] = "探検の証・パーガトリー島",
+                ["ContentJP"] = "探検の証‐パーガトリー島",
                 ["TextMapId"] = "RESOURCE_NAME_29001",
             },
             ["RESOURCE_NAME_29002"] = {
-                ["ContentJP"] = "探検の証・アイスレイク城",
+                ["ContentJP"] = "探検の証‐アイスレイク城",
                 ["TextMapId"] = "RESOURCE_NAME_29002",
             },
             ["RESOURCE_NAME_29003"] = {
-                ["ContentJP"] = "探検の証・ロンザ要塞",
+                ["ContentJP"] = "探検の証‐ロンザ要塞",
                 ["TextMapId"] = "RESOURCE_NAME_29003",
             },
             ["RESOURCE_NAME_3000001"] = {
@@ -25182,79 +25584,79 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_3004",
             },
             ["RESOURCE_NAME_3005"] = {
-                ["ContentJP"] = "いいうまい栄養剤",
+                ["ContentJP"] = "ウマウマ栄養剤",
                 ["TextMapId"] = "RESOURCE_NAME_3005",
             },
             ["RESOURCE_NAME_3006"] = {
-                ["ContentJP"] = "すごいうまい栄養剤",
+                ["ContentJP"] = "超ウマウマ栄養剤",
                 ["TextMapId"] = "RESOURCE_NAME_3006",
             },
             ["RESOURCE_NAME_3007"] = {
-                ["ContentJP"] = "ミャオミャオミルク",
+                ["ContentJP"] = "ウマウマミルク",
                 ["TextMapId"] = "RESOURCE_NAME_3007",
             },
             ["RESOURCE_NAME_3010"] = {
-                ["ContentJP"] = "功利・アイスレイク城",
+                ["ContentJP"] = "功利‐アイスレイク城",
                 ["TextMapId"] = "RESOURCE_NAME_3010",
             },
             ["RESOURCE_NAME_30101"] = {
-                ["ContentJP"] = "基本染料・ダクリ湖",
+                ["ContentJP"] = "基本染料‐ダクリ湖",
                 ["TextMapId"] = "RESOURCE_NAME_30101",
             },
             ["RESOURCE_NAME_30102"] = {
-                ["ContentJP"] = "基本染料・シーソルト",
+                ["ContentJP"] = "基本染料‐シーソルト",
                 ["TextMapId"] = "RESOURCE_NAME_30102",
             },
             ["RESOURCE_NAME_30103"] = {
-                ["ContentJP"] = "基本染料・森の息吹",
+                ["ContentJP"] = "基本染料‐森の息吹",
                 ["TextMapId"] = "RESOURCE_NAME_30103",
             },
             ["RESOURCE_NAME_30104"] = {
-                ["ContentJP"] = "基本染料・森の息吹",
+                ["ContentJP"] = "基本染料‐森の息吹",
                 ["TextMapId"] = "RESOURCE_NAME_30104",
             },
             ["RESOURCE_NAME_30105"] = {
-                ["ContentJP"] = "基本染料・砂丘",
+                ["ContentJP"] = "基本染料‐砂丘",
                 ["TextMapId"] = "RESOURCE_NAME_30105",
             },
             ["RESOURCE_NAME_30106"] = {
-                ["ContentJP"] = "基本染料・赤土",
+                ["ContentJP"] = "基本染料‐赤土",
                 ["TextMapId"] = "RESOURCE_NAME_30106",
             },
             ["RESOURCE_NAME_30107"] = {
-                ["ContentJP"] = "基本染料・ルージュ",
+                ["ContentJP"] = "基本染料‐ルージュ",
                 ["TextMapId"] = "RESOURCE_NAME_30107",
             },
             ["RESOURCE_NAME_30108"] = {
-                ["ContentJP"] = "基本染料・カラス",
+                ["ContentJP"] = "基本染料‐カラス",
                 ["TextMapId"] = "RESOURCE_NAME_30108",
             },
             ["RESOURCE_NAME_30109"] = {
-                ["ContentJP"] = "基本染料・雷雨",
+                ["ContentJP"] = "基本染料‐雷雨",
                 ["TextMapId"] = "RESOURCE_NAME_30109",
             },
             ["RESOURCE_NAME_3011"] = {
-                ["ContentJP"] = "道徳・アイスレイク城",
+                ["ContentJP"] = "道徳‐アイスレイク城",
                 ["TextMapId"] = "RESOURCE_NAME_3011",
             },
             ["RESOURCE_NAME_30110"] = {
-                ["ContentJP"] = "上級染料・天の河",
+                ["ContentJP"] = "上級染料‐天の河",
                 ["TextMapId"] = "RESOURCE_NAME_30110",
             },
             ["RESOURCE_NAME_30111"] = {
-                ["ContentJP"] = "上級染料・麦穂",
+                ["ContentJP"] = "上級染料‐麦穂",
                 ["TextMapId"] = "RESOURCE_NAME_30111",
             },
             ["RESOURCE_NAME_3012"] = {
-                ["ContentJP"] = "才知・アイスレイク城",
+                ["ContentJP"] = "才知‐アイスレイク城",
                 ["TextMapId"] = "RESOURCE_NAME_3012",
             },
             ["RESOURCE_NAME_3013"] = {
-                ["ContentJP"] = "共感・アイスレイク城",
+                ["ContentJP"] = "共感‐アイスレイク城",
                 ["TextMapId"] = "RESOURCE_NAME_3013",
             },
             ["RESOURCE_NAME_3014"] = {
-                ["ContentJP"] = "混沌・アイスレイク城",
+                ["ContentJP"] = "混沌‐アイスレイク城",
                 ["TextMapId"] = "RESOURCE_NAME_3014",
             },
             ["RESOURCE_NAME_40001"] = {
@@ -25378,11 +25780,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_41006",
             },
             ["RESOURCE_NAME_41007"] = {
-                ["ContentJP"] = "予備動作・近接武器",
+                ["ContentJP"] = "予備動作‐近接武器",
                 ["TextMapId"] = "RESOURCE_NAME_41007",
             },
             ["RESOURCE_NAME_41008"] = {
-                ["ContentJP"] = "予備動作・遠隔武器",
+                ["ContentJP"] = "予備動作‐遠隔武器",
                 ["TextMapId"] = "RESOURCE_NAME_41008",
             },
             ["RESOURCE_NAME_41009"] = {
@@ -25398,7 +25800,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_41011",
             },
             ["RESOURCE_NAME_41012"] = {
-                ["ContentJP"] = "奏の詩篇－インディゴ",
+                ["ContentJP"] = "奏の詩篇-インディゴ",
                 ["TextMapId"] = "RESOURCE_NAME_41012",
             },
             ["RESOURCE_NAME_41013"] = {
@@ -25406,11 +25808,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_41013",
             },
             ["RESOURCE_NAME_41015"] = {
-                ["ContentJP"] = "奏の詩篇・キャラメル",
+                ["ContentJP"] = "奏の詩篇‐キャラメル",
                 ["TextMapId"] = "RESOURCE_NAME_41015",
             },
             ["RESOURCE_NAME_41016"] = {
-                ["ContentJP"] = "奏の詩篇・アイボリー",
+                ["ContentJP"] = "奏の詩篇‐アイボリー",
                 ["TextMapId"] = "RESOURCE_NAME_41016",
             },
             ["RESOURCE_NAME_5011010"] = {
@@ -25418,7 +25820,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5011010",
             },
             ["RESOURCE_NAME_5011011"] = {
-                ["ContentJP"] = "カイユウギョ・変異種",
+                ["ContentJP"] = "カイユウギョ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5011011",
             },
             ["RESOURCE_NAME_5011020"] = {
@@ -25426,19 +25828,15 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5011020",
             },
             ["RESOURCE_NAME_5011021"] = {
-                ["ContentJP"] = "イロドリスパイン・変異種",
+                ["ContentJP"] = "イロドリスパイン‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5011021",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_5011030", MaxKey = "RESOURCE_TEXT_210", Loader = function()
-        return {
             ["RESOURCE_NAME_5011030"] = {
                 ["ContentJP"] = "ギンヒカリ",
                 ["TextMapId"] = "RESOURCE_NAME_5011030",
             },
             ["RESOURCE_NAME_5011031"] = {
-                ["ContentJP"] = "ギンヒカリ・変異種",
+                ["ContentJP"] = "ギンヒカリ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5011031",
             },
             ["RESOURCE_NAME_5012010"] = {
@@ -25446,7 +25844,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5012010",
             },
             ["RESOURCE_NAME_5012011"] = {
-                ["ContentJP"] = "ナガヒゲオウ・変異種",
+                ["ContentJP"] = "ナガヒゲオウ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5012011",
             },
             ["RESOURCE_NAME_5012020"] = {
@@ -25454,7 +25852,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5012020",
             },
             ["RESOURCE_NAME_5012021"] = {
-                ["ContentJP"] = "ブチドッグフィン・変異種",
+                ["ContentJP"] = "ブチドッグフィン‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5012021",
             },
             ["RESOURCE_NAME_5012030"] = {
@@ -25462,7 +25860,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5012030",
             },
             ["RESOURCE_NAME_5012031"] = {
-                ["ContentJP"] = "ガオエビ・変異種",
+                ["ContentJP"] = "ガオエビ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5012031",
             },
             ["RESOURCE_NAME_5013010"] = {
@@ -25470,7 +25868,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5013010",
             },
             ["RESOURCE_NAME_5013011"] = {
-                ["ContentJP"] = "リトルファング・変異種",
+                ["ContentJP"] = "リトルファング‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5013011",
             },
             ["RESOURCE_NAME_5013020"] = {
@@ -25478,7 +25876,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5013020",
             },
             ["RESOURCE_NAME_5013021"] = {
-                ["ContentJP"] = "バクバクフィッシュ・変異種",
+                ["ContentJP"] = "バクバクフィッシュ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5013021",
             },
             ["RESOURCE_NAME_5013030"] = {
@@ -25486,7 +25884,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5013030",
             },
             ["RESOURCE_NAME_5013031"] = {
-                ["ContentJP"] = "ナガアシ・変異種",
+                ["ContentJP"] = "ナガアシ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5013031",
             },
             ["RESOURCE_NAME_5021010"] = {
@@ -25494,7 +25892,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5021010",
             },
             ["RESOURCE_NAME_5021011"] = {
-                ["ContentJP"] = "エターナルビーム・変異種",
+                ["ContentJP"] = "エターナルビーム‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5021011",
             },
             ["RESOURCE_NAME_5021020"] = {
@@ -25502,7 +25900,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5021020",
             },
             ["RESOURCE_NAME_5021021"] = {
-                ["ContentJP"] = "シオオイ・変異種",
+                ["ContentJP"] = "シオオイ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5021021",
             },
             ["RESOURCE_NAME_5021030"] = {
@@ -25510,7 +25908,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5021030",
             },
             ["RESOURCE_NAME_5021031"] = {
-                ["ContentJP"] = "ウミドリ・変異種",
+                ["ContentJP"] = "ウミドリ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5021031",
             },
             ["RESOURCE_NAME_5021040"] = {
@@ -25518,7 +25916,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5021040",
             },
             ["RESOURCE_NAME_5021041"] = {
-                ["ContentJP"] = "マリンベビー・変異種",
+                ["ContentJP"] = "マリンベビー‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5021041",
             },
             ["RESOURCE_NAME_5021050"] = {
@@ -25526,7 +25924,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5021050",
             },
             ["RESOURCE_NAME_5021051"] = {
-                ["ContentJP"] = "ハヤシギンザメ・変異種",
+                ["ContentJP"] = "ハヤシギンザメ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5021051",
             },
             ["RESOURCE_NAME_5022010"] = {
@@ -25534,7 +25932,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5022010",
             },
             ["RESOURCE_NAME_5022011"] = {
-                ["ContentJP"] = "スイレンシャーク・変異種",
+                ["ContentJP"] = "スイレンシャーク‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5022011",
             },
             ["RESOURCE_NAME_5022020"] = {
@@ -25542,7 +25940,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5022020",
             },
             ["RESOURCE_NAME_5022021"] = {
-                ["ContentJP"] = "ギアクロウクラブ・変異種",
+                ["ContentJP"] = "ギアクロウクラブ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5022021",
             },
             ["RESOURCE_NAME_5022030"] = {
@@ -25550,7 +25948,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5022030",
             },
             ["RESOURCE_NAME_5022031"] = {
-                ["ContentJP"] = "ユラリダマギョ・変異種",
+                ["ContentJP"] = "ユラリダマギョ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5022031",
             },
             ["RESOURCE_NAME_5022040"] = {
@@ -25558,7 +25956,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5022040",
             },
             ["RESOURCE_NAME_5022041"] = {
-                ["ContentJP"] = "ユク・変異種",
+                ["ContentJP"] = "ユク‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5022041",
             },
             ["RESOURCE_NAME_5022050"] = {
@@ -25566,7 +25964,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5022050",
             },
             ["RESOURCE_NAME_5022051"] = {
-                ["ContentJP"] = "フタツキザメ・変異種",
+                ["ContentJP"] = "フタツキザメ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5022051",
             },
             ["RESOURCE_NAME_5023010"] = {
@@ -25574,7 +25972,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5023010",
             },
             ["RESOURCE_NAME_5023011"] = {
-                ["ContentJP"] = "ツキワギョ・変異種",
+                ["ContentJP"] = "ツキワギョ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5023011",
             },
             ["RESOURCE_NAME_5023020"] = {
@@ -25582,7 +25980,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5023020",
             },
             ["RESOURCE_NAME_5023021"] = {
-                ["ContentJP"] = "レイクレディ・変異種",
+                ["ContentJP"] = "レイクレディ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5023021",
             },
             ["RESOURCE_NAME_5023030"] = {
@@ -25590,7 +25988,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5023030",
             },
             ["RESOURCE_NAME_5023031"] = {
-                ["ContentJP"] = "ダクリギョ・変異種",
+                ["ContentJP"] = "ダクリギョ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5023031",
             },
             ["RESOURCE_NAME_5023040"] = {
@@ -25598,7 +25996,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5023040",
             },
             ["RESOURCE_NAME_5023041"] = {
-                ["ContentJP"] = "ランドリーフィッシュ・変異種",
+                ["ContentJP"] = "ランドリーフィッシュ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5023041",
             },
             ["RESOURCE_NAME_5023050"] = {
@@ -25606,7 +26004,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5023050",
             },
             ["RESOURCE_NAME_5023051"] = {
-                ["ContentJP"] = "ヒカリクヌギ・変異種",
+                ["ContentJP"] = "ヒカリクヌギ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5023051",
             },
             ["RESOURCE_NAME_5024010"] = {
@@ -25614,7 +26012,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5024010",
             },
             ["RESOURCE_NAME_5024011"] = {
-                ["ContentJP"] = "ハナマイユ・変異種",
+                ["ContentJP"] = "ハナマイユ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5024011",
             },
             ["RESOURCE_NAME_5024020"] = {
@@ -25622,7 +26020,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5024020",
             },
             ["RESOURCE_NAME_5024021"] = {
-                ["ContentJP"] = "コトブキイカ・変異種",
+                ["ContentJP"] = "コトブキイカ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5024021",
             },
             ["RESOURCE_NAME_5024030"] = {
@@ -25630,7 +26028,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5024030",
             },
             ["RESOURCE_NAME_5024031"] = {
-                ["ContentJP"] = "トゲブクレ・変異種",
+                ["ContentJP"] = "トゲブクレ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5024031",
             },
             ["RESOURCE_NAME_5024040"] = {
@@ -25638,7 +26036,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5024040",
             },
             ["RESOURCE_NAME_5024041"] = {
-                ["ContentJP"] = "フクロコイ・変異種",
+                ["ContentJP"] = "フクロコイ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5024041",
             },
             ["RESOURCE_NAME_5024050"] = {
@@ -25646,7 +26044,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5024050",
             },
             ["RESOURCE_NAME_5024051"] = {
-                ["ContentJP"] = "ドラゴンキング・変異種",
+                ["ContentJP"] = "ドラゴンキング‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5024051",
             },
             ["RESOURCE_NAME_5025010"] = {
@@ -25654,7 +26052,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5025010",
             },
             ["RESOURCE_NAME_5025011"] = {
-                ["ContentJP"] = "ネズミウオ・変異種",
+                ["ContentJP"] = "ネズミウオ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5025011",
             },
             ["RESOURCE_NAME_5025020"] = {
@@ -25662,7 +26060,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5025020",
             },
             ["RESOURCE_NAME_5025021"] = {
-                ["ContentJP"] = "ネクロウナギ・変異種",
+                ["ContentJP"] = "ネクロウナギ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5025021",
             },
             ["RESOURCE_NAME_5025030"] = {
@@ -25670,7 +26068,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5025030",
             },
             ["RESOURCE_NAME_5025031"] = {
-                ["ContentJP"] = "アクアスカル・変異種",
+                ["ContentJP"] = "アクアスカル‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5025031",
             },
             ["RESOURCE_NAME_5025040"] = {
@@ -25678,7 +26076,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5025040",
             },
             ["RESOURCE_NAME_5025041"] = {
-                ["ContentJP"] = "ワライバナシ・変異種",
+                ["ContentJP"] = "ワライバナシ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5025041",
             },
             ["RESOURCE_NAME_5025050"] = {
@@ -25686,7 +26084,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_5025050",
             },
             ["RESOURCE_NAME_5025051"] = {
-                ["ContentJP"] = "ミズゴキ・変異種",
+                ["ContentJP"] = "ミズゴキ‐変異種",
                 ["TextMapId"] = "RESOURCE_NAME_5025051",
             },
             ["RESOURCE_NAME_5110100"] = {
@@ -25734,11 +26132,11 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_NAME_99",
             },
             ["RESOURCE_SHORT_DESC_15"] = {
-                ["ContentJP"] = "設計図・近接武器",
+                ["ContentJP"] = "設計図‐近接武器",
                 ["TextMapId"] = "RESOURCE_SHORT_DESC_15",
             },
             ["RESOURCE_SHORT_DESC_2"] = {
-                ["ContentJP"] = "設計図・遠隔武器",
+                ["ContentJP"] = "設計図‐遠隔武器",
                 ["TextMapId"] = "RESOURCE_SHORT_DESC_2",
             },
             ["RESOURCE_SHORT_DESC_6"] = {
@@ -25881,7 +26279,7 @@ C区 アニタ\
 ……\
 そして私が汝に死を与え、苦難の旅に終止符を打つ。」\
 \
-――エリュシオン古書 『聖歌・巻一』",
+――エリュシオン古書 『聖歌‐巻一』",
                 ["TextMapId"] = "RESOURCE_TEXT_10019",
             },
             ["RESOURCE_TEXT_1002"] = {
@@ -25917,7 +26315,7 @@ C区 アニタ\
 神々の国は鏡の向こう側にあり、\
 劣悪な模倣は無駄に迷い続けている」\
 \
-――満月派の儀式文、『月の裏面・第二章』",
+――満月派の儀式文、『月の裏面‐第二章』",
                 ["TextMapId"] = "RESOURCE_TEXT_10023",
             },
             ["RESOURCE_TEXT_10024"] = {
@@ -25940,6 +26338,47 @@ C区 アニタ\
 \
 ――「魔王様」スノウ",
                 ["TextMapId"] = "RESOURCE_TEXT_101",
+            },
+        }
+    end },
+    { MinKey = "RESOURCE_TEXT_10100", MaxKey = "RESOURCE_TEXT_shiwu", Loader = function()
+        return {
+            ["RESOURCE_TEXT_10100"] = {
+                ["ContentJP"] = "「たとえ先の道が不確かでも、どうか揺るがずに歩み続けてほしい。」\
+\
+——ニヴルヘイムの導き手 ニフル夫人",
+                ["TextMapId"] = "RESOURCE_TEXT_10100",
+            },
+            ["RESOURCE_TEXT_10101"] = {
+                ["ContentJP"] = "「ある日突然、自分がもう涙を流せなくなっていることに気づいた。戦場の硝煙が目を痛めたのか、それともようやく過去の弱かった自分に別れを告げたのかは、分からない。」\
+\
+——とあるヒュペリア兵士の日記",
+                ["TextMapId"] = "RESOURCE_TEXT_10101",
+            },
+            ["RESOURCE_TEXT_10102"] = {
+                ["ContentJP"] = "「頭上のボロ灯りで鉱道を照らし、\
+肩にツルハシ、月ノ石を探す。\
+今日ひと掘り多いごとに、\
+一生ツイてる金と幸せ」\
+\
+——アイスレイク城の鉱山労働者の歌",
+                ["TextMapId"] = "RESOURCE_TEXT_10102",
+            },
+            ["RESOURCE_TEXT_10103"] = {
+                ["ContentJP"] = "「時は何も語らない。\
+ただ黙って、新たな夜明けを別れの夜へと押しやり、\
+長き冬を次なる花の季へと導いてゆくだけ。」\
+\
+――ニヴルヘイムの導き手 ニフル夫人",
+                ["TextMapId"] = "RESOURCE_TEXT_10103",
+            },
+            ["RESOURCE_TEXT_10104"] = {
+                ["ContentJP"] = "「はいはい、わかってるさ。みんな自分なりの正義を掲げてるし、\
+その正義ってやつは、いつも決まって遅れてやってくる。\
+ならばこの場の正義は――俺の剣に語らせてもらうぜ、文句はないよな？」\
+\
+――華胥の剣士 カシュウ",
+                ["TextMapId"] = "RESOURCE_TEXT_10104",
             },
             ["RESOURCE_TEXT_1011101"] = {
                 ["ContentJP"] = "「これが、二千年を超える私たちの長き歴史。私たちは抱き合い、また互いに殺し合う。時には狂熱を呼び覚まし、時には慈悲にすがる。歴史――昨日がそうであったように、明日もまた地平線で太陽と月が昇り、沈む如く。歴史――本書に記される歳月の前では、私はただの路傍の石、ただの観察者にすぎない。ヒュペリアの1片の雪、イーザーの1枚の葉、ルッカの1滴の雫、ケメトの1粒の砂の如く。\
@@ -25999,17 +26438,17 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_TEXT_10205",
             },
             ["RESOURCE_TEXT_10206"] = {
-                ["ContentJP"] = "「<Default note=\"text:ヘキジュ\">碧薷</>、色青くて味が苦い、飲んだら後味がやや甘い。一定の量を飲んだら精神を安定させるが、飲みすぎると体を麻痺させる恐れがある。」\
+                ["ContentJP"] = "「碧薷（ヘキジュ）、色青くて味が苦い、飲んだら後味がやや甘い。一定の量を飲んだら精神を安定させるが、飲みすぎると体を麻痺させる恐れがある。」\
 ――華胥の薬師 フーフォン著 『草木精要』",
                 ["TextMapId"] = "RESOURCE_TEXT_10206",
             },
             ["RESOURCE_TEXT_10207"] = {
-                ["ContentJP"] = "「<Default note=\"text:ヘキジュ\">碧薷</>、色青くて味が苦い、飲んだら後味がやや甘い。一定の量を飲んだら精神を安定させるが、飲みすぎると体を麻痺させる恐れがある。」\
+                ["ContentJP"] = "「碧薷（ヘキジュ）、色青くて味が苦い、飲んだら後味がやや甘い。一定の量を飲んだら精神を安定させるが、飲みすぎると体を麻痺させる恐れがある。」\
 ――華胥の薬師 フーフォン著 『草木精要』",
                 ["TextMapId"] = "RESOURCE_TEXT_10207",
             },
             ["RESOURCE_TEXT_10208"] = {
-                ["ContentJP"] = "「<Default note=\"text:ヘキジュ\">碧薷</>、色青くて味が苦い、飲んだら後味がやや甘い。一定の量を飲んだら精神を安定させるが、飲みすぎると体を麻痺させる恐れがある。」\
+                ["ContentJP"] = "「碧薷（ヘキジュ）、色青くて味が苦い、飲んだら後味がやや甘い。一定の量を飲んだら精神を安定させるが、飲みすぎると体を麻痺させる恐れがある。」\
 ――華胥の薬師 フーフォン著 『草木精要』",
                 ["TextMapId"] = "RESOURCE_TEXT_10208",
             },
@@ -26054,7 +26493,7 @@ C区 アニタ\
 今宵、死神の降臨に抗うことができる者はいないのだ。\
 誰ひとりとして彼の手から剣を奪い取ることができないように！」\
 \
-―― 悲劇派劇作家 アレクサンダー・トマス著 『奔流恩讐記』より",
+―― 悲劇派劇作家 アレクサンダー‐トマス著 『奔流恩讐記』より",
                 ["TextMapId"] = "RESOURCE_TEXT_11001",
             },
             ["RESOURCE_TEXT_11002"] = {
@@ -26067,7 +26506,7 @@ C区 アニタ\
 今宵、死神の降臨に抗うことができる者はいないのだ。\
 誰ひとりとして彼の手から剣を奪い取ることができないように！」\
 \
-―― 悲劇派劇作家 アレクサンダー・トマス著 『奔流恩讐記』より",
+―― 悲劇派劇作家 アレクサンダー‐トマス著 『奔流恩讐記』より",
                 ["TextMapId"] = "RESOURCE_TEXT_11002",
             },
             ["RESOURCE_TEXT_11003"] = {
@@ -26080,7 +26519,7 @@ C区 アニタ\
 今宵、死神の降臨に抗うことができる者はいないのだ。\
 誰ひとりとして彼の手から剣を奪い取ることができないように！」\
 \
-―― 悲劇派劇作家 アレクサンダー・トマス著 『奔流恩讐記』より",
+―― 悲劇派劇作家 アレクサンダー‐トマス著 『奔流恩讐記』より",
                 ["TextMapId"] = "RESOURCE_TEXT_11003",
             },
             ["RESOURCE_TEXT_11004"] = {
@@ -26428,7 +26867,7 @@ C区 アニタ\
 我は慈悲なく殺すべきである。\
 あらゆる敵を彼が名づけた死という翼の下に送ろう」\
 \
-――エリュシオン古書『聖歌・巻二』",
+――エリュシオン古書『聖歌‐巻二』",
                 ["TextMapId"] = "RESOURCE_TEXT_20027",
             },
             ["RESOURCE_TEXT_20028"] = {
@@ -26538,10 +26977,39 @@ C区 アニタ\
 ——硬貨を握りしめ、放そうとしない釣り名人",
                 ["TextMapId"] = "RESOURCE_TEXT_210",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_TEXT_29001", MaxKey = "RLBlessing_Desc_310", Loader = function()
-        return {
+            ["RESOURCE_TEXT_211"] = {
+                ["ContentJP"] = "「土に隠された黄金は両手で掘り出され、\
+水に隠れた珠宝は両眼で見分けられる。\
+月狩り人も例外ではなく、\
+彼らの宝は言葉と書物の頁の隙間に溶け込んでいる。」\
+\
+——吟遊詩人パーシー・バラード 『月狩りの歌』",
+                ["TextMapId"] = "RESOURCE_TEXT_211",
+            },
+            ["RESOURCE_TEXT_212"] = {
+                ["ContentJP"] = "「土に隠された黄金は両手で掘り出され、\
+水に隠れた珠宝は両眼で見分けられる。\
+月狩り人も例外ではなく、\
+彼らの宝は言葉と書物の頁の隙間に溶け込んでいる。」\
+\
+——吟遊詩人パーシー・バラード 『月狩りの歌』",
+                ["TextMapId"] = "RESOURCE_TEXT_212",
+            },
+            ["RESOURCE_TEXT_213"] = {
+                ["ContentJP"] = "「土に隠された黄金は両手で掘り出され、\
+水に隠れた珠宝は両眼で見分けられる。\
+月狩り人も例外ではなく、\
+彼らの宝は言葉と書物の頁の隙間に溶け込んでいる。」\
+\
+——吟遊詩人パーシー・バラード 『月狩りの歌』",
+                ["TextMapId"] = "RESOURCE_TEXT_213",
+            },
+            ["RESOURCE_TEXT_215"] = {
+                ["ContentJP"] = "「私は世に証明しよう。個人の天賦や才能も、錬金術師の手にかかれば、人為的に再構築できるのだと。」\
+\
+——錬金術師首席 フラメル",
+                ["TextMapId"] = "RESOURCE_TEXT_215",
+            },
             ["RESOURCE_TEXT_29001"] = {
                 ["ContentJP"] = "それは神々の目がもはや届かず、帝国の鉄腕も届かない孤島。群れた鳥たちが崩れかけた千本の柱の間を舞い、時の波と苔に飲み込まれた古い遺跡を見下ろしている。\
 探索し、見て、聞きなさい。いざ、あの記憶と秘密を抱えるパーガトリー島へ！",
@@ -26604,7 +27072,7 @@ C区 アニタ\
             },
             ["RESOURCE_TEXT_3007"] = {
                 ["ContentJP"] = "「すごくいい匂いで甘そう……こっそり一口飲んだら、僕も背が伸びて強くなれるかな……」\
-――ジェネモンに乳飲料をあげているジェネモン愛好者",
+――ジェネモンにウマウマミルクをあげているジェネモン愛好者",
                 ["TextMapId"] = "RESOURCE_TEXT_3007",
             },
             ["RESOURCE_TEXT_30101"] = {
@@ -26734,7 +27202,7 @@ C区 アニタ\
             ["RESOURCE_TEXT_4010008"] = {
                 ["ContentJP"] = "「市民のみなさん、野草や野生のキノコには十分注意し見知らぬ野生植物を採集したり、売買しないでください。たとえば、俗に『スノーハット』と呼ばれる雪斑キノコや、『泡泡豆』と呼ばれる蓮草です」\
 \
-―― アイスレイク城警備部隊将校 リズム・フィッシャー",
+―― アイスレイク城警備部隊将校 リズム‐フィッシャー",
                 ["TextMapId"] = "RESOURCE_TEXT_4010008",
             },
             ["RESOURCE_TEXT_4010009"] = {
@@ -26814,7 +27282,9 @@ C区 アニタ\
             ["RESOURCE_TEXT_5011020"] = {
                 ["ContentJP"] = "昔はその鮮やかな色と鋭い背びれのせいで、有毒魚と誤解されていた。水揚げされても標本にしかならなかったが、最初の「勇者」が食したことをきっかけに、イロドリスパインはあっという間に食卓の常連となり、その背びれも今や捨てにくいゴミの一種となった。\
 \
-——デザイナー フィアマ 『反射』",
+——デザイナー フィアマ 『反射』\
+\
+",
                 ["TextMapId"] = "RESOURCE_TEXT_5011020",
             },
             ["RESOURCE_TEXT_5011030"] = {
@@ -26909,7 +27379,8 @@ C区 アニタ\
 天に仇なす獣を討つに、\
 その首、白龍に捧げ奉ん！\
 \
-―― 華胥講談『応天録』より",
+―― 華胥講談『応天録』より\
+",
                 ["TextMapId"] = "RESOURCE_TEXT_5022010",
             },
             ["RESOURCE_TEXT_5022020"] = {
@@ -26928,7 +27399,8 @@ C区 アニタ\
                 ["ContentJP"] = "古の漁師たちは、ユラリダマギョの発光器官こそ『夜光の珠』だと信じていた。だが魚が死ぬと光も消える。「光ある珠も投げられれば輝かぬ」という俗語はここから来たと言われている。\
 \
 \
-——紀行作家 ロヴェッタ『ロヴェッタ、華胥にて』",
+——紀行作家 ロヴェッタ『ロヴェッタ、華胥にて』\
+",
                 ["TextMapId"] = "RESOURCE_TEXT_5022040",
             },
             ["RESOURCE_TEXT_5022050"] = {
@@ -26957,7 +27429,8 @@ C区 アニタ\
             },
             ["RESOURCE_TEXT_5023040"] = {
                 ["ContentJP"] = "この魚の正式な学名はとても言いづらいが、とある洗濯女のユニークな発想で付けられた名前の方が、みんなのお気に入りになった。\
-——万物を知る者 ディロン『未知なる片隅に』",
+——万物を知る者 ディロン『未知なる片隅に』\
+",
                 ["TextMapId"] = "RESOURCE_TEXT_5023040",
             },
             ["RESOURCE_TEXT_5023050"] = {
@@ -26976,11 +27449,12 @@ C区 アニタ\
                 ["ContentJP"] = "言い伝えによれば、かつて永き時を生きた「ユーセイ」がいた。膨れたその頭は記憶でいっぱいになり、重みに耐えかねて白龍神に救いを求めた。白龍神はその記憶を海へ投げた——こうして「大頭イカ」が生まれ、投げた記憶の分だけ「ユーセイ」の姿は薄れ、ついには何も知らぬ赤子となって、新たな生を始めたのだという。\
 \
 \
-——華胥民間学者 秋辞『稗は言ふ』",
+——華胥民間学者 秋辞『稗は言ふ』\
+",
                 ["TextMapId"] = "RESOURCE_TEXT_5024020",
             },
             ["RESOURCE_TEXT_5024030"] = {
-                ["ContentJP"] = "トゲブクレの処理を怠り、中毒死。これは華胥の推理小説では定番の殺害手段だ。犯人は決まってこういう——「<Default note=\"text:タイフウキュウショウ\">大風九章</>、汝らに制なし。我らが戒めとせん！」\
+                ["ContentJP"] = "トゲブクレの処理を怠り、中毒死。これは華胥の推理小説では定番の殺害手段だ。犯人は決まってこういう——「大風九章、汝らに制なし。我らが戒めとせん！」\
 \
 ——紀行作家 ロヴェッタ『ロヴェッタ、華胥にて』",
                 ["TextMapId"] = "RESOURCE_TEXT_5024030",
@@ -27131,7 +27605,7 @@ C区 アニタ\
                 ["TextMapId"] = "RESOURCE_TEXT_gongshen",
             },
             ["RESOURCE_TEXT_gongxian"] = {
-                ["ContentJP"] = "十分な弾力に、申し分ない反発力。これを武器にする殺し屋がいたら……かなりカッコいいと思うんだけどね」\
+                ["ContentJP"] = "「十分な弾力に、申し分ない反発力。これを武器にする殺し屋がいたら……かなりカッコいいと思うんだけどね」\
 \
 ――創作のネタを探す、名もなき小説家",
                 ["TextMapId"] = "RESOURCE_TEXT_gongxian",
@@ -27160,6 +27634,10 @@ C区 アニタ\
 ―― フォーセイクン同盟「レイブン」 カオス",
                 ["TextMapId"] = "RESOURCE_TEXT_shiwu",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_TEXT_wobing", MaxKey = "RLBlessing_Name_303", Loader = function()
+        return {
             ["RESOURCE_TEXT_wobing"] = {
                 ["ContentJP"] = "「やってくる、\
 彼がやってくる！\
@@ -27170,7 +27648,7 @@ C区 アニタ\
 今宵、死神の降臨に抗うことができる者はいないのだ。\
 誰ひとりとして彼の手から剣を奪い取ることができないように！」\
 \
-―― 悲劇派劇作家 アレクサンダー・トマス著 『奔流恩讐記』より",
+―― 悲劇派劇作家 アレクサンダー‐トマス著 『奔流恩讐記』より",
                 ["TextMapId"] = "RESOURCE_TEXT_wobing",
             },
             ["RLArchive_ArchiveUnlock"] = {
@@ -27287,7 +27765,7 @@ C区 アニタ\
                 ["TextMapId"] = "RLBlessingGroup_Desc_301",
             },
             ["RLBlessingGroup_Desc_302"] = {
-                ["ContentJP"] = "1秒ごとに1スタックの<Highlight>[輝光]を得る（最大60スタックまで重ねがけ可）。スキルを発動する時、<Highlight>[輝光]</>が60スタックに達していた場合、すべての<Highlight>[輝光]</>を除去し、<Highlight>10</>秒間<Highlight>[キラキラ]</>状態になる（効果期間中、スキルダメージが<Highlight>50%</>アップ）。",
+                ["ContentJP"] = "1秒ごとに1スタックの<Highlight>[輝光]</>を得る（最大60スタックまで重ねがけ可）。スキルを発動する時、<Highlight>[輝光]</>が60スタックに達していた場合、すべての<Highlight>[輝光]</>を除去し、<Highlight>10</>秒間<Highlight>[キラキラ]</>状態になる（効果期間中、スキルダメージが<Highlight>50%</>アップ）。",
                 ["TextMapId"] = "RLBlessingGroup_Desc_302",
             },
             ["RLBlessingGroup_Desc_303"] = {
@@ -27426,11 +27904,11 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "RLBlessing_ActivateGroup",
             },
             ["RLBlessing_Desc_101"] = {
-                ["ContentJP"] = "近接武器の<Highlight>攻撃力</>が<Highlight>#1</>アップする。",
+                ["ContentJP"] = "近接武器の攻撃力が<Highlight>#1</>アップする。",
                 ["TextMapId"] = "RLBlessing_Desc_101",
             },
             ["RLBlessing_Desc_102"] = {
-                ["ContentJP"] = "近接武器の<Highlight>発動確率</>が<Highlight>#1</>アップする。",
+                ["ContentJP"] = "近接武器の発動確率が<Highlight>#1</>アップする。",
                 ["TextMapId"] = "RLBlessing_Desc_102",
             },
             ["RLBlessing_Desc_103"] = {
@@ -27586,10 +28064,6 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "スキルを発動する時、<Highlight>$1</>スタックの[輝光]を得る。",
                 ["TextMapId"] = "RLBlessing_Desc_310",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_Desc_311", MaxKey = "RLBlessing_SimpleDesc_214", Loader = function()
-        return {
             ["RLBlessing_Desc_311"] = {
                 ["ContentJP"] = "<Highlight>[キラキラ]</>状態では1秒ごとにSPを<Highlight>$1</>回復する。",
                 ["TextMapId"] = "RLBlessing_Desc_311",
@@ -27990,6 +28464,10 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "彩り流し",
                 ["TextMapId"] = "RLBlessing_Name_303",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_Name_304", MaxKey = "RLBlessing_UnlockCon_210", Loader = function()
+        return {
             ["RLBlessing_Name_304"] = {
                 ["ContentJP"] = "潤う触れ合い",
                 ["TextMapId"] = "RLBlessing_Name_304",
@@ -28283,7 +28761,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "RLBlessing_Name_unknown",
             },
             ["RLBlessing_SimpleDesc_101"] = {
-                ["ContentJP"] = "近接武器の<Highlight>攻撃力</>がアップする。",
+                ["ContentJP"] = "近接武器の攻撃力がアップする。",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_101",
             },
             ["RLBlessing_SimpleDesc_102"] = {
@@ -28398,10 +28876,6 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "自身から<Highlight>8</>メートル以上離れた目標に遠隔武器ダメージを与える時、目標の受ける遠隔武器ダメージが徐々にアップする。",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_214",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_SimpleDesc_215", MaxKey = "RLTalent_Desc_204", Loader = function()
-        return {
             ["RLBlessing_SimpleDesc_215"] = {
                 ["ContentJP"] = "<Highlight>2</>秒以上に持続的に移動すると、移動停止まで自身の被ダメージがダウンする。\
 移動停止から<Highlight>2</>秒経つと、移動開始まで自身の与ダメージがアップする。",
@@ -28795,6 +29269,10 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "キャンドルの芯未解放",
                 ["TextMapId"] = "RLBlessing_UnlockCon_210",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_UnlockCon_211", MaxKey = "RLTreasure_Desc_10308", Loader = function()
+        return {
             ["RLBlessing_UnlockCon_211"] = {
                 ["ContentJP"] = "キャンドルの芯未解放",
                 ["TextMapId"] = "RLBlessing_UnlockCon_211",
@@ -29203,10 +29681,6 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "最大SPが<Highlight>10%</>アップ",
                 ["TextMapId"] = "RLTalent_Desc_204",
             },
-        }
-    end },
-    { MinKey = "RLTalent_Desc_205", MaxKey = "RLTreasure_Name_10218", Loader = function()
-        return {
             ["RLTalent_Desc_205"] = {
                 ["ContentJP"] = "獲得できる足跡が<Highlight>20%</>アップ",
                 ["TextMapId"] = "RLTalent_Desc_205",
@@ -29600,6 +30074,10 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "同種類のキャンドルの芯セット効果をアクティブするために必要な数が<Highlight>1</>個減少する。",
                 ["TextMapId"] = "RLTreasure_Desc_10308",
             },
+        }
+    end },
+    { MinKey = "RLTreasure_Desc_10309", MaxKey = "RLTreasure_UnlockCon_10302", Loader = function()
+        return {
             ["RLTreasure_Desc_10309"] = {
                 ["ContentJP"] = "復活回数が尽きる時、エンバー<Highlight>500</>を消費し、追加で<Highlight>1</>回の復活回数を獲得できる。",
                 ["TextMapId"] = "RLTreasure_Desc_10309",
@@ -30041,10 +30519,6 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "燭芯祭司の召喚術・曵光虫",
                 ["TextMapId"] = "RLTreasure_Name_10218",
             },
-        }
-    end },
-    { MinKey = "RLTreasure_Name_10219", MaxKey = "RougeLike_RoomName_101", Loader = function()
-        return {
             ["RLTreasure_Name_10219"] = {
                 ["ContentJP"] = "燭芯祭司の召喚術・血を啜る紅蓮",
                 ["TextMapId"] = "RLTreasure_Name_10219",
@@ -30437,6 +30911,10 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "レリック未解放",
                 ["TextMapId"] = "RLTreasure_UnlockCon_10302",
             },
+        }
+    end },
+    { MinKey = "RLTreasure_UnlockCon_10303", MaxKey = "SKILL_110104_NAME", Loader = function()
+        return {
             ["RLTreasure_UnlockCon_10303"] = {
                 ["ContentJP"] = "レリック未解放",
                 ["TextMapId"] = "RLTreasure_UnlockCon_10303",
@@ -30863,10 +31341,6 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "朦朧の暗影",
                 ["TextMapId"] = "RougeLike_RoomName_101",
             },
-        }
-    end },
-    { MinKey = "RougeLike_RoomName_102", MaxKey = "SKILL_310103_NAME", Loader = function()
-        return {
             ["RougeLike_RoomName_102"] = {
                 ["ContentJP"] = "離散の暗影",
                 ["TextMapId"] = "RougeLike_RoomName_102",
@@ -30882,6 +31356,10 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
             ["RougeLike_RoomName_203"] = {
                 ["ContentJP"] = "深淵の影",
                 ["TextMapId"] = "RougeLike_RoomName_203",
+            },
+            ["RougeLike_RoomName_301"] = {
+                ["ContentJP"] = "湖に映りし影",
+                ["TextMapId"] = "RougeLike_RoomName_301",
             },
             ["RougeLike_RoomName_302"] = {
                 ["ContentJP"] = "今宵の問い・その1",
@@ -31149,7 +31627,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_10203_DESC",
             },
             ["SKILL_10204_DESC"] = {
-                ["ContentJP"] = "背水+<H>#1</>。風属性キャラが必殺技を発動すると、［風祈り］を得る。［風祈り］：<H>#4</>秒間背水が<H>#2</>アップし、攻撃速度が<H>#3</>アップする。スキルダメージと遠隔武器ダメージを与えるたびに、持続時間が<H>#5</>秒延長される。",
+                ["ContentJP"] = "背水+<H>#1</>。風属性キャラが必殺技を発動すると、「風祈り」を得る。「風祈り」：<H>#4</>秒間背水が<H>#2</>アップし、攻撃速度が<H>#3</>アップする。スキルダメージと遠隔武器ダメージを与えるたびに、持続時間が<H>#5</>秒延長される。",
                 ["TextMapId"] = "SKILL_10204_DESC",
             },
             ["SKILL_10206_DESC"] = {
@@ -31248,7 +31726,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_110102_NAME",
             },
             ["SKILL_110103_DESC"] = {
-                ["ContentJP"] = "［ルミネセンス］または片手剣でダメージを与えると、一定確率でSPを回復する。",
+                ["ContentJP"] = "「ルミネセンス」または片手剣でダメージを与えると、一定確率でSPを回復する。",
                 ["TextMapId"] = "SKILL_110103_DESC",
             },
             ["SKILL_110103_NAME"] = {
@@ -31263,9 +31741,13 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["ContentJP"] = "余焔",
                 ["TextMapId"] = "SKILL_110104_NAME",
             },
+        }
+    end },
+    { MinKey = "SKILL_110301_DESC", MaxKey = "SKILL_510202_DESC", Loader = function()
+        return {
             ["SKILL_110301_DESC"] = {
-                ["ContentJP"] = "前方範囲内の敵に闇属性ダメージを与え、5スタックの［アダージョ」を付与する（最大10スタックまで重ねがけ可。効果付与時に持続時間をリセット）。\
-［獣化］状態ではこのスキルは［アリア］に変化する。",
+                ["ContentJP"] = "前方範囲内の敵に闇属性ダメージを与え、5スタックの「アダージョ」を付与する（最大10スタックまで重ねがけ可。効果付与時に持続時間をリセット）。\
+「獣化」状態ではこのスキルは「アリア」に変化する。",
                 ["TextMapId"] = "SKILL_110301_DESC",
             },
             ["SKILL_110301_NAME"] = {
@@ -31273,11 +31755,11 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_110301_NAME",
             },
             ["SKILL_110302_DESC"] = {
-                ["ContentJP"] = "［獣化］状態になる。［獣化］状態ではSPを持続的に消費し、0になると［獣化］を解除する。\
-［獣化］状態では、武器の使用は禁止される。\
-近接攻撃は［怒りの爪］に切り替わり、最大4段の連続攻撃を行い、闇属性ダメージを与える。空中で発動すると、地面に落下して周囲の一定範囲内の敵に闇属性ダメージを与える。\
-遠隔攻撃は［悲嘆の咆哮］に切り替わり、エネルギービームで攻撃し、闇属性ダメージを与える。\
-［怒りの爪］の3段目の攻撃と［悲嘆の咆哮］でダメージを与えると、［デュエット］を発動する。［怒りの爪］の4段目の攻撃と空中からの落下攻撃でダメージを与えると、［終止符］を発動する。",
+                ["ContentJP"] = "「獣化」状態になる。「獣化」状態ではSPを持続的に消費し、0になると「獣化」を解除する。\
+「獣化」状態では、武器の使用は禁止される。\
+近接攻撃は「怒りの爪」に切り替わり、最大4段の連続攻撃を行い、闇属性ダメージを与える。空中で発動すると、地面に落下して周囲の一定範囲内の敵に闇属性ダメージを与える。\
+遠隔攻撃は「悲嘆の咆哮」に切り替わり、エネルギービームで攻撃し、闇属性ダメージを与える。\
+「怒りの爪」の3段目の攻撃と「悲嘆の咆哮」でダメージを与えると、「デュエット」を発動する。「怒りの爪」の4段目の攻撃と空中からの落下攻撃でダメージを与えると、「終止符」を発動する。",
                 ["TextMapId"] = "SKILL_110302_DESC",
             },
             ["SKILL_110302_NAME"] = {
@@ -31285,9 +31767,9 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_110302_NAME",
             },
             ["SKILL_110303_DESC"] = {
-                ["ContentJP"] = "［獣化］状態では自身の最大SPに応じて攻撃力がアップする。\
-自身はスキルを発動することで［イマージョン］を得る。［イマージョン］の上限は最大SPと同じ。［レチタティーヴォ］［アリア］を発動すると、一定量の［イマージョン］を得る。［獣化］状態では1秒ごとに一定量の［イマージョン］を得る。\
-［獣化］では［イマージョン］が上限に達した場合、自動的に［獣化・サクリファイス］状態になる。",
+                ["ContentJP"] = "「獣化」状態では自身の最大SPに応じて攻撃力がアップする。\
+自身はスキルを発動することで「イマージョン」を得る。「イマージョン」の上限は最大SPと同じ。「レチタティーヴォ」「アリア」を発動すると、一定量の「イマージョン」を得る。「獣化」状態では1秒ごとに一定量の「イマージョン」を得る。\
+「獣化」では「イマージョン」が上限に達した場合、自動的に「獣化‐サクリファイス」状態になる。",
                 ["TextMapId"] = "SKILL_110303_DESC",
             },
             ["SKILL_110303_NAME"] = {
@@ -31295,7 +31777,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_110303_NAME",
             },
             ["SKILL_110304_DESC"] = {
-                ["ContentJP"] = "［怒りの爪］の3段目の攻撃と［悲嘆の咆哮］でダメージを与えると、一定確率で［アダージョ］を1スタック付与する。",
+                ["ContentJP"] = "「怒りの爪」の3段目の攻撃と「悲嘆の咆哮」でダメージを与えると、一定確率で「アダージョ」を1スタック付与する。",
                 ["TextMapId"] = "SKILL_110304_DESC",
             },
             ["SKILL_110304_NAME"] = {
@@ -31321,8 +31803,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_150003_NAME",
             },
             ["SKILL_150201_DESC"] = {
-                ["ContentJP"] = "［日食］を1個生成し、スキルが［月食］に切り替わる。\
-［日食］：生成後、直ちに範囲内の敵に光属性ダメージを与え、攻撃力ダウン効果を付与する。",
+                ["ContentJP"] = "フィールドに「日食領域」を1個生成し、さらにこのスキルが「月食」に切り替わる。\
+「日食領域」：生成後、直ちに範囲内の敵に光属性ダメージを与え、攻撃力ダウン効果を付与する。",
                 ["TextMapId"] = "SKILL_150201_DESC",
             },
             ["SKILL_150201_NAME"] = {
@@ -31330,17 +31812,19 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_150201_NAME",
             },
             ["SKILL_150202_DESC"] = {
-                ["ContentJP"] = "［葬送］状態になる。この時、自身のスキル範囲が100%以上の場合、超えた部分を一定比率でスキル威力に転換し、スキル範囲も100%まで狭まる。この効果は［葬送］状態が終わるまで持続する。\
-［葬送］状態では、遠隔武器の発動確率がアップする。［日食］を発動する時にSPを消費しなくなり、ダメージ倍率もアップする。［月食］を発動する時にSPを消費しなくなり、目標を範囲中心に引き寄せる。\
-一定時間経過、または［月食］と［日食］を6回発動すると、［葬送］状態が終わる。",
+                ["ContentJP"] = "「葬送」状態に入る。この状態に入る時、自身のスキル範囲が100%を超えた場合、超えた部分を一定比率でスキル威力に転換し、スキル範囲も100%まで狭まる。この効果は「葬送」状態が終わるまで持続する。\
+「葬送」状態では、遠隔武器の発動確率がアップし、さらに以下の効果が適用する。\
+「日食」を発動する時にSPを消費しなくなり、ダメージ倍率もアップする。\
+「月食」を発動する時にSPを消費しなくなり、目標を範囲中心に引き寄せる。\
+一定時間経過、または「月食」と「日食」を6回発動すると、「葬送」状態が解除される。",
                 ["TextMapId"] = "SKILL_150202_DESC",
             },
             ["SKILL_150202_NAME"] = {
-                ["ContentJP"] = "朧海の安らぎ",
+                ["ContentJP"] = "ニヴルヘイムのレクイエム",
                 ["TextMapId"] = "SKILL_150202_NAME",
             },
             ["SKILL_150203_DESC"] = {
-                ["ContentJP"] = "遠隔武器の発動確率に応じて、［日食］が生成された後、一定確率で同じ位置に1個の［月食］が生成される。生成後、一定確率で同じ位置に1個の［日食］が生成される。この効果によって生成された［日食］と［月食］は［朧海の安らぎ］で強化できない。",
+                ["ContentJP"] = "遠隔武器の発動確率に応じて、「日食領域」が生成された後、一定確率で同じ位置に1個の「月食領域」が生成される。生成後、一定確率で同じ位置に1個の「日食領域」が生成される。この効果によって生成された「日食領域」と「月食領域」は「ニヴルヘイムのレクイエム」により強化されない。",
                 ["TextMapId"] = "SKILL_150203_DESC",
             },
             ["SKILL_150203_NAME"] = {
@@ -31348,7 +31832,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_150203_NAME",
             },
             ["SKILL_150204_DESC"] = {
-                ["ContentJP"] = "［日食］で光属性の追加効果を発動できる。また［月食］で闇属性の追加効果を発動できる。",
+                ["ContentJP"] = "「日食」で光属性の追加効果を発動できる。また「月食」で闇属性の追加効果を発動できる。",
                 ["TextMapId"] = "SKILL_150204_DESC",
             },
             ["SKILL_150204_NAME"] = {
@@ -31356,7 +31840,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_150204_NAME",
             },
             ["SKILL_150301_DESC"] = {
-                ["ContentJP"] = "周囲の一定範囲内にいる敵に3回の光属性ダメージを与え、自身が遠隔武器の攻撃速度アップ効果を得る。［仮相］状態では代わりに近接武器の攻撃速度がアップするし、効果が持続中にダメージを受けてものけ反らない。",
+                ["ContentJP"] = "周囲の一定範囲内にいる敵に3回の光属性ダメージを与え、自身が遠隔武器の攻撃速度アップ効果を得る。「仮相」状態では代わりに近接武器の攻撃速度がアップするし、効果が持続中にダメージを受けてものけ反らない。",
                 ["TextMapId"] = "SKILL_150301_DESC",
             },
             ["SKILL_150301_NAME"] = {
@@ -31364,10 +31848,11 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_150301_NAME",
             },
             ["SKILL_150302_DESC"] = {
-                ["ContentJP"] = "［仮相］状態になる。大量の［古来万剣］を召喚して空中から落下させ、落下地点で範囲内の敵に光属性ダメージを与える。\
-［仮相］状態では、自身の近接武器が［無相剣］に変化する。［無相剣］でダメージを与えて追加効果を発動すると、［無相羽］1本を生成する。\
-［仮相］状態ではこのスキルが「飛羽塵追」に切り替わる。\
-自身の［剣意］に応じて、［星霜の神撃］のSP消費がダウンする。［剣意］が満タンの時、、［星霜の神撃］のSP消費は追加で20ダウンする。［弦意］に応じて、「飛羽塵追」のSP消費がダウンする。［弦意］が満タンの時、「飛羽塵追」のSP消費が追加で20ダウンする。",
+                ["ContentJP"] = "「仮相」状態になる。大量の「古来万剣」を召喚して空中から落下させ、落下地点で範囲内の敵に光属性ダメージを与える。\
+「仮相」状態では、自身の近接武器が「無相剣」に変化する。「無相剣」でダメージを与えて追加効果を発動すると、「無相羽」1本を生成する。\
+「仮相」状態ではこのスキルが「飛羽塵追」に切り替わる。\
+自身の「剣意」に応じて、「星霜の神撃」のSP消費がダウンする。「剣意」が満タンの時、、「星霜の神撃」のSP消費は追加で20ダウンする。\
+「弦意」に応じて、「飛羽塵追」のSP消費がダウンする。「弦意」が満タンの時、「飛羽塵追」のSP消費が追加で20ダウンする。",
                 ["TextMapId"] = "SKILL_150302_DESC",
             },
             ["SKILL_150302_NAME"] = {
@@ -31375,9 +31860,10 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_150302_NAME",
             },
             ["SKILL_150303_DESC"] = {
-                ["ContentJP"] = "［剣意］［弦意］の初期値は各50（最大100まで）。\
-自身の［剣意］に応じて、近接武器ダメージと近接武器の発動確率がアップする。自身の［弦意］に応じて、遠隔武器ダメージと遠隔武器の発動確率がアップする。\
-遠隔武器ダメージを与えるたびに、1点の［弦意］を［剣意］に転換し、逆に近接武器ダメージを与えるたびに、1点の［剣意］を［弦意］に転換する。",
+                ["ContentJP"] = "「剣意」と「弦意」の初期値は各50（最大100まで）。\
+自身の「剣意」に応じて、近接武器ダメージと近接武器の発動確率がアップする。\
+自身の「弦意」に応じて、遠隔武器ダメージと遠隔武器の発動確率がアップする。\
+遠隔武器ダメージを与えるたびに、1点の「弦意」を「剣意」に転換し、逆に近接武器ダメージを与えるたびに、1点の「剣意」を「弦意」に転換する。",
                 ["TextMapId"] = "SKILL_150303_DESC",
             },
             ["SKILL_150303_NAME"] = {
@@ -31385,8 +31871,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_150303_NAME",
             },
             ["SKILL_150304_DESC"] = {
-                ["ContentJP"] = "［仮相］状態になる時、その時点の［剣意］を記録する。一定の時間自身の［剣意］が記録数値より低い場合、自動的に記録数値を基準に［無常たる浮世］による［剣意］バフ効果を計算する。\
-［仮相］を解除する時、その時点の［弦意］を記録し、一定の時間自身の［弦意］が記録数値より低い場合、自動的に記録数値を基準に［無常たる浮世］による［弦意］バフ効果を計算する。",
+                ["ContentJP"] = "「仮相」状態になる時、その時点の「剣意」を記録する。一定の時間に自身の「剣意」が記録数値より低い場合、自動的に記録数値を基準に「無常たる浮世」による「剣意」バフ効果を計算する。「仮相」状態が解除されるとこの効果は失われる。\
+「仮相」を解除する時、その時点の「弦意」を記録し、一定の時間に自身の「弦意」が記録数値より低い場合、自動的に記録数値を基準に「無常たる浮世」による「弦意」バフ効果を計算する。「仮相」状態に入るととこの効果は失われる。",
                 ["TextMapId"] = "SKILL_150304_DESC",
             },
             ["SKILL_150304_NAME"] = {
@@ -31398,13 +31884,13 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_180101_DESC",
             },
             ["SKILL_180101_NAME"] = {
-                ["ContentJP"] = "「あるうららかな午後のこと」",
+                ["ContentJP"] = "「あるうららかな午後」",
                 ["TextMapId"] = "SKILL_180101_NAME",
             },
             ["SKILL_180102_DESC"] = {
-                ["ContentJP"] = "前方に［にぎやかなお茶会］領域を展開する。［にぎやかなお茶会］領域では持続的にSP消費する。SPが0になる、またはこのスキルを長押しして発動すると、［にぎやかなお茶会］が終了する。\
-［にぎやかなお茶会］効果期間中、スキルをクリックすることで、［ナイチンゲール］［猟犬］［ユニコーン］［バタフライ］の順に領域効果を切り替えられる。\
-領域外で切り替えると、［にぎやかなお茶会］が自身の前の位置に移動する。",
+                ["ContentJP"] = "前方に「にぎやかなお茶会」領域を展開する。「にぎやかなお茶会」領域では持続的にSP消費する。SPが0になる、またはこのスキルを長押しして発動すると、「にぎやかなお茶会」が終了する。\
+「にぎやかなお茶会」効果期間中、スキルを短押しすることで、「ナイチンゲール」「猟犬」「ユニコーン」「チョウ」の順に領域効果を切り替えられる。\
+領域外で切り替えると、「にぎやかなお茶会」が自身の前の位置に移動する。",
                 ["TextMapId"] = "SKILL_180102_DESC",
             },
             ["SKILL_180102_NAME"] = {
@@ -31412,7 +31898,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_180102_NAME",
             },
             ["SKILL_180103_DESC"] = {
-                ["ContentJP"] = "自身が永続に光属性の追加ダメージを得る。［あるうららかな午後のこと］を発動すると、［夢に咲く花］3スタックを得る。［にぎやかなお茶会］領域展開中、1秒ごとに［夢に咲く花］1スタックを得る（最大30スタックまで重ねがけ可）。",
+                ["ContentJP"] = "自身が永続に光属性の追加ダメージを得る。「あるうららかな午後」を発動すると、「夢に咲く花」3スタックを得る。「にぎやかなお茶会」領域展開中、1秒ごとに「夢に咲く花」1スタックを得る（最大30スタックまで重ねがけ可）。",
                 ["TextMapId"] = "SKILL_180103_DESC",
             },
             ["SKILL_180103_NAME"] = {
@@ -31420,7 +31906,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_180103_NAME",
             },
             ["SKILL_180104_DESC"] = {
-                ["ContentJP"] = "［あるうららかな午後のこと］を発動する時、自身および近くにいる隊員に［夢に咲く花］と同じスタック数の武器クリティカル率アップ効果を付与する。",
+                ["ContentJP"] = "「あるうららかな午後」を発動する時、自身および近くにいる隊員に「夢に咲く花」と同じスタック数の武器クリティカル率アップ効果を付与する。",
                 ["TextMapId"] = "SKILL_180104_DESC",
             },
             ["SKILL_180104_NAME"] = {
@@ -31469,11 +31955,11 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_20302_DESC",
             },
             ["SKILL_20303_DESC"] = {
-                ["ContentJP"] = "この武器に切り替えると、攻撃力がアップ（最大<H>#1</>まで）。効果は時間とともに減少する。他の武器に切り替えると効果が失われる。",
+                ["ContentJP"] = "この武器に切り替えると、攻撃力がアップ（最大<H>#1</>まで）。効果は時間とともに減少する。この効果は10秒ごとに最大1回発動する。他の武器に切り替えると効果が失われる。",
                 ["TextMapId"] = "SKILL_20303_DESC",
             },
             ["SKILL_20304_DESC"] = {
-                ["ContentJP"] = "クリティカルダメージ+<H>#1</>。弾丸が敵または障害物に命中すると2発に分裂し前進する。この武器に切り替えると多重射撃が最大<H>#2</>までアップする。本効果は時間経過に応じて少しずつダウンしていく。他の武器に切り替えると、この効果は消える。",
+                ["ContentJP"] = "クリティカルダメージ+<H>#1</>。弾丸が敵または障害物に命中すると2発に分裂し前進する。この武器に切り替えると多重射撃が最大<H>#2</>までアップする。この効果は時間経過に応じて少しずつダウンしていく。さらに、この効果は10秒ごとに最大1回発動する。他の武器に切り替えると、この効果は消える。",
                 ["TextMapId"] = "SKILL_20304_DESC",
             },
             ["SKILL_20305_DESC"] = {
@@ -31486,7 +31972,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
             },
             ["SKILL_20402_DESC"] = {
                 ["ContentJP"] = "衝撃ダメージが<H>#1</>アップする。弾丸は標的に付着して3秒後に爆発する。複数の弾が付着するとダメージと範囲がアップする。\
-1/2/3回目の付着は元のダメージ<H>#2</>/<H>#3</>/<H>#4</>相当のダメージを与える",
+1/2/3回目の付着は元のダメージ<H>#2</>/<H>#3</>/<H>#4</>相当のダメージを与える\
+",
                 ["TextMapId"] = "SKILL_20402_DESC",
             },
             ["SKILL_20403_DESC"] = {
@@ -31502,7 +31989,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_20501_DESC",
             },
             ["SKILL_20502_DESC"] = {
-                ["ContentJP"] = "クリティカル率+<H>#1</>。レーザー攻撃が敵に命中すると跳ね返り、周囲にいる最大4体の敵を攻撃する。この武器でクリティカルダメージを与えると、<H>#3</>秒間［パニッシュメントベル」によるダメージが<H>#2</>アップする（最大<H>#4</>回まで重ねがけ可）。",
+                ["ContentJP"] = "クリティカル率+<H>#1</>。レーザー攻撃が敵に命中すると跳ね返り、周囲にいる最大4体の敵を攻撃する。この武器でクリティカルダメージを与えると、<H>#3</>秒間「パニッシュメントベル」によるダメージが<H>#2</>アップする（最大<H>#4</>回まで重ねがけ可）。",
                 ["TextMapId"] = "SKILL_20502_DESC",
             },
             ["SKILL_20503_DESC"] = {
@@ -31556,7 +32043,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_210003_NAME",
             },
             ["SKILL_210101_DESC"] = {
-                ["ContentJP"] = "「召喚ユニット・クラゲ」を1匹召喚。「召喚ユニット・クラゲ」は同時に3匹までフィールドに存在できる。",
+                ["ContentJP"] = "「召喚ユニット‐クラゲ」を1匹召喚。「召喚ユニット‐クラゲ」は同時に3匹までフィールドに存在できる。",
                 ["TextMapId"] = "SKILL_210101_DESC",
             },
             ["SKILL_210101_NAME"] = {
@@ -31572,7 +32059,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_210102_NAME",
             },
             ["SKILL_210103_DESC"] = {
-                ["ContentJP"] = "近接武器か「召喚ユニット・クラゲ」でダメージを与えた敵に「愛の毒」を1トークン付加する。最大6回まで重ねがけできる。",
+                ["ContentJP"] = "近接武器か「召喚ユニット‐クラゲ」でダメージを与えた敵に「愛の毒」を1トークン付加する。最大6回まで重ねがけできる。",
                 ["TextMapId"] = "SKILL_210103_DESC",
             },
             ["SKILL_210103_NAME"] = {
@@ -31589,7 +32076,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_210104_NAME",
             },
             ["SKILL_230101_DESC"] = {
-                ["ContentJP"] = "自身の召喚した全ての［召喚ユニット・触手］に1回攻撃させ、今回の攻撃の与ダメージがアップする。自身および近くにいる隊員に水属性追加ダメージを付与する。",
+                ["ContentJP"] = "自身の召喚した全ての「召喚ユニット‐触手」に1回攻撃させ、今回の攻撃の与ダメージがアップする。自身および近くにいる隊員に水属性追加ダメージを付与する。",
                 ["TextMapId"] = "SKILL_230101_DESC",
             },
             ["SKILL_230101_NAME"] = {
@@ -31597,7 +32084,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_230101_NAME",
             },
             ["SKILL_230102_DESC"] = {
-                ["ContentJP"] = "タビテの周囲に「召喚ユニット・触手」を9本召喚する。",
+                ["ContentJP"] = "タビテの周囲に「召喚ユニット‐触手」を9本召喚する。",
                 ["TextMapId"] = "SKILL_230102_DESC",
             },
             ["SKILL_230102_NAME"] = {
@@ -31605,7 +32092,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_230102_NAME",
             },
             ["SKILL_230103_DESC"] = {
-                ["ContentJP"] = "遠隔武器でクリティカルヒットすると、一定確率で「召喚ユニット・触手」を1本召喚する。1秒ごとに1回のみ発動可能で、フィールドに同時に存在できる「召喚ユニット・触手」の数は最大18本までとなる。",
+                ["ContentJP"] = "遠隔武器でクリティカルヒットすると、一定確率で「召喚ユニット‐触手」を1本召喚する。1秒ごとに1回のみ発動可能で、フィールドに同時に存在できる「召喚ユニット‐触手」の数は最大18本までとなる。",
                 ["TextMapId"] = "SKILL_230103_DESC",
             },
             ["SKILL_230103_NAME"] = {
@@ -31613,7 +32100,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_230103_NAME",
             },
             ["SKILL_230104_DESC"] = {
-                ["ContentJP"] = "「召喚ユニット・触手」を召喚すると「タビテ」のクリティカル率がアップ。最大10回まで重ねがけできる。",
+                ["ContentJP"] = "「召喚ユニット‐触手」を召喚すると「タビテ」のクリティカル率がアップ。最大10回まで重ねがけできる。",
                 ["TextMapId"] = "SKILL_230104_DESC",
             },
             ["SKILL_230104_NAME"] = {
@@ -31621,7 +32108,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_230104_NAME",
             },
             ["SKILL_240101_DESC"] = {
-                ["ContentJP"] = "「召喚ユニット・雲龍」1匹を召喚。「召喚ユニット・雲龍」は同時に2匹までフィールドに存在できる。",
+                ["ContentJP"] = "「召喚ユニット‐雲龍」1匹を召喚。「召喚ユニット‐雲龍」は同時に2匹までフィールドに存在できる。",
                 ["TextMapId"] = "SKILL_240101_DESC",
             },
             ["SKILL_240101_NAME"] = {
@@ -31647,7 +32134,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_240103_NAME",
             },
             ["SKILL_240104_DESC"] = {
-                ["ContentJP"] = "存在する［召喚ユニット・雲龍］の数によって、自身のスキル威力がアップする。",
+                ["ContentJP"] = "存在する「召喚ユニット‐雲龍」の数によって、自身のスキル威力がアップする。",
                 ["TextMapId"] = "SKILL_240104_DESC",
             },
             ["SKILL_240104_NAME"] = {
@@ -31701,17 +32188,14 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
             },
             ["SKILL_310103_DESC"] = {
                 ["ContentJP"] = "射撃時を行っていない間、1秒ごとに「予装填」を1トークン獲得、最大6トークンまで重ねがけ可能。射撃を行うとすべての「予装填」を消費し、一定時間にわたり「火力制圧」効果を発動\
-※火力制圧：消費した「予装填」の数に応じてダメージがアップ。効果持続中は「予装填」を獲得できない。",
+※火力制圧：消費した「予装填」の数に応じてダメージがアップ。\
+効果持続中は「予装填」を獲得できない。",
                 ["TextMapId"] = "SKILL_310103_DESC",
             },
             ["SKILL_310103_NAME"] = {
                 ["ContentJP"] = "ファストショット",
                 ["TextMapId"] = "SKILL_310103_NAME",
             },
-        }
-    end },
-    { MinKey = "SKILL_310104_DESC", MaxKey = "SKILL_DESC_2401Skill02BuffSustain", Loader = function()
-        return {
             ["SKILL_310104_DESC"] = {
                 ["ContentJP"] = "「傷口」カウント数が上限になるとただちに「裂傷」効果が解除され、同時にダメージを与える。",
                 ["TextMapId"] = "SKILL_310104_DESC",
@@ -31721,7 +32205,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_310104_NAME",
             },
             ["SKILL_310201_DESC"] = {
-                ["ContentJP"] = "「掃除機」に命令して、自分の周囲を持続的に旋回しつつ「高温洗浄フレイム」を発射させる。その間、すべての「小型掃除機」の持続時間のカウントダウンが止まる。「高温洗浄フレイム」は命中した敵に火属性ダメージを与える。敵を撃破すると一定確率でSPが回復する。",
+                ["ContentJP"] = "「掃除機」に命令して、自分の周囲を持続的に旋回しつつ「高温洗浄フレイム」を発射させる。その間、すべての「小型掃除機」の持続時間のカウントダウンが止まる。「高温洗浄フレイム」は命中した敵に火属性ダメージを与える。「高温洗浄フレイム」持続中に敵を撃破すると一定確率でSPが回復する。",
                 ["TextMapId"] = "SKILL_310201_DESC",
             },
             ["SKILL_310201_NAME"] = {
@@ -31729,7 +32213,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_310201_NAME",
             },
             ["SKILL_310202_DESC"] = {
-                ["ContentJP"] = "周囲の敵に火属性ダメージを与えて武器を取り上げる。敵1体に命中するごとにヒルダの周囲に「小型掃除機」1台を展開し、すべての「小型掃除機」の持続時間をリセットする。同時に展開できる「小型掃除機」は最大6台まで。\
+                ["ContentJP"] = "周囲の敵に火属性ダメージを与えて武装解除をする。敵1体に命中するごとにヒルダの周囲に「小型掃除機」1台を展開し、すべての「小型掃除機」の持続時間をリセットする。同時に展開できる「小型掃除機」は最大6台まで。\
 2台の「大型掃除機」が召喚されている場合、「大型掃除機」と「小型掃除機」は自動的に周囲を捜索しながら敵へと照準を合わせ、3秒ごとに1回の射撃を行い、火属性ダメージを与える。",
                 ["TextMapId"] = "SKILL_310202_DESC",
             },
@@ -31747,7 +32231,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_310203_NAME",
             },
             ["SKILL_310204_DESC"] = {
-                ["ContentJP"] = "「掃除機」で射撃する時、「30%+20%×自身の遠隔武器の多重射撃ステータス］の確率で追加の弾丸1発を発射する。また、［高温洗浄フレイム」のダメージが「30%+20%×自身の遠隔武器の多重射撃ステータス」分アップする。",
+                ["ContentJP"] = "「掃除機」で射撃する時、「30%+20%×自身の遠隔武器の多重射撃ステータス」の確率で追加の弾丸1発を発射する。また、「高温洗浄フレイム」のダメージが「30%+20%×自身の遠隔武器の多重射撃ステータス」分アップする。",
                 ["TextMapId"] = "SKILL_310204_DESC",
             },
             ["SKILL_310204_NAME"] = {
@@ -31755,7 +32239,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_310204_NAME",
             },
             ["SKILL_310301_DESC"] = {
-                ["ContentJP"] = "ランダムで「キュートちゃん・イェール式」または「キュートちゃん・オリバー式」のいずれか1つを投げる。爆弾は着地後2秒遅れて爆発し、十字範囲内の敵に火属性ダメージを与える。また、範囲内のほかの「キュートちゃん」を誘爆する。「キュートちゃん」は最大10個までフィールド同時に存在できる。",
+                ["ContentJP"] = "ランダムで「キュートちゃん‐イェール式」または「キュートちゃん‐オリバー式」のいずれか1つを投げる。爆弾は着地後2秒遅れて爆発し、十字範囲内の敵に火属性ダメージを与える。また、範囲内のほかの「キュートちゃん」を誘爆する。「キュートちゃん」は最大10個までフィールド同時に存在できる。",
                 ["TextMapId"] = "SKILL_310301_DESC",
             },
             ["SKILL_310301_NAME"] = {
@@ -31889,7 +32373,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_410102_NAME",
             },
             ["SKILL_410103_DESC"] = {
-                ["ContentJP"] = "自身がSPを消費する際、一定の割合で消費量が［エナジー］に変換される。［エナジー］の上限は最大SPと同じ。",
+                ["ContentJP"] = "自身がSPを消費する際、一定の割合で消費量が「エナジー」に変換される。「エナジー」の上限は最大SPと同じ。",
                 ["TextMapId"] = "SKILL_410103_DESC",
             },
             ["SKILL_410103_NAME"] = {
@@ -31897,7 +32381,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_410103_NAME",
             },
             ["SKILL_410104_DESC"] = {
-                ["ContentJP"] = "自身が［エナジー］を消費する際、消費量の50％がSPに変換される。",
+                ["ContentJP"] = "自身が「エナジー」を消費する際、消費量の50％がSPに変換される。",
                 ["TextMapId"] = "SKILL_410104_DESC",
             },
             ["SKILL_410104_NAME"] = {
@@ -31905,8 +32389,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_410104_NAME",
             },
             ["SKILL_410201_DESC"] = {
-                ["ContentJP"] = "クリックした場合、「解天道・震」を発動する。前方範囲内の敵に雷属性ダメージを与え、自身が1枚の［泉の符・震」を得る。\
-長押しした場合、「解天道・巽」を発動する。周囲の一定範囲内の敵に雷属性ダメージを与え、自身に過負荷シールドを付与すると同時に［泉の符・巽］を1枚得る。",
+                ["ContentJP"] = "短押しした場合、「解天道‐震」を発動する。前方範囲内の敵に雷属性ダメージを与え、自身が1枚の「泉の符‐震」を得る。\
+長押しした場合、「解天道‐巽」を発動する。周囲の一定範囲内の敵に雷属性ダメージを与え、自身に過負荷シールドを付与すると同時に「泉の符‐巽」を1枚得る。",
                 ["TextMapId"] = "SKILL_410201_DESC",
             },
             ["SKILL_410201_NAME"] = {
@@ -31914,8 +32398,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_410201_NAME",
             },
             ["SKILL_410202_DESC"] = {
-                ["ContentJP"] = "自身の［泉の符］が2枚未満の場合、周囲の一定範囲内の敵に雷属性ダメージを与える。\
-自身が2枚の［泉の符］を持っている場合、その［泉の符］に応じて、このスキルは他のスキルに変化する。",
+                ["ContentJP"] = "自身の「泉の符」が2枚未満の場合、周囲の一定範囲内の敵に雷属性ダメージを与える。\
+自身が2枚の「泉の符」を持っている場合、その「泉の符」に応じて、このスキルは他のスキルに変化する。",
                 ["TextMapId"] = "SKILL_410202_DESC",
             },
             ["SKILL_410202_NAME"] = {
@@ -31923,8 +32407,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_410202_NAME",
             },
             ["SKILL_410203_DESC"] = {
-                ["ContentJP"] = "［解天道］を発動することで、［泉の符］を得る。最大2本所持可能。［泉の符］が所持上限を超える場合、最初に得た［泉の符］を除去する。\
-「雷鳴招来」「万物蘇生」「天地照明」の発動によって［泉の符］が除去される時、各［泉の符］は一定確率で保留される（その確率は自身の近接武器の発動確率に準ずる）。",
+                ["ContentJP"] = "「解天道」を発動することで、「泉の符」を得る。最大2本所持可能。「泉の符」が所持上限を超える場合、最初に得た「泉の符」を除去する。\
+「雷鳴招来」「万物蘇生」「天地照明」の発動によって「泉の符」が除去される時、各「泉の符」は一定確率で保留される（その確率は自身の近接武器の発動確率に準ずる）。",
                 ["TextMapId"] = "SKILL_410203_DESC",
             },
             ["SKILL_410203_NAME"] = {
@@ -31932,7 +32416,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_410203_NAME",
             },
             ["SKILL_410204_DESC"] = {
-                ["ContentJP"] = "自身および他の隊員が雷属性スキルダメージを与える時、自身は1スタックの高揚アップ効果を得る（最大10回重ねがけ可）。",
+                ["ContentJP"] = "自身および他の隊員が雷属性スキルダメージを与える時、自身は1スタックの高揚アップ効果を得る（最大12回重ねがけ可）。",
                 ["TextMapId"] = "SKILL_410204_DESC",
             },
             ["SKILL_410204_NAME"] = {
@@ -31940,9 +32424,9 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_410204_NAME",
             },
             ["SKILL_420101_DESC"] = {
-                ["ContentJP"] = "自身が空中へ跳躍し、滞空中に次の近接武器の落下攻撃を［流星群］に変更する。\
-［ミズチ憑依］状態では、1枚の［逆鱗］を得る。\
-［逆鱗］が最大数に達すると、［流星群］が［星川凋零］に変化する。",
+                ["ContentJP"] = "自身が空中へ跳躍し、滞空中に次の近接武器の落下攻撃を「流星群」に変更する。\
+「ミズチ憑依」状態では、1枚の「逆鱗」を得る。\
+「逆鱗」が最大数に達すると、「流星群」が「星川凋零」に変化する。",
                 ["TextMapId"] = "SKILL_420101_DESC",
             },
             ["SKILL_420101_NAME"] = {
@@ -31958,7 +32442,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_420102_NAME",
             },
             ["SKILL_420103_DESC"] = {
-                ["ContentJP"] = "スキルダメージを与える時、敵に1スタックの［激戦］を付与する。［激戦］：雷耐性ダウン（最大3スタックまで重ねがけ可）。",
+                ["ContentJP"] = "スキルダメージを与える時、敵に1スタックの「激戦」を付与する。「激戦」：雷耐性ダウン（最大3スタックまで重ねがけ可）。",
                 ["TextMapId"] = "SKILL_420103_DESC",
             },
             ["SKILL_420103_NAME"] = {
@@ -31966,7 +32450,7 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_420103_NAME",
             },
             ["SKILL_420104_DESC"] = {
-                ["ContentJP"] = "「清暗龍鱗」を発動する時、6枚の［逆鱗］を得る。",
+                ["ContentJP"] = "「清暗龍鱗」を発動する時、6枚の「逆鱗」を得る。",
                 ["TextMapId"] = "SKILL_420104_DESC",
             },
             ["SKILL_420104_NAME"] = {
@@ -32025,8 +32509,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_430101_NAME",
             },
             ["SKILL_430102_DESC"] = {
-                ["ContentJP"] = "「召喚ユニット・サンダーボール」を召喚する。「召喚ユニット・サンダーボール」は同時に1体までフィールドに存在できる。\
-「雷霆万鈞」を消費して強化された「召喚ユニット・サンダーボール］を召喚し、その「召喚ユニット・サンダーボール］による「破滅の嵐」の間隔が2秒までダウンし、チェインダメージがアップする。",
+                ["ContentJP"] = "「召喚ユニット‐サンダーボール」を召喚する。「召喚ユニット‐サンダーボール」は同時に1体までフィールドに存在できる。\
+「雷霆万鈞」を消費して強化された「召喚ユニット‐サンダーボール」を召喚し、その「召喚ユニット‐サンダーボール」による「破滅の嵐」の間隔が2秒までダウンし、リンクダメージがアップする。",
                 ["TextMapId"] = "SKILL_430102_DESC",
             },
             ["SKILL_430102_NAME"] = {
@@ -32042,7 +32526,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_430103_NAME",
             },
             ["SKILL_430104_DESC"] = {
-                ["ContentJP"] = "「召喚ユニット・サンダーボール」が「イカズチ」からのダメージを受けると、リンクされた敵へのダメージ伝達率が#3アップ、最大で4回までアップ可能。",
+                ["ContentJP"] = "\
+「エクスディウム」もしくは「軍団懲戒」がダメージを与えた時に一定の確率で雷属性の追加効果を発動する。その確率は自分の近接武器の発動確率に基づく。",
                 ["TextMapId"] = "SKILL_430104_DESC",
             },
             ["SKILL_430104_NAME"] = {
@@ -32112,8 +32597,8 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_510191_NAME",
             },
             ["SKILL_510201_DESC"] = {
-                ["ContentJP"] = "「朧足」状態になり、「狩猟」状態を解除する。\
-自ら「朧足」状態を解除すると、もしくは「朧足」状態で再び「隠密」を発動する時、2本の「喰い牙」を生成し、ランダムに周囲の敵を攻撃する。",
+                ["ContentJP"] = "「潜行」状態に、「狩猟」状態を解除する。\
+自ら「潜行」状態を解除すると、もしくは「潜行」状態で再び「隠密」を発動する時、2本の「ファングスラスト」を生成し、ランダムに周囲の敵を攻撃する。",
                 ["TextMapId"] = "SKILL_510201_DESC",
             },
             ["SKILL_510201_NAME"] = {
@@ -32121,28 +32606,32 @@ HP割合が<Highlight>40%</>を上回る場合、[血を啜る紅蓮]のHP割合
                 ["TextMapId"] = "SKILL_510201_NAME",
             },
             ["SKILL_510202_DESC"] = {
-                ["ContentJP"] = "すべての「喰い牙」を回収し、「狩猟」状態になる。\
-1本の「喰い牙」を回収するたびに、一定量のHPが失われる。失ったHPが同量の過負荷シールドに転換され、「狩猟」の持続時間が延長される。この効果でHPが失われる場合、HPが1を下回らない。",
+                ["ContentJP"] = "すべての「ファングスラスト」を回収し、「狩猟」状態になる。\
+1本の「ファングスラスト」を回収するたびに、一定量のHPが失われる。失ったHPが同量の過負荷シールドに転換され、「狩猟」の持続時間が延長される。この効果でHPが失われる場合、HPが1を下回らない。",
                 ["TextMapId"] = "SKILL_510202_DESC",
             },
+        }
+    end },
+    { MinKey = "SKILL_510202_NAME", MaxKey = "SKILL_DESC_4301Skill01SecondEnergy", Loader = function()
+        return {
             ["SKILL_510202_NAME"] = {
-                ["ContentJP"] = "瞬喰い",
+                ["ContentJP"] = "襲撃狩り",
                 ["TextMapId"] = "SKILL_510202_NAME",
             },
             ["SKILL_510203_DESC"] = {
-                ["ContentJP"] = "ダメージを受ける時、1本の「喰い牙」を生成して攻撃元に反撃する。この効果は1秒ごとに1回のみ発動可能。",
+                ["ContentJP"] = "ダメージを受ける時、1本の「ファングスラスト」を生成して攻撃元に反撃する。この効果は1秒ごとに1回のみ発動可能。",
                 ["TextMapId"] = "SKILL_510203_DESC",
             },
             ["SKILL_510203_NAME"] = {
-                ["ContentJP"] = "牙返し",
+                ["ContentJP"] = "歯には歯を",
                 ["TextMapId"] = "SKILL_510203_NAME",
             },
             ["SKILL_510204_DESC"] = {
-                ["ContentJP"] = "「狩猟」状態ではない場合、近接武器でダメージを与えると、一定確率で1本の「喰い牙」を生成して目標を攻撃する。この効果は1秒ごとに1回のみ発動可能。",
+                ["ContentJP"] = "「狩猟」状態ではない場合、近接武器でダメージを与えると、一定確率で1本の「ファングスラスト」を生成して目標を攻撃する。この効果は1秒ごとに1回のみ発動可能。",
                 ["TextMapId"] = "SKILL_510204_DESC",
             },
             ["SKILL_510204_NAME"] = {
-                ["ContentJP"] = "牙蝕",
+                ["ContentJP"] = "嚙みつく",
                 ["TextMapId"] = "SKILL_510204_NAME",
             },
             ["SKILL_530101_DESC"] = {
@@ -32159,7 +32648,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_530102_DESC",
             },
             ["SKILL_530102_NAME"] = {
-                ["ContentJP"] = "メメント・モリ",
+                ["ContentJP"] = "メメント‐モリ",
                 ["TextMapId"] = "SKILL_530102_NAME",
             },
             ["SKILL_530103_DESC"] = {
@@ -32172,7 +32661,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_530103_NAME",
             },
             ["SKILL_530104_DESC"] = {
-                ["ContentJP"] = "「メメント・モリ」を発動する時、自身のHP割合が75%以上の場合、「朝露の如く」を得る。高揚と背水を計算する時、自身のHP割合は1%と見なされる。この効果は90秒ごとに1回のみ発動できる。",
+                ["ContentJP"] = "「メメント‐モリ」を発動する時、自身のHP割合が75%以上の場合、「朝露の如く」を得る。高揚と背水を計算する時、自身のHP割合は1%と見なされる。この効果は120秒ごとに1回のみ発動できる。",
                 ["TextMapId"] = "SKILL_530104_DESC",
             },
             ["SKILL_530104_NAME"] = {
@@ -32180,8 +32669,8 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_530104_NAME",
             },
             ["SKILL_540101_DESC"] = {
-                ["ContentJP"] = "自身が［ジェイドミラージュ］効果を得る。効果期間中、自身の周囲に煉金煙霧を展開し、自身および範囲内の隊員が持続的にHPを回復する。また、範囲内にいる敵の移動速度を持続的にダウンさせる。\
-［ジェイドミラージュ］効果期間中、1秒ごとに2発の［アゾット弾］を獲得する。",
+                ["ContentJP"] = "自身が「ジェイドミラージュ」効果を得る。効果期間中、自身の周囲に煉金煙霧を展開し、自身および範囲内の隊員が持続的にHPを回復する。また、範囲内にいる敵の移動速度を持続的にダウンさせる。\
+「ジェイドミラージュ」効果期間中、1秒ごとに2発の「アゾット弾」を獲得する。",
                 ["TextMapId"] = "SKILL_540101_DESC",
             },
             ["SKILL_540101_NAME"] = {
@@ -32189,8 +32678,8 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_540101_NAME",
             },
             ["SKILL_540102_DESC"] = {
-                ["ContentJP"] = "自身および近くにいる隊員を回復し、［活性処方］を付与する。周囲の敵を一時的に束縛し、1スタックの［腐蝕処方］を付与する（最大3回まで重ねがけ可）。\
-この効果を受けた味方と敵の数に応じて、同量の［アゾット弾］を獲得する（最大12発まで）。",
+                ["ContentJP"] = "自身および近くにいる隊員を回復し、「活性処方」を付与する。周囲の敵を一時的に束縛し、1スタックの「腐蝕処方」を付与する（最大3回まで重ねがけ可）。\
+この効果を受けた味方と敵の数に応じて、同量の「アゾット弾」を獲得する（最大12発まで）。",
                 ["TextMapId"] = "SKILL_540102_DESC",
             },
             ["SKILL_540102_NAME"] = {
@@ -32198,7 +32687,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_540102_NAME",
             },
             ["SKILL_540103_DESC"] = {
-                ["ContentJP"] = "［アゾット弾］を所持している間、自身の遠隔武器の発動確率がアップする。［アゾット弾］は最大30発まで所持可能。遠隔武器で射撃を行うと、［アゾット弾］1発を消費する。",
+                ["ContentJP"] = "「アゾット弾」を所持している間、自身の遠隔武器の発動確率がアップする。「アゾット弾」は最大30発まで所持可能。遠隔武器で射撃を行うと、「アゾット弾」1発を消費する。",
                 ["TextMapId"] = "SKILL_540103_DESC",
             },
             ["SKILL_540103_NAME"] = {
@@ -32206,7 +32695,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_540103_NAME",
             },
             ["SKILL_540104_DESC"] = {
-                ["ContentJP"] = "［アゾット弾］を所持している間、遠隔武器がダメージを与えた場合、［腐蝕処方］を1回消費して持続ダメージを追加で発動する。その持続ダメージ倍率は遠隔武器の発動確率によって決まる。",
+                ["ContentJP"] = "「アゾット弾」を所持している間、遠隔武器がダメージを与えた場合、「腐蝕処方」を1回消費して持続ダメージを追加で発動する。その持続ダメージ倍率は遠隔武器の発動確率によって決まる。",
                 ["TextMapId"] = "SKILL_540104_DESC",
             },
             ["SKILL_540104_NAME"] = {
@@ -32242,111 +32731,111 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_1101WaveWidth",
             },
             ["SKILL_DESC_1103ComboDamage1"] = {
-                ["ContentJP"] = "［怒りの爪］1段ダメージ",
+                ["ContentJP"] = "「怒りの爪」1段ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1103ComboDamage1",
             },
             ["SKILL_DESC_1103ComboDamage2"] = {
-                ["ContentJP"] = "［怒りの爪］2段ダメージ",
+                ["ContentJP"] = "「怒りの爪」2段ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1103ComboDamage2",
             },
             ["SKILL_DESC_1103ComboDamage3"] = {
-                ["ContentJP"] = "［怒りの爪］3段ダメージ",
+                ["ContentJP"] = "「怒りの爪」3段ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1103ComboDamage3",
             },
             ["SKILL_DESC_1103ComboDamage4"] = {
-                ["ContentJP"] = "［怒りの爪］4段ダメージ",
+                ["ContentJP"] = "「怒りの爪」4段ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1103ComboDamage4",
             },
             ["SKILL_DESC_1103DamageRadius"] = {
-                ["ContentJP"] = "［怒りの爪］ダメージ半径",
+                ["ContentJP"] = "「怒りの爪」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_1103DamageRadius",
             },
             ["SKILL_DESC_1103ExSpToAtk"] = {
-                ["ContentJP"] = "［獣化・サクリファイス］攻撃力アップ",
+                ["ContentJP"] = "「獣化‐サクリファイス」攻撃力アップ",
                 ["TextMapId"] = "SKILL_DESC_1103ExSpToAtk",
             },
             ["SKILL_DESC_1103FallAttackDamage"] = {
-                ["ContentJP"] = "［怒りの爪］落下ダメージ",
+                ["ContentJP"] = "「怒りの爪」落下ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1103FallAttackDamage",
             },
             ["SKILL_DESC_1103LimitOff"] = {
-                ["ContentJP"] = "［獣化・サクリファイス］攻撃力アップ上限",
+                ["ContentJP"] = "「獣化‐サクリファイス」攻撃力アップ上限",
                 ["TextMapId"] = "SKILL_DESC_1103LimitOff",
             },
             ["SKILL_DESC_1103MarkRate"] = {
-                ["ContentJP"] = "1スタックの［アダージョ］ごとにアップするダメージ倍率",
+                ["ContentJP"] = "1スタックの「アダージョ」ごとにアップするダメージ倍率",
                 ["TextMapId"] = "SKILL_DESC_1103MarkRate",
             },
             ["SKILL_DESC_1103MarkRestore1"] = {
-                ["ContentJP"] = "［終止符］SP回復",
+                ["ContentJP"] = "「終止符」SP回復",
                 ["TextMapId"] = "SKILL_DESC_1103MarkRestore1",
             },
             ["SKILL_DESC_1103MarkRestore2"] = {
-                ["ContentJP"] = "［終止符］で獲得する［イマージョン］",
+                ["ContentJP"] = "「終止符」で獲得する「イマージョン」",
                 ["TextMapId"] = "SKILL_DESC_1103MarkRestore2",
             },
             ["SKILL_DESC_1103MarkSustain"] = {
-                ["ContentJP"] = "［アダージョ］持続時間",
+                ["ContentJP"] = "「アダージョ」持続時間",
                 ["TextMapId"] = "SKILL_DESC_1103MarkSustain",
             },
             ["SKILL_DESC_1103MaxAtk"] = {
-                ["ContentJP"] = "［獣化］攻撃力アップ上限",
+                ["ContentJP"] = "「獣化」攻撃力アップ上限",
                 ["TextMapId"] = "SKILL_DESC_1103MaxAtk",
             },
             ["SKILL_DESC_1103RayDamage"] = {
-                ["ContentJP"] = "［悲嘆の咆哮］ビームダメージ",
+                ["ContentJP"] = "「悲嘆の咆哮」ビームダメージ",
                 ["TextMapId"] = "SKILL_DESC_1103RayDamage",
             },
             ["SKILL_DESC_1103RayLength"] = {
-                ["ContentJP"] = "［悲嘆の咆哮］ビームの長さ",
+                ["ContentJP"] = "「悲嘆の咆哮」ビームの長さ",
                 ["TextMapId"] = "SKILL_DESC_1103RayLength",
             },
             ["SKILL_DESC_1103Restore"] = {
-                ["ContentJP"] = "［デュエット］で獲得する［イマージョン］",
+                ["ContentJP"] = "「デュエット」で獲得する「イマージョン」",
                 ["TextMapId"] = "SKILL_DESC_1103Restore",
             },
             ["SKILL_DESC_1103Skill01Damage"] = {
-                ["ContentJP"] = "［アリア］ダメージ",
+                ["ContentJP"] = "「アリア」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01Damage",
             },
             ["SKILL_DESC_1103Skill01Msp1"] = {
-                ["ContentJP"] = "［レチタティーヴォ］で獲得する［イマージョン］",
+                ["ContentJP"] = "「レチタティーヴォ」で獲得する「イマージョン」",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01Msp1",
             },
             ["SKILL_DESC_1103Skill01Msp2"] = {
-                ["ContentJP"] = "［アリア］で獲得する［イマージョン］",
+                ["ContentJP"] = "「アリア」で獲得する「イマージョン」",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01Msp2",
             },
             ["SKILL_DESC_1103Skill01SkillRange"] = {
-                ["ContentJP"] = "［プレスト］スキル範囲アップ",
+                ["ContentJP"] = "「プレスト」スキル範囲アップ",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01SkillRange",
             },
             ["SKILL_DESC_1103Skill01SpCost"] = {
-                ["ContentJP"] = "［アリア］SP消費",
+                ["ContentJP"] = "「アリア」SP消費",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01SpCost",
             },
             ["SKILL_DESC_1103Skill01Sustain"] = {
-                ["ContentJP"] = "［プレスト］持続時間",
+                ["ContentJP"] = "「プレスト」持続時間",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01Sustain",
             },
             ["SKILL_DESC_1103Skill02Msp"] = {
-                ["ContentJP"] = "［獣化］で1秒ごとに獲得する［イマージョン］",
+                ["ContentJP"] = "「獣化」で1秒ごとに獲得する「イマージョン」",
                 ["TextMapId"] = "SKILL_DESC_1103Skill02Msp",
             },
             ["SKILL_DESC_1103SpToAtk"] = {
-                ["ContentJP"] = "［獣化］攻撃力アップ",
+                ["ContentJP"] = "「獣化」攻撃力アップ",
                 ["TextMapId"] = "SKILL_DESC_1103SpToAtk",
             },
             ["SKILL_DESC_1103SspCost"] = {
-                ["ContentJP"] = "［獣化・サクリファイス］で1秒ごとに消費される［イマージョン］",
+                ["ContentJP"] = "「獣化‐サクリファイス」で1秒ごとに消費される「イマージョン」",
                 ["TextMapId"] = "SKILL_DESC_1103SspCost",
             },
             ["SKILL_DESC_1502Skill01Buff1"] = {
-                ["ContentJP"] = "［日食］攻撃力ダウン",
+                ["ContentJP"] = "「日食」攻撃力ダウン",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01Buff1",
             },
             ["SKILL_DESC_1502Skill01Buff2"] = {
-                ["ContentJP"] = "［月食］移動速度ダウン",
+                ["ContentJP"] = "「月食」移動速度ダウン",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01Buff2",
             },
             ["SKILL_DESC_1502Skill01BuffTime1"] = {
@@ -32358,83 +32847,83 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_1502Skill01BuffTime2",
             },
             ["SKILL_DESC_1502Skill01Damage1"] = {
-                ["ContentJP"] = "［日食］ダメージ",
+                ["ContentJP"] = "「日食」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01Damage1",
             },
             ["SKILL_DESC_1502Skill01Damage2"] = {
-                ["ContentJP"] = "［月食］ダメージ",
+                ["ContentJP"] = "「月食」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01Damage2",
             },
             ["SKILL_DESC_1502Skill01Radius1"] = {
-                ["ContentJP"] = "［日食］ダメージ半径",
+                ["ContentJP"] = "「日食」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01Radius1",
             },
             ["SKILL_DESC_1502Skill01Radius2"] = {
-                ["ContentJP"] = "［月食］ダメージ半径",
+                ["ContentJP"] = "「月食」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01Radius2",
             },
             ["SKILL_DESC_1502Skill02BuffTime"] = {
-                ["ContentJP"] = "［葬送］状態持続時間",
+                ["ContentJP"] = "「葬送」状態持続時間",
                 ["TextMapId"] = "SKILL_DESC_1502Skill02BuffTime",
             },
             ["SKILL_DESC_1502Skill02Damage"] = {
-                ["ContentJP"] = "強化［日食］ダメージ倍率アップ",
+                ["ContentJP"] = "「日食」ダメージ倍率アップを強化",
                 ["TextMapId"] = "SKILL_DESC_1502Skill02Damage",
             },
             ["SKILL_DESC_1502Skill02Radius1"] = {
-                ["ContentJP"] = "強化［日食］ダメージ半径",
+                ["ContentJP"] = "「日食」ダメージ半径を強化",
                 ["TextMapId"] = "SKILL_DESC_1502Skill02Radius1",
             },
             ["SKILL_DESC_1502Skill02Radius2"] = {
-                ["ContentJP"] = "強化［月食］ダメージ半径",
+                ["ContentJP"] = "「月食」ダメージ半径を強化",
                 ["TextMapId"] = "SKILL_DESC_1502Skill02Radius2",
             },
             ["SKILL_DESC_1502Skill02Rate"] = {
-                ["ContentJP"] = "［葬送］状態のスキル範囲転換比率",
+                ["ContentJP"] = "「葬送」状態のスキル範囲転換比率",
                 ["TextMapId"] = "SKILL_DESC_1502Skill02Rate",
             },
             ["SKILL_DESC_1502Skill03MaxRate"] = {
-                ["ContentJP"] = "［百鳥の輪唱］効果確率上限",
+                ["ContentJP"] = "「百鳥の輪唱」効果確率上限",
                 ["TextMapId"] = "SKILL_DESC_1502Skill03MaxRate",
             },
             ["SKILL_DESC_1502Skill03Rate"] = {
-                ["ContentJP"] = "［百鳥の輪唱］効果確率",
+                ["ContentJP"] = "「百鳥の輪唱」効果確率",
                 ["TextMapId"] = "SKILL_DESC_1502Skill03Rate",
             },
             ["SKILL_DESC_1502Skill04Rate"] = {
-                ["ContentJP"] = "［黄昏］効果確率",
+                ["ContentJP"] = "「黄昏」効果確率",
                 ["TextMapId"] = "SKILL_DESC_1502Skill04Rate",
             },
             ["SKILL_DESC_1503Passive2LastTime"] = {
-                ["ContentJP"] = "［刻舟無帰］持続時間",
+                ["ContentJP"] = "「刻舟無帰」持続時間",
                 ["TextMapId"] = "SKILL_DESC_1503Passive2LastTime",
             },
             ["SKILL_DESC_1503PassiveValue"] = {
-                ["ContentJP"] = "［剣意］［弦意］バフ効果の倍率",
+                ["ContentJP"] = "「剣意」「弦意」バフ効果の倍率",
                 ["TextMapId"] = "SKILL_DESC_1503PassiveValue",
             },
             ["SKILL_DESC_1503PassiveValue01"] = {
-                ["ContentJP"] = "×［剣意］",
+                ["ContentJP"] = "×「剣意」",
                 ["TextMapId"] = "SKILL_DESC_1503PassiveValue01",
             },
             ["SKILL_DESC_1503PassiveValue02"] = {
-                ["ContentJP"] = "×［弦意］",
+                ["ContentJP"] = "×「弦意」",
                 ["TextMapId"] = "SKILL_DESC_1503PassiveValue02",
             },
             ["SKILL_DESC_1503Skill02Damage01"] = {
-                ["ContentJP"] = "［古来万剣］ダメージ",
+                ["ContentJP"] = "「古来万剣」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_1503Skill02Damage01",
             },
             ["SKILL_DESC_1503Skill02Damage01Range"] = {
-                ["ContentJP"] = "［古来万剣］ダメージ半径",
+                ["ContentJP"] = "「古来万剣」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_1503Skill02Damage01Range",
             },
             ["SKILL_DESC_1503Skill02Damage02"] = {
-                ["ContentJP"] = "［無相羽］軌道ダメージ",
+                ["ContentJP"] = "「無相羽」ルートダメージ",
                 ["TextMapId"] = "SKILL_DESC_1503Skill02Damage02",
             },
             ["SKILL_DESC_1503Skill02Damage02Rate"] = {
-                ["ContentJP"] = "［無相羽］計算倍率",
+                ["ContentJP"] = "「無相羽」計算倍率",
                 ["TextMapId"] = "SKILL_DESC_1503Skill02Damage02Rate",
             },
             ["SKILL_DESC_1503Skill02Damage03"] = {
@@ -32462,7 +32951,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_1503Skill02SpCostOpen",
             },
             ["SKILL_DESC_1503Skill02WeaponRange"] = {
-                ["ContentJP"] = "［無相剣］攻撃範囲アップ",
+                ["ContentJP"] = "「無相剣」攻撃範囲アップ",
                 ["TextMapId"] = "SKILL_DESC_1503Skill02WeaponRange",
             },
             ["SKILL_DESC_1503Skill02_Claymore_RunAttack"] = {
@@ -32522,7 +33011,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_2101DotSustain",
             },
             ["SKILL_DESC_2101Skill02"] = {
-                ["ContentJP"] = "［愛の毒］1スタックにつきダメージ倍率がアップ",
+                ["ContentJP"] = "「愛の毒」1スタックにつきダメージ倍率がアップ",
                 ["TextMapId"] = "SKILL_DESC_2101Skill02",
             },
             ["SKILL_DESC_2301Rate"] = {
@@ -32534,17 +33023,13 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_2401MaxSkill02SkillIntensity",
             },
             ["SKILL_DESC_2401PassiveBase"] = {
-                ["ContentJP"] = "×「召喚ユニット・雲龍」数量",
+                ["ContentJP"] = "×「召喚ユニット‐雲龍」数量",
                 ["TextMapId"] = "SKILL_DESC_2401PassiveBase",
             },
             ["SKILL_DESC_2401Skill02BuffSustain"] = {
                 ["ContentJP"] = "「九針擁護」持続時間",
                 ["TextMapId"] = "SKILL_DESC_2401Skill02BuffSustain",
             },
-        }
-    end },
-    { MinKey = "SKILL_DESC_2401Skill02Damage", MaxKey = "SKILL_DESC_MaxHpUp", Loader = function()
-        return {
             ["SKILL_DESC_2401Skill02Damage"] = {
                 ["ContentJP"] = "「神の御座す形」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_2401Skill02Damage",
@@ -32598,7 +33083,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_3102SmallFunnelDamage",
             },
             ["SKILL_DESC_3103BombDamage"] = {
-                ["ContentJP"] = "「キュートちゃん・イェール式」ダメージ",
+                ["ContentJP"] = "「キュートちゃん‐イェール式」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_3103BombDamage",
             },
             ["SKILL_DESC_3103BuffLastTime"] = {
@@ -32610,7 +33095,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_3103BuffSkillEff",
             },
             ["SKILL_DESC_3103DomainBuffRate"] = {
-                ["ContentJP"] = "1つの［人格爆弾］爆発によるダメージ倍率",
+                ["ContentJP"] = "1つの「人格爆弾」爆発によるダメージ倍率",
                 ["TextMapId"] = "SKILL_DESC_3103DomainBuffRate",
             },
             ["SKILL_DESC_3103DomainDamage"] = {
@@ -32634,7 +33119,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_3103DomainSpRecover",
             },
             ["SKILL_DESC_3103ExBombDamage"] = {
-                ["ContentJP"] = "「キュートちゃん・オリバー式」ダメージ",
+                ["ContentJP"] = "「キュートちゃん‐オリバー式」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_3103ExBombDamage",
             },
             ["SKILL_DESC_3103LastTime"] = {
@@ -32730,55 +33215,55 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_4101Skill02AddSpeed",
             },
             ["SKILL_DESC_4101Skill02_BuffLastTime"] = {
-                ["ContentJP"] = "［エレキテル］持続時間",
+                ["ContentJP"] = "「エレキテル」持続時間",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_BuffLastTime",
             },
             ["SKILL_DESC_4101Skill02_Damage01"] = {
-                ["ContentJP"] = "［パルスレギュレーター］選択した敵ダメージ",
+                ["ContentJP"] = "「パルスレギュレーター」選択した敵ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_Damage01",
             },
             ["SKILL_DESC_4101Skill02_Damage02"] = {
-                ["ContentJP"] = "［エレキテル］ダメージ",
+                ["ContentJP"] = "「エレキテル」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_Damage02",
             },
             ["SKILL_DESC_4101Skill02_Radius01"] = {
-                ["ContentJP"] = "［パルスレギュレーター］効果半径",
+                ["ContentJP"] = "「パルスレギュレーター」効果半径",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_Radius01",
             },
             ["SKILL_DESC_4101Skill02_Radius02"] = {
-                ["ContentJP"] = "［正電荷］効果半径",
+                ["ContentJP"] = "「正電荷」効果半径",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_Radius02",
             },
             ["SKILL_DESC_4102Skill01_Dmg01"] = {
-                ["ContentJP"] = "「解天道・震」ダメージ",
+                ["ContentJP"] = "「解天道‐震」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Dmg01",
             },
             ["SKILL_DESC_4102Skill01_Dmg02"] = {
-                ["ContentJP"] = "「解天道・巽」ダメージ",
+                ["ContentJP"] = "「解天道‐巽」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Dmg02",
             },
             ["SKILL_DESC_4102Skill01_Range01"] = {
-                ["ContentJP"] = "「解天道・震」ダメージ半径",
+                ["ContentJP"] = "「解天道‐震」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Range01",
             },
             ["SKILL_DESC_4102Skill01_Range02"] = {
-                ["ContentJP"] = "「解天道・巽」ダメージ半径",
+                ["ContentJP"] = "「解天道‐巽」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Range02",
             },
             ["SKILL_DESC_4102Skill01_Shield"] = {
-                ["ContentJP"] = "「解天道・震」過負荷シールド",
+                ["ContentJP"] = "「解天道‐巽」過負荷シールド",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Shield",
             },
             ["SKILL_DESC_4102Skill02_Buff"] = {
-                ["ContentJP"] = "［天地照明］スキルダメージアップ",
+                ["ContentJP"] = "「天地照明」スキルダメージアップ",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Buff",
             },
             ["SKILL_DESC_4102Skill02_Dmg00"] = {
-                ["ContentJP"] = "［天地の理］ダメージ",
+                ["ContentJP"] = "「天地の理」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg00",
             },
             ["SKILL_DESC_4102Skill02_Dmg01"] = {
-                ["ContentJP"] = "［雷鳴招来］ダメージ",
+                ["ContentJP"] = "「雷鳴招来」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg01",
             },
             ["SKILL_DESC_4102Skill02_Dmg02"] = {
@@ -32786,15 +33271,15 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg02",
             },
             ["SKILL_DESC_4102Skill02_Dmg03"] = {
-                ["ContentJP"] = "［雷風相和］ダメージ",
+                ["ContentJP"] = "「雷風相和」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg03",
             },
             ["SKILL_DESC_4102Skill02_Dmg04"] = {
-                ["ContentJP"] = "［天地照明］ダメージ",
+                ["ContentJP"] = "「天地照明」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg04",
             },
             ["SKILL_DESC_4102Skill02_Range00"] = {
-                ["ContentJP"] = "［天地の理］ダメージ半径",
+                ["ContentJP"] = "「天地の理」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range00",
             },
             ["SKILL_DESC_4102Skill02_Range01"] = {
@@ -32806,19 +33291,19 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range02",
             },
             ["SKILL_DESC_4102Skill02_Range03"] = {
-                ["ContentJP"] = "［雷風四方陣］領域半径",
+                ["ContentJP"] = "「雷風四方陣」領域半径",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range03",
             },
             ["SKILL_DESC_4102Skill02_Range04"] = {
-                ["ContentJP"] = "［雷風相和］ダメージ半径",
+                ["ContentJP"] = "「雷風相和」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range04",
             },
             ["SKILL_DESC_4102Skill02_Range05"] = {
-                ["ContentJP"] = "［天地照明］ダメージ半径",
+                ["ContentJP"] = "「天地照明」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range05",
             },
             ["SKILL_DESC_4102Skill02_Sp00"] = {
-                ["ContentJP"] = "［天地の理］SP消費",
+                ["ContentJP"] = "「天地の理」SP消費",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sp00",
             },
             ["SKILL_DESC_4102Skill02_Sp01"] = {
@@ -32826,47 +33311,47 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sp01",
             },
             ["SKILL_DESC_4102Skill02_Sp02"] = {
-                ["ContentJP"] = "［万物蘇生］SP消費",
+                ["ContentJP"] = "「万物蘇生」SP消費",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sp02",
             },
             ["SKILL_DESC_4102Skill02_Sp03"] = {
-                ["ContentJP"] = "［天地照明］SP消費",
+                ["ContentJP"] = "「天地照明」SP消費",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sp03",
             },
             ["SKILL_DESC_4102Skill02_Sustain02"] = {
-                ["ContentJP"] = "［雷風四方陣］領域持続時間",
+                ["ContentJP"] = "「雷風四方陣」領域持続時間",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sustain02",
             },
             ["SKILL_DESC_4102Skill02_Sustain03"] = {
-                ["ContentJP"] = "［天地照明］持続時間",
+                ["ContentJP"] = "「天地照明」持続時間",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sustain03",
             },
             ["SKILL_DESC_4201DamagedRateLayer"] = {
-                ["ContentJP"] = "［激戦］雷耐性ダウン",
+                ["ContentJP"] = "「激戦」雷耐性ダウン",
                 ["TextMapId"] = "SKILL_DESC_4201DamagedRateLayer",
             },
             ["SKILL_DESC_4201ExThunderDamage"] = {
-                ["ContentJP"] = "［魚竜演舞］",
+                ["ContentJP"] = "「魚竜演舞」",
                 ["TextMapId"] = "SKILL_DESC_4201ExThunderDamage",
             },
             ["SKILL_DESC_4201ExThunderDamageRadius"] = {
-                ["ContentJP"] = "［魚竜演舞］ダメージ半径",
+                ["ContentJP"] = "「魚竜演舞」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_4201ExThunderDamageRadius",
             },
             ["SKILL_DESC_4201FallAttackDamage"] = {
-                ["ContentJP"] = "［流星群］ダメージ",
+                ["ContentJP"] = "「流星群」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4201FallAttackDamage",
             },
             ["SKILL_DESC_4201FallAttackExtraRate"] = {
-                ["ContentJP"] = "［星川凋零］ダメージ",
+                ["ContentJP"] = "「星川凋零」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4201FallAttackExtraRate",
             },
             ["SKILL_DESC_4201FallAttackRadius"] = {
-                ["ContentJP"] = "［流星群］「星川凋零」ダメージ半径",
+                ["ContentJP"] = "「流星群」「星川凋零」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_4201FallAttackRadius",
             },
             ["SKILL_DESC_4201PassiveSustain"] = {
-                ["ContentJP"] = "「激戦］持続時間",
+                ["ContentJP"] = "「激戦」持続時間",
                 ["TextMapId"] = "SKILL_DESC_4201PassiveSustain",
             },
             ["SKILL_DESC_4201Skill02Damage"] = {
@@ -32882,11 +33367,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_4201SkillIntenLastTime",
             },
             ["SKILL_DESC_4201ThunderDamage"] = {
-                ["ContentJP"] = "［奔雷］ダメージ",
+                ["ContentJP"] = "「奔雷」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4201ThunderDamage",
             },
             ["SKILL_DESC_4201ThunderDamageRadius"] = {
-                ["ContentJP"] = "［奔雷］ダメージ半径",
+                ["ContentJP"] = "「奔雷」ダメージ半径",
                 ["TextMapId"] = "SKILL_DESC_4201ThunderDamageRadius",
             },
             ["SKILL_DESC_4202Skill01DebuffDmg"] = {
@@ -32918,21 +33403,25 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_4301Skill01Damage",
             },
             ["SKILL_DESC_4301Skill01DamageSp"] = {
-                ["ContentJP"] = "［軍団懲戒］ダメージ",
+                ["ContentJP"] = "「軍団懲戒」ダメージ",
                 ["TextMapId"] = "SKILL_DESC_4301Skill01DamageSp",
             },
             ["SKILL_DESC_4301Skill01Radius"] = {
-                ["ContentJP"] = "「稲妻」索敵半径",
+                ["ContentJP"] = "「エクスディウム」索敵半径",
                 ["TextMapId"] = "SKILL_DESC_4301Skill01Radius",
             },
             ["SKILL_DESC_4301Skill01RadiusSp"] = {
-                ["ContentJP"] = "［軍団懲戒］領域半径",
+                ["ContentJP"] = "「軍団懲戒」領域半径",
                 ["TextMapId"] = "SKILL_DESC_4301Skill01RadiusSp",
             },
             ["SKILL_DESC_4301Skill01SecondEnergy"] = {
-                ["ContentJP"] = "［雷霆万鈞］消費",
+                ["ContentJP"] = "「雷霆万鈞」消費",
                 ["TextMapId"] = "SKILL_DESC_4301Skill01SecondEnergy",
             },
+        }
+    end },
+    { MinKey = "SKILL_DESC_4301Skill02DamageRate", MaxKey = "Skill_DESC_DefDown", Loader = function()
+        return {
             ["SKILL_DESC_4301Skill02DamageRate"] = {
                 ["ContentJP"] = "リンクダメージ伝達率",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02DamageRate",
@@ -32962,7 +33451,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_4301Skill02Radius",
             },
             ["SKILL_DESC_4301Skill02SecondEnergy"] = {
-                ["ContentJP"] = "［雷霆万鈞］消費",
+                ["ContentJP"] = "「雷霆万鈞」消費",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02SecondEnergy",
             },
             ["SKILL_DESC_4301Skill03EnergyAdd"] = {
@@ -33006,35 +33495,35 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_5101SpCostDot",
             },
             ["SKILL_DESC_5102Skill01Buff"] = {
-                ["ContentJP"] = "［朧足］持続時間",
+                ["ContentJP"] = "「潜行」持続時間",
                 ["TextMapId"] = "SKILL_DESC_5102Skill01Buff",
             },
             ["SKILL_DESC_5102Skill02Buff"] = {
-                ["ContentJP"] = "［狩猟］持続時間",
+                ["ContentJP"] = "「狩猟」持続時間",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02Buff",
             },
             ["SKILL_DESC_5102Skill02BuffAdd"] = {
-                ["ContentJP"] = "1本の「喰い牙］で延長する［狩猟］持続時間",
+                ["ContentJP"] = "1本の「ファングスラスト」で延長する「狩猟」持続時間",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02BuffAdd",
             },
             ["SKILL_DESC_5102Skill02BuffAddMax"] = {
-                ["ContentJP"] = "［狩猟］持続時間延長上限",
+                ["ContentJP"] = "「狩猟」持続時間延長上限",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02BuffAddMax",
             },
             ["SKILL_DESC_5102Skill02Hp"] = {
-                ["ContentJP"] = "1本の「喰い牙」によって失うHP",
+                ["ContentJP"] = "1本の「ファングスラスト」によって失うHP",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02Hp",
             },
             ["SKILL_DESC_5102Skill03Dmg"] = {
-                ["ContentJP"] = "「喰い牙」与ダメージ",
+                ["ContentJP"] = "「ファングスラスト」与ダメージ",
                 ["TextMapId"] = "SKILL_DESC_5102Skill03Dmg",
             },
             ["SKILL_DESC_5102Skill03DmgUp"] = {
-                ["ContentJP"] = "［喉切り］によってアウトサイダーから受けるダメージがアップ",
+                ["ContentJP"] = "「喉切り」によってアウトサイダーから受けるダメージがアップ",
                 ["TextMapId"] = "SKILL_DESC_5102Skill03DmgUp",
             },
             ["SKILL_DESC_5102Skill03DmgUpTime"] = {
-                ["ContentJP"] = "［喉切り］持続時間",
+                ["ContentJP"] = "「喉切り」持続時間",
                 ["TextMapId"] = "SKILL_DESC_5102Skill03DmgUpTime",
             },
             ["SKILL_DESC_5301ExtraConvertRate"] = {
@@ -33074,11 +33563,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "SKILL_DESC_5301SummonedSlow",
             },
             ["SKILL_DESC_5401BuffSustain"] = {
-                ["ContentJP"] = "［活性処方］持続時間",
+                ["ContentJP"] = "「活性処方」持続時間",
                 ["TextMapId"] = "SKILL_DESC_5401BuffSustain",
             },
             ["SKILL_DESC_5401DebuffSustain"] = {
-                ["ContentJP"] = "［腐蝕処方］持続時間",
+                ["ContentJP"] = "「腐蝕処方」持続時間",
                 ["TextMapId"] = "SKILL_DESC_5401DebuffSustain",
             },
             ["SKILL_DESC_AtkSpeedUp"] = {
@@ -33345,10 +33834,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "最大HPアップ",
                 ["TextMapId"] = "SKILL_DESC_MaxHpUp",
             },
-        }
-    end },
-    { MinKey = "SKILL_DESC_MaxShootRange", MaxKey = "System_Des_CardLevel", Loader = function()
-        return {
             ["SKILL_DESC_MaxShootRange"] = {
                 ["ContentJP"] = "最大射程",
                 ["TextMapId"] = "SKILL_DESC_MaxShootRange",
@@ -33737,6 +34222,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "防御ダウン",
                 ["TextMapId"] = "Skill_DESC_DefDown",
             },
+        }
+    end },
+    { MinKey = "SkinTrialEvent_Title_Saiqi", MaxKey = "TARGET_DUNGEON_RESCUE_102", Loader = function()
+        return {
             ["SkinTrialEvent_Title_Saiqi"] = {
                 ["ContentJP"] = "夜に紛れ込む儚い夢",
                 ["TextMapId"] = "SkinTrialEvent_Title_Saiqi",
@@ -33838,7 +34327,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "StarterQuest_Des_102001_4_1",
             },
             ["StarterQuest_Des_102001_4_2"] = {
-                ["ContentJP"] = "キャラのスキルをLv.4まで3回強化する",
+                ["ContentJP"] = "キャラのスキルをLv.3まで3回強化する",
                 ["TextMapId"] = "StarterQuest_Des_102001_4_2",
             },
             ["StarterQuest_Des_102001_4_3"] = {
@@ -33854,7 +34343,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "StarterQuest_Des_102001_4_5",
             },
             ["StarterQuest_Des_102001_4_6"] = {
-                ["ContentJP"] = "ジェネモンの捕獲に累計3回成功する",
+                ["ContentJP"] = "ジェネモンとの仲良しに累計3回成功する",
                 ["TextMapId"] = "StarterQuest_Des_102001_4_6",
             },
             ["StarterQuest_Des_102001_5_1"] = {
@@ -33878,7 +34367,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "StarterQuest_Des_102001_5_5",
             },
             ["StarterQuest_Des_102001_5_6"] = {
-                ["ContentJP"] = "ジェネモンの捕獲に累計10回成功する",
+                ["ContentJP"] = "ジェネモンとの仲良しに累計10回成功する",
                 ["TextMapId"] = "StarterQuest_Des_102001_5_6",
             },
             ["StarterQuest_Des_102001_6_1"] = {
@@ -33890,11 +34379,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "StarterQuest_Des_102001_6_2",
             },
             ["StarterQuest_Des_102001_6_3"] = {
-                ["ContentJP"] = "キャラのスキルをLv.6まで強化する",
+                ["ContentJP"] = "キャラのスキルをLv.3まで12回強化する",
                 ["TextMapId"] = "StarterQuest_Des_102001_6_3",
             },
             ["StarterQuest_Des_102001_6_4"] = {
-                ["ContentJP"] = "設計図で星4武器を1回製造する",
+                ["ContentJP"] = "設計図で★4武器を1回製造する",
                 ["TextMapId"] = "StarterQuest_Des_102001_6_4",
             },
             ["StarterQuest_Des_102001_6_5"] = {
@@ -33918,7 +34407,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "StarterQuest_Des_102001_7_4",
             },
             ["StarterQuest_Des_102001_7_5"] = {
-                ["ContentJP"] = "ジェネモンの捕獲に累計20回成功する",
+                ["ContentJP"] = "ジェネモンとの仲良しに累計20回成功する",
                 ["TextMapId"] = "StarterQuest_Des_102001_7_5",
             },
             ["StarterQuest_Des_102001_7_6"] = {
@@ -34150,10 +34639,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "<Highlight>オリジン</>が解放されました。ルーツをたどり、より深い潜在能力を引き出しましょう。",
                 ["TextMapId"] = "System_Des_CardLevel",
             },
-        }
-    end },
-    { MinKey = "System_Des_Chat", MaxKey = "TERM_5102_Skill03", Loader = function()
-        return {
             ["System_Des_Chat"] = {
                 ["ContentJP"] = "<Highlight>チャット</>解放。みんなで楽しくおしゃべりしよう。",
                 ["TextMapId"] = "System_Des_Chat",
@@ -34378,6 +34863,42 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "スタート",
                 ["TextMapId"] = "TARGET_DUNGEON_106",
             },
+            ["TARGET_DUNGEON_Abyss_Battle0"] = {
+                ["ContentJP"] = "試練 Ⅰ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle0",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle1"] = {
+                ["ContentJP"] = "試練 Ⅱ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle1",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle2"] = {
+                ["ContentJP"] = "試練 Ⅲ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle2",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle3"] = {
+                ["ContentJP"] = "試練 Ⅳ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle3",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle4"] = {
+                ["ContentJP"] = "最後の試練",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle4",
+            },
+            ["TARGET_DUNGEON_Abyss_Boss"] = {
+                ["ContentJP"] = "最後の試練に向かい、超凶悪な敵を倒す",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Boss",
+            },
+            ["TARGET_DUNGEON_Abyss_Default"] = {
+                ["ContentJP"] = "襲来の敵を撃退する",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Default",
+            },
+            ["TARGET_DUNGEON_Abyss_Interact"] = {
+                ["ContentJP"] = "トラップを解除し、試練を始める",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Interact",
+            },
+            ["TARGET_DUNGEON_Abyss_Switch"] = {
+                ["ContentJP"] = "次の試練へ行く",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Switch",
+            },
             ["TARGET_DUNGEON_CAPTURE_100"] = {
                 ["ContentJP"] = "捕縛",
                 ["TextMapId"] = "TARGET_DUNGEON_CAPTURE_100",
@@ -34506,6 +35027,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "標的のいる密室を探す",
                 ["TextMapId"] = "TARGET_DUNGEON_RESCUE_102",
             },
+        }
+    end },
+    { MinKey = "TARGET_DUNGEON_RESCUE_103", MaxKey = "TextMap_AnswerDetail_200107", Loader = function()
+        return {
             ["TARGET_DUNGEON_RESCUE_103"] = {
                 ["ContentJP"] = "標的を撤退ポイントまで護衛する",
                 ["TextMapId"] = "TARGET_DUNGEON_RESCUE_103",
@@ -34584,33 +35109,33 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TARGET_DUNGEON_Trial_100",
             },
             ["TERMEXP_1103_Combo"] = {
-                ["ContentJP"] = "一定量の［イマージョン］を得る。この効果は0.1秒ごとに1回のみ発動できる。",
+                ["ContentJP"] = "一定量の「イマージョン」を得る。この効果は0.1秒ごとに1回のみ発動できる。",
                 ["TextMapId"] = "TERMEXP_1103_Combo",
             },
             ["TERMEXP_1103_Finish"] = {
-                ["ContentJP"] = "目標に付与した［アダージョ］のスタック数に応じてダメージ倍率がアップし、同時に相手が持つすべての［アダージョ］が解除される。目標が［イマージョン］を10スタック所持していた場合、自身がSPを回復し、一定量の［アダージョ］を得る。この効果は一度の攻撃ごとに1回のみ発動できる。",
+                ["ContentJP"] = "目標に付与した「アダージョ」のスタック数に応じてダメージ倍率がアップし、同時に相手が持つすべての「アダージョ」が解除される。目標が「イマージョン」を10スタック所持していた場合、自身がSPを回復し、一定量の「アダージョ」を得る。この効果は一度の攻撃ごとに1回のみ発動できる。",
                 ["TextMapId"] = "TERMEXP_1103_Finish",
             },
             ["TERMEXP_1103_HyperForm"] = {
-                ["ContentJP"] = "［獣化・サクリファイス］状態ではSPの代わりに、［イマージョン］を持続的に消費して［獣化］を維持する。移動速度やスキル速度がアップし、自身の最大SPに応じて攻撃力をアップさせる。\
-また［獣化］状態を維持することで［イマージョン］を得ることはできない。",
+                ["ContentJP"] = "「獣化‐サクリファイス」状態ではSPの代わりに、「イマージョン」を持続的に消費して「獣化」を維持する。移動速度やスキル速度がアップし、自身の最大SPに応じて攻撃力をアップさせる。\
+また「獣化」状態を維持することで「イマージョン」を得ることはできない。",
                 ["TextMapId"] = "TERMEXP_1103_HyperForm",
             },
             ["TERMEXP_1103_Skill01"] = {
-                ["ContentJP"] = "前方へダッシュしてルート上の敵に闇属性ダメージを与え、［プレスト］を得る。［プレスト］：スキル範囲がアップし、ダメージを受けてものけ反らない。",
+                ["ContentJP"] = "前方へダッシュしてルート上の敵に闇属性ダメージを与え、「プレスト」を得る。「プレスト」：スキル範囲がアップし、ダメージを受けてものけ反らない。",
                 ["TextMapId"] = "TERMEXP_1103_Skill01",
             },
             ["TERMEXP_1502_Skill01"] = {
-                ["ContentJP"] = "［月食］を1個生成し、スキルが［日食］に切り替わる。\
-［月食］：生成後、直ちに範囲内の敵に闇属性ダメージを与え、移動速度ダウン効果を付与する。",
+                ["ContentJP"] = "「月食領域」を1個生成し、さらにこのスキルが「日食」に切り替わる。\
+「月食領域」：生成後、直ちに範囲内の敵に闇属性ダメージを与え、移動速度ダウン効果を付与する。",
                 ["TextMapId"] = "TERMEXP_1502_Skill01",
             },
             ["TERMEXP_1503_Skill02"] = {
-                ["ContentJP"] = "［仮相］を解除し、前方範囲内の敵に光属性ダメージを与える。",
+                ["ContentJP"] = "「仮相」を解除し、前方範囲内の敵に光属性ダメージを与える。",
                 ["TextMapId"] = "TERMEXP_1503_Skill02",
             },
             ["TERMEXP_1503_Skill02_01"] = {
-                ["ContentJP"] = "自身の近接武器のステータスが参照され、攻撃範囲がアップする。［無相剣］には片手剣、大剣、長柄武器、双剣の4つの攻撃パターンがある。［無相剣］で最終段の通常攻撃を行った後、攻撃パターンがランダムに切り替わり、自身の持つ［無相羽］をすべて放つ。",
+                ["ContentJP"] = "自身の近接武器のステータスが参照され、攻撃範囲がアップする。「無相剣」には片手剣、大剣、長柄武器、双剣の4つの攻撃パターンがある。「無相剣」で最終段の通常攻撃を行った後、攻撃パターンがランダムに切り替わり、自身の持つ「無相羽」をすべて放つ。",
                 ["TextMapId"] = "TERMEXP_1503_Skill02_01",
             },
             ["TERMEXP_1503_Skill02_02"] = {
@@ -34639,7 +35164,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERMEXP_2301_Summon",
             },
             ["TERMEXP_2401_Skill02Buff"] = {
-                ["ContentJP"] = "スキル威力がアップする。数値は［フーシュ］のスキル威力の一定比率に相当する。",
+                ["ContentJP"] = "スキル威力がアップする。数値は「フーシュ」のスキル威力の一定比率に相当する。",
                 ["TextMapId"] = "TERMEXP_2401_Skill02Buff",
             },
             ["TERMEXP_2401_Summon"] = {
@@ -34648,11 +35173,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERMEXP_2401_Summon",
             },
             ["TERMEXP_3101_Debuff"] = {
-                ["ContentJP"] = "効果中の敵は遠隔武器によるダメージを1回受けるごとに「傷口」カウントが1つ増える。効果の持続時間終了と同時に【「 傷口カウント数×裂傷基本ダメージ】の火属性ダメージを受ける。",
+                ["ContentJP"] = "効果中の敵は遠隔武器によるダメージを1回受けるごとに「傷口」カウントが1つ増える。効果の持続時間終了と同時に「 傷口カウント数×裂傷基本ダメージ」の火属性ダメージを受ける。",
                 ["TextMapId"] = "TERMEXP_3101_Debuff",
             },
             ["TERMEXP_3102_Buff"] = {
-                ["ContentJP"] = "［掃除機］の攻撃速度と［高温につきご注意を］の回転速度がアップする。遠隔武器の攻撃速度がアップする。",
+                ["ContentJP"] = "「掃除機」の攻撃速度と「高温につきご注意を」の回転速度がアップする。遠隔武器の攻撃速度がアップする。",
                 ["TextMapId"] = "TERMEXP_3102_Buff",
             },
             ["TERMEXP_3102_Debuff"] = {
@@ -34665,11 +35190,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERMEXP_3103_Skill02",
             },
             ["TERMEXP_3103_Summon01"] = {
-                ["ContentJP"] = "敵にダメージを与えると、通常より大きく体勢を崩させる。魔の楔による【スキル威力-スキル範囲】の差が大きいほど、「キュートちゃん・イェール式」を投げる確率が高くなる。差が50%以上の場合、必ず「キュートちゃん・イェール式」を投げる",
+                ["ContentJP"] = "敵にダメージを与えると、通常より大きく体勢を崩させる。魔の楔による【スキル威力-スキル範囲】の差が大きいほど、「キュートちゃん‐イェール式」を投げる確率が高くなる。差が50%以上の場合、必ず「キュートちゃん‐イェール式」を投げる",
                 ["TextMapId"] = "TERMEXP_3103_Summon01",
             },
             ["TERMEXP_3103_Summon02"] = {
-                ["ContentJP"] = "通常より高いダメージを与える。魔の楔による【スキル範囲-スキル威力】の差が大きいほど、「キュートちゃん・オリバー式」を投げる確率が高くなる。差が50%以上の場合、必ず「キュートちゃん・オリバー式」を投げる",
+                ["ContentJP"] = "通常より高いダメージを与える。魔の楔による【スキル範囲-スキル威力】の差が大きいほど、「キュートちゃん‐オリバー式」を投げる確率が高くなる。差が50%以上の場合、必ず「キュートちゃん‐オリバー式」を投げる",
                 ["TextMapId"] = "TERMEXP_3103_Summon02",
             },
             ["TERMEXP_3201_Skill01"] = {
@@ -34686,41 +35211,41 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERMEXP_4101_Skill02_02",
             },
             ["TERMEXP_4102_Skill02_01"] = {
-                ["ContentJP"] = "自身が2枚の［泉の符・震」を持っている時、［天地の理］はこのスキルに置き換えられる。\
-すべての［泉の符」を除去する。前方の直線範囲内にいる敵に雷属性ダメージを与える。",
+                ["ContentJP"] = "自身が2枚の「泉の符‐震」を持っている時、「天地の理」はこのスキルに置き換えられる。\
+すべての「泉の符」を除去する。前方の直線範囲内にいる敵に雷属性ダメージを与える。",
                 ["TextMapId"] = "TERMEXP_4102_Skill02_01",
             },
             ["TERMEXP_4102_Skill02_02"] = {
-                ["ContentJP"] = "自身が1枚の［泉の符・震」と1枚の［泉の符・巽」を持つ時、［天地の理］はこのスキルに置き換えられる。\
-すべての［泉の符」を除去する。前方直線範囲内の敵に連続でダメージを与え、ダメージ発生位置に1つの［雷風四方陣］を残す。3秒ごとにこの領域内のいくつかの敵を選択し、各目標の位置に［雷風相和］を1つ生成する。［雷風相和］：雷属性範囲ダメージを与える。",
+                ["ContentJP"] = "自身が1枚の「泉の符‐震」と1枚の「泉の符‐巽」を持つ時、「天地の理」はこのスキルに置き換えられる。\
+すべての「泉の符」を除去する。前方直線範囲内の敵に連続でダメージを与え、ダメージ発生位置に1つの「雷風四方陣」を残す。3秒ごとにこの領域内のいくつかの敵を選択し、各目標の位置に「雷風相和」を1つ生成する。「雷風相和」：雷属性範囲ダメージを与える。",
                 ["TextMapId"] = "TERMEXP_4102_Skill02_02",
             },
             ["TERMEXP_4102_Skill02_03"] = {
-                ["ContentJP"] = "自身が2枚の［泉の符・巽」を持っている時、［天地の理］はこのスキルに置き換えられる。\
-すべての［泉の符」を除去する。自身がスキルダメージアップの効果を得る。",
+                ["ContentJP"] = "自身が2枚の「泉の符‐巽」を持っている時、「天地の理」はこのスキルに置き換えられる。\
+すべての「泉の符」を除去し、周りの一定範囲内の敵に雷属性のダメージを与えて、自身がスキルダメージアップの効果を得る。",
                 ["TextMapId"] = "TERMEXP_4102_Skill02_03",
             },
             ["TERMEXP_4201_BonusAttack"] = {
-                ["ContentJP"] = "流星群を受けた目標位置に5つの［奔雷］を生成し、雷属性範囲ダメージを与える。目標位置は重複せず優先的に選択される。",
+                ["ContentJP"] = "「流星群」、または「星川凋零」のダメージを受けた目標位置に5つの「奔雷」を生成し、雷属性範囲ダメージを与える。目標位置は重複せず優先的に選択される。",
                 ["TextMapId"] = "TERMEXP_4201_BonusAttack",
             },
             ["TERMEXP_4201_FallAttack"] = {
-                ["ContentJP"] = "高速で落下してから、範囲ダメージを与える。本攻撃は近接武器の落下攻撃と見なされる。［ミズチ憑依］状態では、追加で［雲竜召喚］を発動する。",
+                ["ContentJP"] = "高速で落下してから、雷属性の範囲ダメージを与える。本攻撃は近接武器の落下攻撃と見なされる。「ミズチ憑依」状態では、追加で「雲竜召喚」を発動する。",
                 ["TextMapId"] = "TERMEXP_4201_FallAttack",
             },
             ["TERMEXP_4201_Marks"] = {
-                ["ContentJP"] = "永続、最大所持6枚。［ミズチ憑依］を終えると、［逆鱗］を解除する。",
+                ["ContentJP"] = "永続、最大所持6枚。「ミズチ憑依」を終えると、「逆鱗」を解除する。",
                 ["TextMapId"] = "TERMEXP_4201_Marks",
             },
             ["TERMEXP_4201_Summon"] = {
                 ["ContentJP"] = "自身がダメージを受けてものけ反らない。ミズチが「ユーミン」の周りを巡回し、接触した敵に雷属性ダメージを与える。2秒ごとに同一目標に1回ダメージを与える。\
-自身および周りの他の隊員がSPを消費してスキルを発動してスキルダメージを与える時、目標位置に1つの［魚竜演舞］を生成し、雷属性範囲ダメージを与える。この効果は2秒ごとに1回発動可能。\
-「ユーミン」がダメージを受けてHPが減少した時、ミズチがそのダメージを吸収する。「ユーミン」「ユーミン」の最大HPの一定比率分のダメージを吸収すると、［ミズチ憑依］状態が終了となる。",
+自身および周りの他の隊員がSPを消費してスキルを発動してスキルダメージを与える時、目標位置に1つの「魚竜演舞」を生成し、雷属性範囲ダメージを与える。この効果は2秒ごとに1回発動可能。\
+「ユーミン」がダメージを受けてHPが減少した時、ミズチがそのダメージを吸収する。「ユーミン」「ユーミン」の最大HPの一定比率分のダメージを吸収すると、「ミズチ憑依」状態が終了となる。",
                 ["TextMapId"] = "TERMEXP_4201_Summon",
             },
             ["TERMEXP_4201_SuperFallAttack"] = {
-                ["ContentJP"] = "すべての［逆鱗］消費し、自身および近くにいる隊員にスキル威力アップの効果を付与する。\
-その後高速で落下してから、範囲ダメージを与える。本攻撃は近接武器の落下攻撃と見なされる。［ミズチ憑依］状態では、追加で［雲竜召喚］を発動する。",
+                ["ContentJP"] = "すべての「逆鱗」消費し、自身および近くにいる隊員にスキル威力アップの効果を付与する。\
+その後高速で落下してから、雷属性の範囲ダメージを与える。本攻撃は近接武器の落下攻撃と見なされる。「ミズチ憑依」状態では、追加で「雲竜召喚」を発動する。",
                 ["TextMapId"] = "TERMEXP_4201_SuperFallAttack",
             },
             ["TERMEXP_4202_Skill01"] = {
@@ -34737,9 +35262,9 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             },
             ["TERMEXP_4301_Skill02"] = {
                 ["ContentJP"] = "召喚者の最大HPを一定割合で引き継ぐが防御力は0。敵側ユニットとして扱われる。\
-「召喚ユニット・サンダーボール」が召喚された後、3秒ごとに「破滅の嵐」を1回発動する。\
-「召喚ユニット・サンダーボール」が召喚されると、周囲の範囲内で最も離れた敵5体とリンクし、1秒ごとに敵1体を追加でリンクする（最大10体まで）。リンクされた敵に1秒ごとに雷属性ダメージを与える。\
-「召喚ユニット・サンダーボール」がダメージを受けると、そのダメージを一定の割合でリンクされた敵に伝達する。",
+「召喚ユニット‐サンダーボール」が召喚されると、3秒ごとに「破滅の嵐」を1回発動する。\
+「召喚ユニット‐サンダーボール」が召喚されると、周囲の範囲内で最も離れた敵5体とリンクし、1秒ごとに敵1体を追加でリンクする（最大10体まで）。リンクされた敵に1秒ごとに雷属性ダメージを与える。\
+「召喚ユニット‐サンダーボール」がダメージを受けると、そのダメージを一定の割合でリンクされた敵に伝達する。",
                 ["TextMapId"] = "TERMEXP_4301_Skill02",
             },
             ["TERMEXP_4301_Skill02Damage"] = {
@@ -34755,15 +35280,15 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERMEXP_5101_Skill02_Value",
             },
             ["TERMEXP_5102_Skill01"] = {
-                ["ContentJP"] = "［朧足］状態では敵に発見されない。ダメージを受けても［朧足］状態は解除されない。攻撃または［瞬喰い］を行うと、［朧足］状態は解除される。",
+                ["ContentJP"] = "「潜行」状態では敵に発見されない。ダメージを受けても「潜行」状態は解除されない。攻撃または「襲撃狩り」を行うと、「潜行」状態は解除される。",
                 ["TextMapId"] = "TERMEXP_5102_Skill01",
             },
             ["TERMEXP_5102_Skill02"] = {
-                ["ContentJP"] = "［狩猟］状態では、自身がダメージを受けてものけ反らなくなり、武器攻撃速度アップと背水効果アップを得る。さらに、回復効果を受けない代わりに、回復量が同量の過負荷シールドに転換される。",
+                ["ContentJP"] = "「狩猟」状態では、自身がダメージを受けてものけ反らなくなり、武器攻撃速度アップと背水効果アップを得る。さらに、回復効果を受けない代わりに、回復量が同量の過負荷シールドに転換される。",
                 ["TextMapId"] = "TERMEXP_5102_Skill02",
             },
             ["TERMEXP_5102_Skill03"] = {
-                ["ContentJP"] = "生成後、目標目がけて飛んでいき、ルート上の敵に風属性ダメージを与え、［喉切り］を付与する。［喉切り］：アウトサイダーから受けるダメージがアップする。一定時間飛行した後、地面に落下し、そこに留まる。最大10本まで同時に存在する。",
+                ["ContentJP"] = "生成後、目標目がけて飛んでいき、ルート上の敵に風属性ダメージを与え、「喉切り」を付与する。「喉切り」：アウトサイダーから受けるダメージがアップする。一定時間飛行した後、地面に落下し、そこに留まる。最大10本まで同時に存在する。",
                 ["TextMapId"] = "TERMEXP_5102_Skill03",
             },
             ["TERMEXP_5301_Skill01"] = {
@@ -34811,7 +35336,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERM_1103_Finish",
             },
             ["TERM_1103_HyperForm"] = {
-                ["ContentJP"] = "獣化・サクリファイス",
+                ["ContentJP"] = "獣化‐サクリファイス",
                 ["TextMapId"] = "TERM_1103_HyperForm",
             },
             ["TERM_1103_Skill01"] = {
@@ -34847,11 +35372,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERM_2101_Dot",
             },
             ["TERM_2101_Summon"] = {
-                ["ContentJP"] = "召喚ユニット・クラゲ",
+                ["ContentJP"] = "召喚ユニット‐クラゲ",
                 ["TextMapId"] = "TERM_2101_Summon",
             },
             ["TERM_2301_Summon"] = {
-                ["ContentJP"] = "召喚ユニット・触手",
+                ["ContentJP"] = "召喚ユニット‐触手",
                 ["TextMapId"] = "TERM_2301_Summon",
             },
             ["TERM_2401_Skill02Buff"] = {
@@ -34859,7 +35384,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERM_2401_Skill02Buff",
             },
             ["TERM_2401_Summon"] = {
-                ["ContentJP"] = "召喚ユニット・雲龍",
+                ["ContentJP"] = "召喚ユニット‐雲龍",
                 ["TextMapId"] = "TERM_2401_Summon",
             },
             ["TERM_3101_Debuff"] = {
@@ -34879,11 +35404,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERM_3103_Skill02",
             },
             ["TERM_3103_Summon01"] = {
-                ["ContentJP"] = "キュートちゃん・イェール式",
+                ["ContentJP"] = "キュートちゃん‐イェール式",
                 ["TextMapId"] = "TERM_3103_Summon01",
             },
             ["TERM_3103_Summon02"] = {
-                ["ContentJP"] = "キュートちゃん・オリバー式",
+                ["ContentJP"] = "キュートちゃん‐オリバー式",
                 ["TextMapId"] = "TERM_3103_Summon02",
             },
             ["TERM_3201_Skill01"] = {
@@ -34943,7 +35468,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERM_4301_Skill01",
             },
             ["TERM_4301_Skill02"] = {
-                ["ContentJP"] = "召喚ユニット・サンダーボール",
+                ["ContentJP"] = "召喚ユニット‐サンダーボール",
                 ["TextMapId"] = "TERM_4301_Skill02",
             },
             ["TERM_4301_Skill02Damage"] = {
@@ -34959,7 +35484,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERM_5101_Skill02_Value",
             },
             ["TERM_5102_Skill01"] = {
-                ["ContentJP"] = "朧足",
+                ["ContentJP"] = "潜行",
                 ["TextMapId"] = "TERM_5102_Skill01",
             },
             ["TERM_5102_Skill02"] = {
@@ -34967,13 +35492,9 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TERM_5102_Skill02",
             },
             ["TERM_5102_Skill03"] = {
-                ["ContentJP"] = "喰い牙",
+                ["ContentJP"] = "ファングスラスト",
                 ["TextMapId"] = "TERM_5102_Skill03",
             },
-        }
-    end },
-    { MinKey = "TERM_5301_Skill01", MaxKey = "UIGuide_Delivery_01", Loader = function()
-        return {
             ["TERM_5301_Skill01"] = {
                 ["ContentJP"] = "フロウライト",
                 ["TextMapId"] = "TERM_5301_Skill01",
@@ -35035,7 +35556,8 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "TOAST_DUNGEON_FAIL_ENERGY",
             },
             ["TOAST_DUNGEON_FAIL_UNABLE"] = {
-                ["ContentJP"] = "オープン依頼にアクセできない隊員がいますので依頼を開始できません。",
+                ["ContentJP"] = "\
+オープン依頼にアクセできない隊員がいますので依頼を開始できません。",
                 ["TextMapId"] = "TOAST_DUNGEON_FAIL_UNABLE",
             },
             ["TOAST_OverHeating"] = {
@@ -35327,6 +35849,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "ゴミ箱のそばで酔いつぶれている男。どれだけの酒を飲んだかわからないほどの酒好きで、侵入者が子どもだという手がかりとも一致しないし、人の飲み物にわざわざ酒を入れるタイプにも見えない。",
                 ["TextMapId"] = "TextMap_AnswerDetail_200107",
             },
+        }
+    end },
+    { MinKey = "TextMap_AnswerDetail_200108", MaxKey = "UIGuide_Shadow_1", Loader = function()
+        return {
             ["TextMap_AnswerDetail_200108"] = {
                 ["ContentJP"] = "父親にポップコーンを買ってほしいとせがんでいる女の子。子どもではあるが、父親の厳しい管理下にあるため、バックさんの窓辺に落ちていたポップコーンが彼女の落とし物だという可能性はないだろう。",
                 ["TextMapId"] = "TextMap_AnswerDetail_200108",
@@ -35496,11 +36022,13 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "Text_Same",
             },
             ["Textmap_UnlockContent"] = {
-                ["ContentJP"] = "冒険レベルをあげ、またサブストーリーをクリアしてメインストーリーを続行しよう。\
+                ["ContentJP"] = "冒険Lv.をあげ、またサブストーリーをクリアしてメインストーリーを続行しよう。\
 \
-冒険Expは以下の方法で得られます：\
-1. <H>依頼</>をクリアする（ノクトボイジャー手帳の依頼を除く）。\
-2. <H>魔の箱</>の魔の楔クエストをクリアする。",
+冒険Exp.は以下の方法で得られます：\
+1. <H>魔の箱</>の魔の楔クエストをクリアする\
+2. <H>依頼</>を完了する（ノクトボイジャーの手帳の依頼は対象外）\
+3. 住民と交流し、<H>サブクエスト</>を完了する\
+4.依頼エリア以外のところで<H>貯蔵箱</>を開く",
                 ["TextMapId"] = "Textmap_UnlockContent",
             },
             ["Textmap_UnlockTitle"] = {
@@ -35539,6 +36067,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "キーを奪った",
                 ["TextMapId"] = "Toast_MiYao",
             },
+            ["Toast_NeedAcceptQuest"] = {
+                ["ContentJP"] = "マップ画面を開いてクエストを受け取ることができます",
+                ["TextMapId"] = "Toast_NeedAcceptQuest",
+            },
             ["Toast_PaoJi"] = {
                 ["ContentJP"] = "通路は開かれた。砲台を離れて中央制御室へ向かおう",
                 ["TextMapId"] = "Toast_PaoJi",
@@ -35552,7 +36084,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "Two",
             },
             ["UIGUIDE_AMMO"] = {
-                ["ContentJP"] = "遠隔武器用の弾薬は、敵の撃破、貯蔵箱を開く、マップ上の壺・箱等のオブジェクト破壊などの方法で一定の確率で入手できます。",
+                ["ContentJP"] = "遠隔武器用の弾薬は、敵の撃破、貯蔵箱を開く、マップ上の壺‐箱等のオブジェクト破壊などの方法で一定の確率で入手できます。",
                 ["TextMapId"] = "UIGUIDE_AMMO",
             },
             ["UIGUIDE_ATTACK"] = {
@@ -35688,15 +36220,15 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGUIDE_TITLE_WIKI",
             },
             ["UIGuide_Abyss_1"] = {
-                ["ContentJP"] = "装置を起動すると、体験型劇場が始まり、対応する演目に挑戦できる。",
+                ["ContentJP"] = "装置を起動すると、体験型劇場が始まり、対応する試練に挑戦できる。",
                 ["TextMapId"] = "UIGuide_Abyss_1",
             },
             ["UIGuide_Abyss_2"] = {
-                ["ContentJP"] = "体験型劇場では、敵に扮した俳優が登場する。挑戦を開始すると、次々と敵が出現し、制限時間内に一定数を撃破する必要がある。",
+                ["ContentJP"] = "挑戦を開始すると、次々と敵が出現し、制限時間内に一定数を撃破する必要がある。",
                 ["TextMapId"] = "UIGuide_Abyss_2",
             },
             ["UIGuide_Abyss_3_1"] = {
-                ["ContentJP"] = "制限時間内に規定数の敵を倒せば、挑戦成功。次の演目への入口が開かれ、挑戦を続けることができる。",
+                ["ContentJP"] = "制限時間内に規定数の敵を倒せば、挑戦成功。次の試練への入口が開かれ、挑戦を続けることができる。",
                 ["TextMapId"] = "UIGuide_Abyss_3_1",
             },
             ["UIGuide_Abyss_3_2"] = {
@@ -35704,7 +36236,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Abyss_3_2",
             },
             ["UIGuide_Abyss_4"] = {
-                ["ContentJP"] = "次の演目の入口は、一定時間内に移動しないと消えてしまい、挑戦失敗となるので注意しよう。",
+                ["ContentJP"] = "次の試練の入口は、一定時間内に移動しないと消えてしまい、挑戦失敗となるので注意しよう。",
                 ["TextMapId"] = "UIGuide_Abyss_4",
             },
             ["UIGuide_Abyss_5"] = {
@@ -35712,7 +36244,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Abyss_5",
             },
             ["UIGuide_AssistanceSkill"] = {
-                ["ContentJP"] = "<H>ジェネモン</>から魔力を吸収し、ジェネモンサポートを通じて戦闘中に仲間を助けることができます。",
+                ["ContentJP"] = "<H>ジェネモン</>が戦闘中に仲間をサポートすることができます。",
                 ["TextMapId"] = "UIGuide_AssistanceSkill",
             },
             ["UIGuide_BattleWheel_1"] = {
@@ -35729,7 +36261,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_BattleWheel_2_Phone",
             },
             ["UIGuide_Biography"] = {
-                ["ContentJP"] = "「人物紹介」には、この世界のいろいろな人々のエピソードが載されています。交流を深めると、そのキャラクターの「人物紹介」が解放されます",
+                ["ContentJP"] = "「人物紹介」には、この世界のいろいろな人々のエピソードが載されています。交流を深めると、そのキャラクターの「人物紹介」が解放されます。",
                 ["TextMapId"] = "UIGuide_Biography",
             },
             ["UIGuide_BonusDamage"] = {
@@ -35784,10 +36316,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "&Interactive&を押すと夢の霊鳥を呼び覚まし、現在地を記録できます。",
                 ["TextMapId"] = "UIGuide_Delivery_01",
             },
-        }
-    end },
-    { MinKey = "UIGuide_Delivery_01_phone", MaxKey = "UIGuide_TrainingGround_1", Loader = function()
-        return {
             ["UIGuide_Delivery_01_phone"] = {
                 ["ContentJP"] = "アクションすると夢の霊鳥を呼び出し、現在地を記録できます。",
                 ["TextMapId"] = "UIGuide_Delivery_01_phone",
@@ -35905,7 +36433,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_HardBoss_01",
             },
             ["UIGuide_HardBoss_02"] = {
-                ["ContentJP"] = "悪夢の残響のボスはとても強力ですが、クリアすると<H>週に50回</>まで報酬を獲得できます。",
+                ["ContentJP"] = "悪夢の残響のボスはとても強力ですが、クリアすると<H>週に3回</>まで報酬を獲得できます。",
                 ["TextMapId"] = "UIGuide_HardBoss_02",
             },
             ["UIGuide_ImpressionCheck_1"] = {
@@ -36053,11 +36581,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_PetPan_Title",
             },
             ["UIGuide_Pet_1"] = {
-                ["ContentJP"] = "<H>ジェネモン</>が解放されました。世界各地で<H>ジェネモン</>を捕獲し、その力を吸収することでレゾナンスを強化して戦闘中に仲間を支援できます。",
+                ["ContentJP"] = "<H>ジェネモン</>が解放されました。世界各地で<H>ジェネモン</>と出会い、仲良く出来たら様々な応援をしてくれます。",
                 ["TextMapId"] = "UIGuide_Pet_1",
             },
             ["UIGuide_Pet_2"] = {
-                ["ContentJP"] = "高レアリティの缶詰を使って、捕獲タイミングを見極めることで、捕獲成功率が大幅に上がります。",
+                ["ContentJP"] = "高レアリティの缶詰を使って、給餌タイミングを見極めることで、ジェネモンと仲良しの成功率が大幅に上がります。",
                 ["TextMapId"] = "UIGuide_Pet_2",
             },
             ["UIGuide_Phantom_1_1"] = {
@@ -36073,7 +36601,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Phantom_1_3",
             },
             ["UIGuide_Phantom_2_1"] = {
-                ["ContentJP"] = "<H>世界探索</>時には、<H>「シジル・撤収」</>を使用して、召喚した戦友をいつでも<H>撤収</>させることができます。",
+                ["ContentJP"] = "<H>世界探索</>時には、<H>「シジル‐撤収」</>を使用して、召喚した戦友をいつでも<H>撤収</>させることができます。",
                 ["TextMapId"] = "UIGuide_Phantom_2_1",
             },
             ["UIGuide_Phantom_2_2"] = {
@@ -36097,7 +36625,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Phantom_3_3",
             },
             ["UIGuide_Phantom_4_1"] = {
-                ["ContentJP"] = "戦友も戦闘中にエネルギーや弾薬を消費し、戦闘中に敵が落とした弾薬を拾う必要があります。",
+                ["ContentJP"] = "戦友も戦闘中にSPや弾薬を消費し、戦闘中に敵が落とした弾薬に近づくと補充できます。",
                 ["TextMapId"] = "UIGuide_Phantom_4_1",
             },
             ["UIGuide_Reading"] = {
@@ -36105,11 +36633,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Reading",
             },
             ["UIGuide_RelayMechanism_1"] = {
-                ["ContentJP"] = "何らかの攻撃が<H>「イコル駆動輪」</>に命中すると、オン・オフの状態が切り替わります。<H>「イコル駆動輪」</>の色が<H>青色</>の時は装置の電源は<H>オン</>、<H>オレンジ色</>の時は装置の電源は<H>オフ</>になっています。",
+                ["ContentJP"] = "何らかの攻撃が<H>「イコル駆動輪」</>に命中すると、オン‐オフの状態が切り替わります。<H>「イコル駆動輪」</>の色が<H>青色</>の時は装置の電源は<H>オン</>、<H>オレンジ色</>の時は装置の電源は<H>オフ</>になっています。",
                 ["TextMapId"] = "UIGuide_RelayMechanism_1",
             },
             ["UIGuide_RelayMechanism_2"] = {
-                ["ContentJP"] = "一部の<H>「イコル駆動輪」</>は命中を受けてオン・オフの状態が切り替わってから一定時間が経過すると、<H>初期状態</>まで<H>自動的に回復</>します。",
+                ["ContentJP"] = "一部の<H>「イコル駆動輪」</>は命中を受けてオン‐オフの状態が切り替わってから一定時間が経過すると、<H>初期状態</>まで<H>自動的に回復</>します。",
                 ["TextMapId"] = "UIGuide_RelayMechanism_2",
             },
             ["UIGuide_Rouge_1"] = {
@@ -36128,10 +36656,18 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "休憩エリア：「エンバー」を使って物資と交換したり、HPとSPを回復できる。",
                 ["TextMapId"] = "UIGuide_Rouge_2_3",
             },
+            ["UIGuide_SIDEWAYSJUMP"] = {
+                ["ContentJP"] = "壁に貼り付いて登れるときは、方向キーを押し続け、さらに &Jump& を<H>連続で</>押すことで、横方向への登りながらの移動と連続ジャンプができます。",
+                ["TextMapId"] = "UIGuide_SIDEWAYSJUMP",
+            },
             ["UIGuide_Shadow_1"] = {
                 ["ContentJP"] = "<H>戦友シジル</>を使用して戦友を召喚できます。キャラクター画面からタクティカルバッグの設定画面を開き、キャラクターの戦友シジルをタクティカルバッグに設定しましょう。",
                 ["TextMapId"] = "UIGuide_Shadow_1",
             },
+        }
+    end },
+    { MinKey = "UIGuide_Shadow_2", MaxKey = "UI_Accessory_Desc_30007", Loader = function()
+        return {
             ["UIGuide_Shadow_2"] = {
                 ["ContentJP"] = "&OpenBattleWheel&を長押しすると戦友を召喚できます。戦友はプレーヤーが操作中のキャラクターと一緒に戦ってくれます。",
                 ["TextMapId"] = "UIGuide_Shadow_2",
@@ -36141,7 +36677,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Sojourns_01",
             },
             ["UIGuide_Sojourns_01_Pad"] = {
-                ["ContentJP"] = "<Highlight>記憶の断片</>が解放されました、屋敷で<Img id=\"Key_A\" height=\"32\" width=\"32\"/>をクリックすると移動できます。",
+                ["ContentJP"] = "<Highlight>記憶の断片</>が解放されました、屋敷でタップすると移動できます。",
                 ["TextMapId"] = "UIGuide_Sojourns_01_Pad",
             },
             ["UIGuide_Sojourns_02"] = {
@@ -36153,7 +36689,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Sojourns_03",
             },
             ["UIGuide_Sojourns_03_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して<Img id=\"Key_A\" height=\"32\" width=\"32\"/>星霜のアンソロジー<Highlight>を開き、キャラクターの過去の物語を閲覧してください。",
+                ["ContentJP"] = "タップして<Highlight>星霜のアンソロジー</>を開き、キャラクターの過去の物語を閲覧してください。",
                 ["TextMapId"] = "UIGuide_Sojourns_03_Pad",
             },
             ["UIGuide_Sojourns_04"] = {
@@ -36161,7 +36697,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Sojourns_04",
             },
             ["UIGuide_Sojourns_04_Pad"] = {
-                ["ContentJP"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、キャラクターたちの物語を確認してください。",
+                ["ContentJP"] = "タップしてキャラクターたちの物語を確認してください。",
                 ["TextMapId"] = "UIGuide_Sojourns_04_Pad",
             },
             ["UIGuide_Sojourns_05"] = {
@@ -36173,7 +36709,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Sojourns_06",
             },
             ["UIGuide_Sojourns_06_Pad"] = {
-                ["ContentJP"] = "条件を達成すると、物語を解放します。<Img id=\"Key_A\" height=\"32\" width=\"32\"/>を押して、報酬を受け取ってください。",
+                ["ContentJP"] = "条件を達成すると、物語を解放します。タップして報酬を受け取ってください。",
                 ["TextMapId"] = "UIGuide_Sojourns_06_Pad",
             },
             ["UIGuide_Sojourns_07"] = {
@@ -36252,7 +36788,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Temple_2",
             },
             ["UIGuide_Title_203001"] = {
-                ["ContentJP"] = "ジェネモン捕獲",
+                ["ContentJP"] = "ジェネモン給餌",
                 ["TextMapId"] = "UIGuide_Title_203001",
             },
             ["UIGuide_Title_203501"] = {
@@ -36476,7 +37012,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_Title_PerfectDodge",
             },
             ["UIGuide_Title_Pet"] = {
-                ["ContentJP"] = "ジェネモン捕獲",
+                ["ContentJP"] = "ジェネモンと出会い",
                 ["TextMapId"] = "UIGuide_Title_Pet",
             },
             ["UIGuide_Title_Phantom_1"] = {
@@ -36595,10 +37131,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "「砂海の瞑想」では、過去に戦った敵と回想のなかで戦うことができます。敵の戦い方を学んで、自分の腕前を上げましょう。",
                 ["TextMapId"] = "UIGuide_TrainingGround_1",
             },
-        }
-    end },
-    { MinKey = "UIGuide_TrainingGround_2", MaxKey = "UI_Accessory_Name_90003", Loader = function()
-        return {
             ["UIGuide_TrainingGround_2"] = {
                 ["ContentJP"] = "「砂海の瞑想」の<H>砂海の渦</>では、<H>弾薬補給箱</>、<H>気つけ薬</>、<H>興奮剤</>などの戦闘が便利になるアイテムがドロップします。",
                 ["TextMapId"] = "UIGuide_TrainingGround_2",
@@ -36621,12 +37153,12 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             },
             ["UIGuide_TriggerEffect_1"] = {
                 ["ContentJP"] = "武器や一部のスキルでダメージを与えると、属性に応じて一定の確率で<H>追加効果</>が発動します。各属性の追加効果は以下の通りです：\
-水属性：水属性の持続ダメージを付与・重ねがけ\
-火属性：火属性の持続ダメージを付与・重ねがけ\
-雷属性：雷属性の持続ダメージを付与・重ねがけ\
-風属性：風属性の持続ダメージを付与・重ねがけ\
-光属性：光属性の持続ダメージを付与・重ねがけし、同時にすべての属性の追加効果の残り時間を<H>リセット</>する。\
-闇属性：闇属性の持続ダメージを付与・重ねがけし、さらに体勢の回復速度を低下させる効果を<H>付与・重ねがけ</>する。",
+水属性：水属性の持続ダメージを付与‐重ねがけ\
+火属性：火属性の持続ダメージを付与‐重ねがけ\
+雷属性：雷属性の持続ダメージを付与‐重ねがけ\
+風属性：風属性の持続ダメージを付与‐重ねがけ\
+光属性：光属性の持続ダメージを付与‐重ねがけし、同時にすべての属性の追加効果の残り時間を<H>リセット</>する。\
+闇属性：闇属性の持続ダメージを付与‐重ねがけし、さらに体勢の回復速度を低下させる効果を<H>付与‐重ねがけ</>する。",
                 ["TextMapId"] = "UIGuide_TriggerEffect_1",
             },
             ["UIGuide_TriggerEffect_2"] = {
@@ -36644,11 +37176,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_ValveMechanism",
             },
             ["UIGuide_WIKI_01"] = {
-                ["ContentJP"] = "ストーリー会話中に見慣れない用語が出てきたら、右下に【用語確認】ボタンがないかチェックしてみましょう。クリックすれば対応する用語の説明を確認できます。",
+                ["ContentJP"] = "ストーリー会話中に見慣れない用語が出てきたら、右下に<H>用語確認</>ボタンがないかチェックしてみましょう。タップすれば対応する用語の説明を確認できます。",
                 ["TextMapId"] = "UIGuide_WIKI_01",
             },
             ["UIGuide_WIKI_02"] = {
-                ["ContentJP"] = "【百科事典】では、これまでに見たすべての用語を確認できます。",
+                ["ContentJP"] = "<H>百科事典</>では、これまでに見たすべての用語を確認できます。",
                 ["TextMapId"] = "UIGuide_WIKI_02",
             },
             ["UIGuide_WallJump_PC"] = {
@@ -36660,7 +37192,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UIGuide_WallJump_Phone",
             },
             ["UIGuide_content_203001"] = {
-                ["ContentJP"] = "世界を探索していると時折<H>魔霊</>に出会うことがあり、<H>壺</>を消費することによって捕獲できます。ジェネモンから力を吸収し、ジェネモンサポートを通じて戦闘中に仲間をサポートすることができます。",
+                ["ContentJP"] = "世界を探索していると時折<H>ジェネモン</>に出会うことがあり、<H>缶詰め</>を消費することによって仲良くできます。ジェネモンサポートを通じて戦闘中に仲間をサポートすることができます。",
                 ["TextMapId"] = "UIGuide_content_203001",
             },
             ["UIGuide_content_203501"] = {
@@ -36695,9 +37227,73 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "特性",
                 ["TextMapId"] = "UI_Ability",
             },
+            ["UI_AbyssRoom_BattleStart"] = {
+                ["ContentJP"] = "試練 Ⅰを始める",
+                ["TextMapId"] = "UI_AbyssRoom_BattleStart",
+            },
+            ["UI_AbyssRoom_BossBattle"] = {
+                ["ContentJP"] = "超凶悪な敵を倒す",
+                ["TextMapId"] = "UI_AbyssRoom_BossBattle",
+            },
+            ["UI_AbyssRoom_Count"] = {
+                ["ContentJP"] = "倒した敵:",
+                ["TextMapId"] = "UI_AbyssRoom_Count",
+            },
+            ["UI_Abyss_BattleCountDown"] = {
+                ["ContentJP"] = "残りの試練時間",
+                ["TextMapId"] = "UI_Abyss_BattleCountDown",
+            },
             ["UI_Abyss_Des"] = {
                 ["ContentJP"] = "あなたは観客であり、同時に物語の行方を決める劇中の登場人物でもある。自らの演目へと歩み入り、強敵に立ち向かう勇気と、完璧な結末を迎える喜びに浸ろう。",
                 ["TextMapId"] = "UI_Abyss_Des",
+            },
+            ["UI_Abyss_NextRoomCountdown"] = {
+                ["ContentJP"] = "次の試練へ",
+                ["TextMapId"] = "UI_Abyss_NextRoomCountdown",
+            },
+            ["UI_Abyss_Toast_BossLockHp"] = {
+                ["ContentJP"] = "出現した敵を倒すことで、超凶悪な敵の無敵状態を解除できる",
+                ["TextMapId"] = "UI_Abyss_Toast_BossLockHp",
+            },
+            ["UI_Abyss_Toast_MoveToNextRoom"] = {
+                ["ContentJP"] = "次の試練を開始",
+                ["TextMapId"] = "UI_Abyss_Toast_MoveToNextRoom",
+            },
+            ["UI_Abyss_Toast_NextRoom"] = {
+                ["ContentJP"] = "試練を完了しました、まもなく次の試練が開始",
+                ["TextMapId"] = "UI_Abyss_Toast_NextRoom",
+            },
+            ["UI_Abyss_Toast_RoomFail"] = {
+                ["ContentJP"] = "試練失敗",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomFail",
+            },
+            ["UI_Abyss_Toast_RoomStart0"] = {
+                ["ContentJP"] = "試練 Ⅰ開始",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart0",
+            },
+            ["UI_Abyss_Toast_RoomStart1"] = {
+                ["ContentJP"] = "試練 Ⅱ開始",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart1",
+            },
+            ["UI_Abyss_Toast_RoomStart2"] = {
+                ["ContentJP"] = "試練 Ⅲ開始",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart2",
+            },
+            ["UI_Abyss_Toast_RoomStart3"] = {
+                ["ContentJP"] = "試練 Ⅳ開始",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart3",
+            },
+            ["UI_Abyss_Toast_RoomStart4"] = {
+                ["ContentJP"] = "最後の試練が始まった、超凶悪な敵を倒そう",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart4",
+            },
+            ["UI_Abyss_Toast_TeleportNextRoom"] = {
+                ["ContentJP"] = "まもなく次の試練が開始",
+                ["TextMapId"] = "UI_Abyss_Toast_TeleportNextRoom",
+            },
+            ["UI_Abyss_Toast_Win"] = {
+                ["ContentJP"] = "試練成功",
+                ["TextMapId"] = "UI_Abyss_Toast_Win",
             },
             ["UI_AcceptEntrust"] = {
                 ["ContentJP"] = "受け取る",
@@ -36789,7 +37385,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Desc_10035",
             },
             ["UI_Accessory_Desc_10036"] = {
-                ["ContentJP"] = "心がドキドキドキドキする！",
+                ["ContentJP"] = "幸せを運んでくれるトナカイ、見てるだけでドキドキする。",
                 ["TextMapId"] = "UI_Accessory_Desc_10036",
             },
             ["UI_Accessory_Desc_10037"] = {
@@ -36845,7 +37441,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Desc_20027",
             },
             ["UI_Accessory_Desc_20028"] = {
-                ["ContentJP"] = "吸ってみて。なんか元気出るから。",
+                ["ContentJP"] = "にぎやかでハッピーな雰囲気、悪くないだろう？",
                 ["TextMapId"] = "UI_Accessory_Desc_20028",
             },
             ["UI_Accessory_Desc_20029"] = {
@@ -36857,7 +37453,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Desc_20030",
             },
             ["UI_Accessory_Desc_20031"] = {
-                ["ContentJP"] = "ふふふふふふ……何が可笑しいんだろう。",
+                ["ContentJP"] = "ブヒブヒブヒ！",
                 ["TextMapId"] = "UI_Accessory_Desc_20031",
             },
             ["UI_Accessory_Desc_30001"] = {
@@ -36888,6 +37484,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "理由はないけど、ついブンブン振りたくなる。魔性のスティック。",
                 ["TextMapId"] = "UI_Accessory_Desc_30007",
             },
+        }
+    end },
+    { MinKey = "UI_Accessory_Desc_30008", MaxKey = "UI_Achievement_Des_1304", Loader = function()
+        return {
             ["UI_Accessory_Desc_30008"] = {
                 ["ContentJP"] = "光と影、陽と陰、天と地。すべてを一つに抱く玉。",
                 ["TextMapId"] = "UI_Accessory_Desc_30008",
@@ -36909,7 +37509,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Desc_40003",
             },
             ["UI_Accessory_Desc_40004"] = {
-                ["ContentJP"] = "いい鍋は料理にも濡れ衣対策にも使える。",
+                ["ContentJP"] = "いい鍋は料理にも武器にも使える。",
                 ["TextMapId"] = "UI_Accessory_Desc_40004",
             },
             ["UI_Accessory_Desc_40005"] = {
@@ -37021,15 +37621,15 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_10001",
             },
             ["UI_Accessory_Name_10002"] = {
-                ["ContentJP"] = "ひょこちゃん・アイボリー",
+                ["ContentJP"] = "ひょこちゃん‐アイボリー",
                 ["TextMapId"] = "UI_Accessory_Name_10002",
             },
             ["UI_Accessory_Name_10003"] = {
-                ["ContentJP"] = "ひょこちゃん・キャラメル",
+                ["ContentJP"] = "ひょこちゃん‐キャラメル",
                 ["TextMapId"] = "UI_Accessory_Name_10003",
             },
             ["UI_Accessory_Name_10004"] = {
-                ["ContentJP"] = "ひょこちゃん・インディゴ",
+                ["ContentJP"] = "ひょこちゃん‐インディゴ",
                 ["TextMapId"] = "UI_Accessory_Name_10004",
             },
             ["UI_Accessory_Name_10005"] = {
@@ -37037,11 +37637,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_10005",
             },
             ["UI_Accessory_Name_10006"] = {
-                ["ContentJP"] = "豆苗・マリーゴールド",
+                ["ContentJP"] = "豆苗‐マリーゴールド",
                 ["TextMapId"] = "UI_Accessory_Name_10006",
             },
             ["UI_Accessory_Name_10007"] = {
-                ["ContentJP"] = "豆苗・スカイブルー",
+                ["ContentJP"] = "豆苗‐スカイブルー",
                 ["TextMapId"] = "UI_Accessory_Name_10007",
             },
             ["UI_Accessory_Name_10008"] = {
@@ -37077,19 +37677,19 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_10015",
             },
             ["UI_Accessory_Name_10016"] = {
-                ["ContentJP"] = "気分・シャボン玉",
+                ["ContentJP"] = "気分‐シャボン玉",
                 ["TextMapId"] = "UI_Accessory_Name_10016",
             },
             ["UI_Accessory_Name_10017"] = {
-                ["ContentJP"] = "気分・雪",
+                ["ContentJP"] = "気分‐雪",
                 ["TextMapId"] = "UI_Accessory_Name_10017",
             },
             ["UI_Accessory_Name_10018"] = {
-                ["ContentJP"] = "気分・雨",
+                ["ContentJP"] = "気分‐雨",
                 ["TextMapId"] = "UI_Accessory_Name_10018",
             },
             ["UI_Accessory_Name_10019"] = {
-                ["ContentJP"] = "気分・虹",
+                ["ContentJP"] = "気分‐虹",
                 ["TextMapId"] = "UI_Accessory_Name_10019",
             },
             ["UI_Accessory_Name_10020"] = {
@@ -37097,11 +37697,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_10020",
             },
             ["UI_Accessory_Name_10021"] = {
-                ["ContentJP"] = "天啓の英霊・マリーゴールド",
+                ["ContentJP"] = "天啓の英霊‐マリーゴールド",
                 ["TextMapId"] = "UI_Accessory_Name_10021",
             },
             ["UI_Accessory_Name_10022"] = {
-                ["ContentJP"] = "天啓の英霊・鉛灰",
+                ["ContentJP"] = "天啓の英霊‐鉛灰",
                 ["TextMapId"] = "UI_Accessory_Name_10022",
             },
             ["UI_Accessory_Name_10023"] = {
@@ -37149,7 +37749,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_10034",
             },
             ["UI_Accessory_Name_10035"] = {
-                ["ContentJP"] = "猫の髪飾り",
+                ["ContentJP"] = "猫の髪飾り‐ナチュラル",
                 ["TextMapId"] = "UI_Accessory_Name_10035",
             },
             ["UI_Accessory_Name_10036"] = {
@@ -37157,43 +37757,43 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_10036",
             },
             ["UI_Accessory_Name_10037"] = {
-                ["ContentJP"] = "気分・肯定",
+                ["ContentJP"] = "気分‐肯定",
                 ["TextMapId"] = "UI_Accessory_Name_10037",
             },
             ["UI_Accessory_Name_10038"] = {
-                ["ContentJP"] = "気分・驚き",
+                ["ContentJP"] = "気分‐驚き",
                 ["TextMapId"] = "UI_Accessory_Name_10038",
             },
             ["UI_Accessory_Name_10039"] = {
-                ["ContentJP"] = "気分・迷い",
+                ["ContentJP"] = "気分‐迷い",
                 ["TextMapId"] = "UI_Accessory_Name_10039",
             },
             ["UI_Accessory_Name_10040"] = {
-                ["ContentJP"] = "気分・切ない",
+                ["ContentJP"] = "気分‐切ない",
                 ["TextMapId"] = "UI_Accessory_Name_10040",
             },
             ["UI_Accessory_Name_10041"] = {
-                ["ContentJP"] = "気分・怒り",
+                ["ContentJP"] = "気分‐怒り",
                 ["TextMapId"] = "UI_Accessory_Name_10041",
             },
             ["UI_Accessory_Name_10042"] = {
-                ["ContentJP"] = "気分・ひらめき",
+                ["ContentJP"] = "気分‐ひらめき",
                 ["TextMapId"] = "UI_Accessory_Name_10042",
             },
             ["UI_Accessory_Name_10043"] = {
-                ["ContentJP"] = "気分・称賛",
+                ["ContentJP"] = "気分‐称賛",
                 ["TextMapId"] = "UI_Accessory_Name_10043",
             },
             ["UI_Accessory_Name_10044"] = {
-                ["ContentJP"] = "気分・間違い",
+                ["ContentJP"] = "気分‐間違い",
                 ["TextMapId"] = "UI_Accessory_Name_10044",
             },
             ["UI_Accessory_Name_10045"] = {
-                ["ContentJP"] = "気分・正しい",
+                ["ContentJP"] = "気分‐正しい",
                 ["TextMapId"] = "UI_Accessory_Name_10045",
             },
             ["UI_Accessory_Name_10046"] = {
-                ["ContentJP"] = "猫の髪飾り・黒玉",
+                ["ContentJP"] = "猫の髪飾り‐黒玉",
                 ["TextMapId"] = "UI_Accessory_Name_10046",
             },
             ["UI_Accessory_Name_10047"] = {
@@ -37201,7 +37801,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_10047",
             },
             ["UI_Accessory_Name_10048"] = {
-                ["ContentJP"] = "猫の髪飾り・鉛灰",
+                ["ContentJP"] = "猫の髪飾り‐鉛灰",
                 ["TextMapId"] = "UI_Accessory_Name_10048",
             },
             ["UI_Accessory_Name_20001"] = {
@@ -37225,7 +37825,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_20005",
             },
             ["UI_Accessory_Name_20006"] = {
-                ["ContentJP"] = "苦行者のアイマスク・乳白",
+                ["ContentJP"] = "苦行者のアイマスク‐乳白",
                 ["TextMapId"] = "UI_Accessory_Name_20006",
             },
             ["UI_Accessory_Name_20007"] = {
@@ -37289,11 +37889,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_20021",
             },
             ["UI_Accessory_Name_20022"] = {
-                ["ContentJP"] = "逆位の妖花・ペルシアンレッド",
+                ["ContentJP"] = "逆位の妖花‐ペルシアンレッド",
                 ["TextMapId"] = "UI_Accessory_Name_20022",
             },
             ["UI_Accessory_Name_20023"] = {
-                ["ContentJP"] = "正位の妖花・アイボリー",
+                ["ContentJP"] = "正位の妖花‐アイボリー",
                 ["TextMapId"] = "UI_Accessory_Name_20023",
             },
             ["UI_Accessory_Name_20024"] = {
@@ -37329,7 +37929,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Accessory_Name_20031",
             },
             ["UI_Accessory_Name_20032"] = {
-                ["ContentJP"] = "苦行者のアイマスク-キャラクターメル",
+                ["ContentJP"] = "苦行者のアイマスク‐キャラメル",
                 ["TextMapId"] = "UI_Accessory_Name_20032",
             },
             ["UI_Accessory_Name_20033"] = {
@@ -37420,10 +38020,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "触手のカーテン",
                 ["TextMapId"] = "UI_Accessory_Name_90003",
             },
-        }
-    end },
-    { MinKey = "UI_Accessory_Name_90004", MaxKey = "UI_Achievement_Des_505007", Loader = function()
-        return {
             ["UI_Accessory_Name_90004"] = {
                 ["ContentJP"] = "烈火とともに",
                 ["TextMapId"] = "UI_Accessory_Name_90004",
@@ -37704,6 +38300,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "「体験型劇場」のすべての「クラシック演目」をクリアする<highlight>（夜明けへの旅限定実績）</>",
                 ["TextMapId"] = "UI_Achievement_Des_1304",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_1305", MaxKey = "UI_Achievement_Des_52701", Loader = function()
+        return {
             ["UI_Achievement_Des_1305"] = {
                 ["ContentJP"] = "ラビリンスの深度<highlight>100</>をクリアする<highlight>（夜明けへの旅限定実績）</>",
                 ["TextMapId"] = "UI_Achievement_Des_1305",
@@ -37713,7 +38313,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Achievement_Des_1306",
             },
             ["UI_Achievement_Des_1400101"] = {
-                ["ContentJP"] = "ジェネモンを累計<highlight>#1</>回捕獲する",
+                ["ContentJP"] = "累計で<highlight>#1</>体のジェネモンと友達になる",
                 ["TextMapId"] = "UI_Achievement_Des_1400101",
             },
             ["UI_Achievement_Des_1400201"] = {
@@ -38045,7 +38645,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Achievement_Des_4051",
             },
             ["UI_Achievement_Des_40601"] = {
-                ["ContentJP"] = "星4武器<highlight>#1</>件の熔錬レベルを5までアップする",
+                ["ContentJP"] = "★4武器<highlight>#1</>件の熔錬レベルを5までアップする",
                 ["TextMapId"] = "UI_Achievement_Des_40601",
             },
             ["UI_Achievement_Des_4061"] = {
@@ -38224,10 +38824,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "夢の霊鳥を呼び、「アイスレイク城」の地点を<highlight>#1</>箇所記録",
                 ["TextMapId"] = "UI_Achievement_Des_505007",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Des_505008", MaxKey = "UI_Achievement_Name_101801", Loader = function()
-        return {
             ["UI_Achievement_Des_505008"] = {
                 ["ContentJP"] = "夢の霊鳥を呼び、「アイスレイク城の下水道」の地点を<highlight>#1</>箇所記録",
                 ["TextMapId"] = "UI_Achievement_Des_505008",
@@ -38483,6 +39079,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "1回の依頼「ガード ∞」で防御コアのHPが減少しない",
                 ["TextMapId"] = "UI_Achievement_Des_52101",
             },
+            ["UI_Achievement_Des_522001"] = {
+                ["ContentJP"] = "依頼中に、累計で<highlight>#1</>体のジェネモンと友達になる",
+                ["TextMapId"] = "UI_Achievement_Des_522001",
+            },
             ["UI_Achievement_Des_52201"] = {
                 ["ContentJP"] = "探検 ∞クエストで、一回も浄化剤の保管場所を利用せずに1ラウンドをクリア",
                 ["TextMapId"] = "UI_Achievement_Des_52201",
@@ -38507,6 +39107,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "敵を一体も倒さずに、任意の依頼をクリアする",
                 ["TextMapId"] = "UI_Achievement_Des_52701",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_60101", MaxKey = "UI_Achievement_Name_200502", Loader = function()
+        return {
             ["UI_Achievement_Des_60101"] = {
                 ["ContentJP"] = "累計<highlight>#1</>体のキャラクターがLv.20に到達",
                 ["TextMapId"] = "UI_Achievement_Des_60101",
@@ -38648,11 +39252,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Achievement_Des_9004",
             },
             ["UI_Achievement_Des_90103"] = {
-                ["ContentJP"] = "<highlight>星4</>の設計図で<highlight>武器</>を<highlight>#1</>件製造する",
+                ["ContentJP"] = "<highlight>★4</>の設計図で<highlight>武器</>を<highlight>#1</>件製造する",
                 ["TextMapId"] = "UI_Achievement_Des_90103",
             },
             ["UI_Achievement_Des_90104"] = {
-                ["ContentJP"] = "<highlight>星5</>の設計図で<highlight>武器</>を<highlight>#1</>件製造する",
+                ["ContentJP"] = "<highlight>★5</>の設計図で<highlight>武器</>を<highlight>#1</>件製造する",
                 ["TextMapId"] = "UI_Achievement_Des_90104",
             },
             ["UI_Achievement_Des_9100"] = {
@@ -39031,10 +39635,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "安全ヘルメットを忘れずに 1",
                 ["TextMapId"] = "UI_Achievement_Name_101801",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_101802", MaxKey = "UI_Achievement_Name_500103", Loader = function()
-        return {
             ["UI_Achievement_Name_101802"] = {
                 ["ContentJP"] = "安全ヘルメットを忘れずに 2",
                 ["TextMapId"] = "UI_Achievement_Name_101802",
@@ -39311,6 +39911,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "フォーセイクン同盟の敵 2",
                 ["TextMapId"] = "UI_Achievement_Name_200502",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_200503", MaxKey = "UI_Achievement_Name_506302", Loader = function()
+        return {
             ["UI_Achievement_Name_200503"] = {
                 ["ContentJP"] = "フォーセイクン同盟の敵 3",
                 ["TextMapId"] = "UI_Achievement_Name_200503",
@@ -39835,10 +40439,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "悪夢の終焉-シビル 3",
                 ["TextMapId"] = "UI_Achievement_Name_500103",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_500201", MaxKey = "UI_Achievement_Name_920501", Loader = function()
-        return {
             ["UI_Achievement_Name_500201"] = {
                 ["ContentJP"] = "悪夢の終焉-晶嗜獣 1",
                 ["TextMapId"] = "UI_Achievement_Name_500201",
@@ -39896,7 +40496,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Achievement_Name_5010101",
             },
             ["UI_Achievement_Name_501101"] = {
-                ["ContentJP"] = "悪夢の終焉・ソロ：シビル",
+                ["ContentJP"] = "悪夢の終焉‐ソロ：シビル",
                 ["TextMapId"] = "UI_Achievement_Name_501101",
             },
             ["UI_Achievement_Name_5011901"] = {
@@ -39908,7 +40508,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Achievement_Name_5012001",
             },
             ["UI_Achievement_Name_501201"] = {
-                ["ContentJP"] = "悪夢の終焉・ソロ：晶嗜獣",
+                ["ContentJP"] = "悪夢の終焉‐ソロ：晶嗜獣",
                 ["TextMapId"] = "UI_Achievement_Name_501201",
             },
             ["UI_Achievement_Name_5012101"] = {
@@ -39928,7 +40528,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Achievement_Name_5012403",
             },
             ["UI_Achievement_Name_501301"] = {
-                ["ContentJP"] = "悪夢の終焉・ソロ：羽化せし者",
+                ["ContentJP"] = "悪夢の終焉‐ソロ：羽化せし者",
                 ["TextMapId"] = "UI_Achievement_Name_501301",
             },
             ["UI_Achievement_Name_50130101"] = {
@@ -39976,15 +40576,15 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Achievement_Name_501401",
             },
             ["UI_Achievement_Name_502101"] = {
-                ["ContentJP"] = "逃げ場なし・ソロ",
+                ["ContentJP"] = "逃げ場なし‐ソロ",
                 ["TextMapId"] = "UI_Achievement_Name_502101",
             },
             ["UI_Achievement_Name_502201"] = {
-                ["ContentJP"] = "物理的仲裁・ソロ",
+                ["ContentJP"] = "物理的仲裁‐ソロ",
                 ["TextMapId"] = "UI_Achievement_Name_502201",
             },
             ["UI_Achievement_Name_502301"] = {
-                ["ContentJP"] = "ルーナ族の守護者・ソロ",
+                ["ContentJP"] = "ルーナ族の守護者‐ソロ",
                 ["TextMapId"] = "UI_Achievement_Name_502301",
             },
             ["UI_Achievement_Name_502401"] = {
@@ -40012,27 +40612,27 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Achievement_Name_5030901",
             },
             ["UI_Achievement_Name_503101"] = {
-                ["ContentJP"] = "熱心な調査員・無双 1",
+                ["ContentJP"] = "熱心な調査員‐無双 1",
                 ["TextMapId"] = "UI_Achievement_Name_503101",
             },
             ["UI_Achievement_Name_503102"] = {
-                ["ContentJP"] = "熱心な調査員・無双 2",
+                ["ContentJP"] = "熱心な調査員‐無双 2",
                 ["TextMapId"] = "UI_Achievement_Name_503102",
             },
             ["UI_Achievement_Name_503103"] = {
-                ["ContentJP"] = "熱心な調査員・無双 3",
+                ["ContentJP"] = "熱心な調査員‐無双 3",
                 ["TextMapId"] = "UI_Achievement_Name_503103",
             },
             ["UI_Achievement_Name_503201"] = {
-                ["ContentJP"] = "永遠のルーナ族の守護者・無双 1",
+                ["ContentJP"] = "永遠のルーナ族の守護者‐無双 1",
                 ["TextMapId"] = "UI_Achievement_Name_503201",
             },
             ["UI_Achievement_Name_503202"] = {
-                ["ContentJP"] = "永遠のルーナ族の守護者・無双 2",
+                ["ContentJP"] = "永遠のルーナ族の守護者‐無双 2",
                 ["TextMapId"] = "UI_Achievement_Name_503202",
             },
             ["UI_Achievement_Name_503203"] = {
-                ["ContentJP"] = "永遠のルーナ族の守護者・無双 3",
+                ["ContentJP"] = "永遠のルーナ族の守護者‐無双 3",
                 ["TextMapId"] = "UI_Achievement_Name_503203",
             },
             ["UI_Achievement_Name_5040101"] = {
@@ -40115,6 +40715,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "全て駆逐せよ・神速 2",
                 ["TextMapId"] = "UI_Achievement_Name_506302",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_506303", MaxKey = "UI_Alert_100", Loader = function()
+        return {
             ["UI_Achievement_Name_506303"] = {
                 ["ContentJP"] = "全て駆逐せよ・神速 3",
                 ["TextMapId"] = "UI_Achievement_Name_506303",
@@ -40639,10 +41243,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "バタフライエフェクト 1",
                 ["TextMapId"] = "UI_Achievement_Name_920501",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_920502", MaxKey = "UI_Bag_Decompose_Tip_3", Loader = function()
-        return {
             ["UI_Achievement_Name_920502"] = {
                 ["ContentJP"] = "バタフライエフェクト 2",
                 ["TextMapId"] = "UI_Achievement_Name_920502",
@@ -40908,7 +41508,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Advanced_Emotions_Exchange",
             },
             ["UI_Advanced_Emotions_Popup"] = {
-                ["ContentJP"] = "現在必要な「想い」が不足しています。足りない想いの代わりに想い・万華×<H>%s</>を消費しますか？",
+                ["ContentJP"] = "現在必要な「想い」が不足しています。足りない想いの代わりに想い‐万華×<H>%s</>を消費しますか？",
                 ["TextMapId"] = "UI_Advanced_Emotions_Popup",
             },
             ["UI_Alch_CountDown_1"] = {
@@ -40919,6 +41519,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "モンスター襲来",
                 ["TextMapId"] = "UI_Alert_100",
             },
+        }
+    end },
+    { MinKey = "UI_All_Tutorial", MaxKey = "UI_BookArchive_BookLockedToast", Loader = function()
+        return {
             ["UI_All_Tutorial"] = {
                 ["ContentJP"] = "ALL",
                 ["TextMapId"] = "UI_All_Tutorial",
@@ -41160,7 +41764,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Armory_Passive",
             },
             ["UI_Armory_PetListIsEmpty"] = {
-                ["ContentJP"] = "ジェネモン素材なし",
+                ["ContentJP"] = "選択できるものなし",
                 ["TextMapId"] = "UI_Armory_PetListIsEmpty",
             },
             ["UI_Armory_Pet_Empty"] = {
@@ -41443,10 +42047,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "現在の分解対象に<H>戦友が装備中</>の武器が含まれています。分解すると自動的に装備解除されますが、よろしいですか？",
                 ["TextMapId"] = "UI_Bag_Decompose_Tip_3",
             },
-        }
-    end },
-    { MinKey = "UI_Bag_Decompose_Tip_4", MaxKey = "UI_CHAR_DATA_TEXT_21010303", Loader = function()
-        return {
             ["UI_Bag_Decompose_Tip_4"] = {
                 ["ContentJP"] = "現在の分解対象に<H>育成済み</>の武器が含まれ、分解すると消費した資源は返還されません。<H>戦友が装備中</>の武器を分解すると、自動的に装備解除されます。よろしいですか？",
                 ["TextMapId"] = "UI_Bag_Decompose_Tip_4",
@@ -41474,6 +42074,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_Bag_Sell_Amount"] = {
                 ["ContentJP"] = "数量",
                 ["TextMapId"] = "UI_Bag_Sell_Amount",
+            },
+            ["UI_Bag_Sell_Batch"] = {
+                ["ContentJP"] = "一括選択",
+                ["TextMapId"] = "UI_Bag_Sell_Batch",
             },
             ["UI_Bag_Sell_Get"] = {
                 ["ContentJP"] = "売却で獲得",
@@ -41615,6 +42219,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "製本報酬",
                 ["TextMapId"] = "UI_BattlePass_PetClaimTitle",
             },
+            ["UI_BattlePass_PetHasCardUp"] = {
+                ["ContentJP"] = "限界突破",
+                ["TextMapId"] = "UI_BattlePass_PetHasCardUp",
+            },
             ["UI_BattlePass_PetHasClaimed"] = {
                 ["ContentJP"] = "受取済み",
                 ["TextMapId"] = "UI_BattlePass_PetHasClaimed",
@@ -41700,7 +42308,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_BattlePass_WeeklyQuest",
             },
             ["UI_BattleRoom_Count"] = {
-                ["ContentJP"] = "駆除した暗影の数",
+                ["ContentJP"] = "駆除した暗影の数：",
                 ["TextMapId"] = "UI_BattleRoom_Count",
             },
             ["UI_BattleWheel_Equipped"] = {
@@ -41715,6 +42323,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "未解放書物",
                 ["TextMapId"] = "UI_BookArchive_BookLockedToast",
             },
+        }
+    end },
+    { MinKey = "UI_BookArchive_Empty", MaxKey = "UI_CHAR_DATA_TEXT_31030104", Loader = function()
+        return {
             ["UI_BookArchive_Empty"] = {
                 ["ContentJP"] = "獲得アイテムなし",
                 ["TextMapId"] = "UI_BookArchive_Empty",
@@ -41862,6 +42474,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_CHAR_BIRTH_5301"] = {
                 ["ContentJP"] = "ヒュペリア帝国",
                 ["TextMapId"] = "UI_CHAR_BIRTH_5301",
+            },
+            ["UI_CHAR_BIRTH_5401"] = {
+                ["ContentJP"] = "ヒュペリア帝国",
+                ["TextMapId"] = "UI_CHAR_BIRTH_5401",
             },
             ["UI_CHAR_DATA_TEXT_11010101"] = {
                 ["ContentJP"] = "あなたの記憶上にはいつもベレニカが傍にいる。\
@@ -42178,7 +42794,8 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_11030203",
             },
             ["UI_CHAR_DATA_TEXT_11030204"] = {
-                ["ContentJP"] = "かつて、ヘゼレードという名はアイスレイク城の上流社会で知らぬ者がいないほどだった。彼女は紳士たちの憧れの的であり、流行の象徴であり、舞踏会を照らす一番星だった。ある者は彼女を賛美した。\
+                ["ContentJP"] = "かつて、ヘゼレードという名はアイスレイク城の上流社会で知らぬ者がいないほどだった。彼女は紳士たちの憧れの的であり、流行の象徴であり、舞踏会を照らす一番星だった。\
+ある者は彼女を賛美した。\
 「世界で最も完璧な女神」と讃え、崇め奉り、彼女を天にまで持ち上げた。\
 ある者は彼女を憎んだ。\
 「男を手玉に取って成り上がった卑しい女」と蔑み、できることなら塵にまで落としたかった。\
@@ -42196,8 +42813,8 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
 月の下、花の影で、彼女はその男に心を預け、愛を告げた。社交の世界はもはや冷たくなかった。彼がいる、それだけで胸が熱くなった。やがて、彼女は子どもを身ごもった。心の底から、嬉しかった。だが、男は戸惑った。彼の事業は成功を極め、今や金には困らない。彼に必要なのは「地位」だった。だが、カロンの女はそれを与えられない。彼女は、用済みとなった。\
 「私は知識も人脈もある。あなたの商売を手伝える」\
 彼女はそう訴えた。誇りを捨て、涙を見せて、懇願した。\
-――男は言った。\
 「もし生まれてくる子が「ソラ」なら、結婚してやろう」\
+――男は言った。\
 秋の夜、月明かりの下、子どもが生まれた。白く美しい肌、整った顔立ち。その頭には、小さな黒い角がふたつ。\
 ――カロンの角だ。その中でも稀少な、先端が輝くような角。「骸」の素質を持つ者に現れると言われる、特別な印だった。その瞬間、彼女の心は崩れた。\
 「もしこの子に角がなければ……」\
@@ -42228,7 +42845,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_11030302",
             },
             ["UI_CHAR_DATA_TEXT_11030303"] = {
-                ["ContentJP"] = "パルシファルは、もともと情熱的な性格ではなかった。感情を表すのが苦手で、人の好意を素直に受け取ることにも、戸惑いを覚えるタイプだった。誰かが近づいてくるたびに、無意識のうちに一歩引いてしまう。けれど、劇団の同年代の仲間たちはみんな、そんな彼にとてもやさしかった。稽古やレッスンの合間には、いつも彼を誘っておしゃべりをし、ゲームに誘い、お菓子を分け合ってくれた。そのまっすぐな明るさに、パシファルは時折戸惑いを隠せなかった。あまりに突然の親しさに、どう接していいかわからず、ぎこちなくなることも多かった。そんな彼の様子を見かねて、教師が「パシファルが困ってるでしょ」と注意することもあった。でも、本当はずっと伝えたかった。\
+                ["ContentJP"] = "パシファルは、もともと情熱的な性格ではなかった。感情を表すのが苦手で、人の好意を素直に受け取ることにも、戸惑いを覚えるタイプだった。誰かが近づいてくるたびに、無意識のうちに一歩引いてしまう。けれど、劇団の同年代の仲間たちはみんな、そんな彼にとてもやさしかった。稽古やレッスンの合間には、いつも彼を誘っておしゃべりをし、ゲームに誘い、お菓子を分け合ってくれた。そのまっすぐな明るさに、パシファルは時折戸惑いを隠せなかった。あまりに突然の親しさに、どう接していいかわからず、ぎこちなくなることも多かった。そんな彼の様子を見かねて、教師が「パシファルが困ってるでしょ」と注意することもあった。でも、本当はずっと伝えたかった。\
 ――別に、こういうのは嫌いなわけじゃないよ。\
 心のどこかで、自分は舞台の幕の向こう側に閉じ込められているように感じていた。あの世界に踏み出してはいけないのだと、いつもどこかで線を引いてしまっていた。それでも、芝居というもののおかげで、自分にも手を伸ばすことが許されたのだと感じていた。だから、本当は伝えたい。この胸の奥に、ずっとしまっていたたったひとつの言葉を。もし、それが「台詞」という形で言えるのなら。もし、みんなでそんな友情を描いた台本を演じる機会が来たなら。舞台の光に背中を押されて、きっと、こう言えるはずだ。\
 ――「ありがとう。僕と友だちになってくれて」",
@@ -42918,10 +43535,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "レベッカは普通と明らかに違う、風変わりな外見の小動物が好きだ。",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_21010303",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_DATA_TEXT_21010304", MaxKey = "UI_CHAR_DATA_TEXT_53010102", Loader = function()
-        return {
             ["UI_CHAR_DATA_TEXT_21010304"] = {
                 ["ContentJP"] = "レベッカが認める「運命の人」とは、彼女の生まれながら持つ毒を肉体的に「耐えられる人」ではない。毒のように致命的な愛を魂の奥底まで「受け入れてくれる人」なのだ。",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_21010304",
@@ -43452,6 +44065,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
 生気のないものばかりな環境に包み込まれたイェールは、次第に友達を空想上で求めるようになっていった。それを絵に描き出してみる……がしかし、絵が苦手なのでただのゴムボールのようなもの、というよりは少し歪んだ円しか描けなかった。白い光が白い紙に映りこむと、描いた白い円が冷たく見える。なのでイェールは円をオレンジ色に塗ってみた——その色はイェールが記憶する中で、初めて目にした鮮やかな色だった。",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_31030104",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_DATA_TEXT_31030105", MaxKey = "UI_CHAR_NAME_4201", Loader = function()
+        return {
             ["UI_CHAR_DATA_TEXT_31030105"] = {
                 ["ContentJP"] = "酷い絵のセンスよりも「この体をオリバーに返すべきだと思う」とイェールが時々口にする思想の方がオリバーの悩みの種なようだ。件について彼らは何度も口論を繰り返しており、時には何日も口を利かなくなるまで拗れることもあった。\
 「オリバーが自分の好意をまったく受け入れてくれない」とイェールは不満を漏らす。それを口にする際のイェールは驚くほど口調が流暢だった。\
@@ -43951,7 +44568,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_41010201",
             },
             ["UI_CHAR_DATA_TEXT_41010202"] = {
-                ["ContentJP"] = "リセはいつも決まって朝6時に警備部隊の訓練場に現れ、そこから一日が始まる。それがあまりにも正確なため、兵士たちは彼女の姿を合図に自分の時計を直していたという。",
+                ["ContentJP"] = "リズムはいつも決まって朝6時に警備部隊の訓練場に現れ、そこから一日が始まる。それがあまりにも正確なため、兵士たちは彼女の姿を合図に自分の時計を直していたという。",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_41010202",
             },
             ["UI_CHAR_DATA_TEXT_41010203"] = {
@@ -44544,10 +45161,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
 サイキがあなたにプレゼントした花は、彼女にとって特別な一輪だ。気がつかないうちにひっそりと咲いていた花。まるである日突然やってきた、あなたみたいな花だ。",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_53010102",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_DATA_TEXT_53010103", MaxKey = "UI_COMMONPOP_TEXT_100016", Loader = function()
-        return {
             ["UI_CHAR_DATA_TEXT_53010103"] = {
                 ["ContentJP"] = "あなたは気がついた。サイキは体調を崩している。時々、笑顔のなかにぼんやりと霞がかかったような表情が混ざっているし、突然のめまいに襲われて一時的に目が見えなくなることもある。\
 しかしあなたが心配を口にしても、サイキはこう答えるだけだ。「大丈夫。あなたのことはもうしっかり覚えたから、視力が戻ったら真っ先にあなたを見つけられるよ」\
@@ -44767,6 +45380,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "なし",
                 ["TextMapId"] = "UI_CHAR_FORCE_1502",
             },
+            ["UI_CHAR_FORCE_1503"] = {
+                ["ContentJP"] = "山外山",
+                ["TextMapId"] = "UI_CHAR_FORCE_1503",
+            },
             ["UI_CHAR_FORCE_1801"] = {
                 ["ContentJP"] = "なし",
                 ["TextMapId"] = "UI_CHAR_FORCE_1801",
@@ -44780,7 +45397,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_CHAR_FORCE_2301",
             },
             ["UI_CHAR_FORCE_2401"] = {
-                ["ContentJP"] = "<Default note=\"text:コエイカク\">枯栄閣</>",
+                ["ContentJP"] = "枯栄閣",
                 ["TextMapId"] = "UI_CHAR_FORCE_2401",
             },
             ["UI_CHAR_FORCE_3101"] = {
@@ -44807,6 +45424,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "第六軍団",
                 ["TextMapId"] = "UI_CHAR_FORCE_4101",
             },
+            ["UI_CHAR_FORCE_4102"] = {
+                ["ContentJP"] = "百年春",
+                ["TextMapId"] = "UI_CHAR_FORCE_4102",
+            },
             ["UI_CHAR_FORCE_4201"] = {
                 ["ContentJP"] = "華胥",
                 ["TextMapId"] = "UI_CHAR_FORCE_4201",
@@ -44830,6 +45451,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_CHAR_FORCE_5301"] = {
                 ["ContentJP"] = "なし",
                 ["TextMapId"] = "UI_CHAR_FORCE_5301",
+            },
+            ["UI_CHAR_FORCE_5401"] = {
+                ["ContentJP"] = "帝国軍第十三軍団",
+                ["TextMapId"] = "UI_CHAR_FORCE_5401",
             },
             ["UI_CHAR_NAME_101"] = {
                 ["ContentJP"] = "{nickname}",
@@ -44915,6 +45540,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "ユーミン",
                 ["TextMapId"] = "UI_CHAR_NAME_4201",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_NAME_4202", MaxKey = "UI_COMMONPOP_TEXT_100116", Loader = function()
+        return {
             ["UI_CHAR_NAME_4202"] = {
                 ["ContentJP"] = "ランディー",
                 ["TextMapId"] = "UI_CHAR_NAME_4202",
@@ -45082,6 +45711,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_CMNpc_Name_Danni"] = {
                 ["ContentJP"] = "ダニス",
                 ["TextMapId"] = "UI_CMNpc_Name_Danni",
+            },
+            ["UI_CMNpc_Name_DeTiWoman"] = {
+                ["ContentJP"] = "オシャレなレディー",
+                ["TextMapId"] = "UI_CMNpc_Name_DeTiWoman",
             },
             ["UI_CMNpc_Name_Dien"] = {
                 ["ContentJP"] = "ディーン",
@@ -45331,6 +45964,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "テオ",
                 ["TextMapId"] = "UI_CMNpc_Name_Xiao",
             },
+            ["UI_CMNpc_Name_XiaoMom"] = {
+                ["ContentJP"] = "テオの母親",
+                ["TextMapId"] = "UI_CMNpc_Name_XiaoMom",
+            },
             ["UI_CMNpc_Name_Xilin"] = {
                 ["ContentJP"] = "セリーヌ夫人",
                 ["TextMapId"] = "UI_CMNpc_Name_Xilin",
@@ -45463,10 +46100,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "このアイテムは販売が終了しました。ショップへ戻りましょう",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100016",
             },
-        }
-    end },
-    { MinKey = "UI_COMMONPOP_TEXT_100018", MaxKey = "UI_ChapterIntro_GaChaDialogue", Loader = function()
-        return {
             ["UI_COMMONPOP_TEXT_100018"] = {
                 ["ContentJP"] = "%s×%dを消費して製造を加速しますか？",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100018",
@@ -45580,7 +46213,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100071",
             },
             ["UI_COMMONPOP_TEXT_100072"] = {
-                ["ContentJP"] = "未成年のオンラインゲームへの依存を防ぐための措置が施されています。中国の指針に従い、未成年者用アカウントでのゲーム利用は、金・土・日曜日および祝日の20時から21時まで、1時間限りとなります。ゲームプレイの時間を管理し、健康的な生活を心がけましょう。",
+                ["ContentJP"] = "未成年のオンラインゲームへの依存を防ぐための措置が施されています。中国の指針に従い、未成年者用アカウントでのゲーム利用は、金‐土‐日曜日および祝日の20時から21時まで、1時間限りとなります。ゲームプレイの時間を管理し、健康的な生活を心がけましょう。",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100072",
             },
             ["UI_COMMONPOP_TEXT_100073"] = {
@@ -45636,7 +46269,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100090_5",
             },
             ["UI_COMMONPOP_TEXT_100090_6"] = {
-                ["ContentJP"] = "おどし・脅迫",
+                ["ContentJP"] = "おどし‐脅迫",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100090_6",
             },
             ["UI_COMMONPOP_TEXT_100090_7"] = {
@@ -45648,7 +46281,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100090_8",
             },
             ["UI_COMMONPOP_TEXT_100090_9"] = {
-                ["ContentJP"] = "故意な妨害・混乱をまねく言動",
+                ["ContentJP"] = "故意な妨害‐混乱をまねく言動",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100090_9",
             },
             ["UI_COMMONPOP_TEXT_100092"] = {
@@ -45714,6 +46347,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "現在のキャラクターLv.は推奨Lv.を大きく下回っています。挑戦しますか？",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100116",
             },
+        }
+    end },
+    { MinKey = "UI_COMMONPOP_TEXT_100117", MaxKey = "UI_CharTrial_TrialGoal", Loader = function()
+        return {
             ["UI_COMMONPOP_TEXT_100117"] = {
                 ["ContentJP"] = "「%s」へ移動しますか？",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100117",
@@ -46028,7 +46665,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_CONFIRM_OPENSHOP",
             },
             ["UI_CONFIRM_PETCAPTURE"] = {
-                ["ContentJP"] = "ジェネモン捕獲",
+                ["ContentJP"] = "ジェネモン給餌",
                 ["TextMapId"] = "UI_CONFIRM_PETCAPTURE",
             },
             ["UI_CONFIRM_PLAY"] = {
@@ -46051,6 +46688,18 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "コスト",
                 ["TextMapId"] = "UI_COST_NAME",
             },
+            ["UI_CTL_Add"] = {
+                ["ContentJP"] = "追加",
+                ["TextMapId"] = "UI_CTL_Add",
+            },
+            ["UI_CTL_Add/Remove"] = {
+                ["ContentJP"] = "追加/解除",
+                ["TextMapId"] = "UI_CTL_Add/Remove",
+            },
+            ["UI_CTL_Adjust"] = {
+                ["ContentJP"] = "調整",
+                ["TextMapId"] = "UI_CTL_Adjust",
+            },
             ["UI_CTL_Armory_Consumables"] = {
                 ["ContentJP"] = "消費素材",
                 ["TextMapId"] = "UI_CTL_Armory_Consumables",
@@ -46059,13 +46708,73 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "視点操作",
                 ["TextMapId"] = "UI_CTL_Camera",
             },
+            ["UI_CTL_CheckPlan"] = {
+                ["ContentJP"] = "プランを見る",
+                ["TextMapId"] = "UI_CTL_CheckPlan",
+            },
+            ["UI_CTL_CheckProperty"] = {
+                ["ContentJP"] = "ステータスを確認",
+                ["TextMapId"] = "UI_CTL_CheckProperty",
+            },
+            ["UI_CTL_Claim"] = {
+                ["ContentJP"] = "報酬受取",
+                ["TextMapId"] = "UI_CTL_Claim",
+            },
             ["UI_CTL_ClaimALL"] = {
                 ["ContentJP"] = "すべて受取",
                 ["TextMapId"] = "UI_CTL_ClaimALL",
             },
+            ["UI_CTL_CloseTips"] = {
+                ["ContentJP"] = "Tipsを閉じる",
+                ["TextMapId"] = "UI_CTL_CloseTips",
+            },
+            ["UI_CTL_Continue"] = {
+                ["ContentJP"] = "続行",
+                ["TextMapId"] = "UI_CTL_Continue",
+            },
+            ["UI_CTL_Details"] = {
+                ["ContentJP"] = "詳細",
+                ["TextMapId"] = "UI_CTL_Details",
+            },
+            ["UI_CTL_ESC_Exit"] = {
+                ["ContentJP"] = "（長押し）ゲーム終了",
+                ["TextMapId"] = "UI_CTL_ESC_Exit",
+            },
+            ["UI_CTL_ExpandList"] = {
+                ["ContentJP"] = "リスト表示",
+                ["TextMapId"] = "UI_CTL_ExpandList",
+            },
             ["UI_CTL_Explain"] = {
                 ["ContentJP"] = "用語説明を確認",
                 ["TextMapId"] = "UI_CTL_Explain",
+            },
+            ["UI_CTL_Fish_Collect"] = {
+                ["ContentJP"] = "竿をしまう",
+                ["TextMapId"] = "UI_CTL_Fish_Collect",
+            },
+            ["UI_CTL_Fish_Lift"] = {
+                ["ContentJP"] = "竿を引く",
+                ["TextMapId"] = "UI_CTL_Fish_Lift",
+            },
+            ["UI_CTL_Fish_Throw"] = {
+                ["ContentJP"] = "竿を投げる",
+                ["TextMapId"] = "UI_CTL_Fish_Throw",
+            },
+            ["UI_CTL_Forging_Set"] = {
+                ["ContentJP"] = "目標に設定",
+                ["TextMapId"] = "UI_CTL_Forging_Set",
+            },
+            ["UI_CTL_Forging_Unset"] = {
+                ["ContentJP"] = "設定を解除",
+                ["TextMapId"] = "UI_CTL_Forging_Unset",
+            },
+            ["UI_CTL_Loading_Next"] = {
+                ["ContentJP"] = "次へ",
+                ["TextMapId"] = "UI_CTL_Loading_Next",
+            },
+            ["UI_CTL_MinGame_Move"] = {
+                ["ContentJP"] = "移動",
+                ["TextMapId"] = "UI_CTL_MinGame_Move",
             },
             ["UI_CTL_Move"] = {
                 ["ContentJP"] = "移動",
@@ -46074,6 +46783,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_CTL_NextLevel"] = {
                 ["ContentJP"] = "次のレベルプレビュー",
                 ["TextMapId"] = "UI_CTL_NextLevel",
+            },
+            ["UI_CTL_On/Off"] = {
+                ["ContentJP"] = "オン/オフ",
+                ["TextMapId"] = "UI_CTL_On/Off",
             },
             ["UI_CTL_OpenSystem"] = {
                 ["ContentJP"] = "クイックシステムを開く",
@@ -46095,6 +46808,62 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "スロット切り替え",
                 ["TextMapId"] = "UI_CTL_Pet_SwitchSlot",
             },
+            ["UI_CTL_Play/Pause"] = {
+                ["ContentJP"] = "再生/停止",
+                ["TextMapId"] = "UI_CTL_Play/Pause",
+            },
+            ["UI_CTL_PlayerOptions"] = {
+                ["ContentJP"] = "プレイヤー選択肢",
+                ["TextMapId"] = "UI_CTL_PlayerOptions",
+            },
+            ["UI_CTL_Quit"] = {
+                ["ContentJP"] = "退出",
+                ["TextMapId"] = "UI_CTL_Quit",
+            },
+            ["UI_CTL_Read"] = {
+                ["ContentJP"] = "読む",
+                ["TextMapId"] = "UI_CTL_Read",
+            },
+            ["UI_CTL_Remove"] = {
+                ["ContentJP"] = "解除",
+                ["TextMapId"] = "UI_CTL_Remove",
+            },
+            ["UI_CTL_RotatePreview"] = {
+                ["ContentJP"] = "回転プレビュー",
+                ["TextMapId"] = "UI_CTL_RotatePreview",
+            },
+            ["UI_CTL_Rougelike_SlideItems"] = {
+                ["ContentJP"] = "スクロールして確認",
+                ["TextMapId"] = "UI_CTL_Rougelike_SlideItems",
+            },
+            ["UI_CTL_Rougelike_SlideSetItems"] = {
+                ["ContentJP"] = "セット詳細をスクロール",
+                ["TextMapId"] = "UI_CTL_Rougelike_SlideSetItems",
+            },
+            ["UI_CTL_Select"] = {
+                ["ContentJP"] = "選択",
+                ["TextMapId"] = "UI_CTL_Select",
+            },
+            ["UI_CTL_Select/Cancel"] = {
+                ["ContentJP"] = "選択/解除",
+                ["TextMapId"] = "UI_CTL_Select/Cancel",
+            },
+            ["UI_CTL_SelectLeft"] = {
+                ["ContentJP"] = "左側を選ぶ",
+                ["TextMapId"] = "UI_CTL_SelectLeft",
+            },
+            ["UI_CTL_SelectMessages"] = {
+                ["ContentJP"] = "メッセージを選択",
+                ["TextMapId"] = "UI_CTL_SelectMessages",
+            },
+            ["UI_CTL_SelectRight"] = {
+                ["ContentJP"] = "右側を選ぶ",
+                ["TextMapId"] = "UI_CTL_SelectRight",
+            },
+            ["UI_CTL_SelectRole_Change"] = {
+                ["ContentJP"] = "キャラクター切替",
+                ["TextMapId"] = "UI_CTL_SelectRole_Change",
+            },
             ["UI_CTL_Shop_Converted"] = {
                 ["ContentJP"] = "変換アイテムを確認",
                 ["TextMapId"] = "UI_CTL_Shop_Converted",
@@ -46103,9 +46872,29 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "ショップ",
                 ["TextMapId"] = "UI_CTL_Shop_Main",
             },
+            ["UI_CTL_Squad_AdjustSorting"] = {
+                ["ContentJP"] = "並び順を調整",
+                ["TextMapId"] = "UI_CTL_Squad_AdjustSorting",
+            },
+            ["UI_CTL_Squad_ExitSorting"] = {
+                ["ContentJP"] = "終了",
+                ["TextMapId"] = "UI_CTL_Squad_ExitSorting",
+            },
+            ["UI_CTL_Squad_Expand"] = {
+                ["ContentJP"] = "表示/しまう",
+                ["TextMapId"] = "UI_CTL_Squad_Expand",
+            },
+            ["UI_CTL_Squad_Select"] = {
+                ["ContentJP"] = "パーツを選ぶ",
+                ["TextMapId"] = "UI_CTL_Squad_Select",
+            },
             ["UI_CTL_Switch"] = {
                 ["ContentJP"] = "選択肢切り替え",
                 ["TextMapId"] = "UI_CTL_Switch",
+            },
+            ["UI_CTL_Unselect"] = {
+                ["ContentJP"] = "選択解除",
+                ["TextMapId"] = "UI_CTL_Unselect",
             },
             ["UI_CTL_UseSkill"] = {
                 ["ContentJP"] = "スキル選択",
@@ -46271,10 +47060,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "？？？：この砂海は、お前と私の「記憶」。過去、現在、未来をつなぐモノ。",
                 ["TextMapId"] = "UI_ChapterIntro_GaChaDialogue",
             },
-        }
-    end },
-    { MinKey = "UI_ChapterName_00", MaxKey = "UI_DUNGEON_CONTENT_HIJACK_1", Loader = function()
-        return {
             ["UI_ChapterName_00"] = {
                 ["ContentJP"] = "序幕",
                 ["TextMapId"] = "UI_ChapterName_00",
@@ -46367,6 +47152,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "敵撃破",
                 ["TextMapId"] = "UI_CharTrial_TrialGoal",
             },
+        }
+    end },
+    { MinKey = "UI_CharVoice_Battle", MaxKey = "UI_DUNGEON_DES_DEFENCE_1", Loader = function()
+        return {
             ["UI_CharVoice_Battle"] = {
                 ["ContentJP"] = "戦闘",
                 ["TextMapId"] = "UI_CharVoice_Battle",
@@ -46484,7 +47273,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Chardata_Data_Num_7",
             },
             ["UI_Chardata_Data_Of"] = {
-                ["ContentJP"] = "・",
+                ["ContentJP"] = "‐",
                 ["TextMapId"] = "UI_Chardata_Data_Of",
             },
             ["UI_Chardata_Recall"] = {
@@ -46492,7 +47281,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Chardata_Recall",
             },
             ["UI_Chardata_Rumor"] = {
-                ["ContentJP"] = "証言：",
+                ["ContentJP"] = "噂：",
                 ["TextMapId"] = "UI_Chardata_Rumor",
             },
             ["UI_Chardata_Secret"] = {
@@ -46500,7 +47289,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Chardata_Secret",
             },
             ["UI_Chardata_Witness"] = {
-                ["ContentJP"] = "噂：",
+                ["ContentJP"] = "証言：",
                 ["TextMapId"] = "UI_Chardata_Witness",
             },
             ["UI_Chat_Accuse"] = {
@@ -46584,7 +47373,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Chat_Imagine13",
             },
             ["UI_Chat_Imagine14"] = {
-                ["ContentJP"] = "・・・・・・",
+                ["ContentJP"] = "‐‐‐‐‐‐",
                 ["TextMapId"] = "UI_Chat_Imagine14",
             },
             ["UI_Chat_Imagine15"] = {
@@ -46939,6 +47728,62 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "解放条件未達成",
                 ["TextMapId"] = "UI_Complete_The_Prerequisite",
             },
+            ["UI_Controller_Check"] = {
+                ["ContentJP"] = "確認",
+                ["TextMapId"] = "UI_Controller_Check",
+            },
+            ["UI_Controller_CheckDeputeInfo"] = {
+                ["ContentJP"] = "依頼内容を見る",
+                ["TextMapId"] = "UI_Controller_CheckDeputeInfo",
+            },
+            ["UI_Controller_CheckDetails"] = {
+                ["ContentJP"] = "詳細確認",
+                ["TextMapId"] = "UI_Controller_CheckDetails",
+            },
+            ["UI_Controller_CheckItems"] = {
+                ["ContentJP"] = "アイテムを見る",
+                ["TextMapId"] = "UI_Controller_CheckItems",
+            },
+            ["UI_Controller_CheckPROB"] = {
+                ["ContentJP"] = "確率を見る",
+                ["TextMapId"] = "UI_Controller_CheckPROB",
+            },
+            ["UI_Controller_CheckPlayer"] = {
+                ["ContentJP"] = "プレイヤー情報を見る",
+                ["TextMapId"] = "UI_Controller_CheckPlayer",
+            },
+            ["UI_Controller_CheckReward"] = {
+                ["ContentJP"] = "報酬を見る",
+                ["TextMapId"] = "UI_Controller_CheckReward",
+            },
+            ["UI_Controller_CheckTeam"] = {
+                ["ContentJP"] = "チーム情報を見る",
+                ["TextMapId"] = "UI_Controller_CheckTeam",
+            },
+            ["UI_Controller_Close"] = {
+                ["ContentJP"] = "閉じる",
+                ["TextMapId"] = "UI_Controller_Close",
+            },
+            ["UI_Controller_ClosePlayer"] = {
+                ["ContentJP"] = "プレイヤー情報を閉じる",
+                ["TextMapId"] = "UI_Controller_ClosePlayer",
+            },
+            ["UI_Controller_Go"] = {
+                ["ContentJP"] = "GO",
+                ["TextMapId"] = "UI_Controller_Go",
+            },
+            ["UI_Controller_SelectReward"] = {
+                ["ContentJP"] = "報酬を選ぶ",
+                ["TextMapId"] = "UI_Controller_SelectReward",
+            },
+            ["UI_Controller_Slide"] = {
+                ["ContentJP"] = "スクロールして確認",
+                ["TextMapId"] = "UI_Controller_Slide",
+            },
+            ["UI_Controller_Switch"] = {
+                ["ContentJP"] = "切替",
+                ["TextMapId"] = "UI_Controller_Switch",
+            },
             ["UI_Cost_For_Unlock"] = {
                 ["ContentJP"] = "解放に必要",
                 ["TextMapId"] = "UI_Cost_For_Unlock",
@@ -47075,13 +47920,13 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "「この辺りで新型車が出回ってるって聞いたんだ。これはぜひとも研究させてもらわないとね。頼むよ、一台見つけてくれないかな。車両の近くで待機してくれれば、起動は僕にお任せさ。そうそう、車の防衛システムで少し痛い目に遭うかもしれないけど、心配いらないよ、命に関わるようなものじゃないから。それと後ろめたさは感じなくていい。研究が済んだら必ず返却するって約束するよ！」――熱狂的な車両マニア",
                 ["TextMapId"] = "UI_DUNGEON_CONTENT_HIJACK_1",
             },
-        }
-    end },
-    { MinKey = "UI_DUNGEON_CONTENT_RESCUE_1", MaxKey = "UI_Dispatch_GotoNear", Loader = function()
-        return {
             ["UI_DUNGEON_CONTENT_RESCUE_1"] = {
                 ["ContentJP"] = "「地図上でマークされたエリアに潜入し、密室に閉じ込められた人物を救出して、約束の場所まで護衛してください。ついでに戦利品を拾ったり、敵を何人か始末したりするのは自由です。ただし、ひとつ覚えておいてください。依頼の理由を尋ねず、その人物の身元も問わず、さらに私たちの行き先を探ろうとしないこと。救出し、報酬を受け取り、そしてこの依頼のことは忘れる。これがお互いのためです」――謎めいた依頼状",
                 ["TextMapId"] = "UI_DUNGEON_CONTENT_RESCUE_1",
+            },
+            ["UI_DUNGEON_CONTENT_SABOTAGEPRO_1"] = {
+                ["ContentJP"] = "「この世界を過度に発展させたり探索しすぎれば、いつか必ず人類に破滅をもたらす。だから、君たちにはここへ行ってもらい、あの奇妙な装置を破壊してほしい。覚えておいてくれ、俺が時間を稼げるのはほんのわずかだ。撤退が間に合わなければ、俺にもどうしようもできないからな。」——危険な依頼主",
+                ["TextMapId"] = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
             },
             ["UI_DUNGEON_CONTENT_SABOTAGE_1"] = {
                 ["ContentJP"] = "「フォーセイクン同盟の狂人たちが「ハナビダマ」という爆弾を仕掛けました。爆発したら人命が失われるだけでなく、同盟と他勢力との対立が激化して、庶民の生活がますます苦しくなるでしょう。なので、みなさんに依頼します。爆弾の起爆装置を破壊して、爆発を阻止してください。できれば狂人たちにもお灸を据えていただけますと。それから、できるだけ速やかな解決を。報酬を直接お渡したいのですが、そう長くはここに留まれませんので」――名もなき依頼者",
@@ -47111,6 +47956,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "ルーナ族の探検家を守りつつ、敵を撃破しよう",
                 ["TextMapId"] = "UI_DUNGEON_DES_DEFENCE_1",
             },
+        }
+    end },
+    { MinKey = "UI_DUNGEON_DES_DEFENCE_2", MaxKey = "UI_Dispatch_Toast_AgentFull", Loader = function()
+        return {
             ["UI_DUNGEON_DES_DEFENCE_2"] = {
                 ["ContentJP"] = "ルーナ族の探検家を守りつつ、敵を撃破しよう",
                 ["TextMapId"] = "UI_DUNGEON_DES_DEFENCE_2",
@@ -47378,6 +48227,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_DUNGEON_DROP_SKILL"] = {
                 ["ContentJP"] = "キャラクタースキル素材",
                 ["TextMapId"] = "UI_DUNGEON_DROP_SKILL",
+            },
+            ["UI_DUNGEON_DROP_SKILL_JOB"] = {
+                ["ContentJP"] = "職業スキル解放素材",
+                ["TextMapId"] = "UI_DUNGEON_DROP_SKILL_JOB",
             },
             ["UI_DUNGEON_DROP_WEAPONBREAK"] = {
                 ["ContentJP"] = "武器限界突破素材",
@@ -47879,10 +48732,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "近くへ向かう",
                 ["TextMapId"] = "UI_Dispatch_GotoNear",
             },
-        }
-    end },
-    { MinKey = "UI_Dispatch_PhantomConfirm_Text", MaxKey = "UI_Fishing_FishType_3", Loader = function()
-        return {
             ["UI_Dispatch_PhantomConfirm_Text"] = {
                 ["ContentJP"] = "召喚中のキャラクターを派遣すると、召喚が解除されます。続行しますか？",
                 ["TextMapId"] = "UI_Dispatch_PhantomConfirm_Text",
@@ -47911,6 +48760,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "これ以上代理人を選択できません",
                 ["TextMapId"] = "UI_Dispatch_Toast_AgentFull",
             },
+        }
+    end },
+    { MinKey = "UI_Dispatch_Toast_BaseReward", MaxKey = "UI_Fishing_GetReward", Loader = function()
+        return {
             ["UI_Dispatch_Toast_BaseReward"] = {
                 ["ContentJP"] = "基本報酬",
                 ["TextMapId"] = "UI_Dispatch_Toast_BaseReward",
@@ -48164,48 +49017,52 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_DungeonFail_Tips2",
             },
             ["UI_DungeonMod_Tab_10"] = {
-                ["ContentJP"] = "10.0",
+                ["ContentJP"] = "10",
                 ["TextMapId"] = "UI_DungeonMod_Tab_10",
             },
             ["UI_DungeonMod_Tab_20"] = {
-                ["ContentJP"] = "20.0",
+                ["ContentJP"] = "20",
                 ["TextMapId"] = "UI_DungeonMod_Tab_20",
             },
             ["UI_DungeonMod_Tab_30"] = {
-                ["ContentJP"] = "30.0",
+                ["ContentJP"] = "30",
                 ["TextMapId"] = "UI_DungeonMod_Tab_30",
             },
             ["UI_DungeonMod_Tab_40"] = {
-                ["ContentJP"] = "40.0",
+                ["ContentJP"] = "40",
                 ["TextMapId"] = "UI_DungeonMod_Tab_40",
             },
             ["UI_DungeonMod_Tab_50"] = {
-                ["ContentJP"] = "50.0",
+                ["ContentJP"] = "50",
                 ["TextMapId"] = "UI_DungeonMod_Tab_50",
             },
             ["UI_DungeonMod_Tab_55"] = {
-                ["ContentJP"] = "55.0",
+                ["ContentJP"] = "55",
                 ["TextMapId"] = "UI_DungeonMod_Tab_55",
             },
             ["UI_DungeonMod_Tab_60"] = {
-                ["ContentJP"] = "60.0",
+                ["ContentJP"] = "60",
                 ["TextMapId"] = "UI_DungeonMod_Tab_60",
             },
             ["UI_DungeonMod_Tab_65"] = {
-                ["ContentJP"] = "65.0",
+                ["ContentJP"] = "65",
                 ["TextMapId"] = "UI_DungeonMod_Tab_65",
             },
             ["UI_DungeonMod_Tab_70"] = {
-                ["ContentJP"] = "70.0",
+                ["ContentJP"] = "70",
                 ["TextMapId"] = "UI_DungeonMod_Tab_70",
             },
             ["UI_DungeonMod_Tab_80"] = {
-                ["ContentJP"] = "80.0",
+                ["ContentJP"] = "80",
                 ["TextMapId"] = "UI_DungeonMod_Tab_80",
             },
             ["UI_Dungeon_Detail"] = {
                 ["ContentJP"] = "依頼タイプとドロップ詳細",
                 ["TextMapId"] = "UI_Dungeon_Detail",
+            },
+            ["UI_Dungeon_DetailTitle"] = {
+                ["ContentJP"] = "依頼詳細",
+                ["TextMapId"] = "UI_Dungeon_DetailTitle",
             },
             ["UI_Dungeon_DoubleCost"] = {
                 ["ContentJP"] = "スタミナ消費倍増",
@@ -48392,7 +49249,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_EnemyArchive_BossType",
             },
             ["UI_EnemyArchive_Empty"] = {
-                ["ContentJP"] = "遭遇した敵なし",
+                ["ContentJP"] = "遭遇した敵がいない",
                 ["TextMapId"] = "UI_EnemyArchive_Empty",
             },
             ["UI_EnemyArchive_MainProgress"] = {
@@ -48684,10 +49541,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "珍鱗",
                 ["TextMapId"] = "UI_Fishing_FishType_3",
             },
-        }
-    end },
-    { MinKey = "UI_Fishing_FishingBookTotal", MaxKey = "UI_HeadFrame_Name_10003", Loader = function()
-        return {
             ["UI_Fishing_FishingBookTotal"] = {
                 ["ContentJP"] = "報酬進捗",
                 ["TextMapId"] = "UI_Fishing_FishingBookTotal",
@@ -48712,6 +49565,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "すべて受取",
                 ["TextMapId"] = "UI_Fishing_GetReward",
             },
+        }
+    end },
+    { MinKey = "UI_Fishing_Giveup", MaxKey = "UI_HeadFrame_Name_10008", Loader = function()
+        return {
             ["UI_Fishing_Giveup"] = {
                 ["ContentJP"] = "釣りをやめる",
                 ["TextMapId"] = "UI_Fishing_Giveup",
@@ -48763,6 +49620,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_Fishing_TrackFishingSpot"] = {
                 ["ContentJP"] = "現在の釣り場を追跡",
                 ["TextMapId"] = "UI_Fishing_TrackFishingSpot",
+            },
+            ["UI_Fishing_UnlockFishBook"] = {
+                ["ContentJP"] = "図鑑に登録済み",
+                ["TextMapId"] = "UI_Fishing_UnlockFishBook",
             },
             ["UI_Fishing_UpdateTime"] = {
                 ["ContentJP"] = "%s後に釣り場が更新",
@@ -49053,7 +49914,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Gacha_Start_Select",
             },
             ["UI_Gacha_Start_Warning"] = {
-                ["ContentJP"] = "選択を確定した後に追憶を行えます。星5キャラクターを旅立ちの追憶で獲得するまでは、星5の旅たちキャラクターをいつでも切り替えることができます。",
+                ["ContentJP"] = "選択を確定した後に追憶を行えます。★5キャラクターを旅立ちの追憶で獲得するまでは、★5の旅たちキャラクターをいつでも切り替えることができます。",
                 ["TextMapId"] = "UI_Gacha_Start_Warning",
             },
             ["UI_Gacha_Switch_Success"] = {
@@ -49493,10 +50354,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "封筒・黒玉",
                 ["TextMapId"] = "UI_HeadFrame_Name_10003",
             },
-        }
-    end },
-    { MinKey = "UI_HeadFrame_Name_10004", MaxKey = "UI_Login_Success", Loader = function()
-        return {
             ["UI_HeadFrame_Name_10004"] = {
                 ["ContentJP"] = "鉄の茨",
                 ["TextMapId"] = "UI_HeadFrame_Name_10004",
@@ -49506,31 +50363,35 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_HeadFrame_Name_10005",
             },
             ["UI_HeadFrame_Name_10006"] = {
-                ["ContentJP"] = "封筒・レッドパープル",
+                ["ContentJP"] = "封筒‐レッドパープル",
                 ["TextMapId"] = "UI_HeadFrame_Name_10006",
             },
             ["UI_HeadFrame_Name_10007"] = {
-                ["ContentJP"] = "世間のイメージ・才知",
+                ["ContentJP"] = "世間のイメージ‐才知",
                 ["TextMapId"] = "UI_HeadFrame_Name_10007",
             },
             ["UI_HeadFrame_Name_10008"] = {
-                ["ContentJP"] = "世間のイメージ・道徳",
+                ["ContentJP"] = "世間のイメージ‐道徳",
                 ["TextMapId"] = "UI_HeadFrame_Name_10008",
             },
+        }
+    end },
+    { MinKey = "UI_HeadFrame_Name_10009", MaxKey = "UI_MECHANISM_104", Loader = function()
+        return {
             ["UI_HeadFrame_Name_10009"] = {
-                ["ContentJP"] = "世間のイメージ・功利",
+                ["ContentJP"] = "世間のイメージ‐功利",
                 ["TextMapId"] = "UI_HeadFrame_Name_10009",
             },
             ["UI_HeadFrame_Name_10010"] = {
-                ["ContentJP"] = "世間のイメージ・共感",
+                ["ContentJP"] = "世間のイメージ‐共感",
                 ["TextMapId"] = "UI_HeadFrame_Name_10010",
             },
             ["UI_HeadFrame_Name_10011"] = {
-                ["ContentJP"] = "ブリーズバタフライ・エメラルドグリーン",
+                ["ContentJP"] = "ブリーズバタフライ‐エメラルドグリーン",
                 ["TextMapId"] = "UI_HeadFrame_Name_10011",
             },
             ["UI_HeadFrame_Name_10012"] = {
-                ["ContentJP"] = "ブリーズバタフライ・スカイブルー",
+                ["ContentJP"] = "ブリーズバタフライ‐スカイブルー",
                 ["TextMapId"] = "UI_HeadFrame_Name_10012",
             },
             ["UI_HeadFrame_Name_10013"] = {
@@ -50305,10 +51166,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "ログイン成功",
                 ["TextMapId"] = "UI_Login_Success",
             },
-        }
-    end },
-    { MinKey = "UI_MECHANISM_100", MaxKey = "UI_ModGuideBook_Task_Title_Collect_01", Loader = function()
-        return {
             ["UI_MECHANISM_100"] = {
                 ["ContentJP"] = "貯蔵箱を開ける",
                 ["TextMapId"] = "UI_MECHANISM_100",
@@ -50329,6 +51186,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "観察する",
                 ["TextMapId"] = "UI_MECHANISM_104",
             },
+        }
+    end },
+    { MinKey = "UI_MECHANISM_10410", MaxKey = "UI_ModGuideBook_Task_Title_Collect_06", Loader = function()
+        return {
             ["UI_MECHANISM_10410"] = {
                 ["ContentJP"] = "古い写真",
                 ["TextMapId"] = "UI_MECHANISM_10410",
@@ -50422,7 +51283,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_MECHANISM_10432",
             },
             ["UI_MECHANISM_10433"] = {
-                ["ContentJP"] = "フローリスト・リメンブランス",
+                ["ContentJP"] = "フローリスト‐リメンブランス",
                 ["TextMapId"] = "UI_MECHANISM_10433",
             },
             ["UI_MECHANISM_10434"] = {
@@ -50730,7 +51591,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_MISSION_COMPLETE",
             },
             ["UI_MISSION_FAIL"] = {
-                ["ContentJP"] = "戦闘敗北",
+                ["ContentJP"] = "再挑戦する",
                 ["TextMapId"] = "UI_MISSION_FAIL",
             },
             ["UI_MODIMPORT_ENSURE"] = {
@@ -50878,7 +51739,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Mail_Tab_Star",
             },
             ["UI_Mail_Unstar_Confirm"] = {
-                ["ContentJP"] = "重要メール標記を取り消してもよろしいですか？（更新時に当該メールは完全削除）",
+                ["ContentJP"] = "重要メール標記を取り消してもよろしいですか？（毎日の更新時に当該メールは完全削除）",
                 ["TextMapId"] = "UI_Mail_Unstar_Confirm",
             },
             ["UI_MainTitle_Archive"] = {
@@ -51051,7 +51912,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_ModGuideBook_Task_Complete",
             },
             ["UI_ModGuideBook_Task_Des_01"] = {
-                ["ContentJP"] = "累計で任意キャラの魔の楔を<highlight>1個</>を装備",
+                ["ContentJP"] = "累計で任意キャラの魔の楔<highlight>1個</>を装備",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Des_01",
             },
             ["UI_ModGuideBook_Task_Des_02"] = {
@@ -51071,11 +51932,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_ModGuideBook_Task_Des_05",
             },
             ["UI_ModGuideBook_Task_Des_06"] = {
-                ["ContentJP"] = "累計で任意キャラの魔の楔を<highlight>5個</>を装備",
+                ["ContentJP"] = "累計で任意キャラの魔の楔<highlight>5個</>を装備",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Des_06",
             },
             ["UI_ModGuideBook_Task_Des_07"] = {
-                ["ContentJP"] = "累計で<highlight>4個</>の魔の楔を<highlight>レベル3</>以上をアップ",
+                ["ContentJP"] = "累計で<highlight>4個</>の魔の楔を<highlight>レベル3</>以上アップ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Des_07",
             },
             ["UI_ModGuideBook_Task_Des_08"] = {
@@ -51110,10 +51971,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "魔の楔収集 Ⅰ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_01",
             },
-        }
-    end },
-    { MinKey = "UI_ModGuideBook_Task_Title_Collect_02", MaxKey = "UI_Npc_Name_Man_2", Loader = function()
-        return {
             ["UI_ModGuideBook_Task_Title_Collect_02"] = {
                 ["ContentJP"] = "魔の楔収集 Ⅱ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_02",
@@ -51134,6 +51991,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "魔の楔収集 Ⅵ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_06",
             },
+        }
+    end },
+    { MinKey = "UI_ModGuideBook_Task_Title_Collect_07", MaxKey = "UI_Npc_Name_Man_7", Loader = function()
+        return {
             ["UI_ModGuideBook_Task_Title_Collect_07"] = {
                 ["ContentJP"] = "魔の楔収集 Ⅶ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_07",
@@ -51914,10 +52775,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "完全武装した兵士",
                 ["TextMapId"] = "UI_Npc_Name_Man_2",
             },
-        }
-    end },
-    { MinKey = "UI_Npc_Name_Man_3", MaxKey = "UI_OPTION_ReleaseStuck_Default", Loader = function()
-        return {
             ["UI_Npc_Name_Man_3"] = {
                 ["ContentJP"] = "兵士",
                 ["TextMapId"] = "UI_Npc_Name_Man_3",
@@ -51938,6 +52795,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "酒場のウェイター",
                 ["TextMapId"] = "UI_Npc_Name_Man_7",
             },
+        }
+    end },
+    { MinKey = "UI_Npc_Name_Man_8", MaxKey = "UI_OPTION_Resolution_Cusrtom", Loader = function()
+        return {
             ["UI_Npc_Name_Man_8"] = {
                 ["ContentJP"] = "うろたえる女性",
                 ["TextMapId"] = "UI_Npc_Name_Man_8",
@@ -52247,7 +53108,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Npc_Name_Won5",
             },
             ["UI_Npc_Name_Wuzang"] = {
-                ["ContentJP"] = "ヘビ使いの手下",
+                ["ContentJP"] = "ヘビ使いのジェネモンハンター",
                 ["TextMapId"] = "UI_Npc_Name_Wuzang",
             },
             ["UI_Npc_Name_Wuzishibing"] = {
@@ -52718,10 +53579,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "キャラクターを初期位置に戻す",
                 ["TextMapId"] = "UI_OPTION_ReleaseStuck_Default",
             },
-        }
-    end },
-    { MinKey = "UI_OPTION_ReleaseStuck_Unable", MaxKey = "UI_PlayerHead_Des_10012", Loader = function()
-        return {
             ["UI_OPTION_ReleaseStuck_Unable"] = {
                 ["ContentJP"] = "依頼で使用可能",
                 ["TextMapId"] = "UI_OPTION_ReleaseStuck_Unable",
@@ -52742,6 +53599,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "カスタム",
                 ["TextMapId"] = "UI_OPTION_Resolution_Cusrtom",
             },
+        }
+    end },
+    { MinKey = "UI_OPTION_SETKEY", MaxKey = "UI_PlayerHead_Des_10015", Loader = function()
+        return {
             ["UI_OPTION_SETKEY"] = {
                 ["ContentJP"] = "キー設定",
                 ["TextMapId"] = "UI_OPTION_SETKEY",
@@ -52775,7 +53636,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_OPTION_Strong",
             },
             ["UI_OPTION_Swicth_Close"] = {
-                ["ContentJP"] = "閉じる",
+                ["ContentJP"] = "オフ",
                 ["TextMapId"] = "UI_OPTION_Swicth_Close",
             },
             ["UI_OPTION_Swicth_Open"] = {
@@ -53222,6 +54083,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "拾ったプレイヤーの移動速度×2、回収範囲×2（※未実装）",
                 ["TextMapId"] = "UI_Party_MiniQuest_SpeedUp",
             },
+            ["UI_Party_Parkour_FinishingRate"] = {
+                ["ContentJP"] = "達成率",
+                ["TextMapId"] = "UI_Party_Parkour_FinishingRate",
+            },
+            ["UI_Party_Parkour_Ranking"] = {
+                ["ContentJP"] = "現在の順位",
+                ["TextMapId"] = "UI_Party_Parkour_Ranking",
+            },
             ["UI_Party_Parkour_Skill_01"] = {
                 ["ContentJP"] = "爆弾のお届けだよ！",
                 ["TextMapId"] = "UI_Party_Parkour_Skill_01",
@@ -53263,7 +54132,8 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Party_RewardCoin_OnLimit_Toast",
             },
             ["UI_Party_RewardDetail"] = {
-                ["ContentJP"] = "霊鳥の試練の初回クリアで報酬を獲得する。/nマルチプレイで繰り返し報酬あり（参加人数・成績により内容変動、日別リセット）",
+                ["ContentJP"] = "霊鳥の試練の初回クリアで報酬を獲得する。\
+マルチプレイで繰り返し報酬あり（参加人数・成績により内容変動、日別リセット）",
                 ["TextMapId"] = "UI_Party_RewardDetail",
             },
             ["UI_PatchFix_Popup"] = {
@@ -53399,11 +54269,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Pet_BreakLevelUp",
             },
             ["UI_Pet_CaptureFail"] = {
-                ["ContentJP"] = "捕獲失敗",
+                ["ContentJP"] = "給餌失敗",
                 ["TextMapId"] = "UI_Pet_CaptureFail",
             },
             ["UI_Pet_CaptureSucRate"] = {
-                ["ContentJP"] = "捕獲の成功率",
+                ["ContentJP"] = "ジェネモンと仲良しの成功率",
                 ["TextMapId"] = "UI_Pet_CaptureSucRate",
             },
             ["UI_Pet_CaptureSucRateColor"] = {
@@ -53411,7 +54281,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Pet_CaptureSucRateColor",
             },
             ["UI_Pet_CaptureSuccess"] = {
-                ["ContentJP"] = "捕獲完了",
+                ["ContentJP"] = "給餌完了",
                 ["TextMapId"] = "UI_Pet_CaptureSuccess",
             },
             ["UI_Pet_ChooseSnacks"] = {
@@ -53419,7 +54289,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Pet_ChooseSnacks",
             },
             ["UI_Pet_FoodLV0"] = {
-                ["ContentJP"] = "ジェネモンの好物。ジェネモンの捕獲に使用できる。",
+                ["ContentJP"] = "ジェネモンの好物。ジェネモンの給餌に使用できる。",
                 ["TextMapId"] = "UI_Pet_FoodLV0",
             },
             ["UI_Pet_FoodNotEnough"] = {
@@ -53427,7 +54297,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Pet_FoodNotEnough",
             },
             ["UI_Pet_Get"] = {
-                ["ContentJP"] = "ジェネモン捕獲",
+                ["ContentJP"] = "仲良くできた",
                 ["TextMapId"] = "UI_Pet_Get",
             },
             ["UI_Pet_LevelUp"] = {
@@ -53439,7 +54309,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Pet_Locked",
             },
             ["UI_Pet_Popup_Quit"] = {
-                ["ContentJP"] = "ジェネモン捕獲から退出しますか？",
+                ["ContentJP"] = "ジェネモン給餌から退出しますか？",
                 ["TextMapId"] = "UI_Pet_Popup_Quit",
             },
             ["UI_Pet_Skill_CD"] = {
@@ -53455,11 +54325,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Pet_ThrowFood_Phone",
             },
             ["UI_Pet_Title"] = {
-                ["ContentJP"] = "ジェネモン捕獲",
+                ["ContentJP"] = "ジェネモン給餌",
                 ["TextMapId"] = "UI_Pet_Title",
             },
             ["UI_Pet_Toast_LowSuccRate"] = {
-                ["ContentJP"] = "捕獲成功率が低すぎます。より高級な捕獲ポットを選んでください。",
+                ["ContentJP"] = "仲良しできる成功率が低すぎます。より高級な缶詰めを選んでください。",
                 ["TextMapId"] = "UI_Pet_Toast_LowSuccRate",
             },
             ["UI_PickupExplore1"] = {
@@ -53471,7 +54341,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_PickupExplore2",
             },
             ["UI_PickupExplore3"] = {
-                ["ContentJP"] = "怪しい宝箱を開ける",
+                ["ContentJP"] = "怪しい貯蔵箱を開ける",
                 ["TextMapId"] = "UI_PickupExplore3",
             },
             ["UI_PickupExplore4"] = {
@@ -53522,10 +54392,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "タビテのアイコンに変更できる。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10012",
             },
-        }
-    end },
-    { MinKey = "UI_PlayerHead_Des_10013", MaxKey = "UI_RougeLike_End_Success01", Loader = function()
-        return {
             ["UI_PlayerHead_Des_10013"] = {
                 ["ContentJP"] = "ダフネのアイコンに変更できる。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10013",
@@ -53538,6 +54404,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "アウトサイダーのアイコンに変更できる。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10015",
             },
+        }
+    end },
+    { MinKey = "UI_PlayerHead_Des_10016", MaxKey = "UI_RougeLike_End_Success01", Loader = function()
+        return {
             ["UI_PlayerHead_Des_10016"] = {
                 ["ContentJP"] = "リズムのアイコンに変更できる。",
                 ["TextMapId"] = "UI_PlayerHead_Des_10016",
@@ -53631,7 +54501,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_PlayerHead_Name_10017",
             },
             ["UI_PlayerHead_Name_10018"] = {
-                ["ContentJP"] = "黒幕の肖像",
+                ["ContentJP"] = "幕を下す人の肖像",
                 ["TextMapId"] = "UI_PlayerHead_Name_10018",
             },
             ["UI_PlayerHead_Name_10019"] = {
@@ -53814,6 +54684,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "完了",
                 ["TextMapId"] = "UI_QUEST_UNLOCKFINISH",
             },
+            ["UI_Quest_CanTakeQuest"] = {
+                ["ContentJP"] = "受領可能",
+                ["TextMapId"] = "UI_Quest_CanTakeQuest",
+            },
             ["UI_Quest_TakeQuest"] = {
                 ["ContentJP"] = "クエストを受け取る",
                 ["TextMapId"] = "UI_Quest_TakeQuest",
@@ -53839,7 +54713,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_REGIONMAP_NAME_201",
             },
             ["UI_REGIONMAP_NAME_202"] = {
-                ["ContentJP"] = "アイスレイク城・下水道",
+                ["ContentJP"] = "アイスレイク城‐下水道",
                 ["TextMapId"] = "UI_REGIONMAP_NAME_202",
             },
             ["UI_REGIONMAP_NAME_203"] = {
@@ -53850,6 +54724,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "ヒュプノスの家",
                 ["TextMapId"] = "UI_REGIONMAP_NAME_204",
             },
+            ["UI_REGION_EXITONLINE_TIP"] = {
+                ["ContentJP"] = "間もなくマルチプレイを終了します",
+                ["TextMapId"] = "UI_REGION_EXITONLINE_TIP",
+            },
             ["UI_REGION_NAME_1001"] = {
                 ["ContentJP"] = "パーガトリー島",
                 ["TextMapId"] = "UI_REGION_NAME_1001",
@@ -53859,7 +54737,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_REGION_NAME_1011",
             },
             ["UI_REGION_NAME_1012"] = {
-                ["ContentJP"] = "アイスレイク城・地下水路",
+                ["ContentJP"] = "アイスレイク城‐地下水路",
                 ["TextMapId"] = "UI_REGION_NAME_1012",
             },
             ["UI_REGION_NAME_1013"] = {
@@ -53871,7 +54749,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_REGION_NAME_1014",
             },
             ["UI_REGION_NAME_1017"] = {
-                ["ContentJP"] = "アイスレイク城・下水道",
+                ["ContentJP"] = "アイスレイク城‐下水道",
                 ["TextMapId"] = "UI_REGION_NAME_1017",
             },
             ["UI_REGION_NAME_1018"] = {
@@ -53889,6 +54767,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_REGION_NAME_1022"] = {
                 ["ContentJP"] = "皇立軍事監獄",
                 ["TextMapId"] = "UI_REGION_NAME_1022",
+            },
+            ["UI_REGION_NAME_1032"] = {
+                ["ContentJP"] = "サーベル錬金院",
+                ["TextMapId"] = "UI_REGION_NAME_1032",
             },
             ["UI_REGION_NAME_1041"] = {
                 ["ContentJP"] = "東方王国第一期",
@@ -54869,7 +55751,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_STAT_Bullets_Cost",
             },
             ["UI_STAT_Chest"] = {
-                ["ContentJP"] = "開けた宝箱の数",
+                ["ContentJP"] = "開けた貯蔵箱の数",
                 ["TextMapId"] = "UI_STAT_Chest",
             },
             ["UI_STAT_Combo_Max"] = {
@@ -55045,11 +55927,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_SUBREGION_NAME_100101",
             },
             ["UI_SUBREGION_NAME_100102"] = {
-                ["ContentJP"] = "謎の遺跡・中間階",
+                ["ContentJP"] = "謎の遺跡‐中間階",
                 ["TextMapId"] = "UI_SUBREGION_NAME_100102",
             },
             ["UI_SUBREGION_NAME_100103"] = {
-                ["ContentJP"] = "謎の遺跡・最上階",
+                ["ContentJP"] = "謎の遺跡‐最上階",
                 ["TextMapId"] = "UI_SUBREGION_NAME_100103",
             },
             ["UI_SUBREGION_NAME_100104"] = {
@@ -55061,7 +55943,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_SUBREGION_NAME_101101",
             },
             ["UI_SUBREGION_NAME_101102"] = {
-                ["ContentJP"] = "アイスレイク城・郊外道路",
+                ["ContentJP"] = "アイスレイク城‐郊外道路",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101102",
             },
             ["UI_SUBREGION_NAME_101103"] = {
@@ -55134,7 +56016,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             },
         }
     end },
-    { MinKey = "UI_SUBREGION_NAME_101401", MaxKey = "UI_TEMPLE_DES_80602", Loader = function()
+    { MinKey = "UI_SUBREGION_NAME_101401", MaxKey = "UI_TEMPLE_DES_80601", Loader = function()
         return {
             ["UI_SUBREGION_NAME_101401"] = {
                 ["ContentJP"] = "？？？",
@@ -55167,6 +56049,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_SUBREGION_NAME_102104"] = {
                 ["ContentJP"] = "？？？",
                 ["TextMapId"] = "UI_SUBREGION_NAME_102104",
+            },
+            ["UI_SUBREGION_NAME_103201"] = {
+                ["ContentJP"] = "サーベル錬金院",
+                ["TextMapId"] = "UI_SUBREGION_NAME_103201",
             },
             ["UI_SUBREGION_NAME_210101"] = {
                 ["ContentJP"] = "屋敷",
@@ -55237,7 +56123,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Server_Europe",
             },
             ["UI_Server_HMT"] = {
-                ["ContentJP"] = "香港・マカオ・台湾サーバー:HMT",
+                ["ContentJP"] = "香港‐マカオ‐台湾サーバー:HMT",
                 ["TextMapId"] = "UI_Server_HMT",
             },
             ["UI_Settlement_Repeat_Notenough"] = {
@@ -55425,7 +56311,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Squad_Miss_Challenge",
             },
             ["UI_Squad_Miss_Online"] = {
-                ["ContentJP"] = "編成パーツが不足しているプレイヤーがいるため、挑戦を開始できません（%s）",
+                ["ContentJP"] = "編成パーツが不足しているプレイヤーがいるため、挑戦を開始できません（%sP）",
                 ["TextMapId"] = "UI_Squad_Miss_Online",
             },
             ["UI_Squad_Miss_SigilWeapon"] = {
@@ -55565,11 +56451,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_100101_1",
             },
             ["UI_TELEPORTPOINT_NAME_100102_1"] = {
-                ["ContentJP"] = "謎の遺跡・中間階",
+                ["ContentJP"] = "謎の遺跡‐中間階",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_100102_1",
             },
             ["UI_TELEPORTPOINT_NAME_100103_1"] = {
-                ["ContentJP"] = "謎の遺跡・最上階",
+                ["ContentJP"] = "謎の遺跡‐最上階",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_100103_1",
             },
             ["UI_TELEPORTPOINT_NAME_100103_2"] = {
@@ -55577,7 +56463,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_100103_2",
             },
             ["UI_TELEPORTPOINT_NAME_101101_1"] = {
-                ["ContentJP"] = "アイスレイク城外周・広場",
+                ["ContentJP"] = "アイスレイク城外周‐広場",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101101_1",
             },
             ["UI_TELEPORTPOINT_NAME_101101_3"] = {
@@ -55585,7 +56471,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101101_3",
             },
             ["UI_TELEPORTPOINT_NAME_101102_1"] = {
-                ["ContentJP"] = "アイスレイク城外周・城門",
+                ["ContentJP"] = "アイスレイク城外周‐城門",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101102_1",
             },
             ["UI_TELEPORTPOINT_NAME_101102_2"] = {
@@ -55593,7 +56479,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101102_2",
             },
             ["UI_TELEPORTPOINT_NAME_101102_3"] = {
-                ["ContentJP"] = "アイスレイク城・郊外",
+                ["ContentJP"] = "アイスレイク城‐郊外",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101102_3",
             },
             ["UI_TELEPORTPOINT_NAME_101103_1"] = {
@@ -55613,7 +56499,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101103_4",
             },
             ["UI_TELEPORTPOINT_NAME_101301_1"] = {
-                ["ContentJP"] = "グルビューム廃坑・最下層",
+                ["ContentJP"] = "グルビューム廃坑‐最下層",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101301_1",
             },
             ["UI_TELEPORTPOINT_NAME_101304_1"] = {
@@ -55625,7 +56511,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_10130_1",
             },
             ["UI_TELEPORTPOINT_NAME_101701_1"] = {
-                ["ContentJP"] = "アイスレイク城・下水道",
+                ["ContentJP"] = "アイスレイク城‐下水道",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101701_1",
             },
             ["UI_TELEPORTPOINT_NAME_101701_2"] = {
@@ -55633,7 +56519,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101701_2",
             },
             ["UI_TELEPORTPOINT_NAME_101702_1"] = {
-                ["ContentJP"] = "アイスレイク城・下水道の深部",
+                ["ContentJP"] = "アイスレイク城‐下水道の深部",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_101702_1",
             },
             ["UI_TELEPORTPOINT_NAME_101702_2"] = {
@@ -55649,23 +56535,23 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_102101_1",
             },
             ["UI_TELEPORTPOINT_NAME_102101_2"] = {
-                ["ContentJP"] = "ロンザ要塞・外環",
+                ["ContentJP"] = "ロンザ要塞‐外環",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_102101_2",
             },
             ["UI_TELEPORTPOINT_NAME_102101_3"] = {
-                ["ContentJP"] = "ロンザ要塞・機関室",
+                ["ContentJP"] = "ロンザ要塞‐機関室",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_102101_3",
             },
             ["UI_TELEPORTPOINT_NAME_102102_1"] = {
-                ["ContentJP"] = "ロンザ要塞・下水道",
+                ["ContentJP"] = "ロンザ要塞‐下水道",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_102102_1",
             },
             ["UI_TELEPORTPOINT_NAME_102102_2"] = {
-                ["ContentJP"] = "ロンザ要塞・模擬戦場",
+                ["ContentJP"] = "ロンザ要塞‐模擬戦場",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_102102_2",
             },
             ["UI_TELEPORTPOINT_NAME_102102_3"] = {
-                ["ContentJP"] = "ロンザ要塞・中央制御室",
+                ["ContentJP"] = "ロンザ要塞‐中央制御室",
                 ["TextMapId"] = "UI_TELEPORTPOINT_NAME_102102_3",
             },
             ["UI_TELEPORTPOINT_NAME_104101_1"] = {
@@ -55932,14 +56818,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "トラップを攻撃すると残り時間が延長する。",
                 ["TextMapId"] = "UI_TEMPLE_DES_80601",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_DES_80602", MaxKey = "UI_Vote_Retreat_Auto", Loader = function()
+        return {
             ["UI_TEMPLE_DES_80602"] = {
                 ["ContentJP"] = "オーラを通過したら、指示通り、順番にトラップを破壊せよ。",
                 ["TextMapId"] = "UI_TEMPLE_DES_80602",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_DES_80701", MaxKey = "UI_Vote_Wave", Loader = function()
-        return {
             ["UI_TEMPLE_DES_80701"] = {
                 ["ContentJP"] = "トラップを踏んで色を変え、出口と同じ色に合わせよう。",
                 ["TextMapId"] = "UI_TEMPLE_DES_80701",
@@ -56101,7 +56987,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_TEMPLE_SUCRULE_COUNTDOWN_1",
             },
             ["UI_TEMPLE_SUCRULE_SCORE"] = {
-                ["ContentJP"] = "クリア時に最低でも獲得ポイント",
+                ["ContentJP"] = "クリア時に達成スコア",
                 ["TextMapId"] = "UI_TEMPLE_SUCRULE_SCORE",
             },
             ["UI_TEMPLE_SUCRULE_ZERO"] = {
@@ -56127,6 +57013,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_TEMPLE_TOTAL_TIME"] = {
                 ["ContentJP"] = "総時間",
                 ["TextMapId"] = "UI_TEMPLE_TOTAL_TIME",
+            },
+            ["UI_TEXT_SOLDFISH"] = {
+                ["ContentJP"] = "釣った魚を売却",
+                ["TextMapId"] = "UI_TEXT_SOLDFISH",
             },
             ["UI_TIP_MP"] = {
                 ["ContentJP"] = "SPが不足しています",
@@ -56325,7 +57215,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_Temple_MonsterIn",
             },
             ["UI_Temple_NormalPattern"] = {
-                ["ContentJP"] = "模様一致でスコア+1",
+                ["ContentJP"] = "模様一致でスコアを上げる",
                 ["TextMapId"] = "UI_Temple_NormalPattern",
             },
             ["UI_Temple_QuickPattern"] = {
@@ -56387,6 +57277,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_Tips_CantSell"] = {
                 ["ContentJP"] = "売却不可",
                 ["TextMapId"] = "UI_Tips_CantSell",
+            },
+            ["UI_Tips_Close"] = {
+                ["ContentJP"] = "戻る",
+                ["TextMapId"] = "UI_Tips_Close",
+            },
+            ["UI_Tips_Ensure"] = {
+                ["ContentJP"] = "確定",
+                ["TextMapId"] = "UI_Tips_Ensure",
             },
             ["UI_Tips_ModApplicationType"] = {
                 ["ContentJP"] = "適用タイプ：",
@@ -56735,6 +57633,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "選択せずにカウントダウンが終了した場合、自動的に撤退します",
                 ["TextMapId"] = "UI_Vote_Retreat_Auto",
             },
+        }
+    end },
+    { MinKey = "UI_Vote_Retreat_Current", MaxKey = "UI_Walnut_Type_Name_1", Loader = function()
+        return {
             ["UI_Vote_Retreat_Current"] = {
                 ["ContentJP"] = "現在の獲得報酬",
                 ["TextMapId"] = "UI_Vote_Retreat_Current",
@@ -56751,10 +57653,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "ラウンド",
                 ["TextMapId"] = "UI_Vote_Wave",
             },
-        }
-    end },
-    { MinKey = "UI_WEAPON_DESC_10101", MaxKey = "UI_Warning_Age_Title", Loader = function()
-        return {
             ["UI_WEAPON_DESC_10101"] = {
                 ["ContentJP"] = "ベレニカが愛用する武器。金の装飾が施された片手刀。刀身の黒い金属は一般流通している素材でないことは、誰の目から見ても明らかだ――パーガトリー島の村人が手に入れられるような代物とは思えない。",
                 ["TextMapId"] = "UI_WEAPON_DESC_10101",
@@ -57133,7 +58031,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_WEAPON_NAME_10207",
             },
             ["UI_WEAPON_NAME_10208"] = {
-                ["ContentJP"] = "パロマ・デ・パス",
+                ["ContentJP"] = "パロマ‐デ‐パス",
                 ["TextMapId"] = "UI_WEAPON_NAME_10208",
             },
             ["UI_WEAPON_NAME_10209"] = {
@@ -57540,6 +58438,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "秩序",
                 ["TextMapId"] = "UI_Walnut_Type_Name_1",
             },
+        }
+    end },
+    { MinKey = "UI_Walnut_Type_Name_2", MaxKey = "VoiceDes109", Loader = function()
+        return {
             ["UI_Walnut_Type_Name_2"] = {
                 ["ContentJP"] = "中立",
                 ["TextMapId"] = "UI_Walnut_Type_Name_2",
@@ -57560,10 +58462,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "年齢制限についてのお知らせ",
                 ["TextMapId"] = "UI_Warning_Age_Title",
             },
-        }
-    end },
-    { MinKey = "UI_Warning_CharLevel_Low", MaxKey = "VoiceDes114", Loader = function()
-        return {
             ["UI_Warning_CharLevel_Low"] = {
                 ["ContentJP"] = "キャラクターのレベルが不足しています",
                 ["TextMapId"] = "UI_Warning_CharLevel_Low",
@@ -57598,71 +58496,71 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_WeaponAccessory_Desc_10022",
             },
             ["UI_WeaponAccessory_Desc_10023"] = {
-                ["ContentJP"] = "タマゴの中身はタマゴ。そのタマゴの中身はまたまたタマゴ。中の人などいない！いないったらいないのだ！！",
+                ["ContentJP"] = "タマゴの中身はタマゴ。そのタマゴの中身はまたまたタマゴ。中のルーナ族などいない！いないったらいないのだ！！",
                 ["TextMapId"] = "UI_WeaponAccessory_Desc_10023",
             },
             ["UI_WeaponAccessory_Name_10001"] = {
-                ["ContentJP"] = "音符・黒玉",
+                ["ContentJP"] = "音符‐黒玉",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10001",
             },
             ["UI_WeaponAccessory_Name_10002"] = {
-                ["ContentJP"] = "音符・アイボリー",
+                ["ContentJP"] = "音符‐アイボリー",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10002",
             },
             ["UI_WeaponAccessory_Name_10003"] = {
-                ["ContentJP"] = "音符・マリーゴールド",
+                ["ContentJP"] = "音符‐マリーゴールド",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10003",
             },
             ["UI_WeaponAccessory_Name_10004"] = {
-                ["ContentJP"] = "音符・チェリーホワイト",
+                ["ContentJP"] = "音符‐チェリーホワイト",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10004",
             },
             ["UI_WeaponAccessory_Name_10005"] = {
-                ["ContentJP"] = "リボン・黒玉",
+                ["ContentJP"] = "リボン‐黒玉",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10005",
             },
             ["UI_WeaponAccessory_Name_10006"] = {
-                ["ContentJP"] = "リボン・アイボリー",
+                ["ContentJP"] = "リボン‐アイボリー",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10006",
             },
             ["UI_WeaponAccessory_Name_10007"] = {
-                ["ContentJP"] = "リボン・ペルシアンレッド",
+                ["ContentJP"] = "リボン‐ペルシアンレッド",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10007",
             },
             ["UI_WeaponAccessory_Name_10008"] = {
-                ["ContentJP"] = "リボン・ミント",
+                ["ContentJP"] = "リボン‐ミント",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10008",
             },
             ["UI_WeaponAccessory_Name_10009"] = {
-                ["ContentJP"] = "バラ・ペルシアンレッド",
+                ["ContentJP"] = "バラ‐ペルシアンレッド",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10009",
             },
             ["UI_WeaponAccessory_Name_10010"] = {
-                ["ContentJP"] = "バラ・インディゴ",
+                ["ContentJP"] = "バラ‐インディゴ",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10010",
             },
             ["UI_WeaponAccessory_Name_10011"] = {
-                ["ContentJP"] = "バラ・黒玉",
+                ["ContentJP"] = "バラ‐黒玉",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10011",
             },
             ["UI_WeaponAccessory_Name_10012"] = {
-                ["ContentJP"] = "バラ・アイボリー",
+                ["ContentJP"] = "バラ‐アイボリー",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10012",
             },
             ["UI_WeaponAccessory_Name_10013"] = {
-                ["ContentJP"] = "片翼・黒玉",
+                ["ContentJP"] = "片翼‐黒玉",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10013",
             },
             ["UI_WeaponAccessory_Name_10014"] = {
-                ["ContentJP"] = "片翼・インディゴ",
+                ["ContentJP"] = "片翼‐インディゴ",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10014",
             },
             ["UI_WeaponAccessory_Name_10015"] = {
-                ["ContentJP"] = "片翼・マリーゴールド",
+                ["ContentJP"] = "片翼‐マリーゴールド",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10015",
             },
             ["UI_WeaponAccessory_Name_10016"] = {
-                ["ContentJP"] = "片翼・アイボリー",
+                ["ContentJP"] = "片翼‐アイボリー",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10016",
             },
             ["UI_WeaponAccessory_Name_10017"] = {
@@ -57670,15 +58568,15 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10017",
             },
             ["UI_WeaponAccessory_Name_10018"] = {
-                ["ContentJP"] = "ひょこちゃん・アイボリー",
+                ["ContentJP"] = "ひょこちゃん‐アイボリー",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10018",
             },
             ["UI_WeaponAccessory_Name_10019"] = {
-                ["ContentJP"] = "ひょこちゃん・キャラクターメル",
+                ["ContentJP"] = "ひょこちゃん‐キャラメル",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10019",
             },
             ["UI_WeaponAccessory_Name_10020"] = {
-                ["ContentJP"] = "ひょこちゃん・インディゴ",
+                ["ContentJP"] = "ひょこちゃん‐インディゴ",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10020",
             },
             ["UI_WeaponAccessory_Name_10021"] = {
@@ -57722,31 +58620,38 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "UI_WeaponCardLevel_Popup_PlayerEquiped",
             },
             ["UI_WeaponSkin_Des_3010101"] = {
-                ["ContentJP"] = "一日釣りをするくらいなら、せめて魚の一匹ぐらい持って帰れ。……ちょうど今日、市場で割引中だ。80銅貨だよ。",
+                ["ContentJP"] = "大剣に適用する。\
+一日釣りをするくらいなら、せめて魚の一匹ぐらい持って帰れ。……ちょうど今日、市場で割引中だ。80銅貨だよ。",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010101",
             },
             ["UI_WeaponSkin_Des_3010102"] = {
-                ["ContentJP"] = "星が星と衝突する、その刹那に交わされた別れの口づけ。砕けた囁きは空の彼方へと尾を引き、愚直な抱擁は――まるで銀河が吐息を漏らしたかのようだった。",
+                ["ContentJP"] = "大剣に適用する。\
+星が星と衝突する、その刹那に交わされた別れの口づけ。砕けた囁きは空の彼方へと尾を引き、愚直な抱擁は――まるで銀河が吐息を漏らしたかのようだった。",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010102",
             },
             ["UI_WeaponSkin_Des_3010201"] = {
-                ["ContentJP"] = "冷凍保存された戦闘力と旨味。缶詰が腐っても、この魚は腐らない。",
+                ["ContentJP"] = "片手剣に適用する。\
+冷凍保存された戦闘力と旨味。缶詰が腐っても、この魚は腐らない。",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010201",
             },
             ["UI_WeaponSkin_Des_3010202"] = {
-                ["ContentJP"] = "とある父の叱咤が刃となった。愛という名の鞭だ――いや、つまりは、父の愛は重いってことだ。",
+                ["ContentJP"] = "片手剣に適用する。\
+とある父の叱咤が刃となった。愛という名の鞭だ――いや、つまりは、父の愛は重いってことだ。",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010202",
             },
             ["UI_WeaponSkin_Des_3010301"] = {
-                ["ContentJP"] = "お日さまはどこに？お日さまはどこに？お日さまは、私たちの手のひらの中に。",
+                ["ContentJP"] = "弓に適用する。\
+お日さまはどこに？お日さまはどこに？お日さまは、私たちの手のひらの中に。",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010301",
             },
             ["UI_WeaponSkin_Des_3010401"] = {
-                ["ContentJP"] = "ひとすじの澄んだ音色が、少女の浅い夢を覚まし、夏の日の心の弦をそっと奏でた。",
+                ["ContentJP"] = "長柄兵器に適用する。\
+ひとすじの澄んだ音色が、少女の浅い夢を覚まし、夏の日の心の弦をそっと奏でた。",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010401",
             },
             ["UI_WeaponSkin_Des_3010402"] = {
-                ["ContentJP"] = "波しぶきが舞姫のつま先で跳ね、海風が真夏のすべてを運び、クライマックスがこの瞬間に刻まれる。",
+                ["ContentJP"] = "長柄兵器に適用する。\
+波しぶきが舞姫のつま先で跳ね、海風が真夏のすべてを運び、クライマックスがこの瞬間に刻まれる。",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010402",
             },
             ["UI_WeaponSkin_Name_3010101"] = {
@@ -58029,44 +58934,48 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "勝利4",
                 ["TextMapId"] = "VoiceDes027",
             },
+            ["VoiceDes028"] = {
+                ["ContentJP"] = "（乞うご期待）",
+                ["TextMapId"] = "VoiceDes028",
+            },
             ["VoiceDes031"] = {
-                ["ContentJP"] = "月狩り人と共に その1",
+                ["ContentJP"] = "{空格}その1",
                 ["TextMapId"] = "VoiceDes031",
             },
             ["VoiceDes032"] = {
-                ["ContentJP"] = "月狩り人と共に その2",
+                ["ContentJP"] = "{空格}その2",
                 ["TextMapId"] = "VoiceDes032",
             },
             ["VoiceDes033"] = {
-                ["ContentJP"] = "月狩り人と共に その3",
+                ["ContentJP"] = "{空格}その3",
                 ["TextMapId"] = "VoiceDes033",
             },
             ["VoiceDes034"] = {
-                ["ContentJP"] = "月狩り人と共に その4",
+                ["ContentJP"] = "{空格}その4",
                 ["TextMapId"] = "VoiceDes034",
             },
             ["VoiceDes035"] = {
-                ["ContentJP"] = "月狩り人と共に その5",
+                ["ContentJP"] = "{空格}その5",
                 ["TextMapId"] = "VoiceDes035",
             },
             ["VoiceDes036"] = {
-                ["ContentJP"] = "月狩り人と共に その6",
+                ["ContentJP"] = "{空格}その6",
                 ["TextMapId"] = "VoiceDes036",
             },
             ["VoiceDes037"] = {
-                ["ContentJP"] = "月狩り人と共に その7",
+                ["ContentJP"] = "{空格}その7",
                 ["TextMapId"] = "VoiceDes037",
             },
             ["VoiceDes038"] = {
-                ["ContentJP"] = "月狩り人と共に その8",
+                ["ContentJP"] = "{空格}その8",
                 ["TextMapId"] = "VoiceDes038",
             },
             ["VoiceDes039"] = {
-                ["ContentJP"] = "月狩り人と共に その9",
+                ["ContentJP"] = "{空格}その9",
                 ["TextMapId"] = "VoiceDes039",
             },
             ["VoiceDes040"] = {
-                ["ContentJP"] = "月狩り人と共に その10",
+                ["ContentJP"] = "{空格}その10",
                 ["TextMapId"] = "VoiceDes040",
             },
             ["VoiceDes041"] = {
@@ -58345,6 +59254,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "仕事のこと",
                 ["TextMapId"] = "VoiceDes109",
             },
+        }
+    end },
+    { MinKey = "VoiceDes110", MaxKey = "Zero", Loader = function()
+        return {
             ["VoiceDes110"] = {
                 ["ContentJP"] = "正義とは",
                 ["TextMapId"] = "VoiceDes110",
@@ -58365,13 +59278,149 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "気持ちについて",
                 ["TextMapId"] = "VoiceDes114",
             },
-        }
-    end },
-    { MinKey = "VoiceDes115", MaxKey = "voice_ch_char_Aote_vo_topic_02_2", Loader = function()
-        return {
             ["VoiceDes115"] = {
                 ["ContentJP"] = "夜について",
                 ["TextMapId"] = "VoiceDes115",
+            },
+            ["VoiceDes116"] = {
+                ["ContentJP"] = "故郷について",
+                ["TextMapId"] = "VoiceDes116",
+            },
+            ["VoiceDes117"] = {
+                ["ContentJP"] = "ニヴルヘイムについて",
+                ["TextMapId"] = "VoiceDes117",
+            },
+            ["VoiceDes118"] = {
+                ["ContentJP"] = "友人について",
+                ["TextMapId"] = "VoiceDes118",
+            },
+            ["VoiceDes119"] = {
+                ["ContentJP"] = "ハーモニカについて",
+                ["TextMapId"] = "VoiceDes119",
+            },
+            ["VoiceDes120"] = {
+                ["ContentJP"] = "ハーモニカについて",
+                ["TextMapId"] = "VoiceDes120",
+            },
+            ["VoiceDes121"] = {
+                ["ContentJP"] = "帝国軍について",
+                ["TextMapId"] = "VoiceDes121",
+            },
+            ["VoiceDes122"] = {
+                ["ContentJP"] = "帝国軍について",
+                ["TextMapId"] = "VoiceDes122",
+            },
+            ["VoiceDes123"] = {
+                ["ContentJP"] = "悪魔の角について",
+                ["TextMapId"] = "VoiceDes123",
+            },
+            ["VoiceDes124"] = {
+                ["ContentJP"] = "ブルースについて",
+                ["TextMapId"] = "VoiceDes124",
+            },
+            ["VoiceDes125"] = {
+                ["ContentJP"] = "「呼び名」について",
+                ["TextMapId"] = "VoiceDes125",
+            },
+            ["VoiceDes126"] = {
+                ["ContentJP"] = "演技について",
+                ["TextMapId"] = "VoiceDes126",
+            },
+            ["VoiceDes127"] = {
+                ["ContentJP"] = "劇場について",
+                ["TextMapId"] = "VoiceDes127",
+            },
+            ["VoiceDes128"] = {
+                ["ContentJP"] = "医学について",
+                ["TextMapId"] = "VoiceDes128",
+            },
+            ["VoiceDes129"] = {
+                ["ContentJP"] = "錬金院について",
+                ["TextMapId"] = "VoiceDes129",
+            },
+            ["VoiceDes130"] = {
+                ["ContentJP"] = "持ち物について",
+                ["TextMapId"] = "VoiceDes130",
+            },
+            ["VoiceDes131"] = {
+                ["ContentJP"] = "訓練について",
+                ["TextMapId"] = "VoiceDes131",
+            },
+            ["VoiceDes132"] = {
+                ["ContentJP"] = "お父さんについて",
+                ["TextMapId"] = "VoiceDes132",
+            },
+            ["VoiceDes133"] = {
+                ["ContentJP"] = "剣術について",
+                ["TextMapId"] = "VoiceDes133",
+            },
+            ["VoiceDes134"] = {
+                ["ContentJP"] = "反抗について",
+                ["TextMapId"] = "VoiceDes134",
+            },
+            ["VoiceDes135"] = {
+                ["ContentJP"] = "武器について",
+                ["TextMapId"] = "VoiceDes135",
+            },
+            ["VoiceDes136"] = {
+                ["ContentJP"] = "{空格}その11",
+                ["TextMapId"] = "VoiceDes136",
+            },
+            ["VoiceDes137"] = {
+                ["ContentJP"] = "受傷3",
+                ["TextMapId"] = "VoiceDes137",
+            },
+            ["VoiceDes138"] = {
+                ["ContentJP"] = "受傷4",
+                ["TextMapId"] = "VoiceDes138",
+            },
+            ["VoiceDes139"] = {
+                ["ContentJP"] = "スキル発動3",
+                ["TextMapId"] = "VoiceDes139",
+            },
+            ["VoiceDes140"] = {
+                ["ContentJP"] = "スキル発動4",
+                ["TextMapId"] = "VoiceDes140",
+            },
+            ["VoiceDes141"] = {
+                ["ContentJP"] = "スキル発動5",
+                ["TextMapId"] = "VoiceDes141",
+            },
+            ["VoiceDes142"] = {
+                ["ContentJP"] = "技術について",
+                ["TextMapId"] = "VoiceDes142",
+            },
+            ["VoiceDes143"] = {
+                ["ContentJP"] = "フォーセイクン同盟について",
+                ["TextMapId"] = "VoiceDes143",
+            },
+            ["VoiceDes144"] = {
+                ["ContentJP"] = "傷口について",
+                ["TextMapId"] = "VoiceDes144",
+            },
+            ["VoiceDes145"] = {
+                ["ContentJP"] = "生き様について",
+                ["TextMapId"] = "VoiceDes145",
+            },
+            ["VoiceDes146"] = {
+                ["ContentJP"] = "報酬について",
+                ["TextMapId"] = "VoiceDes146",
+            },
+            ["VoiceDes147"] = {
+                ["ContentJP"] = "代価について",
+                ["TextMapId"] = "VoiceDes147",
+            },
+            ["VoiceDes148"] = {
+                ["ContentJP"] = "商売について",
+                ["TextMapId"] = "VoiceDes148",
+            },
+            ["VoiceDes149"] = {
+                ["ContentJP"] = "怖いものについて",
+                ["TextMapId"] = "VoiceDes149",
+            },
+            ["VoiceDes150"] = {
+                ["ContentJP"] = "必殺技発動4",
+                ["TextMapId"] = "VoiceDes150",
             },
             ["VoiceLocked_Dialogue"] = {
                 ["ContentJP"] = "キャラを屋敷に招待して会話することで解放",
@@ -58537,7 +59586,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "WikiText_20100603",
             },
             ["WikiText_20100701"] = {
-                ["ContentJP"] = "セイキ・フレイ――宿屋「ヒュプノスの家」の宿泊客兼受付係。天真爛漫で人懐っこい性格の少女。",
+                ["ContentJP"] = "サイキ・フレイ――宿屋「ヒュプノスの家」の宿泊客兼受付係。天真爛漫で人懐っこい性格の少女。",
                 ["TextMapId"] = "WikiText_20100701",
             },
             ["WikiText_20100702"] = {
@@ -58546,7 +59595,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             },
             ["WikiText_20100703"] = {
                 ["ContentJP"] = "十七歳のとき、穢蝕の兆候が現れたことから、実の両親と別れ、「ヒュプノスの家」へと身を寄せることとなった。\
-命の灯が消えかけたそのとき、彼女はヘンリックの試作した穢蝕抑制薬に最後の望みを託し、服用する。しかし治療は叶わず、薬の副作用によって穢蝕が早期に発症。セイキはついに穢獣へと変貌してしまう。\
+命の灯が消えかけたそのとき、彼女はヘンリックの試作した穢蝕抑制薬に最後の望みを託し、服用する。しかし治療は叶わず、薬の副作用によって穢蝕が早期に発症。サイキはついに穢獣へと変貌してしまう。\
 その後、アイスレイク城の外で{nickname}と交戦する中で、{nickname}の呼びかけに応じ、わずかながら自我を取り戻す。だが、怪物の姿のまま生きることを拒み、自ら命を絶つ道を選ぶ。その最期の瞬間――彼女は駆けつけた警備部隊の手によって討たれ、静かに幕を下ろした。",
                 ["TextMapId"] = "WikiText_20100703",
             },
@@ -58701,7 +59750,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "WikiText_20102602",
             },
             ["WikiText_20400101"] = {
-                ["ContentJP"] = "{nickname}の砂海の夢に現れる、謎めいた{性别2:少女|少年}。彼らは、すべてを知っているようで――何も知らないかのようでもあった。その瞳の奥には、{nickname}すら知らぬ「真実」が、静かに揺れている。",
+                ["ContentJP"] = "{nickname}の砂海の夢に現れる、謎めいた{性别2:少年|少女}。{性别2:彼|彼女}は、すべてを知っているようで――何も知らないかのようでもあった。その瞳の奥には、{nickname}すら知らぬ「真実」が、静かに揺れている。",
                 ["TextMapId"] = "WikiText_20400101",
             },
             ["WikiText_20400102"] = {
@@ -59058,6 +60107,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "0.0",
                 ["TextMapId"] = "Zero",
             },
+        }
+    end },
+    { MinKey = "ZhiLiuEntrustText01", MaxKey = "voice_ch_char_Haier_vo_topic_02_2", Loader = function()
+        return {
             ["ZhiLiuEntrustText01"] = {
                 ["ContentJP"] = "今日の仕入れリストよ。少し集めてくれるかしら？",
                 ["TextMapId"] = "ZhiLiuEntrustText01",
@@ -59219,10 +60272,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "そりゃあれだ……何度かトラブったことがあるからな。この先あいつらと関わることがあったとしても、絶対に俺の名前は出すんじゃないぞ。",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_topic_02_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Aote_vo_topic_03_1", MaxKey = "voice_ch_char_Heitao_vo_topic_04_1", Loader = function()
-        return {
             ["voice_ch_char_Aote_vo_topic_03_1"] = {
                 ["ContentJP"] = "まあちょいとな。そっちのガーゼを取ってくれないか？フィーナにバレたら、また口酸っぱく言われちまうからよ。",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_topic_03_1",
@@ -59280,8 +60329,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_be_hit_r02",
             },
             ["voice_ch_char_Baiheng_vo_birthday"] = {
-                ["ContentJP"] = "ここまで甘い匂いを漂わせているということは、砂糖漬けの果物や焼き菓子などをたくさん召し上がったのでしょう？ちょうど胃腸の負担を和らげる湯薬がございますので……\
-え？まだまだ誕生日のケーキは残っている……のですか？あらら……少々お待ちください。今すぐ新たな湯薬を調合いたします。医者として暴飲暴食を放っておくわけにはいきません。",
+                ["ContentJP"] = "本日はあなたの誕生日だと聞き、ささやかながら旅先で役立つ薬を用意しました。風邪を引いたり、ちょっとした怪我をした時にお使いください。ただ……願わくば、あなたが常に健やかで、これらを必要とする日が来ないことを願っています。",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_birthday",
             },
             ["voice_ch_char_Baiheng_vo_companio"] = {
@@ -59369,7 +60417,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_02_1",
             },
             ["voice_ch_char_Baiheng_vo_topic_02_2"] = {
-                ["ContentJP"] = "例えるならば双子と同じです。双子でも境遇によって異なる性格に育つように、自然環境が異なれば植物の性質も変化します。薬効が弱く出るか、強く出るか一一ひとつずつ確かめる必要がございます。",
+                ["ContentJP"] = "おっしゃる通り、私は……かつて重い病を患い、生死の境をさまよったことがございます。もし再びあの試練を迎えることになったとして、果たして同じ選択を貫けるのか――正直、自信はありません。",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_02_2",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_1"] = {
@@ -59381,7 +60429,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_03_2",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_3"] = {
-                ["ContentJP"] = "アンズの林には患者のほかに子供たちがよく訪れますので、澤生閣は子供たちの遊び場ともいえるでしょう。毎年、アンズを採ろうとして怪我をする子がいますが……今年はどうでしょうか。",
+                ["ContentJP"] = "長い眠りから覚めた後、私も記憶を便りに自分の杏の木を探しに行ったことがございます。残念ながら、その木はすでに枯れ果て、花どころか新芽のひとつもつけておりませんでした。今年の春は例年より暖かかったのですがね……",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_03_3",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_4"] = {
@@ -59813,7 +60861,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Haier_vo_gain",
             },
             ["voice_ch_char_Haier_vo_idle"] = {
-                ["ContentJP"] = "なんとも身の程知らずな……私の煉火が怖くないのか？ハハッ、愚かな虫けらめ。踏みにじらないとわからないようだな？",
+                ["ContentJP"] = "なんとも身の程知らずが……私の煉火が怖くないのか？ハハッ、愚かな虫けらめ。踏みにじらないとわからないようだな？",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_idle",
             },
             ["voice_ch_char_Haier_vo_lvup"] = {
@@ -59868,6 +60916,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "そして私は先祖と同じ紅蓮の肌を、生まれながらに得ていたからな。初代典獄が残した不磨の法条を継承する者として決まっていた。つまり私が典獄を選んだのではなく、典獄の称号が私を選んだのだと言えるだろう。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_2",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Haier_vo_topic_02_3", MaxKey = "voice_ch_char_Maer_vo_battleidle", Loader = function()
+        return {
             ["voice_ch_char_Haier_vo_topic_02_3"] = {
                 ["ContentJP"] = "ああ、なるだけは叶った。しかしそれは私にとって単なる出発点でしかない。帝国の地に生じる不義を余すことなく断ち切るためには一一死によって自分の存在が抹消される最後まで、警戒と警告を怠ってはならないのだ。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_3",
@@ -59929,7 +60981,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_birthday",
             },
             ["voice_ch_char_Heitao_vo_companio_01"] = {
-                ["ContentJP"] = "長い間、あの子を大切にしてきたし、約束通り自分も大切にしてきた……子供の頃みたいに、私の頭をなでて褒めてくれる？そして今度こそ、二度と私たちを見捨てないで……ね？",
+                ["ContentJP"] = "長い間、{性别:彼|彼女}を大切にしてきたし、約束通り自分も大切にしてきた……子供の頃みたいに、私の頭をなでて褒めてくれる？そして今度こそ、二度と私たちを見捨てないで……ね？",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_01",
             },
             ["voice_ch_char_Heitao_vo_companio_02_1"] = {
@@ -60028,10 +61080,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "どう言えばいいかな。鋼鉄の城……いいえ、牢獄というべき場所ね。小さい頃、私は軍団で過ごしていた。",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_topic_04_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Heitao_vo_topic_04_2", MaxKey = "voice_ch_char_Maer_vo_victory", Loader = function()
-        return {
             ["voice_ch_char_Heitao_vo_topic_04_2"] = {
                 ["ContentJP"] = "ある人が私を連れ出してくれて、一緒にパーガトリー島に来た。それとあなたも。ただ……彼女については、これ以上は話せない……ごめんなさい。言わないって彼女と約束したから。",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_topic_04_2",
@@ -60073,11 +61121,11 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_battlestart",
             },
             ["voice_ch_char_Kezhou_vo_be_hit_heavy_r01"] = {
-                ["ContentJP"] = "ぐっ！",
+                ["ContentJP"] = "見事だ！",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_be_hit_heavy_r01",
             },
             ["voice_ch_char_Kezhou_vo_be_hit_heavy_r02"] = {
-                ["ContentJP"] = "がはっ！",
+                ["ContentJP"] = "大した怪我じゃない。",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_be_hit_heavy_r02",
             },
             ["voice_ch_char_Kezhou_vo_birthday"] = {
@@ -60113,7 +61161,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             },
             ["voice_ch_char_Kezhou_vo_gain"] = {
                 ["ContentJP"] = "天地を舞台に、剣を振るい、昼夜問わず、悪を討たん――\
-……気取ったセリフはどうも性に合わねぇな。<Default note=\"text:カショ\">華胥</>の流れ者、カシュウだ。助けが必要な時は、遠慮なく言ってくれ。",
+……気取ったセリフはどうも性に合わねぇな。華胥の流れ者、カシュウだ。助けが必要な時は、遠慮なく言ってくれ。",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_gain",
             },
             ["voice_ch_char_Kezhou_vo_idle"] = {
@@ -60209,7 +61257,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_topic_04_2",
             },
             ["voice_ch_char_Kezhou_vo_topic_04_3"] = {
-                ["ContentJP"] = "俺はいつだって本名を名乗ることにしてる。異名みたいだって思っただろ？師匠も同じことを言われたよ。漢字で書くと二文字でな。「そんな名前じゃ、幼くして玄人扱いされて、痛い目を見るぞ」ってな。",
+                ["ContentJP"] = "俺はいつだって本名を名乗ることにしてる。異名みたいだって思っただろ？師匠にも同じことを言われたよ。文字で書くと二文字でな。「そんな名前じゃ、幼くして玄人扱いされて、痛い目を見るぞ」ってな。",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_topic_04_3",
             },
             ["voice_ch_char_Kezhou_vo_topic_04_4"] = {
@@ -60585,7 +61633,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Lise_vo_topic_01_3",
             },
             ["voice_ch_char_Lise_vo_topic_01_4"] = {
-                ["ContentJP"] = "ストレスにまいった同僚のほとんどは、いっ時の安らぎや快楽を得るために医者を訪ねるわ。でも私には必要ない。ハーモニカが私の鼓動を正常な拍子に戻してくれるから。",
+                ["ContentJP"] = "ストレスにまいった同僚のほとんどは、一時の安らぎや快楽を得るために医者を訪ねるわ。でも私には必要ない。ハーモニカが私の鼓動を正常な拍子に戻してくれるから。",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_topic_01_4",
             },
             ["voice_ch_char_Lise_vo_topic_02_1"] = {
@@ -60617,7 +61665,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Lise_vo_topic_03_3",
             },
             ["voice_ch_char_Lise_vo_topic_03_4"] = {
-                ["ContentJP"] = "そんなの間違ってる。人は決まった規則にしたがって生きるべきよ。自分を甘やかし、毎日をただやり過ごすだけの人生じゃ、結局に下水道のネズミと同じ運命を辿ることになるわ。",
+                ["ContentJP"] = "そんなの間違ってる。人は決まった規則にしたがって生きるべきよ。自分を甘やかし、毎日をただやり過ごすだけの人生じゃ、結局下水道のネズミと同じ運命を辿ることになるわ。",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_topic_03_4",
             },
             ["voice_ch_char_Lise_vo_topic_04_1"] = {
@@ -60676,6 +61724,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "まだ足りてないよ！もっと拾えるってば！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_battleidle",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Maer_vo_battlestart", MaxKey = "voice_ch_char_Songlu_vo_topic_02_4", Loader = function()
+        return {
             ["voice_ch_char_Maer_vo_battlestart"] = {
                 ["ContentJP"] = "何かいいものあるかな、探しに行こう！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_battlestart",
@@ -60836,10 +61888,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "マーベラス！最高な仕入れだったね！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_victory",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Maer_vo_welcome", MaxKey = "voice_ch_char_Tuosi_vo_topic_01_2", Loader = function()
-        return {
             ["voice_ch_char_Maer_vo_welcome"] = {
                 ["ContentJP"] = "ここに来たついでに君ん家の前を雪かきしといてあげたよ！これにはもう、スーパー感謝でしょ？私にあったかココアをご馳走したくなったりした？",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_welcome",
@@ -61486,6 +62534,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "覚悟するべし悪人め！みんなのお腹を空かせるワルモノは、みーんなヘーゼルナッツが吹っ飛ばしちゃうんだから！",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_4",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Songlu_vo_topic_03_1", MaxKey = "voice_ch_char_Yuming_vo_skill02_r02", Loader = function()
+        return {
             ["voice_ch_char_Songlu_vo_topic_03_1"] = {
                 ["ContentJP"] = "確かに少なくはないけど、特別にゴハンを用意する必要はないのです。だって自分で探せちゃいますから。ヘーゼルは、小川をいくつも越えた遠くからでも熟したベリーの匂いを嗅ぎつけて、私を乗せたまま駆けつけちゃうの。すごいでしょ？",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_03_1",
@@ -61604,7 +62656,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_die_r02",
             },
             ["voice_ch_char_Tuosi_vo_fail"] = {
-                ["ContentJP"] = "悲劇は勇者の苦痛に過ぎず。",
+                ["ContentJP"] = "悲劇は勇者の苦痛である。",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_fail",
             },
             ["voice_ch_char_Tuosi_vo_gain"] = {
@@ -61651,10 +62703,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "それらと同じように、思わず笑っちゃうほどバカバカしいのに、どこか眩しいやつだった。",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_topic_01_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Tuosi_vo_topic_01_3", MaxKey = "voice_ch_char_Zhangyu_vo_topic_02_3", Loader = function()
-        return {
             ["voice_ch_char_Tuosi_vo_topic_01_3"] = {
                 ["ContentJP"] = "僕たちの牢屋は壁一枚隔てられてるだけで、何もかもが筒抜けだった。あいつは1メートル先で、家族を思い出したり、未来を夢見たり、急に音痴な声で歌ってたな。",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_topic_01_3",
@@ -61748,7 +62796,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_topic_05_7",
             },
             ["voice_ch_char_Tuosi_vo_victory"] = {
-                ["ContentJP"] = "喜劇は賢者の皮肉に過ぎず。",
+                ["ContentJP"] = "喜劇は賢者の皮肉である。",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_victory",
             },
             ["voice_ch_char_Tuosi_vo_welcome"] = {
@@ -62245,8 +63293,8 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_be_hit_r02",
             },
             ["voice_ch_char_Yuming_vo_birthday"] = {
-                ["ContentJP"] = "誕生日？一度も気にしたことはない——『大風九章』を守護すると決めた以上、生死を超越する道を選んだと同じ。\
-……だが祝福を聞いて、お前が笑うというならば……誕生日おめでとう。",
+                ["ContentJP"] = "誕生日？一度も気にしたことはないな——『<Default note=\"text:タイフウキュウショウ\">大風九章</>』を守護すると決めた以上、生死を超越する道を選んだと同じ。\
+……だが祝福を聞いて、お前が笑うというのならば……誕生日おめでとう。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_birthday",
             },
             ["voice_ch_char_Yuming_vo_companio_01"] = {
@@ -62290,23 +63338,27 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_revive",
             },
             ["voice_ch_char_Yuming_vo_skill01_r01"] = {
-                ["ContentJP"] = "呪縛する。",
+                ["ContentJP"] = "玉山崩る。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r01",
             },
             ["voice_ch_char_Yuming_vo_skill01_r02"] = {
-                ["ContentJP"] = "轟け",
+                ["ContentJP"] = "星垂れる平野よ。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r02",
             },
             ["voice_ch_char_Yuming_vo_skill02_r01"] = {
-                ["ContentJP"] = "継承する！",
+                ["ContentJP"] = "罪業ことごとくを、滅するべし！",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r01",
             },
             ["voice_ch_char_Yuming_vo_skill02_r02"] = {
-                ["ContentJP"] = "ミズチ、わが力になれ。",
+                ["ContentJP"] = "ミズチ、俺とともに敵を屠れ。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r02",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Yuming_vo_skill02_r03", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Yuming_vo_skill02_r03"] = {
-                ["ContentJP"] = "影は密かに寄り添う。",
+                ["ContentJP"] = "白刃に我が身を託す。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r03",
             },
             ["voice_ch_char_Yuming_vo_topic_01_1"] = {
@@ -62469,10 +63521,6 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "なに！？わざと無視していたんだな！こんにゃろー！",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_topic_02_3",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Zhangyu_vo_topic_03_1", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Zhangyu_vo_topic_03_1"] = {
                 ["ContentJP"] = "おいおいおい――なんでもかんでも盗むような、小悪党どもとオレを一緒にするなよな！",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_topic_03_1",
@@ -62517,6 +63565,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "手短に済ませましょう。",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_battlestart",
             },
+            ["voice_ch_char_Zhiliu_vo_be_hit_heavy_r01"] = {
+                ["ContentJP"] = "ふっ……やったわね",
+                ["TextMapId"] = "voice_ch_char_Zhiliu_vo_be_hit_heavy_r01",
+            },
             ["voice_ch_char_Zhiliu_vo_birthday"] = {
                 ["ContentJP"] = "今日はあなたの誕生日だから、ささやかだけど、贈り物を用意したの。後で開けてみてね。\
 驚いた？ふふ、以前、少し手を回してあなたの情報を調べたのよ。その情報、全部記憶に刻み込んだわ。\
@@ -62525,7 +63577,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_birthday",
             },
             ["voice_ch_char_Zhiliu_vo_companio_01"] = {
-                ["ContentJP"] = "あなたの香水の香り、濃厚で情熱的ね。そして抑えの効かない甘さを漂わせているわ。<Default note=\"text:カショ\">華胥</>でよく使われる控えめな香りとはまた違っていて、とても興味深いわ。",
+                ["ContentJP"] = "あなたの香水の香り、濃厚で情熱的ね。そして抑えの効かない甘さを漂わせているわ。華胥でよく使われる控えめな香りとはまた違っていて、とても興味深いわ。",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_companio_01",
             },
             ["voice_ch_char_Zhiliu_vo_companio_02_1"] = {
@@ -62561,7 +63613,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_gain",
             },
             ["voice_ch_char_Zhiliu_vo_idle"] = {
-                ["ContentJP"] = "最近の予定は全部秘書に調整させたわ。あなたと一緒に世間の喧騒を忘れ、静寂なひと時を過ごしたいの。――さて、これは本心かしら、それとも何か企んでいる思う？じっくり考えるといいわ。",
+                ["ContentJP"] = "最近の予定は全部秘書に調整させたわ。あなたと一緒に世間の喧騒を忘れ、静寂なひと時を過ごしたいの。――さて、これは本心かしら、それとも何か企んでいると思う？じっくり考えるといいわ。",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_idle",
             },
             ["voice_ch_char_Zhiliu_vo_lvup"] = {
@@ -62585,7 +63637,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_skill02_r01",
             },
             ["voice_ch_char_Zhiliu_vo_skill02_r02"] = {
-                ["ContentJP"] = "巽為風<Default sb=\"text:そんいふう\">巽為風</>――その力、ますます強し。",
+                ["ContentJP"] = "巽為風――その力、ますます強し。",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_skill02_r02",
             },
             ["voice_ch_char_Zhiliu_vo_skill02_r03"] = {

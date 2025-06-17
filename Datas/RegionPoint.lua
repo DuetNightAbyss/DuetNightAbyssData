@@ -21,7 +21,7 @@ return ReadOnly("RegionPoint", {
 			210101,
 		},
 		TelepointId = 1011,
-		UnlockConditionId = 34,
+		UnlockConditionId = 311,
 	},
 	[2002] = {
 		Icon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Tavern.T_Gp_Tavern",
@@ -53,7 +53,7 @@ return ReadOnly("RegionPoint", {
 			101106,
 		},
 		TelepointId = 1012,
-		UnlockConditionId = 32,
+		UnlockConditionId = 310,
 	},
 	[2004] = {
 		Icon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_OutsidersHome.T_Gp_OutsidersHome",
@@ -69,7 +69,7 @@ return ReadOnly("RegionPoint", {
 			101105,
 		},
 		TelepointId = 1011,
-		UnlockConditionId = 36,
+		UnlockConditionId = 313,
 	},
 	[2005] = {
 		Icon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Kuangkeng.T_Gp_Kuangkeng",
@@ -88,7 +88,7 @@ return ReadOnly("RegionPoint", {
 			101304,
 		},
 		TelepointId = 1014,
-		UnlockConditionId = 37,
+		UnlockConditionId = 314,
 	},
 	[2006] = {
 		Icon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Sew.T_Gp_Sew",
@@ -102,7 +102,7 @@ return ReadOnly("RegionPoint", {
 		SubRegion = 101101,
 		TargetSubRegion = T.RT_1,
 		TelepointId = 1011,
-		UnlockConditionId = 35,
+		UnlockConditionId = 312,
 	},
 	[2007] = {
 		Icon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Sew.T_Gp_Sew",
@@ -116,7 +116,7 @@ return ReadOnly("RegionPoint", {
 		SubRegion = 101101,
 		TargetSubRegion = T.RT_1,
 		TelepointId = 1011,
-		UnlockConditionId = 35,
+		UnlockConditionId = 320,
 	},
 	[2008] = {
 		Icon = "/Game/UI/Texture/Dynamic/Atlas/GuidePoint/T_Gp_Secr.T_Gp_Secr",

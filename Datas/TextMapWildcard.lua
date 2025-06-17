@@ -4,6 +4,10 @@ return ReadOnly("TextMapWildcard", {
 		["TextMapId"] = "Abyss_Party_Replaced",
 		["WildcardClassification"] = "Story",
 	},
+	["Abyss_RecLevel"] = {
+		["TextMapId"] = "Abyss_RecLevel",
+		["WildcardClassification"] = "Story",
+	},
 	["AnnouncementTimeFormatLong"] = {
 		["TextMapId"] = "AnnouncementTimeFormatLong",
 		["WildcardClassification"] = "Story",
@@ -34,6 +38,10 @@ return ReadOnly("TextMapWildcard", {
 	},
 	["NpcBiography_Information_XiAo_2"] = {
 		["TextMapId"] = "NpcBiography_Information_XiAo_2",
+		["WildcardClassification"] = "Story",
+	},
+	["PROLOGUE_SELECTGUN_TIP_2"] = {
+		["TextMapId"] = "PROLOGUE_SELECTGUN_TIP_2",
 		["WildcardClassification"] = "Story",
 	},
 	["PlayerLv_Now"] = {
@@ -68,8 +76,20 @@ return ReadOnly("TextMapWildcard", {
 		["TextMapId"] = "Text_Ascend",
 		["WildcardClassification"] = "Story",
 	},
+	["UI_AbyssRoom_Count"] = {
+		["TextMapId"] = "UI_AbyssRoom_Count",
+		["WildcardClassification"] = "Story",
+	},
 	["UI_Armory_ClickEmpty"] = {
 		["TextMapId"] = "UI_Armory_ClickEmpty",
+		["WildcardClassification"] = "Story",
+	},
+	["UI_BattlePass_PetHasCardUp"] = {
+		["TextMapId"] = "UI_BattlePass_PetHasCardUp",
+		["WildcardClassification"] = "Story",
+	},
+	["UI_BattleRoom_Count"] = {
+		["TextMapId"] = "UI_BattleRoom_Count",
 		["WildcardClassification"] = "Story",
 	},
 	["UI_CHAR_DATA_TEXT_11010201"] = {
@@ -176,6 +196,10 @@ return ReadOnly("TextMapWildcard", {
 		["TextMapId"] = "UI_LOGO_DIALOGUE_10018202",
 		["WildcardClassification"] = "Story",
 	},
+	["UI_MiniGame_SF_Hint1"] = {
+		["TextMapId"] = "UI_MiniGame_SF_Hint1",
+		["WildcardClassification"] = "Story",
+	},
 	["UI_ModGuideBook_Task_Collecting"] = {
 		["TextMapId"] = "UI_ModGuideBook_Task_Collecting",
 		["WildcardClassification"] = "Story",
@@ -214,6 +238,50 @@ return ReadOnly("TextMapWildcard", {
 	},
 	["VoiceDes001"] = {
 		["TextMapId"] = "VoiceDes001",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes031"] = {
+		["TextMapId"] = "VoiceDes031",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes032"] = {
+		["TextMapId"] = "VoiceDes032",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes033"] = {
+		["TextMapId"] = "VoiceDes033",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes034"] = {
+		["TextMapId"] = "VoiceDes034",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes035"] = {
+		["TextMapId"] = "VoiceDes035",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes036"] = {
+		["TextMapId"] = "VoiceDes036",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes037"] = {
+		["TextMapId"] = "VoiceDes037",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes038"] = {
+		["TextMapId"] = "VoiceDes038",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes039"] = {
+		["TextMapId"] = "VoiceDes039",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes040"] = {
+		["TextMapId"] = "VoiceDes040",
+		["WildcardClassification"] = "Story",
+	},
+	["VoiceDes136"] = {
+		["TextMapId"] = "VoiceDes136",
 		["WildcardClassification"] = "Story",
 	},
 	["WikiText_10101001"] = {

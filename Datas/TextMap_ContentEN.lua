@@ -7,15 +7,15 @@ local Data = {
                 ["TextMapId"] = "AFFIX_1001_DESC",
             },
             ["AFFIX_1002_DESC"] = {
-                ["ContentEN"] = "Increases item drop rate.",
+                ["ContentEN"] = "Increases item drop rate",
                 ["TextMapId"] = "AFFIX_1002_DESC",
             },
             ["AFFIX_1003_DESC"] = {
-                ["ContentEN"] = "EXP from defeated enemies +#1",
+                ["ContentEN"] = "EXP gained by defeating enemies +#1",
                 ["TextMapId"] = "AFFIX_1003_DESC",
             },
             ["AFFIX_1004_DESC"] = {
-                ["ContentEN"] = "Revive +#1",
+                ["ContentEN"] = "Revival Attempt +#1",
                 ["TextMapId"] = "AFFIX_1004_DESC",
             },
             ["AFFIX_1005_DESC"] = {
@@ -59,11 +59,11 @@ local Data = {
                 ["TextMapId"] = "AFFIX_1014_DESC",
             },
             ["AFFIX_1015_DESC"] = {
-                ["ContentEN"] = "Increases EXP when used as part",
+                ["ContentEN"] = "Grants more EXP when used as upgrade material",
                 ["TextMapId"] = "AFFIX_1015_DESC",
             },
             ["AFFIX_1016_DESC"] = {
-                ["ContentEN"] = "Quick Crack Mechanism",
+                ["ContentEN"] = "Can crack the mechanism more quickly",
                 ["TextMapId"] = "AFFIX_1016_DESC",
             },
             ["AREA_NAME_1"] = {
@@ -163,7 +163,7 @@ local Data = {
                 ["TextMapId"] = "ATTR_DESC_TriggerProbability",
             },
             ["Abyss_Battle_Again"] = {
-                ["ContentEN"] = "Re-challenge",
+                ["ContentEN"] = "Re-try",
                 ["TextMapId"] = "Abyss_Battle_Again",
             },
             ["Abyss_Battle_Fail"] = {
@@ -231,11 +231,11 @@ local Data = {
                 ["TextMapId"] = "Abyss_InfiniteLockToast",
             },
             ["Abyss_InfiniteLockToast_1"] = {
-                ["ContentEN"] = "Takes effect from <H>Featured Repertoire Act Ⅱ</>",
+                ["ContentEN"] = "Takes effect when the <H>Featured Repertoire Act Ⅱ</> challenge starts",
                 ["TextMapId"] = "Abyss_InfiniteLockToast_1",
             },
             ["Abyss_InfiniteLockToast_2"] = {
-                ["ContentEN"] = "Takes effect from <H>Featured Repertoire Act Ⅲ</>",
+                ["ContentEN"] = "Takes effect when the <H>Featured Repertoire Act Ⅲ</> challenge starts",
                 ["TextMapId"] = "Abyss_InfiniteLockToast_2",
             },
             ["Abyss_InfiniteNode"] = {
@@ -288,7 +288,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "Abyss_Normal",
             },
             ["Abyss_NormalBuffLockToast_1"] = {
-                ["ContentEN"] = "Takes effect from <H>Classic Repertoire Act Ⅲ</>",
+                ["ContentEN"] = "Takes effect when the <H>Classic Repertoire Act Ⅲ</> challenge starts",
                 ["TextMapId"] = "Abyss_NormalBuffLockToast_1",
             },
             ["Abyss_NormalBuffLockToast_2"] = {
@@ -324,7 +324,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "Abyss_PartySetup_Change",
             },
             ["Abyss_PartySetup_ConditionsAreNot"] = {
-                ["ContentEN"] = "Cannot deploy - Requirements are not met.",
+                ["ContentEN"] = "Cannot start. Requirements not met",
                 ["TextMapId"] = "Abyss_PartySetup_ConditionsAreNot",
             },
             ["Abyss_Party_ConditionsAreNot"] = {
@@ -340,7 +340,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "Abyss_RecElemental",
             },
             ["Abyss_RecLevel"] = {
-                ["ContentEN"] = "Recommended Level",
+                ["ContentEN"] = "Recommended Rank: Lv.{空格}",
                 ["TextMapId"] = "Abyss_RecLevel",
             },
             ["Abyss_ResetFight"] = {
@@ -464,7 +464,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "Access_EggBai",
             },
             ["Access_Monster_HardNormal"] = {
-                ["ContentEN"] = "Dropped by Elite Enemy",
+                ["ContentEN"] = "Dropped by Elite Enemy in Commissions",
                 ["TextMapId"] = "Access_Monster_HardNormal",
             },
             ["Access_Monster_Normal"] = {
@@ -632,7 +632,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "Attr_EnmityValue_Name",
             },
             ["Attr_ExcelWeaponTag_Name"] = {
-                ["ContentEN"] = "Weapon Mastery",
+                ["ContentEN"] = "Weapon Proficiency",
                 ["TextMapId"] = "Attr_ExcelWeaponTag_Name",
             },
             ["Attr_FallAttackRate_Name"] = {
@@ -805,7 +805,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
             },
         }
     end },
-    { MinKey = "BATTLE_COMBO_4", MaxKey = "CVName4006", Loader = function()
+    { MinKey = "BATTLE_COMBO_4", MaxKey = "CVName4005", Loader = function()
         return {
             ["BATTLE_COMBO_4"] = {
                 ["ContentEN"] = "S",
@@ -1028,7 +1028,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "BattlePass_Task_Des_100001004",
             },
             ["BattlePass_Task_Des_100001005"] = {
-                ["ContentEN"] = "Capture <H>1</> Geniemon",
+                ["ContentEN"] = "Befriend <H>1</> Geniemon",
                 ["TextMapId"] = "BattlePass_Task_Des_100001005",
             },
             ["BattlePass_Task_Des_100001101"] = {
@@ -1052,7 +1052,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "BattlePass_Task_Des_100001105",
             },
             ["BattlePass_Task_Des_100001106"] = {
-                ["ContentEN"] = "Capture <H>10</> Geniemons",
+                ["ContentEN"] = "Befriend <H>10</> Geniemons",
                 ["TextMapId"] = "BattlePass_Task_Des_100001106",
             },
             ["BattlePass_Task_Des_100001107"] = {
@@ -1060,7 +1060,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "BattlePass_Task_Des_100001107",
             },
             ["BattlePass_Task_Des_100001108"] = {
-                ["ContentEN"] = "Challenge and defeat any opponent in Nocturnal Echoes <H>2</> times",
+                ["ContentEN"] = "Challenge and defeat any opponent in Nocturnal Echoes <H>1</> time",
                 ["TextMapId"] = "BattlePass_Task_Des_100001108",
             },
             ["BattlePass_Task_Des_100001109"] = {
@@ -1104,7 +1104,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "BattlePass_Task_Des_100001206",
             },
             ["BattlePass_Task_Des_100001207"] = {
-                ["ContentEN"] = "Collect <H>1,000</> EverSpring Vouchers in the Stranger from Afar event ",
+                ["ContentEN"] = "Collect <H>1,000</> EverSpring Vouchers in the Stranger from Afar event",
                 ["TextMapId"] = "BattlePass_Task_Des_100001207",
             },
             ["BattleWheel_Apply"] = {
@@ -1172,12 +1172,16 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "BossSkillToast_Linen_Skill11",
             },
             ["BossSkillToast_Saiqi_Skill05"] = {
-                ["ContentEN"] = "Cocoon of Broken Dreams",
+                ["ContentEN"] = "Chrysalis of Broken Dreams",
                 ["TextMapId"] = "BossSkillToast_Saiqi_Skill05",
             },
             ["BossSkillToast_Saiqi_Skill10"] = {
                 ["ContentEN"] = "Withering Dive",
                 ["TextMapId"] = "BossSkillToast_Saiqi_Skill10",
+            },
+            ["BossSkillToast_Saiqi_Skill23"] = {
+                ["ContentEN"] = "Lament of Fading Light",
+                ["TextMapId"] = "BossSkillToast_Saiqi_Skill23",
             },
             ["BossSkillToast_Shenpan_Skill02"] = {
                 ["ContentEN"] = "Baptism in Light",
@@ -1188,19 +1192,19 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "BossSkillToast_Shenpan_Skill05",
             },
             ["BossSkillToast_Shijingzhe_Skill05"] = {
-                ["ContentEN"] = "Pounce",
+                ["ContentEN"] = "Savage Pounce",
                 ["TextMapId"] = "BossSkillToast_Shijingzhe_Skill05",
             },
             ["BossSkillToast_Shijingzhe_Skill13"] = {
-                ["ContentEN"] = "Bloody Tear",
+                ["ContentEN"] = "Feral Rip",
                 ["TextMapId"] = "BossSkillToast_Shijingzhe_Skill13",
             },
             ["BossSkillToast_Shijingzhe_Skill14"] = {
-                ["ContentEN"] = "Hopeless Stomp",
+                ["ContentEN"] = "Hopeless Trample",
                 ["TextMapId"] = "BossSkillToast_Shijingzhe_Skill14",
             },
             ["BossSkillToast_Shijingzhe_Skill15"] = {
-                ["ContentEN"] = "Where is Home?",
+                ["ContentEN"] = "Homeless Howl",
                 ["TextMapId"] = "BossSkillToast_Shijingzhe_Skill15",
             },
             ["BossSkillToast_Tuosi_Skill07"] = {
@@ -1440,7 +1444,7 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["TextMapId"] = "CVName2008",
             },
             ["CVName2009"] = {
-                ["ContentEN"] = "James MacNaughton",
+                ["ContentEN"] = "James Macnaughton",
                 ["TextMapId"] = "CVName2009",
             },
             ["CVName2010"] = {
@@ -1603,14 +1607,14 @@ and unlocked the next node level<H>%s</>. Proceed to the next node level?",
                 ["ContentEN"] = "소연",
                 ["TextMapId"] = "CVName4005",
             },
+        }
+    end },
+    { MinKey = "CVName4006", MaxKey = "Content_110101_1", Loader = function()
+        return {
             ["CVName4006"] = {
                 ["ContentEN"] = "성예원",
                 ["TextMapId"] = "CVName4006",
             },
-        }
-    end },
-    { MinKey = "CVName4007", MaxKey = "Content_110103_3_2", Loader = function()
-        return {
             ["CVName4007"] = {
                 ["ContentEN"] = "김보나",
                 ["TextMapId"] = "CVName4007",
@@ -1802,6 +1806,10 @@ The unexpected encounter stirred her long-slumbering dream\
                 ["ContentEN"] = "Truffle & Filbert",
                 ["TextMapId"] = "ChatCharacter13",
             },
+            ["ChatCharacter14"] = {
+                ["ContentEN"] = "Outsider",
+                ["TextMapId"] = "ChatCharacter14",
+            },
             ["ChatCharacter15"] = {
                 ["ContentEN"] = "Rebecca",
                 ["TextMapId"] = "ChatCharacter15",
@@ -1826,9 +1834,29 @@ The unexpected encounter stirred her long-slumbering dream\
                 ["ContentEN"] = "Rhythm",
                 ["TextMapId"] = "ChatCharacter20",
             },
+            ["ChatCharacter22"] = {
+                ["ContentEN"] = "Eleutheria",
+                ["TextMapId"] = "ChatCharacter22",
+            },
+            ["ChatCharacter23"] = {
+                ["ContentEN"] = "Lady Nifle",
+                ["TextMapId"] = "ChatCharacter23",
+            },
+            ["ChatCharacter24"] = {
+                ["ContentEN"] = "Yale and Oliver",
+                ["TextMapId"] = "ChatCharacter24",
+            },
             ["ChatCharacter26"] = {
                 ["ContentEN"] = "Margie",
                 ["TextMapId"] = "ChatCharacter26",
+            },
+            ["ChatCharacter31"] = {
+                ["ContentEN"] = "Mr Qiu",
+                ["TextMapId"] = "ChatCharacter31",
+            },
+            ["ChatCharacter34"] = {
+                ["ContentEN"] = "Daphne",
+                ["TextMapId"] = "ChatCharacter34",
             },
             ["Comma"] = {
                 ["ContentEN"] = ",",
@@ -2386,6 +2414,10 @@ The unexpected encounter stirred her long-slumbering dream\
                 ["ContentEN"] = "A voice seems to beckon from beyond...",
                 ["TextMapId"] = "Content_110101_1",
             },
+        }
+    end },
+    { MinKey = "Content_110101_2", MaxKey = "Content_200215_8", Loader = function()
+        return {
             ["Content_110101_2"] = {
                 ["ContentEN"] = "Do not let it ensnare you. Press forward and escape the nightmare.",
                 ["TextMapId"] = "Content_110101_2",
@@ -2415,10 +2447,6 @@ Meanwhile, she plans to retrieve medical supplies from the warehouse. For safety
                 ["ContentEN"] = "Avar's timely arrival has turned the tide of battle. Seize this moment to defeat the Filthoid leader and bring the fight to an end!",
                 ["TextMapId"] = "Content_110103_3_2",
             },
-        }
-    end },
-    { MinKey = "Content_110103_4", MaxKey = "Content_200219_5", Loader = function()
-        return {
             ["Content_110103_4"] = {
                 ["ContentEN"] = "Together with Avar, you've successfully repelled the Filthoids. Time to return to the medical post to discuss the next move.",
                 ["TextMapId"] = "Content_110103_4",
@@ -2835,7 +2863,7 @@ Wait... did it just talk? Or was it someone else?",
                 ["TextMapId"] = "Content_200103_4",
             },
             ["Content_200103_5"] = {
-                ["ContentEN"] = "The Geniemons system is now unlocked. Capture a Geniemon to assist you on your journey ahead.",
+                ["ContentEN"] = "The Geniemons system is now unlocked. Obtain a Geniemon to assist you on your journey ahead.",
                 ["TextMapId"] = "Content_200103_5",
             },
             ["Content_200104_1"] = {
@@ -2916,6 +2944,18 @@ However, she looks quite... \"polite\".",
             ["Content_200203_1"] = {
                 ["ContentEN"] = "The lady, with a hoarse voice and dirty dressy clothes, stopped passers-by over and over again, as if she were trying to find something...",
                 ["TextMapId"] = "Content_200203_1",
+            },
+            ["Content_200203_12"] = {
+                ["ContentEN"] = "Since you left that sorrowful woman behind, someone's been watching you. Seems like he's got something to say.",
+                ["TextMapId"] = "Content_200203_12",
+            },
+            ["Content_200203_13"] = {
+                ["ContentEN"] = "Ask around — someone else might know something.",
+                ["TextMapId"] = "Content_200203_13",
+            },
+            ["Content_200203_14"] = {
+                ["ContentEN"] = "There may be others who know more — try asking around about the doctor's whereabouts.",
+                ["TextMapId"] = "Content_200203_14",
             },
             ["Content_200203_2"] = {
                 ["ContentEN"] = "Ms Elsa's only daughter, Annie, went missing.\
@@ -3255,6 +3295,10 @@ Return to Mist Aken and catch up with Margie.",
 Now, let's see what his next culinary creation will be.",
                 ["TextMapId"] = "Content_200215_4",
             },
+            ["Content_200215_41"] = {
+                ["ContentEN"] = "You're still sceptical. But since you caught the fish yourself, might as well give Marcus' cooking a try.",
+                ["TextMapId"] = "Content_200215_41",
+            },
             ["Content_200215_5"] = {
                 ["ContentEN"] = "Marcus' experimental dishes haven't won over many fans yet, but he's not ready to give up. He's now set his sights on plump Frostspines for his next recipe. Help him gather a few.",
                 ["TextMapId"] = "Content_200215_5",
@@ -3272,6 +3316,10 @@ You've heard he's been hanging around the city gate lately. Go see how he's doin
                 ["ContentEN"] = "Marcus is sitting on a bench by the gates of Icelake. Go talk to him.",
                 ["TextMapId"] = "Content_200215_8",
             },
+        }
+    end },
+    { MinKey = "Content_200216_1", MaxKey = "DUNGEON_NAME_30007", Loader = function()
+        return {
             ["Content_200216_1"] = {
                 ["ContentEN"] = "You've heard about a sketchy treasure chest outside Icelake. Go check it out.",
                 ["TextMapId"] = "Content_200216_1",
@@ -3320,10 +3368,6 @@ Something seems amiss at the ticket booth today — it might be worth investigat
                 ["ContentEN"] = "Join Li An'de in completing the origami — a quiet, heartfelt gesture of good wishes, made by hand.",
                 ["TextMapId"] = "Content_200219_5",
             },
-        }
-    end },
-    { MinKey = "Content_200220_1", MaxKey = "DUNGEON_NAME_80303", Loader = function()
-        return {
             ["Content_200220_1"] = {
                 ["ContentEN"] = "As a dedicated Phoxhunter, you make it a point not to miss any interesting commissions. Head to The Asphodel and pick up some new gigs.",
                 ["TextMapId"] = "Content_200220_1",
@@ -3871,7 +3915,7 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "DUNGEON_ENGINE_101",
             },
             ["DUNGEON_ENGINE_102"] = {
-                ["ContentEN"] = "Phoxynamo Wheel  No. %s access unlocked. Ready for activation.",
+                ["ContentEN"] = "Phoxynamo Wheel No. %s access unlocked. Ready for activation.",
                 ["TextMapId"] = "DUNGEON_ENGINE_102",
             },
             ["DUNGEON_ENGINE_103"] = {
@@ -4086,6 +4130,10 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["ContentEN"] = "Escort",
                 ["TextMapId"] = "DUNGEON_NAME_30007",
             },
+        }
+    end },
+    { MinKey = "DUNGEON_NAME_30008", MaxKey = "Description_110105_2_3", Loader = function()
+        return {
             ["DUNGEON_NAME_30008"] = {
                 ["ContentEN"] = "Termination (Ⅰ)",
                 ["TextMapId"] = "DUNGEON_NAME_30008",
@@ -4130,10 +4178,6 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["ContentEN"] = "Spike Sprint Ⅲ",
                 ["TextMapId"] = "DUNGEON_NAME_80303",
             },
-        }
-    end },
-    { MinKey = "DUNGEON_NAME_80401", MaxKey = "Description_110106_1_4", Loader = function()
-        return {
             ["DUNGEON_NAME_80401"] = {
                 ["ContentEN"] = "Shooting Basics Ⅰ",
                 ["TextMapId"] = "DUNGEON_NAME_80401",
@@ -4431,7 +4475,7 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "DUNGEON_SABOTAGEPRO_101",
             },
             ["DUNGEON_SABOTAGEPRO_102"] = {
-                ["ContentEN"] = "Disrupt the mechanism to expose the device's core",
+                ["ContentEN"] = "Crack the mechanism to expose the device's core",
                 ["TextMapId"] = "DUNGEON_SABOTAGEPRO_102",
             },
             ["DUNGEON_SABOTAGEPRO_103"] = {
@@ -4571,7 +4615,7 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "DUNGEON_SURVIVALPRO_118",
             },
             ["DUNGEON_SURVIVALPRO_119"] = {
-                ["ContentEN"] = "Potion Stations provide <Highlight>Resource</>, and grant <Highlight>Attack</> or <Highlight>Healing</> buffs. Different Potion Stations have different functions.",
+                ["ContentEN"] = "Potion Station provides <Highlight>Resource</>, or grants <Highlight>Healing</> or <Highlight>Attack</> buffs. Different Potion Stations have different functions.",
                 ["TextMapId"] = "DUNGEON_SURVIVALPRO_119",
             },
             ["DUNGEON_SURVIVALPRO_120"] = {
@@ -4839,7 +4883,7 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "Description_110103_3",
             },
             ["Description_110103_3_2"] = {
-                ["ContentEN"] = "Defeat The Forsakens",
+                ["ContentEN"] = "Defeat the member of The Forsakens",
                 ["TextMapId"] = "Description_110103_3_2",
             },
             ["Description_110103_3_sp"] = {
@@ -4890,6 +4934,10 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["ContentEN"] = "Shut down active Phoxynamo Wheels or transformers: 3/3",
                 ["TextMapId"] = "Description_110105_2_3",
             },
+        }
+    end },
+    { MinKey = "Description_110105_2_4", MaxKey = "Description_200207_7", Loader = function()
+        return {
             ["Description_110105_2_4"] = {
                 ["ContentEN"] = "Investigate the eastern boiler room",
                 ["TextMapId"] = "Description_110105_2_4",
@@ -4934,10 +4982,6 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["ContentEN"] = "Activate Backup Phoxynamo Wheel #3",
                 ["TextMapId"] = "Description_110106_1_4",
             },
-        }
-    end },
-    { MinKey = "Description_110106_1_5", MaxKey = "Description_200209_7", Loader = function()
-        return {
             ["Description_110106_1_5"] = {
                 ["ContentEN"] = "Wait for Avar to unlock the Backup Phoxynamo Wheel controls",
                 ["TextMapId"] = "Description_110106_1_5",
@@ -5435,7 +5479,7 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "Description_200103_4",
             },
             ["Description_200103_5"] = {
-                ["ContentEN"] = "Capture a Geniemon",
+                ["ContentEN"] = "Obtain a Geniemon",
                 ["TextMapId"] = "Description_200103_5",
             },
             ["Description_200104_1"] = {
@@ -5695,6 +5739,10 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["ContentEN"] = "Defeat Lulu Lunoloot",
                 ["TextMapId"] = "Description_200207_7",
             },
+        }
+    end },
+    { MinKey = "Description_200208_1", MaxKey = "DynQuest_SewPet_Title", Loader = function()
+        return {
             ["Description_200208_1"] = {
                 ["ContentEN"] = "Head to the Hypnos' House",
                 ["TextMapId"] = "Description_200208_1",
@@ -5728,7 +5776,7 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "Description_200209_4",
             },
             ["Description_200209_5"] = {
-                ["ContentEN"] = "Search the Infirmary",
+                ["ContentEN"] = "Go and search in the Hypnos' House",
                 ["TextMapId"] = "Description_200209_5",
             },
             ["Description_200209_6"] = {
@@ -5739,10 +5787,6 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["ContentEN"] = "Protect Luna",
                 ["TextMapId"] = "Description_200209_7",
             },
-        }
-    end },
-    { MinKey = "Description_200210_1", MaxKey = "DynQuest_TrafficwayProtectwuzi_Title", Loader = function()
-        return {
             ["Description_200210_1"] = {
                 ["ContentEN"] = "Talk to Harlowe",
                 ["TextMapId"] = "Description_200210_1",
@@ -5858,6 +5902,10 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
             ["Description_200215_4"] = {
                 ["ContentEN"] = "Talk to Marcus again",
                 ["TextMapId"] = "Description_200215_4",
+            },
+            ["Description_200215_41"] = {
+                ["ContentEN"] = "Go try Marcus' fish",
+                ["TextMapId"] = "Description_200215_41",
             },
             ["Description_200215_5"] = {
                 ["ContentEN"] = "Catch a plump Frostspine",
@@ -6200,11 +6248,11 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "DynQuest_FortInBox_Title",
             },
             ["DynQuest_FortPet_Des"] = {
-                ["ContentEN"] = "Defeat the enemies and capture the Geniemon",
+                ["ContentEN"] = "Defeat the enemies and rescue the Geniemon",
                 ["TextMapId"] = "DynQuest_FortPet_Des",
             },
             ["DynQuest_FortPet_Title"] = {
-                ["ContentEN"] = "Geniemon Capture",
+                ["ContentEN"] = "Geniemon Rescue!",
                 ["TextMapId"] = "DynQuest_FortPet_Title",
             },
             ["DynQuest_FortXianjing_Des"] = {
@@ -6352,11 +6400,11 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "DynQuest_IcelakeOldFisher_Title",
             },
             ["DynQuest_IcelakePet_Des"] = {
-                ["ContentEN"] = "Defeat the enemies and capture the Geniemon",
+                ["ContentEN"] = "Defeat the enemies and rescue the Geniemon",
                 ["TextMapId"] = "DynQuest_IcelakePet_Des",
             },
             ["DynQuest_IcelakePet_Title"] = {
-                ["ContentEN"] = "Get That Geniemon!",
+                ["ContentEN"] = "Rescue the Geniemon!",
                 ["TextMapId"] = "DynQuest_IcelakePet_Title",
             },
             ["DynQuest_IcelakeXiaoresearch_Des"] = {
@@ -6488,13 +6536,17 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "DynQuest_SewHuishoulaixi_Title",
             },
             ["DynQuest_SewPet_Des"] = {
-                ["ContentEN"] = "Defeat the enemies and capture the Geniemon",
+                ["ContentEN"] = "Defeat the enemies and rescue the Geniemon",
                 ["TextMapId"] = "DynQuest_SewPet_Des",
             },
             ["DynQuest_SewPet_Title"] = {
-                ["ContentEN"] = "Geniemon Capture",
+                ["ContentEN"] = "Geniemon Rescue!",
                 ["TextMapId"] = "DynQuest_SewPet_Title",
             },
+        }
+    end },
+    { MinKey = "DynQuest_SewSaveFisher_Des", MaxKey = "FailureGuidance_Text_1003", Loader = function()
+        return {
             ["DynQuest_SewSaveFisher_Des"] = {
                 ["ContentEN"] = "Help the fisherman",
                 ["TextMapId"] = "DynQuest_SewSaveFisher_Des",
@@ -6543,10 +6595,6 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["ContentEN"] = "A Misunderstanding",
                 ["TextMapId"] = "DynQuest_TrafficwayProtectwuzi_Title",
             },
-        }
-    end },
-    { MinKey = "DynQuest_TrafficwayYichan_Des", MaxKey = "FeeRefund_MonthlyCard_Tips", Loader = function()
-        return {
             ["DynQuest_TrafficwayYichan_Des"] = {
                 ["ContentEN"] = "Retrieve the lost items for the forgetful Phoxhunter",
                 ["TextMapId"] = "DynQuest_TrafficwayYichan_Des",
@@ -6736,7 +6784,7 @@ But you know the truth: the house is empty now. Maybe it's time to reveal to The
                 ["TextMapId"] = "EntryTitle_201026",
             },
             ["EntryTitle_204001"] = {
-                ["ContentEN"] = "The {性别2：Boy|Girl} from the Dream",
+                ["ContentEN"] = "The {性别2:Boy|Girl} in the Dream",
                 ["TextMapId"] = "EntryTitle_204001",
             },
             ["EntryTitle_204002"] = {
@@ -7157,11 +7205,11 @@ Allow me to lead you onto the endless pathways of time.",
                 ["TextMapId"] = "Event_Des_103002",
             },
             ["Event_Des_103003"] = {
-                ["ContentEN"] = "Complete the Main Story \"On a Gentle Breeze\" to claim your Quest Rewards, including the character [Outsider].",
+                ["ContentEN"] = "Complete the Main Story \"Prey VS Hunter\" to claim your Quest Rewards, including the character [Outsider].",
                 ["TextMapId"] = "Event_Des_103003",
             },
             ["Event_Des_103004"] = {
-                ["ContentEN"] = "Complete the Main Story \"The Judgment Day\" to claim your Quest Rewards, including the character [Daphne].",
+                ["ContentEN"] = "Complete the Main Story \"The Overlookers\" to claim your Quest Rewards, including the character [Daphne].",
                 ["TextMapId"] = "Event_Des_103004",
             },
             ["Event_Des_103005"] = {
@@ -7194,8 +7242,8 @@ Allow me to lead you onto the endless pathways of time.",
 [Classic Repertoire] are one-time challenges. [Featured Repertoire] and [Immortal Repertoire] rotate with version updates. [Immortal Repertoire] also include permanent stages that can be replayed after meeting certain conditions.\
 2. Defeat all opponents within the time limit to clear a stage. Completing a stage awards [Stars] and [Ticket Stubs]. Stars unlock milestone rewards. Ticket Stubs can be exchanged for items at the Theatre Gift Shop.\
 3. [Classic Repertoire] and [Featured Repertoire] include two rounds per stage: [Hero's Odyssey] and [Hero's Way Home]. You must use different teams for each round. Final rewards are based on your total stars earned across both rounds. [Immortal Repertoire] includes only [Hero's Odyssey].\
-4. Each round consists of 5 rooms that must be cleared in order. Clear all rooms in both rounds to unlock the next act. Failing to defeat the opponent or running out of time in any room will prevent further progress.\
-5. All stages feature [Stage Score] — a unique mechanic that grants buffs or debuffs during battle. Adjust your strategy based on the effects in play.",
+4. Each round consists of 5 rooms that must be cleared in order. Clear all rooms in both [Hero's Odyssey] and [Hero's Way Home] to unlock the next act. Failing to defeat the opponent or running out of time in any room will prevent further progress.\
+5. All stages feature [Stage Score] — a unique mechanic that grants buffs or debuffs during battle. You can adjust your strategy based on the effects in play.",
                 ["TextMapId"] = "Event_Rule_103002",
             },
             ["Event_STitle_103002"] = {
@@ -7307,6 +7355,10 @@ Allow me to lead you onto the endless pathways of time.",
                 ["ContentEN"] = "Enhancing weapons and equipping them with suitable Demon Wedges can unlock their full potential.",
                 ["TextMapId"] = "FailureGuidance_Text_1003",
             },
+        }
+    end },
+    { MinKey = "FailureGuidance_Text_1004", MaxKey = "Guide_Message_DailyGoalUI_PHONE_2", Loader = function()
+        return {
             ["FailureGuidance_Text_1004"] = {
                 ["ContentEN"] = "Retrace for more characters and weapons to strengthen The Noctoyagers.",
                 ["TextMapId"] = "FailureGuidance_Text_1004",
@@ -7355,10 +7407,6 @@ Allow me to lead you onto the endless pathways of time.",
                 ["ContentEN"] = "(All Monthly Pass purchases count toward total purchase. Remaining Monthly Pass refund available: <highlight>%s</>)",
                 ["TextMapId"] = "FeeRefund_MonthlyCard_Tips",
             },
-        }
-    end },
-    { MinKey = "FeeRefund_Phoxene", MaxKey = "Guide_Message_ModArchiveUI_8_Pad", Loader = function()
-        return {
             ["FeeRefund_Phoxene"] = {
                 ["ContentEN"] = "Top-Up Refund",
                 ["TextMapId"] = "FeeRefund_Phoxene",
@@ -7427,7 +7475,7 @@ If a player tops up ¥328 via the recharge tier, plus purchases gift pack [XXX] 
                 ["TextMapId"] = "Four",
             },
             ["GACHAMAIN_TITLE_SHOWTIMES"] = {
-                ["ContentEN"] = "Guaranteed to obtain within <highlight>%d</> attempts",
+                ["ContentEN"] = "Guaranteed to obtain within <highlight>%d</> Retraces",
                 ["TextMapId"] = "GACHAMAIN_TITLE_SHOWTIMES",
             },
             ["GACHA_BONUS"] = {
@@ -7594,11 +7642,11 @@ Once this Chrono ends, the event-exclusive weapon \"Elpides Abound\" will not be
                 ["TextMapId"] = "GACHA_WARNING_WEAPON_UP",
             },
             ["GRADEUP_1101_01"] = {
-                ["ContentEN"] = "Upon using Helix Leap or [Faintlight], grants 1 stack of Skill Efficiency Increase by #1 for #2s (up to 3 stacks).",
+                ["ContentEN"] = "Upon using Helix Leap or [Faintlight], Berenica gains 1 stack that increases Skill Efficiency by #1 for #2s, up to 3 stacks.",
                 ["TextMapId"] = "GRADEUP_1101_01",
             },
             ["GRADEUP_1101_02"] = {
-                ["ContentEN"] = "Deals #3 more damage to targets with a HP percentage lower than Berenica.",
+                ["ContentEN"] = "Increases damage dealt to targets with a HP percentage lower than Berenica by #3.",
                 ["TextMapId"] = "GRADEUP_1101_02",
             },
             ["GRADEUP_1101_03"] = {
@@ -7614,15 +7662,15 @@ Once this Chrono ends, the event-exclusive weapon \"Elpides Abound\" will not be
                 ["TextMapId"] = "GRADEUP_1101_05",
             },
             ["GRADEUP_1101_06"] = {
-                ["ContentEN"] = "While in [Netherflames] status, each attack has a chance to unleash 1 additional Swordwave. Chance equals #5 of [Ymir]'s Trigger Probability Attribute.",
+                ["ContentEN"] = "When in [Netherflames] state, each attack has a chance to unleash 1 additional Swordwave. The probability equals to #5 of [Ymir]'s Trigger Probability.",
                 ["TextMapId"] = "GRADEUP_1101_06",
             },
             ["GRADEUP_1103_01"] = {
-                ["ContentEN"] = "[Immersion] gained from [Duo] per time is increased to #1 of Max Sanity.",
+                ["ContentEN"] = "[Immersion] gained from [Duo] is increased to #1 of Max Sanity.",
                 ["TextMapId"] = "GRADEUP_1103_01",
             },
             ["GRADEUP_1103_02"] = {
-                ["ContentEN"] = "The [Furious Claws] (3rd hit) and [Mournful Howl] decrease Damage Taken by #2 and increase the chance of applying [Adagio] to [Concerto] to 100%.",
+                ["ContentEN"] = "When using the 3-hit of [Furious Claws] and [Mournful Howl], decreases Damage Taken by #2 and increases the chance of inflicting [Adagio] through [Concerto] to 100%.",
                 ["TextMapId"] = "GRADEUP_1103_02",
             },
             ["GRADEUP_1103_03"] = {
@@ -7630,15 +7678,15 @@ Once this Chrono ends, the event-exclusive weapon \"Elpides Abound\" will not be
                 ["TextMapId"] = "GRADEUP_1103_03",
             },
             ["GRADEUP_1103_04"] = {
-                ["ContentEN"] = "When dealing damage with [Furious Claws] (4th hit) and Plunging Attack, increases Damage by #4 if the target has 10 stacks of [Adagio].",
+                ["ContentEN"] = "When dealing damage with the 4-hit of [Furious Claws] and Plunging Attack, increases the damage taken by the target who is inflicted with 10 stacks of [Adagio] by #4.",
                 ["TextMapId"] = "GRADEUP_1103_04",
             },
             ["GRADEUP_1103_05"] = {
-                ["ContentEN"] = "[Showtime] Level +2, [On Stage] Level +1.",
+                ["ContentEN"] = "[Curtain Up] Level +2, [On Stage] Level +1.",
                 ["TextMapId"] = "GRADEUP_1103_05",
             },
             ["GRADEUP_1103_06"] = {
-                ["ContentEN"] = "[Presto] grants an additional #5 increase to Morale. When triggering [Duo]'s [Immersion] effect, extends [Presto]'s duration by 0.2s.",
+                ["ContentEN"] = "Enables [Presto] to increase Morale by #5. Each time Phantasio gains [Immersion] from [Duo], [Presto]'s duration is extended by 0.2 0.2s.",
                 ["TextMapId"] = "GRADEUP_1103_06",
             },
             ["GRADEUP_1502_01"] = {
@@ -7667,7 +7715,9 @@ After [Lunar Hunt] deals damage, the target takes #2 increased damage from [Sola
                 ["TextMapId"] = "GRADEUP_1502_06",
             },
             ["GRADEUP_1503_01"] = {
-                ["ContentEN"] = "Increases the effect percentage of [Sword Intent]/[String Intent] applied to [Life's A Fleeting, Shifting Tide] by #1.",
+                ["ContentEN"] = "Increases the effect percentage of [Sword Intent]/[String Intent] applied to [Life's A Fleeting, Shifting Tide] by #1.\
+\
+When there is/are 1/2 enemy/enemies within 20 metres, the mutual conversion point between [Sword Intent] and [String Intent] is increased to 3/2 points when Kezhou deals weapon damage.",
                 ["TextMapId"] = "GRADEUP_1503_01",
             },
             ["GRADEUP_1503_02"] = {
@@ -7688,7 +7738,7 @@ After [Lunar Hunt] deals damage, the target takes #2 increased damage from [Sola
                 ["TextMapId"] = "GRADEUP_1503_05",
             },
             ["GRADEUP_1503_06"] = {
-                ["ContentEN"] = "When triggering Bonus Effect, Kezhou gains 1 stack that increases his PEN stats by #6 for #7s, up to 5 stacks.",
+                ["ContentEN"] = "When triggering Bonus Effect, Kezhou gains 1 stack that increases his PEN stats by #6 for #7s, up to 6 stacks.",
                 ["TextMapId"] = "GRADEUP_1503_06",
             },
             ["GRADEUP_1801_01"] = {
@@ -7740,11 +7790,11 @@ After [Lunar Hunt] deals damage, the target takes #2 increased damage from [Sola
                 ["TextMapId"] = "GRADEUP_2101_06",
             },
             ["GRADEUP_2301_01"] = {
-                ["ContentEN"] = "Increases the number of [Summon: Tentacles] summoned through [Brawl For Justice!] to 12. The maximum number of [Summon: Tentacles] that can exist at the same time increases to 24.",
+                ["ContentEN"] = "Increases the number of [Tentacles] summoned through [Brawl For Justice!] to 12 and the maximum number of [Tentacles] that can exist at the same time to 24.",
                 ["TextMapId"] = "GRADEUP_2301_01",
             },
             ["GRADEUP_2301_02"] = {
-                ["ContentEN"] = "When [Summon: Tentacle] deals damage, there is a #1 chance to replenish 1 projectile for Tabethe. This effect can only be triggered once every second.",
+                ["ContentEN"] = "When [Tentacle] deals damage, there is a #1 chance to reload 1 projectile for Tabethe. This effect can only be triggered once every second.",
                 ["TextMapId"] = "GRADEUP_2301_02",
             },
             ["GRADEUP_2301_03"] = {
@@ -7752,7 +7802,7 @@ After [Lunar Hunt] deals damage, the target takes #2 increased damage from [Sola
                 ["TextMapId"] = "GRADEUP_2301_03",
             },
             ["GRADEUP_2301_04"] = {
-                ["ContentEN"] = "For each [Summon: Tentacle] on the field, increases Tabethe's CRIT Chance by #2.",
+                ["ContentEN"] = "For each [Tentacle] on the field, increases Tabethe's CRIT Chance by #2.",
                 ["TextMapId"] = "GRADEUP_2301_04",
             },
             ["GRADEUP_2301_05"] = {
@@ -7760,7 +7810,7 @@ After [Lunar Hunt] deals damage, the target takes #2 increased damage from [Sola
                 ["TextMapId"] = "GRADEUP_2301_05",
             },
             ["GRADEUP_2301_06"] = {
-                ["ContentEN"] = "Enemies captured by [Summon: Tentacle] take Hydro Damage equivalent to #3 of the Tentacle's ATK once every 2s.",
+                ["ContentEN"] = "Enemies captured by [Tentacle] take Hydro Damage equivalent to #3 of [Tentacle]'s ATK once every 2s.",
                 ["TextMapId"] = "GRADEUP_2301_06",
             },
             ["GRADEUP_2401_01"] = {
@@ -7768,7 +7818,7 @@ After [Lunar Hunt] deals damage, the target takes #2 increased damage from [Sola
                 ["TextMapId"] = "GRADEUP_2401_01",
             },
             ["GRADEUP_2401_02"] = {
-                ["ContentEN"] = "Increases the maximum number of [Summon: Yunchi] allowed on the field at the same time to #2.",
+                ["ContentEN"] = "Increases the maximum number of [Yunchi] allowed on the field at the same time to #2.",
                 ["TextMapId"] = "GRADEUP_2401_02",
             },
             ["GRADEUP_2401_03"] = {
@@ -7837,11 +7887,11 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_3102_06",
             },
             ["GRADEUP_3103_01"] = {
-                ["ContentEN"] = "If a [Tot Popper] is detonated by a different type of [Tot Popper], restores #1 point of Sanity for Yale and Oliver; if detonated by the same type, restores #2 points of Sanity.",
+                ["ContentEN"] = "If a [Tot Popper] is detonated by a different type of [Tot Popper], restores #1 point of Sanity for Yale and Oliver; if detonated by the same type, restores #2.",
                 ["TextMapId"] = "GRADEUP_3103_01",
             },
             ["GRADEUP_3103_02"] = {
-                ["ContentEN"] = "Decreases the Movement Speed of enemies in [Nightmare Lab] by #3.",
+                ["ContentEN"] = "The Movement Speed decrease effect inflicted on enemies in [Nightmare Lab] is increased to #3.",
                 ["TextMapId"] = "GRADEUP_3103_02",
             },
             ["GRADEUP_3103_03"] = {
@@ -7857,7 +7907,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_3103_05",
             },
             ["GRADEUP_3103_06"] = {
-                ["ContentEN"] = "When applied with [Bombing Frenzy], each deployed [Tot Popper] combines the features of both types, dealing higher damage and posing greater Stance reduction.",
+                ["ContentEN"] = "When Yale and Oliver is applied with [Bombing Frenzy], each deployed [Tot Popper] combines the features of both types, dealing higher damage and posing greater Stance reduction.",
                 ["TextMapId"] = "GRADEUP_3103_06",
             },
             ["GRADEUP_3201_01"] = {
@@ -7865,7 +7915,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_3201_01",
             },
             ["GRADEUP_3201_02"] = {
-                ["ContentEN"] = "Increases [Retributive Resolve]'s HP recovery to #2.",
+                ["ContentEN"] = "Increases the HP recovery granted by [Retributive Resolve] to #2.",
                 ["TextMapId"] = "GRADEUP_3201_02",
             },
             ["GRADEUP_3201_03"] = {
@@ -7881,7 +7931,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_3201_05",
             },
             ["GRADEUP_3201_06"] = {
-                ["ContentEN"] = "For every 5 Sanity-consuming skill uses by nearby allies, Hellfire automatically unleashes [Cage of Despair]. Can trigger once every #3s.",
+                ["ContentEN"] = "For every 5 Sanity-consuming skills used by nearby teammate(s), Hellfire automatically uses [Cage of Despair] 1 time. This effect can only be triggered once every #3s.",
                 ["TextMapId"] = "GRADEUP_3201_06",
             },
             ["GRADEUP_3301_01"] = {
@@ -7909,59 +7959,61 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_3301_06",
             },
             ["GRADEUP_4101_01"] = {
-                ["ContentEN"] = "[Electric Charge] now deals AoE Damage within a 3-metre radius.",
+                ["ContentEN"] = "[Electric Charge] deals AoE Damage within a 3-metre radius.",
                 ["TextMapId"] = "GRADEUP_4101_01",
             },
             ["GRADEUP_4101_02"] = {
-                ["ContentEN"] = "When enemies with [Electric Charge] are defeated, transfer their remaining [Electric Charge] duration to other targets within a 20-metre radius.",
+                ["ContentEN"] = "When an enemy with [Electric Charge] is defeated, their [Electric Charge] is transferred to another random target within a 20-metre radius.\
+The transferred [Electric Charge] retains its remaining duration, allowing the effect to continue on the new target.",
                 ["TextMapId"] = "GRADEUP_4101_02",
             },
             ["GRADEUP_4101_03"] = {
-                ["ContentEN"] = "[Swift Attack] Level +2, [Tactical Power Save] Level +1.",
+                ["ContentEN"] = "[Volt Rush] Level +2, [Tactical Preservation] Level +1.",
                 ["TextMapId"] = "GRADEUP_4101_03",
             },
             ["GRADEUP_4101_04"] = {
-                ["ContentEN"] = "Starts with [Electrical Energy] equal to #1 of your Max Sanity.",
+                ["ContentEN"] = "At the start of battle, Rhythm gains [Electric Energy] equal to #1 of her Max Sanity.",
                 ["TextMapId"] = "GRADEUP_4101_04",
             },
             ["GRADEUP_4101_05"] = {
-                ["ContentEN"] = "[Electro Vortex] Level +2, [Tactical Power Save] Level +1.",
+                ["ContentEN"] = "[Electro Vortex] Level +2, [Tactical Preservation] Level +1.",
                 ["TextMapId"] = "GRADEUP_4101_05",
             },
             ["GRADEUP_4101_06"] = {
-                ["ContentEN"] = "[Electro Surge] now targets 2 enemies per second.",
+                ["ContentEN"] = "The number of enemies [Electro Surge] deals damage to per second is increased to 2.",
                 ["TextMapId"] = "GRADEUP_4101_06",
             },
             ["GRADEUP_4102_01"] = {
-                ["ContentEN"] = "When using [Thunder Echo], [Thunder & Gale Converge] triggers an additional multiple [Thunder & Gale] effects.",
+                ["ContentEN"] = "When using [Thunder's Oracle Peal], the effect of [Four Realms Align] is additionally triggered once to generate several strikes of [Zhen-Xun Convergence].",
                 ["TextMapId"] = "GRADEUP_4102_01",
             },
             ["GRADEUP_4102_02"] = {
-                ["ContentEN"] = "Using Ultimate Skill increases [Spring Fulu] retention chance by #1. You can now stack [Synergy] up to #2.",
+                ["ContentEN"] = "When using the Ultimate Skill, increases the [Talisman] retention chance by #1. The max number of stacks provided by [Mutual Generation] is increased to #2.",
                 ["TextMapId"] = "GRADEUP_4102_02",
             },
             ["GRADEUP_4102_03"] = {
-                ["ContentEN"] = "[Celestial Revelation] Level +2, [Dual Fulu Waltz] Level +1.",
+                ["ContentEN"] = "[Celestial Revelation] Level +2, [Talismans Coalescence] Level +1.",
                 ["TextMapId"] = "GRADEUP_4102_03",
             },
             ["GRADEUP_4102_04"] = {
-                ["ContentEN"] = "Using [Celestial Revelation] increases ATK for you and teammates within range by #3 for #4s.",
+                ["ContentEN"] = "When using [Celestial Revelation], increases ATK for Zhiliu and the nearby teammate(s) by #3 for #4s.",
                 ["TextMapId"] = "GRADEUP_4102_04",
             },
             ["GRADEUP_4102_05"] = {
-                ["ContentEN"] = "[Cosmic Play] Level +2, [Dual Fulu Waltz] Level +1.",
+                ["ContentEN"] = "[Heaven-Earth Divination] Level +2, [Talismans Coalescence] Level +1.",
                 ["TextMapId"] = "GRADEUP_4102_05",
             },
             ["GRADEUP_4102_06"] = {
-                ["ContentEN"] = "When within [Thunder & Gale Converge]'s range, increase all Attribute PENs by #5.",
+                ["ContentEN"] = "When within [Four Realms Align]'s range, increases Zhiliu's PEN stats by #5.",
                 ["TextMapId"] = "GRADEUP_4102_06",
             },
             ["GRADEUP_4201_01"] = {
-                ["ContentEN"] = "While in [Xuanjiao Manifest] status, each [Precipitous Thunderfall] grants an extra [Reverse Scale]. Using [Starstorm Descent] additionally increases Weapon ATK Range by #1 and Skill Range by #2 for you and teammates within range for #3s.",
+                ["ContentEN"] = "When in [Xuanjiao Manifest] state, gains 1 extra [Reverse Scale] each time [Precipitous Thunderfall] is used.\
+Using [Starstorm Descent] increases Weapon Attack Range by #1 and Skill Range by #2 for Yuming and the nearby teammate(s) for #3s.",
                 ["TextMapId"] = "GRADEUP_4201_01",
             },
             ["GRADEUP_4201_02"] = {
-                ["ContentEN"] = "When you or your teammates create [A Dance with Dragon & Fish], spawn 2 additional [A Dance with Dragon & Fish] within a 10-metre range, prioritizing different targets.",
+                ["ContentEN"] = "When Yuming or his teammates unleash [Fish-Dragon Dance], unleashes 2 additional strikes of [Fish-Dragon Dance] within a 10-metre range around the location of the target, with priority given to different target locations.",
                 ["TextMapId"] = "GRADEUP_4201_02",
             },
             ["GRADEUP_4201_03"] = {
@@ -7969,7 +8021,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_4201_03",
             },
             ["GRADEUP_4201_04"] = {
-                ["ContentEN"] = "Plunging Attack deals additional damage equal to #4 of your Skill Damage (up to #5).",
+                ["ContentEN"] = "Plunging Attack deals additional damage equal to #4 of Yuming's Skill Damage, with a maximum of #5.",
                 ["TextMapId"] = "GRADEUP_4201_04",
             },
             ["GRADEUP_4201_05"] = {
@@ -7977,7 +8029,8 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_4201_05",
             },
             ["GRADEUP_4201_06"] = {
-                ["ContentEN"] = "[Starlight Descent] & [Starstorm Descent] deal #6 more damage per the target's [Battle Frenzy] stack. Restores [Xuanjiao]'s DMG absorption by #7 when using [Starstorm Descent].",
+                ["ContentEN"] = "When [Starlight Descent] or [Starstorm Descent] deals damage, the damage is increased by #6 for each stack of [Thunderous Onslaught] inflicted on the target.\
+When using [Starstorm Descent], restores [Xuanjiao]'s Damage Absorption by #7.",
                 ["TextMapId"] = "GRADEUP_4201_06",
             },
             ["GRADEUP_4202_01"] = {
@@ -7993,7 +8046,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_4202_03",
             },
             ["GRADEUP_4202_04"] = {
-                ["ContentEN"] = "Target hit by [Impact] immediately incurs the total damage of all [Overwork Grudge] stacks inflicted on the target.",
+                ["ContentEN"] = "Target hit by [Impact] immediately takes the damage of [Overwork Grudge] inflicted on the target 1 time.",
                 ["TextMapId"] = "GRADEUP_4202_04",
             },
             ["GRADEUP_4202_05"] = {
@@ -8001,15 +8054,17 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_4202_05",
             },
             ["GRADEUP_4202_06"] = {
-                ["ContentEN"] = "When dealing non-periodic damage, deals additional Electro Damage equivalent to #2 of Randy's [Shield points + Ultra Shield points].",
+                ["ContentEN"] = "When dealing non-periodic damage, deals additional Electro Damage equivalent to #2 of Randy's [Shield Points+Ultra Shield Points] 1 time.",
                 ["TextMapId"] = "GRADEUP_4202_06",
             },
             ["GRADEUP_4301_01"] = {
-                ["ContentEN"] = "When taking damage from [Divine Conqueror] and [Legion's Punishment], [Summon: Chaotic Thunderorb]'s Damage Taken Transfer ratio is increased by #3.",
+                ["ContentEN"] = "When taking damage from [Divine Conqueror] and [Legion's Punishment], [Chaotic Thunderorb]'s damage taken transfer ratio is increased by #3.",
                 ["TextMapId"] = "GRADEUP_4301_01",
             },
             ["GRADEUP_4301_02"] = {
-                ["ContentEN"] = "Increases [Might of Thunder] point cap to 600. Each point of [Might of Thunder] increases [Legion's Punishment] Damage by #1. Each point of [Might of Thunder] increases the Damage Taken Transfer ratio of [Summon: Chaotic Thunderorb] by #2.",
+                ["ContentEN"] = "Increases [Might of Thunder] point cap to 600.\
+Each point of [Might of Thunder] increases [Legion's Punishment] damage by #1.\
+Each point of [Might of Thunder] increases the damage taken transfer ratio of [Chaotic Thunderorb] by #2.",
                 ["TextMapId"] = "GRADEUP_4301_02",
             },
             ["GRADEUP_4301_03"] = {
@@ -8017,7 +8072,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_4301_03",
             },
             ["GRADEUP_4301_04"] = {
-                ["ContentEN"] = "[Legion's Punishment] has a #6 chance to trigger an additional hit on each damage instance.",
+                ["ContentEN"] = "When [Legion's Punishment] deals damage, there is a #6 chance to trigger its effect once.",
                 ["TextMapId"] = "GRADEUP_4301_04",
             },
             ["GRADEUP_4301_05"] = {
@@ -8025,7 +8080,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_4301_05",
             },
             ["GRADEUP_4301_06"] = {
-                ["ContentEN"] = "When an enemy is linked to the [Summon: Chaotic Thunderorb] for the first time, [Sibylle] deals bonus Electro Damage equal to #4+#5 of its Max HP, with guaranteed Electro Bonus Effects.",
+                ["ContentEN"] = "When an enemy is first linked to [Chaotic Thunderorb], Sibylle deals an additional instance of [Legion's Punishment] damage to the target. This damage is amplified to 350% of the original damage multiplier and is guaranteed to trigger Bonus Effect: Electro.",
                 ["TextMapId"] = "GRADEUP_4301_06",
             },
             ["GRADEUP_5101_01"] = {
@@ -8041,7 +8096,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_5101_03",
             },
             ["GRADEUP_5101_04"] = {
-                ["ContentEN"] = "Increases the stack cap of [Heavyweight] to 15. When Truffle starts mounting [Filbert], gains 15 stacks of [Heavyweight].",
+                ["ContentEN"] = "Increases the stack cap of [Heavyweight] to 20. When Truffle starts mounting [Filbert], gains 20 stacks of [Heavyweight].",
                 ["TextMapId"] = "GRADEUP_5101_04",
             },
             ["GRADEUP_5101_05"] = {
@@ -8053,27 +8108,27 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_5101_06",
             },
             ["GRADEUP_5102_01"] = {
-                ["ContentEN"] = "Exiting [Stealth] status increases the weapon's CRIT Chance by #4 for #3s.",
+                ["ContentEN"] = "Exiting [Stealth] state increases the weapon CRIT Chance by #4 for #3s.",
                 ["TextMapId"] = "GRADEUP_5102_01",
             },
             ["GRADEUP_5102_02"] = {
-                ["ContentEN"] = "[Fang for a Fang] and [Ravenous Gnaw] have a #2 chance to spawn an extra [Fang Spike].",
+                ["ContentEN"] = "When [Fang for Fang] or [Ravenous Gnaw] generates [Fang Spike], there is a #2 chance to generate 1 additional [Fang Spike].",
                 ["TextMapId"] = "GRADEUP_5102_02",
             },
             ["GRADEUP_5102_03"] = {
-                ["ContentEN"] = "[Shadow Veil] Level +2, [Fang Spike] Level +1.",
+                ["ContentEN"] = "[Stealthy Prowl] Level +2, [Fang Spike] Level +1.",
                 ["TextMapId"] = "GRADEUP_5102_03",
             },
             ["GRADEUP_5102_04"] = {
-                ["ContentEN"] = "While in [Stealth] status, increases Movement Speed by #1.",
+                ["ContentEN"] = "When in [Stealth] state, increases Movement Speed by #1.",
                 ["TextMapId"] = "GRADEUP_5102_04",
             },
             ["GRADEUP_5102_05"] = {
-                ["ContentEN"] = "[Hunter's Strike] Level +2, [Fang Spike] Level +1.",
+                ["ContentEN"] = "[Predator's Pounce] Level +2, [Fang Spike] Level +1.",
                 ["TextMapId"] = "GRADEUP_5102_05",
             },
             ["GRADEUP_5102_06"] = {
-                ["ContentEN"] = "While in [Hunt] status, grants #5 additional Anemo Damage.",
+                ["ContentEN"] = "When in [Relentless Hunt] state, Outsider deals additional Anemo Damage by #5.",
                 ["TextMapId"] = "GRADEUP_5102_06",
             },
             ["GRADEUP_5301_01"] = {
@@ -8090,7 +8145,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
             },
             ["GRADEUP_5301_04"] = {
                 ["ContentEN"] = "When in [Flamboyance] state, Psyche gains [Eclosion].\
-[Eclosion]: Grants immunity to Hitstun and decreases Damage Taken by #5.",
+[Eclosion]: Grants immunity to Hitstun, decreases Damage Taken by #5, and increases Auto Pick-up Range by 15.",
                 ["TextMapId"] = "GRADEUP_5301_04",
             },
             ["GRADEUP_5301_05"] = {
@@ -8098,7 +8153,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_5301_05",
             },
             ["GRADEUP_5301_06"] = {
-                ["ContentEN"] = "During [Flamboyance] state, Psyche's PEN stats is increased by #6.",
+                ["ContentEN"] = "During [Flamboyance] state, increases Psyche's PEN stats by #6.",
                 ["TextMapId"] = "GRADEUP_5301_06",
             },
             ["GRADEUP_5401_01"] = {
@@ -8122,7 +8177,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "GRADEUP_5401_05",
             },
             ["GRADEUP_5401_06"] = {
-                ["ContentEN"] = "When a teammate applied with [Purification Formula] deals damage to an enemy inflicted with [Decay Formula], gains 1 stack that increases Damage Dealt by #4 for #5s, up to #6 stacks. This effect can only be triggered once per second.",
+                ["ContentEN"] = "When a teammate applied with [Purification Formula] deals damage to an enemy inflicted with [Decay Formula], Daphne gains 1 stack that increases Damage Dealt by #4 for #5s, up to #6 stacks. This effect can only be triggered once per second.",
                 ["TextMapId"] = "GRADEUP_5401_06",
             },
             ["Guide_HighlightButton_Attack"] = {
@@ -8142,39 +8197,40 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "Guide_HighlightButton_Skill2",
             },
             ["Guide_Message_AbyssUI_1"] = {
-                ["ContentEN"] = "<H>Immersive Theatre</> is now available. Challenge actors posing as enemies and test your combat skills.",
+                ["ContentEN"] = "<H>Immersive Theatre</> is now available. Challenge performers posing as enemies and hone your battle skills.",
                 ["TextMapId"] = "Guide_Message_AbyssUI_1",
             },
             ["Guide_Message_AbyssUI_2"] = {
-                ["ContentEN"] = "Choose performances of different difficulty levels to push your limits.",
+                ["ContentEN"] = "Select Difficulty of repertoire here",
                 ["TextMapId"] = "Guide_Message_AbyssUI_2",
             },
             ["Guide_Message_AbyssUI_3"] = {
-                ["ContentEN"] = "Each production contains multiple Acts. Tap here to select an Act.",
+                ["ContentEN"] = "Each repertoire contains multiple Acts. Select an Act here to start the challenge",
                 ["TextMapId"] = "Guide_Message_AbyssUI_3",
             },
             ["Guide_Message_AbyssUI_3_Pad"] = {
-                ["ContentEN"] = "Each production features multiple acts Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select an act",
+                ["ContentEN"] = "Each production features multiple acts.\
+Press to select an Act",
                 ["TextMapId"] = "Guide_Message_AbyssUI_3_Pad",
             },
             ["Guide_Message_AbyssUI_4"] = {
-                ["ContentEN"] = "Select to view the <H>Stage Score</> for this Act. These effects can influence combat in different ways — be sure to review them before proceeding.",
+                ["ContentEN"] = "Select here to view the <H>Stage Score</> for this Act. Each score has unique influence on the challenge. Make sure to select the right one to ease your challenge",
                 ["TextMapId"] = "Guide_Message_AbyssUI_4",
             },
             ["Guide_Message_AbyssUI_5"] = {
-                ["ContentEN"] = "At the end of each Act, you'll receive a star rating based on your progress. Complete all challenges in an Act to unlock the next.",
+                ["ContentEN"] = "At the end of each Act, you'll receive a star rating based on your progress. Complete all challenges in an Act to unlock the next",
                 ["TextMapId"] = "Guide_Message_AbyssUI_5",
             },
             ["Guide_Message_AbyssUI_6"] = {
-                ["ContentEN"] = "Tap here to claim your challenge rewards.",
+                ["ContentEN"] = "Select here to claim your challenge rewards",
                 ["TextMapId"] = "Guide_Message_AbyssUI_6",
             },
             ["Guide_Message_AbyssUI_7"] = {
-                ["ContentEN"] = "Tap to configure your line-up for this challenge.",
+                ["ContentEN"] = "Select here to set up your team for this challenge",
                 ["TextMapId"] = "Guide_Message_AbyssUI_7",
             },
             ["Guide_Message_AbyssUI_8"] = {
-                ["ContentEN"] = "Tap <H>Reset</> to restart this Act's challenge.",
+                ["ContentEN"] = "Select <H>Go</> to start the challenge",
                 ["TextMapId"] = "Guide_Message_AbyssUI_8",
             },
             ["Guide_Message_DailyGoalUI_1"] = {
@@ -8186,7 +8242,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_2",
             },
             ["Guide_Message_DailyGoalUI_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Combat</> and enter the Combat screen",
+                ["ContentEN"] = "Press to select <H>Combat</> and enter the Combat screen",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_2_Pad",
             },
             ["Guide_Message_DailyGoalUI_3"] = {
@@ -8194,7 +8250,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_3",
             },
             ["Guide_Message_DailyGoalUI_3_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open your <H>Memo</>",
+                ["ContentEN"] = "Press to open the <H>Memo</>",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_3_Pad",
             },
             ["Guide_Message_DailyGoalUI_4"] = {
@@ -8209,6 +8265,10 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["ContentEN"] = "Tap <H>Combat</> to enter the combat screen.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_PHONE_2",
             },
+        }
+    end },
+    { MinKey = "Guide_Message_ModArchiveUI_1", MaxKey = "MAIN_UI_POLARITY", Loader = function()
+        return {
             ["Guide_Message_ModArchiveUI_1"] = {
                 ["ContentEN"] = "<H>Demon Wedge Casket</> unlocked. You can now view, collect, and configure your Demon Wedges here.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_1",
@@ -8222,11 +8282,11 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_2_Pad",
             },
             ["Guide_Message_ModArchiveUI_3"] = {
-                ["ContentEN"] = "Tap <H>Demon Wedge Casket</> to enter the Demon Wedge Casket screen.",
+                ["ContentEN"] = "Select <H>Demon Wedge Casket</> to enter the Demon Wedge Casket screen.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_3",
             },
             ["Guide_Message_ModArchiveUI_3_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to enter the <H>Demon Wedge Casket</> screen",
+                ["ContentEN"] = "Press to enter the <H>Demon Wedge Casket</> screen",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_3_Pad",
             },
             ["Guide_Message_ModArchiveUI_4"] = {
@@ -8238,11 +8298,11 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_5",
             },
             ["Guide_Message_ModArchiveUI_6"] = {
-                ["ContentEN"] = "Tap <H>Demon Wedge Codex</>.",
+                ["ContentEN"] = "Select <H>Demon Wedge Codex</>.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_6",
             },
             ["Guide_Message_ModArchiveUI_6_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Demon Wedge Display</>",
+                ["ContentEN"] = "Press to select <H>Demon Wedge Display</>",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_6_Pad",
             },
             ["Guide_Message_ModArchiveUI_7"] = {
@@ -8254,13 +8314,9 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_8",
             },
             ["Guide_Message_ModArchiveUI_8_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Matching Tips</>",
+                ["ContentEN"] = "Press to select <H>Matching Tips</>",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_8_Pad",
             },
-        }
-    end },
-    { MinKey = "Guide_Message_ModArchiveUI_9", MaxKey = "MESSAGE_ANGLE_PC", Loader = function()
-        return {
             ["Guide_Message_ModArchiveUI_9"] = {
                 ["ContentEN"] = "In <H>Matching Tips</>, you can view system-suggested Demon Wedge combinations tailored to specific characters.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_9",
@@ -8329,6 +8385,26 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["ContentEN"] = "Home",
                 ["TextMapId"] = "Home",
             },
+            ["HomePianoAcc_1001001"] = {
+                ["ContentEN"] = "Currently cannot acquire",
+                ["TextMapId"] = "HomePianoAcc_1001001",
+            },
+            ["HomePianoAcc_1001002"] = {
+                ["ContentEN"] = "Currently cannot acquire",
+                ["TextMapId"] = "HomePianoAcc_1001002",
+            },
+            ["HomePianoAcc_1001003"] = {
+                ["ContentEN"] = "Currently cannot acquire",
+                ["TextMapId"] = "HomePianoAcc_1001003",
+            },
+            ["HomePianoAcc_2002001"] = {
+                ["ContentEN"] = "Currently cannot acquire",
+                ["TextMapId"] = "HomePianoAcc_2002001",
+            },
+            ["HomePianoAcc_2002002"] = {
+                ["ContentEN"] = "Currently cannot acquire",
+                ["TextMapId"] = "HomePianoAcc_2002002",
+            },
             ["HomePianoDes_1001001"] = {
                 ["ContentEN"] = "Before the final destination is reached, this place will always be home.",
                 ["TextMapId"] = "HomePianoDes_1001001",
@@ -8386,7 +8462,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "HomePiano_HandleViewing",
             },
             ["HomePiano_HomePiano"] = {
-                ["ContentEN"] = "Sanctuary Music Player",
+                ["ContentEN"] = "Sonata Within",
                 ["TextMapId"] = "HomePiano_HomePiano",
             },
             ["HomePiano_MusicDetails"] = {
@@ -8574,7 +8650,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_ABYSS_3",
             },
             ["MAINUIGUIDE_TITLE_ABYSS_4"] = {
-                ["ContentEN"] = "Moving On",
+                ["ContentEN"] = "Next Challenge",
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_ABYSS_4",
             },
             ["MAINUIGUIDE_TITLE_ABYSS_5"] = {
@@ -8750,11 +8826,11 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_PERFECTDODGE",
             },
             ["MAINUIGUIDE_TITLE_PET"] = {
-                ["ContentEN"] = "Geniemon Capture",
+                ["ContentEN"] = "Geniemon Encounter",
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_PET",
             },
             ["MAINUIGUIDE_TITLE_PETTRAIN"] = {
-                ["ContentEN"] = "Geniemon Potential",
+                ["ContentEN"] = "Geniemon Trait",
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_PETTRAIN",
             },
             ["MAINUIGUIDE_TITLE_PHANTOM"] = {
@@ -8978,7 +9054,7 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["TextMapId"] = "MAIN_UI_PARTY",
             },
             ["MAIN_UI_PET"] = {
-                ["ContentEN"] = "Geniemon",
+                ["ContentEN"] = "Geniemons",
                 ["TextMapId"] = "MAIN_UI_PET",
             },
             ["MAIN_UI_PHOTOCAMERA"] = {
@@ -8993,6 +9069,10 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["ContentEN"] = "Track Adjustment",
                 ["TextMapId"] = "MAIN_UI_POLARITY",
             },
+        }
+    end },
+    { MinKey = "MAIN_UI_QUEST", MaxKey = "MOD_DESC_1803", Loader = function()
+        return {
             ["MAIN_UI_QUEST"] = {
                 ["ContentEN"] = "Quests",
                 ["TextMapId"] = "MAIN_UI_QUEST",
@@ -9061,10 +9141,6 @@ When [Hyperthermal Purgejet] deals damage, inflicts an effect to the target that
                 ["ContentEN"] = "Move the mouse to adjust the camera view",
                 ["TextMapId"] = "MESSAGE_ANGLE_PC",
             },
-        }
-    end },
-    { MinKey = "MESSAGE_ANGLE_PHONE", MaxKey = "MOD_DESC_1962", Loader = function()
-        return {
             ["MESSAGE_ANGLE_PHONE"] = {
                 ["ContentEN"] = "Drag the screen to adjust the camera view",
                 ["TextMapId"] = "MESSAGE_ANGLE_PHONE",
@@ -9277,8 +9353,8 @@ Ask is the revered Father God among the Charons.",
                 ["TextMapId"] = "MESSAGE_LOADING_28_PC",
             },
             ["MESSAGE_LOADING_29_PC"] = {
-                ["ContentEN"] = "Slash: Deals more damage to target's Shield.\
-Spike: Deals more damage to target's HP.\
+                ["ContentEN"] = "Slash: Deals higher damage to target's Shield.\
+Spike: Deals higher damage to target's HP.\
 Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MESSAGE_LOADING_29_PC",
             },
@@ -9679,7 +9755,7 @@ Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MOD_DESC_106001",
             },
             ["MOD_DESC_1311"] = {
-                ["ContentEN"] = "Decreases damage taken by #1. Defeating an enemy grants 1 stack of ATK Increase by #2 for #3s (up to #4 stacks). The effect duration refreshes with each new stack.",
+                ["ContentEN"] = "Decreases Damage Taken by #1. Defeating an enemy grants 1 stack that increases ATK by #2 for #3s, up to #4 stacks. This effect duration refreshes with each new stack gained.",
                 ["TextMapId"] = "MOD_DESC_1311",
             },
             ["MOD_DESC_1312"] = {
@@ -9722,40 +9798,44 @@ Smash: Further weakens target's Stance.",
                 ["ContentEN"] = "Increases Damage Dealt by you and your teammate by #1.",
                 ["TextMapId"] = "MOD_DESC_1440",
             },
+            ["MOD_DESC_1500"] = {
+                ["ContentEN"] = "Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
+                ["TextMapId"] = "MOD_DESC_1500",
+            },
             ["MOD_DESC_1502"] = {
-                ["ContentEN"] = "During a Helix Leap, deals Anemo Damage equivalent to #1 of the character's Attack to nearby enemies.",
+                ["ContentEN"] = "When performing a Helix Leap, deals Anemo Damage equal to #1 of ATK to nearby enemies. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1502",
             },
             ["MOD_DESC_1512"] = {
-                ["ContentEN"] = "Defeating an enemy in mid-air refreshes the mid-air jump count, up to #1 time.",
+                ["ContentEN"] = "After defeating an enemy in mid-air, reset the character's air jump count, up to a maximum of #1 times. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1512",
             },
             ["MOD_DESC_1513"] = {
-                ["ContentEN"] = "When landing from a great height, deals Smash Damage equivalent to #1 of the character's Attack to nearby enemies.",
+                ["ContentEN"] = "Upon landing from a height, deals Smash Damage equal to #1 of ATK to nearby enemies. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1513",
             },
             ["MOD_DESC_1522"] = {
-                ["ContentEN"] = "Decreases Damage Taken by #1 when mid-air.",
+                ["ContentEN"] = "While taking damage in mid-air, the damage taken is reduced by #1. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1522",
             },
             ["MOD_DESC_1523"] = {
-                ["ContentEN"] = "Survives deadly damage with 1 HP remaining (once every #1s max).",
+                ["ContentEN"] = "Survives Fatal damage, reducing the character's HP to 1. This effect can only be triggered once every #1s max. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1523",
             },
             ["MOD_DESC_1524"] = {
-                ["ContentEN"] = "#1 chance to decrease damage taken by #2.",
+                ["ContentEN"] = "When taking damage, there is a #1 chance to reduce the damage taken by #2. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1524",
             },
             ["MOD_DESC_1525"] = {
-                ["ContentEN"] = "Heals #1 of your max HP and all teammates' Max HP within a 10-metre range when using skills (once per #2s max).",
+                ["ContentEN"] = "When using an Ultimate Skill, restores HP equal to #1 of max HP to the character and teammates within a 10-metre range. This effect can only be triggered once every #2s. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1525",
             },
             ["MOD_DESC_1526"] = {
-                ["ContentEN"] = "Immune to hitstun. Damage dealt is reduced by #1 (unaffected by other modifiers).",
+                ["ContentEN"] = "Gains immunity to Hitstun, but Damage Dealt is reduced by #1 (unaffected by other modifiers). Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1526",
             },
             ["MOD_DESC_1532"] = {
-                ["ContentEN"] = "When dodging, deals Pyro Damage equivalent to #1 of the character's Attack to enemies around the starting point.",
+                ["ContentEN"] = "When performing a Dodge, deals Pyro Damage equal to #1 of ATK to enemies near the starting point. Increases the character's max Tolerance by 2.5 times the Demon Wedge's required Tolerance.",
                 ["TextMapId"] = "MOD_DESC_1532",
             },
             ["MOD_DESC_1601"] = {
@@ -9798,6 +9878,10 @@ Smash: Further weakens target's Stance.",
                 ["ContentEN"] = "Increases your Damage Dealt by #1 per Greatsword equipped by you or your Combat Partner (up to #2; does not apply when acting as Combat Partner).",
                 ["TextMapId"] = "MOD_DESC_1803",
             },
+        }
+    end },
+    { MinKey = "MOD_DESC_1804", MaxKey = "MOD_NAME_3001", Loader = function()
+        return {
             ["MOD_DESC_1804"] = {
                 ["ContentEN"] = "Increases your Damage Dealt by #1 per Dual Blades equipped by you or your Combat Partner (up to #2; does not apply when acting as Combat Partner).",
                 ["TextMapId"] = "MOD_DESC_1804",
@@ -9835,7 +9919,7 @@ Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MOD_DESC_1812",
             },
             ["MOD_DESC_1911"] = {
-                ["ContentEN"] = "When an Umbro character costs Sanity, it gains 1 stack of weapon CRIT Chance Increase by #2 for #1s (up to #3 stacks).",
+                ["ContentEN"] = "When an Umbro character consumes Sanity, they gain 1 stack that increases weapon CRIT Chance by #2 for #1s, up to #3 stacks.",
                 ["TextMapId"] = "MOD_DESC_1911",
             },
             ["MOD_DESC_1921"] = {
@@ -9843,7 +9927,7 @@ Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MOD_DESC_1921",
             },
             ["MOD_DESC_1922"] = {
-                ["ContentEN"] = "When a Hydro character uses skills, all teammates within range get an ATK Increase equal to #2 of the character's ATK, with a maximum increase of 120, for #1s.",
+                ["ContentEN"] = "When a Hydro character uses skills, all teammates within range get an ATK Increase equal to #2 of the character's ATK, with a maximum increase of 275, for #1s.",
                 ["TextMapId"] = "MOD_DESC_1922",
             },
             ["MOD_DESC_1931"] = {
@@ -9851,7 +9935,7 @@ Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MOD_DESC_1931",
             },
             ["MOD_DESC_1941"] = {
-                ["ContentEN"] = "When an Electro character uses skills, it gains 1 stack of Skill DMG Increase by #2 for #1s (up to #3 stacks).",
+                ["ContentEN"] = "When an Electro character uses skills, they gain 1 stack that increases Skill Damage by #2 for #1s, up to #3 stacks.",
                 ["TextMapId"] = "MOD_DESC_1941",
             },
             ["MOD_DESC_1951"] = {
@@ -9870,10 +9954,6 @@ Smash: Further weakens target's Stance.",
                 ["ContentEN"] = "Increases the Lumino characters' ATK by [their current Skill Duration x #1], up to #2.",
                 ["TextMapId"] = "MOD_DESC_1962",
             },
-        }
-    end },
-    { MinKey = "MOD_DESC_2301", MaxKey = "MOD_NAME_31324", Loader = function()
-        return {
             ["MOD_DESC_2301"] = {
                 ["ContentEN"] = "Each Combo Level increases CRIT Chance by #1.",
                 ["TextMapId"] = "MOD_DESC_2301",
@@ -9895,7 +9975,7 @@ Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MOD_DESC_2321",
             },
             ["MOD_DESC_2322"] = {
-                ["ContentEN"] = "When triggering Bonus Effects, gains 1 stack that increases ATK Range by #2 for #1s, up to #3 stacks.",
+                ["ContentEN"] = "When triggering Bonus Effect, gains 1 stack that increases ATK Range by #2 for #1s, up to #3 stacks.",
                 ["TextMapId"] = "MOD_DESC_2322",
             },
             ["MOD_DESC_2421"] = {
@@ -9935,7 +10015,7 @@ Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MOD_DESC_3322",
             },
             ["MOD_DESC_3331"] = {
-                ["ContentEN"] = "When triggering Bonus Effects, gains 1 stack that increases Multishot by #2 for #1s, up to #3 stacks.",
+                ["ContentEN"] = "When triggering Bonus Effect, gains 1 stack that increases Multishot by #2 for #1s, up to #3 stacks.",
                 ["TextMapId"] = "MOD_DESC_3331",
             },
             ["MOD_DESC_3332"] = {
@@ -10095,7 +10175,7 @@ Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MOD_NAME_1215",
             },
             ["MOD_NAME_1216"] = {
-                ["ContentEN"] = "Wings·Shards",
+                ["ContentEN"] = "Inspo·Shards",
                 ["TextMapId"] = "MOD_NAME_1216",
             },
             ["MOD_NAME_1217"] = {
@@ -10103,7 +10183,7 @@ Smash: Further weakens target's Stance.",
                 ["TextMapId"] = "MOD_NAME_1217",
             },
             ["MOD_NAME_1218"] = {
-                ["ContentEN"] = "Wings · Shards",
+                ["ContentEN"] = "Wings·Shards",
                 ["TextMapId"] = "MOD_NAME_1218",
             },
             ["MOD_NAME_1301"] = {
@@ -10602,6 +10682,10 @@ Smash: Further weakens target's Stance.",
                 ["ContentEN"] = "Impetus",
                 ["TextMapId"] = "MOD_NAME_3001",
             },
+        }
+    end },
+    { MinKey = "MOD_NAME_3002", MaxKey = "Message_Guide_Dispatch_06", Loader = function()
+        return {
             ["MOD_NAME_3002"] = {
                 ["ContentEN"] = "Focus",
                 ["TextMapId"] = "MOD_NAME_3002",
@@ -10674,10 +10758,6 @@ Smash: Further weakens target's Stance.",
                 ["ContentEN"] = "Thunder·Volition",
                 ["TextMapId"] = "MOD_NAME_31324",
             },
-        }
-    end },
-    { MinKey = "MOD_NAME_31325", MaxKey = "Message_Guide_Dungeon_8_Pad", Loader = function()
-        return {
             ["MOD_NAME_31325"] = {
                 ["ContentEN"] = "Squall·Volition",
                 ["TextMapId"] = "MOD_NAME_31325",
@@ -10991,7 +11071,8 @@ Expires in 1 day",
                 ["TextMapId"] = "Mail_Content_100003",
             },
             ["Mail_Content_100005"] = {
-                ["ContentEN"] = "Dear Phoxhunter:/nYour unclaimed event rewards have been sent to your inbox. Best of luck on your future commissions.",
+                ["ContentEN"] = "Dear Phoxhunter:\
+Your unclaimed event rewards have been sent to your inbox. Best of luck on your future commissions.",
                 ["TextMapId"] = "Mail_Content_100005",
             },
             ["Mail_Content_10008"] = {
@@ -11005,7 +11086,7 @@ We value every piece of feedback and suggestion you provide — your input is es
             ["Mail_Content_10009"] = {
                 ["ContentEN"] = "Dear Phoxhunter,\
 \
-Thank you for filling out the survey. Below are some rewards for you in return for your help.\
+Thank you for filling out the survey. Below are some rewards for you.\
 \
 We value all feedback and suggestions. Your kind feedback will help us continuously improve the player experience and game quality.",
                 ["TextMapId"] = "Mail_Content_10009",
@@ -11119,7 +11200,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Achievement_2_PC",
             },
             ["Message_Guide_Achievement_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open the <H>Achievements</> screen",
+                ["ContentEN"] = "Press to open the <H>Achievements</> screen",
                 ["TextMapId"] = "Message_Guide_Achievement_2_Pad",
             },
             ["Message_Guide_Achievement_2_Phone"] = {
@@ -11135,7 +11216,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Achievement_4",
             },
             ["Message_Guide_Achievement_4_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select Claim and collect your rewards",
+                ["ContentEN"] = "Press to select Claim and collect your rewards",
                 ["TextMapId"] = "Message_Guide_Achievement_4_Pad",
             },
             ["Message_Guide_Achievement_5"] = {
@@ -11167,7 +11248,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_BattleBag_1",
             },
             ["Message_Guide_BattleBag_10"] = {
-                ["ContentEN"] = "Select to equip their weapon",
+                ["ContentEN"] = "Select here to equip their weapon",
                 ["TextMapId"] = "Message_Guide_BattleBag_10",
             },
             ["Message_Guide_BattleBag_11"] = {
@@ -11195,7 +11276,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_BattleBag_14",
             },
             ["Message_Guide_BattleBag_15"] = {
-                ["ContentEN"] = "You can quickly equip your weapon with Demon Wedges at this page.",
+                ["ContentEN"] = "You can quickly equip a weapon with Demon Wedges at this page.",
                 ["TextMapId"] = "Message_Guide_BattleBag_15",
             },
             ["Message_Guide_BattleBag_3"] = {
@@ -11203,7 +11284,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_BattleBag_3",
             },
             ["Message_Guide_BattleBag_3_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open your <H>Tactical Backpack</>",
+                ["ContentEN"] = "Press to open your <H>Tactical Backpack</>",
                 ["TextMapId"] = "Message_Guide_BattleBag_3_Pad",
             },
             ["Message_Guide_BattleBag_4"] = {
@@ -11227,47 +11308,48 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_BattleBag_7",
             },
             ["Message_Guide_BattleBag_8"] = {
-                ["ContentEN"] = "Select to set their loadout",
+                ["ContentEN"] = "Select here to equip weapons for your Combat Partner",
                 ["TextMapId"] = "Message_Guide_BattleBag_8",
             },
             ["Message_Guide_BattleBag_9"] = {
-                ["ContentEN"] = "Each Combat Partner can be equipped with only one weapon (either melee or ranged). Each weapon can be assigned to only 1 Combat Partner.",
+                ["ContentEN"] = "Each Combat Partner can be equipped with only one weapon (either melee or ranged).\
+Each weapon can be assigned to only 1 Combat Partner.",
                 ["TextMapId"] = "Message_Guide_BattleBag_9",
             },
             ["Message_Guide_ChangeColor_1"] = {
-                ["ContentEN"] = "Tap <H>Armoury</> to open the Armoury screen.",
+                ["ContentEN"] = "Select <H>Armoury</> to open the Armoury screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_1",
             },
             ["Message_Guide_ChangeColor_10"] = {
-                ["ContentEN"] = "Tap <H>Weapon Skins</> to enter the Weapon Skins screen.",
+                ["ContentEN"] = "Select a <H>weapon design</> slot to enter the Weapon Design screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_10",
             },
             ["Message_Guide_ChangeColor_10_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Weapon Skins</> and open the Weapon Skins menu",
+                ["ContentEN"] = "Press to select a <H>weapon design</>slot and open the Weapon Design menu",
                 ["TextMapId"] = "Message_Guide_ChangeColor_10_Pad",
             },
             ["Message_Guide_ChangeColor_11"] = {
-                ["ContentEN"] = "Tap <H>Go to Colouring</>.",
+                ["ContentEN"] = "Select <H>Colouring</>",
                 ["TextMapId"] = "Message_Guide_ChangeColor_11",
             },
             ["Message_Guide_ChangeColor_11_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to <H>go to Colouring</>",
+                ["ContentEN"] = "Press to enter the <H>Colouring</> screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_11_Pad",
             },
             ["Message_Guide_ChangeColor_12"] = {
-                ["ContentEN"] = "Customise your weapon's colour scheme here.",
+                ["ContentEN"] = "You can customise the colour of your weapon here.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_12",
             },
             ["Message_Guide_ChangeColor_13"] = {
-                ["ContentEN"] = "Tap <H>Overall Colouring</>.",
+                ["ContentEN"] = "Select <H>Overall</>",
                 ["TextMapId"] = "Message_Guide_ChangeColor_13",
             },
             ["Message_Guide_ChangeColor_13_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to go to <H>Overall Colouring</>",
+                ["ContentEN"] = "Press to go to the <H>Overall Colouring</> screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_13_Pad",
             },
             ["Message_Guide_ChangeColor_14"] = {
-                ["ContentEN"] = "You can use Premium Dyes to change the weapon's full palette.",
+                ["ContentEN"] = "You can use Premium Dyes to change the overall colour of your weapon.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_14",
             },
             ["Message_Guide_ChangeColor_15"] = {
@@ -11275,31 +11357,31 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ChangeColor_15",
             },
             ["Message_Guide_ChangeColor_1_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Armoury</> and enter the Armoury screen",
+                ["ContentEN"] = "Press to select <H>Armoury</> and enter the Armoury screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_1_Pad",
             },
             ["Message_Guide_ChangeColor_2"] = {
-                ["ContentEN"] = "Tap <H>Appearance</>.",
+                ["ContentEN"] = "Select <H>Cosmetics</>",
                 ["TextMapId"] = "Message_Guide_ChangeColor_2",
             },
             ["Message_Guide_ChangeColor_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to enter the <H>Appearance</> screen",
+                ["ContentEN"] = "Press to enter the <H>Cosmetics</> screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_2_Pad",
             },
             ["Message_Guide_ChangeColor_3"] = {
-                ["ContentEN"] = "Tap <H>Accessories</> to open the Accessories screen.",
+                ["ContentEN"] = "Select a <H>cosmetic</> slot to open the Cosmetics screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_3",
             },
             ["Message_Guide_ChangeColor_3_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Accessories</> and open the Accessories screen",
+                ["ContentEN"] = "Press to select a <H>cosmetic</> slot and open the Cosmetics screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_3_Pad",
             },
             ["Message_Guide_ChangeColor_4"] = {
-                ["ContentEN"] = "Switch between different accessory slots here.",
+                ["ContentEN"] = "Switch between different cosmetic slots here",
                 ["TextMapId"] = "Message_Guide_ChangeColor_4",
             },
             ["Message_Guide_ChangeColor_5"] = {
-                ["ContentEN"] = "View and equip your available accessories.",
+                ["ContentEN"] = "View and put on your accessories",
                 ["TextMapId"] = "Message_Guide_ChangeColor_5",
             },
             ["Message_Guide_ChangeColor_6"] = {
@@ -11307,27 +11389,27 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ChangeColor_6",
             },
             ["Message_Guide_ChangeColor_7"] = {
-                ["ContentEN"] = "Return to the Armoury screen.",
+                ["ContentEN"] = "Return to the Armoury screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_7",
             },
             ["Message_Guide_ChangeColor_7_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to return to the Armoury screen",
+                ["ContentEN"] = "Press to return to the Armoury screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_7_Pad",
             },
             ["Message_Guide_ChangeColor_8"] = {
-                ["ContentEN"] = "Tap <H>Melee Weapons</>.",
+                ["ContentEN"] = "Select <H>Melee Weapon</>",
                 ["TextMapId"] = "Message_Guide_ChangeColor_8",
             },
             ["Message_Guide_ChangeColor_8_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open the <H>Melee Weapons</> menu",
+                ["ContentEN"] = "Press to open the <H>Melee Weapons</> menu",
                 ["TextMapId"] = "Message_Guide_ChangeColor_8_Pad",
             },
             ["Message_Guide_ChangeColor_9"] = {
-                ["ContentEN"] = "Tap <H>Appearance</>.",
+                ["ContentEN"] = "Select <H>Cosmetics</>",
                 ["TextMapId"] = "Message_Guide_ChangeColor_9",
             },
             ["Message_Guide_ChangeColor_9_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to enter the <H>Appearance</> screen",
+                ["ContentEN"] = "Press to enter the <H>Cosmetics</> screen",
                 ["TextMapId"] = "Message_Guide_ChangeColor_9_Pad",
             },
             ["Message_Guide_ChangeWeapon_1"] = {
@@ -11351,11 +11433,11 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_13",
             },
             ["Message_Guide_ChangeWeapon_3"] = {
-                ["ContentEN"] = "Select \"Melee Weapon\" to set the melee weapon loadouts",
+                ["ContentEN"] = "Select \"Melee Weapons\" to set the melee weapon loadouts",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_3",
             },
             ["Message_Guide_ChangeWeapon_3_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open the Melee Weapons screen and configure your loadout",
+                ["ContentEN"] = "Press to open the Melee Weapons screen and configure your loadout",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_3_Pad",
             },
             ["Message_Guide_ChangeWeapon_4"] = {
@@ -11371,7 +11453,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_6",
             },
             ["Message_Guide_ChangeWeapon_6_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select your newly acquired weapon",
+                ["ContentEN"] = "Press to select your newly acquired weapon",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_6_Pad",
             },
             ["Message_Guide_ChangeWeapon_7"] = {
@@ -11379,7 +11461,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_7",
             },
             ["Message_Guide_ChangeWeapon_7_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select Equip and switch to a melee weapon",
+                ["ContentEN"] = "Press to select Equip and switch to a melee weapon",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_7_Pad",
             },
             ["Message_Guide_ChangeWeapon_8"] = {
@@ -11391,19 +11473,59 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_9",
             },
             ["Message_Guide_ChangeWeapon_9_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select Upgrade and enhance your weapon",
+                ["ContentEN"] = "Press to select Upgrade and enhance your weapon",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_9_Pad",
             },
+            ["Message_Guide_Dispatch_01"] = {
+                ["ContentEN"] = "Various unexpected events happen in this world. When you're stretched thin, you can dispatch your companions on expedition quests to handle these sudden situations for you.",
+                ["TextMapId"] = "Message_Guide_Dispatch_01",
+            },
+            ["Message_Guide_Dispatch_02"] = {
+                ["ContentEN"] = "Select here to view the list of dispatchable characters",
+                ["TextMapId"] = "Message_Guide_Dispatch_02",
+            },
             ["Message_Guide_Dispatch_02_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to view the Expedition list",
+                ["ContentEN"] = "Press to view the Expedition list",
                 ["TextMapId"] = "Message_Guide_Dispatch_02_Pad",
             },
+            ["Message_Guide_Dispatch_03"] = {
+                ["ContentEN"] = "You can view the currenrt ongoing expedition quests here.",
+                ["TextMapId"] = "Message_Guide_Dispatch_03",
+            },
+            ["Message_Guide_Dispatch_04"] = {
+                ["ContentEN"] = "You can check the details of the selected expedition quest here.",
+                ["TextMapId"] = "Message_Guide_Dispatch_04",
+            },
+            ["Message_Guide_Dispatch_05"] = {
+                ["ContentEN"] = "Completing expedition quests grants both standard rewards and extra rewards.",
+                ["TextMapId"] = "Message_Guide_Dispatch_05",
+            },
+            ["Message_Guide_Dispatch_06"] = {
+                ["ContentEN"] = "Completing expedition quests in person can lead to a quick acquisition of the standard rewards.",
+                ["TextMapId"] = "Message_Guide_Dispatch_06",
+            },
+        }
+    end },
+    { MinKey = "Message_Guide_Dispatch_07", MaxKey = "Message_Guide_WeaponTrigger_2", Loader = function()
+        return {
+            ["Message_Guide_Dispatch_07"] = {
+                ["ContentEN"] = "Select here to open the list of dispatchable characters",
+                ["TextMapId"] = "Message_Guide_Dispatch_07",
+            },
             ["Message_Guide_Dispatch_07_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to view the Agents list",
+                ["ContentEN"] = "Press to view the Character list",
                 ["TextMapId"] = "Message_Guide_Dispatch_07_Pad",
             },
+            ["Message_Guide_Dispatch_08"] = {
+                ["ContentEN"] = "You can view the dispatchable characters and their Traits in the list.",
+                ["TextMapId"] = "Message_Guide_Dispatch_08",
+            },
+            ["Message_Guide_Dispatch_09"] = {
+                ["ContentEN"] = "Select Auto-Select to dispatch characters immediately",
+                ["TextMapId"] = "Message_Guide_Dispatch_09",
+            },
             ["Message_Guide_Dispatch_09_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to auto-select agents with one tap",
+                ["ContentEN"] = "Press to auto-select characters",
                 ["TextMapId"] = "Message_Guide_Dispatch_09_Pad",
             },
             ["Message_Guide_DungeonSec_1"] = {
@@ -11423,7 +11545,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Dungeon_10",
             },
             ["Message_Guide_Dungeon_10_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to customise your team setup by choosing the best main fighter and combat partners for each challenge",
+                ["ContentEN"] = "Press to customise your team setup by choosing a main character and Combat Partners for each challenge",
                 ["TextMapId"] = "Message_Guide_Dungeon_10_Pad",
             },
             ["Message_Guide_Dungeon_11"] = {
@@ -11431,7 +11553,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Dungeon_11",
             },
             ["Message_Guide_Dungeon_11_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open the team setup page",
+                ["ContentEN"] = "Press to open the team setup screen",
                 ["TextMapId"] = "Message_Guide_Dungeon_11_Pad",
             },
             ["Message_Guide_Dungeon_12"] = {
@@ -11439,19 +11561,43 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Dungeon_12",
             },
             ["Message_Guide_Dungeon_13"] = {
-                ["ContentEN"] = "Tap to open the <H>Commissions</> screen.",
+                ["ContentEN"] = "Select here to open the <H>Commissions</> screen.",
                 ["TextMapId"] = "Message_Guide_Dungeon_13",
             },
             ["Message_Guide_Dungeon_13_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to enter the <H>Commissions</> screen",
+                ["ContentEN"] = "Press to enter the <H>Commissions</> screen",
                 ["TextMapId"] = "Message_Guide_Dungeon_13_Pad",
+            },
+            ["Message_Guide_Dungeon_14"] = {
+                ["ContentEN"] = "Select here to set up your team",
+                ["TextMapId"] = "Message_Guide_Dungeon_14",
+            },
+            ["Message_Guide_Dungeon_14_Pad"] = {
+                ["ContentEN"] = "Press here to set up your team",
+                ["TextMapId"] = "Message_Guide_Dungeon_14_Pad",
+            },
+            ["Message_Guide_Dungeon_15"] = {
+                ["ContentEN"] = "Select here to save the team preset",
+                ["TextMapId"] = "Message_Guide_Dungeon_15",
+            },
+            ["Message_Guide_Dungeon_15_Pad"] = {
+                ["ContentEN"] = "Press here to save the team preset",
+                ["TextMapId"] = "Message_Guide_Dungeon_15_Pad",
+            },
+            ["Message_Guide_Dungeon_16"] = {
+                ["ContentEN"] = "Select again to confirm",
+                ["TextMapId"] = "Message_Guide_Dungeon_16",
+            },
+            ["Message_Guide_Dungeon_16_Pad"] = {
+                ["ContentEN"] = "Press again to confirm",
+                ["TextMapId"] = "Message_Guide_Dungeon_16_Pad",
             },
             ["Message_Guide_Dungeon_1_PC"] = {
                 ["ContentEN"] = "Hold <H>&ShowCursor&</> to show the cursor, then select <H>Combat</> to open the Combat page",
                 ["TextMapId"] = "Message_Guide_Dungeon_1_PC",
             },
             ["Message_Guide_Dungeon_1_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open the <H>Combat</> screen",
+                ["ContentEN"] = "Press to open the <H>Combat</> screen",
                 ["TextMapId"] = "Message_Guide_Dungeon_1_Pad",
             },
             ["Message_Guide_Dungeon_1_Phone"] = {
@@ -11475,7 +11621,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Dungeon_5",
             },
             ["Message_Guide_Dungeon_5_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Commissions</> and take on new challenges",
+                ["ContentEN"] = "Press to select <H>Commissions</> and take on new challenges",
                 ["TextMapId"] = "Message_Guide_Dungeon_5_Pad",
             },
             ["Message_Guide_Dungeon_6"] = {
@@ -11491,35 +11637,31 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Dungeon_8",
             },
             ["Message_Guide_Dungeon_8_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to edit your team setup for commission battles",
+                ["ContentEN"] = "Press to edit your team setup for commission battles",
                 ["TextMapId"] = "Message_Guide_Dungeon_8_Pad",
             },
-        }
-    end },
-    { MinKey = "Message_Guide_Dungeon_9", MaxKey = "Minigame_Textmap_100333", Loader = function()
-        return {
             ["Message_Guide_Dungeon_9"] = {
                 ["ContentEN"] = "This team setup mirrors the one in Armoury — updates made there will apply here as well.",
                 ["TextMapId"] = "Message_Guide_Dungeon_9",
             },
             ["Message_Guide_Fish01"] = {
-                ["ContentEN"] = "Tap here to switch rod",
+                ["ContentEN"] = "Select here to switch rod",
                 ["TextMapId"] = "Message_Guide_Fish01",
             },
             ["Message_Guide_Fish02"] = {
-                ["ContentEN"] = "Tap here to change bait",
+                ["ContentEN"] = "Select here to change bait",
                 ["TextMapId"] = "Message_Guide_Fish02",
             },
             ["Message_Guide_Fish03"] = {
-                ["ContentEN"] = "Tap here to start fishing",
+                ["ContentEN"] = "Select here to start fishing",
                 ["TextMapId"] = "Message_Guide_Fish03",
             },
             ["Message_Guide_Fish04"] = {
-                ["ContentEN"] = "Tap here to cast your line",
+                ["ContentEN"] = "Select here to cast your line",
                 ["TextMapId"] = "Message_Guide_Fish04",
             },
             ["Message_Guide_Fish05"] = {
-                ["ContentEN"] = "Tap here to reel in",
+                ["ContentEN"] = "Select here to reel in",
                 ["TextMapId"] = "Message_Guide_Fish05",
             },
             ["Message_Guide_Forge_1"] = {
@@ -11539,7 +11681,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Forge_4",
             },
             ["Message_Guide_Forge_4_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to begin forging",
+                ["ContentEN"] = "Press to begin forging",
                 ["TextMapId"] = "Message_Guide_Forge_4_Pad",
             },
             ["Message_Guide_Forge_5"] = {
@@ -11551,7 +11693,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Forge_6",
             },
             ["Message_Guide_Forge_6_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to confirm",
+                ["ContentEN"] = "Press to confirm",
                 ["TextMapId"] = "Message_Guide_Forge_6_Pad",
             },
             ["Message_Guide_Forge_7"] = {
@@ -11559,7 +11701,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Forge_7",
             },
             ["Message_Guide_Forge_7_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select \"Claim All\" to collect all the forged items",
+                ["ContentEN"] = "Press to select \"Claim All\" to collect all the forged items",
                 ["TextMapId"] = "Message_Guide_Forge_7_Pad",
             },
             ["Message_Guide_Gacha_1"] = {
@@ -11579,7 +11721,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_GameEvent_2_PC",
             },
             ["Message_Guide_GameEvent_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <Highlight>Events</> and open the event screen",
+                ["ContentEN"] = "Press to select <Highlight>Events</> and open the event screen",
                 ["TextMapId"] = "Message_Guide_GameEvent_2_Pad",
             },
             ["Message_Guide_GameEvent_2_Phone"] = {
@@ -11591,7 +11733,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_GameEvent_3",
             },
             ["Message_Guide_GameEvent_3_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select Claim All and collect all available event rewards",
+                ["ContentEN"] = "Press to select \"Claim All\" and collect all available event rewards",
                 ["TextMapId"] = "Message_Guide_GameEvent_3_Pad",
             },
             ["Message_Guide_Impression_1"] = {
@@ -11619,7 +11761,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ModLevelUp_4",
             },
             ["Message_Guide_ModLevelUp_4_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select a Demon Wedge",
+                ["ContentEN"] = "Press to select a Demon Wedge",
                 ["TextMapId"] = "Message_Guide_ModLevelUp_4_Pad",
             },
             ["Message_Guide_ModLevelUp_5"] = {
@@ -11627,7 +11769,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ModLevelUp_5",
             },
             ["Message_Guide_ModLevelUp_5_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select Upgrade Demon Wedge",
+                ["ContentEN"] = "Press to select \"Upgrade Demon Wedge\"",
                 ["TextMapId"] = "Message_Guide_ModLevelUp_5_Pad",
             },
             ["Message_Guide_ModLevelUp_6"] = {
@@ -11655,7 +11797,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ModTendency_4",
             },
             ["Message_Guide_ModTendency_4_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select a Demon Wedge Slot",
+                ["ContentEN"] = "Press to select a Demon Wedge Slot",
                 ["TextMapId"] = "Message_Guide_ModTendency_4_Pad",
             },
             ["Message_Guide_ModTendency_5"] = {
@@ -11663,7 +11805,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_ModTendency_5",
             },
             ["Message_Guide_ModTendency_5_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select Adjust Slot Track",
+                ["ContentEN"] = "Press to select \"Adjust Slot Track\"",
                 ["TextMapId"] = "Message_Guide_ModTendency_5_Pad",
             },
             ["Message_Guide_ModTendency_6"] = {
@@ -11711,7 +11853,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Mod_2",
             },
             ["Message_Guide_Mod_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select a Demon Wedge to equip",
+                ["ContentEN"] = "Press to select a Demon Wedge to equip",
                 ["TextMapId"] = "Message_Guide_Mod_2_Pad",
             },
             ["Message_Guide_Mod_3"] = {
@@ -11747,7 +11889,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_OpenArmory_PC",
             },
             ["Message_Guide_OpenArmory_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open the Armoury Menu.",
+                ["ContentEN"] = "Press to open the Armoury Menu.",
                 ["TextMapId"] = "Message_Guide_OpenArmory_Pad",
             },
             ["Message_Guide_OpenArmory_Phone"] = {
@@ -11755,55 +11897,55 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_OpenArmory_Phone",
             },
             ["Message_Guide_PetTrain_1"] = {
-                ["ContentEN"] = "Tap <H>Armoury</> to open the Armoury screen.",
+                ["ContentEN"] = "Select <H>Armoury</> to open the Armoury screen.",
                 ["TextMapId"] = "Message_Guide_PetTrain_1",
             },
             ["Message_Guide_PetTrain_1_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Armoury</> and enter the Armoury screen",
+                ["ContentEN"] = "Press to select <H>Armoury</> and enter the Armoury screen",
                 ["TextMapId"] = "Message_Guide_PetTrain_1_Pad",
             },
             ["Message_Guide_PetTrain_2"] = {
-                ["ContentEN"] = "Tap <H>Geniemons</>.",
+                ["ContentEN"] = "Select <H>Geniemons</>",
                 ["TextMapId"] = "Message_Guide_PetTrain_2",
             },
             ["Message_Guide_PetTrain_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to enter the <H>Geniemons</> screen",
+                ["ContentEN"] = "Press to enter the <H>Geniemons</> screen",
                 ["TextMapId"] = "Message_Guide_PetTrain_2_Pad",
             },
             ["Message_Guide_PetTrain_3"] = {
-                ["ContentEN"] = "Tap <H>Potential</>.",
+                ["ContentEN"] = "Select <H>Traits</>",
                 ["TextMapId"] = "Message_Guide_PetTrain_3",
             },
             ["Message_Guide_PetTrain_3_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to check their <H>Potentials</>",
+                ["ContentEN"] = "Press to view their <H>Traits</>",
                 ["TextMapId"] = "Message_Guide_PetTrain_3_Pad",
             },
             ["Message_Guide_PetTrain_4"] = {
-                ["ContentEN"] = "Geniemon are either <H>Active</> or <H>Inactive</>. Active Geniemons have potential slots, which unlock as their star level increases.",
+                ["ContentEN"] = "Geniemons are divided into <H>Active Geniemons</> and <H>Inactive Geniemons</>. Active Geniemons have Trait slots that are gradually unlocked when they're ascended.",
                 ["TextMapId"] = "Message_Guide_PetTrain_4",
             },
             ["Message_Guide_PetTrain_5"] = {
-                ["ContentEN"] = "Raise a Geniemon's potential level via <H>Rank Up</>. You can also transfer Potential between Geniemons via <H>Geniemon Training</>.",
+                ["ContentEN"] = "Geniemon's Trait level can be increased via <H>Raise</>. You can also transfer Traits between Geniemons via <H>Geniemon Training</>.",
                 ["TextMapId"] = "Message_Guide_PetTrain_5",
             },
             ["Message_Guide_PetTrain_6"] = {
-                ["ContentEN"] = "Inactive Geniemons cannot join battle, but their Potential can be learned by others through Geniemon Training.",
+                ["ContentEN"] = "Inactive Geniemons cannot join battle, but their Traits can be learned by other Geniemons through Geniemon Training.",
                 ["TextMapId"] = "Message_Guide_PetTrain_6",
             },
             ["Message_Guide_Pet_01"] = {
-                ["ContentEN"] = "Select \"Capture the Geniemon\"",
+                ["ContentEN"] = "Select \"Feed the Geniemon\"",
                 ["TextMapId"] = "Message_Guide_Pet_01",
             },
             ["Message_Guide_Pet_02"] = {
-                ["ContentEN"] = "You can attract Geniemons using Treats of varying qualities. The higher the quality, the better your chances of a successful capture.",
+                ["ContentEN"] = "You can attract Geniemons using Treats of varying qualities. The higher the quality, the better your chances of befriending a Geniemon.",
                 ["TextMapId"] = "Message_Guide_Pet_02",
             },
             ["Message_Guide_Pet_03"] = {
-                ["ContentEN"] = "Capturing at the right moment increases your chances, especially if you aim for the <H>central spot</>.",
+                ["ContentEN"] = "Feeding at the right moment increases your chances, especially if you aim for the <H>central spot</>.",
                 ["TextMapId"] = "Message_Guide_Pet_03",
             },
             ["Message_Guide_Pet_04"] = {
-                ["ContentEN"] = "Select here to start the capture",
+                ["ContentEN"] = "Select here to feed",
                 ["TextMapId"] = "Message_Guide_Pet_04",
             },
             ["Message_Guide_Pet_05"] = {
@@ -11811,7 +11953,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Pet_05",
             },
             ["Message_Guide_Pet_06"] = {
-                ["ContentEN"] = "Geniemon successfully captured! Head to <H>Armoury</> to check out your new pal.",
+                ["ContentEN"] = "You've successfully befriended this Geniemon! Head to <H>Armoury</> to check out your new pal.",
                 ["TextMapId"] = "Message_Guide_Pet_06",
             },
             ["Message_Guide_Pet_07"] = {
@@ -11819,15 +11961,15 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Pet_07",
             },
             ["Message_Guide_Pet_08"] = {
-                ["ContentEN"] = "Check the boost to your Resonance provided by the Geniemon here",
+                ["ContentEN"] = "Select here to check the Geniemon's abilities",
                 ["TextMapId"] = "Message_Guide_Pet_08",
             },
             ["Message_Guide_Pet_08_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to view the Resonance boost from your Geniemon",
+                ["ContentEN"] = "Press to view the Geniemon's abilities",
                 ["TextMapId"] = "Message_Guide_Pet_08_Pad",
             },
             ["Message_Guide_Pet_09"] = {
-                ["ContentEN"] = "Tap here to release a Geniemon. You can use the essence it leaves behind to boost the level of another Geniemon. You can also level up Geniemon directly using nourishing treats.",
+                ["ContentEN"] = "Select here to release a Geniemon. You can use the essence it leaves behind to boost the level of another Geniemon. You can also level up Geniemon directly using nourishing treats.",
                 ["TextMapId"] = "Message_Guide_Pet_09",
             },
             ["Message_Guide_Pet_10"] = {
@@ -11835,8 +11977,16 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Pet_10",
             },
             ["Message_Guide_Pet_11"] = {
-                ["ContentEN"] = "Press <H>&Skill3&</> to activate Geniemon Aid during combat.",
+                ["ContentEN"] = "Press &Skill3& to activate Geniemon Support during combat.",
                 ["TextMapId"] = "Message_Guide_Pet_11",
+            },
+            ["Message_Guide_Pet_11_PAD"] = {
+                ["ContentEN"] = "Press &GamepadUseSkill& + &Skill3& during combat to trigger Geniemon Support",
+                ["TextMapId"] = "Message_Guide_Pet_11_PAD",
+            },
+            ["Message_Guide_Pet_11_PHONE"] = {
+                ["ContentEN"] = "Tap the Geniemon during combat to trigger Geniemon Support",
+                ["TextMapId"] = "Message_Guide_Pet_11_PHONE",
             },
             ["Message_Guide_Quest_1"] = {
                 ["ContentEN"] = "If you're not sure what to do next, the <H>Quest Notes</> might give you an idea!",
@@ -11847,7 +11997,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Quest_2_PC",
             },
             ["Message_Guide_Quest_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open your Quest Notes",
+                ["ContentEN"] = "Press to open your Quest Notes",
                 ["TextMapId"] = "Message_Guide_Quest_2_Pad",
             },
             ["Message_Guide_Quest_2_Phone"] = {
@@ -11863,7 +12013,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Quest_4",
             },
             ["Message_Guide_Quest_4_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to view quest: The Wandering Luno",
+                ["ContentEN"] = "Press to view quest: The Wandering Luno",
                 ["TextMapId"] = "Message_Guide_Quest_4_Pad",
             },
             ["Message_Guide_Quest_5"] = {
@@ -11871,7 +12021,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Quest_5",
             },
             ["Message_Guide_Quest_5_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to track or untrack the selected quest",
+                ["ContentEN"] = "Press to track or untrack the selected quest",
                 ["TextMapId"] = "Message_Guide_Quest_5_Pad",
             },
             ["Message_Guide_ReplaceChar_1"] = {
@@ -11923,23 +12073,23 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_4",
             },
             ["Message_Guide_Rouge3choose1_5"] = {
-                ["ContentEN"] = "Collect enough Lampwicks of <H>the same type</> to unlock <H>Bonus Effects</>.",
+                ["ContentEN"] = "Collect enough Lampwicks of <H>the same type</> to unlock <H>extra effects</> in Mystic Maze",
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_5",
             },
             ["Message_Guide_Rouge3choose1_6"] = {
-                ["ContentEN"] = "Tap to <H>discard the Lampwick reward</> and gain a small amount of <H>Embers</> instead.",
+                ["ContentEN"] = "Select here to <H>discard the Lampwick reward</> and gain a small amount of <H>Embers</> instead",
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_6",
             },
             ["Message_Guide_Rouge3choose1_7"] = {
-                ["ContentEN"] = "Tap to toggle <H>Lampwick</> info between compact and full views.",
+                ["ContentEN"] = "Select here to toggle <H>Lampwick</> info between compact and full views",
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_7",
             },
             ["Message_Guide_Rouge3choose1_8"] = {
-                ["ContentEN"] = "Open the <H>Exploration Info</> screen to check your current Lampwicks.",
+                ["ContentEN"] = "Open the <H>Exploration Satchel</> page to check your current Lampwicks",
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_8",
             },
             ["Message_Guide_Rouge3choose1_8_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to open the <H>Exploration Info</> screen and check your current Lampwicks",
+                ["ContentEN"] = "Press to open the <H>Exploration Satchel</> screen and check your current Lampwicks",
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_8_Pad",
             },
             ["Message_Guide_Rouge3choose1_9"] = {
@@ -11979,7 +12129,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_RougeLantern_2",
             },
             ["Message_Guide_RougeLantern_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select Lantern Light-Up",
+                ["ContentEN"] = "Press to select \"Lantern Light-Up\"",
                 ["TextMapId"] = "Message_Guide_RougeLantern_2_Pad",
             },
             ["Message_Guide_RougeLantern_3"] = {
@@ -11995,35 +12145,35 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_RougeLantern_5",
             },
             ["Message_Guide_RougeLantern_6"] = {
-                ["ContentEN"] = "View all <H>Artefacts</> and <H>Lampwicks</> collected during your exploration.",
+                ["ContentEN"] = "Here shows all <H>Artefacts</> and <H>Lampwicks</> collected during the exploration",
                 ["TextMapId"] = "Message_Guide_RougeLantern_6",
             },
             ["Message_Guide_RougeLantern_7"] = {
-                ["ContentEN"] = "This shows your current <H>Glazeystal</>.",
+                ["ContentEN"] = "Check the amount of <H>Glazeystal</> you've owned here",
                 ["TextMapId"] = "Message_Guide_RougeLantern_7",
             },
             ["Message_Guide_RougeLantern_8"] = {
-                ["ContentEN"] = "Use <H>Glazeystal</> to repair the Lantern and gain <H>Blessings</> to boost your combat power.",
+                ["ContentEN"] = "Use <H>Glazeystal</> to light up the Lantern and gain <H>Blessings</> to boost your combat power",
                 ["TextMapId"] = "Message_Guide_RougeLantern_8",
             },
             ["Message_Guide_RougeLantern_8_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Glazeystal</> to repair the lantern and gain <H>Blessings</> that enhance your combat ability",
+                ["ContentEN"] = "Press to select <H>Glazeystal</> to light up the lantern and gain <H>Blessings</> that enhance your combat ability",
                 ["TextMapId"] = "Message_Guide_RougeLantern_8_Pad",
             },
             ["Message_Guide_RougeLantern_9"] = {
-                ["ContentEN"] = "Tap <H>Skill Enhancements</>.",
+                ["ContentEN"] = "Select <H>Skill Boost</>",
                 ["TextMapId"] = "Message_Guide_RougeLantern_9",
             },
             ["Message_Guide_RougeLantern_9_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Skill Enhancements</>",
+                ["ContentEN"] = "Press to select <H>Skill Boost</>",
                 ["TextMapId"] = "Message_Guide_RougeLantern_9_Pad",
             },
             ["Message_Guide_RougeSettlement_1"] = {
-                ["ContentEN"] = "This shows your current Trace Points, used to track exploration milestones and unlock weekly rewards.",
+                ["ContentEN"] = "Here shows the Trace Point you've earned during the exploration, which can be used to unlock weekly rewards.",
                 ["TextMapId"] = "Message_Guide_RougeSettlement_1",
             },
             ["Message_Guide_RougeSettlement_2"] = {
-                ["ContentEN"] = "Glazeystal collected during exploration can be used to restore the Lantern and enhance your overall power.",
+                ["ContentEN"] = "Here shows the Glazeystal you've collected during the exploration, which can be used to light up the Lantern and enhance your combat power in Mystic Maze.",
                 ["TextMapId"] = "Message_Guide_RougeSettlement_2",
             },
             ["Message_Guide_RougeShop_1"] = {
@@ -12039,11 +12189,11 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Rouge_1",
             },
             ["Message_Guide_Rouge_10"] = {
-                ["ContentEN"] = "Tap <H>Start Exploring</> to enter the Maze and experience a story unfolding elsewhere in the world.",
+                ["ContentEN"] = "Select <H>Start Exploring</> to enter the Mystic Maze and experience a story unfolding elsewhere in the world.",
                 ["TextMapId"] = "Message_Guide_Rouge_10",
             },
             ["Message_Guide_Rouge_11"] = {
-                ["ContentEN"] = "Click &OpenMenu& to open the menu.",
+                ["ContentEN"] = "Click &OpenMenu& to open the menu",
                 ["TextMapId"] = "Message_Guide_Rouge_11",
             },
             ["Message_Guide_Rouge_11_Pad"] = {
@@ -12055,23 +12205,23 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Rouge_3",
             },
             ["Message_Guide_Rouge_3_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Echoes of Missteps</>",
+                ["ContentEN"] = "Press to select <H>\"Echoes of Missteps\"</>",
                 ["TextMapId"] = "Message_Guide_Rouge_3_Pad",
             },
             ["Message_Guide_Rouge_4"] = {
-                ["ContentEN"] = "Select <H>\"Go\"</> to enter the Maze.",
+                ["ContentEN"] = "Select <H>\"Go\"</> to enter the Mystic Maze.",
                 ["TextMapId"] = "Message_Guide_Rouge_4",
             },
             ["Message_Guide_Rouge_4_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select <H>Proceed</> and enter the Maze",
+                ["ContentEN"] = "Press to select <H>\"Go\"</> and enter the Mystic Maze",
                 ["TextMapId"] = "Message_Guide_Rouge_4_Pad",
             },
             ["Message_Guide_Rouge_5"] = {
-                ["ContentEN"] = "You can adjust the difficulty settings here.",
+                ["ContentEN"] = "You can select the Difficulty here.",
                 ["TextMapId"] = "Message_Guide_Rouge_5",
             },
             ["Message_Guide_Rouge_6"] = {
-                ["ContentEN"] = "You can view and claim your rewards here. Rewards refresh weekly.",
+                ["ContentEN"] = "You can view and claim your rewards in Mystic Maze here. The rewards refresh weekly.",
                 ["TextMapId"] = "Message_Guide_Rouge_6",
             },
             ["Message_Guide_Rouge_7"] = {
@@ -12079,7 +12229,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Rouge_7",
             },
             ["Message_Guide_Rouge_7_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select Ad Abyssum",
+                ["ContentEN"] = "Press to select \"Ad Abyssum\"",
                 ["TextMapId"] = "Message_Guide_Rouge_7_Pad",
             },
             ["Message_Guide_Rouge_8"] = {
@@ -12091,8 +12241,16 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_Rouge_9",
             },
             ["Message_Guide_Tracking_1"] = {
-                ["ContentEN"] = "Tap the button to enable navigation guidance. Follow the markers to reach your destination.",
+                ["ContentEN"] = "Select here to enable navigation guidance. Follow the markers to reach your destination.",
                 ["TextMapId"] = "Message_Guide_Tracking_1",
+            },
+            ["Message_Guide_Tracking_1_PAD"] = {
+                ["ContentEN"] = "Navigation guidance is shown here. Follow the indicator to reach your destination.",
+                ["TextMapId"] = "Message_Guide_Tracking_1_PAD",
+            },
+            ["Message_Guide_Tracking_1_PHONE"] = {
+                ["ContentEN"] = "Tap here to enable navigation guidance. Follow the indicator to reach your destination.",
+                ["TextMapId"] = "Message_Guide_Tracking_1_PHONE",
             },
             ["Message_Guide_TrainingGround_1"] = {
                 ["ContentEN"] = "Sandrealm Meditation lets you revisit and battle past enemies in a controlled environment, helping you familiarise yourself with their moves and hone your combat skills.",
@@ -12103,7 +12261,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_TrainingGround_2",
             },
             ["Message_Guide_TrainingGround_2_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to select a target",
+                ["ContentEN"] = "Press to select a target",
                 ["TextMapId"] = "Message_Guide_TrainingGround_2_Pad",
             },
             ["Message_Guide_TrainingGround_3"] = {
@@ -12115,7 +12273,7 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "Message_Guide_TrainingGround_4",
             },
             ["Message_Guide_TrainingGround_4_Pad"] = {
-                ["ContentEN"] = "If <H>multiple enemies</> are selected, you can press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to customise their respective spawn numbers",
+                ["ContentEN"] = "If <H>multiple enemies</> are selected, you can press to customise their respective spawn numbers",
                 ["TextMapId"] = "Message_Guide_TrainingGround_4_Pad",
             },
             ["Message_Guide_TrainingGround_5"] = {
@@ -12150,6 +12308,10 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["ContentEN"] = "Different attributes have different <H>bonus effects</>, which can be viewed in <H>Attribute Info</>.",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_2",
             },
+        }
+    end },
+    { MinKey = "Message_Guide_WeaponTrigger_3", MaxKey = "Mon_DesDetail_9001001", Loader = function()
+        return {
             ["Message_Guide_WeaponTrigger_3"] = {
                 ["ContentEN"] = "<H>Characters</> contribute to elemental attacks that may trigger elemental Bonus Effects— <H>Hydro, Pyro, Anemo, Electro, Lumino, and Umbro</>. Each elemental <H>Bonus Effect</> inflicts corresponding <H>periodic damage</> on the target.",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_3",
@@ -12298,10 +12460,6 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["ContentEN"] = "Different clues may lead to different outcomes. Choose carefully.",
                 ["TextMapId"] = "Minigame_Textmap_100333",
             },
-        }
-    end },
-    { MinKey = "Minigame_Textmap_100334", MaxKey = "Mon_Description_8001001", Loader = function()
-        return {
             ["Minigame_Textmap_100334"] = {
                 ["ContentEN"] = "Deduction Complete",
                 ["TextMapId"] = "Minigame_Textmap_100334",
@@ -12523,35 +12681,35 @@ Unclaimed rewards from the [Beginner's Guide for Phoxhunters] event have been se
                 ["TextMapId"] = "ModArchive_Name_Melee_2040",
             },
             ["ModArchive_Name_Melee_2050"] = {
-                ["ContentEN"] = "Fenrir Ⅱ",
+                ["ContentEN"] = "Fenrir Ⅲ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2050",
             },
             ["ModArchive_Name_Melee_2060"] = {
-                ["ContentEN"] = "Fenrir Ⅲ",
+                ["ContentEN"] = "Fenrir Ⅳ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2060",
             },
             ["ModArchive_Name_Melee_2070"] = {
-                ["ContentEN"] = "Fenrir Ⅳ",
+                ["ContentEN"] = "Fenrir Ⅴ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2070",
             },
             ["ModArchive_Name_Melee_2080"] = {
-                ["ContentEN"] = "Fenrir Ⅴ",
+                ["ContentEN"] = "Fenrir Ⅵ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2080",
             },
             ["ModArchive_Name_Melee_2090"] = {
-                ["ContentEN"] = "Fenrir Ⅵ",
+                ["ContentEN"] = "Fenrir Ⅶ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2090",
             },
             ["ModArchive_Name_Melee_2100"] = {
-                ["ContentEN"] = "Fenrir Ⅶ",
+                ["ContentEN"] = "Fenrir Ⅷ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2100",
             },
             ["ModArchive_Name_Melee_2110"] = {
-                ["ContentEN"] = "Fenrir Ⅷ",
+                ["ContentEN"] = "Fenrir Ⅸ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2110",
             },
             ["ModArchive_Name_Melee_2120"] = {
-                ["ContentEN"] = "Fenrir Ⅸ",
+                ["ContentEN"] = "Fenrir Ⅹ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2120",
             },
             ["ModArchive_Name_Melee_2130"] = {
@@ -12957,6 +13115,10 @@ They can leave Landmines behind to disrupt enemies while escaping hunt.",
                 ["ContentEN"] = "A member of The Forsakens, the \"Wildswarm\" tier. They excel at close-quarters combat. Common Charon-folk turned warriors, their combat techniques lack refinement, yet their fury—forged in the blood of kin—shall become the blade that shatters chains and breaks the enemy's Hammerblow.",
                 ["TextMapId"] = "Mon_DesDetail_9001001",
             },
+        }
+    end },
+    { MinKey = "Mon_DesDetail_9002001", MaxKey = "Mon_Name_6004201", Loader = function()
+        return {
             ["Mon_DesDetail_9002001"] = {
                 ["ContentEN"] = "A member of The Forsakens, the \"Wildswarm\" tier. They excel at ranged suppression. ranged suppression and harassment. Those who trespass into their watch face not just cold stares—but arrows from blind spots, striking where vigilance falters.",
                 ["TextMapId"] = "Mon_DesDetail_9002001",
@@ -13105,10 +13267,6 @@ They can leave Landmines behind to disrupt enemies while escaping hunt.",
                 ["ContentEN"] = "The standard gunners of the Elysian Church.",
                 ["TextMapId"] = "Mon_Description_8001001",
             },
-        }
-    end },
-    { MinKey = "Mon_Description_8002001", MaxKey = "Mon_Name_6011301", Loader = function()
-        return {
             ["Mon_Description_8002001"] = {
                 ["ContentEN"] = "The standard offensive troops of the Elysian Church.",
                 ["TextMapId"] = "Mon_Description_8002001",
@@ -13210,11 +13368,11 @@ They can leave Landmines behind to disrupt enemies while escaping hunt.",
                 ["TextMapId"] = "Mon_Guide_115_02",
             },
             ["Mon_Guide_6006001_01"] = {
-                ["ContentEN"] = "<Highlight>Porter Filthoid</> Drops <Highlight>Excavator Modules</> that power Excavators when defeated.",
+                ["ContentEN"] = "When defeated, <Highlight>Porter Filthoid</> drops <Highlight>Excavator Module</> that keeps the Excavator running.",
                 ["TextMapId"] = "Mon_Guide_6006001_01",
             },
             ["Mon_Guide_6007001_01"] = {
-                ["ContentEN"] = "<Highlight>Soul-Scorching Filthoid</> Explodes upon defeat, dealing AoE Damage to teammates and hostile targets within range.",
+                ["ContentEN"] = "<Highlight>Soul-Scorching Filthoid</> explodes upon defeat, dealing AoE Damage to allied and hostile targets within range.",
                 ["TextMapId"] = "Mon_Guide_6007001_01",
             },
             ["Mon_Guide_7001005_01"] = {
@@ -13267,7 +13425,7 @@ The linked target gains Movement Speed and ATK boosts, and continually recovers 
                 ["TextMapId"] = "Mon_Guide_7008001_03",
             },
             ["Mon_Guide_7015001_01"] = {
-                ["ContentEN"] = "<Highlight>Patrol Drone</> Explodes upon defeat, dealing AoE Damage to teammates and hostile targets within range.",
+                ["ContentEN"] = "<Highlight>Patrol Drone</> explodes upon defeat, dealing AoE Damage to allied and hostile targets within range.",
                 ["TextMapId"] = "Mon_Guide_7015001_01",
             },
             ["Mon_Guide_8501002_01"] = {
@@ -13315,8 +13473,8 @@ In <Highlight>\"Commission: Mediation\"</>, once a Deceiver is defeated, elite e
             },
             ["Mon_Guide_Strong_Fade_01"] = {
                 ["ContentEN"] = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\
-<Highlight>Primander – Wither</> periodically summons 3 rotating [Withering Beams].\
-[Withering Beam]: Lasts for 10s. Circles the Primander, damaging targets on contact and lowering their Sanity.",
+<Highlight>Primander – Wither</> periodically unleashes 3 rotating [Withering Beams].\
+[Withering Beam]: Lasts for 10s. Circles the Primander, dealing damage to targets on contact and reducing their Sanity.",
                 ["TextMapId"] = "Mon_Guide_Strong_Fade_01",
             },
             ["Mon_Guide_Strong_Frozen_01"] = {
@@ -13327,7 +13485,7 @@ When <Highlight>Primander – Frostbite</> is hit by a ranged weapon, it retalia
             },
             ["Mon_Guide_Strong_IceOrb_01"] = {
                 ["ContentEN"] = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\
-<Highlight>Primander – Icy Hell</> periodically summons an [Icy Hell] beneath hostile targets.\
+<Highlight>Primander – Icehell</> periodically summons an [Icy Hell] beneath hostile targets.\
 [Icy Hell]: Slows units within its radius, then detonates after #1s, dealing AoE damage to all hostile targets in range.",
                 ["TextMapId"] = "Mon_Guide_Strong_IceOrb_01",
             },
@@ -13368,24 +13526,24 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
             ["Mon_Guide_Strong_Threefold_01"] = {
                 ["ContentEN"] = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\
 <Highlight>Primander – Phantom</> summons #1 [Phantom(s)] at the start of battle.\
-[Phantom]: Takes increased damage but mirrors its summoner's combat skills.",
+[Phantom]: Takes increased damage but mirrors its summoner's combat abilities.",
                 ["TextMapId"] = "Mon_Guide_Strong_Threefold_01",
             },
             ["Mon_Guide_Strong_ThunderLaser_01"] = {
                 ["ContentEN"] = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\
 <Highlight>Primander – Thunderstorm</> periodically summons multiple [Thunder Hells] around itself.\
-[Thunder Hell]: Spins across the field relentlessly, damaging any hostile target on contact.",
+[Thunder Hell]: Spins across the field relentlessly, dealing damage to any hostile target on contact.",
                 ["TextMapId"] = "Mon_Guide_Strong_ThunderLaser_01",
             },
             ["Mon_Guide_Strong_Thunder_01"] = {
                 ["ContentEN"] = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\
 <Highlight>Primander – Thunderclap</> periodically releases [Electro Orbs] that radiate outward.\
-[Electro Orb]: Discharges electricity every #1s, damaging nearby hostile targets. Disappears when struck.",
+[Electro Orb]: Discharges electricity every #1s, dealing damage to nearby hostile targets. Disappears after being attacked.",
                 ["TextMapId"] = "Mon_Guide_Strong_Thunder_01",
             },
             ["Mon_Guide_Strong_Vampire_01"] = {
                 ["ContentEN"] = "Primanders are powerful entities among the hostile forces that wield unique <Highlight>Primander abilities</>.\
-<Highlight>Primander – Bloodlust</> restores its own HP when it deals damage.",
+<Highlight>Primander – Bloodbath</> restores its own HP when it deals damage.",
                 ["TextMapId"] = "Mon_Guide_Strong_Vampire_01",
             },
             ["Mon_Guide_Title_115"] = {
@@ -13493,7 +13651,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Guide_Title_Strong_Shield",
             },
             ["Mon_Guide_Title_Strong_Threefold"] = {
-                ["ContentEN"] = "Primander - Flash",
+                ["ContentEN"] = "Primander - Phantom",
                 ["TextMapId"] = "Mon_Guide_Title_Strong_Threefold",
             },
             ["Mon_Guide_Title_Strong_Thunder"] = {
@@ -13585,7 +13743,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6001023",
             },
             ["Mon_Name_6001024"] = {
-                ["ContentEN"] = "Veloci Filthoid - Flash",
+                ["ContentEN"] = "Veloci Filthoid - Phantom",
                 ["TextMapId"] = "Mon_Name_6001024",
             },
             ["Mon_Name_6001201"] = {
@@ -13653,7 +13811,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6002023",
             },
             ["Mon_Name_6002024"] = {
-                ["ContentEN"] = "Guerrilla Filthoid - Flash",
+                ["ContentEN"] = "Guerrilla Filthoid - Phantom",
                 ["TextMapId"] = "Mon_Name_6002024",
             },
             ["Mon_Name_6002201"] = {
@@ -13721,7 +13879,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6003023",
             },
             ["Mon_Name_6003024"] = {
-                ["ContentEN"] = "Floating Filthoid - Flash",
+                ["ContentEN"] = "Floating Filthoid - Phantom",
                 ["TextMapId"] = "Mon_Name_6003024",
             },
             ["Mon_Name_6003201"] = {
@@ -13789,13 +13947,17 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6004023",
             },
             ["Mon_Name_6004024"] = {
-                ["ContentEN"] = "Savage Filthoid - Flash",
+                ["ContentEN"] = "Savage Filthoid - Phantom",
                 ["TextMapId"] = "Mon_Name_6004024",
             },
             ["Mon_Name_6004201"] = {
                 ["ContentEN"] = "Savage Filthoid - Blast & Icehell",
                 ["TextMapId"] = "Mon_Name_6004201",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_6004301", MaxKey = "Mon_Name_7010012", Loader = function()
+        return {
             ["Mon_Name_6004301"] = {
                 ["ContentEN"] = "Soul-Scorching Filthoid - Blast & Thunderbolt",
                 ["TextMapId"] = "Mon_Name_6004301",
@@ -13865,7 +14027,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6007023",
             },
             ["Mon_Name_6007024"] = {
-                ["ContentEN"] = "Soul-Scorching Filthoid - Flash",
+                ["ContentEN"] = "Soul-Scorching Filthoid - Phantom",
                 ["TextMapId"] = "Mon_Name_6007024",
             },
             ["Mon_Name_6007201"] = {
@@ -13933,7 +14095,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6011023",
             },
             ["Mon_Name_6011024"] = {
-                ["ContentEN"] = "Veloci Filthoid Ⅱ - Flash",
+                ["ContentEN"] = "Veloci Filthoid Ⅱ - Phantom",
                 ["TextMapId"] = "Mon_Name_6011024",
             },
             ["Mon_Name_6011201"] = {
@@ -13944,10 +14106,6 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["ContentEN"] = "Veloci Filthoid Ⅱ - Sacrifice & Wither & Blast",
                 ["TextMapId"] = "Mon_Name_6011301",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_6012001", MaxKey = "Mon_Name_7012015", Loader = function()
-        return {
             ["Mon_Name_6012001"] = {
                 ["ContentEN"] = "Guerrilla Filthoid Ⅱ",
                 ["TextMapId"] = "Mon_Name_6012001",
@@ -14005,7 +14163,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6012023",
             },
             ["Mon_Name_6012024"] = {
-                ["ContentEN"] = "Guerrilla Filthoid Ⅱ - Flash",
+                ["ContentEN"] = "Guerrilla Filthoid Ⅱ - Phantom",
                 ["TextMapId"] = "Mon_Name_6012024",
             },
             ["Mon_Name_6012201"] = {
@@ -14073,7 +14231,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6013023",
             },
             ["Mon_Name_6013024"] = {
-                ["ContentEN"] = "Floating Filthoid Ⅱ - Flash",
+                ["ContentEN"] = "Floating Filthoid Ⅱ - Phantom",
                 ["TextMapId"] = "Mon_Name_6013024",
             },
             ["Mon_Name_6013201"] = {
@@ -14141,7 +14299,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_6014023",
             },
             ["Mon_Name_6014024"] = {
-                ["ContentEN"] = "Savage Filthoid Ⅱ - Flash",
+                ["ContentEN"] = "Savage Filthoid Ⅱ - Phantom",
                 ["TextMapId"] = "Mon_Name_6014024",
             },
             ["Mon_Name_6014201"] = {
@@ -14213,7 +14371,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7001023",
             },
             ["Mon_Name_7001024"] = {
-                ["ContentEN"] = "Sniper Private - Flash",
+                ["ContentEN"] = "Sniper Private - Phantom",
                 ["TextMapId"] = "Mon_Name_7001024",
             },
             ["Mon_Name_7001201"] = {
@@ -14285,7 +14443,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7002023",
             },
             ["Mon_Name_7002024"] = {
-                ["ContentEN"] = "Cleaver Private - Flash",
+                ["ContentEN"] = "Cleaver Private - Phantom",
                 ["TextMapId"] = "Mon_Name_7002024",
             },
             ["Mon_Name_7002201"] = {
@@ -14357,7 +14515,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7003023",
             },
             ["Mon_Name_7003024"] = {
-                ["ContentEN"] = "Expedition Private - Flash",
+                ["ContentEN"] = "Expedition Private - Phantom",
                 ["TextMapId"] = "Mon_Name_7003024",
             },
             ["Mon_Name_7003201"] = {
@@ -14365,7 +14523,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7003201",
             },
             ["Mon_Name_7003301"] = {
-                ["ContentEN"] = "Expedition Private - Flash & Thunderstorm & Icehell",
+                ["ContentEN"] = "Expedition Private - Phantom & Thunderstorm & Icehell",
                 ["TextMapId"] = "Mon_Name_7003301",
             },
             ["Mon_Name_7004001"] = {
@@ -14425,7 +14583,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7004023",
             },
             ["Mon_Name_7004024"] = {
-                ["ContentEN"] = "Assault Private - Flash",
+                ["ContentEN"] = "Assault Private - Phantom",
                 ["TextMapId"] = "Mon_Name_7004024",
             },
             ["Mon_Name_7004201"] = {
@@ -14433,7 +14591,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7004201",
             },
             ["Mon_Name_7004301"] = {
-                ["ContentEN"] = "Assault Private -  Flash & Glimmer & Icehell",
+                ["ContentEN"] = "Assault Private - Phantom & Glimmer & Icehell",
                 ["TextMapId"] = "Mon_Name_7004301",
             },
             ["Mon_Name_7006001"] = {
@@ -14505,7 +14663,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7008023",
             },
             ["Mon_Name_7008024"] = {
-                ["ContentEN"] = "Elite Sergeant - Flash",
+                ["ContentEN"] = "Elite Sergeant - Phantom",
                 ["TextMapId"] = "Mon_Name_7008024",
             },
             ["Mon_Name_7008051"] = {
@@ -14517,7 +14675,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7008201",
             },
             ["Mon_Name_7008301"] = {
-                ["ContentEN"] = "Elite Sergeant - Bloodbath & Flash & Revenge",
+                ["ContentEN"] = "Elite Sergeant - Bloodbath & Phantom & Revenge",
                 ["TextMapId"] = "Mon_Name_7008301",
             },
             ["Mon_Name_7009001"] = {
@@ -14577,7 +14735,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7009023",
             },
             ["Mon_Name_7009024"] = {
-                ["ContentEN"] = "Benevolent Tyrant - Flash",
+                ["ContentEN"] = "Benevolent Tyrant - Phantom",
                 ["TextMapId"] = "Mon_Name_7009024",
             },
             ["Mon_Name_7009201"] = {
@@ -14600,6 +14758,10 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["ContentEN"] = "Spathatoi Alchemist - Blast",
                 ["TextMapId"] = "Mon_Name_7010012",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_7010013", MaxKey = "Mon_Name_8514019", Loader = function()
+        return {
             ["Mon_Name_7010013"] = {
                 ["ContentEN"] = "Spathatoi Alchemist - Corrosion",
                 ["TextMapId"] = "Mon_Name_7010013",
@@ -14645,7 +14807,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7010023",
             },
             ["Mon_Name_7010024"] = {
-                ["ContentEN"] = "Spathatoi Alchemist - Flash",
+                ["ContentEN"] = "Spathatoi Alchemist - Phantom",
                 ["TextMapId"] = "Mon_Name_7010024",
             },
             ["Mon_Name_7010201"] = {
@@ -14693,27 +14855,27 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7011018",
             },
             ["Mon_Name_7011019"] = {
-                ["ContentEN"] = "Sniper Private - Icehell Ⅱ",
+                ["ContentEN"] = "Sniper Private Ⅱ - Icehell",
                 ["TextMapId"] = "Mon_Name_7011019",
             },
             ["Mon_Name_7011020"] = {
-                ["ContentEN"] = "Sniper Private - Glimmer Ⅱ",
+                ["ContentEN"] = "Sniper Private Ⅱ - Glimmer",
                 ["TextMapId"] = "Mon_Name_7011020",
             },
             ["Mon_Name_7011021"] = {
-                ["ContentEN"] = "Sniper Private - Sacrifice Ⅱ",
+                ["ContentEN"] = "Sniper Private Ⅱ - Sacrifice",
                 ["TextMapId"] = "Mon_Name_7011021",
             },
             ["Mon_Name_7011022"] = {
-                ["ContentEN"] = "Sniper Private - Thunderstorm Ⅱ",
+                ["ContentEN"] = "Sniper Private Ⅱ - Thunderstorm",
                 ["TextMapId"] = "Mon_Name_7011022",
             },
             ["Mon_Name_7011023"] = {
-                ["ContentEN"] = "Sniper Private - Bloodbath Ⅱ",
+                ["ContentEN"] = "Sniper Private Ⅱ - Bloodbath",
                 ["TextMapId"] = "Mon_Name_7011023",
             },
             ["Mon_Name_7011024"] = {
-                ["ContentEN"] = "Sniper Private - Flash Ⅱ",
+                ["ContentEN"] = "Sniper Private Ⅱ - Phantom",
                 ["TextMapId"] = "Mon_Name_7011024",
             },
             ["Mon_Name_7011201"] = {
@@ -14748,10 +14910,6 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["ContentEN"] = "Cleaving Private - Decay Ⅱ",
                 ["TextMapId"] = "Mon_Name_7012015",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_7012016", MaxKey = "Mon_Name_9001201", Loader = function()
-        return {
             ["Mon_Name_7012016"] = {
                 ["ContentEN"] = "Cleaving Private - Wither Ⅱ",
                 ["TextMapId"] = "Mon_Name_7012016",
@@ -14785,7 +14943,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7012023",
             },
             ["Mon_Name_7012024"] = {
-                ["ContentEN"] = "Cleaver Private Ⅱ - Flash",
+                ["ContentEN"] = "Cleaver Private Ⅱ - Phantom",
                 ["TextMapId"] = "Mon_Name_7012024",
             },
             ["Mon_Name_7012201"] = {
@@ -14853,7 +15011,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7013023",
             },
             ["Mon_Name_7013024"] = {
-                ["ContentEN"] = "Expedition Private Ⅱ - Flash",
+                ["ContentEN"] = "Expedition Private Ⅱ - Phantom",
                 ["TextMapId"] = "Mon_Name_7013024",
             },
             ["Mon_Name_7013201"] = {
@@ -14861,7 +15019,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7013201",
             },
             ["Mon_Name_7013301"] = {
-                ["ContentEN"] = "Expedition Private Ⅱ - Flash & Thunderstorm & Icehell",
+                ["ContentEN"] = "Expedition Private Ⅱ - Phantom & Thunderstorm & Icehell",
                 ["TextMapId"] = "Mon_Name_7013301",
             },
             ["Mon_Name_7014001"] = {
@@ -14921,7 +15079,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7014023",
             },
             ["Mon_Name_7014024"] = {
-                ["ContentEN"] = "Assault Private Ⅱ - Flash",
+                ["ContentEN"] = "Assault Private Ⅱ - Phantom",
                 ["TextMapId"] = "Mon_Name_7014024",
             },
             ["Mon_Name_7014201"] = {
@@ -14929,7 +15087,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7014201",
             },
             ["Mon_Name_7014301"] = {
-                ["ContentEN"] = "Assault Private Ⅱ - Flash & Glimmer & Icehell",
+                ["ContentEN"] = "Assault Private Ⅱ - Phantom & Glimmer & Icehell",
                 ["TextMapId"] = "Mon_Name_7014301",
             },
             ["Mon_Name_7015001"] = {
@@ -14989,7 +15147,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_7015023",
             },
             ["Mon_Name_7015024"] = {
-                ["ContentEN"] = "Patrol Drone - Flash",
+                ["ContentEN"] = "Patrol Drone - Phantom",
                 ["TextMapId"] = "Mon_Name_7015024",
             },
             ["Mon_Name_7015201"] = {
@@ -15057,7 +15215,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8001023",
             },
             ["Mon_Name_8001024"] = {
-                ["ContentEN"] = "Blessed Deacon - Flash",
+                ["ContentEN"] = "Blessed Deacon - Phantom",
                 ["TextMapId"] = "Mon_Name_8001024",
             },
             ["Mon_Name_8001201"] = {
@@ -15125,7 +15283,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8002023",
             },
             ["Mon_Name_8002024"] = {
-                ["ContentEN"] = "Blessed Vanguard - Flash",
+                ["ContentEN"] = "Blessed Vanguard - Phantom",
                 ["TextMapId"] = "Mon_Name_8002024",
             },
             ["Mon_Name_8002201"] = {
@@ -15133,7 +15291,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8002201",
             },
             ["Mon_Name_8002301"] = {
-                ["ContentEN"] = "Blessed Vanguard - Sacrifice & Flash & Thunderbolt",
+                ["ContentEN"] = "Blessed Vanguard - Sacrifice & Phantom & Thunderbolt",
                 ["TextMapId"] = "Mon_Name_8002301",
             },
             ["Mon_Name_8003001"] = {
@@ -15193,7 +15351,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8003023",
             },
             ["Mon_Name_8003024"] = {
-                ["ContentEN"] = "Blessed Priest - Flash",
+                ["ContentEN"] = "Blessed Priest - Phantom",
                 ["TextMapId"] = "Mon_Name_8003024",
             },
             ["Mon_Name_8003201"] = {
@@ -15265,7 +15423,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8501023",
             },
             ["Mon_Name_8501024"] = {
-                ["ContentEN"] = "\"Battle Maven\" - Flash",
+                ["ContentEN"] = "\"Battle Maven\" - Phantom",
                 ["TextMapId"] = "Mon_Name_8501024",
             },
             ["Mon_Name_8501201"] = {
@@ -15273,7 +15431,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8501201",
             },
             ["Mon_Name_8501301"] = {
-                ["ContentEN"] = "\"Battle Maven\" - Flash & Decay & Blast",
+                ["ContentEN"] = "\"Battle Maven\" - Phantom & Decay & Blast",
                 ["TextMapId"] = "Mon_Name_8501301",
             },
             ["Mon_Name_8502001"] = {
@@ -15361,7 +15519,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8513023",
             },
             ["Mon_Name_8513024"] = {
-                ["ContentEN"] = "Blessed Ascetic - Flash",
+                ["ContentEN"] = "Blessed Ascetic - Phantom",
                 ["TextMapId"] = "Mon_Name_8513024",
             },
             ["Mon_Name_8514001"] = {
@@ -15404,6 +15562,10 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["ContentEN"] = "Blessed Arbiter - Icehell",
                 ["TextMapId"] = "Mon_Name_8514019",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_8514020", MaxKey = "Name_901202", Loader = function()
+        return {
             ["Mon_Name_8514020"] = {
                 ["ContentEN"] = "Blessed Arbiter - Glimmer",
                 ["TextMapId"] = "Mon_Name_8514020",
@@ -15421,7 +15583,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8514023",
             },
             ["Mon_Name_8514024"] = {
-                ["ContentEN"] = "Blessed Arbiter - Flash",
+                ["ContentEN"] = "Blessed Arbiter - Phantom",
                 ["TextMapId"] = "Mon_Name_8514024",
             },
             ["Mon_Name_8515001"] = {
@@ -15481,7 +15643,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_8515023",
             },
             ["Mon_Name_8515024"] = {
-                ["ContentEN"] = "The Devourer - Flash",
+                ["ContentEN"] = "The Devourer - Phantom",
                 ["TextMapId"] = "Mon_Name_8515024",
             },
             ["Mon_Name_8518001"] = {
@@ -15545,17 +15707,13 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9001023",
             },
             ["Mon_Name_9001024"] = {
-                ["ContentEN"] = "Wildswarm's Sword - Flash",
+                ["ContentEN"] = "Wildswarm's Sword - Phantom",
                 ["TextMapId"] = "Mon_Name_9001024",
             },
             ["Mon_Name_9001201"] = {
-                ["ContentEN"] = "Wildswarm's Sword - Bloodbath & Flash",
+                ["ContentEN"] = "Wildswarm's Sword - Bloodbath & Phantom",
                 ["TextMapId"] = "Mon_Name_9001201",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_9001301", MaxKey = "NpcBiography_Information_XiAo_2", Loader = function()
-        return {
             ["Mon_Name_9001301"] = {
                 ["ContentEN"] = "Wildswarm's Sword - Bloodbath & Blast & Glimmer",
                 ["TextMapId"] = "Mon_Name_9001301",
@@ -15617,7 +15775,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9002023",
             },
             ["Mon_Name_9002024"] = {
-                ["ContentEN"] = "Wildswarm's Arrow - Flash",
+                ["ContentEN"] = "Wildswarm's Arrow - Phantom",
                 ["TextMapId"] = "Mon_Name_9002024",
             },
             ["Mon_Name_9002201"] = {
@@ -15625,7 +15783,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9002201",
             },
             ["Mon_Name_9002301"] = {
-                ["ContentEN"] = "Wildswarm's Arrow - Flash & Thunderstorm & Decay",
+                ["ContentEN"] = "Wildswarm's Arrow - Phantom & Thunderstorm & Decay",
                 ["TextMapId"] = "Mon_Name_9002301",
             },
             ["Mon_Name_9003001"] = {
@@ -15685,7 +15843,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9003023",
             },
             ["Mon_Name_9003024"] = {
-                ["ContentEN"] = "\"Toymaker\" - Flash",
+                ["ContentEN"] = "\"Toymaker\" - Phantom",
                 ["TextMapId"] = "Mon_Name_9003024",
             },
             ["Mon_Name_9003201"] = {
@@ -15757,7 +15915,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9005023",
             },
             ["Mon_Name_9005024"] = {
-                ["ContentEN"] = "\"Bombaholic\" - Flash",
+                ["ContentEN"] = "\"Bombaholic\" - Phantom",
                 ["TextMapId"] = "Mon_Name_9005024",
             },
             ["Mon_Name_9005201"] = {
@@ -15765,7 +15923,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9005201",
             },
             ["Mon_Name_9005301"] = {
-                ["ContentEN"] = "\"Bombaholic\" - Flash & Thunderbolt & Glimmer",
+                ["ContentEN"] = "\"Bombaholic\" - Phantom & Thunderbolt & Glimmer",
                 ["TextMapId"] = "Mon_Name_9005301",
             },
             ["Mon_Name_9006001"] = {
@@ -15825,7 +15983,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9006023",
             },
             ["Mon_Name_9006024"] = {
-                ["ContentEN"] = "\"Deceiver\" - Flash",
+                ["ContentEN"] = "\"Deceiver\" - Phantom",
                 ["TextMapId"] = "Mon_Name_9006024",
             },
             ["Mon_Name_9006201"] = {
@@ -15833,7 +15991,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9006201",
             },
             ["Mon_Name_9006301"] = {
-                ["ContentEN"] = "\"Deceiver\" - Bloodbath & Flash & Frostbite",
+                ["ContentEN"] = "\"Deceiver\" - Bloodbath & Phantom & Frostbite",
                 ["TextMapId"] = "Mon_Name_9006301",
             },
             ["Mon_Name_9007001"] = {
@@ -15893,7 +16051,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Mon_Name_9007023",
             },
             ["Mon_Name_9007024"] = {
-                ["ContentEN"] = "Wildswarm's Agent - Flash",
+                ["ContentEN"] = "Wildswarm's Agent - Phantom",
                 ["TextMapId"] = "Mon_Name_9007024",
             },
             ["Mon_Name_9007201"] = {
@@ -15927,6 +16085,10 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
             ["Mon_Name_9503051"] = {
                 ["ContentEN"] = "Hunter",
                 ["TextMapId"] = "Mon_Name_9503051",
+            },
+            ["Mon_Name_9801001"] = {
+                ["ContentEN"] = "Snow Wolf",
+                ["TextMapId"] = "Mon_Name_9801001",
             },
             ["Mon_Name_9802001"] = {
                 ["ContentEN"] = "Crimson Antler Stag",
@@ -15981,7 +16143,7 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["TextMapId"] = "Name_100204",
             },
             ["Name_100205"] = {
-                ["ContentEN"] = "Prey vs. Hunter",
+                ["ContentEN"] = "Prey VS Hunter",
                 ["TextMapId"] = "Name_100205",
             },
             ["Name_100206"] = {
@@ -16059,6 +16221,14 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
             ["Name_110109"] = {
                 ["ContentEN"] = "The Judgment Day",
                 ["TextMapId"] = "Name_110109",
+            },
+            ["Name_120001"] = {
+                ["ContentEN"] = "Tune Tune Town",
+                ["TextMapId"] = "Name_120001",
+            },
+            ["Name_120002"] = {
+                ["ContentEN"] = "Stranger from Afar",
+                ["TextMapId"] = "Name_120002",
             },
             ["Name_200101"] = {
                 ["ContentEN"] = "The Wandering Luno",
@@ -16196,6 +16366,10 @@ Additionally, <Highlight>Primander – Corrosion</> accelerates Serum decay whil
                 ["ContentEN"] = "Hunting Request Ⅱ",
                 ["TextMapId"] = "Name_901202",
             },
+        }
+    end },
+    { MinKey = "Name_901203", MaxKey = "Pack_Name_Shop_Level_20", Loader = function()
+        return {
             ["Name_901203"] = {
                 ["ContentEN"] = "Commission: Hunt (Ⅲ)",
                 ["TextMapId"] = "Name_901203",
@@ -16420,10 +16594,6 @@ After some cautious observation from a (very safe) distance, he eventually settl
                 ["ContentEN"] = "After careful observation, Theo found himself genuinely impressed by {nickname}'s wisdom and strength — and came to his own conclusion about the Charon. That day, he made himself a promise: To study hard, become a great alchemist, and one day help the Charon — even if the grown-ups in his world never cared to.",
                 ["TextMapId"] = "NpcBiography_Information_XiAo_2",
             },
-        }
-    end },
-    { MinKey = "NpcBiography_Information_Xilin_1", MaxKey = "PartyReward_Name_110304", Loader = function()
-        return {
             ["NpcBiography_Information_Xilin_1"] = {
                 ["ContentEN"] = "A widowed noblewoman from Flagson Province. She has journeyed to Icelake in pursuit of a Charon man named Hamel Dickinson, her erstwhile love of forty years ago.",
                 ["TextMapId"] = "NpcBiography_Information_Xilin_1",
@@ -16490,7 +16660,8 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "One",
             },
             ["PET_401_PASSIVE"] = {
-                ["ContentEN"] = "Umbro ATK +#1, Max HP +#2.",
+                ["ContentEN"] = "The main character and Combat Partners gain:\
+Umbro ATK +#1, Max HP +#2",
                 ["TextMapId"] = "PET_401_PASSIVE",
             },
             ["PET_401_SKILL"] = {
@@ -16498,39 +16669,44 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "PET_401_SKILL",
             },
             ["PET_402_PASSIVE"] = {
-                ["ContentEN"] = "Hydro ATK +#1, Max HP +#2.",
+                ["ContentEN"] = "The main character and Combat Partners gain:\
+Hydro ATK +#1, Max HP +#2",
                 ["TextMapId"] = "PET_402_PASSIVE",
             },
             ["PET_402_SKILL"] = {
-                ["ContentEN"] = "Increases ATK for teammate targets within range by #1 for #2s.",
+                ["ContentEN"] = "Increases ATK for teammates within range by #1 for #2s.",
                 ["TextMapId"] = "PET_402_SKILL",
             },
             ["PET_403_PASSIVE"] = {
-                ["ContentEN"] = "Pyro ATK +#1, Max HP +#2.",
+                ["ContentEN"] = "The main character and Combat Partners gain:\
+Pyro ATK +#1, Max HP +#2",
                 ["TextMapId"] = "PET_403_PASSIVE",
             },
             ["PET_403_SKILL"] = {
-                ["ContentEN"] = "Restores #1 points of Sanity for teammate targets within range.",
+                ["ContentEN"] = "Restores #1 points of Sanity for teammates within range.",
                 ["TextMapId"] = "PET_403_SKILL",
             },
             ["PET_404_PASSIVE"] = {
-                ["ContentEN"] = "Electro ATK +#1, Max HP +#2.",
+                ["ContentEN"] = "The main character and Combat Partners gain:\
+Electro ATK +#1, Max HP +#2",
                 ["TextMapId"] = "PET_404_PASSIVE",
             },
             ["PET_404_SKILL"] = {
-                ["ContentEN"] = "Grants teammate targets within range #2 points of Ultra Shield and randomly increases ATK by #3, DEF by #4, Skill Damage by #5, or Skill Duration by #6 for #1s.",
+                ["ContentEN"] = "Grants teammates within range #2 points of Ultra Shield and randomly increases ATK by #3, DEF by #4, Skill Damage by #5, or Skill Duration by #6 for #1s.",
                 ["TextMapId"] = "PET_404_SKILL",
             },
             ["PET_405_PASSIVE"] = {
-                ["ContentEN"] = "Anemo ATK +#1, Max HP +#2.",
+                ["ContentEN"] = "The main character and Combat Partners gain:\
+Anemo ATK +#1, Max HP +#2",
                 ["TextMapId"] = "PET_405_PASSIVE",
             },
             ["PET_405_SKILL"] = {
-                ["ContentEN"] = "Heals teammate targets within range by #3 of the main character's Max HP.",
+                ["ContentEN"] = "Heals teammates within range by #1 of the main character's Max HP.",
                 ["TextMapId"] = "PET_405_SKILL",
             },
             ["PET_406_PASSIVE"] = {
-                ["ContentEN"] = "Lumino ATK +#1. Increases the stats of Demon Wedges prefixed with [Sphinx's], [Siren's], [Griffin's], [Typhon's], [Covenanter's], and [Helios's] by #2.",
+                ["ContentEN"] = "The main character and Combat Partners gain:\
+Lumino ATK +#1, Max HP +#2",
                 ["TextMapId"] = "PET_406_PASSIVE",
             },
             ["PET_406_SKILL"] = {
@@ -16538,11 +16714,12 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "PET_406_SKILL",
             },
             ["PET_407_PASSIVE"] = {
-                ["ContentEN"] = "Auto-Pickup Range +#1, EXP from defeated enemies +#2, with a chance for bonus loot.",
+                ["ContentEN"] = "EXP gained by defeating enemies +#2, with a chance for bonus loot.",
                 ["TextMapId"] = "PET_407_PASSIVE",
             },
             ["PET_407_SKILL"] = {
-                ["ContentEN"] = "Deals #1 of the main character's ATK to enemies within range and can directly destroy Special Destructibles on chests. Detects 1 Geniemon and 1 chest within a 100-metre range, marking their locations for 30s.",
+                ["ContentEN"] = "Deals damage equal to #1 of the main character's ATK to surrounding enemies, and can directly destroy Special Destructibles covering chests.\
+Detects 1 Geniemon and 1 chest within a 100-metre range, marking their locations for 30s.",
                 ["TextMapId"] = "PET_407_SKILL",
             },
             ["PET_408_PASSIVE"] = {
@@ -16550,7 +16727,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "PET_408_PASSIVE",
             },
             ["PET_408_SKILL"] = {
-                ["ContentEN"] = "Decreases Damage Taken for teammate targets within range by #1 for #2s.",
+                ["ContentEN"] = "Decreases the damage taken by nearby teammates by #1 for #2s.",
                 ["TextMapId"] = "PET_408_SKILL",
             },
             ["PET_409_PASSIVE"] = {
@@ -16558,103 +16735,103 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "PET_409_PASSIVE",
             },
             ["PET_409_SKILL"] = {
-                ["ContentEN"] = "Heals teammate targets within range by #1 of their Max HP per second for #2s.",
+                ["ContentEN"] = "Heals teammates within range by #1 of their Max HP per second for #2s.",
                 ["TextMapId"] = "PET_409_SKILL",
             },
             ["PET_411_PASSIVE"] = {
-                ["ContentEN"] = "Increases Umbro ATK for you and your Combat Partner by #1 and attributes from [Phoenix] Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Umbro ATK for the main character and the Combat Partners by #1 and the stats provided by Demon Wedges prefixed with [Phoenix] by #2.",
                 ["TextMapId"] = "PET_411_PASSIVE",
             },
             ["PET_411_SKILL"] = {
-                ["ContentEN"] = "Deals Umbro DMG equal to #1 of the main character's ATK to enemies within range, while reducing their DEF Decrease by #2 for #3s.",
+                ["ContentEN"] = "Deals Umbro Damage equal to #1 of the main character's ATK to enemies within range and reduces their DEF by #2 for #3s.",
                 ["TextMapId"] = "PET_411_SKILL",
             },
             ["PET_412_PASSIVE"] = {
-                ["ContentEN"] = "Increases Hydro ATK for you and your Combat Partner by #1 and attributes from [Phoenix] Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Hydro ATK for the main character and the Combat Partners by #1 and the stats provided by Demon Wedges prefixed with [Phoenix] by #2.",
                 ["TextMapId"] = "PET_412_PASSIVE",
             },
             ["PET_412_SKILL"] = {
-                ["ContentEN"] = "Increases ATK for the [Summons] of teammates within range by #1 for #2s.",
+                ["ContentEN"] = "Increases ATK for the [summoned item] of teammates within range by #1 for #2s.",
                 ["TextMapId"] = "PET_412_SKILL",
             },
             ["PET_413_PASSIVE"] = {
-                ["ContentEN"] = "Increases Pyro ATK for you and your Combat Partner by #1 and attributes from [Phoenix] Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Pyro ATK for the main character and the Combat Partners by #1 and the stats provided by Demon Wedges prefixed with [Phoenix] by #2.",
                 ["TextMapId"] = "PET_413_PASSIVE",
             },
             ["PET_413_SKILL"] = {
-                ["ContentEN"] = "Spawns 1 [Activated Sal Volatile], 1 [Tranquilizer Dewdrop], and 1 [Ammo Supply Chest]. Increases Skill Duration for teammate targets within range by #1 for #2s.",
+                ["ContentEN"] = "Spawns 1 [Activated Sal Volatile], 1 [Tranquilizer Dewdrop], and 1 [Ammo Supply Chest]. Increases Skill Duration for teammates within range by #1 for #2s.",
                 ["TextMapId"] = "PET_413_SKILL",
             },
             ["PET_414_PASSIVE"] = {
-                ["ContentEN"] = "Increases Electro ATK for you and your Combat Partner by #1 and attributes from [Phoenix] Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Electro ATK for the main character and the Combat Partners by #1 and the stats provided by Demon Wedges prefixed with [Phoenix] by #2.",
                 ["TextMapId"] = "PET_414_PASSIVE",
             },
             ["PET_414_SKILL"] = {
-                ["ContentEN"] = "Increases Ultra Shield for teammate targets within range by #1 points and restores their Sanity by #2.",
+                ["ContentEN"] = "Increases the points of Ultra Shield for teammates within range by #1 and restores their Sanity by #2.",
                 ["TextMapId"] = "PET_414_SKILL",
             },
             ["PET_415_PASSIVE"] = {
-                ["ContentEN"] = "Increases Anemo ATK for you and your Combat Partner by #1 and attributes from [Phoenix] Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Anemo ATK for the main character and the Combat Partners by #1 and the stats provided by Demon Wedges prefixed with [Phoenix] by #2.",
                 ["TextMapId"] = "PET_415_PASSIVE",
             },
             ["PET_415_SKILL"] = {
-                ["ContentEN"] = "Heals teammate targets within range by #3 of the main character's Max HP and increases their DEF Increase by #1 for #2s.",
+                ["ContentEN"] = "Heals teammates within range by #3 of the main character's Max HP and increases their DEF Increase by #1 for #2s.",
                 ["TextMapId"] = "PET_415_SKILL",
             },
             ["PET_416_PASSIVE"] = {
-                ["ContentEN"] = "Increases Lumino ATK for you and your Combat Partner by #1 and attributes from [Phoenix] Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Lumino ATK for the main character and the Combat Partners by #1 and the stats provided by Demon Wedges prefixed with [Phoenix] by #2.",
                 ["TextMapId"] = "PET_416_PASSIVE",
             },
             ["PET_416_SKILL"] = {
-                ["ContentEN"] = "Deals Lumino DMG equal to #1 of the main character's ATK to enemies within range, while increasing their Skill DMG taken by #2 for #3s.",
+                ["ContentEN"] = "Deals Lumino Damage equal to #1 of the main character's ATK to enemies within range and increases the Skill Damage taken by them by #2 for #3s.",
                 ["TextMapId"] = "PET_416_SKILL",
             },
             ["PET_421_PASSIVE"] = {
-                ["ContentEN"] = "Increases Umbro ATK for you and your Combat Partner by #1 and attributes from [Griffin], [Typhon], and [Covenanter] Umbro Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Umbro ATK for the main character and the Combat Partners by #1 and the stats provided by Umbro Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by #2.",
                 ["TextMapId"] = "PET_421_PASSIVE",
             },
             ["PET_421_SKILL"] = {
-                ["ContentEN"] = "Deals Umbro DMG equal to #1 of the main character's ATK to enemies within range, while increasing [Morale] for teammate targets within range by #2 for #3s.",
+                ["ContentEN"] = "Deals Umbro Damage equal to #1 of the main character's ATK to enemies within range and increases [Morale] for nearby teammates by #2 for #3s.",
                 ["TextMapId"] = "PET_421_SKILL",
             },
             ["PET_422_PASSIVE"] = {
-                ["ContentEN"] = "Increases Hydro ATK for you and your Combat Partner by #1 and attributes from [Griffin], [Typhon], and [Covenanter] Hydro Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Hydro ATK for the main character and the Combat Partners by #1 and the stats provided by Hydro Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by #2.",
                 ["TextMapId"] = "PET_422_PASSIVE",
             },
             ["PET_422_SKILL"] = {
-                ["ContentEN"] = "For each [Summon] summoned by the main character, increases damage dealt by teammate targets within range by #1 for #3s, up to a maximum of #2.",
+                ["ContentEN"] = "For each item summoned by the main character, increases damage dealt by teammates within range by #1 for #3s, up to a maximum of #2.",
                 ["TextMapId"] = "PET_422_SKILL",
             },
             ["PET_423_PASSIVE"] = {
-                ["ContentEN"] = "Increases Pyro ATK for you and your Combat Partner by #1 and attributes from [Griffin], [Typhon], and [Covenanter] Pyro Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Pyro ATK for the main character and the Combat Partners by #1 and the stats provided by Pyro Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by #2.",
                 ["TextMapId"] = "PET_423_PASSIVE",
             },
             ["PET_423_SKILL"] = {
-                ["ContentEN"] = "Deals Pyro DMG equal to #1 of the main character's ATK to enemies within range, while increasing nearby teammate targets' [Multishot] by #2 for #3s.",
+                ["ContentEN"] = "Deals Pyro Damage equal to #1 of the main character's ATK to enemies within range and increases nearby teammates' [Multishot] by #2 for #3s.",
                 ["TextMapId"] = "PET_423_SKILL",
             },
             ["PET_424_PASSIVE"] = {
-                ["ContentEN"] = "Increases Electro ATK for you and your Combat Partner by #1 and attributes from [Griffin], [Typhon], and [Covenanter] Electro Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Electro ATK for the main character and the Combat Partners by #1 and the stats provided by Electro Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by #2.",
                 ["TextMapId"] = "PET_424_PASSIVE",
             },
             ["PET_424_SKILL"] = {
-                ["ContentEN"] = "Restores #1 points of Sanity for teammate targets within range and increases their Skill DMG by #2 for #3s.",
+                ["ContentEN"] = "Restores #1 points of Sanity for teammates within range and increases their Skill Damage by #2 for #3s.",
                 ["TextMapId"] = "PET_424_SKILL",
             },
             ["PET_425_PASSIVE"] = {
-                ["ContentEN"] = "Increases Anemo ATK for you and your Combat Partner by #1 and attributes from [Griffin], [Typhon], and [Covenanter] Anemo Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Anemo ATK for the main character and the Combat Partners by #1 and the stats provided by Anemo Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by #2.",
                 ["TextMapId"] = "PET_425_PASSIVE",
             },
             ["PET_425_SKILL"] = {
-                ["ContentEN"] = "Increases [Malaise] by #1 for teammate targets within range for #2s. When the main character's HP falls below 25%, instantly restores HP by #3.",
+                ["ContentEN"] = "Increases [Malaise] by #1 for teammates within range for #2s. When the main character's HP percentage falls below 25%, instantly restores their HP by #3.",
                 ["TextMapId"] = "PET_425_SKILL",
             },
             ["PET_426_PASSIVE"] = {
-                ["ContentEN"] = "Increases Lumino ATK for you and your Combat Partner by #1 and attributes from [Griffin], [Typhon], and [Covenanter] Lumino Demon Wedges by #2.",
+                ["ContentEN"] = "Increases Lumino ATK for the main character and the Combat Partners by #1 and the stats provided by Lumino Demon Wedges prefixed with [Griffin], [Typhon], and [Covenanter] by #2.",
                 ["TextMapId"] = "PET_426_PASSIVE",
             },
             ["PET_426_SKILL"] = {
-                ["ContentEN"] = "Deals Lumino DMG equivalent to #1 of the main character's ATK to enemies within range and increases Lumino DMG by #2 for teammate targets within range for #3s.",
+                ["ContentEN"] = "Deals Lumino Damage equal to #1 of the main character's ATK to enemies within range and increases Lumino Damage by #2 for nearby teammates for #3s.",
                 ["TextMapId"] = "PET_426_SKILL",
             },
             ["PET_491_SKILL"] = {
@@ -16666,7 +16843,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "PET_492_SKILL",
             },
             ["PET_493_SKILL"] = {
-                ["ContentEN"] = "Grants teammate targets within range an Ultra Shield equal to #1 of their Max Shield.",
+                ["ContentEN"] = "Grants nearby teammates an Ultra Shield equal to #1 of their Max Shield.",
                 ["TextMapId"] = "PET_493_SKILL",
             },
             ["PROLOGUE_SELECTGUN_DESC_20298"] = {
@@ -16833,6 +17010,94 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["ContentEN"] = "A standard supply bundle containing various Commission Manuals",
                 ["TextMapId"] = "Pack_Des_Shop_WeiTuo_01",
             },
+            ["Pack_Des_Walnut_Order_001_015"] = {
+                ["ContentEN"] = "Grants one Lawful Sealed Commission randomly selected from Nos. 001–015",
+                ["TextMapId"] = "Pack_Des_Walnut_Order_001_015",
+            },
+            ["Pack_Des_Weapon_Decompose"] = {
+                ["ContentEN"] = "Grants either Coins or Weapon Ascension materials in a random amount",
+                ["TextMapId"] = "Pack_Des_Weapon_Decompose",
+            },
+            ["Pack_Name_Battle_Dispatch_1"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 1",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_1",
+            },
+            ["Pack_Name_Battle_Dispatch_10"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 10",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_10",
+            },
+            ["Pack_Name_Battle_Dispatch_2"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 2",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_2",
+            },
+            ["Pack_Name_Battle_Dispatch_3"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 3",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_3",
+            },
+            ["Pack_Name_Battle_Dispatch_4"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 4",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_4",
+            },
+            ["Pack_Name_Battle_Dispatch_5"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 5",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_5",
+            },
+            ["Pack_Name_Battle_Dispatch_6"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 6",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_6",
+            },
+            ["Pack_Name_Battle_Dispatch_7"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 7",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_7",
+            },
+            ["Pack_Name_Battle_Dispatch_8"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 8",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_8",
+            },
+            ["Pack_Name_Battle_Dispatch_9"] = {
+                ["ContentEN"] = "Dispatch Battle Reward Pack Lv. 9",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_9",
+            },
+            ["Pack_Name_Collect_Dispatch_1"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 1",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_1",
+            },
+            ["Pack_Name_Collect_Dispatch_10"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 10",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_10",
+            },
+            ["Pack_Name_Collect_Dispatch_2"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 2",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_2",
+            },
+            ["Pack_Name_Collect_Dispatch_3"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 3",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_3",
+            },
+            ["Pack_Name_Collect_Dispatch_4"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 4",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_4",
+            },
+            ["Pack_Name_Collect_Dispatch_5"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 5",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_5",
+            },
+            ["Pack_Name_Collect_Dispatch_6"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 6",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_6",
+            },
+            ["Pack_Name_Collect_Dispatch_7"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 7",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_7",
+            },
+            ["Pack_Name_Collect_Dispatch_8"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 8",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_8",
+            },
+            ["Pack_Name_Collect_Dispatch_9"] = {
+                ["ContentEN"] = "Dispatch Gathering Reward Pack Lv. 9",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_9",
+            },
             ["Pack_Name_Draft_Melee"] = {
                 ["ContentEN"] = "Unknown Blueprint of Melee Weapon",
                 ["TextMapId"] = "Pack_Name_Draft_Melee",
@@ -16845,6 +17110,86 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["ContentEN"] = "Unknown Blueprint of Ranged Weapon",
                 ["TextMapId"] = "Pack_Name_Draft_Range",
             },
+            ["Pack_Name_Fish_Dispatch_1"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 1",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_1",
+            },
+            ["Pack_Name_Fish_Dispatch_10"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 10",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_10",
+            },
+            ["Pack_Name_Fish_Dispatch_2"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 2",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_2",
+            },
+            ["Pack_Name_Fish_Dispatch_3"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 3",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_3",
+            },
+            ["Pack_Name_Fish_Dispatch_4"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 4",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_4",
+            },
+            ["Pack_Name_Fish_Dispatch_5"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 5",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_5",
+            },
+            ["Pack_Name_Fish_Dispatch_6"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 6",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_6",
+            },
+            ["Pack_Name_Fish_Dispatch_7"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 7",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_7",
+            },
+            ["Pack_Name_Fish_Dispatch_8"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 8",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_8",
+            },
+            ["Pack_Name_Fish_Dispatch_9"] = {
+                ["ContentEN"] = "Dispatch Fishing Reward Pack Lv. 9",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_9",
+            },
+            ["Pack_Name_Mine_Dispatch_1"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 1",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_1",
+            },
+            ["Pack_Name_Mine_Dispatch_10"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 10",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_10",
+            },
+            ["Pack_Name_Mine_Dispatch_2"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 2",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_2",
+            },
+            ["Pack_Name_Mine_Dispatch_3"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 3",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_3",
+            },
+            ["Pack_Name_Mine_Dispatch_4"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 4",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_4",
+            },
+            ["Pack_Name_Mine_Dispatch_5"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 5",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_5",
+            },
+            ["Pack_Name_Mine_Dispatch_6"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 6",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_6",
+            },
+            ["Pack_Name_Mine_Dispatch_7"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 7",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_7",
+            },
+            ["Pack_Name_Mine_Dispatch_8"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 8",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_8",
+            },
+            ["Pack_Name_Mine_Dispatch_9"] = {
+                ["ContentEN"] = "Dispatch Mining Reward Pack Lv. 9",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_9",
+            },
             ["Pack_Name_Mod_Char"] = {
                 ["ContentEN"] = "Unknown Demon Wedge: Character",
                 ["TextMapId"] = "Pack_Name_Mod_Char",
@@ -16856,6 +17201,10 @@ Her final wish is to see her teenage love one last time, though it's an unattain
             ["Pack_Name_Mod_Range"] = {
                 ["ContentEN"] = "Unknown Demon Wedge: Ranged Weapon",
                 ["TextMapId"] = "Pack_Name_Mod_Range",
+            },
+            ["Pack_Name_Mod_Task"] = {
+                ["ContentEN"] = "White-tier Demon Wedge",
+                ["TextMapId"] = "Pack_Name_Mod_Task",
             },
             ["Pack_Name_Resource_Fuma"] = {
                 ["ContentEN"] = "Unknown Blueprint of Track-Shift Module",
@@ -16893,6 +17242,10 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["ContentEN"] = "Trial Rank Gift Bundle Lv. 20",
                 ["TextMapId"] = "Pack_Name_Shop_Level_20",
             },
+        }
+    end },
+    { MinKey = "Pack_Name_Shop_Level_30", MaxKey = "PartyTopic_Name_310202", Loader = function()
+        return {
             ["Pack_Name_Shop_Level_30"] = {
                 ["ContentEN"] = "Trial Rank Gift Bundle Lv. 30",
                 ["TextMapId"] = "Pack_Name_Shop_Level_30",
@@ -16988,6 +17341,14 @@ Her final wish is to see her teenage love one last time, though it's an unattain
             ["Pack_Name_Shop_WeiTuo"] = {
                 ["ContentEN"] = "Supply Bundle: Commission Manuals",
                 ["TextMapId"] = "Pack_Name_Shop_WeiTuo",
+            },
+            ["Pack_Name_Walnut_Order_001_015"] = {
+                ["ContentEN"] = "Random Lawful Sealed Commission",
+                ["TextMapId"] = "Pack_Name_Walnut_Order_001_015",
+            },
+            ["Pack_Name_Weapon_Decompose"] = {
+                ["ContentEN"] = "Unknown Weapon Disassembly Reward",
+                ["TextMapId"] = "Pack_Name_Weapon_Decompose",
             },
             ["PageDown"] = {
                 ["ContentEN"] = "PgDn",
@@ -17225,10 +17586,6 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["ContentEN"] = "City Lights at Night",
                 ["TextMapId"] = "PartyReward_Name_110304",
             },
-        }
-    end },
-    { MinKey = "PartyReward_Name_180101", MaxKey = "Pet_LevelUp_LevelMax", Loader = function()
-        return {
             ["PartyReward_Name_180101"] = {
                 ["ContentEN"] = "Spent Casing Blocks",
                 ["TextMapId"] = "PartyReward_Name_180101",
@@ -17689,6 +18046,10 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["ContentEN"] = "The Art of Fashion",
                 ["TextMapId"] = "PartyTopic_Name_310202",
             },
+        }
+    end },
+    { MinKey = "PartyTopic_Name_310203", MaxKey = "QuestDesc_10020309", Loader = function()
+        return {
             ["PartyTopic_Name_310203"] = {
                 ["ContentEN"] = "Pruning the Plants",
                 ["TextMapId"] = "PartyTopic_Name_310203",
@@ -17794,7 +18155,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Period",
             },
             ["Pet_Affix"] = {
-                ["ContentEN"] = "Potential",
+                ["ContentEN"] = "Trait",
                 ["TextMapId"] = "Pet_Affix",
             },
             ["Pet_AffixSlot_LockToast"] = {
@@ -17802,19 +18163,19 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_AffixSlot_LockToast",
             },
             ["Pet_Affix_Activat"] = {
-                ["ContentEN"] = "Unlock Potential",
+                ["ContentEN"] = "Unlock Trait",
                 ["TextMapId"] = "Pet_Affix_Activat",
             },
             ["Pet_Affix_Activate_Num"] = {
-                ["ContentEN"] = "Potentials available to unlock",
+                ["ContentEN"] = "Activable Traits",
                 ["TextMapId"] = "Pet_Affix_Activate_Num",
             },
             ["Pet_Affix_Activated"] = {
-                ["ContentEN"] = "Potential with identical name unlocked",
+                ["ContentEN"] = "Trait with identical name activated",
                 ["TextMapId"] = "Pet_Affix_Activated",
             },
             ["Pet_Affix_Archive"] = {
-                ["ContentEN"] = "Potential Collection",
+                ["ContentEN"] = "Geniemon Traits Archive",
                 ["TextMapId"] = "Pet_Affix_Archive",
             },
             ["Pet_Affix_Archive_LockToast"] = {
@@ -17822,7 +18183,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_Affix_Archive_LockToast",
             },
             ["Pet_Affix_Break"] = {
-                ["ContentEN"] = "Rank Up",
+                ["ContentEN"] = "Raise",
                 ["TextMapId"] = "Pet_Affix_Break",
             },
             ["Pet_Affix_Break_LevelMax"] = {
@@ -17830,7 +18191,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_Affix_Break_LevelMax",
             },
             ["Pet_Affix_Break_Success"] = {
-                ["ContentEN"] = "Ranked up",
+                ["ContentEN"] = "Raised Successfully",
                 ["TextMapId"] = "Pet_Affix_Break_Success",
             },
             ["Pet_Affix_Fuse"] = {
@@ -17838,11 +18199,11 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_Affix_Fuse",
             },
             ["Pet_Affix_Fuse_SelectAffix"] = {
-                ["ContentEN"] = "Please select a Geniemon to merge.",
+                ["ContentEN"] = "Select a Geniemon to merge",
                 ["TextMapId"] = "Pet_Affix_Fuse_SelectAffix",
             },
             ["Pet_Affix_Fuse_SelectPet"] = {
-                ["ContentEN"] = "Please select a potential to merge.",
+                ["ContentEN"] = "Select a Trait to merge",
                 ["TextMapId"] = "Pet_Affix_Fuse_SelectPet",
             },
             ["Pet_Affix_GetTime"] = {
@@ -17854,7 +18215,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_Affix_Hold",
             },
             ["Pet_Affix_Replace"] = {
-                ["ContentEN"] = "Change Potential",
+                ["ContentEN"] = "Change Trait",
                 ["TextMapId"] = "Pet_Affix_Replace",
             },
             ["Pet_Affix_Type"] = {
@@ -17866,7 +18227,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_Affix_UnableFuse_Locked",
             },
             ["Pet_Affix_Without"] = {
-                ["ContentEN"] = "No potentials available",
+                ["ContentEN"] = "No Traits",
                 ["TextMapId"] = "Pet_Affix_Without",
             },
             ["Pet_BattlePet"] = {
@@ -17878,11 +18239,11 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_BreakLevelUp_Success",
             },
             ["Pet_Break_CostToast"] = {
-                ["ContentEN"] = "Use Geniemon (%s/%s)",
+                ["ContentEN"] = "Select Item",
                 ["TextMapId"] = "Pet_Break_CostToast",
             },
             ["Pet_Break_LevelReset"] = {
-                ["ContentEN"] = "Upon ascension, the level resets to 1.",
+                ["ContentEN"] = "Upon ascension, the Geniemon's level will be reset to Lv. 1.",
                 ["TextMapId"] = "Pet_Break_LevelReset",
             },
             ["Pet_Break_LevelReset_Over"] = {
@@ -17894,11 +18255,11 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_Filter",
             },
             ["Pet_Filter_Title1"] = {
-                ["ContentEN"] = "Potential Quantity",
+                ["ContentEN"] = "Quantity",
                 ["TextMapId"] = "Pet_Filter_Title1",
             },
             ["Pet_Filter_Title2"] = {
-                ["ContentEN"] = "Is it an eldritch Geniemon?",
+                ["ContentEN"] = "Eldritch or not",
                 ["TextMapId"] = "Pet_Filter_Title2",
             },
             ["Pet_Filter_Title3"] = {
@@ -17906,7 +18267,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_Filter_Title3",
             },
             ["Pet_Filter_Title4"] = {
-                ["ContentEN"] = "Potential Included",
+                ["ContentEN"] = "Traits Included",
                 ["TextMapId"] = "Pet_Filter_Title4",
             },
             ["Pet_IpDes_401"] = {
@@ -18010,7 +18371,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_LevelUp_AddMax",
             },
             ["Pet_LevelUp_CostToast"] = {
-                ["ContentEN"] = "Use any Geniemon",
+                ["ContentEN"] = "Select Item",
                 ["TextMapId"] = "Pet_LevelUp_CostToast",
             },
             ["Pet_LevelUp_ExpOverflow_Content"] = {
@@ -18022,17 +18383,13 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_LevelUp_ExpOverflow_Title",
             },
             ["Pet_LevelUp_ExpResource_Refund"] = {
-                ["ContentEN"] = "Rebate Rewards",
+                ["ContentEN"] = "Materials Refunded",
                 ["TextMapId"] = "Pet_LevelUp_ExpResource_Refund",
             },
             ["Pet_LevelUp_LevelMax"] = {
                 ["ContentEN"] = "Maximum level reached",
                 ["TextMapId"] = "Pet_LevelUp_LevelMax",
             },
-        }
-    end },
-    { MinKey = "Pet_LevelUp_Success", MaxKey = "QuestDesc_10030207", Loader = function()
-        return {
             ["Pet_LevelUp_Success"] = {
                 ["ContentEN"] = "Geniemon Upgraded",
                 ["TextMapId"] = "Pet_LevelUp_Success",
@@ -18166,7 +18523,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Pet_ResourcePet_LockToast",
             },
             ["Pet_SameAffix_UnableAdd"] = {
-                ["ContentEN"] = "Cannot add duplicate Potential",
+                ["ContentEN"] = "Cannot add Trait with the same name",
                 ["TextMapId"] = "Pet_SameAffix_UnableAdd",
             },
             ["Pet_Type1"] = {
@@ -18322,7 +18679,7 @@ Her final wish is to see her teenage love one last time, though it's an unattain
                 ["TextMapId"] = "Prologue_ChooseGender_Male",
             },
             ["Prologue_ChooseMoonhunter"] = {
-                ["ContentEN"] = "Please select a character as the Phoxhunter",
+                ["ContentEN"] = "Please select a character",
                 ["TextMapId"] = "Prologue_ChooseMoonhunter",
             },
             ["QUEST_INSPECIALQUEST_MSG"] = {
@@ -18536,6 +18893,10 @@ Where a majestic Heaventree once stood, only tiny remnants of its roots persist 
 Operate the device to open the door, and explore the depths of this forsaken mine to find the Crystallo of Stella sought by Henrik.",
                 ["TextMapId"] = "QuestDesc_10020309",
             },
+        }
+    end },
+    { MinKey = "QuestDesc_10020310", MaxKey = "QuestName_10020209", Loader = function()
+        return {
             ["QuestDesc_10020310"] = {
                 ["ContentEN"] = "Traversing the deserted tunnels, you've entered the depths of Glevum Pit.\
 Where a majestic Heaventree once stood, only tiny remnants of its roots persist after years of exploitation, echoing a bygone era of abundance.\
@@ -18950,10 +19311,6 @@ The props master, who oversees all material deliveries, might have more useful i
                 ["ContentEN"] = "Both civilians are safe. Talk to Rhythm — see how she's holding up after the rescue.",
                 ["TextMapId"] = "QuestDesc_10030207",
             },
-        }
-    end },
-    { MinKey = "QuestDesc_10030208", MaxKey = "QuestName_10020808", Loader = function()
-        return {
             ["QuestDesc_10030208"] = {
                 ["ContentEN"] = "With the wastewater drained, you can hear the culprit's snarls echoing through the dark. Stay sharp and keep moving.",
                 ["TextMapId"] = "QuestDesc_10030208",
@@ -19416,6 +19773,10 @@ But the curtain on that role has fallen. It's time to take the stage one last ti
                 ["ContentEN"] = "Follow the Trail to the Rooftop",
                 ["TextMapId"] = "QuestName_10020209",
             },
+        }
+    end },
+    { MinKey = "QuestName_10020210", MaxKey = "QuestName_99999802", Loader = function()
+        return {
             ["QuestName_10020210"] = {
                 ["ContentEN"] = "Track down the Thief",
                 ["TextMapId"] = "QuestName_10020210",
@@ -19457,7 +19818,7 @@ But the curtain on that role has fallen. It's time to take the stage one last ti
                 ["TextMapId"] = "QuestName_10020223",
             },
             ["QuestName_10020224"] = {
-                ["ContentEN"] = "Capture a Geniemon",
+                ["ContentEN"] = "Obtain a Geniemon",
                 ["TextMapId"] = "QuestName_10020224",
             },
             ["QuestName_10020301"] = {
@@ -19756,10 +20117,6 @@ But the curtain on that role has fallen. It's time to take the stage one last ti
                 ["ContentEN"] = "Sleep eludes you. Take a walk outside.",
                 ["TextMapId"] = "QuestName_10020808",
             },
-        }
-    end },
-    { MinKey = "QuestName_10020809", MaxKey = "READ_NAME_2000013", Loader = function()
-        return {
             ["QuestName_10020809"] = {
                 ["ContentEN"] = "???",
                 ["TextMapId"] = "QuestName_10020809",
@@ -19939,6 +20296,10 @@ But the curtain on that role has fallen. It's time to take the stage one last ti
             ["QuestName_10030301"] = {
                 ["ContentEN"] = "Head to the Legion Medical Centre",
                 ["TextMapId"] = "QuestName_10030301",
+            },
+            ["QuestName_10030302"] = {
+                ["ContentEN"] = "Assist the 13th Legion",
+                ["TextMapId"] = "QuestName_10030302",
             },
             ["QuestName_10030303"] = {
                 ["ContentEN"] = "Head to the sewers",
@@ -20216,6 +20577,10 @@ But the curtain on that role has fallen. It's time to take the stage one last ti
                 ["ContentEN"] = "Head to Lakeside of Lamenting Lake and defeat the powerful enemy",
                 ["TextMapId"] = "QuestName_99999802",
             },
+        }
+    end },
+    { MinKey = "QuestName_99999803", MaxKey = "READ_TEXT_2000055", Loader = function()
+        return {
             ["QuestName_99999803"] = {
                 ["ContentEN"] = "Leaving Lakeside of Lamenting Lake in 3s",
                 ["TextMapId"] = "QuestName_99999803",
@@ -20285,7 +20650,7 @@ But the curtain on that role has fallen. It's time to take the stage one last ti
                 ["TextMapId"] = "READSERIES_1048",
             },
             ["READSERIES_DESC_1039"] = {
-                ["ContentEN"] = "Retrieved from among countless folders within the cabinet, these files contain photographs and meticulous daily records of each child who once lived at Hypnos' House.",
+                ["ContentEN"] = "Retrieved from among countless folders within the cabinet, these files contain photographs and meticulous daily records of each child who once lived at the Hypnos' House.",
                 ["TextMapId"] = "READSERIES_DESC_1039",
             },
             ["READ_DESC_2000001"] = {
@@ -20455,15 +20820,15 @@ The handwriting on the page listing remaining medical supplies grows increasingl
                 ["TextMapId"] = "READ_DESC_2000040",
             },
             ["READ_DESC_2000041"] = {
-                ["ContentEN"] = "A folder unearthed from the archives. It bears Psyche's photo and details her time at Hypnos' House.",
+                ["ContentEN"] = "A folder unearthed from the file cabinets. It bears Psyche's photo and details her time at the Hypnos' House.",
                 ["TextMapId"] = "READ_DESC_2000041",
             },
             ["READ_DESC_2000042"] = {
-                ["ContentEN"] = "A folder unearthed from the archives. It bears Elisa's photo and details her time at Hypnos' House.",
+                ["ContentEN"] = "A folder unearthed from the file cabinets. It bears Elisa's photo and details her time at the Hypnos' House.",
                 ["TextMapId"] = "READ_DESC_2000042",
             },
             ["READ_DESC_2000043"] = {
-                ["ContentEN"] = "A folder unearthed from the archives. It bears Hunt's photo and details his time at Hypnos' House.",
+                ["ContentEN"] = "A folder unearthed from the file cabinets. It bears Hunt's photo and details his time at the Hypnos' House.",
                 ["TextMapId"] = "READ_DESC_2000043",
             },
             ["READ_DESC_2000044"] = {
@@ -20570,10 +20935,6 @@ Though small in size, the duchy endured for generations. Its dukes clung to powe
                 ["ContentEN"] = "Alice's Diary",
                 ["TextMapId"] = "READ_NAME_2000013",
             },
-        }
-    end },
-    { MinKey = "READ_NAME_2000014", MaxKey = "RESOURCE_DESC_111", Loader = function()
-        return {
             ["READ_NAME_2000014"] = {
                 ["ContentEN"] = "Field Notes: Volume Ⅰ",
                 ["TextMapId"] = "READ_NAME_2000014",
@@ -20723,7 +21084,7 @@ Though small in size, the duchy endured for generations. Its dukes clung to powe
                 ["TextMapId"] = "READ_NAME_2000050",
             },
             ["READ_NAME_2000051"] = {
-                ["ContentEN"] = "The Invincible Legion's Chief (Ⅱ)",
+                ["ContentEN"] = "The Invincible Legion's Chief Ⅱ",
                 ["TextMapId"] = "READ_NAME_2000051",
             },
             ["READ_NAME_2000052"] = {
@@ -20763,43 +21124,43 @@ Though small in size, the duchy endured for generations. Its dukes clung to powe
                 ["TextMapId"] = "READ_NAME_20605",
             },
             ["READ_NAME_20608"] = {
-                ["ContentEN"] = "Icelake: Volume Ⅰ",
+                ["ContentEN"] = "Icelake Ⅰ",
                 ["TextMapId"] = "READ_NAME_20608",
             },
             ["READ_NAME_20609"] = {
-                ["ContentEN"] = "Icelake: Volume Ⅱ",
+                ["ContentEN"] = "Icelake Ⅱ",
                 ["TextMapId"] = "READ_NAME_20609",
             },
             ["READ_NAME_20610"] = {
-                ["ContentEN"] = "Icelake (Ⅲ)",
+                ["ContentEN"] = "Icelake Ⅲ",
                 ["TextMapId"] = "READ_NAME_20610",
             },
             ["READ_NAME_20611"] = {
-                ["ContentEN"] = "Icelake (Ⅳ)",
+                ["ContentEN"] = "Icelake Ⅳ",
                 ["TextMapId"] = "READ_NAME_20611",
             },
             ["READ_NAME_20612"] = {
-                ["ContentEN"] = "Icelake (Ⅴ)",
+                ["ContentEN"] = "Icelake Ⅴ",
                 ["TextMapId"] = "READ_NAME_20612",
             },
             ["READ_NAME_20613"] = {
-                ["ContentEN"] = "Icelake (Ⅵ)",
+                ["ContentEN"] = "Icelake Ⅵ",
                 ["TextMapId"] = "READ_NAME_20613",
             },
             ["READ_NAME_20614"] = {
-                ["ContentEN"] = "Icelake (Ⅶ)",
+                ["ContentEN"] = "Icelake Ⅶ",
                 ["TextMapId"] = "READ_NAME_20614",
             },
             ["READ_NAME_20615"] = {
-                ["ContentEN"] = "Icelake (Ⅷ)",
+                ["ContentEN"] = "Icelake Ⅷ",
                 ["TextMapId"] = "READ_NAME_20615",
             },
             ["READ_NAME_20616"] = {
-                ["ContentEN"] = "Icelake (Ⅸ)",
+                ["ContentEN"] = "Icelake Ⅸ",
                 ["TextMapId"] = "READ_NAME_20616",
             },
             ["READ_NAME_20617"] = {
-                ["ContentEN"] = "Icelake (Ⅹ)",
+                ["ContentEN"] = "Icelake Ⅹ",
                 ["TextMapId"] = "READ_NAME_20617",
             },
             ["READ_NAME_20620"] = {
@@ -20924,6 +21285,43 @@ I just hope ... can escape. Although those villagers may not be very friendly, b
 \
 ...",
                 ["TextMapId"] = "READ_TEXT_2000005",
+            },
+            ["READ_TEXT_2000006"] = {
+                ["ContentEN"] = "...\
+\
+Psyche: Please, Mr Henrik, let me do this...\
+\
+Henrik: <H>No means no. The anti-deterioration surgery is still in the theory phase. I can't use an untested treatment on you.</>\
+\
+Psyche: It's because you're so kind... that the surgery remains untested.\
+\
+Henrik: Hypnos' House exists to erase pain. If I experiment on you, how am I any different from the Legion?\
+\
+Psyche: That's not true...\
+Psyche: You care for us, grant our wishes, and ease our pain. It's just that the pain hasn't disappeared — you've taken it all on yourself.\
+Psyche: The anti-deterioration surgery could be the only way to help all of us. <H>Even if it's dangerous, even if there are side effects, even if there's just the slightest chance of success, I'm willing to help you complete the research.</>\
+\
+Henrik: ...Stop it. I just can't...\
+\
+(*Rustle*...)\
+\
+Henrik: What are you doing? Lie down...!\
+\
+Psyche: Shh... Do you hear that? My heartbeat...\
+Psyche: I'll turn into a Filthoid soon. Maybe tonight, or tomorrow... And this heartbeat will stop. But... even if it's just one more day — I still want to open the door and touch everyone's faces; I want to close my eyes and listen to this thumping; I want to feel sorrow at the memory of your weary figure... I want to smile recalling my parents' love and care... I want to feel strength remembering {nickname}'s encouragement... and...\
+\
+Henrik: Please... Don't cry. Don't...\
+\
+Psyche: Aren't you crying too, Mr Henrik?\
+\
+Henrik: I...\
+\
+(*Rustle*...)\
+\
+Psyche: I'm ready, Mr Henrik...\
+\
+Henrik: ...Okay.",
+                ["TextMapId"] = "READ_TEXT_2000006",
             },
             ["READ_TEXT_2000007"] = {
                 ["ContentEN"] = "...\
@@ -21656,6 +22054,10 @@ Parsifal's Note:\
 Except for the final line, the entire scene is sung by Yushino as he reads Redleaf's letter aloud. The performance must reflect the full emotional arc within the letter — from deferential restraint, to repressed grief, to seething fury. The true challenge lies in moving seamlessly and convincingly between Yushino's visible reactions and the inner voice of Redleaf, gradually rising to its breaking point. It demands exceptional control.",
                 ["TextMapId"] = "READ_TEXT_2000055",
             },
+        }
+    end },
+    { MinKey = "READ_TEXT_2000056", MaxKey = "RESOURCE_DESC_12112", Loader = function()
+        return {
             ["READ_TEXT_2000056"] = {
                 ["ContentEN"] = "Act Ⅳ – A Speck of Crimson\
 \
@@ -22148,10 +22550,6 @@ Developed by the Hyperborean Spathatoi Alchademy, these globules were inspired b
                 ["ContentEN"] = "Grains of sand rest quietly inside the bottle. To keep them from slipping through your fingers, you've sealed them in glass.",
                 ["TextMapId"] = "RESOURCE_DESC_111",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_12001", MaxKey = "RESOURCE_DESC_20517", Loader = function()
-        return {
             ["RESOURCE_DESC_12001"] = {
                 ["ContentEN"] = "Crafted with precision from the blueprint of Ingenious Tactics. As the component closest to the wielder, the essence of its design is to ensure optimal \"handiness.\"",
                 ["TextMapId"] = "RESOURCE_DESC_12001",
@@ -22275,11 +22673,11 @@ There is no turning back once the trigger is pulled, much like the commitment th
                 ["TextMapId"] = "RESOURCE_DESC_12030",
             },
             ["RESOURCE_DESC_12031"] = {
-                ["ContentEN"] = "Crafted with precision from the blueprint of Bluecurrent Pulse. As the component closest to the wielder, the essence of its design is to ensure optimal \"handiness.\"",
+                ["ContentEN"] = "Crafted with precision from the blueprint of Bluecurrent Pulse. Sturdy and robust, it doubles effectively as a blunt instrument or a throwable weapon when out of bullets.",
                 ["TextMapId"] = "RESOURCE_DESC_12031",
             },
             ["RESOURCE_DESC_12032"] = {
-                ["ContentEN"] = "Crafted with precision from the blueprint of Bluecurrent Pulse. Whether the blade is curved or straight, light or heavy, its edge is honed exclusively for battle.",
+                ["ContentEN"] = "Crafted with precision from the blueprint of Bluecurrent Pulse. Bullets burst forth from here, as both the barrel and the warrior's heart blaze with unrelenting fervour.",
                 ["TextMapId"] = "RESOURCE_DESC_12032",
             },
             ["RESOURCE_DESC_12033"] = {
@@ -22543,11 +22941,11 @@ There is no turning back once the trigger is pulled, much like the commitment th
                 ["TextMapId"] = "RESOURCE_DESC_12097",
             },
             ["RESOURCE_DESC_12098"] = {
-                ["ContentEN"] = "Crafted with precision from the blueprint of Sacrosanct Chorus. As the part closest to the wielder, the essence of its design is to ensure optimal \"handiness.\"",
+                ["ContentEN"] = "Crafted with precision from the blueprint of Sacrosanct Chorus. Sturdy and robust, it doubles effectively as a blunt instrument or a throwable weapon when out of bullets.",
                 ["TextMapId"] = "RESOURCE_DESC_12098",
             },
             ["RESOURCE_DESC_12099"] = {
-                ["ContentEN"] = "Crafted with precision from the blueprint of Sacrosanct Chorus. Whether the blade is curved or straight, light or heavy, its edge is honed exclusively for battle.",
+                ["ContentEN"] = "Crafted with precision from the blueprint of Sacrosanct Chorus. Bullets burst forth from here, as both the barrel and the warrior's heart blaze with unrelenting fervour.",
                 ["TextMapId"] = "RESOURCE_DESC_12099",
             },
             ["RESOURCE_DESC_121"] = {
@@ -22606,6 +23004,10 @@ There is no turning back once the trigger is pulled, much like the commitment th
                 ["ContentEN"] = "Crafted with precision from the blueprint of Pyrothirst. As the part closest to the wielder, the essence of its design is to ensure optimal \"handiness.\"",
                 ["TextMapId"] = "RESOURCE_DESC_12112",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_12113", MaxKey = "RESOURCE_DESC_5210400", Loader = function()
+        return {
             ["RESOURCE_DESC_12113"] = {
                 ["ContentEN"] = "Crafted with precision from the blueprint of Pyrothirst. Whether the blade is curved or straight, light or heavy, its edge is honed exclusively for battle.",
                 ["TextMapId"] = "RESOURCE_DESC_12113",
@@ -22643,11 +23045,11 @@ There is no turning back once the trigger is pulled, much like the commitment th
                 ["TextMapId"] = "RESOURCE_DESC_12121",
             },
             ["RESOURCE_DESC_12122"] = {
-                ["ContentEN"] = "Crafted with precision from the blueprint of Tumeborn. As the part closest to the wielder, the essence of its design is to ensure optimal \"handiness.\"",
+                ["ContentEN"] = "Crafted with precision from the blueprint of Tumeborn. Sturdy and robust, it doubles effectively as a blunt instrument or a throwable weapon when out of bullets.",
                 ["TextMapId"] = "RESOURCE_DESC_12122",
             },
             ["RESOURCE_DESC_12123"] = {
-                ["ContentEN"] = "Crafted with precision from the blueprint of Tumeborn. Whether the blade is curved or straight, light or heavy, its edge is honed exclusively for battle.",
+                ["ContentEN"] = "Crafted with precision from the blueprint of Tumeborn. Bullets burst forth from here, as both the barrel and the warrior's heart blaze with unrelenting fervour.",
                 ["TextMapId"] = "RESOURCE_DESC_12123",
             },
             ["RESOURCE_DESC_12124"] = {
@@ -22966,10 +23368,6 @@ Transcribed and adapted by Lirico, these lines ride the wind and falling leaves,
                 ["ContentEN"] = "It can be used to make simple tools or for heating, the most basic things for survival in the wilderness.",
                 ["TextMapId"] = "RESOURCE_DESC_20517",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_20518", MaxKey = "RESOURCE_NAME_1001101", Loader = function()
-        return {
             ["RESOURCE_DESC_20518"] = {
                 ["ContentEN"] = "A gemstone that has rested on the hand of a goddess statue on Purgatorio Island for a very long time. If it could speak, it would surely have many stories to tell, but it is, in fact, just a radiant and splendid gem.",
                 ["TextMapId"] = "RESOURCE_DESC_20518",
@@ -23011,7 +23409,7 @@ As your team, The Noctoyagers, gains prominence among the Phoxhunters, the numbe
                 ["TextMapId"] = "RESOURCE_DESC_213",
             },
             ["RESOURCE_DESC_214"] = {
-                ["ContentEN"] = "A ticket stub from the Theatre, which can be used to exchange for items at the Gift Shop.",
+                ["ContentEN"] = "A ticket stub from the Theatre, which can be used to exchange for items at the \"Theatre Gift Shop.\"",
                 ["TextMapId"] = "RESOURCE_DESC_214",
             },
             ["RESOURCE_DESC_215"] = {
@@ -23019,15 +23417,15 @@ As your team, The Noctoyagers, gains prominence among the Phoxhunters, the numbe
                 ["TextMapId"] = "RESOURCE_DESC_215",
             },
             ["RESOURCE_DESC_29001"] = {
-                ["ContentEN"] = "Tokens said to lie scattered across Purgatorio Island. They stand as proof of courage, wisdom, and patience — virtues forged through the trials of adventure. Gather enough and present them to the Lunoxplorer in Icelake's town square to earn valuable rewards.",
+                ["ContentEN"] = "Advensphere said to lie scattered across Purgatorio Island. They stand as proof of courage, wisdom, and patience — virtues forged through the trials of adventure. Gather enough and present them to the Lunoxplorer in Icelake's town square to earn valuable rewards.",
                 ["TextMapId"] = "RESOURCE_DESC_29001",
             },
             ["RESOURCE_DESC_29002"] = {
-                ["ContentEN"] = "Tokens said to lie scattered across Icelake. They stand as proof of courage, wisdom, and patience — virtues forged through the trials of adventure. Gather enough and present them to the Lunoxplorer in Icelake's town square to earn valuable rewards.",
+                ["ContentEN"] = "Advensphere said to lie scattered across Icelake. They stand as proof of courage, wisdom, and patience — virtues forged through the trials of adventure. Gather enough and present them to the Lunoxplorer in Icelake's town square to earn valuable rewards.",
                 ["TextMapId"] = "RESOURCE_DESC_29002",
             },
             ["RESOURCE_DESC_29003"] = {
-                ["ContentEN"] = "Tokens said to lie scattered across Lonza Fortress. They stand as proof of courage, wisdom, and patience — virtues forged through the trials of adventure. Gather enough and present them to the Lunoxplorer in Icelake's town square to earn valuable rewards.",
+                ["ContentEN"] = "Advensphere said to lie scattered across Lonza Fortress. They stand as proof of courage, wisdom, and patience — virtues forged through the trials of adventure. Gather enough and present them to the Lunoxplorer in Icelake's town square to earn valuable rewards.",
                 ["TextMapId"] = "RESOURCE_DESC_29003",
             },
             ["RESOURCE_DESC_3000001"] = {
@@ -23088,12 +23486,12 @@ Human interactions are invariably fraught with difficulties. Face them head-on a
                 ["TextMapId"] = "RESOURCE_DESC_3001",
             },
             ["RESOURCE_DESC_3002"] = {
-                ["ContentEN"] = "A treat favoured by Geniemons, ideal for their capture.\
+                ["ContentEN"] = "A treat favoured by Geniemons, can be used to feed them.\
 True to its name, if these creatures could speak, they would surely exclaim, \"Yum!\"",
                 ["TextMapId"] = "RESOURCE_DESC_3002",
             },
             ["RESOURCE_DESC_3003"] = {
-                ["ContentEN"] = "A treat most-favoured by Geniemons, ideal for their capture.\
+                ["ContentEN"] = "A treat most-favoured by Geniemons, can be used to feed them.\
 True to its name, if these creatures could speak, they would surely exclaim, \"Yum-yum!\"",
                 ["TextMapId"] = "RESOURCE_DESC_3003",
             },
@@ -23438,6 +23836,10 @@ Though not protected under the Nine Chapters of Dafeng, the Waterwyrm is rarely 
                 ["ContentEN"] = "A deceptively plain-looking lure, crafted from top-grade ingredients. Even the pickiest of fish keep pecking until the very last crumb is gone.",
                 ["TextMapId"] = "RESOURCE_DESC_5210400",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_6000001", MaxKey = "RESOURCE_NAME_12006", Loader = function()
+        return {
             ["RESOURCE_DESC_6000001"] = {
                 ["ContentEN"] = "A trade voucher issued by EverSpring, Zhiliu's guild.",
                 ["TextMapId"] = "RESOURCE_DESC_6000001",
@@ -23674,7 +24076,7 @@ Heartfelt prayers shall be answered, and the desired one shall appear by your si
                 ["TextMapId"] = "RESOURCE_FUNCTION_MODCOIN",
             },
             ["RESOURCE_FUNCTION_PETBREAK"] = {
-                ["ContentEN"] = "Used to ascend Geniemons",
+                ["ContentEN"] = "Ascends Geniemons",
                 ["TextMapId"] = "RESOURCE_FUNCTION_PETBREAK",
             },
             ["RESOURCE_FUNCTION_PETCLAIM"] = {
@@ -23682,11 +24084,11 @@ Heartfelt prayers shall be answered, and the desired one shall appear by your si
                 ["TextMapId"] = "RESOURCE_FUNCTION_PETCLAIM",
             },
             ["RESOURCE_FUNCTION_PETEXP"] = {
-                ["ContentEN"] = "Used to level up Geniemons",
+                ["ContentEN"] = "Upgrades Geniemons",
                 ["TextMapId"] = "RESOURCE_FUNCTION_PETEXP",
             },
             ["RESOURCE_FUNCTION_PETFOOD"] = {
-                ["ContentEN"] = "Used for Geniemon Capture",
+                ["ContentEN"] = "Used to feed Geniemons",
                 ["TextMapId"] = "RESOURCE_FUNCTION_PETFOOD",
             },
             ["RESOURCE_FUNCTION_PHANTOM"] = {
@@ -23790,13 +24192,13 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["ContentEN"] = "Intron: Berenica",
                 ["TextMapId"] = "RESOURCE_NAME_1001101",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_1001103", MaxKey = "RESOURCE_NAME_12095", Loader = function()
-        return {
             ["RESOURCE_NAME_1001103"] = {
                 ["ContentEN"] = "Intron: Phantasio",
                 ["TextMapId"] = "RESOURCE_NAME_1001103",
+            },
+            ["RESOURCE_NAME_1001104"] = {
+                ["ContentEN"] = "Intron: Mr Qiu",
+                ["TextMapId"] = "RESOURCE_NAME_1001104",
             },
             ["RESOURCE_NAME_10012"] = {
                 ["ContentEN"] = "Cryo Teargem",
@@ -23982,6 +24384,10 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["ContentEN"] = "Sigil: Phantasio",
                 ["TextMapId"] = "RESOURCE_NAME_1011103",
             },
+            ["RESOURCE_NAME_1011104"] = {
+                ["ContentEN"] = "Sigil: Mr Qiu",
+                ["TextMapId"] = "RESOURCE_NAME_1011104",
+            },
             ["RESOURCE_NAME_1011501"] = {
                 ["ContentEN"] = "Sigil: Furyborne",
                 ["TextMapId"] = "RESOURCE_NAME_1011501",
@@ -24107,15 +24513,15 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["TextMapId"] = "RESOURCE_NAME_10208",
             },
             ["RESOURCE_NAME_10209"] = {
-                ["ContentEN"] = "Arrowhead",
+                ["ContentEN"] = "Gleaming Arrow",
                 ["TextMapId"] = "RESOURCE_NAME_10209",
             },
             ["RESOURCE_NAME_10210"] = {
-                ["ContentEN"] = "Precision Scope",
+                ["ContentEN"] = "Gleaming Precision Scope",
                 ["TextMapId"] = "RESOURCE_NAME_10210",
             },
             ["RESOURCE_NAME_10211"] = {
-                ["ContentEN"] = "Radiant Quiver",
+                ["ContentEN"] = "Gleaming Quiver",
                 ["TextMapId"] = "RESOURCE_NAME_10211",
             },
             ["RESOURCE_NAME_103"] = {
@@ -24123,7 +24529,7 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["TextMapId"] = "RESOURCE_NAME_103",
             },
             ["RESOURCE_NAME_104"] = {
-                ["ContentEN"] = "Luno Coin",
+                ["ContentEN"] = "Sheet Music",
                 ["TextMapId"] = "RESOURCE_NAME_104",
             },
             ["RESOURCE_NAME_105"] = {
@@ -24238,6 +24644,10 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["ContentEN"] = "Stellar Finality: Bolt",
                 ["TextMapId"] = "RESOURCE_NAME_12006",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_12007", MaxKey = "RESOURCE_NAME_20518", Loader = function()
+        return {
             ["RESOURCE_NAME_12007"] = {
                 ["ContentEN"] = "Stellar Finality: Frame",
                 ["TextMapId"] = "RESOURCE_NAME_12007",
@@ -24335,11 +24745,11 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["TextMapId"] = "RESOURCE_NAME_12030",
             },
             ["RESOURCE_NAME_12031"] = {
-                ["ContentEN"] = "Bluecurrent Pulse: Grip",
+                ["ContentEN"] = "Bluecurrent Pulse: Frame",
                 ["TextMapId"] = "RESOURCE_NAME_12031",
             },
             ["RESOURCE_NAME_12032"] = {
-                ["ContentEN"] = "Bluecurrent Pulse: Blade",
+                ["ContentEN"] = "Bluecurrent Pulse: Barrel",
                 ["TextMapId"] = "RESOURCE_NAME_12032",
             },
             ["RESOURCE_NAME_12033"] = {
@@ -24594,10 +25004,6 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["ContentEN"] = "Sacrosanct Decree: Bolt",
                 ["TextMapId"] = "RESOURCE_NAME_12095",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_12096", MaxKey = "RESOURCE_NAME_5011010", Loader = function()
-        return {
             ["RESOURCE_NAME_12096"] = {
                 ["ContentEN"] = "Sacrosanct Decree: Frame",
                 ["TextMapId"] = "RESOURCE_NAME_12096",
@@ -24607,11 +25013,11 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["TextMapId"] = "RESOURCE_NAME_12097",
             },
             ["RESOURCE_NAME_12098"] = {
-                ["ContentEN"] = "Sacrosanct Chorus: Grip",
+                ["ContentEN"] = "Sacrosanct Chorus: Frame",
                 ["TextMapId"] = "RESOURCE_NAME_12098",
             },
             ["RESOURCE_NAME_12099"] = {
-                ["ContentEN"] = "Sacrosanct Chorus: Blade",
+                ["ContentEN"] = "Sacrosanct Chorus: Barrel",
                 ["TextMapId"] = "RESOURCE_NAME_12099",
             },
             ["RESOURCE_NAME_121"] = {
@@ -24707,11 +25113,11 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["TextMapId"] = "RESOURCE_NAME_12121",
             },
             ["RESOURCE_NAME_12122"] = {
-                ["ContentEN"] = "Tumeborn: Grip",
+                ["ContentEN"] = "Tumeborn: Frame",
                 ["TextMapId"] = "RESOURCE_NAME_12122",
             },
             ["RESOURCE_NAME_12123"] = {
-                ["ContentEN"] = "Tumeborn: Blade",
+                ["ContentEN"] = "Tumeborn: Barrel",
                 ["TextMapId"] = "RESOURCE_NAME_12123",
             },
             ["RESOURCE_NAME_12124"] = {
@@ -25042,6 +25448,10 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["ContentEN"] = "Goddess Gem",
                 ["TextMapId"] = "RESOURCE_NAME_20518",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_206", MaxKey = "RESOURCE_TEXT_10100", Loader = function()
+        return {
             ["RESOURCE_NAME_206"] = {
                 ["ContentEN"] = "Commission Manual: Volume Ⅰ",
                 ["TextMapId"] = "RESOURCE_NAME_206",
@@ -25063,15 +25473,15 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["TextMapId"] = "RESOURCE_NAME_210",
             },
             ["RESOURCE_NAME_211"] = {
-                ["ContentEN"] = "Select Letter Clue: Order",
+                ["ContentEN"] = "Secret Letter Clue: Order",
                 ["TextMapId"] = "RESOURCE_NAME_211",
             },
             ["RESOURCE_NAME_212"] = {
-                ["ContentEN"] = "Select Letter Clue: Neutral",
+                ["ContentEN"] = "Secret Letter Clue: Neutral",
                 ["TextMapId"] = "RESOURCE_NAME_212",
             },
             ["RESOURCE_NAME_213"] = {
-                ["ContentEN"] = "Select Letter Clue: Chaos",
+                ["ContentEN"] = "Secret Letter Clue: Chaos",
                 ["TextMapId"] = "RESOURCE_NAME_213",
             },
             ["RESOURCE_NAME_214"] = {
@@ -25398,10 +25808,6 @@ Expires on 2025/7/2 17:00 (Automatically converts into Pristine Hourglasses upon
                 ["ContentEN"] = "Tidewanderer",
                 ["TextMapId"] = "RESOURCE_NAME_5011010",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_5011011", MaxKey = "RESOURCE_TEXT_204", Loader = function()
-        return {
             ["RESOURCE_NAME_5011011"] = {
                 ["ContentEN"] = "Tidewanderer Variant",
                 ["TextMapId"] = "RESOURCE_NAME_5011011",
@@ -25924,6 +26330,41 @@ Alone it knows neither beginning nor end!\"\
 — Snow the \"Demon King\"",
                 ["TextMapId"] = "RESOURCE_TEXT_101",
             },
+            ["RESOURCE_TEXT_10100"] = {
+                ["ContentEN"] = "\"Child, even though the path ahead is uncertain, always proceed with determination.\"\
+\
+— Lady Nifle, Ferrywoman of the Misty Sea",
+                ["TextMapId"] = "RESOURCE_TEXT_10100",
+            },
+        }
+    end },
+    { MinKey = "RESOURCE_TEXT_10101", MaxKey = "RESOURCE_TEXT_wobing", Loader = function()
+        return {
+            ["RESOURCE_TEXT_10101"] = {
+                ["ContentEN"] = "\"One day, I realised I could no longer cry. Perhaps it was the battlefield smoke clouding my eyes — or perhaps I had, at last, parted ways with the weakness in me.\"\
+\
+— From the notes of a Hyperborean soldier",
+                ["TextMapId"] = "RESOURCE_TEXT_10101",
+            },
+            ["RESOURCE_TEXT_10102"] = {
+                ["ContentEN"] = "\"Lamp on my helmet, pick in my grip — down the shaft we chase Phoxene's glint.\
+We sweat, we bleed, we strain our bones — so we'll get rich with these stones!\"\
+\
+— Miner's folk rhyme, Icelake",
+                ["TextMapId"] = "RESOURCE_TEXT_10102",
+            },
+            ["RESOURCE_TEXT_10103"] = {
+                ["ContentEN"] = "\"Time does not speak. It merely ushers each newborn dawn into the hush of night, and each bitter winter into the bloom of spring.\"\
+\
+— Lady Nifle, Ferrywoman of the Misty Sea",
+                ["TextMapId"] = "RESOURCE_TEXT_10103",
+            },
+            ["RESOURCE_TEXT_10104"] = {
+                ["ContentEN"] = "\"Sure, we've all got our brand of justice. And justice always arrives late. So today, right here — let my blade call the shots. Sound good?\"\
+\
+— Kezhou, Swordsman of Huaxu",
+                ["TextMapId"] = "RESOURCE_TEXT_10104",
+            },
             ["RESOURCE_TEXT_1011101"] = {
                 ["ContentEN"] = "\"Our tale spans over two millennia: a saga of embrace and massacre, of furore and mercy. History ebbs and flows like the celestial dance of the sun and the moon – constant and cyclical. In the grand tapestry of time recounted in these pages, I am but a mere observer, as insignificant as a flake of Hyperborean snow, a leaf from Aethyrie, a drop in Luca's waters, or a grain from Khemet's sands. Yet, in this immense cosmos, I harbour the hope that snowflakes will forge snowfields, leaves will form forests, drops of water will coalesce into rivers, and grains will gather to sculpt deserts. As all singular entities unite, history shall pivot in our favour.\"\
 \
@@ -25988,19 +26429,19 @@ And I realized, each candle revealed a version of myself.\"\
             ["RESOURCE_TEXT_10206"] = {
                 ["ContentEN"] = "\"Biru, with its verdant hue and astringent taste, offers a subtle aftertaste of sweetness a moment after consumption. Taken in proper amounts, it can calm the mind and soothe the spirit, as well as nourish wounds. However, improper dosage carries the risk of causing numbness.\"\
 \
-— Fufeng, Medical Sage in Huaxu, in \"Essentials of Medicinal Herbs\"",
+— Fufeng, Huaxu Apothecary, in \"Essentials of Medicinal Herbs\"",
                 ["TextMapId"] = "RESOURCE_TEXT_10206",
             },
             ["RESOURCE_TEXT_10207"] = {
                 ["ContentEN"] = "\"Biru, with its verdant hue and astringent taste, offers a subtle aftertaste of sweetness a moment after consumption. Taken in proper amounts, it can calm the mind and soothe the spirit, as well as nourish wounds. However, improper dosage carries the risk of causing numbness.\"\
 \
-— Fufeng, Medical Sage in Huaxu, in \"Essentials of Medicinal Herbs\"",
+— Fufeng, Huaxu Apothecary, in \"Essentials of Medicinal Herbs\"",
                 ["TextMapId"] = "RESOURCE_TEXT_10207",
             },
             ["RESOURCE_TEXT_10208"] = {
                 ["ContentEN"] = "\"Biru, with its verdant hue and astringent taste, offers a subtle aftertaste of sweetness a moment after consumption. Taken in proper amounts, it can calm the mind and soothe the spirit, as well as nourish wounds. However, improper dosage carries the risk of causing numbness.\"\
 \
-— Fufeng, Medical Sage in Huaxu, in \"Essentials of Medicinal Herbs\"",
+— Fufeng, Huaxu Apothecary, in \"Essentials of Medicinal Herbs\"",
                 ["TextMapId"] = "RESOURCE_TEXT_10208",
             },
             ["RESOURCE_TEXT_10209"] = {
@@ -26286,7 +26727,7 @@ Together, towards the dawn of a new day.\
 Its bark is edible, with an astringent and cold taste, non-toxic.\
 Can soothe swollen throats and quell inner heat, taken twice daily in a brew.\"\
 \
-— Fufeng, Medical Sage in Huaxu, in \"Essentials of Medicinal Herbs\"",
+— Fufeng, Huaxu Apothecary, in \"Essentials of Medicinal Herbs\"",
                 ["TextMapId"] = "RESOURCE_TEXT_20010",
             },
             ["RESOURCE_TEXT_20011"] = {
@@ -26513,10 +26954,6 @@ Embrace the fate of battle, until there is no turning back.\"\
 —Lunotress",
                 ["TextMapId"] = "RESOURCE_TEXT_204",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_TEXT_205", MaxKey = "RLBlessing_Desc_307", Loader = function()
-        return {
             ["RESOURCE_TEXT_205"] = {
                 ["ContentEN"] = "\"I can no longer move, so please, take my lantern. Carry me, carry us all, and spread the divine light... into every corner of the abyss...\"\
 \
@@ -26534,6 +26971,39 @@ Embrace the fate of battle, until there is no turning back.\"\
 \
 — A veteran angler clutching a coin, reluctant to let go",
                 ["TextMapId"] = "RESOURCE_TEXT_210",
+            },
+            ["RESOURCE_TEXT_211"] = {
+                ["ContentEN"] = "\"Gold buried deep must be drawn with bare hands.\
+Jewels under the currents only gleam for keen eyes.\
+So too the Phoxhunters' treasure —\
+They lie hidden between the words, in full measure.\"\
+\
+— Percy Ballard, wandering bard, Song of the Phoxhunters",
+                ["TextMapId"] = "RESOURCE_TEXT_211",
+            },
+            ["RESOURCE_TEXT_212"] = {
+                ["ContentEN"] = "\"Gold buried deep must be drawn with bare hands.\
+Jewels under the currents only gleam for keen eyes.\
+So too the Phoxhunters' treasure —\
+They lie hidden between the words, in full measure.\"\
+\
+— Percy Ballard, wandering bard, Song of the Phoxhunters",
+                ["TextMapId"] = "RESOURCE_TEXT_212",
+            },
+            ["RESOURCE_TEXT_213"] = {
+                ["ContentEN"] = "\"Gold buried deep must be drawn with bare hands.\
+Jewels under the currents only gleam for keen eyes.\
+So too the Phoxhunters' treasure —\
+They lie hidden between the words, in full measure.\"\
+\
+— Percy Ballard, wandering bard, Song of the Phoxhunters",
+                ["TextMapId"] = "RESOURCE_TEXT_213",
+            },
+            ["RESOURCE_TEXT_215"] = {
+                ["ContentEN"] = "\"I shall prove to the world that talent and genius can be reforged by the hand of an alchemist.\"\
+\
+— Chief Alchemist Flamel",
+                ["TextMapId"] = "RESOURCE_TEXT_215",
             },
             ["RESOURCE_TEXT_29001"] = {
                 ["ContentEN"] = "An island beyond divine gaze and imperial reach. A place where seabirds wheel above crumbled colonnades, and memories lie buried beneath moss and the slow tides of time.\
@@ -26712,7 +27182,7 @@ Go deeper into the Fortress — to witness, to listen, where smoke still hangs a
 Direct consumption is cautioned against, as it can chill the heart and limbs.\
 Cook it at high heat to create a soothing, detoxifying decoction.\"\
 \
-—Fufeng, Medical Sage in Huaxu, in \"Essentials of Medicinal Herbs\"",
+—Fufeng, Huaxu Apothecary, in \"Essentials of Medicinal Herbs\"",
                 ["TextMapId"] = "RESOURCE_TEXT_4010006",
             },
             ["RESOURCE_TEXT_4010007"] = {
@@ -27170,6 +27640,10 @@ Nor wrest the sword from his grasp so tight!\"\
 —Excerpt from Le Rhapsodie de Torrent, by Alexandre Thomas, a mourning faction playwright",
                 ["TextMapId"] = "RESOURCE_TEXT_wobing",
             },
+        }
+    end },
+    { MinKey = "RLArchive_ArchiveUnlock", MaxKey = "RLBlessing_Name_304", Loader = function()
+        return {
             ["RLArchive_ArchiveUnlock"] = {
                 ["ContentEN"] = "Not unlocked",
                 ["TextMapId"] = "RLArchive_ArchiveUnlock",
@@ -27231,7 +27705,7 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLArchive_UnlockEntry",
             },
             ["RLBlessingGroup_Active"] = {
-                ["ContentEN"] = "Ready",
+                ["ContentEN"] = "Can be activated",
                 ["TextMapId"] = "RLBlessingGroup_Active",
             },
             ["RLBlessingGroup_Desc_1"] = {
@@ -27239,15 +27713,15 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessingGroup_Desc_1",
             },
             ["RLBlessingGroup_Desc_101"] = {
-                ["ContentEN"] = "Dealing damage with Melee Weapon has a <Highlight>10%</> chance to apply 1 stack of <Highlight>[Molten Blaze]</> and increases the target's Damage Taken by <Highlight>2.5%</> for <Highlight>5</>s (up to <Highlight>10</> stacks).",
+                ["ContentEN"] = "Dealing damage with a melee weapon has a <Highlight>10%</> chance to inflict 1 stack of <Highlight>[Molten Blaze]</> and increases the target's Damage Taken by <Highlight>2.5%</> for <Highlight>5</>s, up to <Highlight>10</> stacks.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_101",
             },
             ["RLBlessingGroup_Desc_102"] = {
-                ["ContentEN"] = "<Highlight>[Molten Blaze]</> deals <Highlight>15%</> of the character's ATK as DoT to the target every <Highlight>1</>s.",
+                ["ContentEN"] = "<Highlight>[Molten Blaze]</> deals periodic damage equal to <Highlight>15%</> of the character's ATK to the target once <Highlight>per second</>.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_102",
             },
             ["RLBlessingGroup_Desc_103"] = {
-                ["ContentEN"] = "Increases <Highlight>[Molten Blaze]</> Duration to <Highlight>10</>s (up to <Highlight>20</> stacks).",
+                ["ContentEN"] = "Grants 1 stack that increases the duration of <Highlight>[Molten Blaze]</> to <Highlight>10</>s, up to <Highlight>20</> stacks.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_103",
             },
             ["RLBlessingGroup_Desc_104"] = {
@@ -27259,20 +27733,21 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessingGroup_Desc_2",
             },
             ["RLBlessingGroup_Desc_201"] = {
-                ["ContentEN"] = "Increases Auto-Pickup Range. For <Highlight>3</>s after picking up an item, you are immune to Hitstun.",
+                ["ContentEN"] = "Increases Auto-Pickup Range. Immune to Hitstun for <Highlight>3</>s after picking up an item.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_201",
             },
             ["RLBlessingGroup_Desc_202"] = {
-                ["ContentEN"] = "Dealing damage with Ranged Weapon has a chance to trigger [Seaborne Moon]—Deals 1 AoE Damage equal to <Highlight>1350%</> of the character's ATK and spawns <Highlight>3</> [Mini Seaborne Moons]. This effect can only be triggered once every <Highlight>10</>s. \
-[Mini Seaborne Moons] are loot. Picking them up restores HP, Sanity, and projectiles.",
+                ["ContentEN"] = "When dealing damage with a ranged weapon, there is a chance to trigger [Seaborne Moon].\
+[Seaborne Moon]: Deals AoE Damage equal to <Highlight>1350%</> of the character's ATK 1 time and spawns <Highlight>3</> [Mini Seaborne Moons]. This effect can only be triggered once every <Highlight>10</>s. \
+[Mini Seaborne Moon] is regarded as a pickable item. Picking it up restores HP, Sanity, and Ammo.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_202",
             },
             ["RLBlessingGroup_Desc_203"] = {
-                ["ContentEN"] = "Picking up [Mini Seaborne Moons] grants 1 [Veiled Moon] (up to <Highlight>6</>). Dealing Ranged Weapon damage costs 1 [Veiled Moon] to fire a [Stinger], dealing AoE Damage equal to <Highlight>270%</> of the character's ATK on hit.",
+                ["ContentEN"] = "Picking up a [Mini Seaborne Moon] grants 1 [Veiled Moon]. A maximum of <Highlight>6</> [Veiled Moons] can exist at the same time. Dealing Ranged Weapon damage consumes 1 [Veiled Moon] to fire a [Stinger], dealing AoE Damage equal to <Highlight>270%</> of the character's ATK.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_203",
             },
             ["RLBlessingGroup_Desc_204"] = {
-                ["ContentEN"] = "When [Veiled Moon] is used, fires <Highlight>3</> [Stingers] in a spread pattern. Picking up loot grants 1 stack of [Phantom Drift]—Increases Ranged Weapon DMG by <Highlight>6%</> for <Highlight>15</>s (up to <Highlight>10</> stacks).",
+                ["ContentEN"] = "When [Veiled Moon] is consumed, it turns into a burst of <Highlight>3</> [Stingers]. When successfully picking up any items, grants 1 stack of [Phantom Drift] that increases Ranged Weapon Damage by <Highlight>6%</> for <Highlight>15</>s, up to <Highlight>10</> stacks.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_204",
             },
             ["RLBlessingGroup_Desc_3"] = {
@@ -27280,15 +27755,15 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessingGroup_Desc_3",
             },
             ["RLBlessingGroup_Desc_301"] = {
-                ["ContentEN"] = "Increases Skill DMG by <Highlight>75%</>.",
+                ["ContentEN"] = "Increases Skill Damage by <Highlight>75%</>.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_301",
             },
             ["RLBlessingGroup_Desc_302"] = {
-                ["ContentEN"] = "Grants 1 stack of <Highlight>[Gleam]</> per second (up to 60 stacks). Using skills at 60 stacks of <Highlight>[Gleam]</> clears them all and enters <Highlight>[Radiance]</> status for <Highlight>10</>s, increasing Skill DMG by <Highlight>50%</>.",
+                ["ContentEN"] = "Grants 1 stack of <Highlight>[Gleam]</> per second, up to 60 stacks. Using skills at 60 stacks of <Highlight>[Gleam]</> removes all stacks and enters <Highlight>[Radiance]</> state for <Highlight>10</>s, during which Skill Damage is increased by <Highlight>50%</>.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_302",
             },
             ["RLBlessingGroup_Desc_303"] = {
-                ["ContentEN"] = "While in <Highlight>[Radiance]</> status, triggers 1 <Highlight>[Emission]</> every 2s, dealing Skill DMG equal to <Highlight>810%</> of the character's attack to enemies within a <Highlight>6-metre</> range.",
+                ["ContentEN"] = "When in <Highlight>[Radiance]</> state, <Highlight>[Emission]</> is triggered once every 2s, dealing damage equal to <Highlight>810%</> of the character's ATK to enemies within a <Highlight>6</>-metre range.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_303",
             },
             ["RLBlessingGroup_Desc_304"] = {
@@ -27301,21 +27776,23 @@ Nor wrest the sword from his grasp so tight!\"\
             },
             ["RLBlessingGroup_Desc_401"] = {
                 ["ContentEN"] = "Increases Detection Range and Damage Range of <Highlight>[Lumiseed]</> and <Highlight>[Lumileaf]</> by 100%. \
-<Highlight>[Lumiseed]</>: Detonates when enemies enter <Highlight>3</>-metre range, dealing damage equal to <Highlight>600%</> of the ATK. <Highlight>[Lumiseed]</> lasts <Highlight>10</>s, with a maximum of 10 at once.",
+<Highlight>[Lumiseed]</>: Detonates when detecting enemies within <Highlight>3</> metres, dealing damage equal to <Highlight>600%</> of the ATK.\
+<Highlight>[Lumiseed]</> lasts for <Highlight>10</>s, with a maximum of 10 existing at the same time.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_401",
             },
             ["RLBlessingGroup_Desc_402"] = {
-                ["ContentEN"] = "Summoning <Highlight>[Lumiseed]</> has a <Highlight>40%</> chance to evolve into <Highlight>[Lumileaf]</>. \
-<Highlight>[Lumileaf]</>: Detonates when enemies enter <Highlight>3</>-metre range, dealing damage equal to <Highlight>1000%</> of the ATK. <Highlight>[Lumileaf]</> lasts <Highlight>10</>s, with a maximum of 10 at once.",
+                ["ContentEN"] = "When summoning <Highlight>[Lumiseed]</>, there is a <Highlight>40%</> chance for it to evolve into <Highlight>[Lumileaf]</>.\
+<Highlight>[Lumileaf]</>: Detonates when detecting enemies within <Highlight>3</> metres, dealing damage equal to <Highlight>1000%</> of the ATK.\
+<Highlight>[Lumileaf]</> lasts for <Highlight>10</>s, with a maximum of 10 existing at the same time.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_402",
             },
             ["RLBlessingGroup_Desc_403"] = {
-                ["ContentEN"] = "Upon detonation, <Highlight>[Lumileaf]</> summons 1 <Highlight>[Glowing Tree]</> at its current location. \
-<Highlight>[Glowing Tree]</>: Heals teammates within a <Highlight>10</>-metre range by <Highlight>5%</> of their Max HP per second. <Highlight>[Glowing Tree]</> lasts <Highlight>10</>s, with a maximum of 1 at once.",
+                ["ContentEN"] = "When <Highlight>[Lumileaf]</> detomates, summons 1 <Highlight>[Lumiwood]</> at its current location. \
+<Highlight>[Lumiwood]</>: Heals teammates within a <Highlight>10</>-metre range by <Highlight>5%</> of their Max HP per second. <Highlight>[Lumiwood]</> lasts for <Highlight>10</>s, with a maximum of 1 existing at the same time.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_403",
             },
             ["RLBlessingGroup_Desc_404"] = {
-                ["ContentEN"] = "Increases the chances of summoning <Highlight>[Lumiseed]</> from all sources by 100%. <Highlight>[Glowing Tree]</> deals damage equal to <Highlight>650%</> of its ATK per second to enemies within range.",
+                ["ContentEN"] = "Increases the chances of summoning <Highlight>[Lumiseed]</> by 100%. <Highlight>[Lumiwood]</> deals damage equal to <Highlight>650%</> of the ATK per second to enemies within range.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_404",
             },
             ["RLBlessingGroup_Desc_5"] = {
@@ -27323,20 +27800,20 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessingGroup_Desc_5",
             },
             ["RLBlessingGroup_Desc_501"] = {
-                ["ContentEN"] = "Helix Leap grants a <Highlight>30%</> chance to create a <Highlight>4</>-metre <Highlight>[Powder]</> field on the ground for <Highlight>5</>s (up to <Highlight>1</> at once). \
+                ["ContentEN"] = "When performing Helix Leap, there is a <Highlight>30%</> chance to create a <Highlight>4</>-metre <Highlight>[Powder]</> field on the ground for <Highlight>5</>s. A maximum of <Highlight>1</> [Powder] field can exist at the same time.\
 <Highlight>[Powder]</> field deals damage equal to <Highlight>270%</> of the character's ATK per second to enemies within range.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_501",
             },
             ["RLBlessingGroup_Desc_502"] = {
-                ["ContentEN"] = "Increases <Highlight>[Powder]</> field duration to <Highlight>10</>s and allows <Highlight>2</> active fields at once.",
+                ["ContentEN"] = "Increases <Highlight>[Powder]</> field duration to <Highlight>10</>s and allows <Highlight>2</> [Powder] fields to exist at the same time.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_502",
             },
             ["RLBlessingGroup_Desc_503"] = {
-                ["ContentEN"] = "Increases <Highlight>[Powder]</> field radius to <Highlight>8</> metres and allows <Highlight>3</> active fields at once.",
+                ["ContentEN"] = "Increases <Highlight>[Powder]</> field radius to <Highlight>8</> metres and allows <Highlight>3</> [Powder] fields to exist at the same time.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_503",
             },
             ["RLBlessingGroup_Desc_504"] = {
-                ["ContentEN"] = "<Highlight>[Powder]</> field deals 1 bonus damage equal to <Highlight>12% of the character's ATK × Max Sanity</>.",
+                ["ContentEN"] = "When dealing damage, the <Highlight>[Powder]</> field deals an addtional instance of damage equal to <Highlight>12% × Character's ATK × Max Sanity</>.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_504",
             },
             ["RLBlessingGroup_Desc_6"] = {
@@ -27344,19 +27821,19 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessingGroup_Desc_6",
             },
             ["RLBlessingGroup_Desc_601"] = {
-                ["ContentEN"] = "[Glimmerfly] capacity <Highlight>+1</>. Now deals AoE Damage in a <Highlight>2</>-metre radius.",
+                ["ContentEN"] = "The maximum number of [Glimmerfly] <Highlight>+1</>, and they gain the ability to deal AoE Damage within a <Highlight>2</>-metre radius.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_601",
             },
             ["RLBlessingGroup_Desc_602"] = {
-                ["ContentEN"] = "Getting [Glimmerfly] grants a <Highlight>30%</> chance to obtain a <Highlight>larger</> variant, dealing AoE Damage equal to <Highlight>700%</> of the character's ATK within a <Highlight>4</>-metre range.",
+                ["ContentEN"] = "When [Glimmerfly] is around, there is a <Highlight>30%</> chance to obtain a <Highlight>large</> variant, dealing AoE Damage equal to <Highlight>700%</> of the character's ATK within a <Highlight>4</>-metre range.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_602",
             },
             ["RLBlessingGroup_Desc_603"] = {
-                ["ContentEN"] = "[Glimmerfly] capacity <Highlight>+1</>. <Highlight>Larger</> variants split into <Highlight>3</> <Highlight>small</> [Glimmerflies] on hit.",
+                ["ContentEN"] = "The maximum number of [Glimmerfly] <Highlight>+1</>. When a <Highlight>large</> [Glimmerfly] hits a target, it splits into <Highlight>3</> <Highlight>small</> [Glimmerflies].",
                 ["TextMapId"] = "RLBlessingGroup_Desc_603",
             },
             ["RLBlessingGroup_Desc_604"] = {
-                ["ContentEN"] = "Damage Dealt by [Glimmerfly] applies 1 stack of permanent Damage Taken Increase by <Highlight>12%</> (up to <Highlight>5</> stacks).",
+                ["ContentEN"] = "When [Glimmerfly] deals damage, inflicts 1 stack that permanently increases Damage Taken by <Highlight>12%</> on the target, up to <Highlight>5</> stacks.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_604",
             },
             ["RLBlessingGroup_Desc_7"] = {
@@ -27368,16 +27845,16 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessingGroup_Desc_701",
             },
             ["RLBlessingGroup_Desc_702"] = {
-                ["ContentEN"] = "Restores <Highlight>0.5%</> of Max HP per second. The effect increases by <Highlight>0.167%</> for every time HP drops by <Highlight>25%</>.",
+                ["ContentEN"] = "Restores <Highlight>0.5%</> of Max HP per second. For every <Highlight>25%</> decrease in HP, the effect is increased by <Highlight>0.167%</>.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_702",
             },
             ["RLBlessingGroup_Desc_703"] = {
-                ["ContentEN"] = "Deals damage equal to <Highlight>50%</> of your Max HP to enemies within range every 3s. The effect multiplies by <Highlight>16.7%</> for every time HP drops by <Highlight>25%</>.",
+                ["ContentEN"] = "Deals damage equal to <Highlight>50%</> of the character's Max HP to enemies within range every 3s. For every <Highlight>25%</> decrease in HP, the effect is increased by <Highlight>16.7%</>.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_703",
             },
             ["RLBlessingGroup_Desc_704"] = {
-                ["ContentEN"] = "Taking damage increases Max HP by <Highlight>100%</> for <Highlight>60</>s (once every <Highlight>20</>s max). \
-[Vamprose] treats your HP% as <Highlight>40%</> for all calculations when above <Highlight>40%</> HP.",
+                ["ContentEN"] = "When taking damage, the character's Max HP is increased by <Highlight>100%</> for <Highlight>60</>s. This effect can only be triggered once every <Highlight>20</>s.\
+When the HP percentage is above <Highlight>40%</>, the HP value related to [Vamprose] effect will be regarded as <Highlight>40%</>.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_704",
             },
             ["RLBlessingGroup_Desc_unknown"] = {
@@ -27385,7 +27862,7 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessingGroup_Desc_unknown",
             },
             ["RLBlessingGroup_HavingNum"] = {
-                ["ContentEN"] = "Active",
+                ["ContentEN"] = "Activated",
                 ["TextMapId"] = "RLBlessingGroup_HavingNum",
             },
             ["RLBlessingGroup_Name_1"] = {
@@ -27417,15 +27894,15 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessingGroup_Name_7",
             },
             ["RLBlessing_ActivateGroup"] = {
-                ["ContentEN"] = "Activate Uniforms",
+                ["ContentEN"] = "Activate Artefact Set Effect",
                 ["TextMapId"] = "RLBlessing_ActivateGroup",
             },
             ["RLBlessing_Desc_101"] = {
-                ["ContentEN"] = "Increases Melee Weapon <Highlight>ATK</> by <Highlight>#1</>.",
+                ["ContentEN"] = "Increases Melee Weapon ATK by <Highlight>#1</>.",
                 ["TextMapId"] = "RLBlessing_Desc_101",
             },
             ["RLBlessing_Desc_102"] = {
-                ["ContentEN"] = "Increases Melee Weapon <Highlight>Trigger</> Probability by <Highlight>#1</>.",
+                ["ContentEN"] = "Increases Melee Weapon Trigge Probability by <Highlight>#1</>.",
                 ["TextMapId"] = "RLBlessing_Desc_102",
             },
             ["RLBlessing_Desc_103"] = {
@@ -27441,7 +27918,7 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessing_Desc_105",
             },
             ["RLBlessing_Desc_106"] = {
-                ["ContentEN"] = "<Highlight>Taking Damage</> applies <Highlight>1</> stack of <Highlight>[Molten Blaze]</> to enemies within an <Highlight>8</>-metre range (once every <Highlight>$1</>s max).",
+                ["ContentEN"] = "When <Highlight>taking damage</>, inflicts <Highlight>1</> stack of <Highlight>[Molten Blaze]</> to enemies within an <Highlight>8</>-metre range. This effect can only be triggered once every <Highlight>$1</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_106",
             },
             ["RLBlessing_Desc_107"] = {
@@ -27461,7 +27938,7 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessing_Desc_110",
             },
             ["RLBlessing_Desc_111"] = {
-                ["ContentEN"] = "Restores your HP by <Highlight>$1</> when dealing damage to enemies with more than <Highlight>2</> stacks of <Highlight>[Molten Blaze]</> (once every <Highlight>0.5</>s max).",
+                ["ContentEN"] = "When dealing damage to enemies with more than <Highlight>2</> stacks of <Highlight>[Molten Blaze]</>, restores HP by <Highlight>$1</>. This effect can only be triggered once every <Highlight>0.5</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_111",
             },
             ["RLBlessing_Desc_112"] = {
@@ -27489,19 +27966,19 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessing_Desc_202",
             },
             ["RLBlessing_Desc_203"] = {
-                ["ContentEN"] = "Dealing damage with Ranged Weapon spawns [Ammo Supply Chests] (once every <Highlight>$1</>s max). While [Seaborne Moon] Phase II is active, spawns <Highlight>1</> additional [Mini Seaborne Moon].",
+                ["ContentEN"] = "Spawns [Ammo Supply Chest] when dealing damage with a ranged weapon. This effect can only be triggered once every <Highlight>$1</>s. While [Seaborne Moon] Phase II is active, spawns <Highlight>1</> additional [Mini Seaborne Moon].",
                 ["TextMapId"] = "RLBlessing_Desc_203",
             },
             ["RLBlessing_Desc_204"] = {
-                ["ContentEN"] = "Picking up loot grants <Highlight>$1</> Ultra Shields (once every <Highlight>5</>s max).",
+                ["ContentEN"] = "Picking up dropped items gains <Highlight>$1</> Ultra Shields. This effect can only be triggered once every <Highlight>5</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_204",
             },
             ["RLBlessing_Desc_205"] = {
-                ["ContentEN"] = "Dealing damage spawns [Activated Sal Volatile] or [Tranquilizer Dewdrop] (once every <Highlight>$1</>s max). While [Seaborne Moon] Phase II is active, drops <Highlight>1</> additional [Mini Seaborne Moon].",
+                ["ContentEN"] = "Spawns [Activated Sal Volatile] or [Tranquilizer Dewdrop] when dealing damage. This effect can only be triggered once every <Highlight>$1</>s. While [Seaborne Moon] Phase II is active, spawns <Highlight>1</> additional [Mini Seaborne Moon].",
                 ["TextMapId"] = "RLBlessing_Desc_205",
             },
             ["RLBlessing_Desc_206"] = {
-                ["ContentEN"] = "Spawns <Highlight>3</> [Mini Seaborne Moons] upon entering the [R&R] area.",
+                ["ContentEN"] = "Spawns <Highlight>3</> [Mini Seaborne Moons] upon entering the [R&R] Zone.",
                 ["TextMapId"] = "RLBlessing_Desc_206",
             },
             ["RLBlessing_Desc_207"] = {
@@ -27517,7 +27994,7 @@ Nor wrest the sword from his grasp so tight!\"\
                 ["TextMapId"] = "RLBlessing_Desc_209",
             },
             ["RLBlessing_Desc_210"] = {
-                ["ContentEN"] = "Picking up loot restores additional <Highlight>$1</> points of Sanity.",
+                ["ContentEN"] = "Picking up items restores additional <Highlight>$1</> points of Sanity.",
                 ["TextMapId"] = "RLBlessing_Desc_210",
             },
             ["RLBlessing_Desc_211"] = {
@@ -27550,15 +28027,15 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_302",
             },
             ["RLBlessing_Desc_303"] = {
-                ["ContentEN"] = "When using skills, grants 1 stack of Skill Efficiency Increase by <Highlight>$2</> for <Highlight>$1</>s (up to <Highlight>$3</> stacks).",
+                ["ContentEN"] = "When using skills, gains 1 stack that increases Skill Efficiency by <Highlight>$2</> for <Highlight>$1</>s, up to <Highlight>$3</> stacks.",
                 ["TextMapId"] = "RLBlessing_Desc_303",
             },
             ["RLBlessing_Desc_304"] = {
-                ["ContentEN"] = "Restores Sanity by <Highlight>$1</> when using skills (once every <Highlight>$2</>s max).",
+                ["ContentEN"] = "Restores Sanity by <Highlight>$1</> when using skills. This effect can only be triggered once every <Highlight>$2</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_304",
             },
             ["RLBlessing_Desc_305"] = {
-                ["ContentEN"] = "Restores Shield by <Highlight>$1</> of Max Shield when using skills (once every <Highlight>$2</>s max).",
+                ["ContentEN"] = "Restores Shield by <Highlight>$1</> of Max Shield when using skills. This effect can only be triggered once every <Highlight>$2</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_305",
             },
             ["RLBlessing_Desc_306"] = {
@@ -27569,16 +28046,12 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["ContentEN"] = "Increases Max Sanity by <Highlight>#1</>.",
                 ["TextMapId"] = "RLBlessing_Desc_307",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_Desc_308", MaxKey = "RLBlessing_SimpleDesc_211", Loader = function()
-        return {
             ["RLBlessing_Desc_308"] = {
                 ["ContentEN"] = "Decreases Damage Taken by <Highlight>$1</> when Sanity drops below <Highlight>$2</>.",
                 ["TextMapId"] = "RLBlessing_Desc_308",
             },
             ["RLBlessing_Desc_309"] = {
-                ["ContentEN"] = "Restores Sanity by <Highlight>$1</> per second every <Highlight>$4</>s when Sanity drops below <Highlight>$3</> (once every <Highlight>$2</>s max).",
+                ["ContentEN"] = "Restores Sanity by <Highlight>$1</> per second every <Highlight>$4</>s when Sanity drops below <Highlight>$3</>. This effect can only be triggered once every <Highlight>$2</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_309",
             },
             ["RLBlessing_Desc_310"] = {
@@ -27590,7 +28063,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_311",
             },
             ["RLBlessing_Desc_312"] = {
-                ["ContentEN"] = "When using skills, grants 1 stack of Skill Damage Increase by <Highlight>$2</> for <Highlight>$1</>s (up to <Highlight>$3</> stacks).",
+                ["ContentEN"] = "When using skills, gains 1 stack that increases Skill Damage by <Highlight>$2</> for <Highlight>$1</>s, up to <Highlight>$3</> stacks.",
                 ["TextMapId"] = "RLBlessing_Desc_312",
             },
             ["RLBlessing_Desc_313"] = {
@@ -27606,7 +28079,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_315",
             },
             ["RLBlessing_Desc_401"] = {
-                ["ContentEN"] = "Dealing damage grants a <Highlight>$1</> chance to summon 1 <Highlight>[Lumiseed]</> (once per <Highlight>$2</>s max).",
+                ["ContentEN"] = "When dealing damage, there is a <Highlight>$1</> chance to summon 1 <Highlight>[Lumiseed]</>. This effect can only be triggered once every <Highlight>$2</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_401",
             },
             ["RLBlessing_Desc_402"] = {
@@ -27614,7 +28087,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_402",
             },
             ["RLBlessing_Desc_403"] = {
-                ["ContentEN"] = "Summoning any non-<Highlight>Lumitwig</> Summons also calls forth 1 <Highlight>[Lumiseed]</>.",
+                ["ContentEN"] = "Summoning any non-<Highlight>Lumitwig</> items also calls forth 1 <Highlight>[Lumiseed]</>.",
                 ["TextMapId"] = "RLBlessing_Desc_403",
             },
             ["RLBlessing_Desc_404"] = {
@@ -27634,11 +28107,11 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_407",
             },
             ["RLBlessing_Desc_408"] = {
-                ["ContentEN"] = "Taking damage grants a <Highlight>$1</> chance to summon 1 <Highlight>[Lumiseed]</> (once per <Highlight>$2</>s max).",
+                ["ContentEN"] = "When taking damage, there is a <Highlight>$1</> chance to summon 1 <Highlight>[Lumiseed]</>. This effect can only be triggered once every <Highlight>$2</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_408",
             },
             ["RLBlessing_Desc_409"] = {
-                ["ContentEN"] = "Decreases Damage Taken by <Highlight>$1</> when a Summon is within an <Highlight>8</>-metre range.",
+                ["ContentEN"] = "Decreases Damage Taken by <Highlight>$1</> when a summoned item is within an <Highlight>8</>-metre range.",
                 ["TextMapId"] = "RLBlessing_Desc_409",
             },
             ["RLBlessing_Desc_410"] = {
@@ -27650,7 +28123,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_411",
             },
             ["RLBlessing_Desc_412"] = {
-                ["ContentEN"] = "Grants 1 stack of Damage Increase by <Highlight>$2</> per Summon within an <Highlight>8</>-metre range (up to <Highlight>$1</> stacks).",
+                ["ContentEN"] = "Grants 1 stack that increases damage by <Highlight>$2</> per summoned item within an <Highlight>8</>-metre range, up to <Highlight>$1</> stacks.",
                 ["TextMapId"] = "RLBlessing_Desc_412",
             },
             ["RLBlessing_Desc_413"] = {
@@ -27666,15 +28139,15 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_415",
             },
             ["RLBlessing_Desc_501"] = {
-                ["ContentEN"] = "Grants ATK Increase by <Highlight>$1</> for <Highlight>$2</>s with Helix Leap.",
+                ["ContentEN"] = "Increases ATK by <Highlight>$1</> for <Highlight>$2</>s when performing Helix Leap.",
                 ["TextMapId"] = "RLBlessing_Desc_501",
             },
             ["RLBlessing_Desc_502"] = {
-                ["ContentEN"] = "Grants Damage Taken Decrease by <Highlight>$1</> for <Highlight>$2</>s with Helix Leap.",
+                ["ContentEN"] = "Decreases Damage Taken by <Highlight>$1</> for <Highlight>$2</>s when performing Helix Leap.",
                 ["TextMapId"] = "RLBlessing_Desc_502",
             },
             ["RLBlessing_Desc_503"] = {
-                ["ContentEN"] = "For <Highlight>$1</>s after performing a Dodge, you are immune to Hitstun.",
+                ["ContentEN"] = "Immune to Hitstun for <Highlight>$1</>s after performing a Dodge.",
                 ["TextMapId"] = "RLBlessing_Desc_503",
             },
             ["RLBlessing_Desc_504"] = {
@@ -27690,7 +28163,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_506",
             },
             ["RLBlessing_Desc_507"] = {
-                ["ContentEN"] = "Increases Plunging Attack Damage by <Highlight>$1</>.",
+                ["ContentEN"] = "Increases Plunge Damage by <Highlight>$1</>.",
                 ["TextMapId"] = "RLBlessing_Desc_507",
             },
             ["RLBlessing_Desc_508"] = {
@@ -27702,7 +28175,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_509",
             },
             ["RLBlessing_Desc_510"] = {
-                ["ContentEN"] = "Dodging spawns 1 <Highlight>[Powder]</> field (once every <Highlight>$1</>s max).",
+                ["ContentEN"] = "When performing a Dodge, creates 1 <Highlight>[Powder]</> field. This effect can only be triggered once every <Highlight>$1</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_510",
             },
             ["RLBlessing_Desc_511"] = {
@@ -27730,34 +28203,35 @@ Standing still for over <Highlight>2</>s increases Damage Dealt by <Highlight>$2
                 ["TextMapId"] = "RLBlessing_Desc_601",
             },
             ["RLBlessing_Desc_602"] = {
-                ["ContentEN"] = "Dealing damage grants a <Highlight>$1</> chance to get <Highlight>1</> [Glimmerfly] for <Highlight>30</>s (you can carry up to <Highlight>3</>). [Glimmerfly] seeks targets and deals <Highlight>300%</> of the character's ATK on impact.",
+                ["ContentEN"] = "When dealing damage, there is a <Highlight>$1</> chance to get <Highlight>1</> [Glimmerfly] that lasts for <Highlight>30</>s, with a maximum of <Highlight>3</> [Glimmerflies] existing at the same time.\
+[Glimmerfly] flies to the target after locking on and deals damage equal to <Highlight>300%</> of the character's ATK.",
                 ["TextMapId"] = "RLBlessing_Desc_602",
             },
             ["RLBlessing_Desc_603"] = {
-                ["ContentEN"] = "Grants <Highlight>$1</> [Glimmerfly] every <Highlight>$1</>s for <Highlight>30</>s (you can carry up to <Highlight>3</>). [Glimmerfly] seeks targets and deals <Highlight>300%</> of the character's ATK on impact.",
+                ["ContentEN"] = "Grants <Highlight>$1</> [Glimmerfly] that lasts for <Highlight>30</>s every <Highlight>$1</>s, with a maximum of <Highlight>3</> [Glimmerflies] existing at the same time.\
+[Glimmerfly] flies to the target after locking on and deals damage equal to <Highlight>300%</> of the character's ATK.",
                 ["TextMapId"] = "RLBlessing_Desc_603",
             },
             ["RLBlessing_Desc_604"] = {
-                ["ContentEN"] = "Increases Ranged Weapon CRIT Chance by <Highlight>$1</> when not carrying [Glimmerflies]. \
-Increases Ranged Weapon CRIT Chance by <Highlight>$2</> when carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases Ranged Weapon CRIT Chance by <Highlight>$1</> when [Glimmerfly] is not around, and by <Highlight>$2</> when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_Desc_604",
             },
             ["RLBlessing_Desc_605"] = {
-                ["ContentEN"] = "Increases Ranged Weapon CRIT Damage by <Highlight>$1</> when not carrying [Glimmerflies]. \
-Increases Ranged Weapon CRIT Damage by <Highlight>$2</> when not carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases Ranged Weapon CRIT Damage by <Highlight>$1</> when [Glimmerfly] is not around, and by <Highlight>$2</> when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_Desc_605",
             },
             ["RLBlessing_Desc_606"] = {
-                ["ContentEN"] = "Increases Ranged Weapon Trigger Probability by <Highlight>$1</> when not carrying [Glimmerflies]. \
-Increases Ranged Weapon Trigger Probability by <Highlight>$2</> when carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases Ranged Weapon Trigger Probability by <Highlight>$1</> when [Glimmerfly] is not around, and by <Highlight>$2</> when when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_Desc_606",
             },
             ["RLBlessing_Desc_607"] = {
-                ["ContentEN"] = "Increases Damage Dealt by Summons by <Highlight>$1</>.",
+                ["ContentEN"] = "Increases Damage Dealt by summoned items by <Highlight>$1</>.",
                 ["TextMapId"] = "RLBlessing_Desc_607",
             },
             ["RLBlessing_Desc_608"] = {
-                ["ContentEN"] = "Grants <Highlight>$1</> [Glimmerfly] when taking damage or summoning Summons for <Highlight>30</>s. (You can carry up to <Highlight>3</>. This effect triggers once every <Highlight>$1</>s max) [Glimmerfly] seeks targets and deals <Highlight>300%</> of the character's ATK on impact.",
+                ["ContentEN"] = "When taking damage or summoning a creature, gains <Highlight>$1</> [Glimmerfly] that lasts for <Highlight>30</>s, with a maximum of <Highlight>3</> [Glimmerflies] existing at the same time.\
+This effect can only be triggered once every <Highlight>$1</>s.\
+[Glimmerfly] flies to the target after locking on and deals damage equal to <Highlight>300%</> of the character's ATK.",
                 ["TextMapId"] = "RLBlessing_Desc_608",
             },
             ["RLBlessing_Desc_609"] = {
@@ -27765,26 +28239,23 @@ Increases Ranged Weapon Trigger Probability by <Highlight>$2</> when carrying [G
                 ["TextMapId"] = "RLBlessing_Desc_609",
             },
             ["RLBlessing_Desc_610"] = {
-                ["ContentEN"] = "Increases Ranged Weapon Multishot by <Highlight>$1</> when not carrying [Glimmerflies]. \
-Increases Ranged Weapon Multishot by <Highlight>$2</> when carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases Ranged Weapon Multishot by <Highlight>$1</> when [Glimmerfly] is not around, and by <Highlight>$2</> when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_Desc_610",
             },
             ["RLBlessing_Desc_611"] = {
-                ["ContentEN"] = "Gain <Highlight>1</> Revival. Decreases Damage Taken by <Highlight>$1</> when carrying [Glimmerflies]. The effect is consumed upon revival.",
+                ["ContentEN"] = "Grants <Highlight>1</> Revival attempt. Decreases Damage Taken by <Highlight>$1</> when [Glimmerfly] is around. The effect is removed upon the next revival.",
                 ["TextMapId"] = "RLBlessing_Desc_611",
             },
             ["RLBlessing_Desc_612"] = {
-                ["ContentEN"] = "Increases all Attribute PENs by <Highlight>$1</> when not carrying [Glimmerflies]. \
-Increases all Attribute PENs by <Highlight>$2</> when carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases PEN stats by <Highlight>$1</> when [Glimmerfly] is not around, and by <Highlight>$2</> when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_Desc_612",
             },
             ["RLBlessing_Desc_613"] = {
-                ["ContentEN"] = "Increases Morale by <Highlight>$1</> when not carrying [Glimmerflies]. \
-Increases Morale by <Highlight>$2</> when carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases Morale by <Highlight>$1</> when [Glimmerfly] is not around, and by <Highlight>$2</> when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_Desc_613",
             },
             ["RLBlessing_Desc_614"] = {
-                ["ContentEN"] = "[Glimmerflies] attack much more frequently for <Highlight>5</>s when enemies are within range (once every <Highlight>$1</>s max).",
+                ["ContentEN"] = "When there are enemies within range, the attack interval of [Glimmerfly] is significantly reduced for <Highlight>5</>s. This effect can only be triggered once every <Highlight>$1</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_614",
             },
             ["RLBlessing_Desc_615"] = {
@@ -27804,15 +28275,15 @@ Increases Morale by <Highlight>$2</> when carrying [Glimmerflies].",
                 ["TextMapId"] = "RLBlessing_Desc_703",
             },
             ["RLBlessing_Desc_704"] = {
-                ["ContentEN"] = "Increase Max HP by <Highlight>#1</>.",
+                ["ContentEN"] = "Increases Max HP by <Highlight>#1</>.",
                 ["TextMapId"] = "RLBlessing_Desc_704",
             },
             ["RLBlessing_Desc_705"] = {
-                ["ContentEN"] = "Increases Damage Dealt by <Highlight>$1</> for <Highlight>10</>s when taking damage (once every <Highlight>20</>s max).",
+                ["ContentEN"] = "When taking damage, increases Damage Dealt by <Highlight>$1</> for <Highlight>10</>s. This effect can only be triggered once every <Highlight>20</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_705",
             },
             ["RLBlessing_Desc_706"] = {
-                ["ContentEN"] = "Deals an additional AoE Damage equal to <Highlight>$1</> of your Max HP at the target's location when dealing damage (once every <Highlight>1</>s max).",
+                ["ContentEN"] = "When dealing damage, deals an additional AoE Damage equal to <Highlight>$1</> of the character's Max HP to the target. This effect can only be triggerd once every <Highlight>1</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_706",
             },
             ["RLBlessing_Desc_707"] = {
@@ -27832,7 +28303,7 @@ Increases Morale by <Highlight>$2</> when carrying [Glimmerflies].",
                 ["TextMapId"] = "RLBlessing_Desc_710",
             },
             ["RLBlessing_Desc_711"] = {
-                ["ContentEN"] = "Dealing damage grants <Highlight>$1</> Ultra Shields (once every <Highlight>5</>s max).",
+                ["ContentEN"] = "When taking damage, gains <Highlight>$1</> Ultra Shields. This effect can only be triggered once every <Highlight>5</>s.",
                 ["TextMapId"] = "RLBlessing_Desc_711",
             },
             ["RLBlessing_Desc_712"] = {
@@ -27987,6 +28458,10 @@ Increases Morale by <Highlight>$2</> when carrying [Glimmerflies].",
                 ["ContentEN"] = "Gentle Touch",
                 ["TextMapId"] = "RLBlessing_Name_304",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_Name_305", MaxKey = "RLBlessing_UnlockCon_211", Loader = function()
+        return {
             ["RLBlessing_Name_305"] = {
                 ["ContentEN"] = "Crystal Touch",
                 ["TextMapId"] = "RLBlessing_Name_305",
@@ -28276,7 +28751,7 @@ Increases Morale by <Highlight>$2</> when carrying [Glimmerflies].",
                 ["TextMapId"] = "RLBlessing_Name_unknown",
             },
             ["RLBlessing_SimpleDesc_101"] = {
-                ["ContentEN"] = "Increases Melee Weapon <Highlight>ATK</>.",
+                ["ContentEN"] = "Increases Melee Weapon ATK.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_101",
             },
             ["RLBlessing_SimpleDesc_102"] = {
@@ -28348,7 +28823,7 @@ Increases Morale by <Highlight>$2</> when carrying [Glimmerflies].",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_203",
             },
             ["RLBlessing_SimpleDesc_204"] = {
-                ["ContentEN"] = "Picking up loot grants Ultra Shields.",
+                ["ContentEN"] = "Picking up dropped items grants Ultra Shields.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_204",
             },
             ["RLBlessing_SimpleDesc_205"] = {
@@ -28356,7 +28831,7 @@ Increases Morale by <Highlight>$2</> when carrying [Glimmerflies].",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_205",
             },
             ["RLBlessing_SimpleDesc_206"] = {
-                ["ContentEN"] = "Spawns [Mini Seaborne Moon] upon entering the [R&R] area.",
+                ["ContentEN"] = "Spawns [Mini Seaborne Moon] upon entering the [R&R] Zone.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_206",
             },
             ["RLBlessing_SimpleDesc_207"] = {
@@ -28372,17 +28847,13 @@ Increases Morale by <Highlight>$2</> when carrying [Glimmerflies].",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_209",
             },
             ["RLBlessing_SimpleDesc_210"] = {
-                ["ContentEN"] = "Picking up loot restores additional Sanity.",
+                ["ContentEN"] = "Picking up dropped items restores additional Sanity.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_210",
             },
             ["RLBlessing_SimpleDesc_211"] = {
                 ["ContentEN"] = "Decreases Geniemon Support cooldown.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_211",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_SimpleDesc_212", MaxKey = "RLTalent_Desc_201", Loader = function()
-        return {
             ["RLBlessing_SimpleDesc_212"] = {
                 ["ContentEN"] = "Increases Ranged Weapon <Highlight>Multishot</>.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_212",
@@ -28469,7 +28940,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLBlessing_SimpleDesc_402",
             },
             ["RLBlessing_SimpleDesc_403"] = {
-                ["ContentEN"] = "Summoning any non-<Highlight>Lumitwig</> Summons also calls forth 1 <Highlight>[Lumiseed]</>.",
+                ["ContentEN"] = "Summoning any non-<Highlight>Lumitwig</> items also calls forth 1 <Highlight>[Lumiseed]</>.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_403",
             },
             ["RLBlessing_SimpleDesc_404"] = {
@@ -28493,7 +28964,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLBlessing_SimpleDesc_408",
             },
             ["RLBlessing_SimpleDesc_409"] = {
-                ["ContentEN"] = "Decreases Damage Taken when a Summon is within range.",
+                ["ContentEN"] = "Decreases Damage Taken when a summoned item is within range.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_409",
             },
             ["RLBlessing_SimpleDesc_410"] = {
@@ -28521,23 +28992,23 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLBlessing_SimpleDesc_415",
             },
             ["RLBlessing_SimpleDesc_501"] = {
-                ["ContentEN"] = "Grants ATK Increase with Helix Leap.",
+                ["ContentEN"] = "Incrases ATK when performing Helix Leap.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_501",
             },
             ["RLBlessing_SimpleDesc_502"] = {
-                ["ContentEN"] = "Grants Damage Taken Decrease with Helix Leap.",
+                ["ContentEN"] = "Decreases Damage Taken when performing Helix Leap.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_502",
             },
             ["RLBlessing_SimpleDesc_503"] = {
-                ["ContentEN"] = "For a certain period after performing a Dodge, you are immune to Hitstun.",
+                ["ContentEN"] = "Immune to Hitstun for a certain period after performing a Dodge.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_503",
             },
             ["RLBlessing_SimpleDesc_504"] = {
-                ["ContentEN"] = "Max Sanity Boost",
+                ["ContentEN"] = "Increases Max Sanity.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_504",
             },
             ["RLBlessing_SimpleDesc_505"] = {
-                ["ContentEN"] = "Melee Attack Speed Boost",
+                ["ContentEN"] = "Increases Melee Attack Speed.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_505",
             },
             ["RLBlessing_SimpleDesc_506"] = {
@@ -28545,15 +29016,15 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLBlessing_SimpleDesc_506",
             },
             ["RLBlessing_SimpleDesc_507"] = {
-                ["ContentEN"] = "Plunging Attack Damage Boost",
+                ["ContentEN"] = "Increases Plunge Damage.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_507",
             },
             ["RLBlessing_SimpleDesc_508"] = {
-                ["ContentEN"] = "Melee Attack Range Boost",
+                ["ContentEN"] = "Increases Melee Attack Range.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_508",
             },
             ["RLBlessing_SimpleDesc_509"] = {
-                ["ContentEN"] = "Max Dodge Attempt Boost",
+                ["ContentEN"] = "Increases Max Dodge Attempt.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_509",
             },
             ["RLBlessing_SimpleDesc_510"] = {
@@ -28585,31 +29056,34 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLBlessing_SimpleDesc_601",
             },
             ["RLBlessing_SimpleDesc_602"] = {
-                ["ContentEN"] = "Dealing damage grants a chance to get [Glimmerflies]—these creatures automatically seek and attack enemies.",
+                ["ContentEN"] = "When dealing damage, there is a chance to get [Glimmerflies].\
+[Glimmerfly]: Automatically seeks and attacks enemies.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_602",
             },
             ["RLBlessing_SimpleDesc_603"] = {
-                ["ContentEN"] = "Grants [Glimmerflies] every <Highlight>10</>s—these creatures automatically seek and attack enemies.",
+                ["ContentEN"] = "Gets [Glimmerflies] every <Highlight>10</>s.\
+[Glimmerfly]: Automatically seeks and attacks enemies.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_603",
             },
             ["RLBlessing_SimpleDesc_604"] = {
-                ["ContentEN"] = "Increases Ranged Weapon CRIT Chance. The effect intensifies when carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases Ranged Weapon CRIT Chance. The effect intensifies when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_604",
             },
             ["RLBlessing_SimpleDesc_605"] = {
-                ["ContentEN"] = "Increases Ranged Weapon CRIT Damage. The effect intensifies when carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases Ranged Weapon CRIT Damage. The effect intensifies when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_605",
             },
             ["RLBlessing_SimpleDesc_606"] = {
-                ["ContentEN"] = "Increases Ranged Weapon Trigger Probability. The effect intensifies when holding [Glimmerflies].",
+                ["ContentEN"] = "Increases Ranged Weapon Trigger Probability. The effect intensifies when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_606",
             },
             ["RLBlessing_SimpleDesc_607"] = {
-                ["ContentEN"] = "Increases Damage Dealt by Summons.",
+                ["ContentEN"] = "Increases Damage Dealt by summoned items.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_607",
             },
             ["RLBlessing_SimpleDesc_608"] = {
-                ["ContentEN"] = "Gets [Glimmerflies] when taking damage or summoning Summons. These creatures automatically seek and attack enemies.",
+                ["ContentEN"] = "Gets [Glimmerflies] when taking damage or summoning items.\
+[Glimmerfly]: Automatically seeks and attacks enemies.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_608",
             },
             ["RLBlessing_SimpleDesc_609"] = {
@@ -28617,19 +29091,19 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLBlessing_SimpleDesc_609",
             },
             ["RLBlessing_SimpleDesc_610"] = {
-                ["ContentEN"] = "Increases Ranged Weapon Multishot. The effect intensifies when holding [Glimmerflies].",
+                ["ContentEN"] = "Increases Ranged Weapon Multishot. The effect intensifies when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_610",
             },
             ["RLBlessing_SimpleDesc_611"] = {
-                ["ContentEN"] = "Grants <Highlight>1</> Revival. Decreases Damage Taken when carrying [Glimmerflies]. The effect is consumed upon revival.",
+                ["ContentEN"] = "Grants <Highlight>1</> Revival attempt. Decreases Damage Taken when [Glimmerfly] is around. The effect is removed upon the next revival.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_611",
             },
             ["RLBlessing_SimpleDesc_612"] = {
-                ["ContentEN"] = "Increases all Attribute PENs. The effect intensifies when holding [Glimmerflies].",
+                ["ContentEN"] = "Increases all PEN stats. The effect intensifies when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_612",
             },
             ["RLBlessing_SimpleDesc_613"] = {
-                ["ContentEN"] = "Increases Morale. The effect intensifies when carrying [Glimmerflies].",
+                ["ContentEN"] = "Increases Morale. The effect intensifies when [Glimmerfly] is around.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_613",
             },
             ["RLBlessing_SimpleDesc_614"] = {
@@ -28792,6 +29266,10 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["ContentEN"] = "Lampwick not unlocked",
                 ["TextMapId"] = "RLBlessing_UnlockCon_211",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_UnlockCon_301", MaxKey = "RLTreasure_Desc_10309", Loader = function()
+        return {
             ["RLBlessing_UnlockCon_301"] = {
                 ["ContentEN"] = "Lampwick not unlocked",
                 ["TextMapId"] = "RLBlessing_UnlockCon_301",
@@ -29073,7 +29551,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLContract_Desc_106",
             },
             ["RLContract_Desc_107"] = {
-                ["ContentEN"] = "<Highlight>#1</> more Primanders to join you in Combat · Flickered Abyssoid and Combat · Scattered Abyssoid.",
+                ["ContentEN"] = "<Highlight>#1</> more Primanders emerge in Penumbral Abyssoid and Scattered Abyssoid.",
                 ["TextMapId"] = "RLContract_Desc_107",
             },
             ["RLContract_Desc_108"] = {
@@ -29184,10 +29662,6 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["ContentEN"] = "Increases Max HP by <Highlight>4.8%</>",
                 ["TextMapId"] = "RLTalent_Desc_201",
             },
-        }
-    end },
-    { MinKey = "RLTalent_Desc_202", MaxKey = "RLTreasure_Name_10215", Loader = function()
-        return {
             ["RLTalent_Desc_202"] = {
                 ["ContentEN"] = "DEF +<Highlight>4.8%</>",
                 ["TextMapId"] = "RLTalent_Desc_202",
@@ -29437,11 +29911,11 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLTreasure_Desc_10102",
             },
             ["RLTreasure_Desc_10103"] = {
-                ["ContentEN"] = "Restores HP by <Highlight>25%</> when advancing to the next depth.",
+                ["ContentEN"] = "Restores HP by <Highlight>25%</> when advancing to the next level.",
                 ["TextMapId"] = "RLTreasure_Desc_10103",
             },
             ["RLTreasure_Desc_10104"] = {
-                ["ContentEN"] = "Restores Sanity by <Highlight>50</> when advancing to the next depth.",
+                ["ContentEN"] = "Restores Sanity by <Highlight>50</> when advancing to the next level.",
                 ["TextMapId"] = "RLTreasure_Desc_10104",
             },
             ["RLTreasure_Desc_10105"] = {
@@ -29453,7 +29927,7 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLTreasure_Desc_10106",
             },
             ["RLTreasure_Desc_10107"] = {
-                ["ContentEN"] = "When HP drops below <Highlight>30%</>, grants <Highlight>3</>s of Hitstun immunity and <Highlight>50%</> Damage Taken Decrease (once every <Highlight>30</>s max)",
+                ["ContentEN"] = "When the HP percentage drops below <Highlight>30%</>, for the next <Highlight>3</>s, the character will be immune to Hitstun, and the damage they take will be reduced by <Highlight>50%</>. This effect can only be triggered once every <Highlight>30</>s.",
                 ["TextMapId"] = "RLTreasure_Desc_10107",
             },
             ["RLTreasure_Desc_10108"] = {
@@ -29465,11 +29939,11 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLTreasure_Desc_10109",
             },
             ["RLTreasure_Desc_10110"] = {
-                ["ContentEN"] = "Increases Melee Weapon DMG by <Highlight>30%</> and decreases Skill DMG by <Highlight>30%</>.",
+                ["ContentEN"] = "Increases Melee Weapon Damage by <Highlight>30%</> and decreases Skill Damage by <Highlight>30%</>.",
                 ["TextMapId"] = "RLTreasure_Desc_10110",
             },
             ["RLTreasure_Desc_10111"] = {
-                ["ContentEN"] = "Increases Melee Weapon DMG by <Highlight>30%</> and decreases Ranged Weapon DMG by <Highlight>30%</>.",
+                ["ContentEN"] = "Increases Melee Weapon Damage by <Highlight>30%</> and decreases Ranged Weapon Damage by <Highlight>30%</>.",
                 ["TextMapId"] = "RLTreasure_Desc_10111",
             },
             ["RLTreasure_Desc_10112"] = {
@@ -29497,11 +29971,11 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLTreasure_Desc_10203",
             },
             ["RLTreasure_Desc_10204"] = {
-                ["ContentEN"] = "Restores Sanity by <Highlight>15</> when the character uses skills. This effect can trigger up to 3 times per depth.",
+                ["ContentEN"] = "Restores Sanity by <Highlight>15</> when the character uses skills. This effect can be triggered up to 3 times per level.",
                 ["TextMapId"] = "RLTreasure_Desc_10204",
             },
             ["RLTreasure_Desc_10205"] = {
-                ["ContentEN"] = "This Artefact grants 1 stack of Damage Dealt Increase by <Highlight>40%</> following each revival.",
+                ["ContentEN"] = "After obtaining this Artefact, each revival increases Damage Dealt by <Highlight>40%</>.",
                 ["TextMapId"] = "RLTreasure_Desc_10205",
             },
             ["RLTreasure_Desc_10206"] = {
@@ -29509,8 +29983,8 @@ Standing still for over <Highlight>2</>s increases Damage Dealt (until moving)."
                 ["TextMapId"] = "RLTreasure_Desc_10206",
             },
             ["RLTreasure_Desc_10207"] = {
-                ["ContentEN"] = "Entering the next depth costs <Highlight>50</> Embers to decrease Damage Taken by <Highlight>30%</> on that depth.\
-The effect requires at least <Highlight>50</> Embers.",
+                ["ContentEN"] = "When entering the next level, consumes <Highlight>50</> Embers to decrease Damage Taken by <Highlight>30%</> on that level.\
+If the amount of Embers is less than <Highlight>50</> when entering the next level, this effect will not be triggered.",
                 ["TextMapId"] = "RLTreasure_Desc_10207",
             },
             ["RLTreasure_Desc_10208"] = {
@@ -29590,63 +30064,76 @@ The effect requires at least <Highlight>50</> Embers.",
                 ["TextMapId"] = "RLTreasure_Desc_10307",
             },
             ["RLTreasure_Desc_10308"] = {
-                ["ContentEN"] = "Decreases the number of Lampwicks of the same type needed to activate Uniform effects by <Highlight>1</>.",
+                ["ContentEN"] = "Decreases the number of Lampwicks of the same type needed to activate Artefact set effects by <Highlight>1</>.",
                 ["TextMapId"] = "RLTreasure_Desc_10308",
             },
             ["RLTreasure_Desc_10309"] = {
                 ["ContentEN"] = "When revivals are exhausted, spend <Highlight>500</> Embers to get <Highlight>1</> extra Revival.",
                 ["TextMapId"] = "RLTreasure_Desc_10309",
             },
+        }
+    end },
+    { MinKey = "RLTreasure_Desc_11101", MaxKey = "RLTreasure_UnlockCon_10303", Loader = function()
+        return {
             ["RLTreasure_Desc_11101"] = {
-                ["ContentEN"] = "Decreases Damage Taken by <Highlight>20%</> when shielded. After collecting all <Highlight>2</> Artefacts from [Guardian Knight], receive Ultra Shields equal to <Highlight>10%</> of your Max HP every <Highlight>10</>s in [Abyssoids] until completion.",
+                ["ContentEN"] = "Decreases Damage Taken by <Highlight>20%</> when shielded.\
+After collecting the full set (<Highlight>2</> pieces) of the [Guardian Knight] series, the character gains a Ultra Shield equal to <Highlight>10%</> of their Max HP every <Highlight>10</>s until this level is cleared.",
                 ["TextMapId"] = "RLTreasure_Desc_11101",
             },
             ["RLTreasure_Desc_11201"] = {
-                ["ContentEN"] = "Increases Damage Dealt by 10% when shielded. After collecting all <Highlight> 2</> Artefacts from [Guardian Knight], receive Ultra Shields equal to <Highlight>10%</> of your Max HP every <Highlight>10</>s in [Abyssoids] until completion.",
+                ["ContentEN"] = "Increases Damage Dealt by 10% when shielded.\
+After collecting the full set (<Highlight>2</> pieces) of the [Guardian Knight] series, the character gains a Ultra Shield equal to <Highlight>10%</> of their Max HP every <Highlight>10</>s until this level is cleared.",
                 ["TextMapId"] = "RLTreasure_Desc_11201",
             },
             ["RLTreasure_Desc_12101"] = {
-                ["ContentEN"] = "Increases the refresh cost for selection by <Highlight>100%</>. The effect expires after clearing <Highlight>3</> depths and grants <Highlight>300</> Embers. After collecting all <Highlight>3</> Artefacts from [Covenant of the God of Abundance], you gain a <Highlight>10%</> Damage Increase for every <Highlight>100</> Embers held.",
+                ["ContentEN"] = "Increases the refresh cost for selection by <Highlight>100%</>. The effect expires after clearing <Highlight>3</> levels and grants <Highlight>300</> Embers.\
+After collecting all <Highlight>3</> Artefacts of [Covenant of the God of Abundance] series, increases Damage Dealt by <Highlight>10%</> for every <Highlight>100</> Embers possessed.",
                 ["TextMapId"] = "RLTreasure_Desc_12101",
             },
             ["RLTreasure_Desc_12102"] = {
-                ["ContentEN"] = "Increases all prices at Mysterious Merchant by <Highlight>20%</>. The effect expires after clearing <Highlight>3</> depths and grants <Highlight>300</> Embers. After collecting all <Highlight>3</> Artefacts from [Covenant of the God of Abundance], you gain a <Highlight>10%</> Damage Increase for every <Highlight>100</> Embers held.",
+                ["ContentEN"] = "Increases the prices of the items at Mysterious Merchant by <Highlight>20%</>. The effect expires after clearing <Highlight>3</> levels and grants <Highlight>300</> Embers.\
+After collecting the full set (<Highlight>3</> pieces) of the [Covenant of the God of Abundance] series, increases Damage Dealt by <Highlight>10%</> for every <Highlight>100</> Embers possessed.",
                 ["TextMapId"] = "RLTreasure_Desc_12102",
             },
             ["RLTreasure_Desc_12201"] = {
-                ["ContentEN"] = "Unable to get Embers. The effect expires after clearing <Highlight>5</> depths and grants <Highlight>1000</> Embers. After collecting all <Highlight>3</> Artefacts from [Covenant of the God of Abundance], you gain a <Highlight>10%</> Damage Increase for every <Highlight>100</> Embers held.",
+                ["ContentEN"] = "Unable to get Embers. This effect expires after clearing <Highlight>5</> levels and grants <Highlight>1000</> Embers.\
+After collecting the full set (<Highlight>3</> pieces) of the [Covenant of the God of Abundance] series, increases Damage Dealt by <Highlight>10%</> for every <Highlight>100</> Embers possessed.",
                 ["TextMapId"] = "RLTreasure_Desc_12201",
             },
             ["RLTreasure_Desc_13101"] = {
-                ["ContentEN"] = "Dealing damage grants a 25% chance to deal additional Pyro Damage equal to 20% of the character's ATK. With all <Highlight>4</> Artefacts from [Four Elemental Seals], the chance increases to 50% and Damage Multiplier to 100%.",
+                ["ContentEN"] = "When dealing damage, there is a 25% chance to deal additional Pyro Damage equal to 20% of the character's ATK. After collecting the full set (<Highlight>4</> pieces) of the [Four Elemental Seals] series, the Trigger Probability is increased to 50% and the damage multiplier to 100%.",
                 ["TextMapId"] = "RLTreasure_Desc_13101",
             },
             ["RLTreasure_Desc_13102"] = {
-                ["ContentEN"] = "Dealing damage grants a 25% chance to deal additional Hyro Damage equal to 20% of the character's ATK. With all <Highlight>4</> Artefacts from [Four Elemental Seals], the chance increases to 50% and Damage Multiplier to 100%.",
+                ["ContentEN"] = "When dealing damage, there is a 25% chance to deal additional Hydro Damage equal to 20% of the character's ATK. After collecting the full set (<Highlight>4</> pieces) of the [Four Elemental Seals] series, the Trigger Probability is increased to 50% and the damage multiplier to 100%.",
                 ["TextMapId"] = "RLTreasure_Desc_13102",
             },
             ["RLTreasure_Desc_13103"] = {
-                ["ContentEN"] = "Dealing damage grants a 25% chance to deal additional Anemo Damage equal to 20% of the character's ATK. With all <Highlight>4</> Artefacts from [Four Elemental Seals], the chance increases to 50% and Damage Multiplier to 100%.",
+                ["ContentEN"] = "When dealing damage, there is a 25% chance to deal additional Anemo Damage equal to 20% of the character's ATK. After collecting the full set (<Highlight>4</> pieces) of the [Four Elemental Seals] series, the Trigger Probability is increased to 50% and the damage multiplier to 100%.",
                 ["TextMapId"] = "RLTreasure_Desc_13103",
             },
             ["RLTreasure_Desc_13104"] = {
-                ["ContentEN"] = "Dealing damage grants a 25% chance to deal additional Electro Damage equal to 20% of the character's ATK. With all <Highlight>4</> Artefacts from [Four Elemental Seals], the chance increases to 50% and Damage Multiplier to 100%.",
+                ["ContentEN"] = "When dealing damage, there is a 25% chance to deal additional Electro Damage equal to 20% of the character's ATK. After collecting the full set (<Highlight>4</> pieces) of the [Four Elemental Seals] series, the Trigger Probability is increased to 50% and the damage multiplier to 100%.",
                 ["TextMapId"] = "RLTreasure_Desc_13104",
             },
             ["RLTreasure_Desc_14101"] = {
-                ["ContentEN"] = "Sacrifices <Highlight>50%</> Skill Efficiency to get <Highlight>50%</> Damage Dealt Increase. Collect all <Highlight>4</> Artefacts from [Penitent Knight] to remove the cost and increase Damage Dealt by <Highlight>100%</>.",
+                ["ContentEN"] = "Damage Dealt +<Highlight>50%</>, but Skill Efficiency -<Highlight>50%</>.\
+After collecting the full set (<Highlight>4</> pieces) of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt by <Highlight>100%</>.",
                 ["TextMapId"] = "RLTreasure_Desc_14101",
             },
             ["RLTreasure_Desc_14201"] = {
-                ["ContentEN"] = "Sacrifices <Highlight>50%</> Melee Weapon Damage to get <Highlight>75%</> Damage Dealt Increase. Collect all <Highlight>4</> Artefacts from [Penitent Knight] to remove the cost and increase Damage Dealt by <Highlight>100%</>.",
+                ["ContentEN"] = "Damage Dealt +<Highlight>75%</>, but Melee Weapon Damage -<Highlight>50%</>. \
+After collecting the full set (<Highlight>4</> pieces) of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt by <Highlight>100%</>.",
                 ["TextMapId"] = "RLTreasure_Desc_14201",
             },
             ["RLTreasure_Desc_14202"] = {
-                ["ContentEN"] = "Sacrifices <Highlight>50%</> Ranged Weapon Damage to get <Highlight>75%</> Damage Dealt Increase. Collect all <Highlight>4</> Artefacts from [Penitent Knight] to remove the cost and increase Damage Dealt by <Highlight>100%</>.",
+                ["ContentEN"] = "Damage Dealt +<Highlight>75%</>, but Ranged Weapon Damage -<Highlight>50%</>.\
+After collecting the full set (<Highlight>4</> pieces) of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt by <Highlight>100%</>.",
                 ["TextMapId"] = "RLTreasure_Desc_14202",
             },
             ["RLTreasure_Desc_14301"] = {
-                ["ContentEN"] = "Sacrifices <Highlight>50%</> Damage Taken to get <Highlight>100%</> Damage Dealt Increase. Collect all <Highlight>4</> Artefacts from [Penitent Knight] to remove the cost and increase Damage Dealt by <Highlight>100%</>.",
+                ["ContentEN"] = "Damage Dealt +<Highlight>100%</>, but Damage Taken +<Highlight>50%</>.\
+After collecting the full set (<Highlight>4</> pieces) of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt by <Highlight>100%</>.",
                 ["TextMapId"] = "RLTreasure_Desc_14301",
             },
             ["RLTreasure_Desc_Unknown"] = {
@@ -29931,27 +30418,27 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RLTreasure_Name_10107",
             },
             ["RLTreasure_Name_10108"] = {
-                ["ContentEN"] = "Bird-Masked Freak's Toy (I)",
+                ["ContentEN"] = "Bird-Masked Freak's Toy (Ⅰ)",
                 ["TextMapId"] = "RLTreasure_Name_10108",
             },
             ["RLTreasure_Name_10109"] = {
-                ["ContentEN"] = "Bird-Masked Freak's Toy (II)",
+                ["ContentEN"] = "Bird-Masked Freak's Toy (Ⅱ)",
                 ["TextMapId"] = "RLTreasure_Name_10109",
             },
             ["RLTreasure_Name_10110"] = {
-                ["ContentEN"] = "Bird-Masked Freak's Toy (III)",
+                ["ContentEN"] = "Bird-Masked Freak's Toy (Ⅲ)",
                 ["TextMapId"] = "RLTreasure_Name_10110",
             },
             ["RLTreasure_Name_10111"] = {
-                ["ContentEN"] = "Bird-Masked Freak's Toy (IV)",
+                ["ContentEN"] = "Bird-Masked Freak's Toy (Ⅳ)",
                 ["TextMapId"] = "RLTreasure_Name_10111",
             },
             ["RLTreasure_Name_10112"] = {
-                ["ContentEN"] = "Bird-Masked Freak's Toy (V)",
+                ["ContentEN"] = "Bird-Masked Freak's Toy (Ⅴ)",
                 ["TextMapId"] = "RLTreasure_Name_10112",
             },
             ["RLTreasure_Name_10113"] = {
-                ["ContentEN"] = "Bird-Masked Freak's Toy (VI)",
+                ["ContentEN"] = "Bird-Masked Freak's Toy (Ⅵ)",
                 ["TextMapId"] = "RLTreasure_Name_10113",
             },
             ["RLTreasure_Name_10114"] = {
@@ -30018,10 +30505,6 @@ Her sorrowful cries echo in the silent abyss.",
                 ["ContentEN"] = "Flamekeeper Priest's Summons · Luminite",
                 ["TextMapId"] = "RLTreasure_Name_10215",
             },
-        }
-    end },
-    { MinKey = "RLTreasure_Name_10216", MaxKey = "RougeLike_Room317_Char01", Loader = function()
-        return {
             ["RLTreasure_Name_10216"] = {
                 ["ContentEN"] = "Flamekeeper Priest's Summons · Lumitwig",
                 ["TextMapId"] = "RLTreasure_Name_10216",
@@ -30139,11 +30622,11 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10102",
             },
             ["RLTreasure_SimpleDesc_10103"] = {
-                ["ContentEN"] = "Restores HP when advancing to the next depth.",
+                ["ContentEN"] = "Restores HP when advancing to the next level.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10103",
             },
             ["RLTreasure_SimpleDesc_10104"] = {
-                ["ContentEN"] = "Restores Sanity when advancing to the next depth.",
+                ["ContentEN"] = "Restores Sanity when advancing to the next level.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10104",
             },
             ["RLTreasure_SimpleDesc_10105"] = {
@@ -30167,11 +30650,11 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10109",
             },
             ["RLTreasure_SimpleDesc_10110"] = {
-                ["ContentEN"] = "Increases Melee Weapon DMG and decreases Skill DMG.",
+                ["ContentEN"] = "Increases Melee Weapon Damage and decreases Skill Damage.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10110",
             },
             ["RLTreasure_SimpleDesc_10111"] = {
-                ["ContentEN"] = "Increases Melee Weapon DMG and decreases Ranged Weapon DMG.",
+                ["ContentEN"] = "Increases Melee Weapon Damage and decreases Ranged Weapon Damage.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10111",
             },
             ["RLTreasure_SimpleDesc_10112"] = {
@@ -30203,7 +30686,7 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10204",
             },
             ["RLTreasure_SimpleDesc_10205"] = {
-                ["ContentEN"] = "This Artefact increases Damage Dealt following each revival.",
+                ["ContentEN"] = "Each revival increases Damage Dealt.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10205",
             },
             ["RLTreasure_SimpleDesc_10206"] = {
@@ -30211,7 +30694,7 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10206",
             },
             ["RLTreasure_SimpleDesc_10207"] = {
-                ["ContentEN"] = "Entering the next depth costs a small amount of Embers to decrease Damage Taken on that depth.",
+                ["ContentEN"] = "Entering the next level costs a small amount of Embers to decrease Damage Taken on that level.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10207",
             },
             ["RLTreasure_SimpleDesc_10208"] = {
@@ -30247,7 +30730,7 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10215",
             },
             ["RLTreasure_SimpleDesc_10216"] = {
-                ["ContentEN"] = "Immediately grants <Highlight>1</> [Lumitwig] Lampwick and slightly increases your chance of discovering them.",
+                ["ContentEN"] = "Immediately grants <Highlight>1</> [Lumitwig] Lampwick and slightly increases the spawn rate of [Lumitwig] items.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10216",
             },
             ["RLTreasure_SimpleDesc_10217"] = {
@@ -30291,7 +30774,7 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10307",
             },
             ["RLTreasure_SimpleDesc_10308"] = {
-                ["ContentEN"] = "Decreases the number of Lampwicks of the same type needed to activate Uniform effects.",
+                ["ContentEN"] = "Decreases the number of Lampwicks of the same type needed to activate Artefact set effects.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10308",
             },
             ["RLTreasure_SimpleDesc_10309"] = {
@@ -30299,55 +30782,55 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10309",
             },
             ["RLTreasure_SimpleDesc_11101"] = {
-                ["ContentEN"] = "Decreases Damage Taken when shielded. After collecting all [Guardian Knight] Artefacts, receive Ultra Shield in [Abyssoids] until completion.",
+                ["ContentEN"] = "Decreases Damage Taken when shielded. After collecting the full set of the [Guardian Knight] series, the character continuously gains a Ultra Shield until this level is cleared.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_11101",
             },
             ["RLTreasure_SimpleDesc_11201"] = {
-                ["ContentEN"] = "Increases Damage Dealt when shielded. After collecting all [Guardian Knight] Artefacts, receive Ultra Shield in [Abyssoids] until completion.",
+                ["ContentEN"] = "Increases Damage Dealt when shielded. After collecting the full set of the [Guardian Knight] series, the character continuously gains a Ultra Shield until the level is cleared.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_11201",
             },
             ["RLTreasure_SimpleDesc_12101"] = {
-                ["ContentEN"] = "Increases the refresh cost for selection but stops after clearing a certain number of depths and grants Embers.",
+                ["ContentEN"] = "Increases the refresh cost for selection but stops after clearing a certain number of levels and grants Embers.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_12101",
             },
             ["RLTreasure_SimpleDesc_12102"] = {
-                ["ContentEN"] = "Increases all prices at Mysterious Merchant but stops after clearing a certain number of depths and grants Embers.",
+                ["ContentEN"] = "Increases the prices of the items at Mysterious Merchant but stops after clearing a certain number of depths and grants Embers.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_12102",
             },
             ["RLTreasure_SimpleDesc_12201"] = {
-                ["ContentEN"] = "Unable to get Embers until clearing a certain number of depths.",
+                ["ContentEN"] = "Unable to get Embers until clearing a certain number of levels.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_12201",
             },
             ["RLTreasure_SimpleDesc_13101"] = {
-                ["ContentEN"] = "Dealing damage grants a chance to deal additional Pyro Damage. With all Artefacts from [Four Elemental Seals], the chance and Damage Multiplier increase.",
+                ["ContentEN"] = "There is a chance to deal additional Pyro Damage when dealing damage. After collecting the full set of the [Four Elemental Seals] series, the Trigger Probability and damage multiplier are increased.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_13101",
             },
             ["RLTreasure_SimpleDesc_13102"] = {
-                ["ContentEN"] = "Dealing damage grants a chance to deal additional Hyro Damage. With all Artefacts from [Four Elemental Seals], the chance and Damage Multiplier increase.",
+                ["ContentEN"] = "There is a chance to deal additional Hydro Damage when dealing damage. After collecting collecting the full set of the [Four Elemental Seals] series, the Trigger Probability and damage multiplier are increased.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_13102",
             },
             ["RLTreasure_SimpleDesc_13103"] = {
-                ["ContentEN"] = "Dealing damage grants a chance to deal additional Anemo Damage. With all Artefacts from [Four Elemental Seals], the chance and Damage Multiplier increase.",
+                ["ContentEN"] = "There is a chance to deal additional Anemo Damage when dealing damage. After collecting the full set of the [Four Elemental Seals] series, the Trigger Probability and damage multiplier are increased.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_13103",
             },
             ["RLTreasure_SimpleDesc_13104"] = {
-                ["ContentEN"] = "Dealing damage grants a chance to deal additional Electro Damage. With all Artefacts from [Four Elemental Seals], the chance and Damage Multiplier increase.",
+                ["ContentEN"] = "There is a chance to deal additional Electro Damage when dealing damage. After collecting the full set of the [Four Elemental Seals] series, the Trigger Probability and damage multiplier are increased.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_13104",
             },
             ["RLTreasure_SimpleDesc_14101"] = {
-                ["ContentEN"] = "Sacrifices Skill Efficiency to get Damage Dealt Increase. Collect all Artefacts from [Penitent Knight] to remove the cost and increase Damage Dealt.",
+                ["ContentEN"] = "Sacrifices Skill Efficiency to increase Damage Dealt. After collecting the full set of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_14101",
             },
             ["RLTreasure_SimpleDesc_14201"] = {
-                ["ContentEN"] = "Sacrifices Melee Weapon Damage to get Damage Dealt Increase. Collect all Artefacts from [Penitent Knight] to remove the cost and increase Damage Dealt.",
+                ["ContentEN"] = "Sacrifices Melee Weapon Damage to increase Damage Dealt. After collecting the full set of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_14201",
             },
             ["RLTreasure_SimpleDesc_14202"] = {
-                ["ContentEN"] = "Sacrifices Ranged Weapon Damage to get Damage Dealt Increase. Collect all Artefacts from [Penitent Knight] to remove the cost and increase Damage Dealt.",
+                ["ContentEN"] = "Sacrifices Ranged Weapon Damage to increase Damage Dealt Increase. After collecting the full set of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_14202",
             },
             ["RLTreasure_SimpleDesc_14301"] = {
-                ["ContentEN"] = "Sacrifices Damage Taken to get Damage Dealt Increase. Collect all Artefacts from [Penitent Knight] to remove the cost and increase Damage Dealt.",
+                ["ContentEN"] = "Taking higher damage to increase Damage Dealt. After collecting the full set of the [Penitent Knight] series, the price is removed, and it additionally increases Damage Dealt.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_14301",
             },
             ["RLTreasure_UnlockCon_10101"] = {
@@ -30430,6 +30913,10 @@ Her sorrowful cries echo in the silent abyss.",
                 ["ContentEN"] = "Artefact not unlocked",
                 ["TextMapId"] = "RLTreasure_UnlockCon_10303",
             },
+        }
+    end },
+    { MinKey = "RLTreasure_UnlockCon_10304", MaxKey = "SKILL_110301_DESC", Loader = function()
+        return {
             ["RLTreasure_UnlockCon_10304"] = {
                 ["ContentEN"] = "Artefact not unlocked",
                 ["TextMapId"] = "RLTreasure_UnlockCon_10304",
@@ -30515,11 +31002,11 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RL_Event303_Select_2",
             },
             ["RL_Event304_Select_1"] = {
-                ["ContentEN"] = "[Price: -50 Embers] Grants a <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Lampwick] of your choice.",
+                ["ContentEN"] = "[Price: Embers -50] Gain a <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Lampwick].",
                 ["TextMapId"] = "RL_Event304_Select_1",
             },
             ["RL_Event304_Select_2"] = {
-                ["ContentEN"] = "[Price: -50 Embers] Grants a random <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Artefact].",
+                ["ContentEN"] = "[Price: Embers -50] Gain a random <Highlight>Blue</>-tier or <Highlight>Purple</>-tier [Artefact].",
                 ["TextMapId"] = "RL_Event304_Select_2",
             },
             ["RL_Event304_Select_3"] = {
@@ -30535,7 +31022,7 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RL_Event305_Select_2",
             },
             ["RL_Event305_Select_3"] = {
-                ["ContentEN"] = "[Price: -100 Embers] Grants a <Highlight>Purple</>-tier [Artefact] of your choice.",
+                ["ContentEN"] = "[Price: Embers -100] Gain a <Highlight>Purple</>-tier [Artefact].",
                 ["TextMapId"] = "RL_Event305_Select_3",
             },
             ["RL_Event306_Select_1"] = {
@@ -30603,7 +31090,7 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RL_Event313_Select_2",
             },
             ["RL_Event314_Select_1"] = {
-                ["ContentEN"] = "[Price: -150 Embers] Grants a <Highlight>Purple</>-tier or <Highlight>Golden</>-tier [Lampwick] of your choice.",
+                ["ContentEN"] = "[Price: Embers -150] Gain a <Highlight>Purple</>-tier or <Highlight>Golden</>-tier [Lampwick].",
                 ["TextMapId"] = "RL_Event314_Select_1",
             },
             ["RL_Event314_Select_2"] = {
@@ -30615,11 +31102,11 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RL_Event315_Select_1",
             },
             ["RL_Event315_Select_2"] = {
-                ["ContentEN"] = "[Price: -100 Embers] Grants a <Highlight>Purple</>-tier [Lampwick] of your choice.",
+                ["ContentEN"] = "[Price: Embers -100] Gain a <Highlight>Purple</>-tier [Lampwick].",
                 ["TextMapId"] = "RL_Event315_Select_2",
             },
             ["RL_Event315_Select_3"] = {
-                ["ContentEN"] = "[Price: -200 Embers] Grants a <Highlight>Golden</>-tier [Lampwick] of your choice.",
+                ["ContentEN"] = "[Price: Embers -200] Gain a <Highlight>Golden</>-tier [Lampwick].",
                 ["TextMapId"] = "RL_Event315_Select_3",
             },
             ["RL_Event316_Select_1"] = {
@@ -30627,7 +31114,7 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RL_Event316_Select_1",
             },
             ["RL_Event316_Select_2"] = {
-                ["ContentEN"] = "[Price: -150 Embers] Grants a <Highlight>Purple</>-tier or <Highlight>Golden</>-tier [Artefact] of your choice.",
+                ["ContentEN"] = "[Price: Embers -150] Gain a <Highlight>Purple</>-tier or <Highlight>Golden</>-tier [Artefact].",
                 ["TextMapId"] = "RL_Event316_Select_2",
             },
             ["RL_Event316_Select_3"] = {
@@ -30667,11 +31154,11 @@ Her sorrowful cries echo in the silent abyss.",
                 ["TextMapId"] = "RL_Event320_Select_1",
             },
             ["RL_Event320_Select_2"] = {
-                ["ContentEN"] = "[Price: -100 Embers] Grants a <Highlight>Purple</>-tier [Artefact] of your choice.",
+                ["ContentEN"] = "[Price: Embers -100] Gain a <Highlight>Purple</>-tier [Artefact].",
                 ["TextMapId"] = "RL_Event320_Select_2",
             },
             ["RL_Event320_Select_3"] = {
-                ["ContentEN"] = "[Price: -200 Embers] Grants a <Highlight>Golden</>-tier [Artefact] of your choice.",
+                ["ContentEN"] = "[Price: Embers -200] Gain a <Highlight>Golden</>-tier [Artefact].",
                 ["TextMapId"] = "RL_Event320_Select_3",
             },
             ["RL_Event381_Select_1"] = {
@@ -30780,11 +31267,11 @@ Elisa Taylor",
                 ["TextMapId"] = "RougeLike_GetTreasure",
             },
             ["RougeLike_LoseBlessing"] = {
-                ["ContentEN"] = "You've lost the Lampwick!",
+                ["ContentEN"] = "Lose the Lampwick!",
                 ["TextMapId"] = "RougeLike_LoseBlessing",
             },
             ["RougeLike_LoseTreasure"] = {
-                ["ContentEN"] = "You've lost the Artefact!",
+                ["ContentEN"] = "Lose the Artefact!",
                 ["TextMapId"] = "RougeLike_LoseTreasure",
             },
             ["RougeLike_Room301_Char01"] = {
@@ -30851,10 +31338,6 @@ Elisa Taylor",
                 ["ContentEN"] = "Bird-Masked Freak",
                 ["TextMapId"] = "RougeLike_Room317_Char01",
             },
-        }
-    end },
-    { MinKey = "RougeLike_Room381_Char01", MaxKey = "SKILL_310102_DESC", Loader = function()
-        return {
             ["RougeLike_Room381_Char01"] = {
                 ["ContentEN"] = "Bird-Masked Freak",
                 ["TextMapId"] = "RougeLike_Room381_Char01",
@@ -30864,7 +31347,7 @@ Elisa Taylor",
                 ["TextMapId"] = "RougeLike_Room382_Char01",
             },
             ["RougeLike_RoomName_101"] = {
-                ["ContentEN"] = "Flickered Abyssoid",
+                ["ContentEN"] = "Penumbral Abyssoid",
                 ["TextMapId"] = "RougeLike_RoomName_101",
             },
             ["RougeLike_RoomName_102"] = {
@@ -30883,16 +31366,20 @@ Elisa Taylor",
                 ["ContentEN"] = "Atrocious Abyssoid",
                 ["TextMapId"] = "RougeLike_RoomName_203",
             },
+            ["RougeLike_RoomName_301"] = {
+                ["ContentEN"] = "Reflections in the Lake",
+                ["TextMapId"] = "RougeLike_RoomName_301",
+            },
             ["RougeLike_RoomName_302"] = {
-                ["ContentEN"] = "What Night is Tonight? (I)",
+                ["ContentEN"] = "What Night is Tonight? (Ⅰ)",
                 ["TextMapId"] = "RougeLike_RoomName_302",
             },
             ["RougeLike_RoomName_303"] = {
-                ["ContentEN"] = "Dreamweaver (I)",
+                ["ContentEN"] = "Dreamweaver (Ⅰ)",
                 ["TextMapId"] = "RougeLike_RoomName_303",
             },
             ["RougeLike_RoomName_304"] = {
-                ["ContentEN"] = "Lantern Deal",
+                ["ContentEN"] = "Lantern Exchange",
                 ["TextMapId"] = "RougeLike_RoomName_304",
             },
             ["RougeLike_RoomName_305"] = {
@@ -30904,7 +31391,7 @@ Elisa Taylor",
                 ["TextMapId"] = "RougeLike_RoomName_306",
             },
             ["RougeLike_RoomName_307"] = {
-                ["ContentEN"] = "Lucky Fool (I)",
+                ["ContentEN"] = "Lucky Fool (Ⅰ)",
                 ["TextMapId"] = "RougeLike_RoomName_307",
             },
             ["RougeLike_RoomName_308"] = {
@@ -30936,7 +31423,7 @@ Elisa Taylor",
                 ["TextMapId"] = "RougeLike_RoomName_314",
             },
             ["RougeLike_RoomName_315"] = {
-                ["ContentEN"] = "Gilded Feathers (I)",
+                ["ContentEN"] = "Gilded Feathers (Ⅰ)",
                 ["TextMapId"] = "RougeLike_RoomName_315",
             },
             ["RougeLike_RoomName_316"] = {
@@ -30948,15 +31435,15 @@ Elisa Taylor",
                 ["TextMapId"] = "RougeLike_RoomName_317",
             },
             ["RougeLike_RoomName_318"] = {
-                ["ContentEN"] = "What Night is Tonight? (II)",
+                ["ContentEN"] = "What Night is Tonight? (Ⅱ)",
                 ["TextMapId"] = "RougeLike_RoomName_318",
             },
             ["RougeLike_RoomName_319"] = {
-                ["ContentEN"] = "Dreamweaver (II)",
+                ["ContentEN"] = "Dreamweaver (Ⅱ)",
                 ["TextMapId"] = "RougeLike_RoomName_319",
             },
             ["RougeLike_RoomName_320"] = {
-                ["ContentEN"] = "Gilded Feathers (II)",
+                ["ContentEN"] = "Gilded Feathers (Ⅱ)",
                 ["TextMapId"] = "RougeLike_RoomName_320",
             },
             ["RougeLike_RoomName_381"] = {
@@ -30992,7 +31479,7 @@ Elisa Taylor",
                 ["TextMapId"] = "RougeLike_RoomType_Name_4",
             },
             ["RougeLike_RoomType_Name_5"] = {
-                ["ContentEN"] = "Combat (Extreme Threat)",
+                ["ContentEN"] = "High-Risk Combat",
                 ["TextMapId"] = "RougeLike_RoomType_Name_5",
             },
             ["RougeLike_RoomType_Name_6"] = {
@@ -31117,7 +31604,7 @@ Increases CRIT Chance for the character and their nearby teammate(s)",
                 ["TextMapId"] = "SKILL_100009_NAME",
             },
             ["SKILL_10101_DESC"] = {
-                ["ContentEN"] = "When dealing CRIT Damage with this weapon, there is a <H>#2</> chance to restore <H>#1</> point of Sanity.",
+                ["ContentEN"] = "When dealing CRIT Damage with this weapon, there is a <H>#2</> chance to restore <H>#1</> points of Sanity.",
                 ["TextMapId"] = "SKILL_10101_DESC",
             },
             ["SKILL_10102_DESC"] = {
@@ -31129,7 +31616,7 @@ Increases CRIT Chance for the character and their nearby teammate(s)",
                 ["TextMapId"] = "SKILL_10103_DESC",
             },
             ["SKILL_10104_DESC"] = {
-                ["ContentEN"] = "DEF +<H>#1</>. When triggering Bonus Effects on hit with this weapon, there's a <H>#3</> chance to decrease the target's Shield by <H>#2</> of your DEF.",
+                ["ContentEN"] = "DEF +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, there's a <H>#3</> chance to decrease the target's Shield by <H>#2</> of the user's DEF.",
                 ["TextMapId"] = "SKILL_10104_DESC",
             },
             ["SKILL_10105_DESC"] = {
@@ -31137,7 +31624,8 @@ Increases CRIT Chance for the character and their nearby teammate(s)",
                 ["TextMapId"] = "SKILL_10105_DESC",
             },
             ["SKILL_10201_DESC"] = {
-                ["ContentEN"] = "Character ATK +<H>#1</>. Dealing Normal Attack with this weapon grants 1 stack of ATK Speed Increase by <H>#2</> for <H>#3</>s (up to <H>#4</> stacks). The boost is removed when switching weapons.",
+                ["ContentEN"] = "Character ATK +<H>#1</>. When dealing Normal Attack with this weapon, grants 1 stack that increases ATK Speed by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.\
+This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_10201_DESC",
             },
             ["SKILL_10202_DESC"] = {
@@ -31145,11 +31633,11 @@ Increases CRIT Chance for the character and their nearby teammate(s)",
                 ["TextMapId"] = "SKILL_10202_DESC",
             },
             ["SKILL_10203_DESC"] = {
-                ["ContentEN"] = "Skill Damage +<H>#1</>. When an Electro character performs a Plunging Attack with this weapon, grants 1 stack of Skill DMG Increase by <H>#2</> for <H>#3</>s (up to 10 stacks).",
+                ["ContentEN"] = "Skill Damage +<H>#1</>. When an Electro character performs a Plunging Attack with this weapon, grants 1 stack that increases Skill Damage by <H>#2</> for <H>#3</>s, up to 10 stacks.",
                 ["TextMapId"] = "SKILL_10203_DESC",
             },
             ["SKILL_10204_DESC"] = {
-                ["ContentEN"] = "Malaise +<H>#1</>. After an Anemo character uses their Ultimate Skill, grants [Thousand Winds' Blessing]: increases Malaise by <H>#2</> and ATK Speed by <H>#3</> for <H>#4</>s. The duration extends by <H>#5</>s with each Skill DMG or Ranged Weapon DMG.",
+                ["ContentEN"] = "Malaise +<H>#1</>. After an Anemo character uses their Ultimate Skill, grants [Thousand Winds' Blessing]: increases Malaise by <H>#2</> and ATK Speed by <H>#3</> for <H>#4</>s. Each instance of Skill Damage or Ranged Weapon Damage extends the duration by <H>#5</>s.",
                 ["TextMapId"] = "SKILL_10204_DESC",
             },
             ["SKILL_10206_DESC"] = {
@@ -31157,59 +31645,62 @@ Increases CRIT Chance for the character and their nearby teammate(s)",
                 ["TextMapId"] = "SKILL_10206_DESC",
             },
             ["SKILL_10301_DESC"] = {
-                ["ContentEN"] = "Max HP +<H>#1</>. Attacking with this weapon grants 1 stack of DEF Increase by <H>#3</> and Heal Increase by <H>#2</> for <H>#4</>s (up to <H>#5</> stacks).",
+                ["ContentEN"] = "Max HP +<H>#1</>. When attacking with this weapon, grants 1 stack that increases DEF by <H>#3</> and Healing Received by <H>#2</> for <H>#4</>s, up to <H>#5</> stacks.",
                 ["TextMapId"] = "SKILL_10301_DESC",
             },
             ["SKILL_10302_DESC"] = {
-                ["ContentEN"] = "When triggering Bonus Effects on hit with this weapon, there is a <H>#1</> chance to upgrade your Combo Level to maximum.",
+                ["ContentEN"] = "When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to increase the Combo Level to maximum.",
                 ["TextMapId"] = "SKILL_10302_DESC",
             },
             ["SKILL_10303_DESC"] = {
-                ["ContentEN"] = "Damage dealt with this weapon increases with distance, up to a maximum of <H>#1</>.",
+                ["ContentEN"] = "When dealing damage with this weapon, the farther away the user is from the target, the higher the damage dealt, up to a maximum increase of <H>#1</>.",
                 ["TextMapId"] = "SKILL_10303_DESC",
             },
             ["SKILL_10304_DESC"] = {
-                ["ContentEN"] = "Character ATK +<H>#1</>. When an Electro character uses their Ultimate Skill, it gains 1 stack of Skill Damage Increase by <H>#2</> for <H>#3</> s (up to <H>#4</> stacks).",
+                ["ContentEN"] = "Character ATK +<H>#1</>. When an Electro character uses their Ultimate Skill, they gain 1 stack that increases their Skill Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
                 ["TextMapId"] = "SKILL_10304_DESC",
             },
             ["SKILL_10401_DESC"] = {
-                ["ContentEN"] = "ATK Speed +<H>#1</>. When triggering Bonus Effects on hit with this weapon while your HP is below 25%, there's a <H>#2</> chance to restore <H>#3</> of the Max HP.",
+                ["ContentEN"] = "ATK Speed +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, if the user's HP percentage is below 25%, there's a <H>#2</> chance to restore <H>#3</> of the Max HP.",
                 ["TextMapId"] = "SKILL_10401_DESC",
             },
             ["SKILL_10402_DESC"] = {
-                ["ContentEN"] = "Sliding Attack Damage Dealt with this weapon increases CRIT Chance by <H>#1</>.",
+                ["ContentEN"] = "When dealing Sliding Attack damage with this weapon, increases CRIT Chance by <H>#1</>.",
                 ["TextMapId"] = "SKILL_10402_DESC",
             },
             ["SKILL_10403_DESC"] = {
-                ["ContentEN"] = "When triggering Bonus Effects on hit with this weapon, there is a <H>#1</> chance to stack 1 more combo.",
+                ["ContentEN"] = "When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to gain 1 more Combo Point.",
                 ["TextMapId"] = "SKILL_10403_DESC",
             },
             ["SKILL_10501_DESC"] = {
-                ["ContentEN"] = "Trigger Probability +<H>#1</>. When triggering Bonus Effects on hit with this weapon, grants 1 stack of Max HP Increase by <H>#2</> for <H>#3</>s (up to <H>#4</> stacks).",
+                ["ContentEN"] = "Trigger Probability +<H>#1</>. When dealing damage with this weapon triggers Bonus Effect, grants 1 stack that increases Max HP by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
                 ["TextMapId"] = "SKILL_10501_DESC",
             },
             ["SKILL_10502_DESC"] = {
-                ["ContentEN"] = "Skill Damage +<H>#1</>. When a Hydro character deals CRIT Damage with this weapon, increases Skill DMG for teammates within range by <H>#2</> for <H>#3</>s.",
+                ["ContentEN"] = "Skill Damage +<H>#1</>. When a Hydro character deals CRIT Damage with this weapon, increases Skill Damage for teammates within range by <H>#2</> for <H>#3</>s.",
                 ["TextMapId"] = "SKILL_10502_DESC",
             },
             ["SKILL_10503_DESC"] = {
-                ["ContentEN"] = "In whip form, increases ATK Range by <H>#1</>; in sword form, increases Trigger Probability by <H>#2</>. The boost is removed when switching weapons.",
+                ["ContentEN"] = "In whip form, increases ATK Range by <H>#1</>; in sword form, increases Trigger Probability by <H>#2</>.\
+This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_10503_DESC",
             },
             ["SKILL_10504_DESC"] = {
-                ["ContentEN"] = "Charged Attack dealt with this weapon increases ATK Speed by <H>#1</> for <H>#2</>s. The boost is removed when switching weapons.",
+                ["ContentEN"] = "When performing Charged Attack with this weapon, increases ATK Speed by <H>#1</> for <H>#2</>s.\
+This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_10504_DESC",
             },
             ["SKILL_10601_DESC"] = {
-                ["ContentEN"] = "CRIT Damage +<H>#1</>. Dealing damage with this weapon increases Damage Dealt by <H>#2</>, plus an additional <H>#2</> per Combo Level.",
+                ["ContentEN"] = "CRIT Damage +<H>#1</>. When dealing damage with this weapon, increases Damage Dealt by <H>#2</>, with an additional <H>#2</> increase per Combo Level.",
                 ["TextMapId"] = "SKILL_10601_DESC",
             },
             ["SKILL_10602_DESC"] = {
-                ["ContentEN"] = "Charged Attack dealt with this weapon increases CRIT Damage by <H>#1</> for <H>#2</>s. The boost is removed when switching weapons.",
+                ["ContentEN"] = "When performing Charged Attack with this weapon, increases CRIT Damage by <H>#1</> for <H>#2</>s.\
+This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_10602_DESC",
             },
             ["SKILL_10603_DESC"] = {
-                ["ContentEN"] = "Sliding Attack dealt with this weapon grants 1 stack of ATK Increase by <H>#1</> for <H>#2</>s (up to <H>#3</> stacks). The boost is removed when switching weapons. The boost is removed when switching weapons.",
+                ["ContentEN"] = "When performing Sliding Attack with this weapon, grants 1 stack that increases ATK by <H>#1</> for <H>#2</>s, up to <H>#3</> stacks. This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_10603_DESC",
             },
             ["SKILL_110001_DESC"] = {
@@ -31231,7 +31722,7 @@ Increases ATK for the character and their nearby Umbro teammate(s).",
                 ["TextMapId"] = "SKILL_110003_NAME",
             },
             ["SKILL_110101_DESC"] = {
-                ["ContentEN"] = "Rush forward, dealing AoE Damage 4 times along the way.",
+                ["ContentEN"] = "Berenica dashes forward, dealing AoE Damage 4 times along the way.",
                 ["TextMapId"] = "SKILL_110101_DESC",
             },
             ["SKILL_110101_NAME"] = {
@@ -31240,7 +31731,7 @@ Increases ATK for the character and their nearby Umbro teammate(s).",
             },
             ["SKILL_110102_DESC"] = {
                 ["ContentEN"] = "Switches the melee weapon to [Ymir] and casts 1 Swordwave.\
-When performing Normal Attack using [Ymir], unleashes Swordwaves in the attacking direction and constantly consumes Sanity, during which Benerica is immune to Hitstun when taking damage. Once Sanity reaches 0 or the skill is used again, [Ymir] is sheathed.",
+When performing Normal Attack using [Ymir], unleashes Swordwaves in the attacking direction and constantly consumes Sanity, during which Benerica is immune to Hitstun when taking damage. Once Sanity drops to 0 or the skill is used again, [Ymir] is sheathed.",
                 ["TextMapId"] = "SKILL_110102_DESC",
             },
             ["SKILL_110102_NAME"] = {
@@ -31248,7 +31739,7 @@ When performing Normal Attack using [Ymir], unleashes Swordwaves in the attackin
                 ["TextMapId"] = "SKILL_110102_NAME",
             },
             ["SKILL_110103_DESC"] = {
-                ["ContentEN"] = "When dealing damage with [Faintlight] or Sword, there is a chance to restore Sanity.",
+                ["ContentEN"] = "When dealing damage with [Faintlight] or Sword, there is a chance to restore Sanity for Berenica.",
                 ["TextMapId"] = "SKILL_110103_DESC",
             },
             ["SKILL_110103_NAME"] = {
@@ -31265,9 +31756,13 @@ When performing Normal Attack using [Ymir], unleashes Swordwaves in the attackin
             },
             ["SKILL_110301_DESC"] = {
                 ["ContentEN"] = "Deals Umbro Damage to enemies in front and inflicts 5 stacks of [Adagio] on them, up to 10 stacks. The remaining time of the effect is refreshed with each new stack gained.\
-While in [Bestial Fury] state, this skill is replaced with [Aria].",
+When in [Bestial Fury] state, this skill is replaced with [Aria].",
                 ["TextMapId"] = "SKILL_110301_DESC",
             },
+        }
+    end },
+    { MinKey = "SKILL_110301_NAME", MaxKey = "SKILL_510202_NAME", Loader = function()
+        return {
             ["SKILL_110301_NAME"] = {
                 ["ContentEN"] = "Recitativo",
                 ["TextMapId"] = "SKILL_110301_NAME",
@@ -31277,7 +31772,7 @@ While in [Bestial Fury] state, this skill is replaced with [Aria].",
 Weapons can not be used during [Bestial Fury] state. \
 Melee Attack is replaced with [Furious Claws], performing up to four consecutive attacks to deal Umbro Damage. When used in the air, Phantasio performs Plunging Attack and deals Umbro damage to enemies within range.\
 Ranged Attack is replaced with [Mournful Howl], firing an energy beam to deal Umbro Damage.\
-When the 3-hit of [Furious Claws] and [Mournful Howl] deal damage, triggers the [Duo] effect; when the 4-hit of [Furious Claws] and the Plunging Attack deal damage, triggers the [Fermata] effect.",
+When the 3-hit of [Furious Claws] and [Mournful Howl] deal damage, triggers [Duo]; when the 4-hit of [Furious Claws] and the Plunging Attack deal damage, triggers [Fermata].",
                 ["TextMapId"] = "SKILL_110302_DESC",
             },
             ["SKILL_110302_NAME"] = {
@@ -31286,7 +31781,7 @@ When the 3-hit of [Furious Claws] and [Mournful Howl] deal damage, triggers the 
             },
             ["SKILL_110303_DESC"] = {
                 ["ContentEN"] = "When in [Bestial Fury] state, increases Attack based on Phantasio's Max Sanity.\
-Phantasio gains [Immersion] by using skills, with the [Immersion] cap equal to Phantasio's Max Sanity. Using [Recitativo] or [Aria] grants a certain amount of [Immersion]; while in [Bestial Fury] state, continuously gains [Immersion] per second.\
+Phantasio gains [Immersion] by using skills, with the [Immersion] cap equal to Phantasio's Max Sanity. Using [Recitativo] or [Aria] gains a certain amount of [Immersion]; when in [Bestial Fury] state, continuously gains [Immersion] per second.\
 When [Immersion] reaches its maximum in [Bestial Fury] state, Phantasio enters [Bestial Fury: Devotion] state.",
                 ["TextMapId"] = "SKILL_110303_DESC",
             },
@@ -31295,7 +31790,7 @@ When [Immersion] reaches its maximum in [Bestial Fury] state, Phantasio enters [
                 ["TextMapId"] = "SKILL_110303_NAME",
             },
             ["SKILL_110304_DESC"] = {
-                ["ContentEN"] = "When the 3-hit of [Furious Claws] and [Mournful Howl] deal damage, there is a chance to inflict 1 [Adagio] stack on the targets.",
+                ["ContentEN"] = "When the 3-hit of [Furious Claws] and [Mournful Howl] deal damage, there is a chance to inflict 1 [Adagio] stack on the target.",
                 ["TextMapId"] = "SKILL_110304_DESC",
             },
             ["SKILL_110304_NAME"] = {
@@ -31392,8 +31887,8 @@ While in [Aspect Manifestation] state, this skill is replaced with [Feathers Cha
 Increases Melee Weapon Damage and Melee Weapon Trigger Probability by a certain percentage of Kezhou's [Sword Intent] points.\
 Increases Ranged Weapon Damage and Ranged Weapon Trigger Probability by a certain percentage of Kezhou's [String Intent] points.\
 \
-Every time Kezhou deals damage using a ranged weapon, 1 [String Intent] point is converted into 1 [Sword Intent] point.\
-Every time Kezhou deals damage using a melee weapon, 1 [Sword Intent] point is converted into 1 [String Intent] point.",
+Every time Kezhou deals ranged weapon damage, 1 [String Intent] point is converted into 1 [Sword Intent] point.\
+Every time Kezhou deals melee weapon damage, 1 [Sword Intent] point is converted into 1 [String Intent] point.",
                 ["TextMapId"] = "SKILL_150303_DESC",
             },
             ["SKILL_150303_NAME"] = {
@@ -31401,9 +31896,9 @@ Every time Kezhou deals damage using a melee weapon, 1 [Sword Intent] point is c
                 ["TextMapId"] = "SKILL_150303_NAME",
             },
             ["SKILL_150304_DESC"] = {
-                ["ContentEN"] = "Upon entering [Aspect Manifestation] state, records the current [Sword Intent] points. For a period of time, if the [Sword Intent] point drops below this value, the [Sword Intent] effect applied to [Life's A Fleeting, Shifting Tide] will adopt the recorded value instead.\
+                ["ContentEN"] = "Upon entering [Aspect Manifestation] state, records the current [Sword Intent] points. For a period of time, if the [Sword Intent] point drops below this value, the [Sword Intent] effect applied to [Life's A Fleeting, Shifting Tide] will adopt the recorded value instead. This effect is invalid after exiting [Aspect Manifestation] state.\
 \
-Upon ending [Aspect Manifestation] state, records the current [String Intent] points. For a period of time, if the [String Intent] point drops below this value, the [String Intent] effect applied to [Life's A Fleeting, Shifting Tide] will adopt the recorded value instead.",
+Upon ending [Aspect Manifestation] state, records the current [String Intent] points. For a period of time, if the [String Intent] point drops below this value, the [String Intent] effect applied to [Life's A Fleeting, Shifting Tide] will adopt the recorded value instead. This effect is invalid while in [Aspect Manifestation] state.",
                 ["TextMapId"] = "SKILL_150304_DESC",
             },
             ["SKILL_150304_NAME"] = {
@@ -31455,47 +31950,50 @@ Increases Weapon DMG for the character and their nearby teammates mastering in S
                 ["TextMapId"] = "SKILL_180191_NAME",
             },
             ["SKILL_20101_DESC"] = {
-                ["ContentEN"] = "Character ATK +<H>#1</>. Each shot with this weapon has a chance (based on its Weapon Trigger Probability) to fire an extra projectile (at no cost), dealing AoE Damage equal to <H>#2</> of its ATK.",
+                ["ContentEN"] = "Character ATK +<H>#1</>. When shooting with this weapon, there is a chance to fire an extra projectile without consuming Ammo based on its Trigger Probability, dealing AoE Damage equal to <H>#2</> of its ATK.",
                 ["TextMapId"] = "SKILL_20101_DESC",
             },
             ["SKILL_20102_DESC"] = {
-                ["ContentEN"] = "Defeating targets with this weapon grants a <H>#1</> chance to get 1 ammo.",
+                ["ContentEN"] = "Defeating targets with this weapon grants a <H>#1</> chance to reload 1 projectile.",
                 ["TextMapId"] = "SKILL_20102_DESC",
             },
             ["SKILL_20103_DESC"] = {
-                ["ContentEN"] = "When triggering Bonus Effects on hit with this weapon, increases Damage Dealt by Melee Weapons by <H>#1</> for #2s.",
+                ["ContentEN"] = "When dealing damage with this weapon triggers Bonus Effect, increases Damage Dealt by Melee Weapons by <H>#1</> for #2s.",
                 ["TextMapId"] = "SKILL_20103_DESC",
             },
             ["SKILL_20201_DESC"] = {
-                ["ContentEN"] = "Shooting with this weapon grants 1 stack of ATK Speed Increase by <H>#1</> (up to <H>#2</>). The duration refreshes on stack gain. The boost is removed when switching weapons.",
+                ["ContentEN"] = "When shooting with this weapon, grants 1 stack that increases ATK Speed by <H>#1</>, up to <H>#2</>. The duration refreshes on each new stack gained. This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_20201_DESC",
             },
             ["SKILL_20203_DESC"] = {
-                ["ContentEN"] = "Skill Duration +<H>#1</>. Bullets bounce once after hitting an enemy or terrain. Dealing damage with this weapon increases Dual Pistols DMG by <H>#2</> for <H>#3</>s.",
+                ["ContentEN"] = "Skill Duration +<H>#1</>. When its projectiles hit enemies or the environment, they bounce once. When dealing damage with this weapon, increases Dual Pistols Damage by <H>#2</> for <H>#3</>s.",
                 ["TextMapId"] = "SKILL_20203_DESC",
             },
             ["SKILL_20205_DESC"] = {
-                ["ContentEN"] = "CRIT Damage dealt with this weapon grants 1 stack of Multishot Increase by <H>#1</> for <H>#2</>s (up to <H>#3</> stacks). The boost is removed when switching weapons.",
+                ["ContentEN"] = "When dealing CRIT Damage with this weapon, grants 1 stack that increases Multishot by <H>#1</> for <H>#2</>s, up to <H>#3</> stacks.\
+This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_20205_DESC",
             },
             ["SKILL_20301_DESC"] = {
-                ["ContentEN"] = "Explosion Radius +<H>#1</>. Upon detonation, bullets split into 8 projectiles, each causing an additional explosion. Defeating enemies with this weapon grants 1 stack of CRIT DMG Increase by <H>#2</> for <H>#3</>s (max <H>#4</> stacks). Effect is removed when switching weapons.",
+                ["ContentEN"] = "Explosion Range +<H>#1</>. When its projectiles explode, they split into 8 additional projectiles that explode and deal damage. When defeating a target with this weapon, grants 1 stack that increases CRIT Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.\
+This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_20301_DESC",
             },
             ["SKILL_20302_DESC"] = {
-                ["ContentEN"] = "Multishot +<H>#1</>. When a Pyro character performs a Dodge, grants 1 stack of <H>#2</> Skill Damage Increase and Ranged Weapon Damage Increase for <H>#3</>s, stacking up to <H>#4</> times.",
+                ["ContentEN"] = "Multishot +<H>#1</>. When a Pyro character performs a Dodge, grants 1 stack that increases Skill Damage and Ranged Weapon Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
                 ["TextMapId"] = "SKILL_20302_DESC",
             },
             ["SKILL_20303_DESC"] = {
-                ["ContentEN"] = "After switching to this weapon in battle, increases the user's ATK, up to <H>#1</>, with the increase effect weakening over time. When switching to another weapon, immediately removes this effect.",
+                ["ContentEN"] = "After switching to this weapon, increases the user's ATK, up to <H>#1</>, with the increase effect weakening over time. This effect can only be triggered once every 10s. When switching to another weapon, immediately removes this effect.",
                 ["TextMapId"] = "SKILL_20303_DESC",
             },
             ["SKILL_20304_DESC"] = {
-                ["ContentEN"] = "CRIT DMG +<H>#1</>. When a bullet strikes an enemy or terrain, it splits into 2 bullets that continue forward. Switching to this weapon grants up to <H>#2</> Multishot Increase, which decays over time. Effect is removed when switching weapons.",
+                ["ContentEN"] = "CRIT Damage +<H>#1</>. When its projectiles hit enemies or the environment, they split into 2 additional projectiles that continue to travel. After switching to this weapon, increases Multishot by <H>#2</>, which decreases over time. This effect can only be triggered once every 10s and is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_20304_DESC",
             },
             ["SKILL_20305_DESC"] = {
-                ["ContentEN"] = "When triggering Bonus Effects on hit with this weapon, grants 1 stack of ATK Speed Increase by <H>#1</> for <H>#2</> s (up to <H>#3</> stacks). The boost is removed when switching weapons.",
+                ["ContentEN"] = "When attacking with this weapon triggers Bonus Effect, grants 1 stack that increases ATK Speed by <H>#1</> for <H>#2</>s, up to <H>#3</> stacks.\
+This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_20305_DESC",
             },
             ["SKILL_20401_DESC"] = {
@@ -31511,7 +32009,7 @@ Increases Weapon DMG for the character and their nearby teammates mastering in S
                 ["TextMapId"] = "SKILL_20403_DESC",
             },
             ["SKILL_20405_DESC"] = {
-                ["ContentEN"] = "Character ATK +<H>#1</>. Charging fires a special bullet that travels slowly and explodes after a short delay, dealing AoE damage. Quick-tap shots can detonate the special bullet early on hit. Defeating a target with this weapon increases Skill Efficiency by <H>#2</> for <H>#3</>s.",
+                ["ContentEN"] = "Character ATK +<H>#1</>. When charging, fires a special projectile that travels slowly and explodes after a short delay, dealing AoE damage. When shooting by a quick press, fires normal projectiles that can prematurely detonate the special projectile on hit. When defeating a target with this weapon, increases Skill Efficiency by <H>#2</> for <H>#3</>s.",
                 ["TextMapId"] = "SKILL_20405_DESC",
             },
             ["SKILL_20501_DESC"] = {
@@ -31519,27 +32017,27 @@ Increases Weapon DMG for the character and their nearby teammates mastering in S
                 ["TextMapId"] = "SKILL_20501_DESC",
             },
             ["SKILL_20502_DESC"] = {
-                ["ContentEN"] = "CRIT Chance +<H>#1</>. Fires a Beam Attack that ricochets off the target and hits up to 4 enemies within range. Dealing CRIT Damage with this weapon grants 1 stack of [Exiled Thunderwyrm] Damage Increase by <H>#2</> for <H>#3</>s (up to <H>#4</> stacks).",
+                ["ContentEN"] = "CRIT Chance +<H>#1</>. Fires a beam that can ricochet to up to 4 surrounding enemies after hitting an enemy. When dealing CRIT Damage with this weapon, grants 1 stack of [Exiled Thunderwyrm] that increases damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.",
                 ["TextMapId"] = "SKILL_20502_DESC",
             },
             ["SKILL_20503_DESC"] = {
-                ["ContentEN"] = "When triggering Bonus Effects on hit with this weapon, there is a <H>#1</> chance to reload 1 projectile.",
+                ["ContentEN"] = "When dealing damage with this weapon triggers Bonus Effect, there is a <H>#1</> chance to reload 1 projectile.",
                 ["TextMapId"] = "SKILL_20503_DESC",
             },
             ["SKILL_20504_DESC"] = {
-                ["ContentEN"] = "Multishot +<H>#1</>. When dealing damage with this weapon, the lower the remaining ammo percentage, the higher the damage output, up to a maximum increase of <H>#2</>, with full effect at below <H>#3</> ammo.",
+                ["ContentEN"] = "Multishot +<H>#1</>. When dealing damage with this weapon, the lower the remaining Ammo percentage, the higher the damage dealt, up to a maximum increase of <H>#2</>, with full effect when the Ammo count is below <H>#3</>.",
                 ["TextMapId"] = "SKILL_20504_DESC",
             },
             ["SKILL_20507_DESC"] = {
-                ["ContentEN"] = "CRIT Damage +<H>#1</>. When a bullet hits terrain or travels a set distance, it returns and restores 1 round of ammo. For every additional point of max ammo, this weapon's damage increases by <H>#2</>, up to a maximum bonus of <H>#3</>.",
+                ["ContentEN"] = "CRIT Damage +<H>#1</>. Projectiles that hit the environment or travel a certain distance return to the user's position and increase the Ammo count by 1. For each additional Ammo count gained, the damage dealt by this weapon is increased by <H>#2</>, up to a maximum increase of <H>#3</>.",
                 ["TextMapId"] = "SKILL_20507_DESC",
             },
             ["SKILL_20509_DESC"] = {
-                ["ContentEN"] = "Skill Range +<H>#1</>. When a Lumino character deals bonus with any weapon, there is a <H>#2</> chance to grant teammates within range 1 stack of ATK Increase by <H>#3</> for <H>#4</>s (up to <H>#5</> stacks).",
+                ["ContentEN"] = "Skill Range +<H>#1</>. When a Lumino character deals additional damage, it will have a <H>#2</> chance to grant 1 stack that increases ATK for the nearby teammates by <H>#3</> for <H>#4</>s, up to <H>#5</> stacks.",
                 ["TextMapId"] = "SKILL_20509_DESC",
             },
             ["SKILL_20510_DESC"] = {
-                ["ContentEN"] = "Skill Duration +<H>#1</>. When a bullet hits terrain or travels a certain distance, it returns and restores 1 round of ammo. When a Lumino character triggers Bonus Effects on hit, grants 1 stack of ATK Increase by <H>#2</> for <H>#3</>s (max <H>#4</> stacks). Using an Ultimate Skill refreshes all stacks to last <H>#3</>s.",
+                ["ContentEN"] = "Skill Duration +<H>#1</>. Projectiles that hit the environment or travel a certain distance return to the user's position and increase the Ammo count by 1. When a Lumino character triggers Bonus Effect, grants 1 stack that increases ATK by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks. Using an Ultimate Skill refreshes the duration of all stacks to <H>#3</>s.",
                 ["TextMapId"] = "SKILL_20510_DESC",
             },
             ["SKILL_20601_DESC"] = {
@@ -31547,11 +32045,12 @@ Increases Weapon DMG for the character and their nearby teammates mastering in S
                 ["TextMapId"] = "SKILL_20601_DESC",
             },
             ["SKILL_20602_DESC"] = {
-                ["ContentEN"] = "CRIT Damage +<H>#1</>. CRIT Damage with this weapon increases either ATK by <H>#3</>, DEF by <H>#4</>, Skill Damage by <H>#5</>, or Skill Duration by <H>#6</> for teammates within range for <H>#2</>s.",
+                ["ContentEN"] = "CRIT Chance +<H>#1</>. When the user deals CRIT Damage with this weapon, their nearby teammate(s) will be granted one of the following enhancements for <H>#2</>s: Attack +<H>#3</>, DEF +<H>#4</>, Skill Damage +<H>#5</>, or Skill Duration +<H>#6</>.",
                 ["TextMapId"] = "SKILL_20602_DESC",
             },
             ["SKILL_20603_DESC"] = {
-                ["ContentEN"] = "Trigger Probability +<H>#1</>. While charging, the weapon gradually locks onto nearby enemies and fires tracking arrows at all locked targets upon release. When this weapon triggers Bonus Effects on hit, grants 1 stack of CRIT DMG Increase by <H>#2</> for <H>#3</>s (max <H>#4</> stacks). Effect is removed when switching weapons.",
+                ["ContentEN"] = "Trigger Probability +<H>#1</>. While charging, gradually locks onto enemies within range; upon release, fires tracking arrows at the locked targets. When dealing damage with this weapon triggers Bonus Effect, grants 1 stack that increases CRIT Damage by <H>#2</> for <H>#3</>s, up to <H>#4</> stacks.\
+This effect is removed when switching to another weapon.",
                 ["TextMapId"] = "SKILL_20603_DESC",
             },
             ["SKILL_210001_DESC"] = {
@@ -31606,7 +32105,8 @@ Dealing damage with [Lada Lovedew] will always trigger this effect.",
                 ["TextMapId"] = "SKILL_210104_NAME",
             },
             ["SKILL_230101_DESC"] = {
-                ["ContentEN"] = "Commands all [Summon: Tentacles] to attack 1 time and increases the Damage Dealt from this attack. Grants Hydro Damage Bonus to you and teammates within range.",
+                ["ContentEN"] = "Commands all [Tentacles] to attack 1 time and increases the Damage Dealt from this attack.\
+Grants Tabethe and her nearby teammate(s) the ability to deal additional Hydro Damage.",
                 ["TextMapId"] = "SKILL_230101_DESC",
             },
             ["SKILL_230101_NAME"] = {
@@ -31614,7 +32114,7 @@ Dealing damage with [Lada Lovedew] will always trigger this effect.",
                 ["TextMapId"] = "SKILL_230101_NAME",
             },
             ["SKILL_230102_DESC"] = {
-                ["ContentEN"] = "Summons 9 [Summon: Tentacles] around Tabethe.",
+                ["ContentEN"] = "Summons 9 [Tentacles] around Tabethe.",
                 ["TextMapId"] = "SKILL_230102_DESC",
             },
             ["SKILL_230102_NAME"] = {
@@ -31622,8 +32122,8 @@ Dealing damage with [Lada Lovedew] will always trigger this effect.",
                 ["TextMapId"] = "SKILL_230102_NAME",
             },
             ["SKILL_230103_DESC"] = {
-                ["ContentEN"] = "Dealing CRIT Damage with a ranged weapon has a chance to summon 1 [Summon: Tentacle] near the target, which can only be triggered once per second.\
-A maximum of 18 [Summon: Tentacles] can exist at the same time.",
+                ["ContentEN"] = "Dealing CRIT Damage using a ranged weapon has a chance to summon 1 [Tentacle] near the target, which can only be triggered once per second.\
+A maximum of 18 [Tentacles] can exist at the same time.",
                 ["TextMapId"] = "SKILL_230103_DESC",
             },
             ["SKILL_230103_NAME"] = {
@@ -31631,7 +32131,7 @@ A maximum of 18 [Summon: Tentacles] can exist at the same time.",
                 ["TextMapId"] = "SKILL_230103_NAME",
             },
             ["SKILL_230104_DESC"] = {
-                ["ContentEN"] = "When summoning [Summon: Tentacles], Tabethe gains 1 stack that increases her CRIT Chance, up to 10 stacks.",
+                ["ContentEN"] = "When summoning [Tentacles], Tabethe gains 1 stack that increases her CRIT Chance, up to 10 stacks.",
                 ["TextMapId"] = "SKILL_230104_DESC",
             },
             ["SKILL_230104_NAME"] = {
@@ -31639,7 +32139,7 @@ A maximum of 18 [Summon: Tentacles] can exist at the same time.",
                 ["TextMapId"] = "SKILL_230104_NAME",
             },
             ["SKILL_240101_DESC"] = {
-                ["ContentEN"] = "Summons 1 [Summon: Yunchi]. A maximum of 2 [Summon: Yunchi] can exist at the same time.",
+                ["ContentEN"] = "Summons 1 [Yunchi]. A maximum of 2 [Yunchi] can exist at the same time.",
                 ["TextMapId"] = "SKILL_240101_DESC",
             },
             ["SKILL_240101_NAME"] = {
@@ -31663,7 +32163,7 @@ A maximum of 18 [Summon: Tentacles] can exist at the same time.",
                 ["TextMapId"] = "SKILL_240103_NAME",
             },
             ["SKILL_240104_DESC"] = {
-                ["ContentEN"] = "Increases Skill Damage based on the number of [Summon: Yunchi] on the field.",
+                ["ContentEN"] = "Increases Skill Damage based on the number of [Yunchi] on the field.",
                 ["TextMapId"] = "SKILL_240104_DESC",
             },
             ["SKILL_240104_NAME"] = {
@@ -31711,17 +32211,13 @@ Shooting deals damage to all enemies in front, during which Lynn gains 1 stack t
 Using [Hansel and Gretel] continuously consumes Sanity, during which Lynn is immune to Hitstun when taking damage. When Sanity drops to 0 or the skill is used again, sheathes [Hansel and Gretel].",
                 ["TextMapId"] = "SKILL_310102_DESC",
             },
-        }
-    end },
-    { MinKey = "SKILL_310102_NAME", MaxKey = "SKILL_DESC_2301Rate", Loader = function()
-        return {
             ["SKILL_310102_NAME"] = {
                 ["ContentEN"] = "Gunpowder Revelry",
                 ["TextMapId"] = "SKILL_310102_NAME",
             },
             ["SKILL_310103_DESC"] = {
-                ["ContentEN"] = "When not shooting, Lynn gains 1 [Preload] stack per second, up to 6 stacks.\
-When shooting, consumes all [Preload] stacks to gain [Suppressing Fire] for a period of time.\
+                ["ContentEN"] = "When not shooting, Lynn gains 1 stack of [Preload] per second, up to 6 stacks.\
+When shooting, consumes all stacks of [Preload] to gain [Suppressing Fire] for a period of time.\
 [Suppressing Fire]: Increases the damage based on the number of the consumed [Preload] stacks. \
 Cannot gain [Preload] stack during [Suppressing Fire].",
                 ["TextMapId"] = "SKILL_310103_DESC",
@@ -31740,7 +32236,7 @@ Cannot gain [Preload] stack during [Suppressing Fire].",
             },
             ["SKILL_310201_DESC"] = {
                 ["ContentEN"] = "Commands all [Dirtexpellers] to continuously revolve around Hilda and fire [Hyperthermal Purgejets], during which the duration timer for all [Light Dirtexpellers] pauses.\
-[Hyperthermal Purgejets] deal Pyro Damage to enemies. Defeating an enemy has a chance to restore Sanity for Hilda.",
+[Hyperthermal Purgejets] deal Pyro Damage to enemies, and defeating an enemy has a chance to restore Sanity for Hilda during the [Hyperthermal Purgejets] firing.",
                 ["TextMapId"] = "SKILL_310201_DESC",
             },
             ["SKILL_310201_NAME"] = {
@@ -31800,7 +32296,7 @@ Increases the damage of [Hyperthermal Purgejet] by [30%+20%×Hilda's Ranged Weap
                 ["TextMapId"] = "SKILL_310303_NAME",
             },
             ["SKILL_310304_DESC"] = {
-                ["ContentEN"] = "Each time a [Tot Popper] is deployed, gains 1 stack of [Bombing Frenzy], up to 3 stacks.\
+                ["ContentEN"] = "Each time a [Tot Popper] is deployed, Yale and Oliver gains 1 stack of [Bombing Frenzy], up to 3 stacks.\
 [Bombing Frenzy]: Increases Skill Efficiency.",
                 ["TextMapId"] = "SKILL_310304_DESC",
             },
@@ -31841,7 +32337,7 @@ Increases the damage of [Hyperthermal Purgejet] by [30%+20%×Hilda's Ranged Weap
                 ["TextMapId"] = "SKILL_320104_NAME",
             },
             ["SKILL_330101_DESC"] = {
-                ["ContentEN"] = "Attack enemies in front, dealing Pyro Damage and stunning them. When using this skill by long press, Margie makes a continuous attack.",
+                ["ContentEN"] = "Attack enemies within range in front, dealing Pyro Damage and stunning them. When using this skill by long press, Margie makes a continuous attack.",
                 ["TextMapId"] = "SKILL_330101_DESC",
             },
             ["SKILL_330101_NAME"] = {
@@ -31849,7 +32345,7 @@ Increases the damage of [Hyperthermal Purgejet] by [30%+20%×Hilda's Ranged Weap
                 ["TextMapId"] = "SKILL_330101_NAME",
             },
             ["SKILL_330102_DESC"] = {
-                ["ContentEN"] = "Casts 3 [Margie's Combustible Bins] forward. They immediately explode upon hitting any target, dealing AoE Pyro Damage and consuming a certain stacks of [Jackpot!] for enhancement:\
+                ["ContentEN"] = "Casts 3 [Margie's Combustible Bins] forward. They immediately explode upon hitting any target or obstacle, dealing AoE Pyro Damage and consuming a certain stacks of [Jackpot!] for enhancement:\
 When consuming 3 stacks of [Jackpot!]: Increases the explosion range and damage.\
 When consuming 6 stacks of [Jackpot!]: Creates a Zealous Zone after the explosion, dealing Pyro Damage once every 2s to enemies within the zone.\
 When consuming 9 stacks of [Jackpot!]: Deals additional AoE Pyro Damage 2 times after the explosion.",
@@ -31860,7 +32356,7 @@ When consuming 9 stacks of [Jackpot!]: Deals additional AoE Pyro Damage 2 times 
                 ["TextMapId"] = "SKILL_330102_NAME",
             },
             ["SKILL_330103_DESC"] = {
-                ["ContentEN"] = "When Margie or her nearby teammate(s) pick up any loot, Margie gains 1 stack of [Jackpot!] that lasts throughout the battle. Each stack increases Margie's Skill Damage, up to 20 stacks.",
+                ["ContentEN"] = "When Margie or her nearby teammate(s) pick up any item, Margie gains 1 stack of [Jackpot!] that persists, which increases Margie's Skill Damage, up to 20 stacks.",
                 ["TextMapId"] = "SKILL_330103_DESC",
             },
             ["SKILL_330103_NAME"] = {
@@ -31868,7 +32364,7 @@ When consuming 9 stacks of [Jackpot!]: Deals additional AoE Pyro Damage 2 times 
                 ["TextMapId"] = "SKILL_330103_NAME",
             },
             ["SKILL_330104_DESC"] = {
-                ["ContentEN"] = "Increases the ATK of nearby teammate(s).",
+                ["ContentEN"] = "Increases the ATK for nearby teammate(s).",
                 ["TextMapId"] = "SKILL_330104_DESC",
             },
             ["SKILL_330104_NAME"] = {
@@ -31894,7 +32390,8 @@ Increases ATK for the character and their nearby Electro teammate(s).",
                 ["TextMapId"] = "SKILL_410003_NAME",
             },
             ["SKILL_410101_DESC"] = {
-                ["ContentEN"] = "Leaps forward, dealing Electro Damage to enemies along the path. When the [Electric Energy] point is no less than 30, consumes 30 points to increase the leap speed, the skill damage, and Rhythm's Damage Dealt by certain percentage.",
+                ["ContentEN"] = "Rhythm leaps forward, dealing Electro Damage to enemies along the path.\
+When the [Electric Energy] point is no less than 30, consumes 30 points to increase the leap speed and [Volt Rush]'s damage, and grants an effect that increases the damage dealt by Rhythm.",
                 ["TextMapId"] = "SKILL_410101_DESC",
             },
             ["SKILL_410101_NAME"] = {
@@ -31903,7 +32400,7 @@ Increases ATK for the character and their nearby Electro teammate(s).",
             },
             ["SKILL_410102_DESC"] = {
                 ["ContentEN"] = "Deals Electro Damage to enemies within range and enters [Electro Surge] state, during which it continuously consumes Sanity.\
-[Electro Surge] state ends when Sanity reaches 0 or when the skill is used again.",
+[Electro Surge] state ends when Sanity drops to 0 or when the skill is used again.",
                 ["TextMapId"] = "SKILL_410102_DESC",
             },
             ["SKILL_410102_NAME"] = {
@@ -31919,7 +32416,7 @@ Increases ATK for the character and their nearby Electro teammate(s).",
                 ["TextMapId"] = "SKILL_410103_NAME",
             },
             ["SKILL_410104_DESC"] = {
-                ["ContentEN"] = "When consuming [Electric Energy], converts 50% of the consumed [Electric Energy] into [Sanity].",
+                ["ContentEN"] = "When consuming [Electric Energy], converts 50% of the consumed [Electric Energy] into Sanity.",
                 ["TextMapId"] = "SKILL_410104_DESC",
             },
             ["SKILL_410104_NAME"] = {
@@ -31927,8 +32424,11 @@ Increases ATK for the character and their nearby Electro teammate(s).",
                 ["TextMapId"] = "SKILL_410104_NAME",
             },
             ["SKILL_410201_DESC"] = {
-                ["ContentEN"] = "Click to use [Celestial Revelation · Quake]. Deals Electro Damage to enemies within range and grants 1 [Spring Fulu · Quake]. \
-Hold to use [Celestial Revelation · Wind]. Deals Electro Damage to enemies within range, applies Ultra Shield, and grants 1 [Spring Fulu · Wind].",
+                ["ContentEN"] = "Press: \
+Zhiliu uses [Celestial Revelation: Zhen], dealing Electro Damage to enemies within range in front, which grants Zhiliu 1 [Talisman: Zhen].\
+\
+Hold:\
+Zhiliu uses [Celestial Revelation: Xun], dealing Electro Damage to enemies within range in front, which grants Zhiliu Ultra Shield and 1 [Talisman: Xun].",
                 ["TextMapId"] = "SKILL_410201_DESC",
             },
             ["SKILL_410201_NAME"] = {
@@ -31936,33 +32436,33 @@ Hold to use [Celestial Revelation · Wind]. Deals Electro Damage to enemies with
                 ["TextMapId"] = "SKILL_410201_NAME",
             },
             ["SKILL_410202_DESC"] = {
-                ["ContentEN"] = "When you have fewer than 2 [Spring Fulus], deals Electro Damage to enemies within range. \
-When you have 2 [Spring Fulus], this skill changes based on your [Spring Fulu] types.",
+                ["ContentEN"] = "When Zhiliu has fewer than 2 [Talismans], deals Electro Damage to enemies within range. \
+When Zhiliu has 2 [Talismans], this skill is replaced with another skill based on the type of [Talismans].",
                 ["TextMapId"] = "SKILL_410202_DESC",
             },
             ["SKILL_410202_NAME"] = {
-                ["ContentEN"] = "Cosmic Play",
+                ["ContentEN"] = "Heaven-Earth Divination",
                 ["TextMapId"] = "SKILL_410202_NAME",
             },
             ["SKILL_410203_DESC"] = {
-                ["ContentEN"] = "Uses [Celestial Revelation] to get [Spring Fulus]. You can have up to 2 [Spring Fulus] at a time. The oldest [Spring Fulu] is removed when exceeding the limit. \
-When removing [Spring Fulus] after using [Thunder Echo], [Life Surge], or [Heaven's Clarity], each has a chance to remain active based on your Melee Weapon's Trigger Probability.",
+                ["ContentEN"] = "Obtains [Talismans] through [Celestial Revelation], up to 2 [Talismans]. When the number of [Talismans] exceeds the limit, the earliest obtained [Talisman] will be removed.\
+When consuming [Talisman] after using [Thunder's Oracle Peal], [Myriad Things Thrive], or [Fortune's Clarity], each [Talisman] has a chance to be retained based on Zhiliu's Melee Weapon Trigger Probability.",
                 ["TextMapId"] = "SKILL_410203_DESC",
             },
             ["SKILL_410203_NAME"] = {
-                ["ContentEN"] = "Dual Fulu Waltz",
+                ["ContentEN"] = "Talismans Coalescence",
                 ["TextMapId"] = "SKILL_410203_NAME",
             },
             ["SKILL_410204_DESC"] = {
-                ["ContentEN"] = "Grants 1 stack of Morale when you or your teammates deal Electro Skill DMG (up to 10 stacks).",
+                ["ContentEN"] = "When Zhiliu or her nearby teammate(s) deal Electro Skill Damage, gains 1 stack that increases Morale, up to 12 stacks.",
                 ["TextMapId"] = "SKILL_410204_DESC",
             },
             ["SKILL_410204_NAME"] = {
-                ["ContentEN"] = "Synergy",
+                ["ContentEN"] = "Mutual Generation",
                 ["TextMapId"] = "SKILL_410204_NAME",
             },
             ["SKILL_420101_DESC"] = {
-                ["ContentEN"] = "Yuming leaps into the air and replaces the next Plunging Attack with [Starlight Descent]. Using this skill in [Xuanjiao Manifest] state grants Yuming 1 [Reverse Scale].\
+                ["ContentEN"] = "Yuming leaps into the air, and the next Plunging Attack is replaced with [Starlight Descent]. Using this skill in [Xuanjiao Manifest] state grants Yuming 1 [Reverse Scale].\
 When the amount of [Reverse Scale] reaches its maxium, [Starlight Descent] is enhanced to [Starstorm Descent].",
                 ["TextMapId"] = "SKILL_420101_DESC",
             },
@@ -31979,7 +32479,8 @@ When the amount of [Reverse Scale] reaches its maxium, [Starlight Descent] is en
                 ["TextMapId"] = "SKILL_420102_NAME",
             },
             ["SKILL_420103_DESC"] = {
-                ["ContentEN"] = "When dealing Skill DMG, apply 1 stack of [Battle Frenzy] to enemies—decreases their Electro Resistance (up to 3 stacks).",
+                ["ContentEN"] = "When dealing Skill Damage, inflicts 1 stack of [Thunderous Onslaught] on the target, up to 3 stacks.\
+[Thunderous Onslaught]: reduces Electro Resistance.",
                 ["TextMapId"] = "SKILL_420103_DESC",
             },
             ["SKILL_420103_NAME"] = {
@@ -31987,7 +32488,7 @@ When the amount of [Reverse Scale] reaches its maxium, [Starlight Descent] is en
                 ["TextMapId"] = "SKILL_420103_NAME",
             },
             ["SKILL_420104_DESC"] = {
-                ["ContentEN"] = "Grants 6 [Reverse Scales] when using [Grimscales].",
+                ["ContentEN"] = "Yuming gains 6 [Reverse Scales] when using [Grimscales].",
                 ["TextMapId"] = "SKILL_420104_DESC",
             },
             ["SKILL_420104_NAME"] = {
@@ -32006,7 +32507,7 @@ Increases Morale for you and Electro teammates within range.",
             ["SKILL_420201_DESC"] = {
                 ["ContentEN"] = "Deploys a [Barrier] in front of Randy and deals Electro Damage to nearby enemies.\
 [Barrier] consumes Sanity over time, during which Randy cannot move or use any weapon and is immune to Hitstun when taking damage. [Barrier] inflicts [Overwork Grudge] on nearby enemies.\
-Using the skill again can withdraw the [Barrier].",
+When this skill is used again, the [Barrier] is retracted.",
                 ["TextMapId"] = "SKILL_420201_DESC",
             },
             ["SKILL_420201_NAME"] = {
@@ -32014,9 +32515,9 @@ Using the skill again can withdraw the [Barrier].",
                 ["TextMapId"] = "SKILL_420201_NAME",
             },
             ["SKILL_420202_DESC"] = {
-                ["ContentEN"] = "Throws 1 [Bespoke Shield] forward, causing [Impact] 1 time when it halts. [Bespoke Shield] triggers [Impact] once every 3s when it's on the battlefield.\
+                ["ContentEN"] = "Throws 1 [Bespoke Shield] forward, causing [Impact] 1 time when it halts. [Bespoke Shield] triggers [Impact] once every 3s when it's on the field.\
 [Impact] deals damage only against target's Shield based on Randy's DEF, and grants an Ultra Shield based on Randy's DEF to teammate(s) within range.\
-For targets with Shield that has reached 0, [Impact] paralyses them.",
+For targets with 0 Shield point, [Impact] paralyses them.",
                 ["TextMapId"] = "SKILL_420202_DESC",
             },
             ["SKILL_420202_NAME"] = {
@@ -32032,7 +32533,7 @@ For targets with Shield that has reached 0, [Impact] paralyses them.",
                 ["TextMapId"] = "SKILL_420203_NAME",
             },
             ["SKILL_420204_DESC"] = {
-                ["ContentEN"] = "Once [Barrier] has absorbed damage equivalent to 70% of Randy's Max HP, consumes Sanity to reset the [Barrier] and deals the same Electro Damage of [Legitimate Slackness] barrier deployment 1 time.",
+                ["ContentEN"] = "Once [Barrier] has absorbed damage equivalent to 70% of Randy's Max HP, consumes Sanity to reset the [Barrier] and deals the same barrier deployment damage of [Legitimate Slackness] 1 time.",
                 ["TextMapId"] = "SKILL_420204_DESC",
             },
             ["SKILL_420204_NAME"] = {
@@ -32040,7 +32541,7 @@ For targets with Shield that has reached 0, [Impact] paralyses them.",
                 ["TextMapId"] = "SKILL_420204_NAME",
             },
             ["SKILL_430101_DESC"] = {
-                ["ContentEN"] = "Deals Electro Damage to enemies in front and creates a [Legion's Punishment] field at the damage locations.",
+                ["ContentEN"] = "Deals Electro Damage to enemies within range in front and creates a field of [Legion's Punishment] at the locations.",
                 ["TextMapId"] = "SKILL_430101_DESC",
             },
             ["SKILL_430101_NAME"] = {
@@ -32048,8 +32549,8 @@ For targets with Shield that has reached 0, [Impact] paralyses them.",
                 ["TextMapId"] = "SKILL_430101_NAME",
             },
             ["SKILL_430102_DESC"] = {
-                ["ContentEN"] = "Summons [Summon: Chaotic Thunderorb]. A maximum of 1 can exist at a time. \
-Use [Might of Thunder] to summon an enhanced [Summon: Chaotic Thunderorb]. The enhanced [Summon: Chaotic Thunderorb] triggers [Devastating Storm] every 2s (decreased interval) with increased Link Damage.",
+                ["ContentEN"] = "Summons [Chaotic Thunderorb]. A maximum of 1 can exist at the same time. \
+Consumes [Might of Thunder] to summon an enhanced [Chaotic Thunderorb]. The interval for the enhanced [Chaotic Thunderorb] to trigger [Devastating Storm] is reduced to 2s, and its Link Damage is increased.",
                 ["TextMapId"] = "SKILL_430102_DESC",
             },
             ["SKILL_430102_NAME"] = {
@@ -32057,7 +32558,8 @@ Use [Might of Thunder] to summon an enhanced [Summon: Chaotic Thunderorb]. The e
                 ["TextMapId"] = "SKILL_430102_NAME",
             },
             ["SKILL_430103_DESC"] = {
-                ["ContentEN"] = "Grants up to 300 [Might of Thunder] points when dealing damage with Bonus Effects. [Divine Conqueror] and [Stormcaller] can be empowered by consuming [Might of Thunder] points.",
+                ["ContentEN"] = "When the damage dealt triggers Bonus Effect, Sibylle gains certain points of [Might of Thunder], up to 300 points.\
+[Divine Conqueror] and [Stormcaller] can be empowered by consuming [Might of Thunder] points.",
                 ["TextMapId"] = "SKILL_430103_DESC",
             },
             ["SKILL_430103_NAME"] = {
@@ -32065,7 +32567,7 @@ Use [Might of Thunder] to summon an enhanced [Summon: Chaotic Thunderorb]. The e
                 ["TextMapId"] = "SKILL_430103_NAME",
             },
             ["SKILL_430104_DESC"] = {
-                ["ContentEN"] = "When the [Chaotic Thunderorb] takes damage from [Thunderbolt], increases the Damage Taken Transfer ratio by #3, up to 4 times.",
+                ["ContentEN"] = "Damage dealt by [Divine Conqueror] and [Legion's Punishment] has a chance to trigger Bonus Effect based on Sibylle's Melee Weapon Trigger Probability.",
                 ["TextMapId"] = "SKILL_430104_DESC",
             },
             ["SKILL_430104_NAME"] = {
@@ -32135,33 +32637,38 @@ Increases Malaise for the character and nearby teammates when 2 or more characte
                 ["TextMapId"] = "SKILL_510191_NAME",
             },
             ["SKILL_510201_DESC"] = {
-                ["ContentEN"] = "Enters [Stealth] status and exits [Hunt]. \
-Spawns 2 [Fang Spikes] to attack random enemies within range when exiting [Stealth] status.",
+                ["ContentEN"] = "Enters [Stealth] state and exits [Relentless Hunt] state. \
+Generates 2 [Fang Spikes] to attack nearby enemies when exiting [Stealth] state or using [Stealthy Prowl] again in [Stealth] state.",
                 ["TextMapId"] = "SKILL_510201_DESC",
             },
             ["SKILL_510201_NAME"] = {
-                ["ContentEN"] = "Shadow Veil",
+                ["ContentEN"] = "Stealthy Prowl",
                 ["TextMapId"] = "SKILL_510201_NAME",
             },
             ["SKILL_510202_DESC"] = {
-                ["ContentEN"] = "Retracts all [Fang Spikes] and enters [Hunt] status. \
-Retracting each [Fang Spike] costs HP (minimum 1) to create an equal Ultra Shield and extend [Hunt] duration.",
+                ["ContentEN"] = "Retracts all [Fang Spikes] and enters [Relentless Hunt] state.\
+For each [Fang Spike] retracted, Outsider loses certain HP, which is converted into an equivalent amount of Ultra Shield, and it additionally extends the duration of [Relentless Hunt] state.\
+When losing HP due to this effect, the minimum HP will not drop below 1.",
                 ["TextMapId"] = "SKILL_510202_DESC",
             },
             ["SKILL_510202_NAME"] = {
-                ["ContentEN"] = "Hunter's Strike",
+                ["ContentEN"] = "Predator's Pounce",
                 ["TextMapId"] = "SKILL_510202_NAME",
             },
+        }
+    end },
+    { MinKey = "SKILL_510203_DESC", MaxKey = "SKILL_DESC_4301Skill02DamageRate", Loader = function()
+        return {
             ["SKILL_510203_DESC"] = {
-                ["ContentEN"] = "Damage taken spawns and fires 1 [Fang Spike] at the attacker (once every second max).",
+                ["ContentEN"] = "When taking damage, Outsider generates 1 [Fang Spike] to attack the damage dealer. This effect can only be triggered once per second.",
                 ["TextMapId"] = "SKILL_510203_DESC",
             },
             ["SKILL_510203_NAME"] = {
-                ["ContentEN"] = "Fang for a Fang",
+                ["ContentEN"] = "Fang for Fang",
                 ["TextMapId"] = "SKILL_510203_NAME",
             },
             ["SKILL_510204_DESC"] = {
-                ["ContentEN"] = "When not in [Hunt] status, Melee Weapons have a chance to spawn and fire 1 [Fang Spike] on hit at your target (once every second max).",
+                ["ContentEN"] = "When not in [Relentless Hunt] state, there is a chance to generate 1 [Fang Spike] to attack the target while dealing damage with a melee weapon. This effect can only be triggered once per second.",
                 ["TextMapId"] = "SKILL_510204_DESC",
             },
             ["SKILL_510204_NAME"] = {
@@ -32198,7 +32705,7 @@ Increases Psyche's damage for each buff she gains, up to 12 buffs.",
             },
             ["SKILL_530104_DESC"] = {
                 ["ContentEN"] = "When using [Fluorescent Eclosion], if Psyche's HP percentage is no less than 75%, gains [Ephemeral as Dew].\
-[Ephemeral as Dew]: When triggering the effect of Morale/Malaise, it regards Psyche's HP percentage as 1%. This effect can only be triggered once every 90s.",
+[Ephemeral as Dew]: When triggering the effect of Morale/Malaise, it regards Psyche's HP percentage as 1%. This effect can only be triggered once every 120s.",
                 ["TextMapId"] = "SKILL_530104_DESC",
             },
             ["SKILL_530104_NAME"] = {
@@ -32216,7 +32723,7 @@ During [Emerald Effusion] state, Daphne gains 2 [Azoth Projectiles] per second."
             },
             ["SKILL_540102_DESC"] = {
                 ["ContentEN"] = "Heals and applies [Purification Formula] to Daphne and the nearby teammate(s). Temporarily immobilises and inflicts 1 stack of [Decay Formula] on enemies around, up to 3 stacks.\
-Daphne gains [Azoth Projectiles] equal to the total number of affected  teammates and enemies, up to 12 projectiles.",
+Daphne gains [Azoth Projectiles] equal to the total number of affected teammates and enemies, up to 12 projectiles.",
                 ["TextMapId"] = "SKILL_540102_DESC",
             },
             ["SKILL_540102_NAME"] = {
@@ -32224,7 +32731,8 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_540102_NAME",
             },
             ["SKILL_540103_DESC"] = {
-                ["ContentEN"] = "Increases Daphne's ranged weapon Trigger Probability when she possesses [Azoth Projectile]. Daphne can hold up to 30 [Azoth Projectiles], and each ranged weapon attack consumes 1 [Azoth Projectile].",
+                ["ContentEN"] = "Increases Daphne's Ranged Weapon Trigger Probability when she possesses [Azoth Projectile].\
+Daphne can hold up to 30 [Azoth Projectiles], and each ranged weapon attack consumes 1 [Azoth Projectile].",
                 ["TextMapId"] = "SKILL_540103_DESC",
             },
             ["SKILL_540103_NAME"] = {
@@ -32232,7 +32740,7 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_540103_NAME",
             },
             ["SKILL_540104_DESC"] = {
-                ["ContentEN"] = "When Daphne possesses [Azoth Projectile] and her ranged weapon attack deals damage, target hit by the ranged weapon attack incurs the DoT of [Decay Formula] multiplied by Daphne's ranged weapon Trigger Probability.",
+                ["ContentEN"] = "When Daphne possesses [Azoth Projectile] and her ranged weapon attack deals damage, target hit by the ranged weapon attack incurs the DoT of [Decay Formula] 1 time. The damage is based on a certain percentage of Daphne's Ranged Weapon Trigger Probability.",
                 ["TextMapId"] = "SKILL_540104_DESC",
             },
             ["SKILL_540104_NAME"] = {
@@ -32268,23 +32776,23 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_DESC_1101WaveWidth",
             },
             ["SKILL_DESC_1103ComboDamage1"] = {
-                ["ContentEN"] = "[Furious Claws] 1-Hit Damage",
+                ["ContentEN"] = "[Furious Claws] 1-Hit DMG",
                 ["TextMapId"] = "SKILL_DESC_1103ComboDamage1",
             },
             ["SKILL_DESC_1103ComboDamage2"] = {
-                ["ContentEN"] = "[Furious Claws] 2-Hit Damage",
+                ["ContentEN"] = "[Furious Claws] 2-Hit DMG",
                 ["TextMapId"] = "SKILL_DESC_1103ComboDamage2",
             },
             ["SKILL_DESC_1103ComboDamage3"] = {
-                ["ContentEN"] = "[Furious Claws] 3-Hit Damage",
+                ["ContentEN"] = "[Furious Claws] 3-Hit DMG",
                 ["TextMapId"] = "SKILL_DESC_1103ComboDamage3",
             },
             ["SKILL_DESC_1103ComboDamage4"] = {
-                ["ContentEN"] = "[Furious Claws] 4-Hit Damage",
+                ["ContentEN"] = "[Furious Claws] 4-Hit DMG",
                 ["TextMapId"] = "SKILL_DESC_1103ComboDamage4",
             },
             ["SKILL_DESC_1103DamageRadius"] = {
-                ["ContentEN"] = "[Furious Claws] Damage Radius",
+                ["ContentEN"] = "[Furious Claws] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_1103DamageRadius",
             },
             ["SKILL_DESC_1103ExSpToAtk"] = {
@@ -32292,7 +32800,7 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_DESC_1103ExSpToAtk",
             },
             ["SKILL_DESC_1103FallAttackDamage"] = {
-                ["ContentEN"] = "[Furious Claws] Plunging Attack Damage",
+                ["ContentEN"] = "[Furious Claws] Plunge DMG",
                 ["TextMapId"] = "SKILL_DESC_1103FallAttackDamage",
             },
             ["SKILL_DESC_1103LimitOff"] = {
@@ -32300,15 +32808,15 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_DESC_1103LimitOff",
             },
             ["SKILL_DESC_1103MarkRate"] = {
-                ["ContentEN"] = "Damage Boost per stack of [Adagio]",
+                ["ContentEN"] = "DMG Boost per stack of [Adagio]",
                 ["TextMapId"] = "SKILL_DESC_1103MarkRate",
             },
             ["SKILL_DESC_1103MarkRestore1"] = {
-                ["ContentEN"] = "[Rest] Sanity Recovery",
+                ["ContentEN"] = "[Fermata] Sanity Recovery",
                 ["TextMapId"] = "SKILL_DESC_1103MarkRestore1",
             },
             ["SKILL_DESC_1103MarkRestore2"] = {
-                ["ContentEN"] = "[Rest] grants [Immersion]",
+                ["ContentEN"] = "[Immersion] Granted by [Fermata]",
                 ["TextMapId"] = "SKILL_DESC_1103MarkRestore2",
             },
             ["SKILL_DESC_1103MarkSustain"] = {
@@ -32320,7 +32828,7 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_DESC_1103MaxAtk",
             },
             ["SKILL_DESC_1103RayDamage"] = {
-                ["ContentEN"] = "[Mournful Howl] Beam Damage",
+                ["ContentEN"] = "[Mournful Howl] Beam DMG",
                 ["TextMapId"] = "SKILL_DESC_1103RayDamage",
             },
             ["SKILL_DESC_1103RayLength"] = {
@@ -32328,19 +32836,19 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_DESC_1103RayLength",
             },
             ["SKILL_DESC_1103Restore"] = {
-                ["ContentEN"] = "[Duo] grants [Immersion]",
+                ["ContentEN"] = "[Immersion] Granted by [Duo]",
                 ["TextMapId"] = "SKILL_DESC_1103Restore",
             },
             ["SKILL_DESC_1103Skill01Damage"] = {
-                ["ContentEN"] = "[Aria] Damage",
+                ["ContentEN"] = "[Aria] DMG",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01Damage",
             },
             ["SKILL_DESC_1103Skill01Msp1"] = {
-                ["ContentEN"] = "[Recitativo] grants [Immersion]",
+                ["ContentEN"] = "[Immersion] Granted by [Recitativo]",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01Msp1",
             },
             ["SKILL_DESC_1103Skill01Msp2"] = {
-                ["ContentEN"] = "[Aria] grants [Immersion]",
+                ["ContentEN"] = "[Immersion] Granted by [Aria]",
                 ["TextMapId"] = "SKILL_DESC_1103Skill01Msp2",
             },
             ["SKILL_DESC_1103Skill01SkillRange"] = {
@@ -32356,7 +32864,7 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_DESC_1103Skill01Sustain",
             },
             ["SKILL_DESC_1103Skill02Msp"] = {
-                ["ContentEN"] = "[Bestial Fury] grants [Immersion] per second",
+                ["ContentEN"] = "[Immersion] Granted by [Bestial Fury] per second",
                 ["TextMapId"] = "SKILL_DESC_1103Skill02Msp",
             },
             ["SKILL_DESC_1103SpToAtk"] = {
@@ -32364,23 +32872,23 @@ Daphne gains [Azoth Projectiles] equal to the total number of affected  teammate
                 ["TextMapId"] = "SKILL_DESC_1103SpToAtk",
             },
             ["SKILL_DESC_1103SspCost"] = {
-                ["ContentEN"] = "[Bestial Fury: Devotion] per second Immersion Cost",
+                ["ContentEN"] = "[Bestial Fury: Devotion] Immersion Cost per second",
                 ["TextMapId"] = "SKILL_DESC_1103SspCost",
             },
             ["SKILL_DESC_1502Skill01Buff1"] = {
-                ["ContentEN"] = "[Solar Eclipse] decreases ATK by",
+                ["ContentEN"] = "[Solar Eclipse] Decreases ATK by",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01Buff1",
             },
             ["SKILL_DESC_1502Skill01Buff2"] = {
-                ["ContentEN"] = "[Lunar Hunt] decreases Movement SPD by",
+                ["ContentEN"] = "[Lunar Hunt] Decreases Movement SPD by",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01Buff2",
             },
             ["SKILL_DESC_1502Skill01BuffTime1"] = {
-                ["ContentEN"] = "[Solar Eclipse] decreases ATK for",
+                ["ContentEN"] = "[Solar Eclipse] Decreases ATK for",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01BuffTime1",
             },
             ["SKILL_DESC_1502Skill01BuffTime2"] = {
-                ["ContentEN"] = "[Lunar Hunt] decreases Movement SPD for",
+                ["ContentEN"] = "[Lunar Hunt] Decreases Movement SPD for",
                 ["TextMapId"] = "SKILL_DESC_1502Skill01BuffTime2",
             },
             ["SKILL_DESC_1502Skill01Damage1"] = {
@@ -32418,7 +32926,8 @@ DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_1502Skill02Radius2",
             },
             ["SKILL_DESC_1502Skill02Rate"] = {
-                ["ContentEN"] = "[Funeral Rite] Skill Range Conversion Percentage",
+                ["ContentEN"] = "[Funeral Rite] Skill Range\
+Conversion Percentage",
                 ["TextMapId"] = "SKILL_DESC_1502Skill02Rate",
             },
             ["SKILL_DESC_1502Skill03MaxRate"] = {
@@ -32427,13 +32936,12 @@ Max Trigger Probability",
                 ["TextMapId"] = "SKILL_DESC_1502Skill03MaxRate",
             },
             ["SKILL_DESC_1502Skill03Rate"] = {
-                ["ContentEN"] = "[Interwoven Cries] Effect\
-Trigger Probability",
+                ["ContentEN"] = "[Interwoven Cries]\
+Effect Trigger Probability",
                 ["TextMapId"] = "SKILL_DESC_1502Skill03Rate",
             },
             ["SKILL_DESC_1502Skill04Rate"] = {
-                ["ContentEN"] = "[Nightfall] Effect\
-Trigger Probability",
+                ["ContentEN"] = "[Nightfall] Effect Trigger Probability",
                 ["TextMapId"] = "SKILL_DESC_1502Skill04Rate",
             },
             ["SKILL_DESC_1503Passive2LastTime"] = {
@@ -32555,17 +33063,14 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_2101DotSustain",
             },
             ["SKILL_DESC_2101Skill02"] = {
-                ["ContentEN"] = "Damage Boost per stack of [Poison of Love]",
+                ["ContentEN"] = "DMG Boost\
+per stack of [Poison of Love]",
                 ["TextMapId"] = "SKILL_DESC_2101Skill02",
             },
             ["SKILL_DESC_2301Rate"] = {
                 ["ContentEN"] = "[Tentacle] DMG Boost",
                 ["TextMapId"] = "SKILL_DESC_2301Rate",
             },
-        }
-    end },
-    { MinKey = "SKILL_DESC_2401MaxSkill02SkillIntensity", MaxKey = "SKILL_DESC_HeavyAttackDemage2", Loader = function()
-        return {
             ["SKILL_DESC_2401MaxSkill02SkillIntensity"] = {
                 ["ContentEN"] = "Skill DMG Boost Cap",
                 ["TextMapId"] = "SKILL_DESC_2401MaxSkill02SkillIntensity",
@@ -32599,7 +33104,7 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_3101WildFireDamage",
             },
             ["SKILL_DESC_3101WildFireTime"] = {
-                ["ContentEN"] = "[Laceration] Damage",
+                ["ContentEN"] = "[Laceration] DMG",
                 ["TextMapId"] = "SKILL_DESC_3101WildFireTime",
             },
             ["SKILL_DESC_3102BigFunnelDamage"] = {
@@ -32643,7 +33148,7 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_3103BuffSkillEff",
             },
             ["SKILL_DESC_3103DomainBuffRate"] = {
-                ["ContentEN"] = "Bonus Damage Multiplier per [Alter Ego Bomb] Detonated",
+                ["ContentEN"] = "Explosion DMG Bonus per [Tot Popper] Detonated",
                 ["TextMapId"] = "SKILL_DESC_3103DomainBuffRate",
             },
             ["SKILL_DESC_3103DomainDamage"] = {
@@ -32663,7 +33168,7 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_3103DomainRadius",
             },
             ["SKILL_DESC_3103DomainSpRecover"] = {
-                ["ContentEN"] = "Sanity Recovery per [Alter Ego Bomb] Detonated",
+                ["ContentEN"] = "Sanity Recovery per [Tot Popper] Detonated",
                 ["TextMapId"] = "SKILL_DESC_3103DomainSpRecover",
             },
             ["SKILL_DESC_3103ExBombDamage"] = {
@@ -32767,11 +33272,11 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_BuffLastTime",
             },
             ["SKILL_DESC_4101Skill02_Damage01"] = {
-                ["ContentEN"] = "[Electro Surge] Select enemies to deal damage",
+                ["ContentEN"] = "[Electro Surge] DMG",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_Damage01",
             },
             ["SKILL_DESC_4101Skill02_Damage02"] = {
-                ["ContentEN"] = "[Electric Charge] Damage",
+                ["ContentEN"] = "[Electric Charge] DMG",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_Damage02",
             },
             ["SKILL_DESC_4101Skill02_Radius01"] = {
@@ -32783,107 +33288,107 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_4101Skill02_Radius02",
             },
             ["SKILL_DESC_4102Skill01_Dmg01"] = {
-                ["ContentEN"] = "[Celestial Revelation · Quake] Damage",
+                ["ContentEN"] = "[Celestial Revelation: Zhen] DMG",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Dmg01",
             },
             ["SKILL_DESC_4102Skill01_Dmg02"] = {
-                ["ContentEN"] = "[Celestial Revelation · Wind] Damage",
+                ["ContentEN"] = "[Celestial Revelation: Xun] DMG",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Dmg02",
             },
             ["SKILL_DESC_4102Skill01_Range01"] = {
-                ["ContentEN"] = "[Celestial Revelation · Quake] Damage Radius",
+                ["ContentEN"] = "[Celestial Revelation: Zhen] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Range01",
             },
             ["SKILL_DESC_4102Skill01_Range02"] = {
-                ["ContentEN"] = "[Celestial Revelation · Wind] Damage Radius",
+                ["ContentEN"] = "[Celestial Revelation: Xun] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Range02",
             },
             ["SKILL_DESC_4102Skill01_Shield"] = {
-                ["ContentEN"] = "[Celestial Revelation · Wind] Shield Overcharged",
+                ["ContentEN"] = "[Celestial Revelation: Xun] Ultra Shield",
                 ["TextMapId"] = "SKILL_DESC_4102Skill01_Shield",
             },
             ["SKILL_DESC_4102Skill02_Buff"] = {
-                ["ContentEN"] = "[Heaven's Clarity] Skill DMG Boost",
+                ["ContentEN"] = "[Fortune's Clarity] Skill DMG Boost",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Buff",
             },
             ["SKILL_DESC_4102Skill02_Dmg00"] = {
-                ["ContentEN"] = "[Cosmic Play] Damage",
+                ["ContentEN"] = "[Heaven-Earth Divination] DMG",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg00",
             },
             ["SKILL_DESC_4102Skill02_Dmg01"] = {
-                ["ContentEN"] = "[Thunder Echo] Damage",
+                ["ContentEN"] = "[Thunder's Oracle Peal] DMG",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg01",
             },
             ["SKILL_DESC_4102Skill02_Dmg02"] = {
-                ["ContentEN"] = "[Life Surge] Damage",
+                ["ContentEN"] = "[Myriad Things Thrive] DMG",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg02",
             },
             ["SKILL_DESC_4102Skill02_Dmg03"] = {
-                ["ContentEN"] = "[Thunder & Gale] Damage",
+                ["ContentEN"] = "[Zhen-Xun Convergence] DMG",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg03",
             },
             ["SKILL_DESC_4102Skill02_Dmg04"] = {
-                ["ContentEN"] = "[Heaven's Clarity] Damage",
+                ["ContentEN"] = "[Fortune's Clarity] DMG",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Dmg04",
             },
             ["SKILL_DESC_4102Skill02_Range00"] = {
-                ["ContentEN"] = "[Cosmic Play] Damage Radius",
+                ["ContentEN"] = "[Heaven-Earth Divination] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range00",
             },
             ["SKILL_DESC_4102Skill02_Range01"] = {
-                ["ContentEN"] = "[Thunder Echo] Damage Range",
+                ["ContentEN"] = "[Thunder's Oracle Peal] DMG Range",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range01",
             },
             ["SKILL_DESC_4102Skill02_Range02"] = {
-                ["ContentEN"] = "[Life Surge] Damage Radius",
+                ["ContentEN"] = "[Myriad Things Thrive] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range02",
             },
             ["SKILL_DESC_4102Skill02_Range03"] = {
-                ["ContentEN"] = "[Thunder & Gale Converge] Field Radius",
+                ["ContentEN"] = "[Four Realms Align] Radius",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range03",
             },
             ["SKILL_DESC_4102Skill02_Range04"] = {
-                ["ContentEN"] = "[Thunder & Gale] Damage Radius",
+                ["ContentEN"] = "[Zhen-Xun Convergence] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range04",
             },
             ["SKILL_DESC_4102Skill02_Range05"] = {
-                ["ContentEN"] = "[Heaven's Clarity] Damage Radius",
+                ["ContentEN"] = "[Fortune's Clarity] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Range05",
             },
             ["SKILL_DESC_4102Skill02_Sp00"] = {
-                ["ContentEN"] = "[Cosmic Play] Sanity Cost",
+                ["ContentEN"] = "[Heaven-Earth Divination] Sanity Cost",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sp00",
             },
             ["SKILL_DESC_4102Skill02_Sp01"] = {
-                ["ContentEN"] = "[Thunder Echo] Sanity Cost",
+                ["ContentEN"] = "[Thunder's Oracle Peal] Sanity Cost",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sp01",
             },
             ["SKILL_DESC_4102Skill02_Sp02"] = {
-                ["ContentEN"] = "[Life Surge] Sanity Cost",
+                ["ContentEN"] = "[Myriad Things Thrive] Sanity Cost",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sp02",
             },
             ["SKILL_DESC_4102Skill02_Sp03"] = {
-                ["ContentEN"] = "[Heaven's Clarity] Sanity Cost",
+                ["ContentEN"] = "[Fortune's Clarity] Sanity Cost",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sp03",
             },
             ["SKILL_DESC_4102Skill02_Sustain02"] = {
-                ["ContentEN"] = "[Thunder & Gale Converge] Field Duration",
+                ["ContentEN"] = "[Four Realms Align] Duration",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sustain02",
             },
             ["SKILL_DESC_4102Skill02_Sustain03"] = {
-                ["ContentEN"] = "[Heaven's Clarity] Duration",
+                ["ContentEN"] = "[Fortune's Clarity] Duration",
                 ["TextMapId"] = "SKILL_DESC_4102Skill02_Sustain03",
             },
             ["SKILL_DESC_4201DamagedRateLayer"] = {
-                ["ContentEN"] = "Each stack of [Battle Frenzy] decreases Electro Resistance.",
+                ["ContentEN"] = "[Thunderous Onslaught] Electro RES Reduce per stack",
                 ["TextMapId"] = "SKILL_DESC_4201DamagedRateLayer",
             },
             ["SKILL_DESC_4201ExThunderDamage"] = {
-                ["ContentEN"] = "[A Dance with Dragon & Fish] DMG",
+                ["ContentEN"] = "[Fish-Dragon Dance] DMG",
                 ["TextMapId"] = "SKILL_DESC_4201ExThunderDamage",
             },
             ["SKILL_DESC_4201ExThunderDamageRadius"] = {
-                ["ContentEN"] = "[A Dance with Dragon & Fish] DMG Radius",
+                ["ContentEN"] = "[Fish-Dragon Dance] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_4201ExThunderDamageRadius",
             },
             ["SKILL_DESC_4201FallAttackDamage"] = {
@@ -32899,7 +33404,7 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_4201FallAttackRadius",
             },
             ["SKILL_DESC_4201PassiveSustain"] = {
-                ["ContentEN"] = "[Battle Frenzy] Duration",
+                ["ContentEN"] = "[Thunderous Onslaught] Duration",
                 ["TextMapId"] = "SKILL_DESC_4201PassiveSustain",
             },
             ["SKILL_DESC_4201Skill02Damage"] = {
@@ -32955,11 +33460,11 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_4301Skill01DamageSp",
             },
             ["SKILL_DESC_4301Skill01Radius"] = {
-                ["ContentEN"] = "[Thunderbolt] Targeting Radius",
+                ["ContentEN"] = "[Divine Conqueror] DMG Radius",
                 ["TextMapId"] = "SKILL_DESC_4301Skill01Radius",
             },
             ["SKILL_DESC_4301Skill01RadiusSp"] = {
-                ["ContentEN"] = "[Legion's Punishment] AoE Radius",
+                ["ContentEN"] = "[Legion's Punishment] Radius",
                 ["TextMapId"] = "SKILL_DESC_4301Skill01RadiusSp",
             },
             ["SKILL_DESC_4301Skill01SecondEnergy"] = {
@@ -32970,6 +33475,10 @@ Throughout the Battle",
                 ["ContentEN"] = "DMG Taken Transfer",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02DamageRate",
             },
+        }
+    end },
+    { MinKey = "SKILL_DESC_4301Skill02ExploreDamage", MaxKey = "SkinTrialEvent_Title_Saiqi", Loader = function()
+        return {
             ["SKILL_DESC_4301Skill02ExploreDamage"] = {
                 ["ContentEN"] = "[Devastating Storm] DMG",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02ExploreDamage",
@@ -32999,11 +33508,11 @@ Throughout the Battle",
                 ["TextMapId"] = "SKILL_DESC_4301Skill02SecondEnergy",
             },
             ["SKILL_DESC_4301Skill03EnergyAdd"] = {
-                ["ContentEN"] = "[Might of Thunder] Points Gained",
+                ["ContentEN"] = "[Might of Thunder] Point Gained",
                 ["TextMapId"] = "SKILL_DESC_4301Skill03EnergyAdd",
             },
             ["SKILL_DESC_4301Skill04Rate"] = {
-                ["ContentEN"] = "Trigger Probability Conversion Percentage",
+                ["ContentEN"] = "Effect Probability",
                 ["TextMapId"] = "SKILL_DESC_4301Skill04Rate",
             },
             ["SKILL_DESC_5101AtkDamage1"] = {
@@ -33046,27 +33555,27 @@ Sanity Cost per second",
                 ["TextMapId"] = "SKILL_DESC_5102Skill01Buff",
             },
             ["SKILL_DESC_5102Skill02Buff"] = {
-                ["ContentEN"] = "[Hunt] Duration",
+                ["ContentEN"] = "[Relentless Hunt] Duration",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02Buff",
             },
             ["SKILL_DESC_5102Skill02BuffAdd"] = {
-                ["ContentEN"] = "Each [Fang Spike] extends the duration of [Hunt].",
+                ["ContentEN"] = "Each [Fang Spike] Extends [Relentless Hunt] Duration by",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02BuffAdd",
             },
             ["SKILL_DESC_5102Skill02BuffAddMax"] = {
-                ["ContentEN"] = "[Hunt] Max Duration Extension",
+                ["ContentEN"] = "[Relentless Hunt] Max Extended Duration",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02BuffAddMax",
             },
             ["SKILL_DESC_5102Skill02Hp"] = {
-                ["ContentEN"] = "Each [Fang Spike] drains HP.",
+                ["ContentEN"] = "HP Lost for Each [Fang Spike] Retracted",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02Hp",
             },
             ["SKILL_DESC_5102Skill03Dmg"] = {
-                ["ContentEN"] = "[Fang Spike] Damage Dealt",
+                ["ContentEN"] = "[Fang Spike] DMG",
                 ["TextMapId"] = "SKILL_DESC_5102Skill03Dmg",
             },
             ["SKILL_DESC_5102Skill03DmgUp"] = {
-                ["ContentEN"] = "[Throatcutter] takes more damage dealt by [Outsider]",
+                ["ContentEN"] = "DMG Taken From [Outsider] Boost",
                 ["TextMapId"] = "SKILL_DESC_5102Skill03DmgUp",
             },
             ["SKILL_DESC_5102Skill03DmgUpTime"] = {
@@ -33230,7 +33739,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "SKILL_DESC_DamageRadius",
             },
             ["SKILL_DESC_Damage_ConsumeSecondSp"] = {
-                ["ContentEN"] = "[Electrical Energy] Damage Multiplier Cost",
+                ["ContentEN"] = "[Volt Rush] DMG Boost",
                 ["TextMapId"] = "SKILL_DESC_Damage_ConsumeSecondSp",
             },
             ["SKILL_DESC_DefUp"] = {
@@ -33262,7 +33771,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "SKILL_DESC_DmgUpSkill",
             },
             ["SKILL_DESC_DmgUpTime"] = {
-                ["ContentEN"] = "Damage Dealt Boost Duration",
+                ["ContentEN"] = "DMG Boost Duration",
                 ["TextMapId"] = "SKILL_DESC_DmgUpTime",
             },
             ["SKILL_DESC_DmgUpWeapon"] = {
@@ -33286,7 +33795,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "SKILL_DESC_DotDamage",
             },
             ["SKILL_DESC_DotExplodeRate"] = {
-                ["ContentEN"] = "Percentage",
+                ["ContentEN"] = "Effect Percentage",
                 ["TextMapId"] = "SKILL_DESC_DotExplodeRate",
             },
             ["SKILL_DESC_EffectRadius"] = {
@@ -33326,15 +33835,15 @@ Sanity Cost per second",
                 ["TextMapId"] = "SKILL_DESC_ExploreRadius",
             },
             ["SKILL_DESC_ExploreRadius2"] = {
-                ["ContentEN"] = "Explosion Radius - Phase 2",
+                ["ContentEN"] = "2-Hit Explosion Radius",
                 ["TextMapId"] = "SKILL_DESC_ExploreRadius2",
             },
             ["SKILL_DESC_ExploreRadius3"] = {
-                ["ContentEN"] = "Explosion Radius - Phase 3",
+                ["ContentEN"] = "3-Hit Explosion Radius",
                 ["TextMapId"] = "SKILL_DESC_ExploreRadius3",
             },
             ["SKILL_DESC_ExploreRadius4"] = {
-                ["ContentEN"] = "Explosion Radius - Phase 4",
+                ["ContentEN"] = "4-Hit Explosion Radius",
                 ["TextMapId"] = "SKILL_DESC_ExploreRadius4",
             },
             ["SKILL_DESC_FallAttackDemage"] = {
@@ -33369,10 +33878,6 @@ Sanity Cost per second",
                 ["ContentEN"] = "Charged Attack Finisher DMG",
                 ["TextMapId"] = "SKILL_DESC_HeavyAttackDemage2",
             },
-        }
-    end },
-    { MinKey = "SKILL_DESC_Hot", MaxKey = "System_Des_Bag_CBT3", Loader = function()
-        return {
             ["SKILL_DESC_Hot"] = {
                 ["ContentEN"] = "HP Recovery per second",
                 ["TextMapId"] = "SKILL_DESC_Hot",
@@ -33470,7 +33975,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "SKILL_DESC_ShootingRate",
             },
             ["SKILL_DESC_ShootingRate2"] = {
-                ["ContentEN"] = "Firing Interval - Phase 2",
+                ["ContentEN"] = "Hit Firing Interval - Phase 2",
                 ["TextMapId"] = "SKILL_DESC_ShootingRate2",
             },
             ["SKILL_DESC_ShootingRate3"] = {
@@ -33594,11 +34099,11 @@ Sanity Cost per second",
                 ["TextMapId"] = "SKILL_DESC_TriggerProb",
             },
             ["SKILL_DESC_TriggerProbUp"] = {
-                ["ContentEN"] = "Trigger Probability Increase",
+                ["ContentEN"] = "Trigger Probability Boost",
                 ["TextMapId"] = "SKILL_DESC_TriggerProbUp",
             },
             ["SKILL_DESC_TriggerProbUpLayer"] = {
-                ["ContentEN"] = "Trigger Probability Increase per stack",
+                ["ContentEN"] = "Trigger Probability Boost per stack",
                 ["TextMapId"] = "SKILL_DESC_TriggerProbUpLayer",
             },
             ["SKILL_ICON_Damage"] = {
@@ -33777,6 +34282,10 @@ Sanity Cost per second",
                 ["ContentEN"] = "When Dreams Gild the Night",
                 ["TextMapId"] = "SkinTrialEvent_Title_Saiqi",
             },
+        }
+    end },
+    { MinKey = "SkinTrialEvent_Title_Shuimu", MaxKey = "TARGET_DUNGEON_RESCUE_103", Loader = function()
+        return {
             ["SkinTrialEvent_Title_Shuimu"] = {
                 ["ContentEN"] = "When Dreams Gild the Night",
                 ["TextMapId"] = "SkinTrialEvent_Title_Shuimu",
@@ -33874,7 +34383,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "StarterQuest_Des_102001_4_1",
             },
             ["StarterQuest_Des_102001_4_2"] = {
-                ["ContentEN"] = "Level up 3 character skills to Lv. 4",
+                ["ContentEN"] = "Level up 3 character skills to Lv. 3",
                 ["TextMapId"] = "StarterQuest_Des_102001_4_2",
             },
             ["StarterQuest_Des_102001_4_3"] = {
@@ -33890,7 +34399,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "StarterQuest_Des_102001_4_5",
             },
             ["StarterQuest_Des_102001_4_6"] = {
-                ["ContentEN"] = "Capture 3 Geniemons",
+                ["ContentEN"] = "Befriend with 3 Geniemons",
                 ["TextMapId"] = "StarterQuest_Des_102001_4_6",
             },
             ["StarterQuest_Des_102001_5_1"] = {
@@ -33914,7 +34423,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "StarterQuest_Des_102001_5_5",
             },
             ["StarterQuest_Des_102001_5_6"] = {
-                ["ContentEN"] = "Capture 10 Geniemons",
+                ["ContentEN"] = "Befriend with 10 Geniemons",
                 ["TextMapId"] = "StarterQuest_Des_102001_5_6",
             },
             ["StarterQuest_Des_102001_6_1"] = {
@@ -33926,7 +34435,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "StarterQuest_Des_102001_6_2",
             },
             ["StarterQuest_Des_102001_6_3"] = {
-                ["ContentEN"] = "Level up 6 character skills to Lv. 6",
+                ["ContentEN"] = "Level up 12 character skills to Lv. 3",
                 ["TextMapId"] = "StarterQuest_Des_102001_6_3",
             },
             ["StarterQuest_Des_102001_6_4"] = {
@@ -33954,7 +34463,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "StarterQuest_Des_102001_7_4",
             },
             ["StarterQuest_Des_102001_7_5"] = {
-                ["ContentEN"] = "Capture 20 Geniemons",
+                ["ContentEN"] = "Befriend with 20 Geniemons",
                 ["TextMapId"] = "StarterQuest_Des_102001_7_5",
             },
             ["StarterQuest_Des_102001_7_6"] = {
@@ -34042,19 +34551,19 @@ Sanity Cost per second",
                 ["TextMapId"] = "StoryEvent21_Char04",
             },
             ["StoryEventName_11"] = {
-                ["ContentEN"] = "Falling Birds, Bottomless Depths (I)",
+                ["ContentEN"] = "Falling Birds, Bottomless Depths (Ⅰ)",
                 ["TextMapId"] = "StoryEventName_11",
             },
             ["StoryEventName_12"] = {
-                ["ContentEN"] = "Where the Orphan Treads the Barrens (I)",
+                ["ContentEN"] = "Where the Orphan Treads the Barrens (Ⅰ)",
                 ["TextMapId"] = "StoryEventName_12",
             },
             ["StoryEventName_13"] = {
-                ["ContentEN"] = "Where the Orphan Treads the Barrens (II)",
+                ["ContentEN"] = "Where the Orphan Treads the Barrens (Ⅱ)",
                 ["TextMapId"] = "StoryEventName_13",
             },
             ["StoryEventName_21"] = {
-                ["ContentEN"] = "Falling Birds, Bottomless Depths (II)",
+                ["ContentEN"] = "Falling Birds, Bottomless Depths (Ⅱ)",
                 ["TextMapId"] = "StoryEventName_21",
             },
             ["StoryEventType_1"] = {
@@ -34173,10 +34682,6 @@ Sanity Cost per second",
                 ["ContentEN"] = "<Highlight>Inventory</> now unlocked",
                 ["TextMapId"] = "System_Des_Bag_CBT3",
             },
-        }
-    end },
-    { MinKey = "System_Des_BattlePass", MaxKey = "TERM_5101_Skill02_Value", Loader = function()
-        return {
             ["System_Des_BattlePass"] = {
                 ["ContentEN"] = "<Highlight>Ballad Pass</> is now unlocked. Share your adventures with Lirico to help complete her ballad collection!",
                 ["TextMapId"] = "System_Des_BattlePass",
@@ -34186,7 +34691,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "System_Des_BattleWheel",
             },
             ["System_Des_CardLevel"] = {
-                ["ContentEN"] = "<Highlight>Introns</> is now unlocked. Trace back to the origins and unlock more potential.",
+                ["ContentEN"] = "<Highlight>Introns</> is now unlocked. Trace back to the origins and unlock more Trait.",
                 ["TextMapId"] = "System_Des_CardLevel",
             },
             ["System_Des_Chat"] = {
@@ -34274,7 +34779,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "System_Des_Match",
             },
             ["System_Des_Mod"] = {
-                ["ContentEN"] = "<Highlight>Demon Wedges</> are now available. Strategically equip various Demon Wedges to greatly empower your characters and weapons.",
+                ["ContentEN"] = "<Highlight>Demon Wedges</> is now unlocked. Strategically equip various Demon Wedges to greatly empower your characters and weapons.",
                 ["TextMapId"] = "System_Des_Mod",
             },
             ["System_Des_ModArchive"] = {
@@ -34298,7 +34803,7 @@ Sanity Cost per second",
                 ["TextMapId"] = "System_Des_Notice",
             },
             ["System_Des_Pet"] = {
-                ["ContentEN"] = "<Highlight>Geniemon</> is now unlocked. Embark on an adventure with these marvellous creatures!",
+                ["ContentEN"] = "<Highlight>Geniemons</> is now unlocked. Embark on an adventure with these marvellous creatures!",
                 ["TextMapId"] = "System_Des_Pet",
             },
             ["System_Des_PhotoCamera"] = {
@@ -34412,6 +34917,42 @@ Sanity Cost per second",
             ["TARGET_DUNGEON_106"] = {
                 ["ContentEN"] = "Start",
                 ["TextMapId"] = "TARGET_DUNGEON_106",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle0"] = {
+                ["ContentEN"] = "Trial Ⅰ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle0",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle1"] = {
+                ["ContentEN"] = "Trial Ⅱ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle1",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle2"] = {
+                ["ContentEN"] = "Trial Ⅲ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle2",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle3"] = {
+                ["ContentEN"] = "Trial Ⅳ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle3",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle4"] = {
+                ["ContentEN"] = "Final Trial",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle4",
+            },
+            ["TARGET_DUNGEON_Abyss_Boss"] = {
+                ["ContentEN"] = "Head to the Final Trial and defeat the high-threat enemy",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Boss",
+            },
+            ["TARGET_DUNGEON_Abyss_Default"] = {
+                ["ContentEN"] = "Defeat the incoming enemies",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Default",
+            },
+            ["TARGET_DUNGEON_Abyss_Interact"] = {
+                ["ContentEN"] = "Crack the mechanism to start the Trial",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Interact",
+            },
+            ["TARGET_DUNGEON_Abyss_Switch"] = {
+                ["ContentEN"] = "Head to the next Trial",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Switch",
             },
             ["TARGET_DUNGEON_CAPTURE_100"] = {
                 ["ContentEN"] = "Capture",
@@ -34545,6 +35086,10 @@ Sanity Cost per second",
                 ["ContentEN"] = "Escort the target to the Evacuation Point",
                 ["TextMapId"] = "TARGET_DUNGEON_RESCUE_103",
             },
+        }
+    end },
+    { MinKey = "TARGET_DUNGEON_RougeLike_100", MaxKey = "TextMap_AnswerDetail_200108", Loader = function()
+        return {
             ["TARGET_DUNGEON_RougeLike_100"] = {
                 ["ContentEN"] = "Battle",
                 ["TextMapId"] = "TARGET_DUNGEON_RougeLike_100",
@@ -34587,7 +35132,7 @@ Sanity Cost per second",
             },
             ["TARGET_DUNGEON_RougeLike_109_Sub"] = {
                 ["ContentEN"] = "Optional: Make a trade with the Mysterious Merchant\
-Optional: Get supplies from Avian Spirit",
+Optional: Get supplies from the Avian Spirit",
                 ["TextMapId"] = "TARGET_DUNGEON_RougeLike_109_Sub",
             },
             ["TARGET_DUNGEON_RougeLike_110"] = {
@@ -34623,17 +35168,17 @@ Optional: Get supplies from Avian Spirit",
                 ["TextMapId"] = "TERMEXP_1103_Combo",
             },
             ["TERMEXP_1103_Finish"] = {
-                ["ContentEN"] = "Increases Damage Dealt based on the target's [Adagio] stacks, then removes all [Adagio] stacks. When there are 10 [Adagio] stacks on the target, restores Phantasio's Sanity and grants a certain amount of [Immersion] when dealing damage. This effect can only be triggered once every attack.",
+                ["ContentEN"] = "Increases Phantasio's damage based on the target's [Adagio] stacks, then removes all [Adagio] stacks. When there are 10 [Adagio] stacks on the target, restores Phantasio's Sanity and grants a certain amount of [Immersion]. This effect can only be triggered once every attack.",
                 ["TextMapId"] = "TERMEXP_1103_Finish",
             },
             ["TERMEXP_1103_HyperForm"] = {
-                ["ContentEN"] = "When in [Bestial Fury: Devotion] state, continuously consumes  [Immersion] instead of Sanity to maintain the [Bestial Fury] state and  increase Movement Speed, Skill Speed and Attack based on Phantasio's Max Sanity.\
-When in [Bestial Fury: Devotion] state, Phantasio can not gain [Immersion].",
+                ["ContentEN"] = "When in [Bestial Fury: Devotion] state, continuously consumes [Immersion] instead of Sanity to maintain the [Bestial Fury] state and increases Movement Speed, Skill Speed and ATK based on Phantasio's Max Sanity.\
+When in [Bestial Fury: Devotion] state, Phantasio cannot gain [Immersion] per second through [Bestial Fury] state.",
                 ["TextMapId"] = "TERMEXP_1103_HyperForm",
             },
             ["TERMEXP_1103_Skill01"] = {
-                ["ContentEN"] = "Dashes forward, dealing Umbro Damage to enemies in the path, and gains [Presto].\
-[Presto]: Increases Skill Range and grants immunity to Hitstun while taking damage.",
+                ["ContentEN"] = "Dashes forward, dealing Umbro Damage to enemies along the path, and gains [Presto].\
+[Presto]: Increases Skill Range and grants immunity to Hitstun.",
                 ["TextMapId"] = "TERMEXP_1103_Skill01",
             },
             ["TERMEXP_1502_Skill01"] = {
@@ -34653,7 +35198,7 @@ When in [Bestial Fury: Devotion] state, Phantasio can not gain [Immersion].",
             ["TERMEXP_1503_Skill02_02"] = {
                 ["ContentEN"] = "Kezhou can have a maximum of 7 [Phanoplumes] at the same time. When launched, each [Phanoplume] selects a random enemy to orbit and homes towards them to attack, dealing Lumino Damage to enemies along the path. After attacking the enemy 4 times, the [Phanoplume] dissipates.\
 \
-Targets hit by [Phanoplume] take additional damage, which is equivalent to a certain percentage of the DoT of \"Bonus Effect: Lumino\" multiplied by Kezhou's Melee Weapon Trigger Probability.",
+Targets hit by [Phanoplume] take additional damage, which is equivalent to a certain percentage of the DoT of Bonus Effect: Lumino multiplied by Kezhou's Melee Weapon Trigger Probability.",
                 ["TextMapId"] = "TERMEXP_1503_Skill02_02",
             },
             ["TERMEXP_1801_Passive"] = {
@@ -34685,7 +35230,7 @@ When defeated, enemies inflicted with [Poison of Love] transfer their [Poison of
             },
             ["TERMEXP_2401_Summon"] = {
                 ["ContentEN"] = "Inherits 100% of Fushu's stats and deals Hydro Damage to the nearest 5 enemies once every second.\
-[Summon: Yunchi] restores HP and Sanity for nearby teammates once every 3s.",
+[Yunchi] restores HP and Sanity for nearby teammates once every 3s.",
                 ["TextMapId"] = "TERMEXP_2401_Summon",
             },
             ["TERMEXP_3101_Debuff"] = {
@@ -34711,11 +35256,11 @@ Detonates all [Tot Poppers] within range and the lab explodes to deal Pyro Damag
                 ["TextMapId"] = "TERMEXP_3103_Skill02",
             },
             ["TERMEXP_3103_Summon01"] = {
-                ["ContentEN"] = "When dealing damage, causes greater Stance reduction to the target(s). The greater the difference between the Skill Range and Skill Damage provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Yale's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Yale's Make].",
+                ["ContentEN"] = "When dealing damage, causes greater Stance reduction to the target(s). The greater the difference between Yale and Oliver's Skill Range and the Skill Damage provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Yale's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Yale's Make].",
                 ["TextMapId"] = "TERMEXP_3103_Summon01",
             },
             ["TERMEXP_3103_Summon02"] = {
-                ["ContentEN"] = "Deals higher damage. The greater the difference between the Skill Damage and Skill Range provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Oliver's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Oliver's Make].",
+                ["ContentEN"] = "Deals higher damage. The greater the difference between Yale and Oliver's Skill Damage and the Skill Range provided by equipped Demon Wedges, the higher the chance of deploying [Tot Popper: Oliver's Make]. If the difference is no less than 50%, it's guaranteed to be a [Tot Popper: Oliver's Make].",
                 ["TextMapId"] = "TERMEXP_3103_Summon02",
             },
             ["TERMEXP_3201_Skill01"] = {
@@ -34724,69 +35269,71 @@ If Hellfire takes damage during [Retribution], extends the state duration and de
                 ["TextMapId"] = "TERMEXP_3201_Skill01",
             },
             ["TERMEXP_4101_Skill02_01"] = {
-                ["ContentEN"] = "Increases Movement Speed for Rhythm and nearby teammates. Deals Electro Damage to 1 random enemy within range per second and alternately applies [Positive Charge] and [Negative Charge] to enemies around, prioritizing enemies without [Electric Charge] on them.",
+                ["ContentEN"] = "Increases Movement Speed for Rhythm and her nearby teammate(s). Deals Electro Damage to 1 random enemy within range per second and alternately inflicts [Positive Charge] and [Negative Charge] on them, prioritizing enemies without [Electric Charge].",
                 ["TextMapId"] = "TERMEXP_4101_Skill02_01",
             },
             ["TERMEXP_4101_Skill02_02"] = {
                 ["ContentEN"] = "Target with [Positive Charge] selects 1 random target with [Negative Charge] within range every 3s, both being pulled towards the midpoint between their positions and taking Electro Damage. If no [Negative Charge] targets are around, selects 1 random target to take Electro Damage together. \
-When a target with [Electric Charge] is applied with the same charge type again, the duration of the [Electric Charge] on them is refreshed, and they cannot be applied with the opposite [Electric Charge] type.",
+When a target with [Electric Charge] is inflicted with the same charge type again, the duration of the [Electric Charge] on them is refreshed, and they cannot be applied with the opposite [Electric Charge] type.",
                 ["TextMapId"] = "TERMEXP_4101_Skill02_02",
             },
             ["TERMEXP_4102_Skill02_01"] = {
-                ["ContentEN"] = "When holding 2 [Spring Fulus · Quake], [Cosmic Play] becomes this skill instead. \
-Removes all [Spring Fulus]. Deals Electro Damage to enemies in a straight line ahead.",
+                ["ContentEN"] = "When Zhiliu has 2 [Talismans: Zhen], [Heaven-Earth Divination] is replaced with [Thunder's Oracle Peal]. \
+[Thunder's Oracle Peal]: Consumes all [Talismans], dealing Electro Damage to enemies in a straight line ahead.",
                 ["TextMapId"] = "TERMEXP_4102_Skill02_01",
             },
             ["TERMEXP_4102_Skill02_02"] = {
-                ["ContentEN"] = "When holding 1 [Spring Fulu · Quake] and 1 [Spring Fulu · Wind], [Cosmic Play] becomes this skill instead. \
-Removes all [Spring Fulus]. Deals DoT to enemies within range, then spawns a [Thunder & Gale Converge] field at their location. Every 3s, selects random enemies within range to spawn a [Thunder & Gales] at their location, dealing AoE Electro Damage.",
+                ["ContentEN"] = "When Zhiliu has 1 [Talisman: Zhen] and 1 [Talisman: Xun], [Heaven-Earth Divination] is replaced with [Myriad Things Thrive].\
+[Myriad Things Thrive]: Consumes all [Talismans], dealing periodic damage to enemies within range in front, then creates a [Four Realms Align] field at the location.\
+[Four Realms Align]: Selects several enemies within range every 3s and inflicts 1 strike of [Zhen-Xun Convergence] on them.\
+[Zhen-Xun Convergence]: Deals AoE Electro Damage.",
                 ["TextMapId"] = "TERMEXP_4102_Skill02_02",
             },
             ["TERMEXP_4102_Skill02_03"] = {
-                ["ContentEN"] = "When holding 2 [Spring Fulus · Wind], [Cosmic Play] becomes this skill instead. \
-Removes all [Spring Fulus]. Increases Skill DMG.",
+                ["ContentEN"] = "When Zhiliu has 2 [Talismans: Xun], [Heaven-Earth Divination] is replaced with [Fortune's Clarity].\
+[Fortune's Clarity]: Consumes all [Talismans] to deal Electro Damage to enemies around and increase Zhiliu's Skill Damage.",
                 ["TextMapId"] = "TERMEXP_4102_Skill02_03",
             },
             ["TERMEXP_4201_BonusAttack"] = {
-                ["ContentEN"] = "Unleashes 5 strikes of [Raging Thunder] at the location of the target attacked by [Starlight Descent] or [Starstorm Descent], dealing Electro AoE Damage, with priority given to different target locations.",
+                ["ContentEN"] = "Unleashes 5 strikes of [Raging Thunder] at the location of the target attacked by [Starlight Descent] or [Starstorm Descent], dealing AoE Electro Damage, with priority given to different target locations.",
                 ["TextMapId"] = "TERMEXP_4201_BonusAttack",
             },
             ["TERMEXP_4201_FallAttack"] = {
-                ["ContentEN"] = "Plunges at high speed, dealing Electro AoE Damage on impact. This attack is regarded as a melee weapon Plunging Attack. Using this skill in [Xuanjiao Manifest] state triggers [Wyrmcall Clouds].",
+                ["ContentEN"] = "Plunges at high speed, dealing AoE Electro Damage on impact. This attack is regarded as a melee weapon Plunging Attack. Using this skill in [Xuanjiao Manifest] state triggers [Wyrmcall Clouds].",
                 ["TextMapId"] = "TERMEXP_4201_FallAttack",
             },
             ["TERMEXP_4201_Marks"] = {
-                ["ContentEN"] = "Reverse Scale persists, with a maximum of 6 scales existing at the same time. The scales are removed when [Xuanjiao Manifest] state ends.",
+                ["ContentEN"] = "Reverse Scale persists, with a maximum of 6 scales existing at the same time. The scales are removed when the [Xuanjiao Manifest] state ends.",
                 ["TextMapId"] = "TERMEXP_4201_Marks",
             },
             ["TERMEXP_4201_Summon"] = {
                 ["ContentEN"] = "Grants immunity to Hitstun when taking damage. Xuanjiao hovers around Yuming, dealing Electro Damage to enemies on contact. Can only deal damage to the same target once every 2s.\
-When Yuming or his nearby teammates consume Sanity to use skills: Next Skill DMG creates [A Dance with Dragon & Fish] at the target location, dealing AoE Electro Damage (up to once per 2s). \
-Xuanjiao absorbs HP damage taken by [Yuming]. When absorbed damage reaches a percentage of [Yuming]'s Max HP, [Xuanjiao Manifest] ends.",
+After Yuming or his nearby teammates consume Sanity to use a skill, the next time they deal Skill Damage unleashes 1 strike of [Fish-Dragon Dance] at the location of the target, dealing AoE Electro Damage. This effect can only be triggered once every 2s.\
+Xuanjiao absorbs the damage dealt to Yuming's HP. When the absorbed damage reaches a percentage of Yuming's Max HP, the [Xuanjiao Manifest] state ends.",
                 ["TextMapId"] = "TERMEXP_4201_Summon",
             },
             ["TERMEXP_4201_SuperFallAttack"] = {
                 ["ContentEN"] = "Consumes all [Reverse Scales] to increase Skill Damage for Yuming and the nearby teammate(s).\
-Then Yuming plunges at high speed, dealing Electro AoE Damage on impact. This attack is regarded as a melee weapon Plunging Attack. Using this skill in [Xuanjiao Manifest] state triggers [Wyrmcall Clouds].",
+Then Yuming plunges at high speed, dealing AoE Electro Damage on impact. This attack is regarded as a melee weapon Plunging Attack. Using this skill in [Xuanjiao Manifest] state triggers [Wyrmcall Clouds].",
                 ["TextMapId"] = "TERMEXP_4201_SuperFallAttack",
             },
             ["TERMEXP_4202_Skill01"] = {
-                ["ContentEN"] = "[Barrier] blocks frontal projectiles and absorbs their damage.\
-[Barrier] expires once it has absorbed damage equivalent to 100% of Randy's Max HP.",
+                ["ContentEN"] = "[Barrier] blocks frontal projectiles and absorbs their damage, and expires once it has absorbed damage equivalent to 100% of Randy's Max HP.",
                 ["TextMapId"] = "TERMEXP_4202_Skill01",
             },
             ["TERMEXP_4202_Skill01Buff"] = {
-                ["ContentEN"] = "Decreases ATK, and takes Electro Damage once every 2s.",
+                ["ContentEN"] = "Decreases ATK, and deals Electro Damage once every 2s.",
                 ["TextMapId"] = "TERMEXP_4202_Skill01Buff",
             },
             ["TERMEXP_4301_Skill01"] = {
-                ["ContentEN"] = "After a 1.5s delay, consumes [Might of Thunder] every 0.4s to strike a random enemy within range, dealing Electro Damage. Lasts up to 10s. When [Might of Thunder] is depleted, the [Legion's Punishment] field dissipates. A maximum of 5 fields can exist at once.",
+                ["ContentEN"] = "When created and after a 1.5s delay, [Legion's Punishment] consumes a certain amount of [Might of Thunder] every 0.4s to deal Electro Damage to 1 random enemy within range, lasting up to 10s.\
+When [Might of Thunder] drops to 0, the [Legion's Punishment] field dissipates. A maximum of 5 [Legion's Punishment] fields can exist at the same time.",
                 ["TextMapId"] = "TERMEXP_4301_Skill01",
             },
             ["TERMEXP_4301_Skill02"] = {
-                ["ContentEN"] = "Inherits a percentage of Sibylle's Max HP with 0 DEF, and is considered an enemy unit.\
-Once summoned, [Summon: Chaotic Thunderorb] calls forth [Devastating Storm] once every 3s and links to the furthest 5 enemies within range. It links 1 more enemy per second, up to 10 enemies, and deals Electro Damage to the linked targets once per second.\
-When the [Summon: Chaotic Thunderorb] takes damage, it transfers the damage taken to the linked targets in a certain percentage.",
+                ["ContentEN"] = "Inherits a certain percentage of Sibylle's Max HP with 0 DEF, and is considered an enemy unit.\
+Once summoned, [Chaotic Thunderorb] calls forth [Devastating Storm] once every 3s and links to the furthest 5 enemies within range. It links 1 more enemy per second, up to 10 enemies, dealing Electro Damage to the linked targets once per second.\
+When [Chaotic Thunderorb] takes damage, it transfers the damage taken to the linked targets at a certain percentage.",
                 ["TextMapId"] = "TERMEXP_4301_Skill02",
             },
             ["TERMEXP_4301_Skill02Damage"] = {
@@ -34802,15 +35349,19 @@ When the [Summon: Chaotic Thunderorb] takes damage, it transfers the damage take
                 ["TextMapId"] = "TERMEXP_5101_Skill02_Value",
             },
             ["TERMEXP_5102_Skill01"] = {
-                ["ContentEN"] = "While in [Stealth] status, you are undetectable by enemies. Taking damage does not break [Stealth]. Attacking or using [Hunter's Strike] will exit [Stealth] status.",
+                ["ContentEN"] = "When in [Stealth] state, Outsider cannot be detected by enemies, and taking damage will not exit [Stealth].\
+Launching attack or using [Predator's Pounce] will exit [Stealth] state.",
                 ["TextMapId"] = "TERMEXP_5102_Skill01",
             },
             ["TERMEXP_5102_Skill02"] = {
-                ["ContentEN"] = "While in [Hunt] status, you are immune to Hitstun. Increases your weapon's ATK Speed and Malaise effects. All healing received under [Hunt] status is converted to equal Ultra Shield.",
+                ["ContentEN"] = "When in [Relentless Hunt] state, Outsider is immune to Hitstun and gains weapon Attack Speed boost and Malaise boost.\
+Outsider cannot receive Healing in this state, and any Healing received is converted into an equivalent amount of Ultra Shield.",
                 ["TextMapId"] = "TERMEXP_5102_Skill02",
             },
             ["TERMEXP_5102_Skill03"] = {
-                ["ContentEN"] = "Flies toward its target, dealing Anemo Damage to enemies along its path and applying [Throatcutter] (increases Damage Taken from Outsider). After flying for a duration, descends and remains on the ground. You can have up to 10 at a time.",
+                ["ContentEN"] = "When generated, [Fang Spike] flies toward its target, dealing Anemo Damage to enemies along the path and infilcting [Throatcutter] on them.\
+After flying for a period of time, [Fang Spike] falls and remains on the ground. A maximum of 10 [Fang Spikes] can exist at the same time.\
+[Throatcutter]: increases damage taken from Outsider.",
                 ["TextMapId"] = "TERMEXP_5102_Skill03",
             },
             ["TERMEXP_5301_Skill01"] = {
@@ -34947,15 +35498,15 @@ When a new [Phantasm] is created, the existing [Phantasm] immediately deals Anem
                 ["TextMapId"] = "TERM_4101_Skill02_02",
             },
             ["TERM_4102_Skill02_01"] = {
-                ["ContentEN"] = "Thunder Echo",
+                ["ContentEN"] = "Thunder's Oracle Peal",
                 ["TextMapId"] = "TERM_4102_Skill02_01",
             },
             ["TERM_4102_Skill02_02"] = {
-                ["ContentEN"] = "Life Surge",
+                ["ContentEN"] = "Myriad Things Thrive",
                 ["TextMapId"] = "TERM_4102_Skill02_02",
             },
             ["TERM_4102_Skill02_03"] = {
-                ["ContentEN"] = "Heaven's Clarity",
+                ["ContentEN"] = "Fortune's Clarity",
                 ["TextMapId"] = "TERM_4102_Skill02_03",
             },
             ["TERM_4201_BonusAttack"] = {
@@ -34991,7 +35542,7 @@ When a new [Phantasm] is created, the existing [Phantasm] immediately deals Anem
                 ["TextMapId"] = "TERM_4301_Skill01",
             },
             ["TERM_4301_Skill02"] = {
-                ["ContentEN"] = "Summoned Item: Chaotic Thunderorb",
+                ["ContentEN"] = "Summoned: Chaotic Thunderorb",
                 ["TextMapId"] = "TERM_4301_Skill02",
             },
             ["TERM_4301_Skill02Damage"] = {
@@ -35006,16 +35557,12 @@ When a new [Phantasm] is created, the existing [Phantasm] immediately deals Anem
                 ["ContentEN"] = "Passion For Work",
                 ["TextMapId"] = "TERM_5101_Skill02_Value",
             },
-        }
-    end },
-    { MinKey = "TERM_5102_Skill01", MaxKey = "UIGuide_CursorActivation", Loader = function()
-        return {
             ["TERM_5102_Skill01"] = {
                 ["ContentEN"] = "Stealth",
                 ["TextMapId"] = "TERM_5102_Skill01",
             },
             ["TERM_5102_Skill02"] = {
-                ["ContentEN"] = "Hunt",
+                ["ContentEN"] = "Relentless Hunt",
                 ["TextMapId"] = "TERM_5102_Skill02",
             },
             ["TERM_5102_Skill03"] = {
@@ -35099,7 +35646,7 @@ When a new [Phantasm] is created, the existing [Phantasm] immediately deals Anem
                 ["TextMapId"] = "TOAST_PHANTOM_ISDEAD",
             },
             ["TOAST_PHANTOM_TIMES"] = {
-                ["ContentEN"] = "Remaining Revive(s):{空格}",
+                ["ContentEN"] = "Remaining Revival(s):{空格}",
                 ["TextMapId"] = "TOAST_PHANTOM_TIMES",
             },
             ["TOAST_PHANTOM_ZERO"] = {
@@ -35380,6 +35927,10 @@ The assembled vane points southwest — confirming the direction of flight.",
 While she fits the profile of a child, it's clear the popcorn beneath Buck's window didn't come from her.",
                 ["TextMapId"] = "TextMap_AnswerDetail_200108",
             },
+        }
+    end },
+    { MinKey = "TextMap_AnswerName_100003", MaxKey = "UIGuide_Shadow_2", Loader = function()
+        return {
             ["TextMap_AnswerName_100003"] = {
                 ["ContentEN"] = "Galea Theatre — Possible Hide‑out",
                 ["TextMapId"] = "TextMap_AnswerName_100003",
@@ -35541,15 +36092,17 @@ While she fits the profile of a child, it's clear the popcorn beneath Buck's win
                 ["TextMapId"] = "Text_Ascend",
             },
             ["Text_Same"] = {
-                ["ContentEN"] = "Materials Cost",
+                ["ContentEN"] = "Materials Required",
                 ["TextMapId"] = "Text_Same",
             },
             ["Textmap_UnlockContent"] = {
-                ["ContentEN"] = "Raise your Trial Rank and complete certain side quests to unlock the next main story chapter.\
+                ["ContentEN"] = "Raise your Trial Rank and complete certain side quests to continue the main story.\
 \
 You can earn Trial EXP by:\
-1. Completing <H>Commissions</> (excluding Noctoyager Manual Commissions)\
-2. Completing Demon Wedge collection quests from the <H>Demon Wedge Casket</> system",
+1.  Complete any kind of <H>Commissions</> (excluding Noctoyager Manual Commissions)\
+2. Complete Demon Wedge quests in <H>Demon Wedge Casket</>\
+3. Talk to local residents and complete certain <H>Side Quests</>\
+4. Open <H>chests</> in areas outside of Commissions",
                 ["TextMapId"] = "Textmap_UnlockContent",
             },
             ["Textmap_UnlockTitle"] = {
@@ -35587,6 +36140,10 @@ You can earn Trial EXP by:\
             ["Toast_MiYao"] = {
                 ["ContentEN"] = "Key successfully retrieved",
                 ["TextMapId"] = "Toast_MiYao",
+            },
+            ["Toast_NeedAcceptQuest"] = {
+                ["ContentEN"] = "Open the map to accept quests",
+                ["TextMapId"] = "Toast_NeedAcceptQuest",
             },
             ["Toast_PaoJi"] = {
                 ["ContentEN"] = "Passage opened. Leave the turret and proceed to the central control room.",
@@ -35741,11 +36298,11 @@ Tap the button to unleash Berenica's Ultimate Skill [Netherflames]. [Netherflame
                 ["TextMapId"] = "UIGuide_Abyss_1",
             },
             ["UIGuide_Abyss_2"] = {
-                ["ContentEN"] = "As the curtain rises, performers disguised as enemies take the stage. Defeat the required number of foes within the time limit to proceed.",
+                ["ContentEN"] = "As the curtain rises, performers disguised as enemies take the stage. Defeat the required number of enemies within the time limit to proceed.",
                 ["TextMapId"] = "UIGuide_Abyss_2",
             },
             ["UIGuide_Abyss_3_1"] = {
-                ["ContentEN"] = "Success: Eliminate the target number of enemies within the time limit to unlock the next Act.",
+                ["ContentEN"] = "Success: Eliminate the target number of enemies within the time limit to unlock the next stage.",
                 ["TextMapId"] = "UIGuide_Abyss_3_1",
             },
             ["UIGuide_Abyss_3_2"] = {
@@ -35753,7 +36310,7 @@ Tap the button to unleash Berenica's Ultimate Skill [Netherflames]. [Netherflame
                 ["TextMapId"] = "UIGuide_Abyss_3_2",
             },
             ["UIGuide_Abyss_4"] = {
-                ["ContentEN"] = "Once the path forward opens, proceed to the next Act before the countdown ends — or the challenge will fail.",
+                ["ContentEN"] = "Once the path forward opens, proceed to the next stage before the countdown ends — or the challenge will fail.",
                 ["TextMapId"] = "UIGuide_Abyss_4",
             },
             ["UIGuide_Abyss_5"] = {
@@ -35761,7 +36318,7 @@ Tap the button to unleash Berenica's Ultimate Skill [Netherflames]. [Netherflame
                 ["TextMapId"] = "UIGuide_Abyss_5",
             },
             ["UIGuide_AssistanceSkill"] = {
-                ["ContentEN"] = "You can gain power from <H>Geniemons</> to help your team in battle through Geniemon Support.",
+                ["ContentEN"] = "<H>Geniemons</> provide a variety of assists in battle.",
                 ["TextMapId"] = "UIGuide_AssistanceSkill",
             },
             ["UIGuide_BattleWheel_1"] = {
@@ -35822,10 +36379,6 @@ The additional damage may trigger the corresponding Bonus Effect based on the <H
                 ["ContentEN"] = "Hold &ShowCursor& to show the cursor to interact with the icons on the page.",
                 ["TextMapId"] = "UIGuide_CursorActivation",
             },
-        }
-    end },
-    { MinKey = "UIGuide_DamageMechanism_1", MaxKey = "UIGuide_Title_TurnTable", Loader = function()
-        return {
             ["UIGuide_DamageMechanism_1"] = {
                 ["ContentEN"] = "Auto-defence mechanisms target <H>all units</> within range.",
                 ["TextMapId"] = "UIGuide_DamageMechanism_1",
@@ -35957,7 +36510,7 @@ The additional damage may trigger the corresponding Bonus Effect based on the <H
                 ["TextMapId"] = "UIGuide_HardBoss_01",
             },
             ["UIGuide_HardBoss_02"] = {
-                ["ContentEN"] = "Bosses in Nocturnal Echoes challenges are much stronger than regular ones. You can acquire rewards from Nocturnal Echoes challenges <H>50 times per week</>.",
+                ["ContentEN"] = "Bosses in Nocturnal Echoes challenges are much stronger than regular ones. You can acquire rewards from Nocturnal Echoes challenges <H>3 times per week</>.",
                 ["TextMapId"] = "UIGuide_HardBoss_02",
             },
             ["UIGuide_ImpressionCheck_1"] = {
@@ -36106,11 +36659,11 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_PetPan_Title",
             },
             ["UIGuide_Pet_1"] = {
-                ["ContentEN"] = "The <H>Geniemons</> system is now available. You can now capture <H>Geniemons</> from various locations across the world. They can enhance the power of Resonance to better help your teammates in battle.",
+                ["ContentEN"] = "<H>Geniemons</> is now available. You may encounter <H>Geniemons</> from various locations across the world now. They can provide a variety of assists in battle.",
                 ["TextMapId"] = "UIGuide_Pet_1",
             },
             ["UIGuide_Pet_2"] = {
-                ["ContentEN"] = "Use high-quality Treats and time your capture attempts wisely to greatly increase your chances of success.",
+                ["ContentEN"] = "Use high-quality Treats and time your feeding attempts wisely to greatly increase your chances of befriending a Geniemon.",
                 ["TextMapId"] = "UIGuide_Pet_2",
             },
             ["UIGuide_Phantom_1_1"] = {
@@ -36150,7 +36703,7 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_Phantom_3_3",
             },
             ["UIGuide_Phantom_4_1"] = {
-                ["ContentEN"] = "Combat Partners use both Sanity and ammo in battle. They'll need to gather ammunition from defeated enemies to stay in the fight.",
+                ["ContentEN"] = "Combat Partners consume both Sanity and Ammo in battle. Approaching ammunition dropped by enemies can replenish their Ammo. ",
                 ["TextMapId"] = "UIGuide_Phantom_4_1",
             },
             ["UIGuide_Reading"] = {
@@ -36178,8 +36731,12 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_Rouge_2_2",
             },
             ["UIGuide_Rouge_2_3"] = {
-                ["ContentEN"] = "Respite Zone: A safe zone where you can trade Embers for supplies, restore HP, and recover Sanity.",
+                ["ContentEN"] = "R&R Zone: A safe zone where you can trade Embers for supplies, restore HP, and recover Sanity.",
                 ["TextMapId"] = "UIGuide_Rouge_2_3",
+            },
+            ["UIGuide_SIDEWAYSJUMP"] = {
+                ["ContentEN"] = "When near a climbable wall, hold a direction and press &Jump& <H>repeatedly</> to leap sideways and perform consecutive wall jumps.",
+                ["TextMapId"] = "UIGuide_SIDEWAYSJUMP",
             },
             ["UIGuide_Shadow_1"] = {
                 ["ContentEN"] = "Use <H>Combat Partner Sigil</> to summon allies in battle. Drag Combat Partner Sigils into the Tactical Backpack to enable summoning.",
@@ -36189,12 +36746,16 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["ContentEN"] = "Hold &OpenBattleWheel& to summon allies, who will fight alongside your current character.",
                 ["TextMapId"] = "UIGuide_Shadow_2",
             },
+        }
+    end },
+    { MinKey = "UIGuide_Sojourns_01", MaxKey = "UI_Accessory_Desc_30008", Loader = function()
+        return {
             ["UIGuide_Sojourns_01"] = {
-                ["ContentEN"] = "<Highlight>Ripples of Talk</> unlocked. Tap the icon at Sanctuary to access them.",
+                ["ContentEN"] = "<Highlight>Ripples of Talk</> unlocked. Select the icon at Sanctuary to access them.",
                 ["TextMapId"] = "UIGuide_Sojourns_01",
             },
             ["UIGuide_Sojourns_01_Pad"] = {
-                ["ContentEN"] = "<Highlight>Ripples of Talk</> unlocked Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> at the Sanctuary to access them",
+                ["ContentEN"] = "<Highlight>Ripples of Talk</> is now unlocked. Press at the Sanctuary to access them",
                 ["TextMapId"] = "UIGuide_Sojourns_01_Pad",
             },
             ["UIGuide_Sojourns_02"] = {
@@ -36206,7 +36767,7 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_Sojourns_03",
             },
             ["UIGuide_Sojourns_03_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to visit <Highlight>Sojourns of the Pages of Time</> and explore stories from different stages of a character's life",
+                ["ContentEN"] = "Press to visit <Highlight>Sojourns of the Pages of Time</> and explore stories from different stages of a character's experience",
                 ["TextMapId"] = "UIGuide_Sojourns_03_Pad",
             },
             ["UIGuide_Sojourns_04"] = {
@@ -36214,7 +36775,7 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_Sojourns_04",
             },
             ["UIGuide_Sojourns_04_Pad"] = {
-                ["ContentEN"] = "Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to explore each character's unique storyline",
+                ["ContentEN"] = "Press to explore each character's unique storyline",
                 ["TextMapId"] = "UIGuide_Sojourns_04_Pad",
             },
             ["UIGuide_Sojourns_05"] = {
@@ -36226,7 +36787,7 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_Sojourns_06",
             },
             ["UIGuide_Sojourns_06_Pad"] = {
-                ["ContentEN"] = "The stories will unlock once the prerequisites are met Press <Img id=\"Key_A\" height=\"32\" width=\"32\"/> to claim the associated rewards",
+                ["ContentEN"] = "The stories will unlock once the prerequisites are met. Press to claim the associated rewards",
                 ["TextMapId"] = "UIGuide_Sojourns_06_Pad",
             },
             ["UIGuide_Sojourns_07"] = {
@@ -36265,11 +36826,11 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_SpecialDestructible_5",
             },
             ["UIGuide_SpecialSideStoryUI1"] = {
-                ["ContentEN"] = "During gameplay, you may receive Special Side Quests. These are marked with blue icons in your quest list.",
+                ["ContentEN"] = "You may encounter some Special Side Quests. They are marked with a blue indicator in the quest list.",
                 ["TextMapId"] = "UIGuide_SpecialSideStoryUI1",
             },
             ["UIGuide_SpecialSideStoryUI2"] = {
-                ["ContentEN"] = "These quests might also appear during free exploration. Completing them may unlock new gameplay features or functions.",
+                ["ContentEN"] = "Special Side Quests might also appear during exploration. Completing them may unlock new features or functions.",
                 ["TextMapId"] = "UIGuide_SpecialSideStoryUI2",
             },
             ["UIGuide_SwitchMaster_PC"] = {
@@ -36305,7 +36866,7 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_Temple_2",
             },
             ["UIGuide_Title_203001"] = {
-                ["ContentEN"] = "Geniemon Capture",
+                ["ContentEN"] = "Geniemon Feeding",
                 ["TextMapId"] = "UIGuide_Title_203001",
             },
             ["UIGuide_Title_203501"] = {
@@ -36529,7 +37090,7 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["TextMapId"] = "UIGuide_Title_PerfectDodge",
             },
             ["UIGuide_Title_Pet"] = {
-                ["ContentEN"] = "Geniemon Capture",
+                ["ContentEN"] = "Geniemon Encounter",
                 ["TextMapId"] = "UIGuide_Title_Pet",
             },
             ["UIGuide_Title_Phantom_1"] = {
@@ -36636,10 +37197,6 @@ The cap of Ultra Shield increases as the <H>Character Level</> rises.",
                 ["ContentEN"] = "Magic Lock: Roulette",
                 ["TextMapId"] = "UIGuide_Title_TurnTable",
             },
-        }
-    end },
-    { MinKey = "UIGuide_Title_ValveMechanism", MaxKey = "UI_Accessory_Name_40007", Loader = function()
-        return {
             ["UIGuide_Title_ValveMechanism"] = {
                 ["ContentEN"] = "Magic Lock: Pointer",
                 ["TextMapId"] = "UIGuide_Title_ValveMechanism",
@@ -36697,11 +37254,11 @@ Smash: Weakens the target's <H>Stance</> more effectively.",
                 ["TextMapId"] = "UIGuide_ValveMechanism",
             },
             ["UIGuide_WIKI_01"] = {
-                ["ContentEN"] = "When you come across an unfamiliar term during story dialogue, check the bottom-right corner for the [Search Entry] button to get more info.",
+                ["ContentEN"] = "During story dialogues, when the <H>View Entry</> button appears in the lower right corner, you can select it to get more info.",
                 ["TextMapId"] = "UIGuide_WIKI_01",
             },
             ["UIGuide_WIKI_02"] = {
-                ["ContentEN"] = "You can find all previously discovered entries in [Atlasium].",
+                ["ContentEN"] = "In <H>Atlasium</>, you can view all the entries that have been unlocked.",
                 ["TextMapId"] = "UIGuide_WIKI_02",
             },
             ["UIGuide_WallJump_PC"] = {
@@ -36713,7 +37270,7 @@ Smash: Weakens the target's <H>Stance</> more effectively.",
                 ["TextMapId"] = "UIGuide_WallJump_Phone",
             },
             ["UIGuide_content_203001"] = {
-                ["ContentEN"] = "While exploring the world, you may come across <H>Geniemons</>. Use <H>Treats</> to capture them. Geniemons can empower your team in battle through Geniemon Aid.",
+                ["ContentEN"] = "While exploring the world, you may come across <H>Geniemons</>. Use <H>Treats</> to feed them and make friends with them. Geniemons can empower your team in battle through Geniemon Support.",
                 ["TextMapId"] = "UIGuide_content_203001",
             },
             ["UIGuide_content_203501"] = {
@@ -36748,9 +37305,73 @@ Smash: Weakens the target's <H>Stance</> more effectively.",
                 ["ContentEN"] = "Traits",
                 ["TextMapId"] = "UI_Ability",
             },
+            ["UI_AbyssRoom_BattleStart"] = {
+                ["ContentEN"] = "Start Trial Ⅰ",
+                ["TextMapId"] = "UI_AbyssRoom_BattleStart",
+            },
+            ["UI_AbyssRoom_BossBattle"] = {
+                ["ContentEN"] = "Defeat the high-threat enemy",
+                ["TextMapId"] = "UI_AbyssRoom_BossBattle",
+            },
+            ["UI_AbyssRoom_Count"] = {
+                ["ContentEN"] = "Defeated:{空格}",
+                ["TextMapId"] = "UI_AbyssRoom_Count",
+            },
+            ["UI_Abyss_BattleCountDown"] = {
+                ["ContentEN"] = "Remaining Time",
+                ["TextMapId"] = "UI_Abyss_BattleCountDown",
+            },
             ["UI_Abyss_Des"] = {
                 ["ContentEN"] = "Spectator or protagonist — the choice is yours. Step into the fray, where courage faces towering foes... and victory awaits.",
                 ["TextMapId"] = "UI_Abyss_Des",
+            },
+            ["UI_Abyss_NextRoomCountdown"] = {
+                ["ContentEN"] = "Head to the next Trial",
+                ["TextMapId"] = "UI_Abyss_NextRoomCountdown",
+            },
+            ["UI_Abyss_Toast_BossLockHp"] = {
+                ["ContentEN"] = "Defeating all the spawned enemies will remove the high-threat enemy's invincibility.",
+                ["TextMapId"] = "UI_Abyss_Toast_BossLockHp",
+            },
+            ["UI_Abyss_Toast_MoveToNextRoom"] = {
+                ["ContentEN"] = "Start the next Trial",
+                ["TextMapId"] = "UI_Abyss_Toast_MoveToNextRoom",
+            },
+            ["UI_Abyss_Toast_NextRoom"] = {
+                ["ContentEN"] = "Current Trial clear. Entering the next Trial",
+                ["TextMapId"] = "UI_Abyss_Toast_NextRoom",
+            },
+            ["UI_Abyss_Toast_RoomFail"] = {
+                ["ContentEN"] = "Trial Failed",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomFail",
+            },
+            ["UI_Abyss_Toast_RoomStart0"] = {
+                ["ContentEN"] = "Trial Ⅰ starts",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart0",
+            },
+            ["UI_Abyss_Toast_RoomStart1"] = {
+                ["ContentEN"] = "Trial Ⅱ starts",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart1",
+            },
+            ["UI_Abyss_Toast_RoomStart2"] = {
+                ["ContentEN"] = "Trial Ⅲ starts",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart2",
+            },
+            ["UI_Abyss_Toast_RoomStart3"] = {
+                ["ContentEN"] = "Trial Ⅳ starts",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart3",
+            },
+            ["UI_Abyss_Toast_RoomStart4"] = {
+                ["ContentEN"] = "Final Trial starts. Defeat the high-threat enemy",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart4",
+            },
+            ["UI_Abyss_Toast_TeleportNextRoom"] = {
+                ["ContentEN"] = "The next Trial is about to begin",
+                ["TextMapId"] = "UI_Abyss_Toast_TeleportNextRoom",
+            },
+            ["UI_Abyss_Toast_Win"] = {
+                ["ContentEN"] = "Trial Successful",
+                ["TextMapId"] = "UI_Abyss_Toast_Win",
             },
             ["UI_AcceptEntrust"] = {
                 ["ContentEN"] = "Accept",
@@ -36841,7 +37462,7 @@ Smash: Weakens the target's <H>Stance</> more effectively.",
                 ["TextMapId"] = "UI_Accessory_Desc_10035",
             },
             ["UI_Accessory_Desc_10036"] = {
-                ["ContentEN"] = "Thumpity-thump!",
+                ["ContentEN"] = "Pitter-patter antler clatter!",
                 ["TextMapId"] = "UI_Accessory_Desc_10036",
             },
             ["UI_Accessory_Desc_10037"] = {
@@ -36944,6 +37565,10 @@ Smash: Weakens the target's <H>Stance</> more effectively.",
                 ["ContentEN"] = "Dark and light, in jade confined; heaven and earth, in arc aligned.",
                 ["TextMapId"] = "UI_Accessory_Desc_30008",
             },
+        }
+    end },
+    { MinKey = "UI_Accessory_Desc_30009", MaxKey = "UI_Achievement_Des_1305", Loader = function()
+        return {
             ["UI_Accessory_Desc_30009"] = {
                 ["ContentEN"] = "Toss it. Trust it. Try again when it ruins your life.",
                 ["TextMapId"] = "UI_Accessory_Desc_30009",
@@ -37243,7 +37868,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Accessory_Name_10045",
             },
             ["UI_Accessory_Name_10046"] = {
-                ["ContentEN"] = "Kitty Headpiece - Dark Jade",
+                ["ContentEN"] = "Kitty Headpiece: Dark Jade",
                 ["TextMapId"] = "UI_Accessory_Name_10046",
             },
             ["UI_Accessory_Name_10047"] = {
@@ -37379,7 +38004,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Accessory_Name_20031",
             },
             ["UI_Accessory_Name_20032"] = {
-                ["ContentEN"] = "Ascetic's Blindfold - Caramel",
+                ["ContentEN"] = "Ascetic's Blindfold: Caramel",
                 ["TextMapId"] = "UI_Accessory_Name_20032",
             },
             ["UI_Accessory_Name_20033"] = {
@@ -37458,10 +38083,6 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Hymn to the Wind",
                 ["TextMapId"] = "UI_Accessory_Name_40007",
             },
-        }
-    end },
-    { MinKey = "UI_Accessory_Name_90001", MaxKey = "UI_Achievement_Des_505004", Loader = function()
-        return {
             ["UI_Accessory_Name_90001"] = {
                 ["ContentEN"] = "The Wings of Darkness",
                 ["TextMapId"] = "UI_Accessory_Name_90001",
@@ -37599,7 +38220,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Achievement_Des_100101",
             },
             ["UI_Achievement_Des_10051601"] = {
-                ["ContentEN"] = "Complete <highlight>#1</> dynamic quests",
+                ["ContentEN"] = "Complete <highlight>#1</> dynamic quest(s)",
                 ["TextMapId"] = "UI_Achievement_Des_10051601",
             },
             ["UI_Achievement_Des_10051701"] = {
@@ -37755,19 +38376,23 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Achievement_Des_1304",
             },
             ["UI_Achievement_Des_1305"] = {
-                ["ContentEN"] = "Reach and clear the <highlight>100th</> Level in Mystic Maze <highlight>(The 2nd Closed Beta Exclusive)</>",
+                ["ContentEN"] = "Clear \"Difficulty Ⅲ\" in Mystic Maze <highlight>(The 2nd Closed Beta Exclusive)</>",
                 ["TextMapId"] = "UI_Achievement_Des_1305",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_1306", MaxKey = "UI_Achievement_Des_60101", Loader = function()
+        return {
             ["UI_Achievement_Des_1306"] = {
                 ["ContentEN"] = "Complete all quests in Phrase <highlight>7</> of the Beginner's Guide <highlight>(The 2nd Closed Beta Exclusive)</>",
                 ["TextMapId"] = "UI_Achievement_Des_1306",
             },
             ["UI_Achievement_Des_1400101"] = {
-                ["ContentEN"] = "Successfully capture Geniemon <highlight>#1</> time(s)",
+                ["ContentEN"] = "Befriend <highlight>#1</> Geniemons in total",
                 ["TextMapId"] = "UI_Achievement_Des_1400101",
             },
             ["UI_Achievement_Des_1400201"] = {
-                ["ContentEN"] = "Ascend Geniemon <highlight>#1</> times",
+                ["ContentEN"] = "Ascend Geniemon <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_1400201",
             },
             ["UI_Achievement_Des_1400301"] = {
@@ -38175,7 +38800,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Achievement_Des_501301",
             },
             ["UI_Achievement_Des_501317"] = {
-                ["ContentEN"] = "Complete <highlight>#1</> Lunoxplorer's challenges",
+                ["ContentEN"] = "Complete <highlight>#1</> Lunoxplorer's challenge(s)",
                 ["TextMapId"] = "UI_Achievement_Des_501317",
             },
             ["UI_Achievement_Des_501319"] = {
@@ -38223,11 +38848,11 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Achievement_Des_50309",
             },
             ["UI_Achievement_Des_5031"] = {
-                ["ContentEN"] = "Secure victory in solo-mode [Commission: Exploration ∞] on the highest difficulty with at least <H>#1</> enemy kill(s)",
+                ["ContentEN"] = "Secure victory in solo-mode [Commission: Exploration ∞] on the highest difficulty with at least <H>#1</> enemies defeated",
                 ["TextMapId"] = "UI_Achievement_Des_5031",
             },
             ["UI_Achievement_Des_5032"] = {
-                ["ContentEN"] = "Secure victory in solo-mode [Commission: Defence ∞] on the highest difficulty with at least <H>#1</> enemy kill(s)",
+                ["ContentEN"] = "Secure victory in solo-mode [Commission: Defence ∞] on the highest difficulty with at least <H>#1</> enemies defeated",
                 ["TextMapId"] = "UI_Achievement_Des_5032",
             },
             ["UI_Achievement_Des_50401"] = {
@@ -38262,10 +38887,6 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Find <highlight>#1</> treasure(s) recorded on the Lost Sheets in Glevum Pit",
                 ["TextMapId"] = "UI_Achievement_Des_505004",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Des_505005", MaxKey = "UI_Achievement_Name_101701", Loader = function()
-        return {
             ["UI_Achievement_Des_505005"] = {
                 ["ContentEN"] = "Find <highlight>#1</> treasure(s) recorded on the Lost Sheets in Lonza Fortress",
                 ["TextMapId"] = "UI_Achievement_Des_505005",
@@ -38295,7 +38916,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Achievement_Des_5051",
             },
             ["UI_Achievement_Des_505101"] = {
-                ["ContentEN"] = "Receive gifts from Paniemon <highlight>#1</> times",
+                ["ContentEN"] = "Receive gifts from Paniemon <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_505101",
             },
             ["UI_Achievement_Des_5052"] = {
@@ -38423,51 +39044,51 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Achievement_Des_50910",
             },
             ["UI_Achievement_Des_50920"] = {
-                ["ContentEN"] = "Complete [Commission: Defence ∞] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Defence ∞] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50920",
             },
             ["UI_Achievement_Des_50921"] = {
-                ["ContentEN"] = "Complete [Commission: Defence] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Defence] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50921",
             },
             ["UI_Achievement_Des_50922"] = {
-                ["ContentEN"] = "Complete [Commission: Excavation ∞] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Excavation ∞] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50922",
             },
             ["UI_Achievement_Des_50923"] = {
-                ["ContentEN"] = "Complete [Commission: Capture] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Capture] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50923",
             },
             ["UI_Achievement_Des_50924"] = {
-                ["ContentEN"] = "Complete [Commission: Exploration ∞] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Exploration ∞] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50924",
             },
             ["UI_Achievement_Des_50925"] = {
-                ["ContentEN"] = "Complete [Commission: Hedge ∞] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Hedge ∞] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50925",
             },
             ["UI_Achievement_Des_50926"] = {
-                ["ContentEN"] = "Complete [Commission: Mediation] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Mediation] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50926",
             },
             ["UI_Achievement_Des_50927"] = {
-                ["ContentEN"] = "Complete [Commission: Relocation] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Relocation] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50927",
             },
             ["UI_Achievement_Des_50928"] = {
-                ["ContentEN"] = "Complete [Commission: Termination] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Termination] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50928",
             },
             ["UI_Achievement_Des_50929"] = {
-                ["ContentEN"] = "Complete [Commission: Escort] a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete [Commission: Escort] a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50929",
             },
             ["UI_Achievement_Des_50930"] = {
-                ["ContentEN"] = "Complete any Commission a total of <highlight>#1</> times",
+                ["ContentEN"] = "Complete any Commission a total of <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_50930",
             },
             ["UI_Achievement_Des_50931"] = {
-                ["ContentEN"] = "Complete any Commission a total of <highlight>#1</> times in co-op mode",
+                ["ContentEN"] = "Complete any Commission a total of <highlight>#1</> time(s) in co-op mode",
                 ["TextMapId"] = "UI_Achievement_Des_50931",
             },
             ["UI_Achievement_Des_51301"] = {
@@ -38495,7 +39116,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Achievement_Des_51801",
             },
             ["UI_Achievement_Des_519001"] = {
-                ["ContentEN"] = "Dispatch character on Expedition <highlight>#1</> times",
+                ["ContentEN"] = "Dispatch character on Expedition <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_519001",
             },
             ["UI_Achievement_Des_51901"] = {
@@ -38530,6 +39151,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Complete [Commission: Defence ∞] without allowing the Defence Core's HP to be reduced",
                 ["TextMapId"] = "UI_Achievement_Des_52101",
             },
+            ["UI_Achievement_Des_522001"] = {
+                ["ContentEN"] = "Befriend <highlight>#1</> Geniemons during Commissions",
+                ["TextMapId"] = "UI_Achievement_Des_522001",
+            },
             ["UI_Achievement_Des_52201"] = {
                 ["ContentEN"] = "Complete any [Commission: Exploration ∞] without interacting with a Serum Storage Point",
                 ["TextMapId"] = "UI_Achievement_Des_52201",
@@ -38558,6 +39183,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Have <highlight>#1</> Lv. 20 characters",
                 ["TextMapId"] = "UI_Achievement_Des_60101",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_60102", MaxKey = "UI_Achievement_Name_200503", Loader = function()
+        return {
             ["UI_Achievement_Des_60102"] = {
                 ["ContentEN"] = "Have <highlight>#1</> Lv. 30 characters",
                 ["TextMapId"] = "UI_Achievement_Des_60102",
@@ -38575,11 +39204,11 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Achievement_Des_60202",
             },
             ["UI_Achievement_Des_60401"] = {
-                ["ContentEN"] = "Adjust any character's Demon Wedge Slot Track <highlight>#1</> times",
+                ["ContentEN"] = "Adjust any character's Demon Wedge Slot Track <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_60401",
             },
             ["UI_Achievement_Des_60501"] = {
-                ["ContentEN"] = "Adjust Berenica's Demon Wedge Slot Track <highlight>#1</> times",
+                ["ContentEN"] = "Adjust Berenica's Demon Wedge Slot Track <highlight>#1</> time(s)",
                 ["TextMapId"] = "UI_Achievement_Des_60501",
             },
             ["UI_Achievement_Des_60601"] = {
@@ -39066,10 +39695,6 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Deadbeat Warrior (Ⅰ)",
                 ["TextMapId"] = "UI_Achievement_Name_101701",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_101702", MaxKey = "UI_Achievement_Name_4070101", Loader = function()
-        return {
             ["UI_Achievement_Name_101702"] = {
                 ["ContentEN"] = "Deadbeat Warrior (Ⅱ)",
                 ["TextMapId"] = "UI_Achievement_Name_101702",
@@ -39362,6 +39987,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Nemesis of The Forsakens (Ⅲ)",
                 ["TextMapId"] = "UI_Achievement_Name_200503",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_20101", MaxKey = "UI_Achievement_Name_506303", Loader = function()
+        return {
             ["UI_Achievement_Name_20101"] = {
                 ["ContentEN"] = "Fate's Spiral (Ⅰ)",
                 ["TextMapId"] = "UI_Achievement_Name_20101",
@@ -39870,10 +40499,6 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Turn Stone Into Gold - Blade Amberglow",
                 ["TextMapId"] = "UI_Achievement_Name_4070101",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_500101", MaxKey = "UI_Achievement_Name_920302", Loader = function()
-        return {
             ["UI_Achievement_Name_500101"] = {
                 ["ContentEN"] = "Nocturnal Finale: Sibylle (Ⅰ)",
                 ["TextMapId"] = "UI_Achievement_Name_500101",
@@ -40166,6 +40791,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Complete Termination - Breakneck Speed (Ⅲ)",
                 ["TextMapId"] = "UI_Achievement_Name_506303",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_506401", MaxKey = "UI_All_Tutorial", Loader = function()
+        return {
             ["UI_Achievement_Name_506401"] = {
                 ["ContentEN"] = "Speed Rescue - Breakneck Speed (Ⅰ)",
                 ["TextMapId"] = "UI_Achievement_Name_506401",
@@ -40674,10 +41303,6 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Desert Beneath the Starry Vault (Ⅱ)",
                 ["TextMapId"] = "UI_Achievement_Name_920302",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_920401", MaxKey = "UI_Bag_Decompose_NotToday", Loader = function()
-        return {
             ["UI_Achievement_Name_920401"] = {
                 ["ContentEN"] = "Whispering Woods (Ⅰ)",
                 ["TextMapId"] = "UI_Achievement_Name_920401",
@@ -40970,6 +41595,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "All",
                 ["TextMapId"] = "UI_All_Tutorial",
             },
+        }
+    end },
+    { MinKey = "UI_Amount_Billion", MaxKey = "UI_BookArchive_Empty", Loader = function()
+        return {
             ["UI_Amount_Billion"] = {
                 ["ContentEN"] = "B",
                 ["TextMapId"] = "UI_Amount_Billion",
@@ -41091,11 +41720,11 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Armory_CannotReplace",
             },
             ["UI_Armory_Char"] = {
-                ["ContentEN"] = "Character",
+                ["ContentEN"] = "Characters",
                 ["TextMapId"] = "UI_Armory_Char",
             },
             ["UI_Armory_CharExcelWeapon"] = {
-                ["ContentEN"] = "Weapon Mastery",
+                ["ContentEN"] = "Weapon Proficiency",
                 ["TextMapId"] = "UI_Armory_CharExcelWeapon",
             },
             ["UI_Armory_Char_Empty"] = {
@@ -41155,7 +41784,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Armory_Introduce",
             },
             ["UI_Armory_Longrange"] = {
-                ["ContentEN"] = "Ranged Weapon",
+                ["ContentEN"] = "Ranged Weapons",
                 ["TextMapId"] = "UI_Armory_Longrange",
             },
             ["UI_Armory_LongrangeUltra"] = {
@@ -41163,7 +41792,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Armory_LongrangeUltra",
             },
             ["UI_Armory_Meleeweapon"] = {
-                ["ContentEN"] = "Melee Weapon",
+                ["ContentEN"] = "Melee Weapons",
                 ["TextMapId"] = "UI_Armory_Meleeweapon",
             },
             ["UI_Armory_MeleeweaponUltra"] = {
@@ -41207,7 +41836,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_Armory_Passive",
             },
             ["UI_Armory_PetListIsEmpty"] = {
-                ["ContentEN"] = "No Geniemon parts available",
+                ["ContentEN"] = "No item available",
                 ["TextMapId"] = "UI_Armory_PetListIsEmpty",
             },
             ["UI_Armory_Pet_Empty"] = {
@@ -41478,10 +42107,6 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "Snooze for Today",
                 ["TextMapId"] = "UI_Bag_Decompose_NotToday",
             },
-        }
-    end },
-    { MinKey = "UI_Bag_Decompose_Tip_1", MaxKey = "UI_CHAR_DATA_TEXT_21010203", Loader = function()
-        return {
             ["UI_Bag_Decompose_Tip_1"] = {
                 ["ContentEN"] = "Weapon disassembly is irreversible. Proceed?",
                 ["TextMapId"] = "UI_Bag_Decompose_Tip_1",
@@ -41521,6 +42146,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
             ["UI_Bag_Sell_Amount"] = {
                 ["ContentEN"] = "Amount",
                 ["TextMapId"] = "UI_Bag_Sell_Amount",
+            },
+            ["UI_Bag_Sell_Batch"] = {
+                ["ContentEN"] = "Select by Rarity",
+                ["TextMapId"] = "UI_Bag_Sell_Batch",
             },
             ["UI_Bag_Sell_Get"] = {
                 ["ContentEN"] = "To Obtain",
@@ -41579,7 +42208,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_BattlePass_BPWeeklyMaxExp",
             },
             ["UI_BattlePass_BuyLevel"] = {
-                ["ContentEN"] = "Purchase Ballad ×",
+                ["ContentEN"] = "Purchase Ballad",
                 ["TextMapId"] = "UI_BattlePass_BuyLevel",
             },
             ["UI_BattlePass_BuyLevelConfirm"] = {
@@ -41661,6 +42290,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
             ["UI_BattlePass_PetClaimTitle"] = {
                 ["ContentEN"] = "Binding Bounty",
                 ["TextMapId"] = "UI_BattlePass_PetClaimTitle",
+            },
+            ["UI_BattlePass_PetHasCardUp"] = {
+                ["ContentEN"] = "Ascension:{空格}",
+                ["TextMapId"] = "UI_BattlePass_PetHasCardUp",
             },
             ["UI_BattlePass_PetHasClaimed"] = {
                 ["ContentEN"] = "Obtained",
@@ -41747,7 +42380,7 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["TextMapId"] = "UI_BattlePass_WeeklyQuest",
             },
             ["UI_BattleRoom_Count"] = {
-                ["ContentEN"] = "Abyssoids Dispelled",
+                ["ContentEN"] = "Abyssoids Dispelled:{空格}",
                 ["TextMapId"] = "UI_BattleRoom_Count",
             },
             ["UI_BattleWheel_Equipped"] = {
@@ -41766,6 +42399,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
                 ["ContentEN"] = "No items obtained",
                 ["TextMapId"] = "UI_BookArchive_Empty",
             },
+        }
+    end },
+    { MinKey = "UI_BookArchive_MainProgress", MaxKey = "UI_CHAR_DATA_TEXT_31030105", Loader = function()
+        return {
             ["UI_BookArchive_MainProgress"] = {
                 ["ContentEN"] = "Entries unlocked: %s/%s",
                 ["TextMapId"] = "UI_BookArchive_MainProgress",
@@ -41909,6 +42546,10 @@ I wonder how the old apricot trees in the yard are faring, and if the children w
             ["UI_CHAR_BIRTH_5301"] = {
                 ["ContentEN"] = "Hyperborean Empire",
                 ["TextMapId"] = "UI_CHAR_BIRTH_5301",
+            },
+            ["UI_CHAR_BIRTH_5401"] = {
+                ["ContentEN"] = "Hyperborean Empire",
+                ["TextMapId"] = "UI_CHAR_BIRTH_5401",
             },
             ["UI_CHAR_DATA_TEXT_11010101"] = {
                 ["ContentEN"] = "For as long as you can remember, Berenica has always been by your side. \
@@ -43107,10 +43748,6 @@ When you ask Rebecca about them, she always says, \"They went to the Kingdom of 
 Those fortunate enough to have ventured this realm, however, were later found paralysed, succumbing to an unidentified toxin, silenced forever before they could reveal the true nature of the \"Land of Love\".",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_21010203",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_DATA_TEXT_21010301", MaxKey = "UI_CHAR_DATA_TEXT_51010403", Loader = function()
-        return {
             ["UI_CHAR_DATA_TEXT_21010301"] = {
                 ["ContentEN"] = "Rebecca does not care how others view her. She only cares about two things.\
 First, to craft the most charming fragrance infused with love, and then sell it to infatuated individuals to help them find love.\
@@ -43576,6 +44213,10 @@ Oliver had never said it, and perhaps he never would, but you could clearly sens
 Yale sitting at the workbench in Snap 'n' Spark, carving new toys from cork with a chisel, then adding his own whimsical doodles with watercolour pens, all while Oliver offered his spirited critiques — this peaceful life was the conclusion to their story that Oliver found most satisfying.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_31030105",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_DATA_TEXT_31030201", MaxKey = "UI_CHAR_NAME_4202", Loader = function()
+        return {
             ["UI_CHAR_DATA_TEXT_31030201"] = {
                 ["ContentEN"] = "Nestled in a secluded corner of Scarletriver, a shabby little toy shop known as \"Snap 'n' Spark\" quietly stands. Curiously, unlike typical toy stores that greet early visitors with open doors, this one remains firmly closed, even during daylight hours.\
 A few particularly curious children once mustered the courage to push open the door, and they each walked away with some rather peculiar toys — presumably a reward for their bravery. Among these treasures were kaleidoscopes that dazzled the eyes, wooden ducks that waggled and waddled across the floor, and the most intriguing of all — a magic \"lollipop.\" When its tail was ignited, it would shoot up with a whoosh and burst into a magnificent firework, drawing excited cheers from the kids.\
@@ -44659,10 +45300,6 @@ As the rumblings subsided, Truffle's own stomach played the final note.\
 Lying in the darkness, Truffle thought back to her days of wandering with Filbert. She made a silent vow to herself — to do something about this, not just for herself, but for everyone else.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_51010403",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_DATA_TEXT_51010404", MaxKey = "UI_COMMONPOP_TEXT_100013", Loader = function()
-        return {
             ["UI_CHAR_DATA_TEXT_51010404"] = {
                 ["ContentEN"] = "On that hunger-clouded night, Truffle made up her mind that she would try her best to end the symphony of rumbling stomachs.\
 The next day, to everyone's surprise, she walked out of the Church's house and headed straight for the forest, whistling as she went. Normally, Truffle only dared to sneak out at night to play with her companion, careful not to stray too far or cause any trouble that might attract the stern gaze of Priestess McGuffin. But today was different — Truffle had a grand plan brewing in her little head.\
@@ -44880,6 +45517,10 @@ The snow intensified, gradually obliterating your view.",
                 ["ContentEN"] = "Unaffiliated",
                 ["TextMapId"] = "UI_CHAR_FORCE_1502",
             },
+            ["UI_CHAR_FORCE_1503"] = {
+                ["ContentEN"] = "Outer Peaks",
+                ["TextMapId"] = "UI_CHAR_FORCE_1503",
+            },
             ["UI_CHAR_FORCE_1801"] = {
                 ["ContentEN"] = "Unaffiliated",
                 ["TextMapId"] = "UI_CHAR_FORCE_1801",
@@ -44920,6 +45561,10 @@ The snow intensified, gradually obliterating your view.",
                 ["ContentEN"] = "The 6th Legion",
                 ["TextMapId"] = "UI_CHAR_FORCE_4101",
             },
+            ["UI_CHAR_FORCE_4102"] = {
+                ["ContentEN"] = "EverSpring",
+                ["TextMapId"] = "UI_CHAR_FORCE_4102",
+            },
             ["UI_CHAR_FORCE_4201"] = {
                 ["ContentEN"] = "Huaxu",
                 ["TextMapId"] = "UI_CHAR_FORCE_4201",
@@ -44943,6 +45588,10 @@ The snow intensified, gradually obliterating your view.",
             ["UI_CHAR_FORCE_5301"] = {
                 ["ContentEN"] = "Unaffiliated",
                 ["TextMapId"] = "UI_CHAR_FORCE_5301",
+            },
+            ["UI_CHAR_FORCE_5401"] = {
+                ["ContentEN"] = "The 13th Legion",
+                ["TextMapId"] = "UI_CHAR_FORCE_5401",
             },
             ["UI_CHAR_NAME_101"] = {
                 ["ContentEN"] = "{nickname}",
@@ -45032,6 +45681,10 @@ The snow intensified, gradually obliterating your view.",
                 ["ContentEN"] = "Randy",
                 ["TextMapId"] = "UI_CHAR_NAME_4202",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_NAME_4301", MaxKey = "UI_COMMONPOP_TEXT_100117", Loader = function()
+        return {
             ["UI_CHAR_NAME_4301"] = {
                 ["ContentEN"] = "Sibylle",
                 ["TextMapId"] = "UI_CHAR_NAME_4301",
@@ -45195,6 +45848,10 @@ The snow intensified, gradually obliterating your view.",
             ["UI_CMNpc_Name_Danni"] = {
                 ["ContentEN"] = "Dennis",
                 ["TextMapId"] = "UI_CMNpc_Name_Danni",
+            },
+            ["UI_CMNpc_Name_DeTiWoman"] = {
+                ["ContentEN"] = "Well-Dressed Lady",
+                ["TextMapId"] = "UI_CMNpc_Name_DeTiWoman",
             },
             ["UI_CMNpc_Name_Dien"] = {
                 ["ContentEN"] = "Dean",
@@ -45444,6 +46101,10 @@ The snow intensified, gradually obliterating your view.",
                 ["ContentEN"] = "Theo",
                 ["TextMapId"] = "UI_CMNpc_Name_Xiao",
             },
+            ["UI_CMNpc_Name_XiaoMom"] = {
+                ["ContentEN"] = "Theo's Mother",
+                ["TextMapId"] = "UI_CMNpc_Name_XiaoMom",
+            },
             ["UI_CMNpc_Name_Xilin"] = {
                 ["ContentEN"] = "Lady Hilin",
                 ["TextMapId"] = "UI_CMNpc_Name_Xilin",
@@ -45564,10 +46225,6 @@ The snow intensified, gradually obliterating your view.",
                 ["ContentEN"] = "Please read and agree to the terms first.",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100013",
             },
-        }
-    end },
-    { MinKey = "UI_COMMONPOP_TEXT_100014", MaxKey = "UI_Channel_Name_4", Loader = function()
-        return {
             ["UI_COMMONPOP_TEXT_100014"] = {
                 ["ContentEN"] = "Are you sure you want to forge %s?",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100014",
@@ -45816,11 +46473,11 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100111",
             },
             ["UI_COMMONPOP_TEXT_100114"] = {
-                ["ContentEN"] = "Are you sure you want to level up the current Geniemon?",
+                ["ContentEN"] = "Are you sure you want to upgrade this Geniemon?",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100114",
             },
             ["UI_COMMONPOP_TEXT_100115"] = {
-                ["ContentEN"] = "Are you sure you want to Ascend the current Geniemon?",
+                ["ContentEN"] = "Are you sure you want to ascend this Geniemon?",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100115",
             },
             ["UI_COMMONPOP_TEXT_100116"] = {
@@ -45831,6 +46488,10 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Challenge [%s] now?",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100117",
             },
+        }
+    end },
+    { MinKey = "UI_COMMONPOP_TEXT_100118", MaxKey = "UI_CharVoice_Battle", Loader = function()
+        return {
             ["UI_COMMONPOP_TEXT_100118"] = {
                 ["ContentEN"] = "Are you sure you want to use the selected Demon Wedge(s) for the enhancement?",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100118",
@@ -45960,11 +46621,11 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100027",
             },
             ["UI_COMMONPOP_TITLE_100029"] = {
-                ["ContentEN"] = "Upgraded",
+                ["ContentEN"] = "Upgrade",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100029",
             },
             ["UI_COMMONPOP_TITLE_100030"] = {
-                ["ContentEN"] = "Ascended",
+                ["ContentEN"] = "Ascend",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100030",
             },
             ["UI_COMMONPOP_TITLE_100033"] = {
@@ -46084,15 +46745,15 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_COMMON_REWARD",
             },
             ["UI_CONFIRM_90200"] = {
-                ["ContentEN"] = "Combat · Flickered Abyssoid",
+                ["ContentEN"] = "Penumbral Abyssoid",
                 ["TextMapId"] = "UI_CONFIRM_90200",
             },
             ["UI_CONFIRM_90201"] = {
-                ["ContentEN"] = "Combat · Atrocious Abyssoid",
+                ["ContentEN"] = "Atrocious Abyssoid",
                 ["TextMapId"] = "UI_CONFIRM_90201",
             },
             ["UI_CONFIRM_90202"] = {
-                ["ContentEN"] = "Combat (Extreme Threat) · Abysmal Abyssoid",
+                ["ContentEN"] = "Abysmal Abyssoid",
                 ["TextMapId"] = "UI_CONFIRM_90202",
             },
             ["UI_CONFIRM_90203"] = {
@@ -46100,7 +46761,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_CONFIRM_90203",
             },
             ["UI_CONFIRM_90204"] = {
-                ["ContentEN"] = "Encounter · Abyssal Echo",
+                ["ContentEN"] = "Abyssal Echo",
                 ["TextMapId"] = "UI_CONFIRM_90204",
             },
             ["UI_CONFIRM_90205"] = {
@@ -46108,7 +46769,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_CONFIRM_90205",
             },
             ["UI_CONFIRM_90206"] = {
-                ["ContentEN"] = "Combat: Scattered Abyssoid",
+                ["ContentEN"] = "Scattered Abyssoid",
                 ["TextMapId"] = "UI_CONFIRM_90206",
             },
             ["UI_CONFIRM_BREAKCODE"] = {
@@ -46128,11 +46789,11 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_CONFIRM_OPENMAP",
             },
             ["UI_CONFIRM_OPENRLBSHOP"] = {
-                ["ContentEN"] = "Redeem Lampwick",
+                ["ContentEN"] = "Lampwick Exchange",
                 ["TextMapId"] = "UI_CONFIRM_OPENRLBSHOP",
             },
             ["UI_CONFIRM_OPENRLTSHOP"] = {
-                ["ContentEN"] = "Redeem Artefact",
+                ["ContentEN"] = "Artefact Exchange",
                 ["TextMapId"] = "UI_CONFIRM_OPENRLTSHOP",
             },
             ["UI_CONFIRM_OPENSHOP"] = {
@@ -46140,7 +46801,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_CONFIRM_OPENSHOP",
             },
             ["UI_CONFIRM_PETCAPTURE"] = {
-                ["ContentEN"] = "Capture",
+                ["ContentEN"] = "Feed",
                 ["TextMapId"] = "UI_CONFIRM_PETCAPTURE",
             },
             ["UI_CONFIRM_PLAY"] = {
@@ -46163,6 +46824,18 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Tolerance",
                 ["TextMapId"] = "UI_COST_NAME",
             },
+            ["UI_CTL_Add"] = {
+                ["ContentEN"] = "Add",
+                ["TextMapId"] = "UI_CTL_Add",
+            },
+            ["UI_CTL_Add/Remove"] = {
+                ["ContentEN"] = "Add / Remove",
+                ["TextMapId"] = "UI_CTL_Add/Remove",
+            },
+            ["UI_CTL_Adjust"] = {
+                ["ContentEN"] = "Adjust",
+                ["TextMapId"] = "UI_CTL_Adjust",
+            },
             ["UI_CTL_Armory_Consumables"] = {
                 ["ContentEN"] = "Materials Required",
                 ["TextMapId"] = "UI_CTL_Armory_Consumables",
@@ -46171,13 +46844,73 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Camera Control",
                 ["TextMapId"] = "UI_CTL_Camera",
             },
+            ["UI_CTL_CheckPlan"] = {
+                ["ContentEN"] = "View Loadout",
+                ["TextMapId"] = "UI_CTL_CheckPlan",
+            },
+            ["UI_CTL_CheckProperty"] = {
+                ["ContentEN"] = "View Attributes",
+                ["TextMapId"] = "UI_CTL_CheckProperty",
+            },
+            ["UI_CTL_Claim"] = {
+                ["ContentEN"] = "Claim Reward",
+                ["TextMapId"] = "UI_CTL_Claim",
+            },
             ["UI_CTL_ClaimALL"] = {
                 ["ContentEN"] = "Claim All",
                 ["TextMapId"] = "UI_CTL_ClaimALL",
             },
+            ["UI_CTL_CloseTips"] = {
+                ["ContentEN"] = "Hide Prompt",
+                ["TextMapId"] = "UI_CTL_CloseTips",
+            },
+            ["UI_CTL_Continue"] = {
+                ["ContentEN"] = "Continue",
+                ["TextMapId"] = "UI_CTL_Continue",
+            },
+            ["UI_CTL_Details"] = {
+                ["ContentEN"] = "Details",
+                ["TextMapId"] = "UI_CTL_Details",
+            },
+            ["UI_CTL_ESC_Exit"] = {
+                ["ContentEN"] = "(Hold to) Exit Game",
+                ["TextMapId"] = "UI_CTL_ESC_Exit",
+            },
+            ["UI_CTL_ExpandList"] = {
+                ["ContentEN"] = "Expand",
+                ["TextMapId"] = "UI_CTL_ExpandList",
+            },
             ["UI_CTL_Explain"] = {
                 ["ContentEN"] = "View Atlasium Entry",
                 ["TextMapId"] = "UI_CTL_Explain",
+            },
+            ["UI_CTL_Fish_Collect"] = {
+                ["ContentEN"] = "Reel In",
+                ["TextMapId"] = "UI_CTL_Fish_Collect",
+            },
+            ["UI_CTL_Fish_Lift"] = {
+                ["ContentEN"] = "Hook",
+                ["TextMapId"] = "UI_CTL_Fish_Lift",
+            },
+            ["UI_CTL_Fish_Throw"] = {
+                ["ContentEN"] = "Cast",
+                ["TextMapId"] = "UI_CTL_Fish_Throw",
+            },
+            ["UI_CTL_Forging_Set"] = {
+                ["ContentEN"] = "Set as Target",
+                ["TextMapId"] = "UI_CTL_Forging_Set",
+            },
+            ["UI_CTL_Forging_Unset"] = {
+                ["ContentEN"] = "Remove Target",
+                ["TextMapId"] = "UI_CTL_Forging_Unset",
+            },
+            ["UI_CTL_Loading_Next"] = {
+                ["ContentEN"] = "Next",
+                ["TextMapId"] = "UI_CTL_Loading_Next",
+            },
+            ["UI_CTL_MinGame_Move"] = {
+                ["ContentEN"] = "Move",
+                ["TextMapId"] = "UI_CTL_MinGame_Move",
             },
             ["UI_CTL_Move"] = {
                 ["ContentEN"] = "Move",
@@ -46186,6 +46919,10 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
             ["UI_CTL_NextLevel"] = {
                 ["ContentEN"] = "Preview Next Level",
                 ["TextMapId"] = "UI_CTL_NextLevel",
+            },
+            ["UI_CTL_On/Off"] = {
+                ["ContentEN"] = "Toggle On / Off",
+                ["TextMapId"] = "UI_CTL_On/Off",
             },
             ["UI_CTL_OpenSystem"] = {
                 ["ContentEN"] = "Quick Menu",
@@ -46200,12 +46937,68 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_CTL_Pet_Select",
             },
             ["UI_CTL_Pet_SwitchAffix"] = {
-                ["ContentEN"] = "Switch Potential",
+                ["ContentEN"] = "Switch Trait",
                 ["TextMapId"] = "UI_CTL_Pet_SwitchAffix",
             },
             ["UI_CTL_Pet_SwitchSlot"] = {
                 ["ContentEN"] = "Switch Slot",
                 ["TextMapId"] = "UI_CTL_Pet_SwitchSlot",
+            },
+            ["UI_CTL_Play/Pause"] = {
+                ["ContentEN"] = "Play / Pause",
+                ["TextMapId"] = "UI_CTL_Play/Pause",
+            },
+            ["UI_CTL_PlayerOptions"] = {
+                ["ContentEN"] = "Options",
+                ["TextMapId"] = "UI_CTL_PlayerOptions",
+            },
+            ["UI_CTL_Quit"] = {
+                ["ContentEN"] = "Exit",
+                ["TextMapId"] = "UI_CTL_Quit",
+            },
+            ["UI_CTL_Read"] = {
+                ["ContentEN"] = "Read",
+                ["TextMapId"] = "UI_CTL_Read",
+            },
+            ["UI_CTL_Remove"] = {
+                ["ContentEN"] = "Remove",
+                ["TextMapId"] = "UI_CTL_Remove",
+            },
+            ["UI_CTL_RotatePreview"] = {
+                ["ContentEN"] = "Rotate Preview",
+                ["TextMapId"] = "UI_CTL_RotatePreview",
+            },
+            ["UI_CTL_Rougelike_SlideItems"] = {
+                ["ContentEN"] = "Scroll to View",
+                ["TextMapId"] = "UI_CTL_Rougelike_SlideItems",
+            },
+            ["UI_CTL_Rougelike_SlideSetItems"] = {
+                ["ContentEN"] = "Scroll to View Set",
+                ["TextMapId"] = "UI_CTL_Rougelike_SlideSetItems",
+            },
+            ["UI_CTL_Select"] = {
+                ["ContentEN"] = "Select",
+                ["TextMapId"] = "UI_CTL_Select",
+            },
+            ["UI_CTL_Select/Cancel"] = {
+                ["ContentEN"] = "Select / Deselect",
+                ["TextMapId"] = "UI_CTL_Select/Cancel",
+            },
+            ["UI_CTL_SelectLeft"] = {
+                ["ContentEN"] = "Select Left",
+                ["TextMapId"] = "UI_CTL_SelectLeft",
+            },
+            ["UI_CTL_SelectMessages"] = {
+                ["ContentEN"] = "Select Message",
+                ["TextMapId"] = "UI_CTL_SelectMessages",
+            },
+            ["UI_CTL_SelectRight"] = {
+                ["ContentEN"] = "Select Right",
+                ["TextMapId"] = "UI_CTL_SelectRight",
+            },
+            ["UI_CTL_SelectRole_Change"] = {
+                ["ContentEN"] = "Switch Characters",
+                ["TextMapId"] = "UI_CTL_SelectRole_Change",
             },
             ["UI_CTL_Shop_Converted"] = {
                 ["ContentEN"] = "View Conversion Results",
@@ -46215,9 +47008,29 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Shop",
                 ["TextMapId"] = "UI_CTL_Shop_Main",
             },
+            ["UI_CTL_Squad_AdjustSorting"] = {
+                ["ContentEN"] = "Sort",
+                ["TextMapId"] = "UI_CTL_Squad_AdjustSorting",
+            },
+            ["UI_CTL_Squad_ExitSorting"] = {
+                ["ContentEN"] = "Exit Sorting",
+                ["TextMapId"] = "UI_CTL_Squad_ExitSorting",
+            },
+            ["UI_CTL_Squad_Expand"] = {
+                ["ContentEN"] = "Expand / Collapse",
+                ["TextMapId"] = "UI_CTL_Squad_Expand",
+            },
+            ["UI_CTL_Squad_Select"] = {
+                ["ContentEN"] = "Select Unit",
+                ["TextMapId"] = "UI_CTL_Squad_Select",
+            },
             ["UI_CTL_Switch"] = {
                 ["ContentEN"] = "Switch Between Options",
                 ["TextMapId"] = "UI_CTL_Switch",
+            },
+            ["UI_CTL_Unselect"] = {
+                ["ContentEN"] = "Deselect",
+                ["TextMapId"] = "UI_CTL_Unselect",
             },
             ["UI_CTL_UseSkill"] = {
                 ["ContentEN"] = "Select Skill",
@@ -46371,10 +47184,6 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Team",
                 ["TextMapId"] = "UI_Channel_Name_4",
             },
-        }
-    end },
-    { MinKey = "UI_Channel_Name_5", MaxKey = "UI_DUNGEON_CONTENT_DEFENCE_2", Loader = function()
-        return {
             ["UI_Channel_Name_5"] = {
                 ["ContentEN"] = "Friends",
                 ["TextMapId"] = "UI_Channel_Name_5",
@@ -46483,6 +47292,10 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Combat",
                 ["TextMapId"] = "UI_CharVoice_Battle",
             },
+        }
+    end },
+    { MinKey = "UI_CharVoice_Normal", MaxKey = "UI_DUNGEON_DES_DEFENCE_2", Loader = function()
+        return {
             ["UI_CharVoice_Normal"] = {
                 ["ContentEN"] = "Story",
                 ["TextMapId"] = "UI_CharVoice_Normal",
@@ -46604,7 +47417,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_Chardata_Recall",
             },
             ["UI_Chardata_Rumor"] = {
-                ["ContentEN"] = "Witness:{空格}",
+                ["ContentEN"] = "Anecdote:{空格}",
                 ["TextMapId"] = "UI_Chardata_Rumor",
             },
             ["UI_Chardata_Secret"] = {
@@ -46612,7 +47425,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_Chardata_Secret",
             },
             ["UI_Chardata_Witness"] = {
-                ["ContentEN"] = "Anecdote:{空格}",
+                ["ContentEN"] = "Witness:{空格}",
                 ["TextMapId"] = "UI_Chardata_Witness",
             },
             ["UI_Chat_Accuse"] = {
@@ -47051,6 +47864,62 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Prerequisite(s) not met",
                 ["TextMapId"] = "UI_Complete_The_Prerequisite",
             },
+            ["UI_Controller_Check"] = {
+                ["ContentEN"] = "View",
+                ["TextMapId"] = "UI_Controller_Check",
+            },
+            ["UI_Controller_CheckDeputeInfo"] = {
+                ["ContentEN"] = "Dispatch Details",
+                ["TextMapId"] = "UI_Controller_CheckDeputeInfo",
+            },
+            ["UI_Controller_CheckDetails"] = {
+                ["ContentEN"] = "Details",
+                ["TextMapId"] = "UI_Controller_CheckDetails",
+            },
+            ["UI_Controller_CheckItems"] = {
+                ["ContentEN"] = "View",
+                ["TextMapId"] = "UI_Controller_CheckItems",
+            },
+            ["UI_Controller_CheckPROB"] = {
+                ["ContentEN"] = "View Rates",
+                ["TextMapId"] = "UI_Controller_CheckPROB",
+            },
+            ["UI_Controller_CheckPlayer"] = {
+                ["ContentEN"] = "View Player Info",
+                ["TextMapId"] = "UI_Controller_CheckPlayer",
+            },
+            ["UI_Controller_CheckReward"] = {
+                ["ContentEN"] = "View Rewards",
+                ["TextMapId"] = "UI_Controller_CheckReward",
+            },
+            ["UI_Controller_CheckTeam"] = {
+                ["ContentEN"] = "View Team Settings",
+                ["TextMapId"] = "UI_Controller_CheckTeam",
+            },
+            ["UI_Controller_Close"] = {
+                ["ContentEN"] = "Close",
+                ["TextMapId"] = "UI_Controller_Close",
+            },
+            ["UI_Controller_ClosePlayer"] = {
+                ["ContentEN"] = "Close",
+                ["TextMapId"] = "UI_Controller_ClosePlayer",
+            },
+            ["UI_Controller_Go"] = {
+                ["ContentEN"] = "Go",
+                ["TextMapId"] = "UI_Controller_Go",
+            },
+            ["UI_Controller_SelectReward"] = {
+                ["ContentEN"] = "Select Reward",
+                ["TextMapId"] = "UI_Controller_SelectReward",
+            },
+            ["UI_Controller_Slide"] = {
+                ["ContentEN"] = "Scroll",
+                ["TextMapId"] = "UI_Controller_Slide",
+            },
+            ["UI_Controller_Switch"] = {
+                ["ContentEN"] = "Switch",
+                ["TextMapId"] = "UI_Controller_Switch",
+            },
             ["UI_Cost_For_Unlock"] = {
                 ["ContentEN"] = "Prerequisite Items",
                 ["TextMapId"] = "UI_Cost_For_Unlock",
@@ -47175,10 +48044,6 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "\"Most people only regard Crystallo as beautiful ornaments, and neglect the research value of their formation and luminescent properties. I heard someone found a bunch of powerful Kijings. How can I just sit and do nothing after hearing that?! Hmm... Great research requires formidable Phoxhunters. You'll protect me well while I'm researching Kijings, right? Right?\" — Lunoxplorer",
                 ["TextMapId"] = "UI_DUNGEON_CONTENT_DEFENCE_2",
             },
-        }
-    end },
-    { MinKey = "UI_DUNGEON_CONTENT_EXCAVATION_1", MaxKey = "UI_DispatchTag_Wisdom", Loader = function()
-        return {
             ["UI_DUNGEON_CONTENT_EXCAVATION_1"] = {
                 ["ContentEN"] = "\"The weather is so nice, let's go for a walk... Oh wait, no! We can go explore outdoors together! And we can conduct research at the same time! Remember to take good care of these exploration devices. They might not be very user-friendly, but they are very expensive... After we finish exploring the terrain, I'll add your name to my research report!\" — Lunoxplorer",
                 ["TextMapId"] = "UI_DUNGEON_CONTENT_EXCAVATION_1",
@@ -47194,6 +48059,11 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
             ["UI_DUNGEON_CONTENT_RESCUE_1"] = {
                 ["ContentEN"] = "\"Infiltrate into the area marked on the map, rescue the target trapped in the cell, and escort them to the designated location. Feel free to pick up any loot or take down a few enemies along the way, but bear these rules in mind: Do not inquire about the commission's purpose, the target's identity, or our next plan. Save the target, get paid, and erase this commission from your memory — for the benefit of us both.\" — From a mysterious client",
                 ["TextMapId"] = "UI_DUNGEON_CONTENT_RESCUE_1",
+            },
+            ["UI_DUNGEON_CONTENT_SABOTAGEPRO_1"] = {
+                ["ContentEN"] = "\"Push this world too far — and one day, it will push back and destroy us. That's why I need you to dismantle those strange machines. I won't be able to hold things off forever — if you're not back in time, you're on your own.\"\
+— A dangerous client",
+                ["TextMapId"] = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
             },
             ["UI_DUNGEON_CONTENT_SABOTAGE_1"] = {
                 ["ContentEN"] = "\"Lunatics of The Forsakens have concocted a bomb they call 'Finale Flare', and the consequences of it detonating go far beyond people's deaths. The rift between The Forsaken and the other factions will intensify, and the living conditions of civilians will only deteriorate further. Hence, I'm entrusting you with this commission: disable the detonator of 'Finale Flare', prevent the explosion, and if possible, teach those fanatics a lesson. Remember, time is of the essence. I have little time to remain here and personally deliver your reward.\" — An Anonymous Client",
@@ -47227,6 +48097,10 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Protect Lunoxplorer and defeat the enemies",
                 ["TextMapId"] = "UI_DUNGEON_DES_DEFENCE_2",
             },
+        }
+    end },
+    { MinKey = "UI_DUNGEON_DES_EXCAVATION_1", MaxKey = "UI_Dispatch_Toast_BaseReward", Loader = function()
+        return {
             ["UI_DUNGEON_DES_EXCAVATION_1"] = {
                 ["ContentEN"] = "Assist Lunoxplorer with her terrain excavation and safeguard the Excavators",
                 ["TextMapId"] = "UI_DUNGEON_DES_EXCAVATION_1",
@@ -47452,7 +48326,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_DUNGEON_DROP_BOSS",
             },
             ["UI_DUNGEON_DROP_CHARBREAK"] = {
-                ["ContentEN"] = "Ascension materials for characters",
+                ["ContentEN"] = "Character Ascension Materials",
                 ["TextMapId"] = "UI_DUNGEON_DROP_CHARBREAK",
             },
             ["UI_DUNGEON_DROP_CHAREXP"] = {
@@ -47488,11 +48362,15 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_DUNGEON_DROP_RangedWEAPONMOD",
             },
             ["UI_DUNGEON_DROP_SKILL"] = {
-                ["ContentEN"] = "Skill Level-Up Materials",
+                ["ContentEN"] = "Skill Upgrade Materials",
                 ["TextMapId"] = "UI_DUNGEON_DROP_SKILL",
             },
+            ["UI_DUNGEON_DROP_SKILL_JOB"] = {
+                ["ContentEN"] = "Materials for unlocking Profession Skills",
+                ["TextMapId"] = "UI_DUNGEON_DROP_SKILL_JOB",
+            },
             ["UI_DUNGEON_DROP_WEAPONBREAK"] = {
-                ["ContentEN"] = "Ascension materials for weapons",
+                ["ContentEN"] = "Weapon Ascension Materials",
                 ["TextMapId"] = "UI_DUNGEON_DROP_WEAPONBREAK",
             },
             ["UI_DUNGEON_DROP_WEAPONEXP"] = {
@@ -47979,10 +48857,6 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Impression: Wisdom",
                 ["TextMapId"] = "UI_DispatchTag_Wisdom",
             },
-        }
-    end },
-    { MinKey = "UI_DispatchTag_Workaholic", MaxKey = "UI_Fishing_FishCollectReward", Loader = function()
-        return {
             ["UI_DispatchTag_Workaholic"] = {
                 ["ContentEN"] = "Rapt Attention",
                 ["TextMapId"] = "UI_DispatchTag_Workaholic",
@@ -48027,6 +48901,10 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Guaranteed Rewards",
                 ["TextMapId"] = "UI_Dispatch_Toast_BaseReward",
             },
+        }
+    end },
+    { MinKey = "UI_Dispatch_Toast_ChoseAgent", MaxKey = "UI_Fishing_Giveup", Loader = function()
+        return {
             ["UI_Dispatch_Toast_ChoseAgent"] = {
                 ["ContentEN"] = "Please select a character from the list",
                 ["TextMapId"] = "UI_Dispatch_Toast_ChoseAgent",
@@ -48276,48 +49154,52 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_DungeonFail_Tips2",
             },
             ["UI_DungeonMod_Tab_10"] = {
-                ["ContentEN"] = "10.0",
+                ["ContentEN"] = "10",
                 ["TextMapId"] = "UI_DungeonMod_Tab_10",
             },
             ["UI_DungeonMod_Tab_20"] = {
-                ["ContentEN"] = "20.0",
+                ["ContentEN"] = "20",
                 ["TextMapId"] = "UI_DungeonMod_Tab_20",
             },
             ["UI_DungeonMod_Tab_30"] = {
-                ["ContentEN"] = "30.0",
+                ["ContentEN"] = "30",
                 ["TextMapId"] = "UI_DungeonMod_Tab_30",
             },
             ["UI_DungeonMod_Tab_40"] = {
-                ["ContentEN"] = "40.0",
+                ["ContentEN"] = "40",
                 ["TextMapId"] = "UI_DungeonMod_Tab_40",
             },
             ["UI_DungeonMod_Tab_50"] = {
-                ["ContentEN"] = "50.0",
+                ["ContentEN"] = "50",
                 ["TextMapId"] = "UI_DungeonMod_Tab_50",
             },
             ["UI_DungeonMod_Tab_55"] = {
-                ["ContentEN"] = "55.0",
+                ["ContentEN"] = "55",
                 ["TextMapId"] = "UI_DungeonMod_Tab_55",
             },
             ["UI_DungeonMod_Tab_60"] = {
-                ["ContentEN"] = "60.0",
+                ["ContentEN"] = "60",
                 ["TextMapId"] = "UI_DungeonMod_Tab_60",
             },
             ["UI_DungeonMod_Tab_65"] = {
-                ["ContentEN"] = "65.0",
+                ["ContentEN"] = "65",
                 ["TextMapId"] = "UI_DungeonMod_Tab_65",
             },
             ["UI_DungeonMod_Tab_70"] = {
-                ["ContentEN"] = "70.0",
+                ["ContentEN"] = "70",
                 ["TextMapId"] = "UI_DungeonMod_Tab_70",
             },
             ["UI_DungeonMod_Tab_80"] = {
-                ["ContentEN"] = "80.0",
+                ["ContentEN"] = "80",
                 ["TextMapId"] = "UI_DungeonMod_Tab_80",
             },
             ["UI_Dungeon_Detail"] = {
                 ["ContentEN"] = "Commissions and Rewards",
                 ["TextMapId"] = "UI_Dungeon_Detail",
+            },
+            ["UI_Dungeon_DetailTitle"] = {
+                ["ContentEN"] = "Commission Results",
+                ["TextMapId"] = "UI_Dungeon_DetailTitle",
             },
             ["UI_Dungeon_DoubleCost"] = {
                 ["ContentEN"] = "2x Sanergy Cost",
@@ -48468,7 +49350,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_EXPLORE_STONE_2",
             },
             ["UI_EditSuccess"] = {
-                ["ContentEN"] = "Edited",
+                ["ContentEN"] = "Saved",
                 ["TextMapId"] = "UI_EditSuccess",
             },
             ["UI_EffectQuality_ExtremelyHigh"] = {
@@ -48784,10 +49666,6 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Fish Collection Rewards",
                 ["TextMapId"] = "UI_Fishing_FishCollectReward",
             },
-        }
-    end },
-    { MinKey = "UI_Fishing_FishEscape", MaxKey = "UI_HeadFrame_Head", Loader = function()
-        return {
             ["UI_Fishing_FishEscape"] = {
                 ["ContentEN"] = "The fish got away...",
                 ["TextMapId"] = "UI_Fishing_FishEscape",
@@ -48828,6 +49706,10 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "I'm done",
                 ["TextMapId"] = "UI_Fishing_Giveup",
             },
+        }
+    end },
+    { MinKey = "UI_Fishing_OpenFishBook", MaxKey = "UI_HeadFrame_Name_10009", Loader = function()
+        return {
             ["UI_Fishing_OpenFishBook"] = {
                 ["ContentEN"] = "Fish Collection",
                 ["TextMapId"] = "UI_Fishing_OpenFishBook",
@@ -48875,6 +49757,10 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
             ["UI_Fishing_TrackFishingSpot"] = {
                 ["ContentEN"] = "Locate Current Fishing Spot",
                 ["TextMapId"] = "UI_Fishing_TrackFishingSpot",
+            },
+            ["UI_Fishing_UnlockFishBook"] = {
+                ["ContentEN"] = "New Fish Entry Unlocked",
+                ["TextMapId"] = "UI_Fishing_UnlockFishBook",
             },
             ["UI_Fishing_UpdateTime"] = {
                 ["ContentEN"] = "Fishing Spot refreshes in %s",
@@ -49588,10 +50474,6 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Avatar",
                 ["TextMapId"] = "UI_HeadFrame_Head",
             },
-        }
-    end },
-    { MinKey = "UI_HeadFrame_Name_10001", MaxKey = "UI_Login_Fail", Loader = function()
-        return {
             ["UI_HeadFrame_Name_10001"] = {
                 ["ContentEN"] = "Old Photograph",
                 ["TextMapId"] = "UI_HeadFrame_Name_10001",
@@ -49628,6 +50510,10 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["ContentEN"] = "Public Impression: Benefit",
                 ["TextMapId"] = "UI_HeadFrame_Name_10009",
             },
+        }
+    end },
+    { MinKey = "UI_HeadFrame_Name_10010", MaxKey = "UI_MECHANISM_10411", Loader = function()
+        return {
             ["UI_HeadFrame_Name_10010"] = {
                 ["ContentEN"] = "Public Impression: Empathy",
                 ["TextMapId"] = "UI_HeadFrame_Name_10010",
@@ -49721,7 +50607,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_ITEM_EFFECT_DESC_1",
             },
             ["UI_ITEM_LIST"] = {
-                ["ContentEN"] = "Loot",
+                ["ContentEN"] = "Items",
                 ["TextMapId"] = "UI_ITEM_LIST",
             },
             ["UI_ImpressionShop_HardLevel"] = {
@@ -49741,7 +50627,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_ImpressionShop_ShopName_1011",
             },
             ["UI_ImpressionShop_Tips"] = {
-                ["ContentEN"] = "One per customer (except Mindscape items)",
+                ["ContentEN"] = "Each item is limited to 1 purchase per customer (except Mindscape items)",
                 ["TextMapId"] = "UI_ImpressionShop_Tips",
             },
             ["UI_ImpressionShop_UnlockCon_All"] = {
@@ -49957,7 +50843,7 @@ Are you sure you want to use the following Demon Wedge(s) to forge %s?",
                 ["TextMapId"] = "UI_Keyboard_SwitchMaster",
             },
             ["UI_Keyboard_TeamInfo"] = {
-                ["ContentEN"] = "Team Setup",
+                ["ContentEN"] = "Team Info",
                 ["TextMapId"] = "UI_Keyboard_TeamInfo",
             },
             ["UI_Keyboard_UpSelect"] = {
@@ -50299,7 +51185,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Locked_Des_ImpressionShop",
             },
             ["UI_Locked_Des_Invite"] = {
-                ["ContentEN"] = "Chats not unlocked",
+                ["ContentEN"] = "Invite not unlocked",
                 ["TextMapId"] = "UI_Locked_Des_Invite",
             },
             ["UI_Locked_Des_InviteTopic"] = {
@@ -50339,7 +51225,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Locked_Des_Notice",
             },
             ["UI_Locked_Des_Pet"] = {
-                ["ContentEN"] = "Geniemons not yet available",
+                ["ContentEN"] = "Geniemons not unlocked",
                 ["TextMapId"] = "UI_Locked_Des_Pet",
             },
             ["UI_Locked_Des_PhotoCamera"] = {
@@ -50394,10 +51280,6 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Login failed",
                 ["TextMapId"] = "UI_Login_Fail",
             },
-        }
-    end },
-    { MinKey = "UI_Login_Shader", MaxKey = "UI_ModGuideBook_Task_Des_13", Loader = function()
-        return {
             ["UI_Login_Shader"] = {
                 ["ContentEN"] = "Compiling shaders %s%%",
                 ["TextMapId"] = "UI_Login_Shader",
@@ -50434,6 +51316,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Psyche's Profile",
                 ["TextMapId"] = "UI_MECHANISM_10411",
             },
+        }
+    end },
+    { MinKey = "UI_MECHANISM_10412", MaxKey = "UI_ModGuideBook_Task_Title_Collect_08", Loader = function()
+        return {
             ["UI_MECHANISM_10412"] = {
                 ["ContentEN"] = "Ike's Profile",
                 ["TextMapId"] = "UI_MECHANISM_10412",
@@ -50827,7 +51713,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_MISSION_COMPLETE",
             },
             ["UI_MISSION_FAIL"] = {
-                ["ContentEN"] = "Commission Failed",
+                ["ContentEN"] = "Try Again!",
                 ["TextMapId"] = "UI_MISSION_FAIL",
             },
             ["UI_MODIMPORT_ENSURE"] = {
@@ -50975,7 +51861,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Mail_Tab_Star",
             },
             ["UI_Mail_Unstar_Confirm"] = {
-                ["ContentEN"] = "Unstar this mail? (It will be removed on refresh.)",
+                ["ContentEN"] = "Unstar this mail? (It will be removed on daily refresh.)",
                 ["TextMapId"] = "UI_Mail_Unstar_Confirm",
             },
             ["UI_MainTitle_Archive"] = {
@@ -51091,7 +51977,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_MiniGame_Reset",
             },
             ["UI_MiniGame_SF_Hint1"] = {
-                ["ContentEN"] = "Continuously press ",
+                ["ContentEN"] = "Continuously press{空格}",
                 ["TextMapId"] = "UI_MiniGame_SF_Hint1",
             },
             ["UI_MiniGame_SF_Hint2"] = {
@@ -51198,10 +52084,6 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Colloct all the following <highlight>Melee Weapon Demon Wedges</>",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Des_13",
             },
-        }
-    end },
-    { MinKey = "UI_ModGuideBook_Task_Des_14", MaxKey = "UI_Npc_Name_Man_16", Loader = function()
-        return {
             ["UI_ModGuideBook_Task_Des_14"] = {
                 ["ContentEN"] = "Colloct all the following <highlight>Ranged Weapon Demon Wedges</>",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Des_14",
@@ -51238,6 +52120,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Demon Wedge Collection Ⅷ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_08",
             },
+        }
+    end },
+    { MinKey = "UI_ModGuideBook_Task_Title_Collect_09", MaxKey = "UI_Npc_Name_Man_9", Loader = function()
+        return {
             ["UI_ModGuideBook_Task_Title_Collect_09"] = {
                 ["ContentEN"] = "Demon Wedge Collection Ⅸ",
                 ["TextMapId"] = "UI_ModGuideBook_Task_Title_Collect_09",
@@ -51299,7 +52185,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Mod_EditPolarity",
             },
             ["UI_Mod_EquipPreview"] = {
-                ["ContentEN"] = "Attributes When Equipped",
+                ["ContentEN"] = "Stats when equipped",
                 ["TextMapId"] = "UI_Mod_EquipPreview",
             },
             ["UI_Mod_ImportPlan"] = {
@@ -51351,7 +52237,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Mod_SuitNamePopUpTitle",
             },
             ["UI_Mod_TakeOffPreview"] = {
-                ["ContentEN"] = "Attributes When Removed",
+                ["ContentEN"] = "Stats when removed",
                 ["TextMapId"] = "UI_Mod_TakeOffPreview",
             },
             ["UI_Mod_Tips_Ensure"] = {
@@ -52002,10 +52888,6 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Angry Voice",
                 ["TextMapId"] = "UI_Npc_Name_Man_16",
             },
-        }
-    end },
-    { MinKey = "UI_Npc_Name_Man_17", MaxKey = "UI_OPTION_RefractiveQuality", Loader = function()
-        return {
             ["UI_Npc_Name_Man_17"] = {
                 ["ContentEN"] = "Flippant Young Man",
                 ["TextMapId"] = "UI_Npc_Name_Man_17",
@@ -52042,6 +52924,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Clue NPC 1",
                 ["TextMapId"] = "UI_Npc_Name_Man_9",
             },
+        }
+    end },
+    { MinKey = "UI_Npc_Name_Manhengwulai", MaxKey = "UI_OPTION_ScreenFilter", Loader = function()
+        return {
             ["UI_Npc_Name_Manhengwulai"] = {
                 ["ContentEN"] = "Aggressive Thug",
                 ["TextMapId"] = "UI_Npc_Name_Manhengwulai",
@@ -52806,10 +53692,6 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Refraction Quality",
                 ["TextMapId"] = "UI_OPTION_RefractiveQuality",
             },
-        }
-    end },
-    { MinKey = "UI_OPTION_ReleaseStuck", MaxKey = "UI_PlayerHead_Des_10010", Loader = function()
-        return {
             ["UI_OPTION_ReleaseStuck"] = {
                 ["ContentEN"] = "Reset Location",
                 ["TextMapId"] = "UI_OPTION_ReleaseStuck",
@@ -52846,6 +53728,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Graphics Filter",
                 ["TextMapId"] = "UI_OPTION_ScreenFilter",
             },
+        }
+    end },
+    { MinKey = "UI_OPTION_ScreenQuality", MaxKey = "UI_PlayerHead_Des_10017", Loader = function()
+        return {
             ["UI_OPTION_ScreenQuality"] = {
                 ["ContentEN"] = "Screenshot Quality",
                 ["TextMapId"] = "UI_OPTION_ScreenQuality",
@@ -53318,6 +54204,14 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Player who picks it up gains ×2 Movement Speed and ×2 Auto-Pickup Range. (Feature not yet available)",
                 ["TextMapId"] = "UI_Party_MiniQuest_SpeedUp",
             },
+            ["UI_Party_Parkour_FinishingRate"] = {
+                ["ContentEN"] = "Completion Rate",
+                ["TextMapId"] = "UI_Party_Parkour_FinishingRate",
+            },
+            ["UI_Party_Parkour_Ranking"] = {
+                ["ContentEN"] = "Current Ranking",
+                ["TextMapId"] = "UI_Party_Parkour_Ranking",
+            },
             ["UI_Party_Parkour_Skill_01"] = {
                 ["ContentEN"] = "Special Delivery: Boom!",
                 ["TextMapId"] = "UI_Party_Parkour_Skill_01",
@@ -53343,7 +54237,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Party_Parkour_Skill_06",
             },
             ["UI_Party_Parkour_Skill_ColdDown"] = {
-                ["ContentEN"] = "Only one buff can be active at a time",
+                ["ContentEN"] = "Only one special effect can be obtained at a time.",
                 ["TextMapId"] = "UI_Party_Parkour_Skill_ColdDown",
             },
             ["UI_Party_RewardCoin"] = {
@@ -53359,7 +54253,8 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Party_RewardCoin_OnLimit_Toast",
             },
             ["UI_Party_RewardDetail"] = {
-                ["ContentEN"] = "Completing the Avian Spirit Trial for the first time grants a star rating reward (once per rating)./nComplete the trial in Co-op Mode to earn repeat clear rewards. The more players and the higher the score, the better the loot. Repeat clear reward cap resets daily.",
+                ["ContentEN"] = "Complete the Avian Spirit Trial and achieve a certain star rating for the first time to claim the corresponding reward.\
+Completing the trial in Co-Op Mode allows you to claim repeat-clear rewards. The more participants and the better the performance, the greater the rewards. The daily limit for claiming repeat-clear rewards resets every day.",
                 ["TextMapId"] = "UI_Party_RewardDetail",
             },
             ["UI_PatchFix_Popup"] = {
@@ -53447,7 +54342,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_PetEntry_Title06",
             },
             ["UI_PetEntry_Title07"] = {
-                ["ContentEN"] = "Lightning-footed",
+                ["ContentEN"] = "Swift",
                 ["TextMapId"] = "UI_PetEntry_Title07",
             },
             ["UI_PetEntry_Title08"] = {
@@ -53463,7 +54358,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_PetEntry_Title10",
             },
             ["UI_PetEntry_Title11"] = {
-                ["ContentEN"] = "Armored",
+                ["ContentEN"] = "Ironclad",
                 ["TextMapId"] = "UI_PetEntry_Title11",
             },
             ["UI_PetEntry_Title12"] = {
@@ -53479,7 +54374,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_PetEntry_Title14",
             },
             ["UI_PetEntry_Title15"] = {
-                ["ContentEN"] = "Learned",
+                ["ContentEN"] = "Erudite",
                 ["TextMapId"] = "UI_PetEntry_Title15",
             },
             ["UI_PetEntry_Title16"] = {
@@ -53487,7 +54382,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_PetEntry_Title16",
             },
             ["UI_Pet_Affix_Without"] = {
-                ["ContentEN"] = "No Potential added to this slot",
+                ["ContentEN"] = "No Trait added to this slot",
                 ["TextMapId"] = "UI_Pet_Affix_Without",
             },
             ["UI_Pet_BreakLevelUp"] = {
@@ -53495,11 +54390,11 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Pet_BreakLevelUp",
             },
             ["UI_Pet_CaptureFail"] = {
-                ["ContentEN"] = "Capture Failed",
+                ["ContentEN"] = "Feeding Failed",
                 ["TextMapId"] = "UI_Pet_CaptureFail",
             },
             ["UI_Pet_CaptureSucRate"] = {
-                ["ContentEN"] = "Capture Success Rate",
+                ["ContentEN"] = "Success Rate to Befriend a Geniemon",
                 ["TextMapId"] = "UI_Pet_CaptureSucRate",
             },
             ["UI_Pet_CaptureSucRateColor"] = {
@@ -53507,7 +54402,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Pet_CaptureSucRateColor",
             },
             ["UI_Pet_CaptureSuccess"] = {
-                ["ContentEN"] = "Capture Successful",
+                ["ContentEN"] = "Feeding Successful",
                 ["TextMapId"] = "UI_Pet_CaptureSuccess",
             },
             ["UI_Pet_ChooseSnacks"] = {
@@ -53515,7 +54410,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Pet_ChooseSnacks",
             },
             ["UI_Pet_FoodLV0"] = {
-                ["ContentEN"] = "Edible to Geniemons, which can be used to capture them.",
+                ["ContentEN"] = "Edible to Geniemons, which can be used to feed them.",
                 ["TextMapId"] = "UI_Pet_FoodLV0",
             },
             ["UI_Pet_FoodNotEnough"] = {
@@ -53523,7 +54418,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Pet_FoodNotEnough",
             },
             ["UI_Pet_Get"] = {
-                ["ContentEN"] = "Geniemon Capture",
+                ["ContentEN"] = "Feed the Geniemon",
                 ["TextMapId"] = "UI_Pet_Get",
             },
             ["UI_Pet_LevelUp"] = {
@@ -53535,7 +54430,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Pet_Locked",
             },
             ["UI_Pet_Popup_Quit"] = {
-                ["ContentEN"] = "Do you want to exit Geniemon Capture?",
+                ["ContentEN"] = "Do you want to exit Geniemon Feeding?",
                 ["TextMapId"] = "UI_Pet_Popup_Quit",
             },
             ["UI_Pet_Skill_CD"] = {
@@ -53551,7 +54446,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Pet_ThrowFood_Phone",
             },
             ["UI_Pet_Title"] = {
-                ["ContentEN"] = "Geniemon Capture",
+                ["ContentEN"] = "Geniemon Feeding",
                 ["TextMapId"] = "UI_Pet_Title",
             },
             ["UI_Pet_Toast_LowSuccRate"] = {
@@ -53610,10 +54505,6 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Can change the avatar icon to Truffle and Filbert.",
                 ["TextMapId"] = "UI_PlayerHead_Des_10010",
             },
-        }
-    end },
-    { MinKey = "UI_PlayerHead_Des_10011", MaxKey = "UI_RougeLike_End_Fail02", Loader = function()
-        return {
             ["UI_PlayerHead_Des_10011"] = {
                 ["ContentEN"] = "Can change the avatar icon to Yuming.",
                 ["TextMapId"] = "UI_PlayerHead_Des_10011",
@@ -53642,6 +54533,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Unlocks Margie as your avatar icon.",
                 ["TextMapId"] = "UI_PlayerHead_Des_10017",
             },
+        }
+    end },
+    { MinKey = "UI_PlayerHead_Des_10018", MaxKey = "UI_RougeLike_End_TalentPoints", Loader = function()
+        return {
             ["UI_PlayerHead_Des_10018"] = {
                 ["ContentEN"] = "Unlocks Phantasio as your avatar icon.",
                 ["TextMapId"] = "UI_PlayerHead_Des_10018",
@@ -53910,6 +54805,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Completed",
                 ["TextMapId"] = "UI_QUEST_UNLOCKFINISH",
             },
+            ["UI_Quest_CanTakeQuest"] = {
+                ["ContentEN"] = "TBA",
+                ["TextMapId"] = "UI_Quest_CanTakeQuest",
+            },
             ["UI_Quest_TakeQuest"] = {
                 ["ContentEN"] = "Accept the quest",
                 ["TextMapId"] = "UI_Quest_TakeQuest",
@@ -53945,6 +54844,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
             ["UI_REGIONMAP_NAME_204"] = {
                 ["ContentEN"] = "The Hypnos' House",
                 ["TextMapId"] = "UI_REGIONMAP_NAME_204",
+            },
+            ["UI_REGION_EXITONLINE_TIP"] = {
+                ["ContentEN"] = "Preparing to exit Co-op Mode",
+                ["TextMapId"] = "UI_REGION_EXITONLINE_TIP",
             },
             ["UI_REGION_NAME_1001"] = {
                 ["ContentEN"] = "Purgatorio Island",
@@ -53985,6 +54888,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
             ["UI_REGION_NAME_1022"] = {
                 ["ContentEN"] = "Royal Military Prison",
                 ["TextMapId"] = "UI_REGION_NAME_1022",
+            },
+            ["UI_REGION_NAME_1032"] = {
+                ["ContentEN"] = "The Spathatoi",
+                ["TextMapId"] = "UI_REGION_NAME_1032",
             },
             ["UI_REGION_NAME_1041"] = {
                 ["ContentEN"] = "Eastern Country – Phase Ⅰ",
@@ -54171,7 +55078,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Read_Click",
             },
             ["UI_Recommend_Weapon"] = {
-                ["ContentEN"] = "Show Weapon Mastery",
+                ["ContentEN"] = "Show Proficient Weapons",
                 ["TextMapId"] = "UI_Recommend_Weapon",
             },
             ["UI_Refund"] = {
@@ -54299,7 +55206,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Reward_Walnut_Select_Warning",
             },
             ["UI_Rou_RoomCurrent"] = {
-                ["ContentEN"] = "Depth {序数:%d}",
+                ["ContentEN"] = "The {序数:%d} Level",
                 ["TextMapId"] = "UI_Rou_RoomCurrent",
             },
             ["UI_Rou_RoomTotal"] = {
@@ -54367,7 +55274,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_RougeBag_Tab_Name_2",
             },
             ["UI_RougeLike_Bag"] = {
-                ["ContentEN"] = "Exploration Info",
+                ["ContentEN"] = "Exploration Satchel",
                 ["TextMapId"] = "UI_RougeLike_Bag",
             },
             ["UI_RougeLike_BlessingConfirm"] = {
@@ -54414,10 +55321,6 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Exploration Failure",
                 ["TextMapId"] = "UI_RougeLike_End_Fail02",
             },
-        }
-    end },
-    { MinKey = "UI_RougeLike_End_NoMod", MaxKey = "UI_SUBREGION_NAME_101303", Loader = function()
-        return {
             ["UI_RougeLike_End_NoMod"] = {
                 ["ContentEN"] = "Did Not Gain Any",
                 ["TextMapId"] = "UI_RougeLike_End_NoMod",
@@ -54434,6 +55337,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Glazeystal",
                 ["TextMapId"] = "UI_RougeLike_End_TalentPoints",
             },
+        }
+    end },
+    { MinKey = "UI_RougeLike_End_Treasure", MaxKey = "UI_SUBREGION_NAME_101701", Loader = function()
+        return {
             ["UI_RougeLike_End_Treasure"] = {
                 ["ContentEN"] = "Artefacts",
                 ["TextMapId"] = "UI_RougeLike_End_Treasure",
@@ -54531,7 +55438,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Rouge_Talent_CHARDEF",
             },
             ["UI_Rouge_Talent_CantActive"] = {
-                ["ContentEN"] = "Cannot light Lantern while exploring",
+                ["ContentEN"] = "Cannot light up the Lantern while exploring",
                 ["TextMapId"] = "UI_Rouge_Talent_CantActive",
             },
             ["UI_Rouge_Talent_HaveActive"] = {
@@ -54600,7 +55507,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
             },
             ["UI_Rougelike_Contract_Detail"] = {
                 ["ContentEN"] = "1. Abyssward is only available at the highest difficulty. \
-2. Select an area wisely. Greater depths await where intensities run stronger. \
+2. Select a zone wisely. Greater depths await where intensities run stronger. \
 3. Deeper Abyssward grants more Trace Points.",
                 ["TextMapId"] = "UI_Rougelike_Contract_Detail",
             },
@@ -54621,7 +55528,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Rougelike_Contract_ScoreBonus",
             },
             ["UI_Rougelike_Contract_Selection"] = {
-                ["ContentEN"] = "Abyssward Depth Planning",
+                ["ContentEN"] = "Abyssward Depth Selection",
                 ["TextMapId"] = "UI_Rougelike_Contract_Selection",
             },
             ["UI_Rougelike_Contract_TotalHeat"] = {
@@ -55220,10 +56127,6 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Mine Ⅲ",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101303",
             },
-        }
-    end },
-    { MinKey = "UI_SUBREGION_NAME_101304", MaxKey = "UI_TEMPLE_DES_80502", Loader = function()
-        return {
             ["UI_SUBREGION_NAME_101304"] = {
                 ["ContentEN"] = "Mine Ⅳ",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101304",
@@ -55240,6 +56143,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["ContentEN"] = "Reservoir Area",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101701",
             },
+        }
+    end },
+    { MinKey = "UI_SUBREGION_NAME_101702", MaxKey = "UI_TEMPLE_DES_80701", Loader = function()
+        return {
             ["UI_SUBREGION_NAME_101702"] = {
                 ["ContentEN"] = "Pipeline Area",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101702",
@@ -55263,6 +56170,10 @@ If you or your family have a history of epilepsy or have experienced similar sym
             ["UI_SUBREGION_NAME_102104"] = {
                 ["ContentEN"] = "???",
                 ["TextMapId"] = "UI_SUBREGION_NAME_102104",
+            },
+            ["UI_SUBREGION_NAME_103201"] = {
+                ["ContentEN"] = "The Spathatoi",
+                ["TextMapId"] = "UI_SUBREGION_NAME_103201",
             },
             ["UI_SUBREGION_NAME_210101"] = {
                 ["ContentEN"] = "Sanctuary",
@@ -55521,7 +56432,7 @@ If you or your family have a history of epilepsy or have experienced similar sym
                 ["TextMapId"] = "UI_Squad_Miss_Challenge",
             },
             ["UI_Squad_Miss_Online"] = {
-                ["ContentEN"] = "A player's loadout is incomplete. Unable to start the challenge (%s)",
+                ["ContentEN"] = "A player's loadout is incomplete. Unable to start the challenge (%sP)",
                 ["TextMapId"] = "UI_Squad_Miss_Online",
             },
             ["UI_Squad_Miss_SigilWeapon"] = {
@@ -55846,23 +56757,19 @@ within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_46",
             },
             ["UI_TEMPLE_80101"] = {
-                ["ContentEN"] = "Collect coins to earn points and reach the Evacuation Point\
-within the time limit",
+                ["ContentEN"] = "Collect coins to earn points and reach the Evacuation Point within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80101",
             },
             ["UI_TEMPLE_80102"] = {
-                ["ContentEN"] = "Collect coins to earn points and reach the Evacuation Point\
-within the time limit",
+                ["ContentEN"] = "Collect coins to earn points and reach the Evacuation Point within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80102",
             },
             ["UI_TEMPLE_80201"] = {
-                ["ContentEN"] = "Collect coins to earn points and reach the Evacuation Point\
-within the time limit",
+                ["ContentEN"] = "Collect coins to earn points and reach the Evacuation Point within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80201",
             },
             ["UI_TEMPLE_80202"] = {
-                ["ContentEN"] = "Collect coins to earn points and reach the Evacuation Point\
-within the time limit",
+                ["ContentEN"] = "Collect coins to earn points and reach the Evacuation Point within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80202",
             },
             ["UI_TEMPLE_80301"] = {
@@ -55900,15 +56807,21 @@ within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80602",
             },
             ["UI_TEMPLE_80701"] = {
-                ["ContentEN"] = "Step on the correct tiles to complete the trial within the time limit",
+                ["ContentEN"] = "Step on the correct tiles\
+to complete the trial\
+within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80701",
             },
             ["UI_TEMPLE_80702"] = {
-                ["ContentEN"] = "Step on the correct tiles to complete the trial within the time limit",
+                ["ContentEN"] = "Step on the correct tiles\
+to complete the trial\
+within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80702",
             },
             ["UI_TEMPLE_80703"] = {
-                ["ContentEN"] = "Step on the correct tiles to complete the trial within the time limit",
+                ["ContentEN"] = "Step on the correct tiles\
+to complete the trial\
+within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80703",
             },
             ["UI_TEMPLE_80704"] = {
@@ -55932,18 +56845,15 @@ within the time limit",
                 ["TextMapId"] = "UI_TEMPLE_80803",
             },
             ["UI_TEMPLE_80901"] = {
-                ["ContentEN"] = "Earn Points by hitting active enemies\
-with any ranged weapon.",
+                ["ContentEN"] = "Earn Points by hitting active enemies with any ranged weapon.",
                 ["TextMapId"] = "UI_TEMPLE_80901",
             },
             ["UI_TEMPLE_80902"] = {
-                ["ContentEN"] = "Earn Points by hitting active enemies\
-with any melee weapon.",
+                ["ContentEN"] = "Earn Points by hitting active enemies with any melee weapon.",
                 ["TextMapId"] = "UI_TEMPLE_80902",
             },
             ["UI_TEMPLE_80903"] = {
-                ["ContentEN"] = "Earn Points by hitting active enemies\
-with any melee weapon.",
+                ["ContentEN"] = "Earn Points by hitting active enemies with any melee weapon.",
                 ["TextMapId"] = "UI_TEMPLE_80903",
             },
             ["UI_TEMPLE_80904"] = {
@@ -56003,11 +56913,11 @@ with any melee weapon.",
                 ["TextMapId"] = "UI_TEMPLE_DES_80102",
             },
             ["UI_TEMPLE_DES_80201"] = {
-                ["ContentEN"] = "Check coin positions and plan your route",
+                ["ContentEN"] = "Observe the positions of the coins and plan your route",
                 ["TextMapId"] = "UI_TEMPLE_DES_80201",
             },
             ["UI_TEMPLE_DES_80202"] = {
-                ["ContentEN"] = "Check coin positions and plan your route",
+                ["ContentEN"] = "Observe the positions of the coins and plan your route",
                 ["TextMapId"] = "UI_TEMPLE_DES_80202",
             },
             ["UI_TEMPLE_DES_80301"] = {
@@ -56034,10 +56944,6 @@ with any melee weapon.",
                 ["ContentEN"] = "Step on the tiles and destroy the targets with ranged attacks",
                 ["TextMapId"] = "UI_TEMPLE_DES_80502",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_DES_80601", MaxKey = "UI_Vote_Retreat_Reward", Loader = function()
-        return {
             ["UI_TEMPLE_DES_80601"] = {
                 ["ContentEN"] = "Destroy the mechanisms to gain extra time",
                 ["TextMapId"] = "UI_TEMPLE_DES_80601",
@@ -56050,6 +56956,10 @@ with any melee weapon.",
                 ["ContentEN"] = "Stepping on a tile changes its colour. Match all tiles to the exit colour within the time limit.",
                 ["TextMapId"] = "UI_TEMPLE_DES_80701",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_DES_80702", MaxKey = "UI_Vote_Retreat_Reward", Loader = function()
+        return {
             ["UI_TEMPLE_DES_80702"] = {
                 ["ContentEN"] = "Stepping on a tile changes its colour. Match all tiles to the exit colour within the time limit.",
                 ["TextMapId"] = "UI_TEMPLE_DES_80702",
@@ -56207,7 +57117,7 @@ with any melee weapon.",
                 ["TextMapId"] = "UI_TEMPLE_SUCRULE_COUNTDOWN_1",
             },
             ["UI_TEMPLE_SUCRULE_SCORE"] = {
-                ["ContentEN"] = "Total score reaches ",
+                ["ContentEN"] = "Total score reaches",
                 ["TextMapId"] = "UI_TEMPLE_SUCRULE_SCORE",
             },
             ["UI_TEMPLE_SUCRULE_ZERO"] = {
@@ -56233,6 +57143,10 @@ with any melee weapon.",
             ["UI_TEMPLE_TOTAL_TIME"] = {
                 ["ContentEN"] = "Total Time",
                 ["TextMapId"] = "UI_TEMPLE_TOTAL_TIME",
+            },
+            ["UI_TEXT_SOLDFISH"] = {
+                ["ContentEN"] = "Sell Catch",
+                ["TextMapId"] = "UI_TEXT_SOLDFISH",
             },
             ["UI_TIP_MP"] = {
                 ["ContentEN"] = "Insufficient Sanity",
@@ -56431,7 +57345,7 @@ with any melee weapon.",
                 ["TextMapId"] = "UI_Temple_MonsterIn",
             },
             ["UI_Temple_NormalPattern"] = {
-                ["ContentEN"] = "Pattern matched. +1 point.",
+                ["ContentEN"] = "Pattern matched, points earned",
                 ["TextMapId"] = "UI_Temple_NormalPattern",
             },
             ["UI_Temple_QuickPattern"] = {
@@ -56439,7 +57353,7 @@ with any melee weapon.",
                 ["TextMapId"] = "UI_Temple_QuickPattern",
             },
             ["UI_Temple_RewardDetail"] = {
-                ["ContentEN"] = "Completing the Avian Spirit Trial for the first time grants a star rating reward (once per rating)",
+                ["ContentEN"] = "Complete the Avian Spirit Trial and achieve a certain star rating for the first time to claim the corresponding reward",
                 ["TextMapId"] = "UI_Temple_RewardDetail",
             },
             ["UI_Temple_ScoreBonus"] = {
@@ -56493,6 +57407,14 @@ with any melee weapon.",
             ["UI_Tips_CantSell"] = {
                 ["ContentEN"] = "Not for Sale",
                 ["TextMapId"] = "UI_Tips_CantSell",
+            },
+            ["UI_Tips_Close"] = {
+                ["ContentEN"] = "Back",
+                ["TextMapId"] = "UI_Tips_Close",
+            },
+            ["UI_Tips_Ensure"] = {
+                ["ContentEN"] = "Confirm",
+                ["TextMapId"] = "UI_Tips_Ensure",
             },
             ["UI_Tips_ModApplicationType"] = {
                 ["ContentEN"] = "Suitable for: ",
@@ -56638,14 +57560,14 @@ with any melee weapon.",
             },
             ["UI_Toast_Rouge_Detail"] = {
                 ["ContentEN"] = "General Rules\
-1. You can use <Highlight>Glazeystal</> to light the <Highlight>Lantern</>, reducing exploration difficulty.\
+1. You can use <Highlight>Glazeystal</> to light the <Highlight>Lantern</> to ease the exploration.\
 2. Trace Points can be exchanged for exploration rewards <Highlight>each week</>.\
-3. <Highlight>Demon Wedge</> effects are disabled in the Mystic Maze.\
-4. <Highlight>Combat Partners</> cannot be summoned in the Mystic Maze.\
+3. <Highlight>Demon Wedge</> effects are disabled in Mystic Maze.\
+4. <Highlight>Combat Partners</> cannot be summoned in Mystic Maze.\
 \
 About Zones\
-1. Combat zones, known as <Highlight>Abyssoids</>, are divided into four escalating difficulty tiers: Flickered, Scattered, Atrocious, and Abysmal. Clearing an <Highlight>Abysmal Abyssoid</> completes the current exploration. All other Abyssoids reliably yield <Highlight>Embers</>.\
-2. <Highlight>R&R</> zones allow you to trade <Highlight>Embers</>, and may feature <Highlight>Avian Spirits</> that carry restorative items.\
+1. <Highlight>Abyssoid</> combat zones are divided into four escalating difficulty tiers: Penumbral, Scattered, Atrocious, and Abysmal. Clearing an <Highlight>Abysmal Abyssoid</> completes the current exploration. All other Abyssoid combat zones reliably yield <Highlight>Embers</>.\
+2. <Highlight>R&R</> zones allow you to trade <Highlight>Embers</> and may featured <Highlight>Avian Spirits</> that carry restorative items.\
 3. <Highlight>Echo</> is a special zone where a variety of <Highlight>Encounters</> may occur.",
                 ["TextMapId"] = "UI_Toast_Rouge_Detail",
             },
@@ -56851,7 +57773,7 @@ About Zones\
             },
         }
     end },
-    { MinKey = "UI_Vote_Select", MaxKey = "UI_Warning_Age_Content", Loader = function()
+    { MinKey = "UI_Vote_Select", MaxKey = "UI_Walnut_Type_Name_3", Loader = function()
         return {
             ["UI_Vote_Select"] = {
                 ["ContentEN"] = "Choose Next Move",
@@ -56876,6 +57798,10 @@ About Zones\
             ["UI_WEAPON_DESC_10104"] = {
                 ["ContentEN"] = "The best defence is a good offence — but of course, don't forget the importance of adequate rest.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10104",
+            },
+            ["UI_WEAPON_DESC_10105"] = {
+                ["ContentEN"] = "I'll embark on a journey far beyond the sands, just like you.",
+                ["TextMapId"] = "UI_WEAPON_DESC_10105",
             },
             ["UI_WEAPON_DESC_10198"] = {
                 ["ContentEN"] = "A sword refined with the latest surface-treatment techniques — favoured by knights renowned for their loyalty and discipline.",
@@ -57649,6 +58575,10 @@ About Zones\
                 ["ContentEN"] = "Chaos",
                 ["TextMapId"] = "UI_Walnut_Type_Name_3",
             },
+        }
+    end },
+    { MinKey = "UI_Warning_Age_Content", MaxKey = "VoiceDes111", Loader = function()
+        return {
             ["UI_Warning_Age_Content"] = {
                 ["ContentEN"] = "1. Duet Night Abyss is an expansive, high-freedom fantasy adventure RPG suitable for players aged 16 and above. We recommend that minors engage with the game under parental guidance.\
 2. Crafted against a fictitious setting, the game unfolds a rich narrative with well-defined character interactions, devoid of any adaptations from real historical events or contemporary issues.\
@@ -57658,10 +58588,6 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
 4. In Duet Night Abyss, a game of immense freedom and fantastical adventure, players will encounter a diverse array of companions, confront various challenges, and ultimately influence the unfolding of the storyline. Engaging with this game is poised to enhance the player's quick thinking and strategic decision-making skills.",
                 ["TextMapId"] = "UI_Warning_Age_Content",
             },
-        }
-    end },
-    { MinKey = "UI_Warning_Age_Title", MaxKey = "VoiceDes113", Loader = function()
-        return {
             ["UI_Warning_Age_Title"] = {
                 ["ContentEN"] = "Age Ratings",
                 ["TextMapId"] = "UI_Warning_Age_Title",
@@ -57823,31 +58749,38 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["TextMapId"] = "UI_WeaponCardLevel_Popup_PlayerEquiped",
             },
             ["UI_WeaponSkin_Des_3010101"] = {
-                ["ContentEN"] = "A true angler never comes home empty-handed. Good thing the fish market had a clearance sale — 80 coppers a pop, but no one has to know.",
+                ["ContentEN"] = "Suitable For Greatsword.\
+A true angler never comes home empty-handed. Good thing the fish market had a clearance sale — 80 coins a pop, but no one has to know.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010101",
             },
             ["UI_WeaponSkin_Des_3010102"] = {
-                ["ContentEN"] = "Just before they collided, the stars kissed farewell. Their shattered whispers became streaks of fire — lovers' breath adrift across the Milky Way.",
+                ["ContentEN"] = "Suitable For Greatsword.\
+Just before they collided, the stars kissed farewell. Their shattered whispers became streaks of fire — lovers' breath adrift across the Milky Way.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010102",
             },
             ["UI_WeaponSkin_Des_3010201"] = {
-                ["ContentEN"] = "Frozen Frostline Trout — firm, flavour-rich, and shelf-stable. Outlasts canned meat, cling wrap, and maybe even your survival instincts.",
+                ["ContentEN"] = "Suitable For Sword.\
+Frozen Frostline Trout — firm, flavour-rich, and shelf-stable. Outlasts canned meat, cling wrap, and maybe even your survival instincts.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010201",
             },
             ["UI_WeaponSkin_Des_3010202"] = {
-                ["ContentEN"] = "A sword of unusual design, said to embody a father's love: firm, instructive, and just a little traumatising.",
+                ["ContentEN"] = "Suitable For Sword.\
+A sword of unusual design, said to embody a father's love: firm, instructive, and just a little traumatising.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010202",
             },
             ["UI_WeaponSkin_Des_3010301"] = {
-                ["ContentEN"] = "Where is the sun? Look — it's dancing in the palm of my hand.",
+                ["ContentEN"] = "Suitable for Bow.\
+Where is the sun? Look — it's dancing in the palm of my hand.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010301",
             },
             ["UI_WeaponSkin_Des_3010401"] = {
-                ["ContentEN"] = "A single note breaks the hush — waking her from a midsummer dream, and plucking softly at the strings of her heart.",
+                ["ContentEN"] = "Suitable for Polearm.\
+A single note breaks the hush — waking her from a midsummer dream, and plucking softly at the strings of her heart.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010401",
             },
             ["UI_WeaponSkin_Des_3010402"] = {
-                ["ContentEN"] = "Waves leap beneath the dancer's steps — summer's rhythm crashing through the air. Here, the rhapsody crests: wild and bright.",
+                ["ContentEN"] = "Suitable for Polearm.\
+Waves leap beneath the dancer's steps — summer's rhythm crashing through the air. Here, the rhapsody crests: wild and bright.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010402",
             },
             ["UI_WeaponSkin_Name_3010101"] = {
@@ -57943,7 +58876,7 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["TextMapId"] = "UI_Weapon_Type",
             },
             ["UI_Weapons_Carried"] = {
-                ["ContentEN"] = "Weapons Equipped",
+                ["ContentEN"] = "Weapon Equipped",
                 ["TextMapId"] = "UI_Weapons_Carried",
             },
             ["UI_Wiki_DefaultSearch"] = {
@@ -58067,7 +59000,7 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["TextMapId"] = "VoiceDes009",
             },
             ["VoiceDes012"] = {
-                ["ContentEN"] = "Injured: I",
+                ["ContentEN"] = "Injured: Ⅰ",
                 ["TextMapId"] = "VoiceDes012",
             },
             ["VoiceDes013"] = {
@@ -58075,7 +59008,7 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["TextMapId"] = "VoiceDes013",
             },
             ["VoiceDes014"] = {
-                ["ContentEN"] = "Combat Skill: I",
+                ["ContentEN"] = "Combat Skill: Ⅰ",
                 ["TextMapId"] = "VoiceDes014",
             },
             ["VoiceDes015"] = {
@@ -58083,7 +59016,7 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["TextMapId"] = "VoiceDes015",
             },
             ["VoiceDes016"] = {
-                ["ContentEN"] = "Ultimate Skill: I",
+                ["ContentEN"] = "Ultimate Skill: Ⅰ",
                 ["TextMapId"] = "VoiceDes016",
             },
             ["VoiceDes017"] = {
@@ -58095,7 +59028,7 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["TextMapId"] = "VoiceDes018",
             },
             ["VoiceDes019"] = {
-                ["ContentEN"] = "Defeated: I",
+                ["ContentEN"] = "Defeated: Ⅰ",
                 ["TextMapId"] = "VoiceDes019",
             },
             ["VoiceDes020"] = {
@@ -58115,7 +59048,7 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["TextMapId"] = "VoiceDes023",
             },
             ["VoiceDes024"] = {
-                ["ContentEN"] = "Victory: I",
+                ["ContentEN"] = "Victory: Ⅰ",
                 ["TextMapId"] = "VoiceDes024",
             },
             ["VoiceDes025"] = {
@@ -58130,44 +59063,48 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["ContentEN"] = "Victory: Ⅳ",
                 ["TextMapId"] = "VoiceDes027",
             },
+            ["VoiceDes028"] = {
+                ["ContentEN"] = "(Voiceover Coming Soon)",
+                ["TextMapId"] = "VoiceDes028",
+            },
             ["VoiceDes031"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅰ",
+                ["ContentEN"] = "{空格}:Ⅰ",
                 ["TextMapId"] = "VoiceDes031",
             },
             ["VoiceDes032"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅱ",
+                ["ContentEN"] = "{空格}:Ⅱ",
                 ["TextMapId"] = "VoiceDes032",
             },
             ["VoiceDes033"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅲ",
+                ["ContentEN"] = "{空格}:Ⅲ",
                 ["TextMapId"] = "VoiceDes033",
             },
             ["VoiceDes034"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅳ",
+                ["ContentEN"] = "{空格}:Ⅳ",
                 ["TextMapId"] = "VoiceDes034",
             },
             ["VoiceDes035"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅴ",
+                ["ContentEN"] = "{空格}:Ⅴ",
                 ["TextMapId"] = "VoiceDes035",
             },
             ["VoiceDes036"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅵ",
+                ["ContentEN"] = "{空格}:Ⅵ",
                 ["TextMapId"] = "VoiceDes036",
             },
             ["VoiceDes037"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅶ",
+                ["ContentEN"] = "{空格}:Ⅶ",
                 ["TextMapId"] = "VoiceDes037",
             },
             ["VoiceDes038"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅷ",
+                ["ContentEN"] = "{空格}:Ⅷ",
                 ["TextMapId"] = "VoiceDes038",
             },
             ["VoiceDes039"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅸ",
+                ["ContentEN"] = "{空格}:Ⅸ",
                 ["TextMapId"] = "VoiceDes039",
             },
             ["VoiceDes040"] = {
-                ["ContentEN"] = "With Phoxhunter: Ⅹ",
+                ["ContentEN"] = "{空格}:Ⅹ",
                 ["TextMapId"] = "VoiceDes040",
             },
             ["VoiceDes041"] = {
@@ -58454,6 +59391,10 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["ContentEN"] = "About Hobbies",
                 ["TextMapId"] = "VoiceDes111",
             },
+        }
+    end },
+    { MinKey = "VoiceDes112", MaxKey = "ZhiLiuEntrustText02", Loader = function()
+        return {
             ["VoiceDes112"] = {
                 ["ContentEN"] = "About Huaxu",
                 ["TextMapId"] = "VoiceDes112",
@@ -58462,10 +59403,6 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
                 ["ContentEN"] = "About Duties",
                 ["TextMapId"] = "VoiceDes113",
             },
-        }
-    end },
-    { MinKey = "VoiceDes114", MaxKey = "voice_ch_char_Aote_vo_topic_02_1", Loader = function()
-        return {
             ["VoiceDes114"] = {
                 ["ContentEN"] = "About Mood",
                 ["TextMapId"] = "VoiceDes114",
@@ -58473,6 +59410,146 @@ Gaming services will only be available to minors for 1 hour between 20:00 and 21
             ["VoiceDes115"] = {
                 ["ContentEN"] = "About Nights",
                 ["TextMapId"] = "VoiceDes115",
+            },
+            ["VoiceDes116"] = {
+                ["ContentEN"] = "About Hometown",
+                ["TextMapId"] = "VoiceDes116",
+            },
+            ["VoiceDes117"] = {
+                ["ContentEN"] = "About the Misty Sea",
+                ["TextMapId"] = "VoiceDes117",
+            },
+            ["VoiceDes118"] = {
+                ["ContentEN"] = "About Friends",
+                ["TextMapId"] = "VoiceDes118",
+            },
+            ["VoiceDes119"] = {
+                ["ContentEN"] = "About Her Harmonica",
+                ["TextMapId"] = "VoiceDes119",
+            },
+            ["VoiceDes120"] = {
+                ["ContentEN"] = "About Her Harmonica",
+                ["TextMapId"] = "VoiceDes120",
+            },
+            ["VoiceDes121"] = {
+                ["ContentEN"] = "About the Legion",
+                ["TextMapId"] = "VoiceDes121",
+            },
+            ["VoiceDes122"] = {
+                ["ContentEN"] = "About the Legion",
+                ["TextMapId"] = "VoiceDes122",
+            },
+            ["VoiceDes123"] = {
+                ["ContentEN"] = "About Her Horns",
+                ["TextMapId"] = "VoiceDes123",
+            },
+            ["VoiceDes124"] = {
+                ["ContentEN"] = "About Blues",
+                ["TextMapId"] = "VoiceDes124",
+            },
+            ["VoiceDes125"] = {
+                ["ContentEN"] = "About His Name",
+                ["TextMapId"] = "VoiceDes125",
+            },
+            ["VoiceDes126"] = {
+                ["ContentEN"] = "About Acting",
+                ["TextMapId"] = "VoiceDes126",
+            },
+            ["VoiceDes127"] = {
+                ["ContentEN"] = "About the Theatre",
+                ["TextMapId"] = "VoiceDes127",
+            },
+            ["VoiceDes128"] = {
+                ["ContentEN"] = "About Medicine",
+                ["TextMapId"] = "VoiceDes128",
+            },
+            ["VoiceDes129"] = {
+                ["ContentEN"] = "About the Alchemy Academy",
+                ["TextMapId"] = "VoiceDes129",
+            },
+            ["VoiceDes130"] = {
+                ["ContentEN"] = "About Her Backpack",
+                ["TextMapId"] = "VoiceDes130",
+            },
+            ["VoiceDes131"] = {
+                ["ContentEN"] = "About Training",
+                ["TextMapId"] = "VoiceDes131",
+            },
+            ["VoiceDes132"] = {
+                ["ContentEN"] = "About Her Father",
+                ["TextMapId"] = "VoiceDes132",
+            },
+            ["VoiceDes133"] = {
+                ["ContentEN"] = "About Swordsmanship",
+                ["TextMapId"] = "VoiceDes133",
+            },
+            ["VoiceDes134"] = {
+                ["ContentEN"] = "About Rebellion",
+                ["TextMapId"] = "VoiceDes134",
+            },
+            ["VoiceDes135"] = {
+                ["ContentEN"] = "About Weapon Mastery",
+                ["TextMapId"] = "VoiceDes135",
+            },
+            ["VoiceDes136"] = {
+                ["ContentEN"] = "{空格}:Ⅺ",
+                ["TextMapId"] = "VoiceDes136",
+            },
+            ["VoiceDes137"] = {
+                ["ContentEN"] = "Injured: Ⅲ",
+                ["TextMapId"] = "VoiceDes137",
+            },
+            ["VoiceDes138"] = {
+                ["ContentEN"] = "Injured: Ⅳ",
+                ["TextMapId"] = "VoiceDes138",
+            },
+            ["VoiceDes139"] = {
+                ["ContentEN"] = "Combat Skill: Ⅲ",
+                ["TextMapId"] = "VoiceDes139",
+            },
+            ["VoiceDes140"] = {
+                ["ContentEN"] = "Combat Skill: Ⅳ",
+                ["TextMapId"] = "VoiceDes140",
+            },
+            ["VoiceDes141"] = {
+                ["ContentEN"] = "Combat Skill: Ⅴ",
+                ["TextMapId"] = "VoiceDes141",
+            },
+            ["VoiceDes142"] = {
+                ["ContentEN"] = "About Techniques",
+                ["TextMapId"] = "VoiceDes142",
+            },
+            ["VoiceDes143"] = {
+                ["ContentEN"] = "About the Forsakens",
+                ["TextMapId"] = "VoiceDes143",
+            },
+            ["VoiceDes144"] = {
+                ["ContentEN"] = "About Wounds",
+                ["TextMapId"] = "VoiceDes144",
+            },
+            ["VoiceDes145"] = {
+                ["ContentEN"] = "About Survival",
+                ["TextMapId"] = "VoiceDes145",
+            },
+            ["VoiceDes146"] = {
+                ["ContentEN"] = "About Rewards",
+                ["TextMapId"] = "VoiceDes146",
+            },
+            ["VoiceDes147"] = {
+                ["ContentEN"] = "About the Price of Things",
+                ["TextMapId"] = "VoiceDes147",
+            },
+            ["VoiceDes148"] = {
+                ["ContentEN"] = "About Business",
+                ["TextMapId"] = "VoiceDes148",
+            },
+            ["VoiceDes149"] = {
+                ["ContentEN"] = "About Fear",
+                ["TextMapId"] = "VoiceDes149",
+            },
+            ["VoiceDes150"] = {
+                ["ContentEN"] = "Ultimate Skill: Ⅳ",
+                ["TextMapId"] = "VoiceDes150",
             },
             ["VoiceLocked_Dialogue"] = {
                 ["ContentEN"] = "Unlock after small talks in Sanctuary",
@@ -59230,6 +60307,10 @@ Founded during the Great Migration by Dis I, the Empire's first sovereign, Icela
                 ["ContentEN"] = "Strange Filthoids have been spotted in Icelake. Could you investigate?",
                 ["TextMapId"] = "ZhiLiuEntrustText02",
             },
+        }
+    end },
+    { MinKey = "ZhiLiuEntrust_Battle", MaxKey = "voice_ch_char_Haier_vo_topic_03_1", Loader = function()
+        return {
             ["ZhiLiuEntrust_Battle"] = {
                 ["ContentEN"] = "Hunting List",
                 ["TextMapId"] = "ZhiLiuEntrust_Battle",
@@ -59378,10 +60459,6 @@ Founded during the Great Migration by Dis I, the Empire's first sovereign, Icela
                 ["ContentEN"] = "They're like a wildfire that's never fully extinguished, ready to flare up at any moment. For your own good, better keep your distance...",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_topic_02_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Aote_vo_topic_02_2", MaxKey = "voice_ch_char_Heitao_vo_topic_03_2", Loader = function()
-        return {
             ["voice_ch_char_Aote_vo_topic_02_2"] = {
                 ["ContentEN"] = "Well... let's just say we've had our little scuffles. If you ever deal with them, make sure my name doesn't come up.",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_topic_02_2",
@@ -59443,8 +60520,7 @@ Founded during the Great Migration by Dis I, the Empire's first sovereign, Icela
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_be_hit_r02",
             },
             ["voice_ch_char_Baiheng_vo_birthday"] = {
-                ["ContentEN"] = "Today's your birthday? No wonder you smell so sweet. You must have eaten many preserves and birthday noodles? Well, I happen to have a concoction that can help you.\
-Excuse me, rather than noodles, you ate cake to celebrate your birthday? *sigh* One moment, allow me to rebrew the concoction. A respectable physician such as I cannot allow you to suffer from digestive upset.",
+                ["ContentEN"] = "Today is your special day. In honour of this, I've prepared a humble offering — a collection of herbal remedies to ward off the minor ailments one might encounter in their travels. Whether it be a cold, a scrape, or a bruise, these will serve you well. Yet, it is my heartfelt hope that you remain so safe and well that you never have a need for them.",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_birthday",
             },
             ["voice_ch_char_Baiheng_vo_companio"] = {
@@ -59532,7 +60608,7 @@ Excuse me, rather than noodles, you ate cake to celebrate your birthday? *sigh* 
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_02_1",
             },
             ["voice_ch_char_Baiheng_vo_topic_02_2"] = {
-                ["ContentEN"] = "Like twins raised apart, herbs too vary based on their surroundings. It's essential to verify each one's properties, be it mild or potent.",
+                ["ContentEN"] = "You're not mistaken. I... once returned from the brink of death, clawing my way back from the clutches of grave illness. Should such a trial confront me again, I cannot say with certainty that I would make the same choice.",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_02_2",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_1"] = {
@@ -59544,7 +60620,7 @@ Excuse me, rather than noodles, you ate cake to celebrate your birthday? *sigh* 
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_03_2",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_3"] = {
-                ["ContentEN"] = "Beyond those seeking medical treatment, children also come to frolic amongst the apricot trees, turning the grove into their playground. Yet, each year, the quest for high-hanging apricots leaves some with minor bruises and scrapes... I wonder if this year has been any different.",
+                ["ContentEN"] = "Waking up from a long slumber, I sought the apricot tree I once planted in my youth. Sadly, the tree had withered to barren wood, and not even this warm spring could coax new buds from its branches.",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_03_3",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_4"] = {
@@ -60039,6 +61115,10 @@ Hah, does receiving blessings make you happy, you simple creature? Tsk, well, ha
                 ["ContentEN"] = "Certainly. The Imperial Prison is teeming with devious criminals. My duties include conducting interrogations, reviewing case files, and thwarting escape attempts.",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_03_1",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Haier_vo_topic_03_2", MaxKey = "voice_ch_char_Maer_vo_be_hit_heavy_r01", Loader = function()
+        return {
             ["voice_ch_char_Haier_vo_topic_03_2"] = {
                 ["ContentEN"] = "Every minute of rest delays justice a bit, and when justice is delayed, chaos and the law of the jungle take over.",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_03_2",
@@ -60187,10 +61267,6 @@ Hah, does receiving blessings make you happy, you simple creature? Tsk, well, ha
                 ["ContentEN"] = "Remember how your hands would always get very cold in winter? Here, let me warm them up.",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_topic_03_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Heitao_vo_topic_04_1", MaxKey = "voice_ch_char_Maer_vo_topic_05_3", Loader = function()
-        return {
             ["voice_ch_char_Heitao_vo_topic_04_1"] = {
                 ["ContentEN"] = "Well, that place is like a city made of steel... Mm, more like a prison, to be precise. I spent my early years there.",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_topic_04_1",
@@ -60849,6 +61925,10 @@ Ah, I'm so sorry! I didn't mean to spoil the mood with my rambling on such a joy
                 ["ContentEN"] = "That really hurt!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_be_hit_heavy_r01",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Maer_vo_be_hit_heavy_r02", MaxKey = "voice_ch_char_Songlu_vo_topic_03_2", Loader = function()
+        return {
             ["voice_ch_char_Maer_vo_be_hit_heavy_r02"] = {
                 ["ContentEN"] = "Owwww!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_be_hit_heavy_r02",
@@ -60997,10 +62077,6 @@ Ah, I'm so sorry! I didn't mean to spoil the mood with my rambling on such a joy
                 ["ContentEN"] = "Hehe, now that's a proper title for me~",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_topic_05_3",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Maer_vo_victory", MaxKey = "voice_ch_char_Tuosi_vo_topic_01_1", Loader = function()
-        return {
             ["voice_ch_char_Maer_vo_victory"] = {
                 ["ContentEN"] = "What a bountiful haul today!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_victory",
@@ -61658,6 +62734,10 @@ After all, even if I gave you a thousand chances, I would still escape from your
                 ["ContentEN"] = "No worries at all! Filbert always brings more food. So never ever make fun of her — it would hurt her feelings, and mine too.",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_03_2",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Songlu_vo_topic_04_1", MaxKey = "voice_ch_char_Yuming_vo_topic_01_1", Loader = function()
+        return {
             ["voice_ch_char_Songlu_vo_topic_04_1"] = {
                 ["ContentEN"] = "Thank you! Actually, these are shorts, not a dress. They did start as a pretty, long, white dress; then the lady at the tailor's shop turned them into shorts for me.",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_04_1",
@@ -61811,10 +62891,6 @@ Ah, an original composition of yours... Such an enviable gift. Might I have the 
                 ["ContentEN"] = "He was a shattered crystal lamp, a fallen star plunged into a filthy gutter.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_topic_01_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Tuosi_vo_topic_01_2", MaxKey = "voice_ch_char_Zhangyu_vo_topic_02_2", Loader = function()
-        return {
             ["voice_ch_char_Tuosi_vo_topic_01_2"] = {
                 ["ContentEN"] = "He was just like those things — laughably absurd, yet somehow, they shine brilliantly.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_topic_01_2",
@@ -62410,7 +63486,7 @@ O-Okay! P-Peter Piker p-picked…",
             },
             ["voice_ch_char_Yuming_vo_birthday"] = {
                 ["ContentEN"] = "Birthdays? I hardly paid attention to such occasions — my allegiance to the Nine Chapters renders life and death mere footnotes.\
-...Yet, a kind wish can bring a smile, perhaps. Thus, I offer this: Happy Birthday.",
+Yet, a kind wish can bring a smile, perhaps. ...Happy Birthday.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_birthday",
             },
             ["voice_ch_char_Yuming_vo_companio_01"] = {
@@ -62434,7 +63510,7 @@ O-Okay! P-Peter Piker p-picked…",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_die_r02",
             },
             ["voice_ch_char_Yuming_vo_fail"] = {
-                ["ContentEN"] = "What an embarrassment.",
+                ["ContentEN"] = "Another mark of shame...",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_fail",
             },
             ["voice_ch_char_Yuming_vo_gain"] = {
@@ -62454,29 +63530,33 @@ O-Okay! P-Peter Piker p-picked…",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_revive",
             },
             ["voice_ch_char_Yuming_vo_skill01_r01"] = {
-                ["ContentEN"] = "Shackles.",
+                ["ContentEN"] = "Shatter.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r01",
             },
             ["voice_ch_char_Yuming_vo_skill01_r02"] = {
-                ["ContentEN"] = "Roar.",
+                ["ContentEN"] = "Starfall strike.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r02",
             },
             ["voice_ch_char_Yuming_vo_skill02_r01"] = {
-                ["ContentEN"] = "I'll take it.",
+                ["ContentEN"] = "Judgment falls!",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r01",
             },
             ["voice_ch_char_Yuming_vo_skill02_r02"] = {
-                ["ContentEN"] = "Xuanjiao, grant me power.",
+                ["ContentEN"] = "Xuanjiao, rend the front.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r02",
             },
             ["voice_ch_char_Yuming_vo_skill02_r03"] = {
-                ["ContentEN"] = "Haunting shadow.",
+                ["ContentEN"] = "Soul to steel.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r03",
             },
             ["voice_ch_char_Yuming_vo_topic_01_1"] = {
                 ["ContentEN"] = "...Go read a tome or seek another's company for such trivial discourse. Perhaps the Starweavers peddling their crafts would indulge your curiosity.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_01_1",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Yuming_vo_topic_01_2", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Yuming_vo_topic_01_2"] = {
                 ["ContentEN"] = "I am oft preoccupied, and my perspectives are notably skewed. Should your curiosity truly beckon, a visit thither would enlighten you far beyond any second-hand account.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_01_2",
@@ -62627,10 +63707,6 @@ Hey, what's up with you, getting all riled up? Haha, you're a proper laugh!",
                 ["ContentEN"] = "One time, I even turned into a barrel just to scare you, but you never came near...",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_topic_02_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Zhangyu_vo_topic_02_3", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Zhangyu_vo_topic_02_3"] = {
                 ["ContentEN"] = "What?! Wait, so you knew it was me and just walked away? That's not cool!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_topic_02_3",
@@ -62678,6 +63754,10 @@ Hey, what's up with you, getting all riled up? Haha, you're a proper laugh!",
             ["voice_ch_char_Zhiliu_vo_battlestart"] = {
                 ["ContentEN"] = "Let's make it quick and decisive.",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_battlestart",
+            },
+            ["voice_ch_char_Zhiliu_vo_be_hit_heavy_r01"] = {
+                ["ContentEN"] = "Hmph, time to pay.",
+                ["TextMapId"] = "voice_ch_char_Zhiliu_vo_be_hit_heavy_r01",
             },
             ["voice_ch_char_Zhiliu_vo_birthday"] = {
                 ["ContentEN"] = "Today is your birthday. I have prepared a small gift for you — you may open it later.\

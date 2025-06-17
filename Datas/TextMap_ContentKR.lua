@@ -211,7 +211,7 @@ local Data = {
                 ["TextMapId"] = "Abyss_FightProgress",
             },
             ["Abyss_FightReConfirm"] = {
-                ["ContentKR"] = "전투 시작 후 진용을 계속 변경할 수 없습니다. <H> 스테이지·%s</>으(로) 진입하시겠습니까?",
+                ["ContentKR"] = "전투 시작 후 편성을 계속 변경할 수 없습니다. <H> 스테이지·%s</>으(로) 진입하시겠습니까?",
                 ["TextMapId"] = "Abyss_FightReConfirm",
             },
             ["Abyss_FightReConfirm_Title"] = {
@@ -267,11 +267,11 @@ local Data = {
                 ["TextMapId"] = "Abyss_Level_Back",
             },
             ["Abyss_LockedReConfirm"] = {
-                ["ContentKR"] = "현재 진용이 잠겼습니다. 만약 설정을 변경하면, <H> 클리어 진행도 </>이(가) 다시 계산됩니다. 설정을 변경하시겠습니까?",
+                ["ContentKR"] = "현재 편성이 잠겼습니다. 만약 설정을 변경하면, <H> 클리어 진행도 </>이(가) 다시 계산됩니다. 설정을 변경하시겠습니까?",
                 ["TextMapId"] = "Abyss_LockedReConfirm",
             },
             ["Abyss_LockedReConfirm_Title"] = {
-                ["ContentKR"] = "진용 설정 변경",
+                ["ContentKR"] = "편성 설정 변경",
                 ["TextMapId"] = "Abyss_LockedReConfirm_Title",
             },
             ["Abyss_NextDungeon"] = {
@@ -311,15 +311,15 @@ local Data = {
                 ["TextMapId"] = "Abyss_PartyDelete",
             },
             ["Abyss_PartyLock"] = {
-                ["ContentKR"] = "진용이 잠겼습니다",
+                ["ContentKR"] = "편성이 잠겼습니다",
                 ["TextMapId"] = "Abyss_PartyLock",
             },
             ["Abyss_PartySetup"] = {
-                ["ContentKR"] = "진용 설정",
+                ["ContentKR"] = "편성 설정",
                 ["TextMapId"] = "Abyss_PartySetup",
             },
             ["Abyss_PartySetup_Change"] = {
-                ["ContentKR"] = "진용 변화",
+                ["ContentKR"] = "편성 변화",
                 ["TextMapId"] = "Abyss_PartySetup_Change",
             },
             ["Abyss_PartySetup_ConditionsAreNot"] = {
@@ -327,7 +327,7 @@ local Data = {
                 ["TextMapId"] = "Abyss_PartySetup_ConditionsAreNot",
             },
             ["Abyss_Party_ConditionsAreNot"] = {
-                ["ContentKR"] = "먼저 진용을 설정하세요",
+                ["ContentKR"] = "먼저 편성을 설정하세요",
                 ["TextMapId"] = "Abyss_Party_ConditionsAreNot",
             },
             ["Abyss_Party_Replaced"] = {
@@ -339,7 +339,7 @@ local Data = {
                 ["TextMapId"] = "Abyss_RecElemental",
             },
             ["Abyss_RecLevel"] = {
-                ["ContentKR"] = "추천 레벨 Lv.",
+                ["ContentKR"] = "추천 레벨 Lv.{空格}",
                 ["TextMapId"] = "Abyss_RecLevel",
             },
             ["Abyss_ResetFight"] = {
@@ -379,11 +379,11 @@ local Data = {
                 ["TextMapId"] = "Abyss_RotateReward_Title",
             },
             ["Abyss_SaveReConfirm"] = {
-                ["ContentKR"] = "현재 진용은 <H>아직 저장되지 않았습니다</>. 나가시겠습니까?",
+                ["ContentKR"] = "현재 편성은 <H>아직 저장되지 않았습니다</>. 나가시겠습니까?",
                 ["TextMapId"] = "Abyss_SaveReConfirm",
             },
             ["Abyss_SaveReConfirm_Title"] = {
-                ["ContentKR"] = "진용 저장",
+                ["ContentKR"] = "저장",
                 ["TextMapId"] = "Abyss_SaveReConfirm_Title",
             },
             ["Abyss_SeasonFightProgress"] = {
@@ -399,7 +399,7 @@ local Data = {
                 ["TextMapId"] = "Abyss_SeasonReview_BestLevel",
             },
             ["Abyss_SeasonReview_BestParty"] = {
-                ["ContentKR"] = "최고 클리어 진용",
+                ["ContentKR"] = "최고 클리어 편성",
                 ["TextMapId"] = "Abyss_SeasonReview_BestParty",
             },
             ["Abyss_SeasonReview_RewardProgress"] = {
@@ -463,7 +463,7 @@ local Data = {
                 ["TextMapId"] = "Access_EggBai",
             },
             ["Access_Monster_HardNormal"] = {
-                ["ContentKR"] = "강력한 적 드롭",
+                ["ContentKR"] = "의뢰에서 강력한 적 드롭",
                 ["TextMapId"] = "Access_Monster_HardNormal",
             },
             ["Access_Monster_Normal"] = {
@@ -804,7 +804,7 @@ local Data = {
             },
         }
     end },
-    { MinKey = "BATTLE_COMBO_3", MaxKey = "CVName4005", Loader = function()
+    { MinKey = "BATTLE_COMBO_3", MaxKey = "CVName4004", Loader = function()
         return {
             ["BATTLE_COMBO_3"] = {
                 ["ContentKR"] = "A",
@@ -1031,7 +1031,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001004",
             },
             ["BattlePass_Task_Des_100001005"] = {
-                ["ContentKR"] = "마령 <H>1</>마리 포획",
+                ["ContentKR"] = "마령 <H>1</>마리와 친구 되기",
                 ["TextMapId"] = "BattlePass_Task_Des_100001005",
             },
             ["BattlePass_Task_Des_100001101"] = {
@@ -1055,7 +1055,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001105",
             },
             ["BattlePass_Task_Des_100001106"] = {
-                ["ContentKR"] = "마령 <H>10</>마리 포획",
+                ["ContentKR"] = "마령 <H>10</>마리와 친구 되기",
                 ["TextMapId"] = "BattlePass_Task_Des_100001106",
             },
             ["BattlePass_Task_Des_100001107"] = {
@@ -1063,7 +1063,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001107",
             },
             ["BattlePass_Task_Des_100001108"] = {
-                ["ContentKR"] = "악몽의 잔향 <H>2</>회 완료",
+                ["ContentKR"] = "악몽의 잔향 <H>1</>회 완료",
                 ["TextMapId"] = "BattlePass_Task_Des_100001108",
             },
             ["BattlePass_Task_Des_100001109"] = {
@@ -1083,7 +1083,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001112",
             },
             ["BattlePass_Task_Des_100001201"] = {
-                ["ContentKR"] = "“몰입형 연극”의 현재 모든 “인기 상영작” 완료",
+                ["ContentKR"] = "'몰입형 연극'의 현재 진행중인 '인기 레퍼토리' 모두 완료",
                 ["TextMapId"] = "BattlePass_Task_Des_100001201",
             },
             ["BattlePass_Task_Des_100001202"] = {
@@ -1099,7 +1099,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001204",
             },
             ["BattlePass_Task_Des_100001205"] = {
-                ["ContentKR"] = "의뢰 “입문 가이드” 6단계 완료",
+                ["ContentKR"] = "의뢰 '입문 가이드' 6단계 완료",
                 ["TextMapId"] = "BattlePass_Task_Des_100001205",
             },
             ["BattlePass_Task_Des_100001206"] = {
@@ -1107,7 +1107,7 @@ local Data = {
                 ["TextMapId"] = "BattlePass_Task_Des_100001206",
             },
             ["BattlePass_Task_Des_100001207"] = {
-                ["ContentKR"] = "이벤트 “이방인”에서 <H>1000</>개의 춘택현보 획득",
+                ["ContentKR"] = "이벤트 '타향에서 온 손님'에서 <H>1000</>개의 춘택현보 획득",
                 ["TextMapId"] = "BattlePass_Task_Des_100001207",
             },
             ["BattleWheel_Apply"] = {
@@ -1182,6 +1182,10 @@ local Data = {
                 ["ContentKR"] = "시든 풀 위 흩날리는 깃털",
                 ["TextMapId"] = "BossSkillToast_Saiqi_Skill10",
             },
+            ["BossSkillToast_Saiqi_Skill23"] = {
+                ["ContentKR"] = "빛이 사라질 때의 애가",
+                ["TextMapId"] = "BossSkillToast_Saiqi_Skill23",
+            },
             ["BossSkillToast_Shenpan_Skill02"] = {
                 ["ContentKR"] = "광휘 세례",
                 ["TextMapId"] = "BossSkillToast_Shenpan_Skill02",
@@ -1203,7 +1207,7 @@ local Data = {
                 ["TextMapId"] = "BossSkillToast_Shijingzhe_Skill14",
             },
             ["BossSkillToast_Shijingzhe_Skill15"] = {
-                ["ContentKR"] = "어째서 집으로 삼습니까?",
+                ["ContentKR"] = "무엇으로 집을 삼는가?",
                 ["TextMapId"] = "BossSkillToast_Shijingzhe_Skill15",
             },
             ["BossSkillToast_Tuosi_Skill07"] = {
@@ -1443,7 +1447,7 @@ local Data = {
                 ["TextMapId"] = "CVName2008",
             },
             ["CVName2009"] = {
-                ["ContentKR"] = "James MacNaughton",
+                ["ContentKR"] = "James Macnaughton",
                 ["TextMapId"] = "CVName2009",
             },
             ["CVName2010"] = {
@@ -1602,14 +1606,14 @@ local Data = {
                 ["ContentKR"] = "이다은",
                 ["TextMapId"] = "CVName4004",
             },
+        }
+    end },
+    { MinKey = "CVName4005", MaxKey = "Condition_Toast_PlayerLv_ModGuideBook_35", Loader = function()
+        return {
             ["CVName4005"] = {
                 ["ContentKR"] = "소연",
                 ["TextMapId"] = "CVName4005",
             },
-        }
-    end },
-    { MinKey = "CVName4006", MaxKey = "Content_110103_3", Loader = function()
-        return {
             ["CVName4006"] = {
                 ["ContentKR"] = "성예원",
                 ["TextMapId"] = "CVName4006",
@@ -1805,6 +1809,10 @@ local Data = {
                 ["ContentKR"] = "트러플과 헤이즐넛",
                 ["TextMapId"] = "ChatCharacter13",
             },
+            ["ChatCharacter14"] = {
+                ["ContentKR"] = "아웃사이더",
+                ["TextMapId"] = "ChatCharacter14",
+            },
             ["ChatCharacter15"] = {
                 ["ContentKR"] = "레베카",
                 ["TextMapId"] = "ChatCharacter15",
@@ -1829,9 +1837,29 @@ local Data = {
                 ["ContentKR"] = "리듬",
                 ["TextMapId"] = "ChatCharacter20",
             },
+            ["ChatCharacter22"] = {
+                ["ContentKR"] = "엘레우테리아",
+                ["TextMapId"] = "ChatCharacter22",
+            },
+            ["ChatCharacter23"] = {
+                ["ContentKR"] = "나이플 부인",
+                ["TextMapId"] = "ChatCharacter23",
+            },
+            ["ChatCharacter24"] = {
+                ["ContentKR"] = "예일과 올리버",
+                ["TextMapId"] = "ChatCharacter24",
+            },
             ["ChatCharacter26"] = {
                 ["ContentKR"] = "마르제",
                 ["TextMapId"] = "ChatCharacter26",
+            },
+            ["ChatCharacter31"] = {
+                ["ContentKR"] = "규선생",
+                ["TextMapId"] = "ChatCharacter31",
+            },
+            ["ChatCharacter34"] = {
+                ["ContentKR"] = "다프네",
+                ["TextMapId"] = "ChatCharacter34",
             },
             ["Comma"] = {
                 ["ContentKR"] = ",",
@@ -2385,6 +2413,10 @@ local Data = {
                 ["ContentKR"] = "아직 발표되지 않았습니다. 수련 레벨이 Lv.35에 도달하면 확인할 수 있습니다",
                 ["TextMapId"] = "Condition_Toast_PlayerLv_ModGuideBook_35",
             },
+        }
+    end },
+    { MinKey = "Content_110101_1", MaxKey = "Content_200215_7", Loader = function()
+        return {
             ["Content_110101_1"] = {
                 ["ContentKR"] = "누군가 부르는 목소리가 들린다...",
                 ["TextMapId"] = "Content_110101_1",
@@ -2414,10 +2446,6 @@ local Data = {
                 ["ContentKR"] = "복도 방향에서 갑자기 대량의 필토이드가 습격했다. 부상자들은 더 이상 싸울 여력이 없으니 대장이자 마지막 전력으로서 반드시 전선을 수호하고 대원들을 보호해야 한다.",
                 ["TextMapId"] = "Content_110103_3",
             },
-        }
-    end },
-    { MinKey = "Content_110103_3_2", MaxKey = "Content_200219_4", Loader = function()
-        return {
             ["Content_110103_3_2"] = {
                 ["ContentKR"] = "아바르의 지원에 전세가 역전되었다. 이 기회를 잡아 필토이드 우두머리를 물리치고 전투를 끝내자.",
                 ["TextMapId"] = "Content_110103_3_2",
@@ -2840,7 +2868,7 @@ local Data = {
                 ["TextMapId"] = "Content_200103_4",
             },
             ["Content_200103_5"] = {
-                ["ContentKR"] = "마령 시스템이 해제되었다. 미래의 여정을 위해 마령 1마리를 포획하자.",
+                ["ContentKR"] = "마령 시스템이 해제되었다. 미래의 여정을 위해 마령 1마리를 획득해 보자.",
                 ["TextMapId"] = "Content_200103_5",
             },
             ["Content_200104_1"] = {
@@ -2922,6 +2950,18 @@ local Data = {
                 ["ContentKR"] = "여자의 목소리는 소리를 지르느라 쉬어버린 지 오래였고, 세련되었던 옷도 더러워져 있었다. \
  그녀는 지나가는 행인들을 한 명씩 붙잡고 무언가를 찾고 있었다...",
                 ["TextMapId"] = "Content_200203_1",
+            },
+            ["Content_200203_12"] = {
+                ["ContentKR"] = "슬픔에 잠긴 중년 여성을 떠난 뒤로 누군가 계속 나를 지켜보고 있다. 아무래도 내게 할 말이 있는 모양이다.",
+                ["TextMapId"] = "Content_200203_12",
+            },
+            ["Content_200203_13"] = {
+                ["ContentKR"] = "다른 사람들에게도 단서가 될 만한 게 있는지 다시 물어보자.",
+                ["TextMapId"] = "Content_200203_13",
+            },
+            ["Content_200203_14"] = {
+                ["ContentKR"] = "근처에 사정을 아는 사람이 더 있는 모양이다. 다시 한번 의사의 행방을 수소문하자.",
+                ["TextMapId"] = "Content_200203_14",
             },
             ["Content_200203_2"] = {
                 ["ContentKR"] = "엘사의 외동딸 애니가 실종되었다. \
@@ -3137,7 +3177,7 @@ local Data = {
                 ["TextMapId"] = "Content_200209_4",
             },
             ["Content_200209_5"] = {
-                ["ContentKR"] = "요양원에 단서나 쓸모 있는 정보가 있을 거다. 어쩌면 증상에 맞는 처방전을 찾을 수 있을지도 모른다.",
+                ["ContentKR"] = "히프노스의 집에 단서나 쓸모 있는 정보가 있을 거다. 어쩌면 증상에 맞는 처방전을 찾을 수 있을지도 모른다.",
                 ["TextMapId"] = "Content_200209_5",
             },
             ["Content_200209_6"] = {
@@ -3258,6 +3298,10 @@ local Data = {
 이제 마커스의 다음 요리 계획에 대해 들어 보자.",
                 ["TextMapId"] = "Content_200215_4",
             },
+            ["Content_200215_41"] = {
+                ["ContentKR"] = "썩 믿음직스럽지는 않지만, 직접 낚은 싱싱한 물고기인 만큼, 울며 겨자 먹기이긴 하지만 마커스의 솜씨를 맛보러 가자.",
+                ["TextMapId"] = "Content_200215_41",
+            },
             ["Content_200215_5"] = {
                 ["ContentKR"] = "마커스는 자신이 만든 요리가 당장 성공하지 않았지만 포기하지 않고 레시피를 개선하려고 한다. 마블 피쉬가 필요한 마커스를 도와 마블 피쉬를 낚아오자.",
                 ["TextMapId"] = "Content_200215_5",
@@ -3271,6 +3315,10 @@ local Data = {
 요즘 아이스레이크 시티의 성 입구에 종종 나타난다고 하니 근황을 확인하러 가자.",
                 ["TextMapId"] = "Content_200215_7",
             },
+        }
+    end },
+    { MinKey = "Content_200215_8", MaxKey = "DUNGEON_NAME_30006", Loader = function()
+        return {
             ["Content_200215_8"] = {
                 ["ContentKR"] = "마커스가 아이스레이크 시티 성문 입구의 벤치에 앉아 있다. 어서 가서 대화를 나눠 보자!",
                 ["TextMapId"] = "Content_200215_8",
@@ -3319,10 +3367,6 @@ local Data = {
                 ["ContentKR"] = "넝마주이 어르신은 하고 싶은 말이 있는 듯 계속 날 주시한다. 다가가서 얘기를 나눠보자.",
                 ["TextMapId"] = "Content_200219_4",
             },
-        }
-    end },
-    { MinKey = "Content_200219_5", MaxKey = "DUNGEON_NAME_80302", Loader = function()
-        return {
             ["Content_200219_5"] = {
                 ["ContentKR"] = "리앤더와 종이접기를 완성해 아름다운 축복을 손수 만들어 주자.",
                 ["TextMapId"] = "Content_200219_5",
@@ -3870,11 +3914,11 @@ local Data = {
                 ["TextMapId"] = "DUNGEON_DEFENCE_120",
             },
             ["DUNGEON_ENGINE_101"] = {
-                ["ContentKR"] = "%번 회전체 권한을 해제하는 중입니다.",
+                ["ContentKR"] = "%s번 회전체 권한을 해제하는 중입니다.",
                 ["TextMapId"] = "DUNGEON_ENGINE_101",
             },
             ["DUNGEON_ENGINE_102"] = {
-                ["ContentKR"] = "%번 회전체 권한이 해제되었습니다. 이제 조작할 수 있습니다.",
+                ["ContentKR"] = "%s번 회전체 권한이 해제되었습니다. 이제 조작할 수 있습니다.",
                 ["TextMapId"] = "DUNGEON_ENGINE_102",
             },
             ["DUNGEON_ENGINE_103"] = {
@@ -4085,6 +4129,10 @@ local Data = {
                 ["ContentKR"] = "이주 Ⅰ",
                 ["TextMapId"] = "DUNGEON_NAME_30006",
             },
+        }
+    end },
+    { MinKey = "DUNGEON_NAME_30007", MaxKey = "Description_110105_2_2", Loader = function()
+        return {
             ["DUNGEON_NAME_30007"] = {
                 ["ContentKR"] = "호위",
                 ["TextMapId"] = "DUNGEON_NAME_30007",
@@ -4129,10 +4177,6 @@ local Data = {
                 ["ContentKR"] = "장치 질주 Ⅱ",
                 ["TextMapId"] = "DUNGEON_NAME_80302",
             },
-        }
-    end },
-    { MinKey = "DUNGEON_NAME_80303", MaxKey = "Description_110106_1_3", Loader = function()
-        return {
             ["DUNGEON_NAME_80303"] = {
                 ["ContentKR"] = "장치 질주 Ⅲ",
                 ["TextMapId"] = "DUNGEON_NAME_80303",
@@ -4510,7 +4554,7 @@ local Data = {
                 ["TextMapId"] = "DUNGEON_SABOTAGE_116",
             },
             ["DUNGEON_STEAMWARN_101"] = {
-                ["ContentKR"] = "증기에서 멀리 떨어지세요!",
+                ["ContentKR"] = "스팀에서 멀리 떨어지세요!",
                 ["TextMapId"] = "DUNGEON_STEAMWARN_101",
             },
             ["DUNGEON_SURVIVALPRO_100"] = {
@@ -4574,7 +4618,7 @@ local Data = {
                 ["TextMapId"] = "DUNGEON_SURVIVALPRO_118",
             },
             ["DUNGEON_SURVIVALPRO_119"] = {
-                ["ContentKR"] = "제약 설비의 버프 효과는 <Highlight>자원형</>, <Highlight>공격형</>, <Highlight>회복형</>으로 나뉘며, 제약 설비에 따라 다른 버프를 획득할 수 있습니다.",
+                ["ContentKR"] = "제약 설비의 버프 효과는 <Highlight>자원형</>, <Highlight>회복형</>, <Highlight>공격형</>으로 나뉘며, 제약 설비에 따라 다른 버프를 획득할 수 있습니다.",
                 ["TextMapId"] = "DUNGEON_SURVIVALPRO_119",
             },
             ["DUNGEON_SURVIVALPRO_120"] = {
@@ -4889,6 +4933,10 @@ local Data = {
                 ["ContentKR"] = "작동 중인 회전체 및 전기 변경 부품 끄기 2/3",
                 ["TextMapId"] = "Description_110105_2_2",
             },
+        }
+    end },
+    { MinKey = "Description_110105_2_3", MaxKey = "Description_200207_6", Loader = function()
+        return {
             ["Description_110105_2_3"] = {
                 ["ContentKR"] = "작동 중인 회전체 및 전기 변경 부품 끄기 3/3",
                 ["TextMapId"] = "Description_110105_2_3",
@@ -4933,10 +4981,6 @@ local Data = {
                 ["ContentKR"] = "2번 예비 회전체 작동하기",
                 ["TextMapId"] = "Description_110106_1_3",
             },
-        }
-    end },
-    { MinKey = "Description_110106_1_4", MaxKey = "Description_200209_6", Loader = function()
-        return {
             ["Description_110106_1_4"] = {
                 ["ContentKR"] = "3번 예비 회전체 작동하기",
                 ["TextMapId"] = "Description_110106_1_4",
@@ -5693,6 +5737,10 @@ local Data = {
                 ["ContentKR"] = "철제 물건을 벨린다 할머니에게 전달하기",
                 ["TextMapId"] = "Description_200207_6",
             },
+        }
+    end },
+    { MinKey = "Description_200207_7", MaxKey = "DynQuest_SewPet_Des", Loader = function()
+        return {
             ["Description_200207_7"] = {
                 ["ContentKR"] = "강도 루나 처치하기",
                 ["TextMapId"] = "Description_200207_7",
@@ -5730,17 +5778,13 @@ local Data = {
                 ["TextMapId"] = "Description_200209_4",
             },
             ["Description_200209_5"] = {
-                ["ContentKR"] = "요양원에서 찾아보기",
+                ["ContentKR"] = "히프노스의 집에서 찾아보기",
                 ["TextMapId"] = "Description_200209_5",
             },
             ["Description_200209_6"] = {
                 ["ContentKR"] = "루나에게 알리기",
                 ["TextMapId"] = "Description_200209_6",
             },
-        }
-    end },
-    { MinKey = "Description_200209_7", MaxKey = "DynQuest_TrafficwayProtectwuzi_Des", Loader = function()
-        return {
             ["Description_200209_7"] = {
                 ["ContentKR"] = "궁지에 몰린 루나 돕기",
                 ["TextMapId"] = "Description_200209_7",
@@ -5860,6 +5904,10 @@ local Data = {
             ["Description_200215_4"] = {
                 ["ContentKR"] = "마커스와 다시 대화하기",
                 ["TextMapId"] = "Description_200215_4",
+            },
+            ["Description_200215_41"] = {
+                ["ContentKR"] = "마커스가 만든 생선 요리를 맛보러 가자.",
+                ["TextMapId"] = "Description_200215_41",
             },
             ["Description_200215_5"] = {
                 ["ContentKR"] = "마블 피쉬 한 마리 낚기",
@@ -6202,11 +6250,11 @@ local Data = {
                 ["TextMapId"] = "DynQuest_FortInBox_Title",
             },
             ["DynQuest_FortPet_Des"] = {
-                ["ContentKR"] = "적을 처치하고 마령 포획하기",
+                ["ContentKR"] = "적을 처치하고 마령 구출하기",
                 ["TextMapId"] = "DynQuest_FortPet_Des",
             },
             ["DynQuest_FortPet_Title"] = {
-                ["ContentKR"] = "마령 포획!",
+                ["ContentKR"] = "마령 구출!",
                 ["TextMapId"] = "DynQuest_FortPet_Title",
             },
             ["DynQuest_FortXianjing_Des"] = {
@@ -6354,11 +6402,11 @@ local Data = {
                 ["TextMapId"] = "DynQuest_IcelakeOldFisher_Title",
             },
             ["DynQuest_IcelakePet_Des"] = {
-                ["ContentKR"] = "적을 처치하고 마령을 포획하세요.",
+                ["ContentKR"] = "적을 처치하고 마령을 구출하세요.",
                 ["TextMapId"] = "DynQuest_IcelakePet_Des",
             },
             ["DynQuest_IcelakePet_Title"] = {
-                ["ContentKR"] = "마령 포획!",
+                ["ContentKR"] = "마령 구출!",
                 ["TextMapId"] = "DynQuest_IcelakePet_Title",
             },
             ["DynQuest_IcelakeXiaoresearch_Des"] = {
@@ -6490,11 +6538,15 @@ local Data = {
                 ["TextMapId"] = "DynQuest_SewHuishoulaixi_Title",
             },
             ["DynQuest_SewPet_Des"] = {
-                ["ContentKR"] = "적을 처치하고 마령 포획하기",
+                ["ContentKR"] = "적을 처치하고 마령 구출하기",
                 ["TextMapId"] = "DynQuest_SewPet_Des",
             },
+        }
+    end },
+    { MinKey = "DynQuest_SewPet_Title", MaxKey = "FailureGuidance_Text_1002", Loader = function()
+        return {
             ["DynQuest_SewPet_Title"] = {
-                ["ContentKR"] = "마령 포획!",
+                ["ContentKR"] = "마령 구출!",
                 ["TextMapId"] = "DynQuest_SewPet_Title",
             },
             ["DynQuest_SewSaveFisher_Des"] = {
@@ -6541,10 +6593,6 @@ local Data = {
                 ["ContentKR"] = "물자를 지정 위치로 운송하세요.",
                 ["TextMapId"] = "DynQuest_TrafficwayProtectwuzi_Des",
             },
-        }
-    end },
-    { MinKey = "DynQuest_TrafficwayProtectwuzi_Title", MaxKey = "FeeRefund_MonthlyCard_Addup", Loader = function()
-        return {
             ["DynQuest_TrafficwayProtectwuzi_Title"] = {
                 ["ContentKR"] = "의도치 않은 오해",
                 ["TextMapId"] = "DynQuest_TrafficwayProtectwuzi_Title",
@@ -6738,7 +6786,7 @@ local Data = {
                 ["TextMapId"] = "EntryTitle_201026",
             },
             ["EntryTitle_204001"] = {
-                ["ContentKR"] = "꿈속의 {성별2: 소년|소녀}",
+                ["ContentKR"] = "꿈속의 {性别2: 소년|소녀}",
                 ["TextMapId"] = "EntryTitle_204001",
             },
             ["EntryTitle_204002"] = {
@@ -7130,11 +7178,11 @@ local Data = {
                 ["TextMapId"] = "EventPortal_UnlockTips_103001",
             },
             ["EventPortal_UnlockTips_103003"] = {
-                ["ContentKR"] = "계속 전지해서 메인 퀘스트 해제",
+                ["ContentKR"] = "계속 진행해서 메인 퀘스트 해제",
                 ["TextMapId"] = "EventPortal_UnlockTips_103003",
             },
             ["EventPortal_UnlockTips_103004"] = {
-                ["ContentKR"] = "계속 전지해서 메인 퀘스트 해제",
+                ["ContentKR"] = "계속 진행해서 메인 퀘스트 해제",
                 ["TextMapId"] = "EventPortal_UnlockTips_103004",
             },
             ["EventPortal_UnlockTips_Common"] = {
@@ -7158,11 +7206,11 @@ local Data = {
                 ["TextMapId"] = "Event_Des_103002",
             },
             ["Event_Des_103003"] = {
-                ["ContentKR"] = "메인 퀘스트 ‘부드러운 바람을 타고’ 완료로 [아웃사이더]가 포함된 퀘스트 보상 획득.",
+                ["ContentKR"] = "메인 퀘스트 ‘사냥감과 사냥꾼’ 완료로 [아웃사이더]가 포함된 퀘스트 보상 획득.",
                 ["TextMapId"] = "Event_Des_103003",
             },
             ["Event_Des_103004"] = {
-                ["ContentKR"] = "메인 스토리 퀘스트 “심판의 날” 완료로 캐릭터 [다프네]가 포함된 임무 보상 획득.",
+                ["ContentKR"] = "메인 스토리 퀘스트 “상위자들” 완료로 캐릭터 [다프네]가 포함된 임무 보상 획득.",
                 ["TextMapId"] = "Event_Des_103004",
             },
             ["Event_Des_103005"] = {
@@ -7304,6 +7352,10 @@ local Data = {
                 ["ContentKR"] = "캐릭터와 스킬 레벨을 올리거나 적합한 악마의 쐐기 조합을 장착하여 캐릭터의 전투 능력을 대폭 상승시킬 수 있습니다.",
                 ["TextMapId"] = "FailureGuidance_Text_1002",
             },
+        }
+    end },
+    { MinKey = "FailureGuidance_Text_1003", MaxKey = "Guide_Message_DailyGoalUI_5", Loader = function()
+        return {
             ["FailureGuidance_Text_1003"] = {
                 ["ContentKR"] = "무기를 레벨업하고 적합한 악마의 쐐기 조합을 장착하여 무기 잠재력을 최대로 끌어올리세요.",
                 ["TextMapId"] = "FailureGuidance_Text_1003",
@@ -7352,10 +7404,6 @@ local Data = {
                 ["ContentKR"] = "누적 구매함: 월간 카드*",
                 ["TextMapId"] = "FeeRefund_MonthlyCard_Addup",
             },
-        }
-    end },
-    { MinKey = "FeeRefund_MonthlyCard_Tips", MaxKey = "Guide_Message_ModArchiveUI_8", Loader = function()
-        return {
             ["FeeRefund_MonthlyCard_Tips"] = {
                 ["ContentKR"] = "(모든 월간 카드 소비는 누적 충전 금액에 집계되어, 반환 상한 나머지 <highlight>%s</>장)",
                 ["TextMapId"] = "FeeRefund_MonthlyCard_Tips",
@@ -7420,7 +7468,7 @@ local Data = {
                 ["TextMapId"] = "Four",
             },
             ["GACHAMAIN_TITLE_SHOWTIMES"] = {
-                ["ContentKR"] = "최대 <highlight>%d</>회 후 반드시 획득",
+                ["ContentKR"] = "최대 <highlight>%d</>회 추억 후 반드시 획득",
                 ["TextMapId"] = "GACHAMAIN_TITLE_SHOWTIMES",
             },
             ["GACHA_BONUS"] = {
@@ -7473,7 +7521,7 @@ local Data = {
                 ["TextMapId"] = "GACHA_NAME_WEAPON_UP_SAIQI",
             },
             ["GACHA_SUBTITLE_100UP"] = {
-                ["ContentKR"] = "5성 캐릭터는 반드시 목표 캐릭터로 설정",
+                ["ContentKR"] = "5성 캐릭터는 반드시 목표 캐릭터로 획득",
                 ["TextMapId"] = "GACHA_SUBTITLE_100UP",
             },
             ["GACHA_TIME"] = {
@@ -7498,7 +7546,7 @@ local Data = {
                 ["TextMapId"] = "GACHA_TYPE_NORMAL",
             },
             ["GACHA_TYPE_START"] = {
-                ["ContentKR"] = "추억의 시작",
+                ["ContentKR"] = "'여정의 시작' 추억",
                 ["TextMapId"] = "GACHA_TYPE_START",
             },
             ["GACHA_TYPE_UP"] = {
@@ -7554,7 +7602,7 @@ local Data = {
 보유한 4성 캐릭터를 중복 획득 시 2회 차부터 7회 차까지 상응하는 캐릭터의 '근원' <highlight>1</>개와 '찬란한 모래알' <highlight>10</>개를 획득하며, 8회 차 이후부터는 '찬란한 모래알' <highlight>25</>개를 획득합니다.\
 5성 무기를 1개 획득할 때마다 '찬란한 모래알' <highlight>25</>개를 획득하며, 4성 무기를 1개 획득할 때마다 '찬란한 모래알' <highlight>5</>개를 획득합니다. 3성 무기를 1개 획득할 때마다 '순백의 모래알' <highlight>20</>개를 획득합니다.\
 \
-'추억의 시작'의 추억 횟수는 독립적으로 계산되며 다른 추억 이벤트와 합산되지 않습니다.",
+'여정의 시작' 추억 횟수는 독립적으로 계산되며 다른 추억 이벤트와 합산되지 않습니다.",
                 ["TextMapId"] = "GACHA_WARNING_START",
             },
             ["GACHA_WARNING_UP"] = {
@@ -7657,7 +7705,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_1502_06",
             },
             ["GRADEUP_1503_01"] = {
-                ["ContentKR"] = "[부생 다변화]의 [검의치] [현의치]마다 수익 배율 #1 증가.",
+                ["ContentKR"] = "[부생 다변화]의 [검의치] [현의치]마다 수익 배율 #1 증가. 주변 20m 내 1/2명의 적만 있으면 무기 데미지를 입힐 때마다 전환되는 [검의치] [현의치]가 3/2 된다.",
                 ["TextMapId"] = "GRADEUP_1503_01",
             },
             ["GRADEUP_1503_02"] = {
@@ -7677,7 +7725,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_1503_05",
             },
             ["GRADEUP_1503_06"] = {
-                ["ContentKR"] = "대미지를 입혀 추가 효과 발동 시, 1단계의 속성 관통 #6 상승 효과 획득, 지속 시간 #7초, 최대 5단계 중첩.",
+                ["ContentKR"] = "대미지를 입혀 추가 효과 발동 시, 1단계의 속성 관통 #6 상승 효과 획득, 지속 시간 #7초, 최대 6단계 중첩.",
                 ["TextMapId"] = "GRADEUP_1503_06",
             },
             ["GRADEUP_1801_01"] = {
@@ -8029,7 +8077,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_5101_03",
             },
             ["GRADEUP_5101_04"] = {
-                ["ContentKR"] = "[요주 인물]의 최대 중첩 단계 수가 15단계로 상승하며, [헤이즐넛] 탑승 시작 시 [요주 인물] 15단계를 획득한다.",
+                ["ContentKR"] = "[요주 인물]의 최대 중첩 단계 수가 20단계로 상승하며, [헤이즐넛] 탑승 시작 시 [요주 인물] 20단계를 획득한다.",
                 ["TextMapId"] = "GRADEUP_5101_04",
             },
             ["GRADEUP_5101_05"] = {
@@ -8077,7 +8125,7 @@ local Data = {
                 ["TextMapId"] = "GRADEUP_5301_03",
             },
             ["GRADEUP_5301_04"] = {
-                ["ContentKR"] = "[허물 벗기] 상태에서 [우화]를 획득한다: 대미지를 입을 때 경직되지 않고, 받는 대미지가 #5 감소한다.",
+                ["ContentKR"] = "[허물 벗기] 상태에서 [우화]를 획득한다: 대미지를 입을 때 경직되지 않고, 받는 대미지가 #5 감소하며, 습득 범위 15 증가한다.",
                 ["TextMapId"] = "GRADEUP_5301_04",
             },
             ["GRADEUP_5301_05"] = {
@@ -8141,7 +8189,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_AbyssUI_3",
             },
             ["Guide_Message_AbyssUI_3_Pad"] = {
-                ["ContentKR"] = "각 극은 여러 막으로 구성됩니다. <Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 여기서 막을 선택하세요.",
+                ["ContentKR"] = "각 극은 여러 막으로 구성됩니다. 누르면 여기서 막을 선택하세요.",
                 ["TextMapId"] = "Guide_Message_AbyssUI_3_Pad",
             },
             ["Guide_Message_AbyssUI_4"] = {
@@ -8157,47 +8205,51 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_AbyssUI_6",
             },
             ["Guide_Message_AbyssUI_7"] = {
-                ["ContentKR"] = "여기를 클릭하여 도전 소대를 구성하세요.",
+                ["ContentKR"] = "여기를 클릭하여 도전 편성을 구성하세요.",
                 ["TextMapId"] = "Guide_Message_AbyssUI_7",
             },
             ["Guide_Message_AbyssUI_8"] = {
-                ["ContentKR"] = "<H>리셋</>을 클릭하여 해당 막의 도전을 시작하세요.",
+                ["ContentKR"] = "<H>이동하기</>를 클릭하여 해당 막의 도전을 시작하세요.",
                 ["TextMapId"] = "Guide_Message_AbyssUI_8",
             },
             ["Guide_Message_DailyGoalUI_1"] = {
-                ["ContentKR"] = "<H>비망 메모</>가 열렸습니다.",
+                ["ContentKR"] = "<H>메모 노트</>가 열렸어.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_1",
             },
             ["Guide_Message_DailyGoalUI_2"] = {
-                ["ContentKR"] = "<H>&ShowCursor&</>를 길게 눌러 마우스 커서를 호출하고 <H>\"수련\"</>을 클릭하여 수련 화면으로 들어가세요.",
+                ["ContentKR"] = "<H>&ShowCursor&</>를 길게 눌러 마우스 커서를 호출하고 <H>'수련'</>을 클릭하여 수련 화면으로 들어가보세요.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_2",
             },
             ["Guide_Message_DailyGoalUI_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>수련</>을 눌러 수련 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>수련</>을 선택해 수련 화면으로 들어가세요.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_2_Pad",
             },
             ["Guide_Message_DailyGoalUI_3"] = {
-                ["ContentKR"] = "<H>비망 메모</>를 클릭하세요.",
+                ["ContentKR"] = "<H>메모 노트</>를 클릭하세요.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_3",
             },
             ["Guide_Message_DailyGoalUI_3_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>비망 메모</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>메모 노트</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_3_Pad",
             },
             ["Guide_Message_DailyGoalUI_4"] = {
-                ["ContentKR"] = "비망 메모에서 매일 수행할 수 있는 퀘스트를 확인할 수 있습니다.",
+                ["ContentKR"] = "메모 노트에서 매일 수행할 수 있는 퀘스트를 확인할 수 있습니다.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_4",
             },
             ["Guide_Message_DailyGoalUI_5"] = {
                 ["ContentKR"] = "매일 퀘스트를 완료하여 완성도를 획득하고, 풍부한 보상을 받을 수 있습니다.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_5",
             },
+        }
+    end },
+    { MinKey = "Guide_Message_DailyGoalUI_PHONE_2", MaxKey = "MAIN_UI_PLAY", Loader = function()
+        return {
             ["Guide_Message_DailyGoalUI_PHONE_2"] = {
                 ["ContentKR"] = "<H>수련</>을 클릭하여 수련 화면으로 들어가세요.",
                 ["TextMapId"] = "Guide_Message_DailyGoalUI_PHONE_2",
             },
             ["Guide_Message_ModArchiveUI_1"] = {
-                ["ContentKR"] = "<H>악마의 상자</>가 해제되었습니다. 악마의 상자에서 악마의 쐐기를 확인, 수집, 설정할 수 있습니다.",
+                ["ContentKR"] = "<H>악마의 상자</>가 해제됐어. 악마의 상자에서 악마의 쐐기를 확인, 수집, 설정할 수 있어.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_1",
             },
             ["Guide_Message_ModArchiveUI_2"] = {
@@ -8213,7 +8265,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_3",
             },
             ["Guide_Message_ModArchiveUI_3_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/><Img>를 눌러 <H>악마의 상자</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>악마의 상자</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_3_Pad",
             },
             ["Guide_Message_ModArchiveUI_4"] = {
@@ -8229,7 +8281,7 @@ local Data = {
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_6",
             },
             ["Guide_Message_ModArchiveUI_6_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>악마의 쐐기 도감</>을 누르세요.",
+                ["ContentKR"] = "눌러서 <H>악마의 쐐기 도감</>을 선택하세요.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_6_Pad",
             },
             ["Guide_Message_ModArchiveUI_7"] = {
@@ -8240,12 +8292,8 @@ local Data = {
                 ["ContentKR"] = "<H>추천 구성</>을 클릭하세요.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_8",
             },
-        }
-    end },
-    { MinKey = "Guide_Message_ModArchiveUI_8_Pad", MaxKey = "MESSAGE_BULLETCHARGE_GAMEPAD", Loader = function()
-        return {
             ["Guide_Message_ModArchiveUI_8_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>추천 구성</>을 누르세요.",
+                ["ContentKR"] = "눌러서 <H>추천 구성</>을 선택하세요.",
                 ["TextMapId"] = "Guide_Message_ModArchiveUI_8_Pad",
             },
             ["Guide_Message_ModArchiveUI_9"] = {
@@ -8316,6 +8364,66 @@ local Data = {
                 ["ContentKR"] = "Home",
                 ["TextMapId"] = "Home",
             },
+            ["HomePianoAcc_1001001"] = {
+                ["ContentKR"] = "현재 획득 경로 없음",
+                ["TextMapId"] = "HomePianoAcc_1001001",
+            },
+            ["HomePianoAcc_1001002"] = {
+                ["ContentKR"] = "현재 획득 경로 없음",
+                ["TextMapId"] = "HomePianoAcc_1001002",
+            },
+            ["HomePianoAcc_1001003"] = {
+                ["ContentKR"] = "현재 획득 경로 없음",
+                ["TextMapId"] = "HomePianoAcc_1001003",
+            },
+            ["HomePianoAcc_2002001"] = {
+                ["ContentKR"] = "현재 획득 경로 없음",
+                ["TextMapId"] = "HomePianoAcc_2002001",
+            },
+            ["HomePianoAcc_2002002"] = {
+                ["ContentKR"] = "현재 획득 경로 없음",
+                ["TextMapId"] = "HomePianoAcc_2002002",
+            },
+            ["HomePianoDes_1001001"] = {
+                ["ContentKR"] = "종점에 닿기 전까지 이곳은 영원한 휴식처다.",
+                ["TextMapId"] = "HomePianoDes_1001001",
+            },
+            ["HomePianoDes_1001002"] = {
+                ["ContentKR"] = "운명은 먼지와 모래 뒤에 숨어 있다.",
+                ["TextMapId"] = "HomePianoDes_1001002",
+            },
+            ["HomePianoDes_1001003"] = {
+                ["ContentKR"] = "그 작은 섬은 한때 평온의 안식처였지만, 이제 기억으로만 남았다.",
+                ["TextMapId"] = "HomePianoDes_1001003",
+            },
+            ["HomePianoDes_2002001"] = {
+                ["ContentKR"] = "다시 돌아설 수는 없다.",
+                ["TextMapId"] = "HomePianoDes_2002001",
+            },
+            ["HomePianoDes_2002002"] = {
+                ["ContentKR"] = "운명의 여신이 지켜보는 게 복인지 불운인지, 아무도 알 수 없다.",
+                ["TextMapId"] = "HomePianoDes_2002002",
+            },
+            ["HomePianoNAme_1001001"] = {
+                ["ContentKR"] = "Lullaby for a Voyager 여행자의 자장가",
+                ["TextMapId"] = "HomePianoNAme_1001001",
+            },
+            ["HomePianoNAme_1001002"] = {
+                ["ContentKR"] = "One from the Other Shore 모래 바다를 건넌 그대",
+                ["TextMapId"] = "HomePianoNAme_1001002",
+            },
+            ["HomePianoNAme_1001003"] = {
+                ["ContentKR"] = "The Deserted Village 그 쓸쓸한 마을",
+                ["TextMapId"] = "HomePianoNAme_1001003",
+            },
+            ["HomePianoNAme_2002001"] = {
+                ["ContentKR"] = "Tranquility of My Yesterdays 어제의 고요함",
+                ["TextMapId"] = "HomePianoNAme_2002001",
+            },
+            ["HomePianoNAme_2002002"] = {
+                ["ContentKR"] = "The Fategazer 운명을 바라보는 그 눈빛",
+                ["TextMapId"] = "HomePianoNAme_2002002",
+            },
             ["HomePiano_AlreadySet"] = {
                 ["ContentKR"] = "설정됨",
                 ["TextMapId"] = "HomePiano_AlreadySet",
@@ -8333,7 +8441,7 @@ local Data = {
                 ["TextMapId"] = "HomePiano_HandleViewing",
             },
             ["HomePiano_HomePiano"] = {
-                ["ContentKR"] = "거점 음악 틀기",
+                ["ContentKR"] = "손 안의 멜로디",
                 ["TextMapId"] = "HomePiano_HomePiano",
             },
             ["HomePiano_MusicDetails"] = {
@@ -8393,7 +8501,7 @@ local Data = {
                 ["TextMapId"] = "Impression_Name_Morality",
             },
             ["Impression_Name_Wisdom"] = {
-                ["ContentKR"] = "지혜",
+                ["ContentKR"] = "재치",
                 ["TextMapId"] = "Impression_Name_Wisdom",
             },
             ["Impression_UI_Back"] = {
@@ -8437,7 +8545,7 @@ local Data = {
                 ["TextMapId"] = "Impression_UI_Check_Morality",
             },
             ["Impression_UI_Check_Wisdom"] = {
-                ["ContentKR"] = "지혜 판정",
+                ["ContentKR"] = "재치 판정",
                 ["TextMapId"] = "Impression_UI_Check_Wisdom",
             },
             ["Impression_UI_Easy"] = {
@@ -8697,7 +8805,7 @@ local Data = {
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_PERFECTDODGE",
             },
             ["MAINUIGUIDE_TITLE_PET"] = {
-                ["ContentKR"] = "마령 포획",
+                ["ContentKR"] = "마령 만나기",
                 ["TextMapId"] = "MAINUIGUIDE_TITLE_PET",
             },
             ["MAINUIGUIDE_TITLE_PETTRAIN"] = {
@@ -8841,7 +8949,7 @@ local Data = {
                 ["TextMapId"] = "MAIN_UI_CHAT",
             },
             ["MAIN_UI_DAILYGOAL"] = {
-                ["ContentKR"] = "비망 메모",
+                ["ContentKR"] = "메모 노트",
                 ["TextMapId"] = "MAIN_UI_DAILYGOAL",
             },
             ["MAIN_UI_DUNGEON"] = {
@@ -8901,7 +9009,7 @@ local Data = {
                 ["TextMapId"] = "MAIN_UI_MENU",
             },
             ["MAIN_UI_MODDUNGEON"] = {
-                ["ContentKR"] = "밤의 항해 지침서",
+                ["ContentKR"] = "녹토 보이저 지침서",
                 ["TextMapId"] = "MAIN_UI_MODDUNGEON",
             },
             ["MAIN_UI_MODGUIDEBOOK"] = {
@@ -8936,6 +9044,10 @@ local Data = {
                 ["ContentKR"] = "수련",
                 ["TextMapId"] = "MAIN_UI_PLAY",
             },
+        }
+    end },
+    { MinKey = "MAIN_UI_POLARITY", MaxKey = "MOD_DESC_1801", Loader = function()
+        return {
             ["MAIN_UI_POLARITY"] = {
                 ["ContentKR"] = "성향 조정",
                 ["TextMapId"] = "MAIN_UI_POLARITY",
@@ -9044,10 +9156,6 @@ local Data = {
                 ["ContentKR"] = "&GamepadUseSkill&을(를) 누른 채 &ChargeBullet&을(를) 눌러 탄환을 장전하세요.",
                 ["TextMapId"] = "MESSAGE_BULLETCHARGE_GAMEPAD",
             },
-        }
-    end },
-    { MinKey = "MESSAGE_BULLETCHARGE_PC", MaxKey = "MOD_DESC_2501", Loader = function()
-        return {
             ["MESSAGE_BULLETCHARGE_PC"] = {
                 ["ContentKR"] = "&ChargeBullet& 버튼을 눌러 탄환 장전",
                 ["TextMapId"] = "MESSAGE_BULLETCHARGE_PC",
@@ -9672,40 +9780,44 @@ local Data = {
                 ["ContentKR"] = "자신과 팀원이 입히는 대미지가 #1 상승한다.",
                 ["TextMapId"] = "MOD_DESC_1440",
             },
+            ["MOD_DESC_1500"] = {
+                ["ContentKR"] = "자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
+                ["TextMapId"] = "MOD_DESC_1500",
+            },
             ["MOD_DESC_1502"] = {
-                ["ContentKR"] = "스파이럴 점프 시 주변 적에게 자신의 공격 #1의 바람 속성 대미지를 입힌다.",
+                ["ContentKR"] = "스파이럴 점프 시 주변 적에게 자신의 공격 #1의 바람 속성 대미지를 입힌다. 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1502",
             },
             ["MOD_DESC_1512"] = {
-                ["ContentKR"] = "공중에서 적 처치 시 자신의 체공 도약 횟수 리셋. 최대 #1회 리셋.",
+                ["ContentKR"] = "공중에서 적을 처치한 후, 공중 부유 점프 횟수를 재설정합니다. 최대 #1회까지 재설정할 수 있습니다. 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1512",
             },
             ["MOD_DESC_1513"] = {
-                ["ContentKR"] = "높은 곳에서 착지할 시 주변 적에게 자신의 공격 #1의 진동 대미지를 입힌다.",
+                ["ContentKR"] = "높은 곳에서 착지할 시 주변 적에게 자신의 공격 #1의 진동 대미지를 입힌다. 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1513",
             },
             ["MOD_DESC_1522"] = {
-                ["ContentKR"] = "공중에 있을 시, 받은 대미지가 #1 감소한다.",
+                ["ContentKR"] = "공중에 있을 시, 받은 대미지가 #1 감소한다. 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1522",
             },
             ["MOD_DESC_1523"] = {
-                ["ContentKR"] = "치명적 대미지를 받을 시, 자신은 처치되지 않으며, HP가 1로 낮아지고, #1초마다 최대 1회 발동한다.",
+                ["ContentKR"] = "치명적 대미지를 받을 시, 자신은 처치되지 않으며, HP가 1로 낮아지고, #1초마다 최대 1회 발동한다. 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1523",
             },
             ["MOD_DESC_1524"] = {
-                ["ContentKR"] = "대미지를 받을 시, #1 확률로 #2 감소한다.",
+                ["ContentKR"] = "대미지를 받을 시, #1 확률로 #2 감소한다. 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1524",
             },
             ["MOD_DESC_1525"] = {
-                ["ContentKR"] = "종결 스킬 시전 시, 자신 및 주위 10m 범위 내의 팀원에게 최대 HP의 #1 만큼 치료를 제공한다. #2초마다 최대 1회 발동한다.",
+                ["ContentKR"] = "종결 스킬 시전 시, 자신 및 주위 10m 범위 내의 팀원에게 최대 HP의 #1 만큼 치료를 제공한다. #2초마다 최대 1회 발동한다. 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1525",
             },
             ["MOD_DESC_1526"] = {
-                ["ContentKR"] = "대미지를 받을 때 경직되지 않지만, 자신이 입힌 대미지가 #1 감소한다(독립적).",
+                ["ContentKR"] = "대미지를 받을 때 경직되지 않지만, 자신이 입힌 대미지가 #1 감소한다(독립적). 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1526",
             },
             ["MOD_DESC_1532"] = {
-                ["ContentKR"] = "회피 시 시작점 주변의 적에게 자신의 공격 #1의 불 속성 대미지를 입힌다.",
+                ["ContentKR"] = "회피 시 시작점 주변의 적에게 자신의 공격 #1의 불 속성 대미지를 입힌다. 자신의 내성 상한이 이 악마의 쐐기 내성의 2.5배로 증가한다.",
                 ["TextMapId"] = "MOD_DESC_1532",
             },
             ["MOD_DESC_1601"] = {
@@ -9740,6 +9852,10 @@ local Data = {
                 ["ContentKR"] = "자신과 협력 동료가 한손검 1개를 장착할 때마다, 자신이 입히는 대미지가 #1 상승한다. 최대 #2 상승한다. (협력 동료가 되면 유효하지 않음)",
                 ["TextMapId"] = "MOD_DESC_1801",
             },
+        }
+    end },
+    { MinKey = "MOD_DESC_1802", MaxKey = "MOD_NAME_2511", Loader = function()
+        return {
             ["MOD_DESC_1802"] = {
                 ["ContentKR"] = "자신과 협력 동료가 장병기 1개를 장착할 때마다, 자신이 입히는 대미지가 #1 상승한다. 최대 #2 상승한다. (협력 동료가 되면 유효하지 않음)",
                 ["TextMapId"] = "MOD_DESC_1802",
@@ -9793,7 +9909,7 @@ local Data = {
                 ["TextMapId"] = "MOD_DESC_1921",
             },
             ["MOD_DESC_1922"] = {
-                ["ContentKR"] = "물 속성 캐릭터가 스킬 시전 시, 주변 팀원의 공격이 상승한다. 수치는 본 캐릭터 공격의 #2, 상한 120, 지속 시간 #1초.",
+                ["ContentKR"] = "물 속성 캐릭터가 스킬 시전 시, 주변 팀원의 공격이 상승한다. 수치는 본 캐릭터 공격의 #2, 상한 275, 지속 시간 #1초.",
                 ["TextMapId"] = "MOD_DESC_1922",
             },
             ["MOD_DESC_1931"] = {
@@ -9852,10 +9968,6 @@ local Data = {
                 ["ContentKR"] = "필토이드에게 입히는 대미지 #1 상승.",
                 ["TextMapId"] = "MOD_DESC_2501",
             },
-        }
-    end },
-    { MinKey = "MOD_DESC_2502", MaxKey = "MOD_NAME_3311", Loader = function()
-        return {
             ["MOD_DESC_2502"] = {
                 ["ContentKR"] = "휘페르보레아 제국 병사에게 입히는 대미지 #1 상승.",
                 ["TextMapId"] = "MOD_DESC_2502",
@@ -10045,7 +10157,7 @@ local Data = {
                 ["TextMapId"] = "MOD_NAME_1215",
             },
             ["MOD_NAME_1216"] = {
-                ["ContentKR"] = "날개·흩어짐",
+                ["ContentKR"] = "고무·흩어짐",
                 ["TextMapId"] = "MOD_NAME_1216",
             },
             ["MOD_NAME_1217"] = {
@@ -10544,6 +10656,10 @@ local Data = {
                 ["ContentKR"] = "꿰뚫어 보기",
                 ["TextMapId"] = "MOD_NAME_2511",
             },
+        }
+    end },
+    { MinKey = "MOD_NAME_2512", MaxKey = "Message_Guide_Dispatch_04", Loader = function()
+        return {
             ["MOD_NAME_2512"] = {
                 ["ContentKR"] = "가르기",
                 ["TextMapId"] = "MOD_NAME_2512",
@@ -10656,10 +10772,6 @@ local Data = {
                 ["ContentKR"] = "여위",
                 ["TextMapId"] = "MOD_NAME_3311",
             },
-        }
-    end },
-    { MinKey = "MOD_NAME_3321", MaxKey = "Message_Guide_Forge_2", Loader = function()
-        return {
             ["MOD_NAME_3321"] = {
                 ["ContentKR"] = "횡포",
                 ["TextMapId"] = "MOD_NAME_3321",
@@ -10941,7 +11053,8 @@ local Data = {
                 ["TextMapId"] = "Mail_Content_100003",
             },
             ["Mail_Content_100005"] = {
-                ["ContentKR"] = "월석 사냥꾼님 안녕하세요./n수령하지 않은 이벤트 보상이 있으니, 우편함을 확인해 보세요. 행운을 빌어요.",
+                ["ContentKR"] = "월석 사냥꾼님 안녕하세요.\
+수령하지 않은 이벤트 보상이 있으니, 우편함을 확인해 보세요. 행운을 빌어요.",
                 ["TextMapId"] = "Mail_Content_100005",
             },
             ["Mail_Content_10008"] = {
@@ -11067,7 +11180,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Achievement_2_PC",
             },
             ["Message_Guide_Achievement_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"업적\"을 눌러 업적 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>'업적'</>을 선택해 업적 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_Achievement_2_Pad",
             },
             ["Message_Guide_Achievement_2_Phone"] = {
@@ -11083,7 +11196,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Achievement_4",
             },
             ["Message_Guide_Achievement_4_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"수령\"을 눌러 업적 보상을 받으세요.",
+                ["ContentKR"] = "눌러서 '수령'을 선택해 업적 보상을 받으세요.",
                 ["TextMapId"] = "Message_Guide_Achievement_4_Pad",
             },
             ["Message_Guide_Achievement_5"] = {
@@ -11151,7 +11264,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_BattleBag_3",
             },
             ["Message_Guide_BattleBag_3_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>전술 가방</>을 여세요.",
+                ["ContentKR"] = "눌러서 <H>전술 가방</>을 여세요.",
                 ["TextMapId"] = "Message_Guide_BattleBag_3_Pad",
             },
             ["Message_Guide_BattleBag_4"] = {
@@ -11191,7 +11304,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_10",
             },
             ["Message_Guide_ChangeColor_10_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>무기 이미지</>를 눌러 무기 이미지 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>무기 이미지</>를 선택해 무기 이미지 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_10_Pad",
             },
             ["Message_Guide_ChangeColor_11"] = {
@@ -11199,7 +11312,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_11",
             },
             ["Message_Guide_ChangeColor_11_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>염색하러 가기</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>염색하러 가기</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_11_Pad",
             },
             ["Message_Guide_ChangeColor_12"] = {
@@ -11211,7 +11324,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_13",
             },
             ["Message_Guide_ChangeColor_13_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>전체 염색</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>전체 염색</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_13_Pad",
             },
             ["Message_Guide_ChangeColor_14"] = {
@@ -11223,7 +11336,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_15",
             },
             ["Message_Guide_ChangeColor_1_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>정비</>를 눌러 정비 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>정비</>를 선택해 정비 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_1_Pad",
             },
             ["Message_Guide_ChangeColor_2"] = {
@@ -11231,7 +11344,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_2",
             },
             ["Message_Guide_ChangeColor_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>이미지</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>이미지</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_2_Pad",
             },
             ["Message_Guide_ChangeColor_3"] = {
@@ -11239,7 +11352,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_3",
             },
             ["Message_Guide_ChangeColor_3_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>장신구</>를 눌러 장신구 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>장신구</>를 선택해 장신구 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_3_Pad",
             },
             ["Message_Guide_ChangeColor_4"] = {
@@ -11259,7 +11372,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_7",
             },
             ["Message_Guide_ChangeColor_7_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 정비 화면으로 돌아가세요.",
+                ["ContentKR"] = "눌러서 정비 화면으로 돌아가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_7_Pad",
             },
             ["Message_Guide_ChangeColor_8"] = {
@@ -11267,7 +11380,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_8",
             },
             ["Message_Guide_ChangeColor_8_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>근접 무기</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>근접 무기</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_8_Pad",
             },
             ["Message_Guide_ChangeColor_9"] = {
@@ -11275,7 +11388,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_9",
             },
             ["Message_Guide_ChangeColor_9_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>이미지</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>이미지</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_9_Pad",
             },
             ["Message_Guide_ChangeWeapon_1"] = {
@@ -11287,7 +11400,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_10",
             },
             ["Message_Guide_ChangeWeapon_11"] = {
-                ["ContentKR"] = "무기 레벨업을 위해선 일정량의 <H>쿠퍼</>랑 <H>무기 설명서</>가 필요합니다.",
+                ["ContentKR"] = "무기 레벨업을 위해선 일정량의 <H>쿠퍼</>랑 <H>무기 설명서</>가 필요할 거야.",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_11",
             },
             ["Message_Guide_ChangeWeapon_12"] = {
@@ -11303,11 +11416,11 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_3",
             },
             ["Message_Guide_ChangeWeapon_3_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 '근접 무기' 탭에 들어가 근접 무기를 설정할 수 있습니다.",
+                ["ContentKR"] = "눌러서 '근접 무기' 탭에 들어가 근접 무기를 설정할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_3_Pad",
             },
             ["Message_Guide_ChangeWeapon_4"] = {
-                ["ContentKR"] = "정비에서는 캐릭터, 그리고 캐릭터가 사용하는 근접, 원거리, 동조 무기를 확인, 교체, 레벨업할 수 있습니다.",
+                ["ContentKR"] = "정비에서는 캐릭터, 그리고 캐릭터가 사용하는 근접, 원거리, 동조 무기를 확인, 교체, 레벨업할 수 있어.",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_4",
             },
             ["Message_Guide_ChangeWeapon_5"] = {
@@ -11319,7 +11432,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_6",
             },
             ["Message_Guide_ChangeWeapon_6_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 새로 획득한 무기를 선택하세요.",
+                ["ContentKR"] = "눌러서 새로 획득한 무기를 선택하세요.",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_6_Pad",
             },
             ["Message_Guide_ChangeWeapon_7"] = {
@@ -11327,11 +11440,11 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_7",
             },
             ["Message_Guide_ChangeWeapon_7_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"장착\"을 눌러 근접 무기로 전환하세요.",
+                ["ContentKR"] = "눌러서 '장착'을 선택해 근접 무기로 전환하세요.",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_7_Pad",
             },
             ["Message_Guide_ChangeWeapon_8"] = {
-                ["ContentKR"] = "무기의 <H>레벨</>을 올리면 무기를 더 강력하게 만들 수 있습니다.",
+                ["ContentKR"] = "무기의 <H>레벨</>을 올리면 무기를 더 강력하게 만들 수 있어.",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_8",
             },
             ["Message_Guide_ChangeWeapon_9"] = {
@@ -11339,19 +11452,59 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_9",
             },
             ["Message_Guide_ChangeWeapon_9_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"레벨업\" 버튼을 눌러 무기를 레벨업하세요.",
+                ["ContentKR"] = "눌러서 '레벨업' 버튼을 선택해 무기를 레벨업하세요.",
                 ["TextMapId"] = "Message_Guide_ChangeWeapon_9_Pad",
             },
+            ["Message_Guide_Dispatch_01"] = {
+                ["ContentKR"] = "세계 곳곳에서 다양한 돌발 사건가 자주 발생하고 있어. 직접 처리하기 어려울 때 동료에게 대리 의뢰를 부탁해 보자.",
+                ["TextMapId"] = "Message_Guide_Dispatch_01",
+            },
+            ["Message_Guide_Dispatch_02"] = {
+                ["ContentKR"] = "여기를 클릭하여 파견 목록을 확인하세요.",
+                ["TextMapId"] = "Message_Guide_Dispatch_02",
+            },
             ["Message_Guide_Dispatch_02_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 파견 목록을 확인하세요.",
+                ["ContentKR"] = "눌러서 파견 목록을 확인하세요.",
                 ["TextMapId"] = "Message_Guide_Dispatch_02_Pad",
             },
+            ["Message_Guide_Dispatch_03"] = {
+                ["ContentKR"] = "여기서 현재 발생 중인 돌발 사건을 확인할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Dispatch_03",
+            },
+            ["Message_Guide_Dispatch_04"] = {
+                ["ContentKR"] = "여기서 선택한 돌발 사건의 상세 정보를 확인할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Dispatch_04",
+            },
+        }
+    end },
+    { MinKey = "Message_Guide_Dispatch_05", MaxKey = "Message_Guide_TrainingGround_Phone", Loader = function()
+        return {
+            ["Message_Guide_Dispatch_05"] = {
+                ["ContentKR"] = "돌발 사건 완료 시 기본 보상과 추가 보상을 획득할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Dispatch_05",
+            },
+            ["Message_Guide_Dispatch_06"] = {
+                ["ContentKR"] = "돌발 사건 직접 처리하면 기본 보상을 빠르게 획득할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Dispatch_06",
+            },
+            ["Message_Guide_Dispatch_07"] = {
+                ["ContentKR"] = "여기를 클릭하여 대리인 목록을 확인하세요.",
+                ["TextMapId"] = "Message_Guide_Dispatch_07",
+            },
             ["Message_Guide_Dispatch_07_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 대리인 목록을 여세요.",
+                ["ContentKR"] = "눌러서 대리인 목록을 여세요.",
                 ["TextMapId"] = "Message_Guide_Dispatch_07_Pad",
             },
+            ["Message_Guide_Dispatch_08"] = {
+                ["ContentKR"] = "대리인 목록에는 대리인 후보 및 해당 특성 태그를 확인할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Dispatch_08",
+            },
+            ["Message_Guide_Dispatch_09"] = {
+                ["ContentKR"] = "자동 선택을 클릭하여 대리인을 한 번에 선택하세요.",
+                ["TextMapId"] = "Message_Guide_Dispatch_09",
+            },
             ["Message_Guide_Dispatch_09_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> 자동 선택 버튼을 눌러 대리인을 한 번에 선택하세요.",
+                ["ContentKR"] = "자동 선택 버튼을 눌러 대리인을 한 번에 선택하세요.",
                 ["TextMapId"] = "Message_Guide_Dispatch_09_Pad",
             },
             ["Message_Guide_DungeonSec_1"] = {
@@ -11367,23 +11520,23 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_DungeonSec_3",
             },
             ["Message_Guide_Dungeon_10"] = {
-                ["ContentKR"] = "또한 프리셋 소대를 구성하여 다양한 의뢰에 적합한 출전 캐릭터와 협력 동료를 조합해 대응할 수 있습니다.",
+                ["ContentKR"] = "또한 프리셋 편성을 구성하여 다양한 의뢰에 적합한 출전 캐릭터와 협력 동료를 조합해 대응할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Dungeon_10",
             },
             ["Message_Guide_Dungeon_10_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 프리셋 소대를 구성하여 다양한 의뢰에 적합한 출전 캐릭터와 협력 동료를 조합해 대응할 수 있습니다.",
+                ["ContentKR"] = "누르면 프리셋 편성을 구성하여 다양한 의뢰에 적합한 출전 캐릭터와 협력 동료를 조합해 대응할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Dungeon_10_Pad",
             },
             ["Message_Guide_Dungeon_11"] = {
-                ["ContentKR"] = "클릭하여 프리셋 소대 화면으로 들어가세요.",
+                ["ContentKR"] = "클릭하여 프리셋 편성 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_Dungeon_11",
             },
             ["Message_Guide_Dungeon_11_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 프리셋 소대 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 프리셋 편성 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_Dungeon_11_Pad",
             },
             ["Message_Guide_Dungeon_12"] = {
-                ["ContentKR"] = "사용 가능한 프리셋 소대는 반드시 출전 캐릭터, 근접 무기, 원거리 무기를 설정해야 합니다.",
+                ["ContentKR"] = "사용 가능한 프리셋 편성은 반드시 출전 캐릭터, 근접 무기, 원거리 무기를 설정해야 합니다.",
                 ["TextMapId"] = "Message_Guide_Dungeon_12",
             },
             ["Message_Guide_Dungeon_13"] = {
@@ -11391,15 +11544,39 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Dungeon_13",
             },
             ["Message_Guide_Dungeon_13_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>의뢰</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>의뢰</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_Dungeon_13_Pad",
+            },
+            ["Message_Guide_Dungeon_14"] = {
+                ["ContentKR"] = "여기를 누르면 출전 편성을 설정할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Dungeon_14",
+            },
+            ["Message_Guide_Dungeon_14_Pad"] = {
+                ["ContentKR"] = "여기를 누르면 출전 편성을 설정할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Dungeon_14_Pad",
+            },
+            ["Message_Guide_Dungeon_15"] = {
+                ["ContentKR"] = "여기를 누르면 설정이 저장됩니다.",
+                ["TextMapId"] = "Message_Guide_Dungeon_15",
+            },
+            ["Message_Guide_Dungeon_15_Pad"] = {
+                ["ContentKR"] = "여기를 누르면 설정이 저장됩니다.",
+                ["TextMapId"] = "Message_Guide_Dungeon_15_Pad",
+            },
+            ["Message_Guide_Dungeon_16"] = {
+                ["ContentKR"] = "한 번 더 눌러 저장을 완료하세요.",
+                ["TextMapId"] = "Message_Guide_Dungeon_16",
+            },
+            ["Message_Guide_Dungeon_16_Pad"] = {
+                ["ContentKR"] = "한 번 더 눌러 저장을 완료하세요.",
+                ["TextMapId"] = "Message_Guide_Dungeon_16_Pad",
             },
             ["Message_Guide_Dungeon_1_PC"] = {
                 ["ContentKR"] = "<H>&ShowCursor&</> 버튼을 길게 눌러 마우스 커서를 호출하고 <H>'수련'</>을 눌러 수련 화면에 진입하세요.",
                 ["TextMapId"] = "Message_Guide_Dungeon_1_PC",
             },
             ["Message_Guide_Dungeon_1_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"수련\"을 눌러 수련 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>'수련'</>을 선택해 수련 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_Dungeon_1_Pad",
             },
             ["Message_Guide_Dungeon_1_Phone"] = {
@@ -11423,27 +11600,27 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Dungeon_5",
             },
             ["Message_Guide_Dungeon_5_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>의뢰</>를 누르면 다양한 의뢰에 도전할 수 있습니다!",
+                ["ContentKR"] = "눌러서 <H>의뢰</>를 선택해 다양한 의뢰에 도전할 수 있습니다!",
                 ["TextMapId"] = "Message_Guide_Dungeon_5_Pad",
             },
             ["Message_Guide_Dungeon_6"] = {
-                ["ContentKR"] = "일반 의뢰는 에너지를 소모합니다.",
+                ["ContentKR"] = "일반 의뢰는 에너지를 소모할 거야.",
                 ["TextMapId"] = "Message_Guide_Dungeon_6",
             },
             ["Message_Guide_Dungeon_7"] = {
-                ["ContentKR"] = "하지만 밤의 항해 지침서를 사용하여 의뢰를 진행하면 에너지가 소모되지 않습니다.",
+                ["ContentKR"] = "하지만 녹토 보이저 지침서를 사용하여 의뢰를 진행하면 에너지가 소모되지 않을 거야.",
                 ["TextMapId"] = "Message_Guide_Dungeon_7",
             },
             ["Message_Guide_Dungeon_8"] = {
-                ["ContentKR"] = "여기서 의뢰 입장 시의 프리셋 소대를 수정할 수 있습니다.",
+                ["ContentKR"] = "여기서 의뢰 입장 시의 프리셋 편성을 수정할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Dungeon_8",
             },
             ["Message_Guide_Dungeon_8_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 의뢰 입장 시의 프리셋 소대를 수정할 수 있습니다.",
+                ["ContentKR"] = "누르면 여기서 의뢰 입장 시의 프리셋 편성을 수정할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Dungeon_8_Pad",
             },
             ["Message_Guide_Dungeon_9"] = {
-                ["ContentKR"] = "이곳의 소대는 정비 중인 출전 소대와 일치하며, 정비 중인 소대를 조정하면 이곳에 동시 반영됩니다.",
+                ["ContentKR"] = "이곳의 편성은 정비 중인 출전 편성과 일치하며, 정비 중인 편성을 조정하면 이곳에 동시 반영됩니다.",
                 ["TextMapId"] = "Message_Guide_Dungeon_9",
             },
             ["Message_Guide_Fish01"] = {
@@ -11474,10 +11651,6 @@ local Data = {
                 ["ContentKR"] = "주조 시작 전, 먼저 설계도를 획득하고, 필요한 재료를 모두 모아야 합니다.",
                 ["TextMapId"] = "Message_Guide_Forge_2",
             },
-        }
-    end },
-    { MinKey = "Message_Guide_Forge_3", MaxKey = "Minigame_Textmap_BaiTips06", Loader = function()
-        return {
             ["Message_Guide_Forge_3"] = {
                 ["ContentKR"] = "재료가 모두 준비되면, 설계도 한 장과 해당 제작 재료를 소모해서 주조를 시작할 수 있어.",
                 ["TextMapId"] = "Message_Guide_Forge_3",
@@ -11487,7 +11660,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Forge_4",
             },
             ["Message_Guide_Forge_4_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"주조 시작\"을 누르세요.",
+                ["ContentKR"] = "눌러서 '주조 시작'을 진행하세요.",
                 ["TextMapId"] = "Message_Guide_Forge_4_Pad",
             },
             ["Message_Guide_Forge_5"] = {
@@ -11499,7 +11672,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Forge_6",
             },
             ["Message_Guide_Forge_6_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"확인\"을 누르세요.",
+                ["ContentKR"] = "눌러서 '확인'하세요.",
                 ["TextMapId"] = "Message_Guide_Forge_6_Pad",
             },
             ["Message_Guide_Forge_7"] = {
@@ -11507,7 +11680,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Forge_7",
             },
             ["Message_Guide_Forge_7_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"모두 수령\"을 눌러 주조 완료된 모든 아이템을 받으세요.",
+                ["ContentKR"] = "눌러서 '모두 수령'을 선택해 주조 완료된 모든 아이템을 받으세요.",
                 ["TextMapId"] = "Message_Guide_Forge_7_Pad",
             },
             ["Message_Guide_Gacha_1"] = {
@@ -11527,7 +11700,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_GameEvent_2_PC",
             },
             ["Message_Guide_GameEvent_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <Highlight>“이벤트”</>를 눌러 이벤트 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <Highlight>'이벤트'</>를 선택해 이벤트 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_GameEvent_2_Pad",
             },
             ["Message_Guide_GameEvent_2_Phone"] = {
@@ -11539,7 +11712,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_GameEvent_3",
             },
             ["Message_Guide_GameEvent_3_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> “모두 수령”을 눌러 이벤트 보상을 받으세요.",
+                ["ContentKR"] = "눌러서 '모두 수령'을 선택해 이벤트 보상을 받으세요.",
                 ["TextMapId"] = "Message_Guide_GameEvent_3_Pad",
             },
             ["Message_Guide_Impression_1"] = {
@@ -11567,7 +11740,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ModLevelUp_4",
             },
             ["Message_Guide_ModLevelUp_4_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> 악마의 쐐기를 누르세요.",
+                ["ContentKR"] = "눌러서 악마의 쐐기를 선택하세요.",
                 ["TextMapId"] = "Message_Guide_ModLevelUp_4_Pad",
             },
             ["Message_Guide_ModLevelUp_5"] = {
@@ -11575,7 +11748,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ModLevelUp_5",
             },
             ["Message_Guide_ModLevelUp_5_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> “악마의 쐐기 레벨업”을 누르세요.",
+                ["ContentKR"] = "눌러서 '악마의 쐐기 레벨업'을 선택하세요.",
                 ["TextMapId"] = "Message_Guide_ModLevelUp_5_Pad",
             },
             ["Message_Guide_ModLevelUp_6"] = {
@@ -11603,7 +11776,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ModTendency_4",
             },
             ["Message_Guide_ModTendency_4_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 악마의 쐐기 슬롯을 선택하세요.",
+                ["ContentKR"] = "눌러서 악마의 쐐기 슬롯을 선택하세요.",
                 ["TextMapId"] = "Message_Guide_ModTendency_4_Pad",
             },
             ["Message_Guide_ModTendency_5"] = {
@@ -11611,7 +11784,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ModTendency_5",
             },
             ["Message_Guide_ModTendency_5_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"슬롯 성향 조정\"을 누르세요.",
+                ["ContentKR"] = "눌러서 '슬롯 성향 조정'을 선택하세요.",
                 ["TextMapId"] = "Message_Guide_ModTendency_5_Pad",
             },
             ["Message_Guide_ModTendency_6"] = {
@@ -11659,7 +11832,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Mod_2",
             },
             ["Message_Guide_Mod_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"악마의 쐐기\"를 눌러 착용하세요.",
+                ["ContentKR"] = "눌러서 '악마의 쐐기'를 선택해 착용하세요.",
                 ["TextMapId"] = "Message_Guide_Mod_2_Pad",
             },
             ["Message_Guide_Mod_3"] = {
@@ -11695,7 +11868,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_OpenArmory_PC",
             },
             ["Message_Guide_OpenArmory_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"</>를 클릭하여 정비 화면으로 들어갑니다.",
+                ["ContentKR"] = "클릭하여 정비 화면으로 들어갑니다.",
                 ["TextMapId"] = "Message_Guide_OpenArmory_Pad",
             },
             ["Message_Guide_OpenArmory_Phone"] = {
@@ -11707,7 +11880,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_PetTrain_1",
             },
             ["Message_Guide_PetTrain_1_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>정비</>를 눌러 정비 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>정비</>를 선택해 정비 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_PetTrain_1_Pad",
             },
             ["Message_Guide_PetTrain_2"] = {
@@ -11715,7 +11888,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_PetTrain_2",
             },
             ["Message_Guide_PetTrain_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>마령</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>마령</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_PetTrain_2_Pad",
             },
             ["Message_Guide_PetTrain_3"] = {
@@ -11723,11 +11896,11 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_PetTrain_3",
             },
             ["Message_Guide_PetTrain_3_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>잠재력</> 화면으로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>잠재력</> 화면으로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_PetTrain_3_Pad",
             },
             ["Message_Guide_PetTrain_4"] = {
-                ["ContentKR"] = "마령은 <H>활력 마령</>과 <H>미활력 마령</>으로 나뉘며, 활력 마령은 잠재력 슬롯을 가지고 있습니다. 잠재력 슬롯은 마령의 별 등급이 상승함에 따라 점차 해제됩니다.",
+                ["ContentKR"] = "마령은 <H>활성 마령</>과 <H>비활성 마령</>으로 나뉘며, 활성 마령은 잠재력 슬롯을 가지고 있습니다. 잠재력 슬롯은 마령의 별 등급이 상승함에 따라 점차 해제됩니다.",
                 ["TextMapId"] = "Message_Guide_PetTrain_4",
             },
             ["Message_Guide_PetTrain_5"] = {
@@ -11735,23 +11908,23 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_PetTrain_5",
             },
             ["Message_Guide_PetTrain_6"] = {
-                ["ContentKR"] = "미활약 마령은 전투에 동료로 참여할 수 없지만, 마령 훈련을 통해 다른 마령이 미활약 마령의 잠재력을 배우게 할 수 있습니다.",
+                ["ContentKR"] = "비활성 마령은 전투에 동료로 참여할 수 없지만, 마령 훈련을 통해 다른 마령이 비활성 마령의 잠재력을 배우게 할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_PetTrain_6",
             },
             ["Message_Guide_Pet_01"] = {
-                ["ContentKR"] = "'마령 포획' 누르기",
+                ["ContentKR"] = "'마령 먹이주기' 누르기",
                 ["TextMapId"] = "Message_Guide_Pet_01",
             },
             ["Message_Guide_Pet_02"] = {
-                ["ContentKR"] = "각기 다른 등급의 통조림을 선택해 유인할 수 있습니다. 통조림의 등급이 높을수록 포획 확률이 높아집니다.",
+                ["ContentKR"] = "각기 다른 등급의 통조림을 선택해 유인할 수 있습니다. 통조림의 등급이 높을수록 마령과 친구가 될 성공률이 높아집니다.",
                 ["TextMapId"] = "Message_Guide_Pet_02",
             },
             ["Message_Guide_Pet_03"] = {
-                ["ContentKR"] = "포획 타이밍이 정확할수록 포획 확률이 높아집니다. 중앙의 <H>노란색 지역</>에서의 포획 확률이 가장 높습니다.",
+                ["ContentKR"] = "먹이주기 타이밍이 정확할수록 마령과 친구가 될 성공률이 높아집니다. <H>중앙 지역</>에서의 성공률이 가장 높습니다.",
                 ["TextMapId"] = "Message_Guide_Pet_03",
             },
             ["Message_Guide_Pet_04"] = {
-                ["ContentKR"] = "이곳을 눌러 포획하세요.",
+                ["ContentKR"] = "이곳을 눌러 먹이주세요.",
                 ["TextMapId"] = "Message_Guide_Pet_04",
             },
             ["Message_Guide_Pet_05"] = {
@@ -11759,7 +11932,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Pet_05",
             },
             ["Message_Guide_Pet_06"] = {
-                ["ContentKR"] = "마령 포획 성공. <H>정비</> 화면에 진입하세요.",
+                ["ContentKR"] = "마령과 친구가 되었다. <H>정비</> 화면에 진입하세요.",
                 ["TextMapId"] = "Message_Guide_Pet_06",
             },
             ["Message_Guide_Pet_07"] = {
@@ -11767,11 +11940,11 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Pet_07",
             },
             ["Message_Guide_Pet_08"] = {
-                ["ContentKR"] = "이곳을 눌러 레조넌스에 대한 마령 보너스를 확인할 수 있습니다.",
+                ["ContentKR"] = "이곳을 눌러 전투에서 마령이 가져온 도움을 확인할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Pet_08",
             },
             ["Message_Guide_Pet_08_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 레조넌스에 대한 마령 보너스를 확인하세요.",
+                ["ContentKR"] = "눌러서 전투 중에 마령의 도움을 확인하세요.",
                 ["TextMapId"] = "Message_Guide_Pet_08_Pad",
             },
             ["Message_Guide_Pet_09"] = {
@@ -11783,8 +11956,16 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Pet_10",
             },
             ["Message_Guide_Pet_11"] = {
-                ["ContentKR"] = "전투 시 <H>&Skill3&</> 버튼을 눌러 마령 지원을 시전할 수 있어.",
+                ["ContentKR"] = "전투 시 &Skill3& 버튼을 눌러 마령 지원을 시전할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Pet_11",
+            },
+            ["Message_Guide_Pet_11_PAD"] = {
+                ["ContentKR"] = "전투 시 &GamepadUseSkill&+&Skill3& 버튼을 눌러 마령 지원을 시전할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Pet_11_PAD",
+            },
+            ["Message_Guide_Pet_11_PHONE"] = {
+                ["ContentKR"] = "전투 시 마령 스킬을 눌러 마령 지원을 시전할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Pet_11_PHONE",
             },
             ["Message_Guide_Quest_1"] = {
                 ["ContentKR"] = "뭘 해야 할지 모르겠다면 <H>퀘스트 노트</>를 열어봐!",
@@ -11795,7 +11976,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Quest_2_PC",
             },
             ["Message_Guide_Quest_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 퀘스트 노트를 여세요.",
+                ["ContentKR"] = "눌러서 퀘스트 노트를 여세요.",
                 ["TextMapId"] = "Message_Guide_Quest_2_Pad",
             },
             ["Message_Guide_Quest_2_Phone"] = {
@@ -11811,7 +11992,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Quest_4",
             },
             ["Message_Guide_Quest_4_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 \"유랑하는 루나\" 퀘스트를 여세요.",
+                ["ContentKR"] = "눌러서 '유랑하는 루나' 퀘스트를 여세요.",
                 ["TextMapId"] = "Message_Guide_Quest_4_Pad",
             },
             ["Message_Guide_Quest_5"] = {
@@ -11819,7 +12000,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Quest_5",
             },
             ["Message_Guide_Quest_5_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 퀘스트를 추적하거나 추적을 취소할 수 있습니다.",
+                ["ContentKR"] = "눌러서 퀘스트를 추적하거나 추적을 취소할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Quest_5_Pad",
             },
             ["Message_Guide_ReplaceChar_1"] = {
@@ -11887,7 +12068,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_8",
             },
             ["Message_Guide_Rouge3choose1_8_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <H>탐색 상세 정보</>를 열어 현재 보유 중인 심지를 확인할 수 있습니다.",
+                ["ContentKR"] = "눌러서 <H>탐색 상세 정보</>를 열어 현재 보유 중인 심지를 확인할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Rouge3choose1_8_Pad",
             },
             ["Message_Guide_Rouge3choose1_9"] = {
@@ -11927,7 +12108,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_RougeLantern_2",
             },
             ["Message_Guide_RougeLantern_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"랜턴 점검\"을 누르세요.",
+                ["ContentKR"] = "눌러서 '랜턴 점검'을 선택하세요.",
                 ["TextMapId"] = "Message_Guide_RougeLantern_2_Pad",
             },
             ["Message_Guide_RougeLantern_3"] = {
@@ -11955,7 +12136,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_RougeLantern_8",
             },
             ["Message_Guide_RougeLantern_8_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>유리</>를 눌러 랜턴을 수리하면 다양한 <H>축복</>을 받아 전투 능력을 강화할 수 있습니다.",
+                ["ContentKR"] = "눌러서 <H>유리</>를 선택해 랜턴을 수리하여, 다양한 <H>축복</>을 받아 전투 능력을 강화할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_RougeLantern_8_Pad",
             },
             ["Message_Guide_RougeLantern_9"] = {
@@ -11963,7 +12144,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_RougeLantern_9",
             },
             ["Message_Guide_RougeLantern_9_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>스킬 강화</>를 누르세요.",
+                ["ContentKR"] = "눌러서 <H>스킬 강화</>를 선택하세요.",
                 ["TextMapId"] = "Message_Guide_RougeLantern_9_Pad",
             },
             ["Message_Guide_RougeSettlement_1"] = {
@@ -12003,7 +12184,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Rouge_3",
             },
             ["Message_Guide_Rouge_3_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"갈림길의 발자국\"을 누르세요.",
+                ["ContentKR"] = "눌러서 '갈림길의 발자국'을 선택하세요.",
                 ["TextMapId"] = "Message_Guide_Rouge_3_Pad",
             },
             ["Message_Guide_Rouge_4"] = {
@@ -12011,7 +12192,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Rouge_4",
             },
             ["Message_Guide_Rouge_4_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> <H>\"이동\"</>을 눌러 미로로 들어가세요.",
+                ["ContentKR"] = "눌러서 <H>'이동'</>을 선택해 미로로 들어가세요.",
                 ["TextMapId"] = "Message_Guide_Rouge_4_Pad",
             },
             ["Message_Guide_Rouge_5"] = {
@@ -12027,7 +12208,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_Rouge_7",
             },
             ["Message_Guide_Rouge_7_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/> \"심연 진입\"을 누르세요.",
+                ["ContentKR"] = "눌러서 '심연 진입'을 선택하세요.",
                 ["TextMapId"] = "Message_Guide_Rouge_7_Pad",
             },
             ["Message_Guide_Rouge_8"] = {
@@ -12042,6 +12223,14 @@ local Data = {
                 ["ContentKR"] = "버튼을 눌러 길 찾기 가이드를 표시하면, 이를 따라가서 퀘스트 목표에 도달할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_Tracking_1",
             },
+            ["Message_Guide_Tracking_1_PAD"] = {
+                ["ContentKR"] = "여기에 길 찾기 가이드를 표시할 수 있고, 이를 따라가면 퀘스트 목표에 도달할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Tracking_1_PAD",
+            },
+            ["Message_Guide_Tracking_1_PHONE"] = {
+                ["ContentKR"] = "이 버튼을 눌러 길 찾기 가이드를 표시하면, 이를 따라가서 퀘스트 목표에 도달할 수 있습니다.",
+                ["TextMapId"] = "Message_Guide_Tracking_1_PHONE",
+            },
             ["Message_Guide_TrainingGround_1"] = {
                 ["ContentKR"] = "모래 바다의 명상에서는 이전에 만났던 적들을 회상하며 자유롭게 전투할 수 있어. 또 이를 통해 적의 공격 패턴을 익히고 자신의 스킬을 테스트할 수 있지.",
                 ["TextMapId"] = "Message_Guide_TrainingGround_1",
@@ -12051,7 +12240,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_TrainingGround_2",
             },
             ["Message_Guide_TrainingGround_2_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 적을 선택하세요.",
+                ["ContentKR"] = "눌러서 적을 선택하세요.",
                 ["TextMapId"] = "Message_Guide_TrainingGround_2_Pad",
             },
             ["Message_Guide_TrainingGround_3"] = {
@@ -12063,7 +12252,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_TrainingGround_4",
             },
             ["Message_Guide_TrainingGround_4_Pad"] = {
-                ["ContentKR"] = "<H>여러 적</>을 선택한 경우, 여기서 <Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 각각의 생성 수량을 조정할 수 있습니다.",
+                ["ContentKR"] = "<H>여러 적</>을 선택한 경우, 여기를 눌러 각각의 생성 수량을 조정할 수 있습니다.",
                 ["TextMapId"] = "Message_Guide_TrainingGround_4_Pad",
             },
             ["Message_Guide_TrainingGround_5"] = {
@@ -12090,6 +12279,10 @@ local Data = {
                 ["ContentKR"] = "상호작용 버튼을 눌러 명상 메뉴를 여세요.",
                 ["TextMapId"] = "Message_Guide_TrainingGround_Phone",
             },
+        }
+    end },
+    { MinKey = "Message_Guide_WeaponTrigger_1", MaxKey = "Mon_DesDetail_8514001", Loader = function()
+        return {
             ["Message_Guide_WeaponTrigger_1"] = {
                 ["ContentKR"] = "무기로 대미지를 입힐 시, 일정 확률로 <H>추가 효과</>가 발생하며, 발동 확률은 무기의 <H>발동 확률</> 능력치에 기반합니다.",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_1",
@@ -12099,11 +12292,11 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_2",
             },
             ["Message_Guide_WeaponTrigger_3"] = {
-                ["ContentKR"] = "<H>캐릭터</>는 적에게 원소 속성을 부여할 수 있어. <H>물, 불, 바람, 번개, 빛, 어둠</> 6가지 원소 속성의 <H>추가 효과</>는 대상에게 해당 속성의 <H>지속 대미지</> 디버프를 중첩시킬 수 있습니다.",
+                ["ContentKR"] = "<H>캐릭터</>는 적에게 원소 속성을 부여할 수 있어. <H>물, 불, 바람, 번개, 빛, 어둠</> 6가지 원소 속성의 <H>추가 효과</>는 대상에게 해당 속성의 <H>지속 대미지</> 디버프를 중첩시킬 수 있어.",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_3",
             },
             ["Message_Guide_WeaponTrigger_4"] = {
-                ["ContentKR"] = "또 <H>무기</>로는 적에게 물리 속성을 부여할 수 있어, <H>베기, 관통, 진동</> 3가지 물리 속성의 <H>추가 효과</>는 해당 속성의 대미지나 전투 태세 감소 효과를 높일 수 있습니다.",
+                ["ContentKR"] = "또 <H>무기</>로는 적에게 물리 속성을 부여할 수 있어, <H>베기, 관통, 진동</> 3가지 물리 속성의 <H>추가 효과</>는 해당 속성의 대미지나 전투 태세 감소 효과를 높일 수 있어.",
                 ["TextMapId"] = "Message_Guide_WeaponTrigger_4",
             },
             ["Message_Guide_WeaponTrigger_5"] = {
@@ -12255,43 +12448,39 @@ local Data = {
                 ["TextMapId"] = "Minigame_Textmap_100335",
             },
             ["Minigame_Textmap_BaiTips01"] = {
-                ["ContentKR"] = "새로운 단서를 얻었는데, 이것이 의문점을 해결해 줄까요?",
+                ["ContentKR"] = "새로운 단서를 얻었는데, 이것이 의문점을 해결할 수 있을까?",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips01",
             },
             ["Minigame_Textmap_BaiTips02"] = {
-                ["ContentKR"] = "이 단서들은 관련이 없어 보입니다. 다른 단서를 시도해보세요.",
+                ["ContentKR"] = "이 단서들은 관련이 없는 것 같아. 다른 단서를 시도해보자.",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips02",
             },
             ["Minigame_Textmap_BaiTips03"] = {
-                ["ContentKR"] = "단서가 다 모였습니다. 답은 바로 이것입니다!",
+                ["ContentKR"] = "단서가 다 모였어. 답은 바로 이거야!",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips03",
             },
             ["Minigame_Textmap_BaiTips04"] = {
-                ["ContentKR"] = "이 단서들은 문제와 관련이 없습니다. 다른 단서를 시도해보세요.",
+                ["ContentKR"] = "이 단서들은 문제와 관련이 없는 것 같아. 다른 단서를 시도해보자.",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips04",
             },
             ["Minigame_Textmap_BaiTips05"] = {
-                ["ContentKR"] = "새로운 단서를 얻었는데, 이것이 사건을 해결해 줄까요?",
+                ["ContentKR"] = "새로운 단서를 얻었는데, 이것이 사건을 해결할 수 있을까?",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips05",
             },
             ["Minigame_Textmap_BaiTips06"] = {
-                ["ContentKR"] = "이 단서들은 관련이 없어 보입니다. 다른 단서를 시도해보세요.",
+                ["ContentKR"] = "이 단서들은 문제와 관련이 없는 것 같아. 다른 단서를 시도해보자.",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips06",
             },
-        }
-    end },
-    { MinKey = "Minigame_Textmap_BaiTips07", MaxKey = "Mon_Description_8512001", Loader = function()
-        return {
             ["Minigame_Textmap_BaiTips07"] = {
-                ["ContentKR"] = "단서가 다 모였습니다. 답은 바로 이것입니다!",
+                ["ContentKR"] = "단서가 다 모였어. 답은 바로 이거야!",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips07",
             },
             ["Minigame_Textmap_BaiTips08"] = {
-                ["ContentKR"] = "이 단서들은 문제와 관련이 없습니다. 다른 단서를 시도해보세요.",
+                ["ContentKR"] = "이 단서들은 문제와 관련이 없는 것 같아. 다른 단서를 시도해보자.",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips08",
             },
             ["Minigame_Textmap_BaiTips09"] = {
-                ["ContentKR"] = "뭔가 단서가 부족한 것 같은데요...",
+                ["ContentKR"] = "뭔가 단서가 부족한 것 같은데...",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips09",
             },
             ["Minigame_Textmap_BaiTips10"] = {
@@ -12299,7 +12488,7 @@ local Data = {
                 ["TextMapId"] = "Minigame_Textmap_BaiTips10",
             },
             ["Minigame_Textmap_BaiTips11"] = {
-                ["ContentKR"] = "이 단서들을 조합하면 새로운 사실을 발견할 수 있을까요?",
+                ["ContentKR"] = "이 단서들을 조합하면 새로운 사실을 발견할 수 있을까?",
                 ["TextMapId"] = "Minigame_Textmap_BaiTips11",
             },
             ["ModArchive_Name_Char_1010"] = {
@@ -12462,40 +12651,44 @@ local Data = {
                 ["ContentKR"] = "펜리르 Ⅰ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2030",
             },
+            ["ModArchive_Name_Melee_2031"] = {
+                ["ContentKR"] = "펜리르 Ⅱ",
+                ["TextMapId"] = "ModArchive_Name_Melee_2031",
+            },
             ["ModArchive_Name_Melee_2040"] = {
                 ["ContentKR"] = "케르베로스 Ⅲ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2040",
             },
             ["ModArchive_Name_Melee_2050"] = {
-                ["ContentKR"] = "펜리르 Ⅱ",
+                ["ContentKR"] = "펜리르 Ⅲ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2050",
             },
             ["ModArchive_Name_Melee_2060"] = {
-                ["ContentKR"] = "펜리르 Ⅲ",
+                ["ContentKR"] = "펜리르 Ⅳ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2060",
             },
             ["ModArchive_Name_Melee_2070"] = {
-                ["ContentKR"] = "펜리르 Ⅳ",
+                ["ContentKR"] = "펜리르 Ⅴ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2070",
             },
             ["ModArchive_Name_Melee_2080"] = {
-                ["ContentKR"] = "펜리르 Ⅴ",
+                ["ContentKR"] = "펜리르 Ⅵ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2080",
             },
             ["ModArchive_Name_Melee_2090"] = {
-                ["ContentKR"] = "펜리르 Ⅵ",
+                ["ContentKR"] = "펜리르 Ⅶ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2090",
             },
             ["ModArchive_Name_Melee_2100"] = {
-                ["ContentKR"] = "펜리르 Ⅶ",
+                ["ContentKR"] = "펜리르 Ⅷ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2100",
             },
             ["ModArchive_Name_Melee_2110"] = {
-                ["ContentKR"] = "펜리르 Ⅷ",
+                ["ContentKR"] = "펜리르 Ⅸ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2110",
             },
             ["ModArchive_Name_Melee_2120"] = {
-                ["ContentKR"] = "펜리르 Ⅸ",
+                ["ContentKR"] = "펜리르 Ⅹ",
                 ["TextMapId"] = "ModArchive_Name_Melee_2120",
             },
             ["ModArchive_Name_Melee_2130"] = {
@@ -12893,6 +13086,10 @@ local Data = {
                 ["ContentKR"] = "복음을 전파하고, 신앙을 교정하는 것은 항상 일부 신의 사자가 지켜야 할 의무다. 이단에 구원을 가져오는 탄환과 열화는, 어찌 신명의 복음 중 하나가 아니겠는가?",
                 ["TextMapId"] = "Mon_DesDetail_8514001",
             },
+        }
+    end },
+    { MinKey = "Mon_DesDetail_8515001", MaxKey = "Mon_Name_6004023", Loader = function()
+        return {
             ["Mon_DesDetail_8515001"] = {
                 ["ContentKR"] = "거식자는 단지 하나의 필토이드가 아니라, 여러 물질의 집합으로, 그것은 모든 동물, 식물, 필토이드, 심지어 인간을 삼키고 융합하며, 완력으로 그것을 자신과 하나로 융합시키고, 기형적인 자세로 꿈틀거리며, 신체의 다음 구성 요소를 찾고 있다.",
                 ["TextMapId"] = "Mon_DesDetail_8515001",
@@ -13085,10 +13282,6 @@ local Data = {
                 ["ContentKR"] = "무대 위에, 눈에 비친 그림자.",
                 ["TextMapId"] = "Mon_Description_8512001",
             },
-        }
-    end },
-    { MinKey = "Mon_Description_8513001", MaxKey = "Mon_Name_6012018", Loader = function()
-        return {
             ["Mon_Description_8513001"] = {
                 ["ContentKR"] = "엘리시안의 신의 사자",
                 ["TextMapId"] = "Mon_Description_8513001",
@@ -13732,6 +13925,10 @@ local Data = {
                 ["ContentKR"] = "새비지 필토이드·사혈",
                 ["TextMapId"] = "Mon_Name_6004023",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_6004024", MaxKey = "Mon_Name_7010001", Loader = function()
+        return {
             ["Mon_Name_6004024"] = {
                 ["ContentKR"] = "새비지 필토이드·스냅",
                 ["TextMapId"] = "Mon_Name_6004024",
@@ -13924,10 +14121,6 @@ local Data = {
                 ["ContentKR"] = "게릴라 필토이드·복수 Ⅱ",
                 ["TextMapId"] = "Mon_Name_6012018",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_6012019", MaxKey = "Mon_Name_7012024", Loader = function()
-        return {
             ["Mon_Name_6012019"] = {
                 ["ContentKR"] = "게릴라 필토이드·서리옥 Ⅱ",
                 ["TextMapId"] = "Mon_Name_6012019",
@@ -14461,7 +14654,7 @@ local Data = {
                 ["TextMapId"] = "Mon_Name_7008201",
             },
             ["Mon_Name_7008301"] = {
-                ["ContentKR"] = "정예 부사관·사혈&스냅&복수 ",
+                ["ContentKR"] = "정예 부사관·사혈&스냅&복수",
                 ["TextMapId"] = "Mon_Name_7008301",
             },
             ["Mon_Name_7009001"] = {
@@ -14536,6 +14729,10 @@ local Data = {
                 ["ContentKR"] = "소드 연금술사",
                 ["TextMapId"] = "Mon_Name_7010001",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_7010011", MaxKey = "Mon_Name_8514017", Loader = function()
+        return {
             ["Mon_Name_7010011"] = {
                 ["ContentKR"] = "소드 연금술사·서리",
                 ["TextMapId"] = "Mon_Name_7010011",
@@ -14728,10 +14925,6 @@ local Data = {
                 ["ContentKR"] = "검병·스냅 Ⅱ",
                 ["TextMapId"] = "Mon_Name_7012024",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_7012201", MaxKey = "Mon_Name_9002017", Loader = function()
-        return {
             ["Mon_Name_7012201"] = {
                 ["ContentKR"] = "검병·버락&서리 Ⅱ",
                 ["TextMapId"] = "Mon_Name_7012201",
@@ -15340,6 +15533,10 @@ local Data = {
                 ["ContentKR"] = "몽은의 심판관·수호",
                 ["TextMapId"] = "Mon_Name_8514017",
             },
+        }
+    end },
+    { MinKey = "Mon_Name_8514018", MaxKey = "Name_200229", Loader = function()
+        return {
             ["Mon_Name_8514018"] = {
                 ["ContentKR"] = "몽은의 심판관·복수",
                 ["TextMapId"] = "Mon_Name_8514018",
@@ -15532,10 +15729,6 @@ local Data = {
                 ["ContentKR"] = "야생벌 불의의 화살·수호",
                 ["TextMapId"] = "Mon_Name_9002017",
             },
-        }
-    end },
-    { MinKey = "Mon_Name_9002018", MaxKey = "NumPadOne", Loader = function()
-        return {
             ["Mon_Name_9002018"] = {
                 ["ContentKR"] = "야생벌 불의의 화살·복수",
                 ["TextMapId"] = "Mon_Name_9002018",
@@ -15872,6 +16065,10 @@ local Data = {
                 ["ContentKR"] = "사냥꾼",
                 ["TextMapId"] = "Mon_Name_9503051",
             },
+            ["Mon_Name_9801001"] = {
+                ["ContentKR"] = "스노우 울프",
+                ["TextMapId"] = "Mon_Name_9801001",
+            },
             ["Mon_Name_9802001"] = {
                 ["ContentKR"] = "빨간 뿔 사슴",
                 ["TextMapId"] = "Mon_Name_9802001",
@@ -15891,6 +16088,10 @@ local Data = {
             ["Multiply"] = {
                 ["ContentKR"] = "Num *",
                 ["TextMapId"] = "Multiply",
+            },
+            ["MusicScoreName_1001"] = {
+                ["ContentKR"] = "황혼과 밤의 노래",
+                ["TextMapId"] = "MusicScoreName_1001",
             },
             ["Name_100101"] = {
                 ["ContentKR"] = "연옥도 탈출",
@@ -15999,6 +16200,14 @@ local Data = {
             ["Name_110109"] = {
                 ["ContentKR"] = "심판의 날",
                 ["TextMapId"] = "Name_110109",
+            },
+            ["Name_120001"] = {
+                ["ContentKR"] = "튠튠타운",
+                ["TextMapId"] = "Name_120001",
+            },
+            ["Name_120002"] = {
+                ["ContentKR"] = "타향에서 온 손님",
+                ["TextMapId"] = "Name_120002",
             },
             ["Name_200101"] = {
                 ["ContentKR"] = "유랑하는 루나",
@@ -16128,6 +16337,10 @@ local Data = {
                 ["ContentKR"] = "아트라시아 미학 대가",
                 ["TextMapId"] = "Name_200229",
             },
+        }
+    end },
+    { MinKey = "Name_901201", MaxKey = "Pack_Name_Shop_Jingli", Loader = function()
+        return {
             ["Name_901201"] = {
                 ["ContentKR"] = "사냥 의뢰 Ⅰ",
                 ["TextMapId"] = "Name_901201",
@@ -16400,10 +16613,6 @@ local Data = {
                 ["ContentKR"] = "Num 1",
                 ["TextMapId"] = "NumPadOne",
             },
-        }
-    end },
-    { MinKey = "NumPadSeven", MaxKey = "PartyReward_Name_310101", Loader = function()
-        return {
             ["NumPadSeven"] = {
                 ["ContentKR"] = "Num 7",
                 ["TextMapId"] = "NumPadSeven",
@@ -16429,7 +16638,7 @@ local Data = {
                 ["TextMapId"] = "One",
             },
             ["PET_401_PASSIVE"] = {
-                ["ContentKR"] = "어둠 속성 공격+#1, 최대 HP+#2.",
+                ["ContentKR"] = "자신과 협력 동료 어둠 속성 공격+#1, 최대 HP+#2.",
                 ["TextMapId"] = "PET_401_PASSIVE",
             },
             ["PET_401_SKILL"] = {
@@ -16437,7 +16646,7 @@ local Data = {
                 ["TextMapId"] = "PET_401_SKILL",
             },
             ["PET_402_PASSIVE"] = {
-                ["ContentKR"] = "물 속성 공격+#1, 최대 HP+#2.",
+                ["ContentKR"] = "자신과 협력 동료 물 속성 공격+#1, 최대 HP+#2.",
                 ["TextMapId"] = "PET_402_PASSIVE",
             },
             ["PET_402_SKILL"] = {
@@ -16445,7 +16654,7 @@ local Data = {
                 ["TextMapId"] = "PET_402_SKILL",
             },
             ["PET_403_PASSIVE"] = {
-                ["ContentKR"] = "불 속성 공격+#1, 최대 HP+#2.",
+                ["ContentKR"] = "자신과 협력 동료 불 속성 공격+#1, 최대 HP+#2.",
                 ["TextMapId"] = "PET_403_PASSIVE",
             },
             ["PET_403_SKILL"] = {
@@ -16453,7 +16662,7 @@ local Data = {
                 ["TextMapId"] = "PET_403_SKILL",
             },
             ["PET_404_PASSIVE"] = {
-                ["ContentKR"] = "번개 속성 공격+#1, 최대 HP+#2.",
+                ["ContentKR"] = "자신과 협력 동료 번개 속성 공격+#1, 최대 HP+#2.",
                 ["TextMapId"] = "PET_404_PASSIVE",
             },
             ["PET_404_SKILL"] = {
@@ -16461,7 +16670,7 @@ local Data = {
                 ["TextMapId"] = "PET_404_SKILL",
             },
             ["PET_405_PASSIVE"] = {
-                ["ContentKR"] = "바람 속성 공격+#1, 최대 HP+#2.",
+                ["ContentKR"] = "자신과 협력 동료 바람 속성 공격+#1, 최대 HP+#2.",
                 ["TextMapId"] = "PET_405_PASSIVE",
             },
             ["PET_405_SKILL"] = {
@@ -16469,7 +16678,7 @@ local Data = {
                 ["TextMapId"] = "PET_405_SKILL",
             },
             ["PET_406_PASSIVE"] = {
-                ["ContentKR"] = "빛 속성 공격 +#1, [스핑크스][세이렌][그리핀][티폰][메피스토][야타가라스] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료 빛 속성 공격+#1, 최대 HP+#2.",
                 ["TextMapId"] = "PET_406_PASSIVE",
             },
             ["PET_406_SKILL"] = {
@@ -16477,15 +16686,15 @@ local Data = {
                 ["TextMapId"] = "PET_406_SKILL",
             },
             ["PET_407_PASSIVE"] = {
-                ["ContentKR"] = "습득 범위 #1, 적 처치로 획득하는 경험치 #2, 확률로 추가 드랍.",
+                ["ContentKR"] = "적 처치로 획득하는 경험치+#2, 확률로 추가 드랍.",
                 ["TextMapId"] = "PET_407_PASSIVE",
             },
             ["PET_407_SKILL"] = {
-                ["ContentKR"] = "주위의 적에게 주인공 공격 #1의 대미지를 입히고, 보물 상자에 있는 속성 파괴 가능 물체를 직접 파괴할 수 있다. 100m의 마령 1마리와 보물 상자 1개를 탐지할 수 있고, 30초 동안 마령과 보물 상자의 위치를 표시해 준다.",
+                ["ContentKR"] = "주위의 적에게 주인공 공격 #1의 대미지를 입히고, 수납함에 있는 속성 파괴 가능 물체를 직접 파괴할 수 있다. 100m의 마령 1마리와 수납함 1개를 탐지할 수 있고, 30초 동안 마령과 수납함의 위치를 표시해 준다.",
                 ["TextMapId"] = "PET_407_SKILL",
             },
             ["PET_408_PASSIVE"] = {
-                ["ContentKR"] = "점프 속도 #1, 스파이럴 점프 속도 #2, 슬라이딩 마찰 #3.",
+                ["ContentKR"] = "점프 속도+#1, 스파이럴 점프 속도+#2, 슬라이딩 마찰+#3.",
                 ["TextMapId"] = "PET_408_PASSIVE",
             },
             ["PET_408_SKILL"] = {
@@ -16493,7 +16702,7 @@ local Data = {
                 ["TextMapId"] = "PET_408_SKILL",
             },
             ["PET_409_PASSIVE"] = {
-                ["ContentKR"] = "공격 #1, 최대 HP #2, 방어 #3.",
+                ["ContentKR"] = "공격+#, 최대 HP+#, 방어+#.",
                 ["TextMapId"] = "PET_409_PASSIVE",
             },
             ["PET_409_SKILL"] = {
@@ -16501,7 +16710,7 @@ local Data = {
                 ["TextMapId"] = "PET_409_SKILL",
             },
             ["PET_411_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 어둠 속성 공격 #1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 어둠 속성 공격+#1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_411_PASSIVE",
             },
             ["PET_411_SKILL"] = {
@@ -16509,7 +16718,7 @@ local Data = {
                 ["TextMapId"] = "PET_411_SKILL",
             },
             ["PET_412_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 물 속성 공격 #1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 물 속성 공격+#1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_412_PASSIVE",
             },
             ["PET_412_SKILL"] = {
@@ -16517,7 +16726,7 @@ local Data = {
                 ["TextMapId"] = "PET_412_SKILL",
             },
             ["PET_413_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 불 속성 공격 #1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 불 속성 공격+#1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_413_PASSIVE",
             },
             ["PET_413_SKILL"] = {
@@ -16525,7 +16734,7 @@ local Data = {
                 ["TextMapId"] = "PET_413_SKILL",
             },
             ["PET_414_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 번개 속성 공격 #1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 번개 속성 공격+#1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_414_PASSIVE",
             },
             ["PET_414_SKILL"] = {
@@ -16533,7 +16742,7 @@ local Data = {
                 ["TextMapId"] = "PET_414_SKILL",
             },
             ["PET_415_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 바람 속성 공격 #1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 바람 속성 공격+#1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_415_PASSIVE",
             },
             ["PET_415_SKILL"] = {
@@ -16541,7 +16750,7 @@ local Data = {
                 ["TextMapId"] = "PET_415_SKILL",
             },
             ["PET_416_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 빛 속성 공격 #1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 빛 속성 공격+#1, [불사조] 접두사가 붙은 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_416_PASSIVE",
             },
             ["PET_416_SKILL"] = {
@@ -16549,15 +16758,15 @@ local Data = {
                 ["TextMapId"] = "PET_416_SKILL",
             },
             ["PET_421_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 어둠 속성 공격 #1, [그리핀] [티폰] [메피스토] 접두사가 붙은 어둠 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 어둠 속성 공격+#1, [그리핀] [티폰] [메피스토] 접두사가 붙은 어둠 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_421_PASSIVE",
             },
             ["PET_421_SKILL"] = {
-                ["ContentKR"] = "주위의 적에게 주인공 공격의 #1만큼 어둠 속성 대미지를 입히고, 근처 아군에게 [온몸] 상승 #2의 효과를 부여한다. 지속 시간 #3초.",
+                ["ContentKR"] = "주위의 적에게 주인공 공격의 #1만큼 어둠 속성 대미지를 입히고, 근처 아군에게 [격양] 상승 #2의 효과를 부여한다. 지속 시간 #3초.",
                 ["TextMapId"] = "PET_421_SKILL",
             },
             ["PET_422_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 물 속성 공격 #1, [그리핀] [티폰] [메피스토] 접두사가 붙은 물 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 물 속성 공격+#1, [그리핀] [티폰] [메피스토] 접두사가 붙은 물 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_422_PASSIVE",
             },
             ["PET_422_SKILL"] = {
@@ -16565,7 +16774,7 @@ local Data = {
                 ["TextMapId"] = "PET_422_SKILL",
             },
             ["PET_423_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 불 속성 공격 #1, [그리핀] [티폰] [메피스토] 접두사가 붙은 불 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 불 속성 공격+#1, [그리핀] [티폰] [메피스토] 접두사가 붙은 불 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_423_PASSIVE",
             },
             ["PET_423_SKILL"] = {
@@ -16573,7 +16782,7 @@ local Data = {
                 ["TextMapId"] = "PET_423_SKILL",
             },
             ["PET_424_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 번개 속성 공격 #1, [그리핀] [티폰] [메피스토] 접두사가 붙은 번개 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 번개 속성 공격+#1, [그리핀] [티폰] [메피스토] 접두사가 붙은 번개 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_424_PASSIVE",
             },
             ["PET_424_SKILL"] = {
@@ -16581,7 +16790,7 @@ local Data = {
                 ["TextMapId"] = "PET_424_SKILL",
             },
             ["PET_425_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 바람 속성 공격 #1, [그리핀] [티폰] [메피스토] 접두사가 붙은 바람 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 바람 속성 공격+#1, [그리핀] [티폰] [메피스토] 접두사가 붙은 바람 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_425_PASSIVE",
             },
             ["PET_425_SKILL"] = {
@@ -16589,7 +16798,7 @@ local Data = {
                 ["TextMapId"] = "PET_425_SKILL",
             },
             ["PET_426_PASSIVE"] = {
-                ["ContentKR"] = "자신과 협력 동료의 빛 속성 공격 #1, [그리핀] [티폰] [메피스토] 접두사가 붙은 빛 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
+                ["ContentKR"] = "자신과 협력 동료의 빛 속성 공격+#1, [그리핀] [티폰] [메피스토] 접두사가 붙은 빛 속성 악마의 쐐기가 제공하는 속성이 #2 상승한다.",
                 ["TextMapId"] = "PET_426_PASSIVE",
             },
             ["PET_426_SKILL"] = {
@@ -16621,7 +16830,7 @@ local Data = {
                 ["TextMapId"] = "PROLOGUE_SELECTGUN_TIP_1",
             },
             ["PROLOGUE_SELECTGUN_TIP_2"] = {
-                ["ContentKR"] = "클릭",
+                ["ContentKR"] = "{空格}",
                 ["TextMapId"] = "PROLOGUE_SELECTGUN_TIP_2",
             },
             ["PROLOGUE_SELECTGUN_TIP_3"] = {
@@ -16772,6 +16981,94 @@ local Data = {
                 ["ContentKR"] = "일상에서 획득한 물자 자원, 일부 의뢰 수첩이 들어있다.",
                 ["TextMapId"] = "Pack_Des_Shop_WeiTuo_01",
             },
+            ["Pack_Des_Walnut_Order_001_015"] = {
+                ["ContentKR"] = "001~015번 사이의 질서 계열 밀서 중 1개를 랜덤으로 획득합니다.",
+                ["TextMapId"] = "Pack_Des_Walnut_Order_001_015",
+            },
+            ["Pack_Des_Weapon_Decompose"] = {
+                ["ContentKR"] = "쿠퍼 또는 무기 돌파 재료를 랜덤으로 획득합니다.",
+                ["TextMapId"] = "Pack_Des_Weapon_Decompose",
+            },
+            ["Pack_Name_Battle_Dispatch_1"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.1",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_1",
+            },
+            ["Pack_Name_Battle_Dispatch_10"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.10",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_10",
+            },
+            ["Pack_Name_Battle_Dispatch_2"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.2",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_2",
+            },
+            ["Pack_Name_Battle_Dispatch_3"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.3",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_3",
+            },
+            ["Pack_Name_Battle_Dispatch_4"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.4",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_4",
+            },
+            ["Pack_Name_Battle_Dispatch_5"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.5",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_5",
+            },
+            ["Pack_Name_Battle_Dispatch_6"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.6",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_6",
+            },
+            ["Pack_Name_Battle_Dispatch_7"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.7",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_7",
+            },
+            ["Pack_Name_Battle_Dispatch_8"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.8",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_8",
+            },
+            ["Pack_Name_Battle_Dispatch_9"] = {
+                ["ContentKR"] = "파견 전투 보상 패키지 Lv.9",
+                ["TextMapId"] = "Pack_Name_Battle_Dispatch_9",
+            },
+            ["Pack_Name_Collect_Dispatch_1"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.1",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_1",
+            },
+            ["Pack_Name_Collect_Dispatch_10"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.10",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_10",
+            },
+            ["Pack_Name_Collect_Dispatch_2"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.2",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_2",
+            },
+            ["Pack_Name_Collect_Dispatch_3"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.3",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_3",
+            },
+            ["Pack_Name_Collect_Dispatch_4"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.4",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_4",
+            },
+            ["Pack_Name_Collect_Dispatch_5"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.5",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_5",
+            },
+            ["Pack_Name_Collect_Dispatch_6"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.6",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_6",
+            },
+            ["Pack_Name_Collect_Dispatch_7"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.7",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_7",
+            },
+            ["Pack_Name_Collect_Dispatch_8"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.8",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_8",
+            },
+            ["Pack_Name_Collect_Dispatch_9"] = {
+                ["ContentKR"] = "파견 채집 보상 패키지 Lv.9",
+                ["TextMapId"] = "Pack_Name_Collect_Dispatch_9",
+            },
             ["Pack_Name_Draft_Melee"] = {
                 ["ContentKR"] = "미지의 설계도·근접 무기",
                 ["TextMapId"] = "Pack_Name_Draft_Melee",
@@ -16784,6 +17081,86 @@ local Data = {
                 ["ContentKR"] = "미지의 설계도·원거리 무기",
                 ["TextMapId"] = "Pack_Name_Draft_Range",
             },
+            ["Pack_Name_Fish_Dispatch_1"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.1",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_1",
+            },
+            ["Pack_Name_Fish_Dispatch_10"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.10",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_10",
+            },
+            ["Pack_Name_Fish_Dispatch_2"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.2",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_2",
+            },
+            ["Pack_Name_Fish_Dispatch_3"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.3",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_3",
+            },
+            ["Pack_Name_Fish_Dispatch_4"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.4",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_4",
+            },
+            ["Pack_Name_Fish_Dispatch_5"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.5",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_5",
+            },
+            ["Pack_Name_Fish_Dispatch_6"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.6",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_6",
+            },
+            ["Pack_Name_Fish_Dispatch_7"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.7",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_7",
+            },
+            ["Pack_Name_Fish_Dispatch_8"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.8",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_8",
+            },
+            ["Pack_Name_Fish_Dispatch_9"] = {
+                ["ContentKR"] = "파견 낚시 보상 패키지 Lv.9",
+                ["TextMapId"] = "Pack_Name_Fish_Dispatch_9",
+            },
+            ["Pack_Name_Mine_Dispatch_1"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.1",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_1",
+            },
+            ["Pack_Name_Mine_Dispatch_10"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.10",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_10",
+            },
+            ["Pack_Name_Mine_Dispatch_2"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.2",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_2",
+            },
+            ["Pack_Name_Mine_Dispatch_3"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.3",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_3",
+            },
+            ["Pack_Name_Mine_Dispatch_4"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.4",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_4",
+            },
+            ["Pack_Name_Mine_Dispatch_5"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.5",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_5",
+            },
+            ["Pack_Name_Mine_Dispatch_6"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.6",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_6",
+            },
+            ["Pack_Name_Mine_Dispatch_7"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.7",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_7",
+            },
+            ["Pack_Name_Mine_Dispatch_8"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.8",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_8",
+            },
+            ["Pack_Name_Mine_Dispatch_9"] = {
+                ["ContentKR"] = "파견 채광 보상 패키지 Lv.9",
+                ["TextMapId"] = "Pack_Name_Mine_Dispatch_9",
+            },
             ["Pack_Name_Mod_Char"] = {
                 ["ContentKR"] = "미지의 악마의 쐐기·캐릭터",
                 ["TextMapId"] = "Pack_Name_Mod_Char",
@@ -16795,6 +17172,10 @@ local Data = {
             ["Pack_Name_Mod_Range"] = {
                 ["ContentKR"] = "미지의 악마의 쐐기·원거리 무기",
                 ["TextMapId"] = "Pack_Name_Mod_Range",
+            },
+            ["Pack_Name_Mod_Task"] = {
+                ["ContentKR"] = "하얀색 등급 악마의 쐐기",
+                ["TextMapId"] = "Pack_Name_Mod_Task",
             },
             ["Pack_Name_Resource_Fuma"] = {
                 ["ContentKR"] = "미지의 설계도·페이즈 시프트 모듈",
@@ -16824,6 +17205,10 @@ local Data = {
                 ["ContentKR"] = "물자 지원·에너지",
                 ["TextMapId"] = "Pack_Name_Shop_Jingli",
             },
+        }
+    end },
+    { MinKey = "Pack_Name_Shop_Level_10", MaxKey = "PartyTopic_Name_310103", Loader = function()
+        return {
             ["Pack_Name_Shop_Level_10"] = {
                 ["ContentKR"] = "수련 레벨 패키지 Lv.10",
                 ["TextMapId"] = "Pack_Name_Shop_Level_10",
@@ -16853,8 +17238,20 @@ local Data = {
                 ["TextMapId"] = "Pack_Name_Shop_Mod",
             },
             ["Pack_Name_Shop_Pay_01"] = {
-                ["ContentKR"] = "눈 녹는 계절",
+                ["ContentKR"] = "[눈 녹는 계절] 한정 패키지 Ⅰ",
                 ["TextMapId"] = "Pack_Name_Shop_Pay_01",
+            },
+            ["Pack_Name_Shop_Pay_02"] = {
+                ["ContentKR"] = "[눈 녹는 계절] 한정 패키지 Ⅱ",
+                ["TextMapId"] = "Pack_Name_Shop_Pay_02",
+            },
+            ["Pack_Name_Shop_Pay_03"] = {
+                ["ContentKR"] = "[눈 녹는 계절] 한정 패키지 Ⅲ",
+                ["TextMapId"] = "Pack_Name_Shop_Pay_03",
+            },
+            ["Pack_Name_Shop_Pay_04"] = {
+                ["ContentKR"] = "[눈 녹는 계절] 한정 패키지 Ⅳ",
+                ["TextMapId"] = "Pack_Name_Shop_Pay_04",
             },
             ["Pack_Name_Shop_Random_Ranse"] = {
                 ["ContentKR"] = "랜덤 기본 염료",
@@ -16915,6 +17312,14 @@ local Data = {
             ["Pack_Name_Shop_WeiTuo"] = {
                 ["ContentKR"] = "물자 지원·의뢰 수첩",
                 ["TextMapId"] = "Pack_Name_Shop_WeiTuo",
+            },
+            ["Pack_Name_Walnut_Order_001_015"] = {
+                ["ContentKR"] = "랜덤 질서 준수의 밀서",
+                ["TextMapId"] = "Pack_Name_Walnut_Order_001_015",
+            },
+            ["Pack_Name_Weapon_Decompose"] = {
+                ["ContentKR"] = "알 수 없는 무기 분해 보상",
+                ["TextMapId"] = "Pack_Name_Weapon_Decompose",
             },
             ["PageDown"] = {
                 ["ContentKR"] = "PgDn",
@@ -17204,10 +17609,6 @@ local Data = {
                 ["ContentKR"] = "음료·매운맛 안부",
                 ["TextMapId"] = "PartyReward_Name_310101",
             },
-        }
-    end },
-    { MinKey = "PartyReward_Name_310102", MaxKey = "Pet_Name_413", Loader = function()
-        return {
             ["PartyReward_Name_310102"] = {
                 ["ContentKR"] = "음료·흔들리는 계약",
                 ["TextMapId"] = "PartyReward_Name_310102",
@@ -17608,6 +18009,10 @@ local Data = {
                 ["ContentKR"] = "돌아갈 수 없는 고향",
                 ["TextMapId"] = "PartyTopic_Name_310103",
             },
+        }
+    end },
+    { MinKey = "PartyTopic_Name_310201", MaxKey = "QuestDesc_10020307", Loader = function()
+        return {
             ["PartyTopic_Name_310201"] = {
                 ["ContentKR"] = "다중 신분",
                 ["TextMapId"] = "PartyTopic_Name_310201",
@@ -17797,7 +18202,7 @@ local Data = {
                 ["TextMapId"] = "Pet_Affix_Without",
             },
             ["Pet_BattlePet"] = {
-                ["ContentKR"] = "활력 마령",
+                ["ContentKR"] = "활성 마령",
                 ["TextMapId"] = "Pet_BattlePet",
             },
             ["Pet_BreakLevelUp_Success"] = {
@@ -17805,7 +18210,7 @@ local Data = {
                 ["TextMapId"] = "Pet_BreakLevelUp_Success",
             },
             ["Pet_Break_CostToast"] = {
-                ["ContentKR"] = "마령 소모(%s/%s)",
+                ["ContentKR"] = "재료 선택",
                 ["TextMapId"] = "Pet_Break_CostToast",
             },
             ["Pet_Break_LevelReset"] = {
@@ -17937,7 +18342,7 @@ local Data = {
                 ["TextMapId"] = "Pet_LevelUp_AddMax",
             },
             ["Pet_LevelUp_CostToast"] = {
-                ["ContentKR"] = "임의 마령 소모",
+                ["ContentKR"] = "재료 선택",
                 ["TextMapId"] = "Pet_LevelUp_CostToast",
             },
             ["Pet_LevelUp_ExpOverflow_Content"] = {
@@ -18008,10 +18413,6 @@ local Data = {
                 ["ContentKR"] = "흔들흔들 불꼬리",
                 ["TextMapId"] = "Pet_Name_413",
             },
-        }
-    end },
-    { MinKey = "Pet_Name_414", MaxKey = "QuestDesc_100302sp102", Loader = function()
-        return {
             ["Pet_Name_414"] = {
                 ["ContentKR"] = "탁탁 고양이 차",
                 ["TextMapId"] = "Pet_Name_414",
@@ -18085,11 +18486,11 @@ local Data = {
                 ["TextMapId"] = "Pet_Rarity_5_Below",
             },
             ["Pet_ResourcePet"] = {
-                ["ContentKR"] = "미활력 마령",
+                ["ContentKR"] = "비활성 마령",
                 ["TextMapId"] = "Pet_ResourcePet",
             },
             ["Pet_ResourcePet_LockToast"] = {
-                ["ContentKR"] = "아직 미활력 마령을 획득하지 못했습니다",
+                ["ContentKR"] = "아직 비활성 마령을 획득하지 못했습니다",
                 ["TextMapId"] = "Pet_ResourcePet_LockToast",
             },
             ["Pet_SameAffix_UnableAdd"] = {
@@ -18451,6 +18852,10 @@ local Data = {
 괜찮다면 나중에 이곳을 찾는 이들을 위해 안내등과 표지판을 수리해 주자.",
                 ["TextMapId"] = "QuestDesc_10020307",
             },
+        }
+    end },
+    { MinKey = "QuestDesc_10020308", MaxKey = "QuestName_10020207", Loader = function()
+        return {
             ["QuestDesc_10020308"] = {
                 ["ContentKR"] = "버려진 파이프를 따라 글로스터 폐광 내부로 들어갔다.\
 한때 거대한 천국의 나무가 산을 관통했지만, 지금은 거의 다 채굴되어 작은 뿌리만 남았고, 그 광맥만이 과거의 영광을 보여준다.\
@@ -18931,10 +19336,6 @@ local Data = {
                 ["ContentKR"] = "컨트롤러 스테이션을 복구하려면 우선 이 구역의 각 수로를 뚫어야 한다. 배수 시스템을 작동하자마자 파이프에서 수많은 필토이드가 쏟아져 나왔다. 그들을 퇴치하고 시민을 보호하자.",
                 ["TextMapId"] = "QuestDesc_100302sp102",
             },
-        }
-    end },
-    { MinKey = "QuestDesc_100302sp103", MaxKey = "QuestName_10030109", Loader = function()
-        return {
             ["QuestDesc_100302sp103"] = {
                 ["ContentKR"] = "막힌 배수관을 모두 뚫었다. 이제 잠긴 문을 다시 열어보자.",
                 ["TextMapId"] = "QuestDesc_100302sp103",
@@ -19337,6 +19738,10 @@ local Data = {
                 ["ContentKR"] = "도둑의 종적 추적하기",
                 ["TextMapId"] = "QuestName_10020207",
             },
+        }
+    end },
+    { MinKey = "QuestName_10020208", MaxKey = "QuestName_901207", Loader = function()
+        return {
             ["QuestName_10020208"] = {
                 ["ContentKR"] = "3호 쓰레기통 주변의 흔적 조사하기",
                 ["TextMapId"] = "QuestName_10020208",
@@ -19737,10 +20142,6 @@ local Data = {
                 ["ContentKR"] = "소품사와 이야기하기",
                 ["TextMapId"] = "QuestName_10030109",
             },
-        }
-    end },
-    { MinKey = "QuestName_10030110", MaxKey = "READ_NAME_2000026", Loader = function()
-        return {
             ["QuestName_10030110"] = {
                 ["ContentKR"] = "비올레타와 이야기하기",
                 ["TextMapId"] = "QuestName_10030110",
@@ -19868,6 +20269,10 @@ local Data = {
             ["QuestName_10030301"] = {
                 ["ContentKR"] = "군단 병원으로 가기",
                 ["TextMapId"] = "QuestName_10030301",
+            },
+            ["QuestName_10030302"] = {
+                ["ContentKR"] = "제13군단과의 협력",
+                ["TextMapId"] = "QuestName_10030302",
             },
             ["QuestName_10030303"] = {
                 ["ContentKR"] = "하수도로 가기",
@@ -20137,6 +20542,10 @@ local Data = {
                 ["ContentKR"] = "지정된 위치로 가서 필토이드를 처치하세요.",
                 ["TextMapId"] = "QuestName_901207",
             },
+        }
+    end },
+    { MinKey = "QuestName_99999801", MaxKey = "READ_TEXT_2000053", Loader = function()
+        return {
             ["QuestName_99999801"] = {
                 ["ContentKR"] = "눈물의 호수로 이동",
                 ["TextMapId"] = "QuestName_99999801",
@@ -20551,10 +20960,6 @@ local Data = {
                 ["ContentKR"] = "<요새 유지 보수 인력 증원 신청서>",
                 ["TextMapId"] = "READ_NAME_2000026",
             },
-        }
-    end },
-    { MinKey = "READ_NAME_2000027", MaxKey = "RESOURCE_DESC_12025", Loader = function()
-        return {
             ["READ_NAME_2000027"] = {
                 ["ContentKR"] = "구겨진 종이 뭉치",
                 ["TextMapId"] = "READ_NAME_2000027",
@@ -20853,6 +21258,28 @@ local Data = {
 \
 ...",
                 ["TextMapId"] = "READ_TEXT_2000005",
+            },
+            ["READ_TEXT_2000006"] = {
+                ["ContentKR"] = "... \
+프시케: \"제발 허락해 주세요, 헨릭 아저씨...\"\
+헨릭: \"<H>안 돼. 침식 억제 술수는 아직 이론 단계에 있어, 임상 검증되지 않은 치료법을 너희한테 상용할 수 없어.</>\"\
+프시케: \"아저씨가 넘 착하시니까... 침식 억제 수술은 계속 검증되지 못하는 거예요.\" \
+헨릭: \"히프노스의 집은 고통을 덜어주기 위해 존재하는 거야. 너희를 실험체로 쓴다면 군단과 뭐가 달라!\"\
+프시케: \"그게 아니에요...\" \
+프시케: \"아저씨는 항상 우리를 돌보고, 소원을 들어주고, 아픔을 덜어줬지만 그 고통은 사라진 게 아니라 아저씨 혼자 짊어지신 거잖아요.\"\
+프시케: \"침식 억제 수술은 우리 모두를 도울 수 있는 유일한 희망이에요. <H>위험하고 부작용이 있더라도 성공할 가능성이 조금이라도 있다면 저는 기꺼이 연구를 도와드릴 거예요.</>\"\
+헨릭: \"...그만해. 안 된다고...\"\
+(바스락...) \
+헨릭: \"지금 뭐 하는 거야, 빨리 누워...\"\
+프시케: \"쉿, 들리세요? 제 심장의 뛰는 소리...\"\
+프시케: \"내일일까 오늘밤일까? 전 곧 필토이드로가 되어 이 소리도 멈출 거예요. 하지만... 단 하루만 더 이라도 문을 열고 모두의 얼굴을 만지고, 눈을 감고 심장 뛰는 소리를 듣고 싶어요. 또 아저씨의 지친 모습을 떠올리며 슬퍼하고, 부모님의 걱정을 기억하며 위로받고, {nickname}의 응원을 생각하며 힘내고...\"\
+헨릭: \"...울지 마... 제발 울지 마...\"\
+프시케: \"아저씨도... 울고 계시잖아요.\"\
+헨릭: \"난...\"\
+(바스락...) \
+프시케: \"부탁드려요... 헨릭 아저씨.\"\
+헨릭: \"...알겠다.\"",
+                ["TextMapId"] = "READ_TEXT_2000006",
             },
             ["READ_TEXT_2000007"] = {
                 ["ContentKR"] = "...\
@@ -21482,6 +21909,10 @@ C구역 애니타\
 파르지팔 주석: 이 부분의 관전 포인트는 군무이다. 이 씬의 어려운 점은, 이름 없는 무용수들 중 하나인 홍엽이라는 캐릭터가 다른 무용수와 다르다는 점을 관객이 스스로 알아차리게 해야 하지만, 지나치게 두드러져도 안된다는 점이다.",
                 ["TextMapId"] = "READ_TEXT_2000053",
             },
+        }
+    end },
+    { MinKey = "READ_TEXT_2000054", MaxKey = "RESOURCE_DESC_12118", Loader = function()
+        return {
             ["READ_TEXT_2000054"] = {
                 ["ContentKR"] = "제2막 피와 살의 별똥별\
 \
@@ -21907,6 +22338,22 @@ C구역 애니타\
 고고학 협회에서 출토한 고대 석판에서 영감을 받아 휘페르보레아 제국 소드 연금원에서 만들었다. 몇 안 되는 숫자에 어떤 비밀들이 숨겨져 있는지 알 수 없다.",
                 ["TextMapId"] = "RESOURCE_DESC_102",
             },
+            ["RESOURCE_DESC_10203"] = {
+                ["ContentKR"] = "침묵을 지키고, 진정한 자신를 찾아야, 내면에서 비롯된 성장을 얻을 수 있다.",
+                ["TextMapId"] = "RESOURCE_DESC_10203",
+            },
+            ["RESOURCE_DESC_10204"] = {
+                ["ContentKR"] = "침묵을 지키고, 진정한 자신를 찾아야, 내면에서 비롯된 성장을 얻을 수 있다.",
+                ["TextMapId"] = "RESOURCE_DESC_10204",
+            },
+            ["RESOURCE_DESC_10205"] = {
+                ["ContentKR"] = "침묵을 지키고, 진정한 자신를 찾아야, 내면에서 비롯된 성장을 얻을 수 있다.",
+                ["TextMapId"] = "RESOURCE_DESC_10205",
+            },
+            ["RESOURCE_DESC_10206"] = {
+                ["ContentKR"] = "약을 다루는 일은 경험에 크게 의존하는 작업이다.성장 속에서 쌓아온 교훈만이, 언제나 가장 적절한 용량을 집어낼 수 있게 해준다.",
+                ["TextMapId"] = "RESOURCE_DESC_10206",
+            },
             ["RESOURCE_DESC_103"] = {
                 ["ContentKR"] = "의뢰를 수행할 때 필요한 에너지.",
                 ["TextMapId"] = "RESOURCE_DESC_103",
@@ -22096,10 +22543,6 @@ C구역 애니타\
                 ["ContentKR"] = "도안을 엄격하게 준수하여 제작한 죄의 역린 부품. 칼날의 휘어진 정도나 무게는 신경 쓰지 않고, 전투를 위한 서슬 퍼런 칼날을 만들었다.",
                 ["TextMapId"] = "RESOURCE_DESC_12025",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_12026", MaxKey = "RESOURCE_DESC_3000011", Loader = function()
-        return {
             ["RESOURCE_DESC_12026"] = {
                 ["ContentKR"] = "도안을 엄격하게 준수하여 제작한 불변의 꿈바다 부품. 사용자의 편의성을 위해 실질적인 설계 목적을 갖고 만들어졌다.",
                 ["TextMapId"] = "RESOURCE_DESC_12026",
@@ -22121,11 +22564,11 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_DESC_12030",
             },
             ["RESOURCE_DESC_12031"] = {
-                ["ContentKR"] = "도안을 엄격하게 준수하여 제작한 블루 펄스 부품. 사용자의 편의성을 위해 실질적인 설계 목적을 갖고 만들어졌다.",
+                ["ContentKR"] = "도안을 엄격하게 준수하여 제작한 블루 펄스 부품. 강철로 만들어 매우 단단하기 때문에 탄환이 부족할 때 둔기 또는 투척물로 사용할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_12031",
             },
             ["RESOURCE_DESC_12032"] = {
-                ["ContentKR"] = "도안을 엄격하게 준수하여 제작한 블루 펄스 부품. 칼날의 휘어진 정도나 무게는 신경 쓰지 않고, 전투를 위한 서슬 퍼런 칼날을 만들었다.",
+                ["ContentKR"] = "도안을 엄격하게 준수하여 제작한 블루 펄스 부품. 탄환이 쏘아져 나갈 때면, 전사의 심장은 그 총열처럼 뜨거워진다.",
                 ["TextMapId"] = "RESOURCE_DESC_12032",
             },
             ["RESOURCE_DESC_12033"] = {
@@ -22389,11 +22832,11 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_DESC_12097",
             },
             ["RESOURCE_DESC_12098"] = {
-                ["ContentKR"] = "정확히 도면대로 제작된 거룩한 노래 부품. 사용자의 편의성을 위해 실질적인 설계 목적을 갖고 만들어졌다.",
+                ["ContentKR"] = "정확히 도면대로 제작된 거룩한 노래 부품. 강철로 만들어 매우 단단하기 때문에 탄환이 부족할 때 둔기 또는 투척물로 사용할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_12098",
             },
             ["RESOURCE_DESC_12099"] = {
-                ["ContentKR"] = "정확히 도면대로 제작된 거룩한 노래 부품. 칼날의 휘어진 정도나 무게는 신경 쓰지 않고, 전투를 위한 서슬 퍼런 칼날을 만들었다.",
+                ["ContentKR"] = "정확히 도면대로 제작된 거룩한 노래 부품. 탄환이 쏘아져 나갈 때면, 전사의 심장은 그 총열처럼 뜨거워진다.",
                 ["TextMapId"] = "RESOURCE_DESC_12099",
             },
             ["RESOURCE_DESC_121"] = {
@@ -22476,6 +22919,10 @@ C구역 애니타\
                 ["ContentKR"] = "정확히 도면대로 제작된 시듦 부품. 사용자의 의도를 완벽하게 파악했지만, 오직 강한 자만 전장에서 이 유일무이한 능력을 사용할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_12118",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_DESC_12119", MaxKey = "RESOURCE_FUNCTION_10010", Loader = function()
+        return {
             ["RESOURCE_DESC_12119"] = {
                 ["ContentKR"] = "정확히 도면대로 제작된 박리 부품. 일단 방아쇠를 당기면, 마치 결심을 내린 그 순간처럼 탄환은 절대 뒤를 돌아보지 않는다.",
                 ["TextMapId"] = "RESOURCE_DESC_12119",
@@ -22489,11 +22936,11 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_DESC_12121",
             },
             ["RESOURCE_DESC_12122"] = {
-                ["ContentKR"] = "정확히 도면대로 제작된 종양 부품. 사용자의 편의성을 위해 실질적인 설계 목적을 갖고 만들어졌다.",
+                ["ContentKR"] = "정확히 도면대로 제작된 종양 부품. 강철로 만들어 매우 단단하기 때문에 탄환이 부족할 때 둔기 또는 투척물로 사용할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_12122",
             },
             ["RESOURCE_DESC_12123"] = {
-                ["ContentKR"] = "정확히 도면대로 제작된 종양 부품. 칼날의 휘어진 정도나 무게는 신경 쓰지 않고, 전투를 위한 서슬 퍼런 칼날을 만들었다.",
+                ["ContentKR"] = "정확히 도면대로 제작된 종양 부품. 탄환이 쏘아져 나갈 때면, 전사의 심장은 그 총열처럼 뜨거워진다.",
                 ["TextMapId"] = "RESOURCE_DESC_12123",
             },
             ["RESOURCE_DESC_12124"] = {
@@ -22851,7 +23298,7 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_DESC_213",
             },
             ["RESOURCE_DESC_214"] = {
-                ["ContentKR"] = "오페라 티켓의 스텁으로, 이것을 가지고 있으면 기념품 상점에서 물건을 교환할 수 있다.",
+                ["ContentKR"] = "오페라 티켓의 스텁으로, 이것으로 [이벤트]-[몰입형 연극]-[관극 기념 상점]에서 다양한 보상을 교환할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_214",
             },
             ["RESOURCE_DESC_215"] = {
@@ -22859,15 +23306,15 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_DESC_215",
             },
             ["RESOURCE_DESC_29001"] = {
-                ["ContentKR"] = "연옥도 곳곳에서 수집한 상징, 일정 수량을 수집하여 아이스레이크 시티 광장의 탐험가 루나에게 제출하면 용기, 지혜와 인내심의 증명으로 다양한 보수를 교환할 수 있다.",
+                ["ContentKR"] = "연옥도 곳곳에서 수집한 탐험의 증표, 일정 수량을 수집하여 아이스레이크 시티 광장의 탐험가 루나에게 제출하면 용기, 지혜와 인내심의 증명으로 다양한 보수를 교환할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_29001",
             },
             ["RESOURCE_DESC_29002"] = {
-                ["ContentKR"] = "아이스레이크 시티 곳곳에서 수집한 상징, 일정 수량을 수집하여 아이스레이크 시티 광장의 탐험가 루나에게 제출하면 용기, 지혜와 인내심의 증명으로 다양한 보수를 교환할 수 있다.",
+                ["ContentKR"] = "아이스레이크 시티 곳곳에서 수집한 탐험의 증표, 일정 수량을 수집하여 아이스레이크 시티 광장의 탐험가 루나에게 제출하면 용기, 지혜와 인내심의 증명으로 다양한 보수를 교환할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_29002",
             },
             ["RESOURCE_DESC_29003"] = {
-                ["ContentKR"] = "론샤 요새 곳곳에서 수집한 상징, 일정 수량을 수집하여 아이스레이크 시티 광장의 탐험가 루나에게 제출하면 용기, 지혜와 인내심의 증명으로 다양한 보수를 교환할 수 있다.",
+                ["ContentKR"] = "론샤 요새 곳곳에서 수집한 탐험의 증표, 일정 수량을 수집하여 아이스레이크 시티 광장의 탐험가 루나에게 제출하면 용기, 지혜와 인내심의 증명으로 다양한 보수를 교환할 수 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_29003",
             },
             ["RESOURCE_DESC_3000001"] = {
@@ -22914,10 +23361,6 @@ C구역 애니타\
                 ["ContentKR"] = "정교하게 만들어진 열쇠. 이유는 모르겠지만 익숙하다. 하지만 도통 어떤 열쇠인지 모르겠다. 어쩌면 오랜 시간 잠들어 있던 무언가를 찾아낼 기회가 올지도 모른다.",
                 ["TextMapId"] = "RESOURCE_DESC_3000011",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_DESC_30001", MaxKey = "RESOURCE_NAME_1003102", Loader = function()
-        return {
             ["RESOURCE_DESC_30001"] = {
                 ["ContentKR"] = "페이즈 시프트 모듈 제작에 사용되는 재료. 젤리 형태이다. 섞인 성분이 없고, 물에 잘 녹으며 고온에서는 사용할 수 없어 보관이 비교적 까다롭다. 그럼에도 지니고 다닐 가치가 있는 기능이 있다.",
                 ["TextMapId"] = "RESOURCE_DESC_30001",
@@ -22932,12 +23375,12 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_DESC_3001",
             },
             ["RESOURCE_DESC_3002"] = {
-                ["ContentKR"] = "마령이 좋아하는 음식. 마령 포획에 사용할 수 있다.\
+                ["ContentKR"] = "마령이 좋아하는 음식. 마령에게 먹이를 줄 때 사용할 수 있다.\
 마령이 말할 수 있다면, 분명 이 음식의 이름처럼 이렇게 외칠 거다. \"냠냠, 맛있어!\"",
                 ["TextMapId"] = "RESOURCE_DESC_3002",
             },
             ["RESOURCE_DESC_3003"] = {
-                ["ContentKR"] = "마령이 가장 좋아하는 음식. 마령 포획에 사용할 수 있다.\
+                ["ContentKR"] = "마령이 가장 좋아하는 음식. 마령에게 먹이를 줄 때 사용할 수 있다.\
 마령이 말할 수 있다면, 분명 이 음식의 이름처럼 이렇게 외칠 거다. \"냠냠냠, 맛있어!\"",
                 ["TextMapId"] = "RESOURCE_DESC_3003",
             },
@@ -23014,7 +23457,7 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_DESC_30111",
             },
             ["RESOURCE_DESC_3012"] = {
-                ["ContentKR"] = "아이스레이크 시티에서 캐릭터의 지혜 인상 속성을 향상하는 데 사용한다.",
+                ["ContentKR"] = "아이스레이크 시티에서 캐릭터의 재치 인상 속성을 향상하는 데 사용한다.",
                 ["TextMapId"] = "RESOURCE_DESC_3012",
             },
             ["RESOURCE_DESC_3013"] = {
@@ -23274,11 +23717,11 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_DESC_5210200",
             },
             ["RESOURCE_DESC_5210300"] = {
-                ["ContentKR"] = "특별한 미끼. 특이종 물고기를 낚을 확률이 증가한다. 특이종 물고기에겐 금속 미끼가 특별해 보이나 보다.",
+                ["ContentKR"] = "특별한 미끼. 변이 어류를 낚을 확률이 증가한다. 특이종 물고기에겐 금속 미끼가 특별해 보이나 보다.",
                 ["TextMapId"] = "RESOURCE_DESC_5210300",
             },
             ["RESOURCE_DESC_5210400"] = {
-                ["ContentKR"] = "특별한 미끼. 특이종 물고기를 낚을 확률이 증가한다. 평범해 보이지만 철저히 계산된 설계다. 한입 먹어보면 아무리 입이 까다로운 물고기라도 이 미끼를 끝까지 먹으려 할 거다.",
+                ["ContentKR"] = "특별한 미끼. 희귀 어류를 낚을 확률이 증가한다. 평범해 보이지만 철저히 계산된 설계다. 한입 먹어보면 아무리 입이 까다로운 물고기라도 이 미끼를 끝까지 먹으려 할 거다.",
                 ["TextMapId"] = "RESOURCE_DESC_5210400",
             },
             ["RESOURCE_DESC_6000001"] = {
@@ -23308,6 +23751,10 @@ C구역 애니타\
                 ["ContentKR"] = "적 드롭 재료",
                 ["TextMapId"] = "RESOURCE_FUNCTION_10010",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_FUNCTION_10011", MaxKey = "RESOURCE_NAME_12012", Loader = function()
+        return {
             ["RESOURCE_FUNCTION_10011"] = {
                 ["ContentKR"] = "교회 지역 채집 재료",
                 ["TextMapId"] = "RESOURCE_FUNCTION_10011",
@@ -23529,7 +23976,7 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_FUNCTION_PETEXP",
             },
             ["RESOURCE_FUNCTION_PETFOOD"] = {
-                ["ContentKR"] = "마령 포획에 사용 가능",
+                ["ContentKR"] = "마령에게 먹이를 줄 때 사용할 수 있다",
                 ["TextMapId"] = "RESOURCE_FUNCTION_PETFOOD",
             },
             ["RESOURCE_FUNCTION_PHANTOM"] = {
@@ -23637,6 +24084,10 @@ C구역 애니타\
                 ["ContentKR"] = "근원·환상",
                 ["TextMapId"] = "RESOURCE_NAME_1001103",
             },
+            ["RESOURCE_NAME_1001104"] = {
+                ["ContentKR"] = "근원·규선생",
+                ["TextMapId"] = "RESOURCE_NAME_1001104",
+            },
             ["RESOURCE_NAME_10012"] = {
                 ["ContentKR"] = "빙하의 눈물",
                 ["TextMapId"] = "RESOURCE_NAME_10012",
@@ -23733,10 +24184,6 @@ C구역 애니타\
                 ["ContentKR"] = "근원·힐다",
                 ["TextMapId"] = "RESOURCE_NAME_1003102",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_1003103", MaxKey = "RESOURCE_NAME_12119", Loader = function()
-        return {
             ["RESOURCE_NAME_1003103"] = {
                 ["ContentKR"] = "근원·예일과 올리버",
                 ["TextMapId"] = "RESOURCE_NAME_1003103",
@@ -23824,6 +24271,10 @@ C구역 애니타\
             ["RESOURCE_NAME_1011103"] = {
                 ["ContentKR"] = "인장·환상",
                 ["TextMapId"] = "RESOURCE_NAME_1011103",
+            },
+            ["RESOURCE_NAME_1011104"] = {
+                ["ContentKR"] = "인장·규선생",
+                ["TextMapId"] = "RESOURCE_NAME_1011104",
             },
             ["RESOURCE_NAME_1011501"] = {
                 ["ContentKR"] = "인장·분노",
@@ -23938,7 +24389,7 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_NAME_10205",
             },
             ["RESOURCE_NAME_10206"] = {
-                ["ContentKR"] = "한 줄기 약초",
+                ["ContentKR"] = "허브의 어린 잎",
                 ["TextMapId"] = "RESOURCE_NAME_10206",
             },
             ["RESOURCE_NAME_10207"] = {
@@ -23950,15 +24401,15 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_NAME_10208",
             },
             ["RESOURCE_NAME_10209"] = {
-                ["ContentKR"] = "화살촉",
+                ["ContentKR"] = "반짝이는 화살촉",
                 ["TextMapId"] = "RESOURCE_NAME_10209",
             },
             ["RESOURCE_NAME_10210"] = {
-                ["ContentKR"] = "조준 장치",
+                ["ContentKR"] = "반짝이는 조준 장치",
                 ["TextMapId"] = "RESOURCE_NAME_10210",
             },
             ["RESOURCE_NAME_10211"] = {
-                ["ContentKR"] = "유광 화살통",
+                ["ContentKR"] = "반짝이는 화살통",
                 ["TextMapId"] = "RESOURCE_NAME_10211",
             },
             ["RESOURCE_NAME_103"] = {
@@ -23966,7 +24417,7 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_NAME_103",
             },
             ["RESOURCE_NAME_104"] = {
-                ["ContentKR"] = "루나 코인",
+                ["ContentKR"] = "악보 한 권",
                 ["TextMapId"] = "RESOURCE_NAME_104",
             },
             ["RESOURCE_NAME_105"] = {
@@ -24105,6 +24556,10 @@ C구역 애니타\
                 ["ContentKR"] = "방출하는 천둥 방아쇠",
                 ["TextMapId"] = "RESOURCE_NAME_12012",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_12013", MaxKey = "RESOURCE_NAME_211", Loader = function()
+        return {
             ["RESOURCE_NAME_12013"] = {
                 ["ContentKR"] = "방출하는 천둥 총신",
                 ["TextMapId"] = "RESOURCE_NAME_12013",
@@ -24178,11 +24633,11 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_NAME_12030",
             },
             ["RESOURCE_NAME_12031"] = {
-                ["ContentKR"] = "블루 펄스 손잡이",
+                ["ContentKR"] = "블루 펄스 총신",
                 ["TextMapId"] = "RESOURCE_NAME_12031",
             },
             ["RESOURCE_NAME_12032"] = {
-                ["ContentKR"] = "블루 펄스 칼날",
+                ["ContentKR"] = "블루 펄스 총열",
                 ["TextMapId"] = "RESOURCE_NAME_12032",
             },
             ["RESOURCE_NAME_12033"] = {
@@ -24190,11 +24645,11 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_NAME_12033",
             },
             ["RESOURCE_NAME_12034"] = {
-                ["ContentKR"] = "폭파의 예술 총신",
+                ["ContentKR"] = "폭파의 예술 총열",
                 ["TextMapId"] = "RESOURCE_NAME_12034",
             },
             ["RESOURCE_NAME_12035"] = {
-                ["ContentKR"] = "폭파의 예술 총열",
+                ["ContentKR"] = "폭파의 예술 총신",
                 ["TextMapId"] = "RESOURCE_NAME_12035",
             },
             ["RESOURCE_NAME_12036"] = {
@@ -24446,11 +24901,11 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_NAME_12097",
             },
             ["RESOURCE_NAME_12098"] = {
-                ["ContentKR"] = "거룩한 노래 손잡이",
+                ["ContentKR"] = "거룩한 노래 총신",
                 ["TextMapId"] = "RESOURCE_NAME_12098",
             },
             ["RESOURCE_NAME_12099"] = {
-                ["ContentKR"] = "거룩한 노래 칼날",
+                ["ContentKR"] = "거룩한 노래 총열",
                 ["TextMapId"] = "RESOURCE_NAME_12099",
             },
             ["RESOURCE_NAME_121"] = {
@@ -24537,10 +24992,6 @@ C구역 애니타\
                 ["ContentKR"] = "박리 방아쇠",
                 ["TextMapId"] = "RESOURCE_NAME_12119",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_12120", MaxKey = "RESOURCE_NAME_5021041", Loader = function()
-        return {
             ["RESOURCE_NAME_12120"] = {
                 ["ContentKR"] = "박리 총신",
                 ["TextMapId"] = "RESOURCE_NAME_12120",
@@ -24550,11 +25001,11 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_NAME_12121",
             },
             ["RESOURCE_NAME_12122"] = {
-                ["ContentKR"] = "종양 손잡이",
+                ["ContentKR"] = "종양 총신",
                 ["TextMapId"] = "RESOURCE_NAME_12122",
             },
             ["RESOURCE_NAME_12123"] = {
-                ["ContentKR"] = "종양 칼날",
+                ["ContentKR"] = "종양 총열",
                 ["TextMapId"] = "RESOURCE_NAME_12123",
             },
             ["RESOURCE_NAME_12124"] = {
@@ -24909,6 +25360,10 @@ C구역 애니타\
                 ["ContentKR"] = "의뢰 편지 단서·준수",
                 ["TextMapId"] = "RESOURCE_NAME_211",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_NAME_212", MaxKey = "RESOURCE_TEXT_102", Loader = function()
+        return {
             ["RESOURCE_NAME_212"] = {
                 ["ContentKR"] = "의뢰 편지 단서·중립",
                 ["TextMapId"] = "RESOURCE_NAME_212",
@@ -25070,7 +25525,7 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_NAME_30111",
             },
             ["RESOURCE_NAME_3012"] = {
-                ["ContentKR"] = "지혜 인상·아이스레이크 시티",
+                ["ContentKR"] = "재치 인상·아이스레이크 시티",
                 ["TextMapId"] = "RESOURCE_NAME_3012",
             },
             ["RESOURCE_NAME_3013"] = {
@@ -25341,10 +25796,6 @@ C구역 애니타\
                 ["ContentKR"] = "보글보글밥·특이종",
                 ["TextMapId"] = "RESOURCE_NAME_5021041",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_NAME_5021050", MaxKey = "RESOURCE_TEXT_4010009", Loader = function()
-        return {
             ["RESOURCE_NAME_5021050"] = {
                 ["ContentKR"] = "이파리 은상어",
                 ["TextMapId"] = "RESOURCE_NAME_5021050",
@@ -25767,6 +26218,37 @@ C구역 애니타\
 ——스노우 '마왕님'",
                 ["TextMapId"] = "RESOURCE_TEXT_101",
             },
+            ["RESOURCE_TEXT_10100"] = {
+                ["ContentKR"] = "\"앞길이 불확실하더라도, 부디 굳건히 나아가세요.\"\
+\
+——안개의 바다의 인도자 나이플 부인",
+                ["TextMapId"] = "RESOURCE_TEXT_10100",
+            },
+            ["RESOURCE_TEXT_10101"] = {
+                ["ContentKR"] = "\"어느 날 문득, 나는 눈물이 메말라 버린 나를 발견했다. 전장의 매캐한 연기가 내 눈을 망가뜨린 건지, 아니면 내가 마침내 나약했던 과거의 나와 작별을 고한 것인지는 알 수 없었다.\"\
+\
+——어느 휘페르보레아 제국 병사가 남긴 메모",
+                ["TextMapId"] = "RESOURCE_TEXT_10101",
+            },
+            ["RESOURCE_TEXT_10102"] = {
+                ["ContentKR"] = "\"머리 위 낡은 등불 갱도를 밝히고, 어깨 위 쇠삽 메고 월석을 찾네.\
+오늘 곡괭이 한 번 더 휘두르면, 평생 부자로 행복하게 살 수 있다네.\"\
+\
+——아이스레이크 시티 광부 민요",
+                ["TextMapId"] = "RESOURCE_TEXT_10102",
+            },
+            ["RESOURCE_TEXT_10103"] = {
+                ["ContentKR"] = "\"시간은 말이 없어요. 그저 묵묵히 새로 태어난 새벽을 이별의 긴 밤으로, 길고 모진 겨울을 꽃 피는 계절로 밀어낼 뿐이죠.\"\
+\
+——안개의 바다의 인도자 나이플 부인",
+                ["TextMapId"] = "RESOURCE_TEXT_10103",
+            },
+            ["RESOURCE_TEXT_10104"] = {
+                ["ContentKR"] = "\"그래, 그렇소. 다들 자신이 추구하는 정의가 있고, 그 정의는 언제나 늦기 마련이지. 그렇다면, 오늘 이곳의 정의는 내가 손에 쥐고 있는 이 검으로 결정짓겠소이다. 별문제 없으리라 믿소이다.\"\
+\
+——화서의 검객 각주",
+                ["TextMapId"] = "RESOURCE_TEXT_10104",
+            },
             ["RESOURCE_TEXT_1011101"] = {
                 ["ContentKR"] = "\"우리는 서로를 포용하기도 하고 서로를 죽이기도 했으며, 때로는 신을 부르짖고 때로는 자비를 갈망하는 등 이천 년이 넘는 세월을 함께 해왔다. 역사는 지평선 위에서 뜨고 지는 걸 반복하는 해와 달과 같이 어제도, 내일도 반복될 것이다. 역사라는 이 책에 기록할 수 있는 세월 앞에서 나는 그저 하찮은 관측자에 불과하다. 나는 휘페르보레아 제국의 눈 한 송이이며, 이스엘의 한 조각 나뭇잎이며, 루카의 한 방울 물이며, 케메트의 한 줌의 모래이다. 하지만 이 거대한 세계에서 나는 여전히 한 알의 눈이 모여 설원을 이루고, 한 조각의 잎이 모여 수해를 이루고, 한 방울의 물이 모여 강을 이루고, 한 줌의 모래가 모여 사막을 이루기를 바란다. 이 모든 것이 연결될 때, 역사는 비로소 우리가 원하는 대로 그 방향을 바꾸게 될 것이다.\" \
 \
@@ -25780,6 +26262,10 @@ C구역 애니타\
 ——아스카드 협만에서 출토된 석판",
                 ["TextMapId"] = "RESOURCE_TEXT_102",
             },
+        }
+    end },
+    { MinKey = "RESOURCE_TEXT_103", MaxKey = "RLBlessingGroup_Desc_101", Loader = function()
+        return {
             ["RESOURCE_TEXT_103"] = {
                 ["ContentKR"] = "\"눈앞의 일에 전념하는 것은 사람을 감복하게 하지만, 모든 일엔 정도가 있는 법. 과도한 근심으로 몸이 상하면 득보다 실이 커지죠.\" \
 \
@@ -26290,6 +26776,39 @@ C구역 애니타\
 ——토큰을 쥔 채 놓지 않는 낚시 고수가",
                 ["TextMapId"] = "RESOURCE_TEXT_210",
             },
+            ["RESOURCE_TEXT_211"] = {
+                ["ContentKR"] = "\"흙 속에 숨겨진 황금은 두 손으로 파내야 하고,\
+물속에 잠긴 보석은 두 눈으로 가려내야 하듯,\
+월석 사냥꾼 역시 예외는 아니니,\
+그들의 보물은 말과 책장 속 글자 사이에 담겨 있다네.\"\
+\
+——음유시인 퍼시 발레드, 《월석 사냥꾼의 노래》",
+                ["TextMapId"] = "RESOURCE_TEXT_211",
+            },
+            ["RESOURCE_TEXT_212"] = {
+                ["ContentKR"] = "\"흙 속에 숨겨진 황금은 두 손으로 파내야 하고,\
+물속에 잠긴 보석은 두 눈으로 가려내야 하듯,\
+월석 사냥꾼 역시 예외는 아니니,\
+그들의 보물은 말과 책장 속 글자 사이에 담겨 있다네.\"\
+\
+——음유시인 퍼시 발레드, 《월석 사냥꾼의 노래》",
+                ["TextMapId"] = "RESOURCE_TEXT_212",
+            },
+            ["RESOURCE_TEXT_213"] = {
+                ["ContentKR"] = "\"흙 속에 숨겨진 황금은 두 손으로 파내야 하고,\
+물속에 잠긴 보석은 두 눈으로 가려내야 하듯,\
+월석 사냥꾼 역시 예외는 아니니,\
+그들의 보물은 말과 책장 속 글자 사이에 담겨 있다네.\"\
+\
+——음유시인 퍼시 발레드, 《월석 사냥꾼의 노래》",
+                ["TextMapId"] = "RESOURCE_TEXT_213",
+            },
+            ["RESOURCE_TEXT_215"] = {
+                ["ContentKR"] = "\"나는 이 세상 사람들에게 개인의 천부적인 재능 또한 연금술사의 손에서 인위적으로 재창조될 수 있음을 증명해 보일 겁니다.\"\
+\
+——수석 연금술사 플라멜",
+                ["TextMapId"] = "RESOURCE_TEXT_215",
+            },
             ["RESOURCE_TEXT_29001"] = {
                 ["ContentKR"] = "신들의 시선이 더 이상 닿지 않는 곳, 제국의 철권통치가 한 번도 뻗지 못한 외딴섬이다. 새 떼는 기울어진 수많은 기둥을 맴돌며, 마치 세월의 물결과 이끼에 삼켜진 듯한 폐허를 내려다본다.\
 탐험하고, 보고, 듣고, 기억과 비밀을 간직한 연옥도를 파헤쳐라!",
@@ -26491,10 +27010,6 @@ C구역 애니타\
 — 서명하지 않은, 연금술사가 비밀 다과회에서 나눈 잡담. 《밤의 향기 모임》에 수록됨",
                 ["TextMapId"] = "RESOURCE_TEXT_4010009",
             },
-        }
-    end },
-    { MinKey = "RESOURCE_TEXT_4010010", MaxKey = "RLBlessing_Desc_514", Loader = function()
-        return {
             ["RESOURCE_TEXT_4010010"] = {
                 ["ContentKR"] = "“이름 없는 꽃, 사람들에게 사랑받지 못하는 품종... 어쩌면 한때 누군가가 좋아했을지도 모르지만, 곧 잊혀질 거다. 이는 신을 경외하지 않는 오만한 자의 벌이라고 한다. 사람에서 꽃으로 변하고, 이름을 빼앗기고, 사랑을 빼앗기고, 칭송받을 만한 모든 것을 빼앗기고, 모든 미래의 가능성을 빼앗긴다... 하지만 그게 뭐가 중요할까? 그것은 여전히 피어나고, 어디서나 피어난다. 꽃은 말을 하지 않지만, 신도 그것의 입을 완전히 막지는 못한 것 같다.”\
 \
@@ -26656,7 +27171,8 @@ C구역 애니타\
 상어의 가죽으로 손바닥을 갈고, 곤오의 철을 두드려 강철로 만들었네.\
 신의 사랑에 보답하겠다 맹세했으니, 내 필히 네놈의 머리를 백룡에게 바치겠노라!\
 \
-——화서 서적 《응천록》 중에서",
+——화서 서적 《응천록》 중에서\
+",
                 ["TextMapId"] = "RESOURCE_TEXT_5022010",
             },
             ["RESOURCE_TEXT_5022020"] = {
@@ -26823,9 +27339,9 @@ C구역 애니타\
                 ["TextMapId"] = "RESOURCE_TEXT_5210200",
             },
             ["RESOURCE_TEXT_5210300"] = {
-                ["ContentKR"] = "특이종은 물고기 중에서 특별한 놈들로, 뭘 좋아하는지 알 수가 없다. 기억력이 정말 3초인지 의심이 갈 정도인데, 그게 아니라면 금속판에 집착하는 게 설명이 안 된다.\
+                ["ContentKR"] = "변이 어류는 물고기 중에서 특별한 놈들로, 뭘 좋아하는지 알 수가 없다. 기억력이 정말 3초인지 의심이 갈 정도인데, 그게 아니라면 금속판에 집착하는 게 설명이 안 된다.\
 \
-——특이종 어류에게 사랑받는 낚시 고수가",
+——변이 어류에게 사랑받는 낚시 고수가",
                 ["TextMapId"] = "RESOURCE_TEXT_5210300",
             },
             ["RESOURCE_TEXT_5210400"] = {
@@ -26991,6 +27507,10 @@ C구역 애니타\
                 ["ContentKR"] = "근접 무기로 대미지를 입힐 시 <Highlight>10%</>확률로 1단계의 <Highlight>[염화]</>을 부여하고, 대상이 받는 대미지가 <Highlight>2.5%</> 상승한다. 지속 시간 <Highlight>5</>초, 최대 <Highlight>10</>단계 중첩.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_101",
             },
+        }
+    end },
+    { MinKey = "RLBlessingGroup_Desc_102", MaxKey = "RLBlessing_Name_407", Loader = function()
+        return {
             ["RLBlessingGroup_Desc_102"] = {
                 ["ContentKR"] = "<Highlight>[염화]</> <Highlight>1</>초마다 대상에게 캐릭터 공격의 <Highlight>15%</>의 지속 대미지를 입힌다.",
                 ["TextMapId"] = "RLBlessingGroup_Desc_102",
@@ -27171,11 +27691,11 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "RLBlessing_ActivateGroup",
             },
             ["RLBlessing_Desc_101"] = {
-                ["ContentKR"] = "근접 무기 <Highlight>공격</> <Highlight>#1</> 상승.",
+                ["ContentKR"] = "근접 무기 공격 <Highlight>#1</> 상승.",
                 ["TextMapId"] = "RLBlessing_Desc_101",
             },
             ["RLBlessing_Desc_102"] = {
-                ["ContentKR"] = "근접 무기 <Highlight>발동 확률</> <Highlight>#1</> 상승.",
+                ["ContentKR"] = "근접 무기 발동 확률 <Highlight>#1</> 상승.",
                 ["TextMapId"] = "RLBlessing_Desc_102",
             },
             ["RLBlessing_Desc_103"] = {
@@ -27467,10 +27987,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "자신이 <Highlight>[비늘 가루]</>의 범위 내에 있으면. 크리티컬 확률이 <Highlight>$1</> 상승한다.",
                 ["TextMapId"] = "RLBlessing_Desc_514",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_Desc_515", MaxKey = "RLBlessing_SimpleDesc_503", Loader = function()
-        return {
             ["RLBlessing_Desc_515"] = {
                 ["ContentKR"] = "회피 시 공격이 <Highlight>$1</> 상승한다. 지속 시간 <Highlight>$2</>초.",
                 ["TextMapId"] = "RLBlessing_Desc_515",
@@ -27742,7 +28258,7 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "RLBlessing_Name_305",
             },
             ["RLBlessing_Name_306"] = {
-                ["ContentKR"] = "석중유광",
+                ["ContentKR"] = "석중 광채",
                 ["TextMapId"] = "RLBlessing_Name_306",
             },
             ["RLBlessing_Name_307"] = {
@@ -27809,6 +28325,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "생명의 선동",
                 ["TextMapId"] = "RLBlessing_Name_407",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_Name_408", MaxKey = "RLBlessing_UnlockCon_403", Loader = function()
+        return {
             ["RLBlessing_Name_408"] = {
                 ["ContentKR"] = "생명의 본능",
                 ["TextMapId"] = "RLBlessing_Name_408",
@@ -28026,7 +28546,7 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "RLBlessing_Name_unknown",
             },
             ["RLBlessing_SimpleDesc_101"] = {
-                ["ContentKR"] = "근접 무기 <Highlight>공격</> 상승.",
+                ["ContentKR"] = "근접 무기 공격 상승.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_101",
             },
             ["RLBlessing_SimpleDesc_102"] = {
@@ -28278,10 +28798,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "회피 후 일정 시간 내, 대미지를 입을 때 경직되지 않는다.",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_503",
             },
-        }
-    end },
-    { MinKey = "RLBlessing_SimpleDesc_504", MaxKey = "RLTalent_Name_203", Loader = function()
-        return {
             ["RLBlessing_SimpleDesc_504"] = {
                 ["ContentKR"] = "최대 정신력 상승",
                 ["TextMapId"] = "RLBlessing_SimpleDesc_504",
@@ -28614,6 +29130,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "심지 미해제",
                 ["TextMapId"] = "RLBlessing_UnlockCon_403",
             },
+        }
+    end },
+    { MinKey = "RLBlessing_UnlockCon_404", MaxKey = "RLTreasure_IPDesc_10103", Loader = function()
+        return {
             ["RLBlessing_UnlockCon_404"] = {
                 ["ContentKR"] = "심지 미해제",
                 ["TextMapId"] = "RLBlessing_UnlockCon_404",
@@ -29082,10 +29602,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "실드 상승",
                 ["TextMapId"] = "RLTalent_Name_203",
             },
-        }
-    end },
-    { MinKey = "RLTalent_Name_204", MaxKey = "RLTreasure_SimpleDesc_10110", Loader = function()
-        return {
             ["RLTalent_Name_204"] = {
                 ["ContentKR"] = "최대 정신력 상승",
                 ["TextMapId"] = "RLTalent_Name_204",
@@ -29421,6 +29937,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "그녀는 가장 독실한 신자로, 언행마다 신의 가르침을 삼가 받들어, 설령 다른 사람의 눈길이 미치지 못하는 곳에서도 법도를 넘지 않습니다. 어려운 사람을 만나면, 도움의 손길을 내밀고, 가난한 사람을 만나면, 아낌없이 주머니를 털어줍니다. 반대 의견을 가진 사람들을 대할 때, 그녀는 관대한 마음으로 상대방에게 구신의 은덕을 기르라고 충고합니다.",
                 ["TextMapId"] = "RLTreasure_IPDesc_10103",
             },
+        }
+    end },
+    { MinKey = "RLTreasure_IPDesc_10104", MaxKey = "RL_Event302_Select_1", Loader = function()
+        return {
             ["RLTreasure_IPDesc_10104"] = {
                 ["ContentKR"] = "“만약 신이 당신이 상상하는 것만큼 완벽하지 않다면, 당신이 한 일은 여전히 의미가 있습니까?” 상대방이 그녀에게 질문했습니다.\
 “당연히 의미가 있습니다”, 그녀는 기꺼이 미소 지었습니다. “신앙은 요구하는 것이 아니라 자신을 위한 것입니다. 내가 한 짓이 양심에 거리낌이 없다면, 신이 진짜인지 가짜인지, 좋은지 나쁜지 무슨 상관이 있겠습니까?”",
@@ -29916,10 +30436,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "근접 무기 대미지 상승, 스킬 대미지 감소.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10110",
             },
-        }
-    end },
-    { MinKey = "RLTreasure_SimpleDesc_10111", MaxKey = "RougeLike_Room_B_Fail", Loader = function()
-        return {
             ["RLTreasure_SimpleDesc_10111"] = {
                 ["ContentKR"] = "근접 무기 대미지 상승, 원거리 무기 대미지 감소.",
                 ["TextMapId"] = "RLTreasure_SimpleDesc_10111",
@@ -30252,6 +30768,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "<Highlight>화롯불</> [심지] 1개 선택.",
                 ["TextMapId"] = "RL_Event302_Select_1",
             },
+        }
+    end },
+    { MinKey = "RL_Event302_Select_2", MaxKey = "SKILL_150204_DESC", Loader = function()
+        return {
             ["RL_Event302_Select_2"] = {
                 ["ContentKR"] = "<Highlight>부유하는 달</> [심지] 1개 선택.",
                 ["TextMapId"] = "RL_Event302_Select_2",
@@ -30617,6 +31137,10 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "아득한 그림자",
                 ["TextMapId"] = "RougeLike_RoomName_203",
             },
+            ["RougeLike_RoomName_301"] = {
+                ["ContentKR"] = "호수에 비친 그림자",
+                ["TextMapId"] = "RougeLike_RoomName_301",
+            },
             ["RougeLike_RoomName_302"] = {
                 ["ContentKR"] = "금석하석·중 하나",
                 ["TextMapId"] = "RougeLike_RoomName_302",
@@ -30737,10 +31261,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "그림자에 삼켜짐",
                 ["TextMapId"] = "RougeLike_Room_B_Fail",
             },
-        }
-    end },
-    { MinKey = "RougeLike_Room_B_Success", MaxKey = "SKILL_330104_NAME", Loader = function()
-        return {
             ["RougeLike_Room_B_Success"] = {
                 ["ContentKR"] = "모든 그림자 사라짐",
                 ["TextMapId"] = "RougeLike_Room_B_Success",
@@ -31078,12 +31598,16 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "[일식]은 빛 속성 추가 효과를 발동하고, [달 사냥]은 어둠 속성 추가 효과를 발동한다.",
                 ["TextMapId"] = "SKILL_150204_DESC",
             },
+        }
+    end },
+    { MinKey = "SKILL_150204_NAME", MaxKey = "SKILL_540103_NAME", Loader = function()
+        return {
             ["SKILL_150204_NAME"] = {
                 ["ContentKR"] = "황혼",
                 ["TextMapId"] = "SKILL_150204_NAME",
             },
             ["SKILL_150301_DESC"] = {
-                ["ContentKR"] = "주위 범위 내의 적에게 3회 빛 속성 대미지를 입히고, 자신은 원거리 무기 공격 속도 상승 효과를 획득하며, [차상] 상태에서, 해당 효과는 근접 무기 공격 속도 상승으로 전환된다.",
+                ["ContentKR"] = "주위 범위 내의 적에게 3회 빛 속성 대미지를 입히고, 자신은 원거리 무기 공격 속도 상승 효과를 획득하며, [차상] 상태에서, 해당 효과는 근접 무기 공격 속도 상승으로 전환되며, 효과가 지속하는 동안 대미지를 받을 때 경직되지 않는다.",
                 ["TextMapId"] = "SKILL_150301_DESC",
             },
             ["SKILL_150301_NAME"] = {
@@ -31112,8 +31636,8 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "SKILL_150303_NAME",
             },
             ["SKILL_150304_DESC"] = {
-                ["ContentKR"] = "[차상] 상태에 진입 시, 이때 [검의치]를 기록하고, 일정 시간 내, 만약 자신의 [검의치]가 기록치보다 낮을 때, [부생 다변화]의 [검의치] 수익 계산 시 강제로 기록치에 따라 계산한다.\
-[차상]에서 상태에서 나갈 때, 이때 [현의치]를 기록하고, 일정 시간 내, 만약 자신의 [현의치]가 기록치보다 낮을 때, [부생 다변화]의 [현의치] 수익 계산 시 강제로 기록치에 따라 계산한다.",
+                ["ContentKR"] = "[차상] 상태에 진입 시, 이때 [검의치]를 기록하고, 일정 시간 내, 만약 자신의 [검의치]가 기록치보다 낮을 때, [부생 다변화]의 [검의치] 수익 계산 시 강제로 기록치에 따라 계산한다. [차상] 상태에 나갈 때 해당 효과가 사라진다.\
+[차상]에서 상태에서 나갈 때, 이때 [현의치]를 기록하고, 일정 시간 내, 만약 자신의 [현의치]가 기록치보다 낮을 때, [부생 다변화]의 [현의치] 수익 계산 시 강제로 기록치에 따라 계산한다. [차상] 상태에 진입 시 해당 효과가 사라진다.",
                 ["TextMapId"] = "SKILL_150304_DESC",
             },
             ["SKILL_150304_NAME"] = {
@@ -31195,11 +31719,11 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "SKILL_20302_DESC",
             },
             ["SKILL_20303_DESC"] = {
-                ["ContentKR"] = "해당 무기로 전환 후, 공격력이 상승한다. 최대 <H>#1</> 상승하며, 시간이 지날수록 상승 효과가 감소한다. 다른 무기로 전환 시 효과가 사라진다.",
+                ["ContentKR"] = "해당 무기로 전환 후, 공격력이 상승한다. 최대 <H>#1</> 상승하며, 시간이 지날수록 상승 효과가 감소한다. 효과가 10초당 최대 1회 발동하며, 다른 무기로 전환 시 사라진다.",
                 ["TextMapId"] = "SKILL_20303_DESC",
             },
             ["SKILL_20304_DESC"] = {
-                ["ContentKR"] = "크리티컬 대미지 +<H>#1</>. 탄환이 적이나 환경에 명중하면 2개의 탄환으로 분열되어 계속 전진한다. 이 무기로 전환 후, 다중 사격 상승 효과를 획득한다. 최대 <H>#2</> 상승. 상승 효과는 시간 경과에 따라 점차 감소된다. 다른 무기로 전환 시 효과가 사라진다.",
+                ["ContentKR"] = "크리티컬 대미지 +<H>#1</>. 탄환이 적이나 환경에 명중하면 2개의 탄환으로 분열되어 계속 전진한다. 이 무기로 전환 후, 다중 사격 상승 효과를 획득한다. 최대 <H>#2</> 상승. 상승 효과는 시간 경과에 따라 점차 감소된다. 효과가 10초당 최대 1회 발동하며, 다른 무기로 전환 시 효과가 사라진다.",
                 ["TextMapId"] = "SKILL_20304_DESC",
             },
             ["SKILL_20305_DESC"] = {
@@ -31436,7 +31960,7 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "SKILL_310104_NAME",
             },
             ["SKILL_310201_DESC"] = {
-                ["ContentKR"] = "모든 [청소기]에게 자신의 주위를 계속 빙빙 돌며 [고온 정화 화염] 발사를 명령하고, 그동안 모든 [경량 청소기]의 지속 시간은 일시 정지된다. [고온 정화 화염]은 적중한 적에게 불 속성 대미지를 입힌다. 적 처치 시, 자신이 일정 확률로 정신력을 회복한다.",
+                ["ContentKR"] = "모든 [청소기]에게 자신의 주위를 계속 빙빙 돌며 [고온 정화 화염] 발사를 명령하고, 그동안 모든 [경량 청소기]의 지속 시간은 일시 정지된다. [고온 정화 화염]은 적중한 적에게 불 속성 대미지를 입힌다. [고온 정화 화염] 지속 동안 적 처치 시, 자신이 일정 확률로 정신력을 회복한다.",
                 ["TextMapId"] = "SKILL_310201_DESC",
             },
             ["SKILL_310201_NAME"] = {
@@ -31444,7 +31968,7 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "SKILL_310201_NAME",
             },
             ["SKILL_310202_DESC"] = {
-                ["ContentKR"] = "주위의 적에게 불 속성 대미지를 입힌다. 적 1명을 적중할 때마다 자신의 주위에 1개의 [경량 청소기]가 생성되며, 모든 [경량 청소기]의 지속 시간이 초기화된다. \
+                ["ContentKR"] = "주위의 적에게 불 속성 대미지를 입히고 무장 해제시킨다. 적 1명을 적중할 때마다 자신의 주위에 1개의 [경량 청소기]가 생성되며, 모든 [경량 청소기]의 지속 시간이 초기화된다. \
 자신이 2개의 [중형 청소기]를 휴대한다. [중형 청소기][경량 청소기]는 자동으로 주위 적을 조준하여 3초마다 1회 사격해 불 속성 대미지를 입힌다. \
 [경량 청소기]는 최대 6개까지 존재할 수 있다.",
                 ["TextMapId"] = "SKILL_310202_DESC",
@@ -31569,10 +32093,6 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["ContentKR"] = "마르제의 응원가",
                 ["TextMapId"] = "SKILL_330104_NAME",
             },
-        }
-    end },
-    { MinKey = "SKILL_410001_DESC", MaxKey = "SKILL_DESC_3301Skill01Radius", Loader = function()
-        return {
             ["SKILL_410001_DESC"] = {
                 ["ContentKR"] = "<H>[협력 동료로 등장할 때만 적용]</> 자신과 근처 번개 속성 팀원의 공격 상승.",
                 ["TextMapId"] = "SKILL_410001_DESC",
@@ -31649,7 +32169,7 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "SKILL_410203_NAME",
             },
             ["SKILL_410204_DESC"] = {
-                ["ContentKR"] = "자신과 다른 팀원이 번개 속성 대미지를 입힐 시, 자신은 1단계의 격양 상승 효과를 획득한다. 최대 10단계 중첩.",
+                ["ContentKR"] = "자신과 다른 팀원이 번개 속성 대미지를 입힐 시, 자신은 1단계의 격양 상승 효과를 획득한다. 최대 12단계 중첩.",
                 ["TextMapId"] = "SKILL_410204_DESC",
             },
             ["SKILL_410204_NAME"] = {
@@ -31759,7 +32279,7 @@ HP 비율이 <Highlight>40%</>보다 높으면, [흡혈 꽃]의 모든 자신의
                 ["TextMapId"] = "SKILL_430103_NAME",
             },
             ["SKILL_430104_DESC"] = {
-                ["ContentKR"] = "[소환물·혼돈의 번개 구]가 [천둥] 대미지를 받을 시 대미지 전달 비율이 #3 증가한다. 최대 4회 증가.",
+                ["ContentKR"] = "[신의 권력]과 [군단 징벌]로 대미지를 입힐 시 번개 속성 추가 효과 발동할 수 있으며, 발동 확률은 자신의 근접 무기의 발동 확률을 기반으로 한다.",
                 ["TextMapId"] = "SKILL_430104_DESC",
             },
             ["SKILL_430104_NAME"] = {
@@ -31884,7 +32404,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "SKILL_530103_NAME",
             },
             ["SKILL_530104_DESC"] = {
-                ["ContentKR"] = "[재탄생] 시전 시, 만약 자신의 HP 비율이 75% 이상일 때, [아침 이슬처럼]을 획득한다: 격양과 필사 계산 시, 자신의 HP 비율은 강제로 1%로 간주된다. 해당 효과는 90초마다 최대 1회 발동한다.",
+                ["ContentKR"] = "[재탄생] 시전 시, 만약 자신의 HP 비율이 75% 이상일 때, [아침 이슬처럼]을 획득한다: 격양과 필사 계산 시, 자신의 HP 비율은 강제로 1%로 간주된다. 해당 효과는 120초마다 최대 1회 발동한다.",
                 ["TextMapId"] = "SKILL_530104_DESC",
             },
             ["SKILL_530104_NAME"] = {
@@ -31917,6 +32437,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "아조트탄",
                 ["TextMapId"] = "SKILL_540103_NAME",
             },
+        }
+    end },
+    { MinKey = "SKILL_540104_DESC", MaxKey = "SKILL_DESC_5102Skill01Buff", Loader = function()
+        return {
             ["SKILL_540104_DESC"] = {
                 ["ContentKR"] = "[아조트탄] 보유 기간에, 원거리 무기로 대미지를 입힐 시 추가로 1회 대상의 [부패 레시피] 지속 대미지를 결산한다. 결산 배율은 자신의 원거리 무기 발동 확률을 기반으로 한다.",
                 ["TextMapId"] = "SKILL_540104_DESC",
@@ -32389,10 +32913,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "[마르제의 만능 보물 탐색 삽] 적 수색 반경",
                 ["TextMapId"] = "SKILL_DESC_3301Skill01Radius",
             },
-        }
-    end },
-    { MinKey = "SKILL_DESC_3301Skill02Damage", MaxKey = "SKILL_DESC_SlideAttackDemage", Loader = function()
-        return {
             ["SKILL_DESC_3301Skill02Damage"] = {
                 ["ContentKR"] = "폭발 대미지",
                 ["TextMapId"] = "SKILL_DESC_3301Skill02Damage",
@@ -32634,7 +33154,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "SKILL_DESC_4301Skill01DamageSp",
             },
             ["SKILL_DESC_4301Skill01Radius"] = {
-                ["ContentKR"] = "[천둥] 적 수색 반경",
+                ["ContentKR"] = "[신의 권력] 적 수색 반경",
                 ["TextMapId"] = "SKILL_DESC_4301Skill01Radius",
             },
             ["SKILL_DESC_4301Skill01RadiusSp"] = {
@@ -32721,6 +33241,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "[종적 감추기] 지속 시간",
                 ["TextMapId"] = "SKILL_DESC_5102Skill01Buff",
             },
+        }
+    end },
+    { MinKey = "SKILL_DESC_5102Skill02Buff", MaxKey = "StarterQuest_Des_102001_2_5", Loader = function()
+        return {
             ["SKILL_DESC_5102Skill02Buff"] = {
                 ["ContentKR"] = "[쟁취] 지속 시간",
                 ["TextMapId"] = "SKILL_DESC_5102Skill02Buff",
@@ -33193,10 +33717,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "슬라이드 공격 대미지",
                 ["TextMapId"] = "SKILL_DESC_SlideAttackDemage",
             },
-        }
-    end },
-    { MinKey = "SKILL_DESC_SlowSustain", MaxKey = "System_Des_Shop", Loader = function()
-        return {
             ["SKILL_DESC_SlowSustain"] = {
                 ["ContentKR"] = "이동 속도 감소 지속 시간",
                 ["TextMapId"] = "SKILL_DESC_SlowSustain",
@@ -33525,6 +34045,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "아이스레이크 시티 '달걀 루나의 인상 상점'에서 상품 1회 구매",
                 ["TextMapId"] = "StarterQuest_Des_102001_2_5",
             },
+        }
+    end },
+    { MinKey = "StarterQuest_Des_102001_3_1", MaxKey = "TERMEXP_1103_Combo", Loader = function()
+        return {
             ["StarterQuest_Des_102001_3_1"] = {
                 ["ContentKR"] = "메인 퀘스트 '생존의 길' 완료",
                 ["TextMapId"] = "StarterQuest_Des_102001_3_1",
@@ -33550,7 +34074,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "StarterQuest_Des_102001_4_1",
             },
             ["StarterQuest_Des_102001_4_2"] = {
-                ["ContentKR"] = "임의의 캐릭터 스킬 4레벨 누적 3개 달성",
+                ["ContentKR"] = "임의의 캐릭터 스킬 3레벨 누적 3개 달성",
                 ["TextMapId"] = "StarterQuest_Des_102001_4_2",
             },
             ["StarterQuest_Des_102001_4_3"] = {
@@ -33562,7 +34086,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "StarterQuest_Des_102001_4_5",
             },
             ["StarterQuest_Des_102001_4_6"] = {
-                ["ContentKR"] = "누적 3회 마령 성공 포획",
+                ["ContentKR"] = "누적 3마리 마령과 친구 되기 성공",
                 ["TextMapId"] = "StarterQuest_Des_102001_4_6",
             },
             ["StarterQuest_Des_102001_5_1"] = {
@@ -33586,7 +34110,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "StarterQuest_Des_102001_5_5",
             },
             ["StarterQuest_Des_102001_5_6"] = {
-                ["ContentKR"] = "누적 10회 마령 성공 포획",
+                ["ContentKR"] = "누적 10마리 마령과 친구 되기 성공",
                 ["TextMapId"] = "StarterQuest_Des_102001_5_6",
             },
             ["StarterQuest_Des_102001_6_1"] = {
@@ -33598,7 +34122,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "StarterQuest_Des_102001_6_2",
             },
             ["StarterQuest_Des_102001_6_3"] = {
-                ["ContentKR"] = "임의의 캐릭터 스킬 6레벨 누적 6개 달성",
+                ["ContentKR"] = "임의의 캐릭터 스킬 12레벨 누적 3개 달성",
                 ["TextMapId"] = "StarterQuest_Des_102001_6_3",
             },
             ["StarterQuest_Des_102001_6_4"] = {
@@ -33626,7 +34150,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "StarterQuest_Des_102001_7_4",
             },
             ["StarterQuest_Des_102001_7_5"] = {
-                ["ContentKR"] = "누적 20회 마령 성공 포획",
+                ["ContentKR"] = "누적 20마리 마령과 친구 되기 성공",
                 ["TextMapId"] = "StarterQuest_Des_102001_7_5",
             },
             ["StarterQuest_Des_102001_7_6"] = {
@@ -33782,7 +34306,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "SubType_3_Geography",
             },
             ["SubType_3_Life"] = {
-                ["ContentKR"] = "HP",
+                ["ContentKR"] = "생명",
                 ["TextMapId"] = "SubType_3_Life",
             },
             ["SubType_3_Phenomenon"] = {
@@ -33862,11 +34386,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "System_Des_Chat",
             },
             ["System_Des_DailyGoal"] = {
-                ["ContentKR"] = "<Highlight>비망 메모 </>해제. 각 목표를 완료하고, 착실하게 성장하세요",
+                ["ContentKR"] = "<Highlight>메모 노트</> 해제. 각 목표를 완료하고, 착실하게 성장하세요",
                 ["TextMapId"] = "System_Des_DailyGoal",
             },
             ["System_Des_DailyGoal_CBT3"] = {
-                ["ContentKR"] = "<Highlight>비망 메모 </> 해제",
+                ["ContentKR"] = "<Highlight>메모 노트</> 해제",
                 ["TextMapId"] = "System_Des_DailyGoal_CBT3",
             },
             ["System_Des_Dispatch"] = {
@@ -33954,11 +34478,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "System_Des_ModArchive_CBT3",
             },
             ["System_Des_ModDungeon"] = {
-                ["ContentKR"] = "<Highlight>밤의 항해 지침서</>가 해제되었습니다. 악마의 쐐기를 대량으로 얻을 수 있습니다.",
+                ["ContentKR"] = "<Highlight>녹토 보이저 지침서</>가 해제되었습니다. 악마의 쐐기를 대량으로 얻을 수 있습니다.",
                 ["TextMapId"] = "System_Des_ModDungeon",
             },
             ["System_Des_ModDungeon_CBT3"] = {
-                ["ContentKR"] = "<Highlight>밤의 항해 지침서</> 해제",
+                ["ContentKR"] = "<Highlight>녹토 보이저 지침서</> 해제",
                 ["TextMapId"] = "System_Des_ModDungeon_CBT3",
             },
             ["System_Des_Notice"] = {
@@ -33997,10 +34521,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "<Highlight>상점</> 해제. 필요한 물품을 구입하여 만일의 사태에 대비하세요.",
                 ["TextMapId"] = "System_Des_Shop",
             },
-        }
-    end },
-    { MinKey = "System_Des_Skill", MaxKey = "Tag_CRD", Loader = function()
-        return {
             ["System_Des_Skill"] = {
                 ["ContentKR"] = "<Highlight>스킬</> 해제. 캐릭터의 힘을 크게 향상시킬 수 있습니다.",
                 ["TextMapId"] = "System_Des_Skill",
@@ -34084,6 +34604,42 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["TARGET_DUNGEON_106"] = {
                 ["ContentKR"] = "가동하기",
                 ["TextMapId"] = "TARGET_DUNGEON_106",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle0"] = {
+                ["ContentKR"] = "시련 Ⅰ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle0",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle1"] = {
+                ["ContentKR"] = "시련 Ⅱ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle1",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle2"] = {
+                ["ContentKR"] = "시련 Ⅲ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle2",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle3"] = {
+                ["ContentKR"] = "시련 Ⅳ",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle3",
+            },
+            ["TARGET_DUNGEON_Abyss_Battle4"] = {
+                ["ContentKR"] = "최종 시련",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Battle4",
+            },
+            ["TARGET_DUNGEON_Abyss_Boss"] = {
+                ["ContentKR"] = "최종 시련으로 이동, 고위험 적을 처치하기",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Boss",
+            },
+            ["TARGET_DUNGEON_Abyss_Default"] = {
+                ["ContentKR"] = "공격해 오는 적을 처치하기",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Default",
+            },
+            ["TARGET_DUNGEON_Abyss_Interact"] = {
+                ["ContentKR"] = "장치를 해체해 시련 시작하기",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Interact",
+            },
+            ["TARGET_DUNGEON_Abyss_Switch"] = {
+                ["ContentKR"] = "다음 시련으로 이동",
+                ["TextMapId"] = "TARGET_DUNGEON_Abyss_Switch",
             },
             ["TARGET_DUNGEON_CAPTURE_100"] = {
                 ["ContentKR"] = "추격",
@@ -34294,6 +34850,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "일정량의 [몰입도] 획득, 효과는 0.1초당 최대 1회 발동.",
                 ["TextMapId"] = "TERMEXP_1103_Combo",
             },
+        }
+    end },
+    { MinKey = "TERMEXP_1103_Finish", MaxKey = "TextMap_AnswerName_200102", Loader = function()
+        return {
             ["TERMEXP_1103_Finish"] = {
                 ["ContentKR"] = "대상의 [아다지오] 중첩을 기반으로 대미지 배율이 증가하고, 대상의 모든 [아다지오]가 제거된다. 만약 대상이 10단계의 [아다지오]를 보유하고 있으면, 자신은 정신력 회복 및 일정량의 [몰입도]를 획득하고, 효과는 공격할 때마다 최대 1회 발동한다.",
                 ["TextMapId"] = "TERMEXP_1103_Finish",
@@ -34403,7 +34963,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             },
             ["TERMEXP_4102_Skill02_03"] = {
                 ["ContentKR"] = "자신이 2발의 [샘표·바람] 보유 시, [천지 연출]은 해당 스킬로 교체된다.\
-모든 [샘표] 제거. 자신은 스킬 대미지 상승 효과를 획득한다.",
+모든 [샘표] 제거. 주위 범위 내 적에게 번개 속성 대미지를 입히고 자신은 스킬 대미지 상승 효과를 획득한다.",
                 ["TextMapId"] = "TERMEXP_4102_Skill02_03",
             },
             ["TERMEXP_4201_BonusAttack"] = {
@@ -34816,10 +35376,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "크리티컬 대미지",
                 ["TextMapId"] = "Tag_CRD",
             },
-        }
-    end },
-    { MinKey = "Tag_CRI", MaxKey = "UIGuide_ImpressionSystem_1", Loader = function()
-        return {
             ["Tag_CRI"] = {
                 ["ContentKR"] = "크리티컬 확률",
                 ["TextMapId"] = "Tag_CRI",
@@ -35113,6 +35669,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "누군가 우유통에 술을 섞었다.",
                 ["TextMapId"] = "TextMap_AnswerName_200102",
             },
+        }
+    end },
+    { MinKey = "TextMap_AnswerName_200103", MaxKey = "UIGuide_SpecialSideStoryUI2", Loader = function()
+        return {
             ["TextMap_AnswerName_200103"] = {
                 ["ContentKR"] = "바크 씨 창턱에 아이의 발자국이 있다.",
                 ["TextMapId"] = "TextMap_AnswerName_200103",
@@ -35205,8 +35765,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "수련 레벨을 올리고 지정된 사이드 퀘스트를 완료하여 메인 퀘스트를 계속 진행하세요.\
 \
 다음 경로를 통해 수련 경험치 획득 가능:\
-1. <H>의뢰</> 완료 (녹토 보이저 지침서 의뢰 제외)\
-2. <H>악마의 상자</>의 악마의 쐐기 퀘스트 완료",
+1. <H>의뢰</> 완료  (녹토 보이저 지침서 의뢰 제외)\
+2. <H>악마의 상자</>의 악마의 쐐기 퀘스트 완료\
+3. 주민과 대화하여 <H>사이드 퀘스트</> 완료\
+4. 의뢰 외의 지역에서 누적 <H>수납함</> 열기",
                 ["TextMapId"] = "Textmap_UnlockContent",
             },
             ["Textmap_UnlockTitle"] = {
@@ -35245,12 +35807,16 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "비밀키를 획득했습니다.",
                 ["TextMapId"] = "Toast_MiYao",
             },
+            ["Toast_NeedAcceptQuest"] = {
+                ["ContentKR"] = "지도 화면을 열어 퀘스트를 수락할 수 있습니다.",
+                ["TextMapId"] = "Toast_NeedAcceptQuest",
+            },
             ["Toast_PaoJi"] = {
                 ["ContentKR"] = "통로를 열었습니다. 포대를 떠나 중앙 관제실로 이동하세요.",
                 ["TextMapId"] = "Toast_PaoJi",
             },
             ["Toast_SewWarning"] = {
-                ["ContentKR"] = "증기에서 멀리 떨어지세요!",
+                ["ContentKR"] = "스팀에서 멀리 떨어지세요!",
                 ["TextMapId"] = "Toast_SewWarning",
             },
             ["Two"] = {
@@ -35392,15 +35958,15 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGUIDE_TITLE_WIKI",
             },
             ["UIGuide_Abyss_1"] = {
-                ["ContentKR"] = "장치를 조작한 후, 몰입형 연극을 시작하여 해당 레퍼토리에 도전합니다.",
+                ["ContentKR"] = "장치를 조작한 후, 몰입형 연극을 시작하여 해당 시련을 도전합니다.",
                 ["TextMapId"] = "UIGuide_Abyss_1",
             },
             ["UIGuide_Abyss_2"] = {
-                ["ContentKR"] = "몰입형 연극에는 적으로 분장한 배우들이 등장합니다. 도전을 시작하면 계속해서 적이 등장하며, 제한 시간 내에 일정 수량의 적을 처치해야 합니다.",
+                ["ContentKR"] = "도전을 시작하면 계속해서 적이 등장하며, 제한 시간 내에 일정 수량의 적을 처치해야 합니다.",
                 ["TextMapId"] = "UIGuide_Abyss_2",
             },
             ["UIGuide_Abyss_3_1"] = {
-                ["ContentKR"] = "제한 시간 내에 지정된 수의 적을 처치하면 도전에 성공하여 다음 레퍼토리의 입구로 이동해 계속 도전할 수 있습니다.",
+                ["ContentKR"] = "제한 시간 내에 지정된 수의 적을 처치하면 도전에 성공하여 다음 시련의 입구로 이동해 계속 도전할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_Abyss_3_1",
             },
             ["UIGuide_Abyss_3_2"] = {
@@ -35408,7 +35974,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Abyss_3_2",
             },
             ["UIGuide_Abyss_4"] = {
-                ["ContentKR"] = "다음 레퍼토리의 입구가 나타난 후, 제한 시간 내에 이동하지 않으면 도전에 실패하게 됩니다.",
+                ["ContentKR"] = "다음 시련의 입구가 나타난 후, 제한 시간 내에 이동하지 않으면 도전에 실패하게 됩니다.",
                 ["TextMapId"] = "UIGuide_Abyss_4",
             },
             ["UIGuide_Abyss_5"] = {
@@ -35416,7 +35982,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Abyss_5",
             },
             ["UIGuide_AssistanceSkill"] = {
-                ["ContentKR"] = "<H>마령</>에게서 에너지를 흡수하면 마령 지원을 통해 전투 중 동료를 도울 수 있습니다.",
+                ["ContentKR"] = "<H>마령</>은 전투에서 다양한 도움을 줄 수 있습니다.",
                 ["TextMapId"] = "UIGuide_AssistanceSkill",
             },
             ["UIGuide_BattleWheel_1"] = {
@@ -35545,7 +36111,8 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_ExplorationMechanism_1_PC",
             },
             ["UIGuide_ExplorationMechanism_1_Phone"] = {
-                ["ContentKR"] = "세계를 여행하는 탐험가 루나가 각지에 설치한 도전입니다. 가까이 가서 <H>상호작용</>하면 도전을 시작할 수 있습니다.",
+                ["ContentKR"] = "세계를 여행하는 탐험가 루나가 각지에 설치한 도전입니다. 가까이 가서 <H>상호작용</>하면 도전을 시작할 수 있습니다.\
+",
                 ["TextMapId"] = "UIGuide_ExplorationMechanism_1_Phone",
             },
             ["UIGuide_ExplorationMechanism_2"] = {
@@ -35569,7 +36136,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Fish_02",
             },
             ["UIGuide_Fish_03"] = {
-                ["ContentKR"] = "일부 큰 물고기를 낚았을 때는 <H>결과물을 직접 획득할 기회</>가 주어집니다. 이번에 낚은 물고기를 미끼로 써서 다시 캐스팅하면 더 희귀한 물고기를 낚을 수 있습니다.",
+                ["ContentKR"] = "일부 큰 물고기를 낚았을 때는 <H>물고기로 더 큰 물고기 낚는 기회</>가 주어집니다. 이번에 낚은 물고기를 미끼로 써서 다시 캐스팅하면 더 희귀한 물고기를 낚을 수 있습니다.",
                 ["TextMapId"] = "UIGuide_Fish_03",
             },
             ["UIGuide_Fish_SubTitle_1"] = {
@@ -35581,7 +36148,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Fish_SubTitle_2",
             },
             ["UIGuide_Fish_SubTitle_3"] = {
-                ["ContentKR"] = "결과물 직접 획득",
+                ["ContentKR"] = "물고기로 더 큰 물고기 낚기",
                 ["TextMapId"] = "UIGuide_Fish_SubTitle_3",
             },
             ["UIGuide_Fish_Title"] = {
@@ -35605,7 +36172,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_HardBoss_01",
             },
             ["UIGuide_HardBoss_02"] = {
-                ["ContentKR"] = "악몽의 잔향 도전의 보스는 더욱 강력합니다. <H>매주</> 악몽의 잔향 도전에서 보상을 <H>50회</> 획득할 수 있습니다.",
+                ["ContentKR"] = "악몽의 잔향 도전의 보스는 더욱 강력합니다. <H>매주</> 악몽의 잔향 도전에서 보상을 <H>3회</> 획득할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_HardBoss_02",
             },
             ["UIGuide_ImpressionCheck_1"] = {
@@ -35628,12 +36195,8 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "특정 지역에서의 언행은 그 지역 사람들의 당신에 대한 <H>인상</>에 영향을 줍니다.",
                 ["TextMapId"] = "UIGuide_ImpressionSystem_1",
             },
-        }
-    end },
-    { MinKey = "UIGuide_ImpressionSystem_2", MaxKey = "UI_Accessory_Desc_10014", Loader = function()
-        return {
             ["UIGuide_ImpressionSystem_2"] = {
-                ["ContentKR"] = "메인 스토리, 사이드 스토리 또는 NPC 대화에서의 일부 <H>선택</>은 다른 사람들이 당신에 대해 갖는 이미지에 영향을 주며, 이는 실리, 도덕, 지혜, 공감, 혼돈의 다섯 차원으로 나타납니다.",
+                ["ContentKR"] = "메인 스토리, 사이드 스토리 또는 NPC 대화에서의 일부 <H>선택</>은 다른 사람들이 당신에 대해 갖는 이미지에 영향을 주며, 이는 실리, 도덕, 재치, 공감, 혼돈의 다섯 차원으로 나타납니다.",
                 ["TextMapId"] = "UIGuide_ImpressionSystem_2",
             },
             ["UIGuide_ImpressionSystem_3"] = {
@@ -35757,11 +36320,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_PetPan_Title",
             },
             ["UIGuide_Pet_1"] = {
-                ["ContentKR"] = "<H>마령</>이 해제되었습니다. 월드 곳곳에서 <H>마령</>을 포획할 수 있으며 힘을 흡수해 레조넌스를 강화하면 전투 중 동료를 도울 수 있습니다.",
+                ["ContentKR"] = "<H>마령</>이 해제되었습니다. 월드 곳곳에서 <H>마령</>을 만날 수 있으며, 그들이 전투에서 다양한 도움을 줄 수 있습니다.",
                 ["TextMapId"] = "UIGuide_Pet_1",
             },
             ["UIGuide_Pet_2"] = {
-                ["ContentKR"] = "높은 등급의 통조림을 사용하고 적절한 포획 시기를 노린다면 포획 성공률이 대폭 증가합니다.",
+                ["ContentKR"] = "높은 등급의 통조림을 사용하고 적절한 먹이주기 시기를 노린다면 마령과 친구가 될 성공률이 대폭 증가합니다.",
                 ["TextMapId"] = "UIGuide_Pet_2",
             },
             ["UIGuide_Phantom_1_1"] = {
@@ -35801,7 +36364,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Phantom_3_3",
             },
             ["UIGuide_Phantom_4_1"] = {
-                ["ContentKR"] = "협력 동료는 전투 중 에너지와 탄약을 소모하며, 전투 중 적이 떨어뜨린 탄약을 주워야 합니다.",
+                ["ContentKR"] = "협력 동료는 전투 중 에너지와 탄약도 같이 소모하며, 전투 중 적이 떨어뜨린 탄약에 접근하여 언제든지 보충할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_Phantom_4_1",
             },
             ["UIGuide_Reading"] = {
@@ -35832,6 +36395,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "정비 구역: 잿불을 사용하여 물자를 교환하고, HP와 정신력을 회복할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_Rouge_2_3",
             },
+            ["UIGuide_SIDEWAYSJUMP"] = {
+                ["ContentKR"] = "오를 수 있는 벽에 가까이 다가갔을 때, 방향키를 누른 상태로 &Jump& 버튼을 <H>연속</>으로 누르면 가로 벽 타기와 연속 점프를 할 수 있습니다.",
+                ["TextMapId"] = "UIGuide_SIDEWAYSJUMP",
+            },
             ["UIGuide_Shadow_1"] = {
                 ["ContentKR"] = "<H>협력 인장</>을 사용하여 동료를 소환해 전투를 도울 수 있습니다. 동료를 소환하기 전 정비 화면에서 전술 가방 설정에 들어가 해당 캐릭터의 협력 인장을 전술 가방으로 드래그하면 됩니다.",
                 ["TextMapId"] = "UIGuide_Shadow_1",
@@ -35845,7 +36412,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Sojourns_01",
             },
             ["UIGuide_Sojourns_01_Pad"] = {
-                ["ContentKR"] = "<Highlight>기억 조각</>이 해제되었습니다. 휴식처에서 <Img id=\"Key_A\" height=\"32\" width=\"32\"/>을 눌러 들어갈 수 있습니다.",
+                ["ContentKR"] = "<Highlight>기억 조각</>이 해제되었습니다. 휴식처에서 눌러 들어갈 수 있습니다.",
                 ["TextMapId"] = "UIGuide_Sojourns_01_Pad",
             },
             ["UIGuide_Sojourns_02"] = {
@@ -35857,7 +36424,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Sojourns_03",
             },
             ["UIGuide_Sojourns_03_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 <Highlight>세월 모음집</> 화면으로 들어가 일부 캐릭터가 특정 시기에 겪은 이야기를 확인하세요.",
+                ["ContentKR"] = "눌러서 <Highlight>세월 모음집</> 화면으로 들어가 일부 캐릭터가 특정 시기에 겪은 이야기를 확인하세요.",
                 ["TextMapId"] = "UIGuide_Sojourns_03_Pad",
             },
             ["UIGuide_Sojourns_04"] = {
@@ -35865,7 +36432,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Sojourns_04",
             },
             ["UIGuide_Sojourns_04_Pad"] = {
-                ["ContentKR"] = "<Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 각 캐릭터의 다양한 이야기를 확인하세요.",
+                ["ContentKR"] = "눌러서 각 캐릭터의 다양한 이야기를 확인하세요.",
                 ["TextMapId"] = "UIGuide_Sojourns_04_Pad",
             },
             ["UIGuide_Sojourns_05"] = {
@@ -35877,7 +36444,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Sojourns_06",
             },
             ["UIGuide_Sojourns_06_Pad"] = {
-                ["ContentKR"] = "조건을 달성하면 이야기가 해제되며, <Img id=\"Key_A\" height=\"32\" width=\"32\"/>를 눌러 보상을 받을 수 있습니다.",
+                ["ContentKR"] = "조건을 달성하면 이야기가 해제됩니다. 눌러서 보상을 받을 수 있습니다.",
                 ["TextMapId"] = "UIGuide_Sojourns_06_Pad",
             },
             ["UIGuide_Sojourns_07"] = {
@@ -35893,25 +36460,25 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_SpecialDestructible_1",
             },
             ["UIGuide_SpecialDestructible_2"] = {
-                ["ContentKR"] = "예를 들어 일부 보물상자에 붙어 있는 <H>얼음 수정</>은 <H>진동 속성의 추가 효과, 불 속성의 추가 효과, 불 속성의 스킬 대미지</>에 의해 파괴될 수 있습니다. \
+                ["ContentKR"] = "예를 들어 일부 수납함에 붙어 있는 <H>얼음 수정</>은 <H>진동 속성의 추가 효과, 불 속성의 추가 효과, 불 속성의 스킬 대미지</>에 의해 파괴될 수 있습니다. \
 (캐릭터와 무기의 <H>속성</>과 추가 효과 발동 <H>확률</>은 정비 화면에서 확인할 수 있습니다.)",
                 ["TextMapId"] = "UIGuide_SpecialDestructible_2",
             },
             ["UIGuide_SpecialDestructible_3"] = {
                 ["ContentKR"] = "일부 오브젝트는 <H>특정 속성의 추가 효과</>나 <H>특정 속성의 스킬 대미지</>를 받아야만 파괴할 수 있습니다. \
-예를 들어 일부 보물상자에 붙어 있는 <H>암흑 덩굴</>은 <H>베기 속성의 추가 효과, 빛 속성의 추가 효과, 빛 속성 스킬 대미지</>에 의해 파괴될 수 있습니다. \
+예를 들어 일부 수납함에 붙어 있는 <H>암흑 덩굴</>은 <H>베기 속성의 추가 효과, 빛 속성의 추가 효과, 빛 속성 스킬 대미지</>에 의해 파괴될 수 있습니다. \
 (캐릭터와 무기의 <H>속성</>과 추가 효과 발동 <H>확률</>은 정비 화면에서 확인할 수 있습니다.)",
                 ["TextMapId"] = "UIGuide_SpecialDestructible_3",
             },
             ["UIGuide_SpecialDestructible_4"] = {
                 ["ContentKR"] = "일부 오브젝트는 <H>특정 속성의 추가 효과</>나 <H>특정 속성의 스킬 대미지</>를 받아야만 파괴할 수 있습니다. \
-예를 들어 일부 보물상자에 붙어 있는 <H>돌덩이</>는 <H>진동 속성의 추가 효과</>를 통해 파괴할 수 있습니다. \
+예를 들어 일부 수납함에 붙어 있는 <H>돌덩이</>는 <H>진동 속성의 추가 효과</>를 통해 파괴할 수 있습니다. \
 (캐릭터와 무기의 <H>속성</>과 추가 효과 발동 <H>확률</>은 정비 화면에서 확인할 수 있습니다.)",
                 ["TextMapId"] = "UIGuide_SpecialDestructible_4",
             },
             ["UIGuide_SpecialDestructible_5"] = {
                 ["ContentKR"] = "일부 오브젝트는 <H>특정 속성의 추가 효과</>나 <H>특정 속성의 스킬 대미지</>를 받아야만 파괴할 수 있습니다. \
-예를 들어 일부 보물상자에 있는 <H>빛의 보호막</>은 <H>관통 속성의 추가 효과, 어둠 속성의 추가 효과, 어둠 속성 스킬 대미지</>를 통해 파괴할 수 있습니다. \
+예를 들어 일부 수납함에 있는 <H>빛의 보호막</>은 <H>관통 속성의 추가 효과, 어둠 속성의 추가 효과, 어둠 속성 스킬 대미지</>를 통해 파괴할 수 있습니다. \
 (캐릭터와 무기의 <H>속성</>과 추가 효과 발동 <H>확률</>은 정비 화면에서 확인할 수 있습니다.)",
                 ["TextMapId"] = "UIGuide_SpecialDestructible_5",
             },
@@ -35923,6 +36490,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "자유 탐색 시에도 같은 아이콘을 볼 수 있으며, 이러한 사이드 퀘스트를 완료하면 새로운 시스템 기능을 해제할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_SpecialSideStoryUI2",
             },
+        }
+    end },
+    { MinKey = "UIGuide_SwitchMaster_PC", MaxKey = "UI_Accessory_Desc_91002", Loader = function()
+        return {
             ["UIGuide_SwitchMaster_PC"] = {
                 ["ContentKR"] = "안전 구역에서 &Skill3& 버튼을 <H>길게 눌러</> 주인공으로 전환한 뒤 플레이 및 탐색할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_SwitchMaster_PC",
@@ -35956,7 +36527,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Temple_2",
             },
             ["UIGuide_Title_203001"] = {
-                ["ContentKR"] = "마령 포획",
+                ["ContentKR"] = "마령 먹이주기",
                 ["TextMapId"] = "UIGuide_Title_203001",
             },
             ["UIGuide_Title_203501"] = {
@@ -36180,7 +36751,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Title_PerfectDodge",
             },
             ["UIGuide_Title_Pet"] = {
-                ["ContentKR"] = "마령 포획",
+                ["ContentKR"] = "마령 만나기",
                 ["TextMapId"] = "UIGuide_Title_Pet",
             },
             ["UIGuide_Title_Phantom_1"] = {
@@ -36344,11 +36915,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_ValveMechanism",
             },
             ["UIGuide_WIKI_01"] = {
-                ["ContentKR"] = "스토리 대화 중 낯선 단어가 보이면 오른쪽 아래에 [항목 조회] 버튼이 있는지 확인한 후, 클릭하면 해당 항목의 설명을 조회할 수 있습니다.",
+                ["ContentKR"] = "스토리 대화 중 오른쪽 아래에 [항목 조회] 버튼이 있으면, 클릭하여 스토리 중 중요한 항목 의 설명을 조회할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_WIKI_01",
             },
             ["UIGuide_WIKI_02"] = {
-                ["ContentKR"] = "[백과사전 항목] 패널에서 본 모든 항목을 조회할 수 있습니다.",
+                ["ContentKR"] = "[백과사전 항목] 시스템에서 전에 나타난 모든 항목을 조회할 수 있습니다.",
                 ["TextMapId"] = "UIGuide_WIKI_02",
             },
             ["UIGuide_WallJump_PC"] = {
@@ -36360,7 +36931,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_WallJump_Phone",
             },
             ["UIGuide_content_203001"] = {
-                ["ContentKR"] = "월드 탐색 시 <H>마령</>을 마주치면 <H>통조림</>을 소모해 포획할 수 있습니다. 마령에게서 에너지를 흡수하면 마령 지원을 통해 전투 중 동료를 지원 수 있습니다.",
+                ["ContentKR"] = "월드 탐색 시 <H>마령</>을 만나면 <H>통조림</>을 소모해 먹이줄 수 있습니다. 마령들이 전투 중 도움이 될 수 있습니다.",
                 ["TextMapId"] = "UIGuide_content_203001",
             },
             ["UIGuide_content_203501"] = {
@@ -36392,12 +36963,76 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Aaccessory_Locked",
             },
             ["UI_Ability"] = {
-                ["ContentKR"] = "특질",
+                ["ContentKR"] = "특성",
                 ["TextMapId"] = "UI_Ability",
+            },
+            ["UI_AbyssRoom_BattleStart"] = {
+                ["ContentKR"] = "시련 Ⅰ 시작",
+                ["TextMapId"] = "UI_AbyssRoom_BattleStart",
+            },
+            ["UI_AbyssRoom_BossBattle"] = {
+                ["ContentKR"] = "고위험 적을 처치하기",
+                ["TextMapId"] = "UI_AbyssRoom_BossBattle",
+            },
+            ["UI_AbyssRoom_Count"] = {
+                ["ContentKR"] = "처치한 적:{空格}",
+                ["TextMapId"] = "UI_AbyssRoom_Count",
+            },
+            ["UI_Abyss_BattleCountDown"] = {
+                ["ContentKR"] = "남은 시련 시간",
+                ["TextMapId"] = "UI_Abyss_BattleCountDown",
             },
             ["UI_Abyss_Des"] = {
                 ["ContentKR"] = "당신은 관객이자 이야기의 방향을 결정하는 극중 인물입니다. 당신의 연극에 들어가 강적을 마주하는 용기와 완벽한 결말을 맞이하는 기쁨에 젖어 보세요.",
                 ["TextMapId"] = "UI_Abyss_Des",
+            },
+            ["UI_Abyss_NextRoomCountdown"] = {
+                ["ContentKR"] = "다음 시련으로 이동",
+                ["TextMapId"] = "UI_Abyss_NextRoomCountdown",
+            },
+            ["UI_Abyss_Toast_BossLockHp"] = {
+                ["ContentKR"] = "나타나는 적을 처치하면, 고위험 적의 무적 상태를 해제할 수 있다.",
+                ["TextMapId"] = "UI_Abyss_Toast_BossLockHp",
+            },
+            ["UI_Abyss_Toast_MoveToNextRoom"] = {
+                ["ContentKR"] = "다음 시련 시작하기",
+                ["TextMapId"] = "UI_Abyss_Toast_MoveToNextRoom",
+            },
+            ["UI_Abyss_Toast_NextRoom"] = {
+                ["ContentKR"] = "현재 시련 완료, 다음 시련 곧 시작한다",
+                ["TextMapId"] = "UI_Abyss_Toast_NextRoom",
+            },
+            ["UI_Abyss_Toast_RoomFail"] = {
+                ["ContentKR"] = "시련 실패",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomFail",
+            },
+            ["UI_Abyss_Toast_RoomStart0"] = {
+                ["ContentKR"] = "시련 Ⅰ 시작",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart0",
+            },
+            ["UI_Abyss_Toast_RoomStart1"] = {
+                ["ContentKR"] = "시련 Ⅱ 시작",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart1",
+            },
+            ["UI_Abyss_Toast_RoomStart2"] = {
+                ["ContentKR"] = "시련 Ⅲ 시작",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart2",
+            },
+            ["UI_Abyss_Toast_RoomStart3"] = {
+                ["ContentKR"] = "시련 Ⅳ 시작",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart3",
+            },
+            ["UI_Abyss_Toast_RoomStart4"] = {
+                ["ContentKR"] = "최종 시련 시작, 고위험 적을 처치하기",
+                ["TextMapId"] = "UI_Abyss_Toast_RoomStart4",
+            },
+            ["UI_Abyss_Toast_TeleportNextRoom"] = {
+                ["ContentKR"] = "다음 시련 곧 시작한다",
+                ["TextMapId"] = "UI_Abyss_Toast_TeleportNextRoom",
+            },
+            ["UI_Abyss_Toast_Win"] = {
+                ["ContentKR"] = "시련 성공",
+                ["TextMapId"] = "UI_Abyss_Toast_Win",
             },
             ["UI_AcceptEntrust"] = {
                 ["ContentKR"] = "수락",
@@ -36447,10 +37082,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "과거에 몇몇 사람이 신과 소통하며 풍요의 가호를 비는 데 사용한 물건. 지금 사람들은 기적의 은총을 갈망하며 엘리시안의 탑을 경배할 뿐이다.",
                 ["TextMapId"] = "UI_Accessory_Desc_10014",
             },
-        }
-    end },
-    { MinKey = "UI_Accessory_Desc_10024", MaxKey = "UI_Achievement_Des_101", Loader = function()
-        return {
             ["UI_Accessory_Desc_10024"] = {
                 ["ContentKR"] = "현재 연결이 되지 않습니다. 오늘도, 내일도, 앞으로도 계속 연결되지 않을 겁니다.",
                 ["TextMapId"] = "UI_Accessory_Desc_10024",
@@ -36673,6 +37304,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
 \"... 야아... 야! 나 좀 놀러 나가게 해 줘! 너무 할 게 없어서 촉수도 굳을 것 같아!",
                 ["TextMapId"] = "UI_Accessory_Desc_91002",
             },
+        }
+    end },
+    { MinKey = "UI_Accessory_Desc_91003", MaxKey = "UI_Achievement_Des_2002", Loader = function()
+        return {
             ["UI_Accessory_Desc_91003"] = {
                 ["ContentKR"] = "힐다의 머리장식\
 \"제 눈에는 윙윙거리는 하루살이나 필토이드 모두 깨끗이 쓸어버려야 할 오물과 다르지 않죠. 싸우는 건 즐거운 청소에 불과할 뿐이랍니다.\"",
@@ -36680,8 +37315,8 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             },
             ["UI_Accessory_Desc_91004"] = {
                 ["ContentKR"] = "부소의 머리장식\
-\"'살구꽃이 희미하게 그림자를 드리우니, 봄이며 가을이며 약을 만드네' \
-택생각 후원에 있는 오래된 살구나무가 올해는 꽃을 어떻게 피워냈을까요? 또 얼마나 피었을지, 살구를 따다가 다치는 아이가 있지는 않을지...\"",
+\"'살구꽃이 희미하게 그림자를 드리우니, 봄이며 가을이며 약을 만드네'\
+고영각 후원에 있는 오래된 살구나무가 올해는 꽃을 어떻게 피워냈을까요? 또 얼마나 피었을지, 살구를 따다가 다치는 아이가 있지는 않을지...\"",
                 ["TextMapId"] = "UI_Accessory_Desc_91004",
             },
             ["UI_Accessory_Desc_91005"] = {
@@ -36850,7 +37485,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Accessory_Name_10034",
             },
             ["UI_Accessory_Name_10035"] = {
-                ["ContentKR"] = "묘묘 머리 장식",
+                ["ContentKR"] = "묘묘 머리 장식·본색",
                 ["TextMapId"] = "UI_Accessory_Name_10035",
             },
             ["UI_Accessory_Name_10036"] = {
@@ -37261,24 +37896,20 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "수련 8레벨 달성",
                 ["TextMapId"] = "UI_Achievement_Des_101",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Des_1010", MaxKey = "UI_Achievement_Des_50909", Loader = function()
-        return {
             ["UI_Achievement_Des_1010"] = {
                 ["ContentKR"] = "누적 <highlight>#1</>의 빛 속성 대미지를 입힘",
                 ["TextMapId"] = "UI_Achievement_Des_1010",
             },
             ["UI_Achievement_Des_101001"] = {
-                ["ContentKR"] = "탐험가 루나가 \"연옥도\"에 남긴 <highlight>#1</>개의 탐험 증표 찾기",
+                ["ContentKR"] = "탐험가 루나가 '연옥도'에 남긴 <highlight>#1</>개의 탐험의 증표 찾기",
                 ["TextMapId"] = "UI_Achievement_Des_101001",
             },
             ["UI_Achievement_Des_101002"] = {
-                ["ContentKR"] = "탐험가 루나가 \"아이스레이크 시티 주변\"에 남긴 <highlight>#1</>개의 탐험 증표 찾기",
+                ["ContentKR"] = "탐험가 루나가 '아이스레이크 시티 주변'에 남긴 <highlight>#1</>개의 탐험의 증표 찾기",
                 ["TextMapId"] = "UI_Achievement_Des_101002",
             },
             ["UI_Achievement_Des_101003"] = {
-                ["ContentKR"] = "탐험가 루나가 \"론샤 요새\"에 남긴 <highlight>#1</>개의 탐험 증표 찾기",
+                ["ContentKR"] = "탐험가 루나가 '론샤 요새'에 남긴 <highlight>#1</>개의 탐험의 증표 찾기",
                 ["TextMapId"] = "UI_Achievement_Des_101003",
             },
             ["UI_Achievement_Des_10101"] = {
@@ -37414,7 +38045,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Achievement_Des_1306",
             },
             ["UI_Achievement_Des_1400101"] = {
-                ["ContentKR"] = "누적 마령 포획 <highlight>#1</>회 성공",
+                ["ContentKR"] = "누적 <highlight>#1</>마리의 마령과 친구 되기",
                 ["TextMapId"] = "UI_Achievement_Des_1400101",
             },
             ["UI_Achievement_Des_1400201"] = {
@@ -37485,6 +38116,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "휘페르보레아 군단 적 누적 <highlight>#1</>명 처치",
                 ["TextMapId"] = "UI_Achievement_Des_2002",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_2003", MaxKey = "UI_Achievement_Des_70111", Loader = function()
+        return {
             ["UI_Achievement_Des_2003"] = {
                 ["ContentKR"] = "엘리시안의 적 누적 <highlight>#1</>명 처치",
                 ["TextMapId"] = "UI_Achievement_Des_2003",
@@ -38066,10 +38701,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "처음으로 의뢰 '퇴치' 완료",
                 ["TextMapId"] = "UI_Achievement_Des_50909",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Des_50910", MaxKey = "UI_Achievement_Name_140030301", Loader = function()
-        return {
             ["UI_Achievement_Des_50910"] = {
                 ["ContentKR"] = "처음으로 의뢰 '호위' 완료",
                 ["TextMapId"] = "UI_Achievement_Des_50910",
@@ -38182,6 +38813,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "방어·무한 의뢰 1회 동안 방어 코어의 HP 감소시키지 않기",
                 ["TextMapId"] = "UI_Achievement_Des_52101",
             },
+            ["UI_Achievement_Des_522001"] = {
+                ["ContentKR"] = "의뢰에서 누적 <highlight>#1</>마리의 마령과 친구 되기",
+                ["TextMapId"] = "UI_Achievement_Des_522001",
+            },
             ["UI_Achievement_Des_52201"] = {
                 ["ContentKR"] = "탐험·무한 의뢰에서 혈청 저장소를 사용하지 않고 한 라운드 완료",
                 ["TextMapId"] = "UI_Achievement_Des_52201",
@@ -38286,6 +38921,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "카론 한 명을 증인으로…… 또는 모든 카론의 운명.",
                 ["TextMapId"] = "UI_Achievement_Des_70111",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Des_70112", MaxKey = "UI_Achievement_Name_201601", Loader = function()
+        return {
             ["UI_Achievement_Des_70112"] = {
                 ["ContentKR"] = "돌고 돌아, 추억은 등불 위의 주마처럼.",
                 ["TextMapId"] = "UI_Achievement_Des_70112",
@@ -38811,27 +39450,27 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Achievement_Name_1035103",
             },
             ["UI_Achievement_Name_1301"] = {
-                ["ContentKR"] = "운명의 톱니바퀴·2차 클로즈Ⅰ",
+                ["ContentKR"] = "운명의 톱니바퀴·2차 CBT Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_1301",
             },
             ["UI_Achievement_Name_1302"] = {
-                ["ContentKR"] = "운명의 톱니바퀴·2차 클로즈Ⅱ",
+                ["ContentKR"] = "운명의 톱니바퀴·2차 CBT Ⅱ",
                 ["TextMapId"] = "UI_Achievement_Name_1302",
             },
             ["UI_Achievement_Name_1303"] = {
-                ["ContentKR"] = "설국의 아이·2차 클로즈",
+                ["ContentKR"] = "설국의 아이·2차 CBT",
                 ["TextMapId"] = "UI_Achievement_Name_1303",
             },
             ["UI_Achievement_Name_1304"] = {
-                ["ContentKR"] = "글래식 전승·2차 클로즈",
+                ["ContentKR"] = "글래식 전승·2차 CBT",
                 ["TextMapId"] = "UI_Achievement_Name_1304",
             },
             ["UI_Achievement_Name_1305"] = {
-                ["ContentKR"] = "심연을 응시하며·2차 클로즈",
+                ["ContentKR"] = "심연을 응시하며·2차 CBT",
                 ["TextMapId"] = "UI_Achievement_Name_1305",
             },
             ["UI_Achievement_Name_1306"] = {
-                ["ContentKR"] = "입문 가이드·2차 클로즈",
+                ["ContentKR"] = "입문 가이드·2차 CBT",
                 ["TextMapId"] = "UI_Achievement_Name_1306",
             },
             ["UI_Achievement_Name_140010101"] = {
@@ -38870,10 +39509,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "목표는 마령 마스터Ⅲ",
                 ["TextMapId"] = "UI_Achievement_Name_140030301",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_150010101", MaxKey = "UI_Achievement_Name_502101", Loader = function()
-        return {
             ["UI_Achievement_Name_150010101"] = {
                 ["ContentKR"] = "전해지는 클래식",
                 ["TextMapId"] = "UI_Achievement_Name_150010101",
@@ -39090,6 +39725,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "치지직... 펑! Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_201601",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_201602", MaxKey = "UI_Achievement_Name_5091001", Loader = function()
+        return {
             ["UI_Achievement_Name_201602"] = {
                 ["ContentKR"] = "치지직... 펑! Ⅱ",
                 ["TextMapId"] = "UI_Achievement_Name_201602",
@@ -39674,10 +40313,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "도주 불가·독보",
                 ["TextMapId"] = "UI_Achievement_Name_502101",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Name_502201", MaxKey = "UI_Achievement_Type_HaoGanDu", Loader = function()
-        return {
             ["UI_Achievement_Name_502201"] = {
                 ["ContentKR"] = "물리 파괴·독보",
                 ["TextMapId"] = "UI_Achievement_Name_502201",
@@ -39894,6 +40529,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "긴급 구조 Ⅰ",
                 ["TextMapId"] = "UI_Achievement_Name_5091001",
             },
+        }
+    end },
+    { MinKey = "UI_Achievement_Name_5092001", MaxKey = "UI_Archive_Tab_BossEnemy", Loader = function()
+        return {
             ["UI_Achievement_Name_5092001"] = {
                 ["ContentKR"] = "영원한 루나의 수호자 Ⅱ",
                 ["TextMapId"] = "UI_Achievement_Name_5092001",
@@ -40459,7 +41098,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Achievement_TotalCount",
             },
             ["UI_Achievement_Type_CBT3"] = {
-                ["ContentKR"] = "2차 클로즈",
+                ["ContentKR"] = "2차 CBT",
                 ["TextMapId"] = "UI_Achievement_Type_CBT3",
             },
             ["UI_Achievement_Type_GuanQiaChuFa"] = {
@@ -40478,10 +41117,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "즐거운 시간",
                 ["TextMapId"] = "UI_Achievement_Type_HaoGanDu",
             },
-        }
-    end },
-    { MinKey = "UI_Achievement_Type_HaoYou", MaxKey = "UI_BattlePass_LevelUp", Loader = function()
-        return {
             ["UI_Achievement_Type_HaoYou"] = {
                 ["ContentKR"] = "친구의 동행",
                 ["TextMapId"] = "UI_Achievement_Type_HaoYou",
@@ -40698,6 +41333,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "고위험",
                 ["TextMapId"] = "UI_Archive_Tab_BossEnemy",
             },
+        }
+    end },
+    { MinKey = "UI_Archive_Tab_ChurchEnemy", MaxKey = "UI_CHAR_BIRTH_1503", Loader = function()
+        return {
             ["UI_Archive_Tab_ChurchEnemy"] = {
                 ["ContentKR"] = "엘리시안 교회",
                 ["TextMapId"] = "UI_Archive_Tab_ChurchEnemy",
@@ -40859,7 +41498,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Armory_Passive",
             },
             ["UI_Armory_PetListIsEmpty"] = {
-                ["ContentKR"] = "마령 재료 없음",
+                ["ContentKR"] = "선택지 없음",
                 ["TextMapId"] = "UI_Armory_PetListIsEmpty",
             },
             ["UI_Armory_Pet_Empty"] = {
@@ -40987,11 +41626,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_ArmourySquad_Edit_Toast",
             },
             ["UI_ArmourySquad_Tips"] = {
-                ["ContentKR"] = "정비 소대를 사용하여 의뢰에 진입하려면 전술 가방을 사용해 <highlight>협력 동료를 수동으로 소환</>해야 합니다.",
+                ["ContentKR"] = "정비 편성을 사용하여 의뢰에 진입하려면 전술 가방을 사용해 <highlight>협력 동료를 수동으로 소환</>해야 합니다.",
                 ["TextMapId"] = "UI_ArmourySquad_Tips",
             },
             ["UI_ArmourySquad_Title"] = {
-                ["ContentKR"] = "정비 소대",
+                ["ContentKR"] = "정비 편성",
                 ["TextMapId"] = "UI_ArmourySquad_Title",
             },
             ["UI_Attr_Dark_Name"] = {
@@ -41170,6 +41809,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "수량",
                 ["TextMapId"] = "UI_Bag_Sell_Amount",
             },
+            ["UI_Bag_Sell_Batch"] = {
+                ["ContentKR"] = "한 번에 선택",
+                ["TextMapId"] = "UI_Bag_Sell_Batch",
+            },
             ["UI_Bag_Sell_Get"] = {
                 ["ContentKR"] = "판매하여 획득",
                 ["TextMapId"] = "UI_Bag_Sell_Get",
@@ -41227,7 +41870,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_BattlePass_BPWeeklyMaxExp",
             },
             ["UI_BattlePass_BuyLevel"] = {
-                ["ContentKR"] = "시편 구매 ×",
+                ["ContentKR"] = "시편 구매",
                 ["TextMapId"] = "UI_BattlePass_BuyLevel",
             },
             ["UI_BattlePass_BuyLevelConfirm"] = {
@@ -41282,10 +41925,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "해당 시는 완성되었습니다",
                 ["TextMapId"] = "UI_BattlePass_LevelUp",
             },
-        }
-    end },
-    { MinKey = "UI_BattlePass_MaxLevel", MaxKey = "UI_CHAR_DATA_TEXT_31010204", Loader = function()
-        return {
             ["UI_BattlePass_MaxLevel"] = {
                 ["ContentKR"] = "시편이 가득찼습니다",
                 ["TextMapId"] = "UI_BattlePass_MaxLevel",
@@ -41313,6 +41952,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_BattlePass_PetClaimTitle"] = {
                 ["ContentKR"] = "장정 보수",
                 ["TextMapId"] = "UI_BattlePass_PetClaimTitle",
+            },
+            ["UI_BattlePass_PetHasCardUp"] = {
+                ["ContentKR"] = "돌파 성공:{空格}",
+                ["TextMapId"] = "UI_BattlePass_PetHasCardUp",
             },
             ["UI_BattlePass_PetHasClaimed"] = {
                 ["ContentKR"] = "수령함",
@@ -41399,7 +42042,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_BattlePass_WeeklyQuest",
             },
             ["UI_BattleRoom_Count"] = {
-                ["ContentKR"] = "퇴치한 그림자 수",
+                ["ContentKR"] = "퇴치한 그림자 수:{空格}",
                 ["TextMapId"] = "UI_BattleRoom_Count",
             },
             ["UI_BattleWheel_Equipped"] = {
@@ -41494,6 +42137,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "화서",
                 ["TextMapId"] = "UI_CHAR_BIRTH_1503",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_BIRTH_1801", MaxKey = "UI_CHAR_DATA_TEXT_32010201", Loader = function()
+        return {
             ["UI_CHAR_BIRTH_1801"] = {
                 ["ContentKR"] = "휘페르보레아 제국",
                 ["TextMapId"] = "UI_CHAR_BIRTH_1801",
@@ -41561,6 +42208,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_CHAR_BIRTH_5301"] = {
                 ["ContentKR"] = "휘페르보레아 제국",
                 ["TextMapId"] = "UI_CHAR_BIRTH_5301",
+            },
+            ["UI_CHAR_BIRTH_5401"] = {
+                ["ContentKR"] = "휘페르보레아 제국",
+                ["TextMapId"] = "UI_CHAR_BIRTH_5401",
             },
             ["UI_CHAR_DATA_TEXT_11010101"] = {
                 ["ContentKR"] = "내가 기억이라는 걸 하게 된 이래로, 베레니카는 늘 내 곁에 있었다. \
@@ -42770,10 +43421,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
 하지만 총앞에서는 모두 평등했다. 린이 총을 들었을 때, 그녀와 높으신 분 사이에는 더 이상 신분 차이가 존재하지 않았다. 린은 한 번도 평등한 대우를 받아본 적이 없었지만, 총은 그것을 가능하게 해 주었다.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_31010204",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_DATA_TEXT_31010301", MaxKey = "UI_CHAR_FORCE_3301", Loader = function()
-        return {
             ["UI_CHAR_DATA_TEXT_31010301"] = {
                 ["ContentKR"] = "비록 랜디의 가장 신뢰받는 참모 중 한 명이지만, 린은 경제적으로 여유롭지 못하다.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_31010301",
@@ -43188,6 +43835,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
 헬파이어가 각성한 후, 그녀의 피부는 영원히 사라지지 않는 고열과 함께 붉게 변했다. 이는 그녀의 가문의 '환원 유전'이라 불리며, 그녀 이전에는 초대 교도소장만이 이러한 변화를 겪었다고 전해진다. 많은 사람들이 헬파이어의 기괴하고 흉측한 외모를 혐오하지만, 그녀는 이를 조상들이 내린 축복이라 여긴다. 그녀는 자신이 이 뜨겁게 달아오른 붉은 피부로 제국의 질서를 유지하고 제국의 어두운 밤에 빛을 밝힐 운명이라고 믿는다.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_32010201",
             },
+        }
+    end },
+    { MinKey = "UI_CHAR_DATA_TEXT_32010202", MaxKey = "UI_CMNpc_Name_AngryAudience", Loader = function()
+        return {
             ["UI_CHAR_DATA_TEXT_32010202"] = {
                 ["ContentKR"] = "헬파이어는 그녀의 무기인 ‘징벌의 지옥불’을 항상 가지고 다니는 괴벽으로 유명하다. 전설에 따르면, '징벌의 지옥불'은 초대 교도소장의 무기였다고 한다. 이 무기가 발산하는 뜨거운 열기는 일반인이 감당하기 어려웠고, 가문 내에서도 아무도 다시 사용할 수 없었다. 그러나 헬파이어가 각성하면서 '징벌의 지옥불'은 다시 세상에 모습을 드러낼 수 있었다. 헬파이어에게 이 고대의 무기를 들 수 있다는 것은 항상 자랑스러운 일이었다. 심문을 하거나 잠을 잘 때에도 '징벌의 지옥불'이 곁에 있어야만 마음이 편안했다. 어떤 사람들은 헬파이어가 무기를 연인처럼 대한다고 은근히 조롱하곤 했다. 하지만 역시, 누가 붉은 피부를 가진 괴물을 사랑하겠는가?",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_32010202",
@@ -43958,7 +44609,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
 붉은 버섯은 지상에 활짝 피는 꽃들과는 달라서, 예전엔 그 흔적을 찾기가 매우 어려웠다. 예전엔 그랬다는 말이다. \
 지금은 남풍이 더 이상 뜨겁지 않고, 북풍이 대지를 노랗게 물들이는 가을이 오면, 트러플과 헤이즐넛이라는 크고 작은 두 그림자가 어김없이 이곳에 나타난다. \
 무엇을 하러 온 걸까? 당연히 붉은 버섯을 찾으러 온 것이다. \
-헤이즐넛이 코를 들어 킁킁거린다. 풋내 나면서도 약간 썩은 듯한 냄새는 떨어진 낙엽이고, 달콤하면서도 술 냄새가 나는 건 발효된 열매다. 그리고 이 이상하고 짙은 향기는…… 맞다, 이 땅 아래 붉은 버섯이 있는 것이다. \
+헤이즐넛이 코를 들어 킁킁거린다. 풋내 나면서도 약간 썩은 듯한 냄새는 떨어진 낙엽이고, 달콤하면서도 술 냄새가 나는 건 발효된 열매다. 그리고 이 이상하고 짙은 향기는... 맞다, 이 땅 아래 붉은 버섯이 있는 것이다. \
 헤이즐넛은 코로 쉽게 낙엽이 쌓인 두꺼운 흙을 파낸다. 한 귀퉁이만 파내도 이상한 향기가 금세 퍼져, 도토리를 모으던 다람쥐도 참지 못하고 가까이 온다. 트러플은 헤이즐넛과 함께 붉은 버섯을 통째로 파내 가방에 담는다. 시냇가에서 손을 씻고 헤이즐넛을 타고 순식간에 도시로 돌아간다. \
 그렇게 이 교회의 작은 도시가 흉년을 겪었을 때, 귀한 붉은 버섯으로 배를 채우는 빈민들이 생겼다. 먹다 지치고 물리도록 먹었으니, 정말 이상한 일이었다. 하지만 의아해하던 사람들도 분주히 뛰어다니는 트러플과 헤이즐넛을 보면 곧 모든 걸 이해하고, 기분 좋게 붉은 버섯을 한 조각 더 먹는다.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_51010202",
@@ -44276,6 +44927,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "없음",
                 ["TextMapId"] = "UI_CHAR_FORCE_1502",
             },
+            ["UI_CHAR_FORCE_1503"] = {
+                ["ContentKR"] = "산외산",
+                ["TextMapId"] = "UI_CHAR_FORCE_1503",
+            },
             ["UI_CHAR_FORCE_1801"] = {
                 ["ContentKR"] = "없음",
                 ["TextMapId"] = "UI_CHAR_FORCE_1801",
@@ -44312,13 +44967,13 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "없음",
                 ["TextMapId"] = "UI_CHAR_FORCE_3301",
             },
-        }
-    end },
-    { MinKey = "UI_CHAR_FORCE_4101", MaxKey = "UI_COMMONPOP_TEXT_100090_1", Loader = function()
-        return {
             ["UI_CHAR_FORCE_4101"] = {
                 ["ContentKR"] = "제6군단",
                 ["TextMapId"] = "UI_CHAR_FORCE_4101",
+            },
+            ["UI_CHAR_FORCE_4102"] = {
+                ["ContentKR"] = "백년춘",
+                ["TextMapId"] = "UI_CHAR_FORCE_4102",
             },
             ["UI_CHAR_FORCE_4201"] = {
                 ["ContentKR"] = "화서",
@@ -44343,6 +44998,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_CHAR_FORCE_5301"] = {
                 ["ContentKR"] = "없음",
                 ["TextMapId"] = "UI_CHAR_FORCE_5301",
+            },
+            ["UI_CHAR_FORCE_5401"] = {
+                ["ContentKR"] = "제13군단",
+                ["TextMapId"] = "UI_CHAR_FORCE_5401",
             },
             ["UI_CHAR_NAME_101"] = {
                 ["ContentKR"] = "{nickname}",
@@ -44508,6 +45167,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "분노한 관중",
                 ["TextMapId"] = "UI_CMNpc_Name_AngryAudience",
             },
+        }
+    end },
+    { MinKey = "UI_CMNpc_Name_AngryOldMan", MaxKey = "UI_COMMONPOP_TITLE_100010", Loader = function()
+        return {
             ["UI_CMNpc_Name_AngryOldMan"] = {
                 ["ContentKR"] = "화난 노인",
                 ["TextMapId"] = "UI_CMNpc_Name_AngryOldMan",
@@ -44595,6 +45258,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_CMNpc_Name_Danni"] = {
                 ["ContentKR"] = "데니스",
                 ["TextMapId"] = "UI_CMNpc_Name_Danni",
+            },
+            ["UI_CMNpc_Name_DeTiWoman"] = {
+                ["ContentKR"] = "옷차림 단정한 여인",
+                ["TextMapId"] = "UI_CMNpc_Name_DeTiWoman",
             },
             ["UI_CMNpc_Name_Dien"] = {
                 ["ContentKR"] = "딘",
@@ -44843,6 +45510,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_CMNpc_Name_Xiao"] = {
                 ["ContentKR"] = "테오",
                 ["TextMapId"] = "UI_CMNpc_Name_Xiao",
+            },
+            ["UI_CMNpc_Name_XiaoMom"] = {
+                ["ContentKR"] = "테오의 어머니",
+                ["TextMapId"] = "UI_CMNpc_Name_XiaoMom",
             },
             ["UI_CMNpc_Name_Xilin"] = {
                 ["ContentKR"] = "시린 부인",
@@ -45116,10 +45787,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "신고 대상",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100090_1",
             },
-        }
-    end },
-    { MinKey = "UI_COMMONPOP_TEXT_100090_10", MaxKey = "UI_Chardata_Char_Brithday", Loader = function()
-        return {
             ["UI_COMMONPOP_TEXT_100090_10"] = {
                 ["ContentKR"] = "혐오 발언",
                 ["TextMapId"] = "UI_COMMONPOP_TEXT_100090_10",
@@ -45307,6 +45974,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "Tips",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100010",
             },
+        }
+    end },
+    { MinKey = "UI_COMMONPOP_TITLE_100012", MaxKey = "UI_Chardata_Char_Year", Loader = function()
+        return {
             ["UI_COMMONPOP_TITLE_100012"] = {
                 ["ContentKR"] = "단축키 충돌",
                 ["TextMapId"] = "UI_COMMONPOP_TITLE_100012",
@@ -45536,7 +46207,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_CONFIRM_OPENSHOP",
             },
             ["UI_CONFIRM_PETCAPTURE"] = {
-                ["ContentKR"] = "마령 포획",
+                ["ContentKR"] = "마령 먹이주기",
                 ["TextMapId"] = "UI_CONFIRM_PETCAPTURE",
             },
             ["UI_CONFIRM_PLAY"] = {
@@ -45559,6 +46230,18 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "내성",
                 ["TextMapId"] = "UI_COST_NAME",
             },
+            ["UI_CTL_Add"] = {
+                ["ContentKR"] = "추가",
+                ["TextMapId"] = "UI_CTL_Add",
+            },
+            ["UI_CTL_Add/Remove"] = {
+                ["ContentKR"] = "추가/제거",
+                ["TextMapId"] = "UI_CTL_Add/Remove",
+            },
+            ["UI_CTL_Adjust"] = {
+                ["ContentKR"] = "조정",
+                ["TextMapId"] = "UI_CTL_Adjust",
+            },
             ["UI_CTL_Armory_Consumables"] = {
                 ["ContentKR"] = "소모 재료",
                 ["TextMapId"] = "UI_CTL_Armory_Consumables",
@@ -45567,13 +46250,73 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "시점 조작",
                 ["TextMapId"] = "UI_CTL_Camera",
             },
+            ["UI_CTL_CheckPlan"] = {
+                ["ContentKR"] = "프리셋 보기",
+                ["TextMapId"] = "UI_CTL_CheckPlan",
+            },
+            ["UI_CTL_CheckProperty"] = {
+                ["ContentKR"] = "속성 보기",
+                ["TextMapId"] = "UI_CTL_CheckProperty",
+            },
+            ["UI_CTL_Claim"] = {
+                ["ContentKR"] = "보상 수령",
+                ["TextMapId"] = "UI_CTL_Claim",
+            },
             ["UI_CTL_ClaimALL"] = {
                 ["ContentKR"] = "모두 수령",
                 ["TextMapId"] = "UI_CTL_ClaimALL",
             },
+            ["UI_CTL_CloseTips"] = {
+                ["ContentKR"] = "힌트 닫기",
+                ["TextMapId"] = "UI_CTL_CloseTips",
+            },
+            ["UI_CTL_Continue"] = {
+                ["ContentKR"] = "계속",
+                ["TextMapId"] = "UI_CTL_Continue",
+            },
+            ["UI_CTL_Details"] = {
+                ["ContentKR"] = "상세",
+                ["TextMapId"] = "UI_CTL_Details",
+            },
+            ["UI_CTL_ESC_Exit"] = {
+                ["ContentKR"] = "(길게 눌러)게임 종료",
+                ["TextMapId"] = "UI_CTL_ESC_Exit",
+            },
+            ["UI_CTL_ExpandList"] = {
+                ["ContentKR"] = "목록 펼치기",
+                ["TextMapId"] = "UI_CTL_ExpandList",
+            },
             ["UI_CTL_Explain"] = {
                 ["ContentKR"] = "표제어 설명 보기",
                 ["TextMapId"] = "UI_CTL_Explain",
+            },
+            ["UI_CTL_Fish_Collect"] = {
+                ["ContentKR"] = "낚싯대 거두기",
+                ["TextMapId"] = "UI_CTL_Fish_Collect",
+            },
+            ["UI_CTL_Fish_Lift"] = {
+                ["ContentKR"] = "낚싯대 당기기",
+                ["TextMapId"] = "UI_CTL_Fish_Lift",
+            },
+            ["UI_CTL_Fish_Throw"] = {
+                ["ContentKR"] = "낚싯대 던지기",
+                ["TextMapId"] = "UI_CTL_Fish_Throw",
+            },
+            ["UI_CTL_Forging_Set"] = {
+                ["ContentKR"] = "목표로 설정",
+                ["TextMapId"] = "UI_CTL_Forging_Set",
+            },
+            ["UI_CTL_Forging_Unset"] = {
+                ["ContentKR"] = "목표 해체",
+                ["TextMapId"] = "UI_CTL_Forging_Unset",
+            },
+            ["UI_CTL_Loading_Next"] = {
+                ["ContentKR"] = "다음",
+                ["TextMapId"] = "UI_CTL_Loading_Next",
+            },
+            ["UI_CTL_MinGame_Move"] = {
+                ["ContentKR"] = "이동",
+                ["TextMapId"] = "UI_CTL_MinGame_Move",
             },
             ["UI_CTL_Move"] = {
                 ["ContentKR"] = "이동",
@@ -45582,6 +46325,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_CTL_NextLevel"] = {
                 ["ContentKR"] = "다음 레벨 미리보기",
                 ["TextMapId"] = "UI_CTL_NextLevel",
+            },
+            ["UI_CTL_On/Off"] = {
+                ["ContentKR"] = "켜기/끄기",
+                ["TextMapId"] = "UI_CTL_On/Off",
             },
             ["UI_CTL_OpenSystem"] = {
                 ["ContentKR"] = "빠른 시스템 진입",
@@ -45603,6 +46350,62 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "슬롯 전환",
                 ["TextMapId"] = "UI_CTL_Pet_SwitchSlot",
             },
+            ["UI_CTL_Play/Pause"] = {
+                ["ContentKR"] = "재생/일시 정지",
+                ["TextMapId"] = "UI_CTL_Play/Pause",
+            },
+            ["UI_CTL_PlayerOptions"] = {
+                ["ContentKR"] = "플레이어 선택지",
+                ["TextMapId"] = "UI_CTL_PlayerOptions",
+            },
+            ["UI_CTL_Quit"] = {
+                ["ContentKR"] = "나가기",
+                ["TextMapId"] = "UI_CTL_Quit",
+            },
+            ["UI_CTL_Read"] = {
+                ["ContentKR"] = "읽기",
+                ["TextMapId"] = "UI_CTL_Read",
+            },
+            ["UI_CTL_Remove"] = {
+                ["ContentKR"] = "제거",
+                ["TextMapId"] = "UI_CTL_Remove",
+            },
+            ["UI_CTL_RotatePreview"] = {
+                ["ContentKR"] = "미리보기 회전",
+                ["TextMapId"] = "UI_CTL_RotatePreview",
+            },
+            ["UI_CTL_Rougelike_SlideItems"] = {
+                ["ContentKR"] = "상세 정보 스크롤",
+                ["TextMapId"] = "UI_CTL_Rougelike_SlideItems",
+            },
+            ["UI_CTL_Rougelike_SlideSetItems"] = {
+                ["ContentKR"] = "세트 상세 정보 스크롤",
+                ["TextMapId"] = "UI_CTL_Rougelike_SlideSetItems",
+            },
+            ["UI_CTL_Select"] = {
+                ["ContentKR"] = "선택",
+                ["TextMapId"] = "UI_CTL_Select",
+            },
+            ["UI_CTL_Select/Cancel"] = {
+                ["ContentKR"] = "선택/취소",
+                ["TextMapId"] = "UI_CTL_Select/Cancel",
+            },
+            ["UI_CTL_SelectLeft"] = {
+                ["ContentKR"] = "왼쪽 선택",
+                ["TextMapId"] = "UI_CTL_SelectLeft",
+            },
+            ["UI_CTL_SelectMessages"] = {
+                ["ContentKR"] = "메시지 선택",
+                ["TextMapId"] = "UI_CTL_SelectMessages",
+            },
+            ["UI_CTL_SelectRight"] = {
+                ["ContentKR"] = "오른쪽 선택",
+                ["TextMapId"] = "UI_CTL_SelectRight",
+            },
+            ["UI_CTL_SelectRole_Change"] = {
+                ["ContentKR"] = "캐릭터 전환",
+                ["TextMapId"] = "UI_CTL_SelectRole_Change",
+            },
             ["UI_CTL_Shop_Converted"] = {
                 ["ContentKR"] = "전환 아이템 보기",
                 ["TextMapId"] = "UI_CTL_Shop_Converted",
@@ -45611,9 +46414,29 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "상점",
                 ["TextMapId"] = "UI_CTL_Shop_Main",
             },
+            ["UI_CTL_Squad_AdjustSorting"] = {
+                ["ContentKR"] = "정렬 순서 조정",
+                ["TextMapId"] = "UI_CTL_Squad_AdjustSorting",
+            },
+            ["UI_CTL_Squad_ExitSorting"] = {
+                ["ContentKR"] = "정렬 나가기",
+                ["TextMapId"] = "UI_CTL_Squad_ExitSorting",
+            },
+            ["UI_CTL_Squad_Expand"] = {
+                ["ContentKR"] = "펼치기/접기",
+                ["TextMapId"] = "UI_CTL_Squad_Expand",
+            },
+            ["UI_CTL_Squad_Select"] = {
+                ["ContentKR"] = "부품 선택",
+                ["TextMapId"] = "UI_CTL_Squad_Select",
+            },
             ["UI_CTL_Switch"] = {
                 ["ContentKR"] = "옵션 전환",
                 ["TextMapId"] = "UI_CTL_Switch",
+            },
+            ["UI_CTL_Unselect"] = {
+                ["ContentKR"] = "선택 취소",
+                ["TextMapId"] = "UI_CTL_Unselect",
             },
             ["UI_CTL_UseSkill"] = {
                 ["ContentKR"] = "스킬 선택",
@@ -45796,7 +46619,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_ChapterName_E0",
             },
             ["UI_ChapterNumber_00"] = {
-                ["ContentKR"] = "서장",
+                ["ContentKR"] = "프롤로그",
                 ["TextMapId"] = "UI_ChapterNumber_00",
             },
             ["UI_ChapterNumber_01"] = {
@@ -45923,10 +46746,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "생일",
                 ["TextMapId"] = "UI_Chardata_Char_Brithday",
             },
-        }
-    end },
-    { MinKey = "UI_Chardata_Char_Day", MaxKey = "UI_DUNGEON_DES_TRAINING_14", Loader = function()
-        return {
             ["UI_Chardata_Char_Day"] = {
                 ["ContentKR"] = "일",
                 ["TextMapId"] = "UI_Chardata_Char_Day",
@@ -45959,6 +46778,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "년 ",
                 ["TextMapId"] = "UI_Chardata_Char_Year",
             },
+        }
+    end },
+    { MinKey = "UI_Chardata_Data", MaxKey = "UI_DUNGEON_DES_SURVIVAL_1", Loader = function()
+        return {
             ["UI_Chardata_Data"] = {
                 ["ContentKR"] = "자료",
                 ["TextMapId"] = "UI_Chardata_Data",
@@ -46000,7 +46823,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Chardata_Recall",
             },
             ["UI_Chardata_Rumor"] = {
-                ["ContentKR"] = "증거:{空格}",
+                ["ContentKR"] = "소문:{空格}",
                 ["TextMapId"] = "UI_Chardata_Rumor",
             },
             ["UI_Chardata_Secret"] = {
@@ -46008,7 +46831,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Chardata_Secret",
             },
             ["UI_Chardata_Witness"] = {
-                ["ContentKR"] = "소문:{空格}",
+                ["ContentKR"] = "증거:{空格}",
                 ["TextMapId"] = "UI_Chardata_Witness",
             },
             ["UI_Chat_Accuse"] = {
@@ -46292,7 +47115,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Chat_ImagineGroup3",
             },
             ["UI_Chat_InDungeon"] = {
-                ["ContentKR"] = "던전 내",
+                ["ContentKR"] = "스테이지 내",
                 ["TextMapId"] = "UI_Chat_InDungeon",
             },
             ["UI_Chat_InSpecialQuest"] = {
@@ -46447,6 +47270,62 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "해제 조건 미충족",
                 ["TextMapId"] = "UI_Complete_The_Prerequisite",
             },
+            ["UI_Controller_Check"] = {
+                ["ContentKR"] = "보기",
+                ["TextMapId"] = "UI_Controller_Check",
+            },
+            ["UI_Controller_CheckDeputeInfo"] = {
+                ["ContentKR"] = "의뢰 상세 보기",
+                ["TextMapId"] = "UI_Controller_CheckDeputeInfo",
+            },
+            ["UI_Controller_CheckDetails"] = {
+                ["ContentKR"] = "상세 보기",
+                ["TextMapId"] = "UI_Controller_CheckDetails",
+            },
+            ["UI_Controller_CheckItems"] = {
+                ["ContentKR"] = "아이템 보기",
+                ["TextMapId"] = "UI_Controller_CheckItems",
+            },
+            ["UI_Controller_CheckPROB"] = {
+                ["ContentKR"] = "확률 보기",
+                ["TextMapId"] = "UI_Controller_CheckPROB",
+            },
+            ["UI_Controller_CheckPlayer"] = {
+                ["ContentKR"] = "플레이어 정보 보기",
+                ["TextMapId"] = "UI_Controller_CheckPlayer",
+            },
+            ["UI_Controller_CheckReward"] = {
+                ["ContentKR"] = "보상 보기",
+                ["TextMapId"] = "UI_Controller_CheckReward",
+            },
+            ["UI_Controller_CheckTeam"] = {
+                ["ContentKR"] = "파티 정보 보기",
+                ["TextMapId"] = "UI_Controller_CheckTeam",
+            },
+            ["UI_Controller_Close"] = {
+                ["ContentKR"] = "닫기",
+                ["TextMapId"] = "UI_Controller_Close",
+            },
+            ["UI_Controller_ClosePlayer"] = {
+                ["ContentKR"] = "플레이어 정보 닫기",
+                ["TextMapId"] = "UI_Controller_ClosePlayer",
+            },
+            ["UI_Controller_Go"] = {
+                ["ContentKR"] = "이동",
+                ["TextMapId"] = "UI_Controller_Go",
+            },
+            ["UI_Controller_SelectReward"] = {
+                ["ContentKR"] = "보상 선택",
+                ["TextMapId"] = "UI_Controller_SelectReward",
+            },
+            ["UI_Controller_Slide"] = {
+                ["ContentKR"] = "스크롤하여 보기",
+                ["TextMapId"] = "UI_Controller_Slide",
+            },
+            ["UI_Controller_Switch"] = {
+                ["ContentKR"] = "전환",
+                ["TextMapId"] = "UI_Controller_Switch",
+            },
             ["UI_Cost_For_Unlock"] = {
                 ["ContentKR"] = "해제 재료",
                 ["TextMapId"] = "UI_Cost_For_Unlock",
@@ -46456,11 +47335,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Current_Attr",
             },
             ["UI_CustomSquad_Tips"] = {
-                ["ContentKR"] = "프리셋 소대를 사용하여 의뢰에 진입하면 전술 가방의 협력 인장이 비활성화됩니다. 프리셋에 설정된 <highlight>협력 동료가 자동으로 소환됩니다</>.",
+                ["ContentKR"] = "프리셋 편성을 사용하여 의뢰에 진입하면 전술 가방의 협력 인장이 비활성화됩니다. 프리셋에 설정된 <highlight>협력 동료가 자동으로 소환됩니다</>.",
                 ["TextMapId"] = "UI_CustomSquad_Tips",
             },
             ["UI_CustomSquad_Title"] = {
-                ["ContentKR"] = "프리셋 소대",
+                ["ContentKR"] = "프리셋 편성",
                 ["TextMapId"] = "UI_CustomSquad_Title",
             },
             ["UI_DETAILS"] = {
@@ -46587,6 +47466,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "\"지도에 표시된 구역에 잠입해 밀실에 갇힌 사람을 구출한 후, 약속된 장소로 호위하세요. 전리품을 줍거나 적을 제거하는 건 마음대로 해도 좋아요. 단, 한 가지만 기억하세요. 의뢰의 이유와 그 사람의 신분을 묻지 말고, 또 우리의 향후 행선지를 알아내려 하지 마세요. 사람을 구하고, 보수를 받은 후에는 이 의뢰를 잊으세요. 그게 우리 모두에게 좋습니다.\" ——수수께끼의 의뢰서",
                 ["TextMapId"] = "UI_DUNGEON_CONTENT_RESCUE_1",
             },
+            ["UI_DUNGEON_CONTENT_SABOTAGEPRO_1"] = {
+                ["ContentKR"] = "\"이 세상을 과하게 발전시키거나 탐색하는 건 언젠가 인류에게 파멸을 가져올 겁니다. 그러니까 여러분이 이곳에 가서, 그 기묘한 장치들을 해체해 버렸으면 합니다. 명심하세요. 제가 벌어 줄 수 있는 시간은 그렇게 많지 않습니다. 만약 제때 철수하지 못한다면, 저도 도울 방법이 없습니다.\"——위험한 의뢰인",
+                ["TextMapId"] = "UI_DUNGEON_CONTENT_SABOTAGEPRO_1",
+            },
             ["UI_DUNGEON_CONTENT_SABOTAGE_1"] = {
                 ["ContentKR"] = "\"포세이큰 동맹의 미친 작자들이 '글로리'라는 폭탄을 만들었어. 그게 터진다면 단순히 인명 피해만으로 끝나지 않을 거야. 포세이큰 동맹과 다른 세력들 사이의 갈등이 점차 심해질 것이고, 그러면 평민들의 생활 환경이 악화될 거야. 그러니 의뢰하는데, '글로리'의 기폭 장치를 파괴해서 폭발을 저지해줘. 가능하다면 그 미치광이들에게 교훈을 좀 줘도 좋고. 한 가지만 기억해, 최대한 빨리 돌아올 것. 내가 이곳에서 직접 보수를 줄 수 있는 시간은 그리 많지 않으니까.\" ——이름 모를 의뢰인",
                 ["TextMapId"] = "UI_DUNGEON_CONTENT_SABOTAGE_1",
@@ -46699,6 +47582,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "혈청을 손에 넣어 탐사 지속하기",
                 ["TextMapId"] = "UI_DUNGEON_DES_SURVIVAL_1",
             },
+        }
+    end },
+    { MinKey = "UI_DUNGEON_DES_TESTING_1", MaxKey = "UI_Disptach_Agent_State_Release", Loader = function()
+        return {
             ["UI_DUNGEON_DES_TESTING_1"] = {
                 ["ContentKR"] = "적을 처치하고 격퇴 완료",
                 ["TextMapId"] = "UI_DUNGEON_DES_TESTING_1",
@@ -46727,10 +47614,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "명상 설정",
                 ["TextMapId"] = "UI_DUNGEON_DES_TRAINING_14",
             },
-        }
-    end },
-    { MinKey = "UI_DUNGEON_DES_TRAINING_15", MaxKey = "UI_Disptach_Chosen", Loader = function()
-        return {
             ["UI_DUNGEON_DES_TRAINING_15"] = {
                 ["ContentKR"] = "무적",
                 ["TextMapId"] = "UI_DUNGEON_DES_TRAINING_15",
@@ -46886,6 +47769,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_DUNGEON_DROP_SKILL"] = {
                 ["ContentKR"] = "캐릭터 스킬 재료",
                 ["TextMapId"] = "UI_DUNGEON_DROP_SKILL",
+            },
+            ["UI_DUNGEON_DROP_SKILL_JOB"] = {
+                ["ContentKR"] = "직업 스킬 해제 재료",
+                ["TextMapId"] = "UI_DUNGEON_DROP_SKILL_JOB",
             },
             ["UI_DUNGEON_DROP_WEAPONBREAK"] = {
                 ["ContentKR"] = "무기 돌파 재료",
@@ -47052,7 +47939,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_DailyGoal_Phase",
             },
             ["UI_DailyGoal_RefreshReminder"] = {
-                ["ContentKR"] = "날짜가 업데이트되어, 비망 메모가 초기화되었습니다.",
+                ["ContentKR"] = "날짜가 업데이트되어, 메모 노트가 초기화되었습니다.",
                 ["TextMapId"] = "UI_DailyGoal_RefreshReminder",
             },
             ["UI_DailyGoal_RemainTime"] = {
@@ -47080,7 +47967,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_DailyGoal_RewardView",
             },
             ["UI_DailyGoal_TabName"] = {
-                ["ContentKR"] = "비망 메모",
+                ["ContentKR"] = "메모 노트",
                 ["TextMapId"] = "UI_DailyGoal_TabName",
             },
             ["UI_Date_Refresh"] = {
@@ -47148,7 +48035,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Disabled_Des_Chat",
             },
             ["UI_Disabled_Des_DailyGoal"] = {
-                ["ContentKR"] = "비망 메모는 아직 사용할 수 없습니다",
+                ["ContentKR"] = "메모 노트는 아직 사용할 수 없습니다",
                 ["TextMapId"] = "UI_Disabled_Des_DailyGoal",
             },
             ["UI_Disabled_Des_Entertainment"] = {
@@ -47208,7 +48095,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Disabled_Des_ModArchive",
             },
             ["UI_Disabled_Des_ModDungeon"] = {
-                ["ContentKR"] = "밤의 항해 지침서는 아직 사용할 수 없습니다",
+                ["ContentKR"] = "녹토 보이저 지침서는 아직 사용할 수 없습니다",
                 ["TextMapId"] = "UI_Disabled_Des_ModDungeon",
             },
             ["UI_Disabled_Des_Notice"] = {
@@ -47499,6 +48386,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "휴식",
                 ["TextMapId"] = "UI_Disptach_Agent_State_Release",
             },
+        }
+    end },
+    { MinKey = "UI_Disptach_AllRegion", MaxKey = "UI_Friend_AddStar", Loader = function()
+        return {
             ["UI_Disptach_AllRegion"] = {
                 ["ContentKR"] = "모든 구역",
                 ["TextMapId"] = "UI_Disptach_AllRegion",
@@ -47531,10 +48422,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "선택됨",
                 ["TextMapId"] = "UI_Disptach_Chosen",
             },
-        }
-    end },
-    { MinKey = "UI_Disptach_Confirm", MaxKey = "UI_Friend_Interested", Loader = function()
-        return {
             ["UI_Disptach_Confirm"] = {
                 ["ContentKR"] = "워프 확인",
                 ["TextMapId"] = "UI_Disptach_Confirm",
@@ -47672,48 +48559,52 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_DungeonFail_Tips2",
             },
             ["UI_DungeonMod_Tab_10"] = {
-                ["ContentKR"] = "10.0",
+                ["ContentKR"] = "10",
                 ["TextMapId"] = "UI_DungeonMod_Tab_10",
             },
             ["UI_DungeonMod_Tab_20"] = {
-                ["ContentKR"] = "20.0",
+                ["ContentKR"] = "20",
                 ["TextMapId"] = "UI_DungeonMod_Tab_20",
             },
             ["UI_DungeonMod_Tab_30"] = {
-                ["ContentKR"] = "30.0",
+                ["ContentKR"] = "30",
                 ["TextMapId"] = "UI_DungeonMod_Tab_30",
             },
             ["UI_DungeonMod_Tab_40"] = {
-                ["ContentKR"] = "40.0",
+                ["ContentKR"] = "40",
                 ["TextMapId"] = "UI_DungeonMod_Tab_40",
             },
             ["UI_DungeonMod_Tab_50"] = {
-                ["ContentKR"] = "50.0",
+                ["ContentKR"] = "50",
                 ["TextMapId"] = "UI_DungeonMod_Tab_50",
             },
             ["UI_DungeonMod_Tab_55"] = {
-                ["ContentKR"] = "55.0",
+                ["ContentKR"] = "55",
                 ["TextMapId"] = "UI_DungeonMod_Tab_55",
             },
             ["UI_DungeonMod_Tab_60"] = {
-                ["ContentKR"] = "60.0",
+                ["ContentKR"] = "60",
                 ["TextMapId"] = "UI_DungeonMod_Tab_60",
             },
             ["UI_DungeonMod_Tab_65"] = {
-                ["ContentKR"] = "65.0",
+                ["ContentKR"] = "65",
                 ["TextMapId"] = "UI_DungeonMod_Tab_65",
             },
             ["UI_DungeonMod_Tab_70"] = {
-                ["ContentKR"] = "70.0",
+                ["ContentKR"] = "70",
                 ["TextMapId"] = "UI_DungeonMod_Tab_70",
             },
             ["UI_DungeonMod_Tab_80"] = {
-                ["ContentKR"] = "80.0",
+                ["ContentKR"] = "80",
                 ["TextMapId"] = "UI_DungeonMod_Tab_80",
             },
             ["UI_Dungeon_Detail"] = {
                 ["ContentKR"] = "의뢰 속성 및 드롭 설명",
                 ["TextMapId"] = "UI_Dungeon_Detail",
+            },
+            ["UI_Dungeon_DetailTitle"] = {
+                ["ContentKR"] = "의뢰 상세 정보",
+                ["TextMapId"] = "UI_Dungeon_DetailTitle",
             },
             ["UI_Dungeon_DoubleCost"] = {
                 ["ContentKR"] = "에너지 소모 두 배",
@@ -47756,7 +48647,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Dungeon_TabName",
             },
             ["UI_Dungeon_Tab_ModDungeon"] = {
-                ["ContentKR"] = "밤의 항해 지침서",
+                ["ContentKR"] = "녹토 보이저 지침서",
                 ["TextMapId"] = "UI_Dungeon_Tab_ModDungeon",
             },
             ["UI_Dungeon_Tab_WalnutDungeon"] = {
@@ -48225,7 +49116,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Fishing_OpenFishBook",
             },
             ["UI_Fishing_RareFish"] = {
-                ["ContentKR"] = "레어 어류",
+                ["ContentKR"] = "희귀 어류",
                 ["TextMapId"] = "UI_Fishing_RareFish",
             },
             ["UI_Fishing_Reward"] = {
@@ -48241,11 +49132,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Fishing_SelectFishingRod",
             },
             ["UI_Fishing_SmallToBig"] = {
-                ["ContentKR"] = "결과물 직접 획득",
+                ["ContentKR"] = "물고기로 더 큰 물고기 낚기",
                 ["TextMapId"] = "UI_Fishing_SmallToBig",
             },
             ["UI_Fishing_SmallToBigChance"] = {
-                ["ContentKR"] = "결과물 직접 획득의 기회!",
+                ["ContentKR"] = "물고기로 더 큰 물고기 낚는 기회!",
                 ["TextMapId"] = "UI_Fishing_SmallToBigChance",
             },
             ["UI_Fishing_StartFishing"] = {
@@ -48267,6 +49158,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_Fishing_TrackFishingSpot"] = {
                 ["ContentKR"] = "현재 낚시터 추적",
                 ["TextMapId"] = "UI_Fishing_TrackFishingSpot",
+            },
+            ["UI_Fishing_UnlockFishBook"] = {
+                ["ContentKR"] = "도감 해제",
+                ["TextMapId"] = "UI_Fishing_UnlockFishBook",
             },
             ["UI_Fishing_UpdateTime"] = {
                 ["ContentKR"] = "%s후 낚시터 리셋",
@@ -48296,6 +49191,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "즐겨찾기 추가",
                 ["TextMapId"] = "UI_Friend_AddStar",
             },
+        }
+    end },
+    { MinKey = "UI_Friend_AlreadyBlacklist", MaxKey = "UI_INTERACTIVE_CONDITION_910", Loader = function()
+        return {
             ["UI_Friend_AlreadyBlacklist"] = {
                 ["ContentKR"] = "해당 플레이어를 차단 목록에 추가했습니다",
                 ["TextMapId"] = "UI_Friend_AlreadyBlacklist",
@@ -48336,10 +49235,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "추천 친구",
                 ["TextMapId"] = "UI_Friend_Interested",
             },
-        }
-    end },
-    { MinKey = "UI_Friend_Invite", MaxKey = "UI_ImpressionShop_UnlockCon_Any", Loader = function()
-        return {
             ["UI_Friend_Invite"] = {
                 ["ContentKR"] = "파티 초대",
                 ["TextMapId"] = "UI_Friend_Invite",
@@ -48561,7 +49456,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Gacha_Start_Select",
             },
             ["UI_Gacha_Start_Warning"] = {
-                ["ContentKR"] = "선택을 확인한 후에야 추억을 진행할 수 있습니다. 추억의 시작을 통해 5성 캐릭터를 얻기 전에는 언제든지 5성 시작 캐릭터를 변경할 수 있습니다.",
+                ["ContentKR"] = "선택을 확인한 후에야 추억을 진행할 수 있습니다. '여정의 시작' 추억을 통해 5성 캐릭터를 얻기 전에는 언제든지 5성 시작 캐릭터를 변경할 수 있습니다.",
                 ["TextMapId"] = "UI_Gacha_Start_Warning",
             },
             ["UI_Gacha_Switch_Success"] = {
@@ -49009,7 +49904,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_HeadFrame_Name_10006",
             },
             ["UI_HeadFrame_Name_10007"] = {
-                ["ContentKR"] = "세인 인상·지혜",
+                ["ContentKR"] = "세인 인상·재치",
                 ["TextMapId"] = "UI_HeadFrame_Name_10007",
             },
             ["UI_HeadFrame_Name_10008"] = {
@@ -49089,7 +49984,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_IMPRESSIONSHOP_SUBTAB_MORALITY",
             },
             ["UI_IMPRESSIONSHOP_SUBTAB_WISDOM"] = {
-                ["ContentKR"] = "지혜",
+                ["ContentKR"] = "재치",
                 ["TextMapId"] = "UI_IMPRESSIONSHOP_SUBTAB_WISDOM",
             },
             ["UI_INTERACTIVE_CONDITION_909"] = {
@@ -49100,6 +49995,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "20레벨 필요. 상자가 10초 동안 잠깁니다.",
                 ["TextMapId"] = "UI_INTERACTIVE_CONDITION_910",
             },
+        }
+    end },
+    { MinKey = "UI_INTERACTIVE_FAILMSG", MaxKey = "UI_MECHANISM_10429", Loader = function()
+        return {
             ["UI_INTERACTIVE_FAILMSG"] = {
                 ["ContentKR"] = "현재 상태에서는 상호작용할 수 없습니다.",
                 ["TextMapId"] = "UI_INTERACTIVE_FAILMSG",
@@ -49140,10 +50039,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "임의",
                 ["TextMapId"] = "UI_ImpressionShop_UnlockCon_Any",
             },
-        }
-    end },
-    { MinKey = "UI_ImpressionShop_UnlockCondition_01", MaxKey = "UI_MECHANISM_10440", Loader = function()
-        return {
             ["UI_ImpressionShop_UnlockCondition_01"] = {
                 ["ContentKR"] = "%s 속성: %d",
                 ["TextMapId"] = "UI_ImpressionShop_UnlockCondition_01",
@@ -49662,7 +50557,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Locked_Des_Comission",
             },
             ["UI_Locked_Des_DailyGoal"] = {
-                ["ContentKR"] = "비망 메모가 아직 해제되지 않았습니다",
+                ["ContentKR"] = "메모 노트가 아직 해제되지 않았습니다",
                 ["TextMapId"] = "UI_Locked_Des_DailyGoal",
             },
             ["UI_Locked_Des_Entertainment"] = {
@@ -49734,7 +50629,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Locked_Des_ModArchive",
             },
             ["UI_Locked_Des_ModDungeon"] = {
-                ["ContentKR"] = "밤의 항해 지침서가 아직 해제되지 않았습니다",
+                ["ContentKR"] = "녹토 보이저 지침서가 아직 해제되지 않았습니다",
                 ["TextMapId"] = "UI_Locked_Des_ModDungeon",
             },
             ["UI_Locked_Des_Notice"] = {
@@ -49905,6 +50800,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "페인트",
                 ["TextMapId"] = "UI_MECHANISM_10429",
             },
+        }
+    end },
+    { MinKey = "UI_MECHANISM_10430", MaxKey = "UI_Mod_NotOwned_Char", Loader = function()
+        return {
             ["UI_MECHANISM_10430"] = {
                 ["ContentKR"] = "무덤",
                 ["TextMapId"] = "UI_MECHANISM_10430",
@@ -49945,10 +50844,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "발효 음료",
                 ["TextMapId"] = "UI_MECHANISM_10440",
             },
-        }
-    end },
-    { MinKey = "UI_MECHANISM_10441", MaxKey = "UI_Mod_TakeOffPreview", Loader = function()
-        return {
             ["UI_MECHANISM_10441"] = {
                 ["ContentKR"] = "발자국",
                 ["TextMapId"] = "UI_MECHANISM_10441",
@@ -50230,7 +51125,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_MISSION_COMPLETE",
             },
             ["UI_MISSION_FAIL"] = {
-                ["ContentKR"] = "퀘스트 실패",
+                ["ContentKR"] = "다시 해보세요",
                 ["TextMapId"] = "UI_MISSION_FAIL",
             },
             ["UI_MODIMPORT_ENSURE"] = {
@@ -50378,7 +51273,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Mail_Tab_Star",
             },
             ["UI_Mail_Unstar_Confirm"] = {
-                ["ContentKR"] = "즐겨찾기한 우편을 취소하시겠습니까? (해당 즐겨찾기 우편은 리셋할 때마다 삭제됨)",
+                ["ContentKR"] = "즐겨찾기한 우편을 취소하시겠습니까? (해당 즐겨찾기 우편은 매일 리셋할 때마다 삭제됨)",
                 ["TextMapId"] = "UI_Mail_Unstar_Confirm",
             },
             ["UI_MainTitle_Archive"] = {
@@ -50492,6 +51387,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_MiniGame_Reset"] = {
                 ["ContentKR"] = "리셋",
                 ["TextMapId"] = "UI_MiniGame_Reset",
+            },
+            ["UI_MiniGame_SF_Hint1"] = {
+                ["ContentKR"] = "{空格}",
+                ["TextMapId"] = "UI_MiniGame_SF_Hint1",
             },
             ["UI_MiniGame_SF_Hint2"] = {
                 ["ContentKR"] = "를 연속으로 눌러 방해 구간 돌파",
@@ -50705,6 +51604,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "해당 캐릭터 미보유",
                 ["TextMapId"] = "UI_Mod_NotOwned_Char",
             },
+        }
+    end },
+    { MinKey = "UI_Mod_NotOwned_Weapon", MaxKey = "UI_Npc_Name_PanBeikun", Loader = function()
+        return {
             ["UI_Mod_NotOwned_Weapon"] = {
                 ["ContentKR"] = "해당 무기 미보유",
                 ["TextMapId"] = "UI_Mod_NotOwned_Weapon",
@@ -50749,10 +51652,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "제거 후 속성",
                 ["TextMapId"] = "UI_Mod_TakeOffPreview",
             },
-        }
-    end },
-    { MinKey = "UI_Mod_Tips_Ensure", MaxKey = "UI_Npc_Name_RougeLike_Shop2", Loader = function()
-        return {
             ["UI_Mod_Tips_Ensure"] = {
                 ["ContentKR"] = "가져오기 대상과 방안을 확인하세요",
                 ["TextMapId"] = "UI_Mod_Tips_Ensure",
@@ -51509,6 +52408,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "다시 갇힌 마령",
                 ["TextMapId"] = "UI_Npc_Name_PanBeikun",
             },
+        }
+    end },
+    { MinKey = "UI_Npc_Name_PanTuokun", MaxKey = "UI_OPTION_ThisKeyIsUsed", Loader = function()
+        return {
             ["UI_Npc_Name_PanTuokun"] = {
                 ["ContentKR"] = "탈출한 마령",
                 ["TextMapId"] = "UI_Npc_Name_PanTuokun",
@@ -51553,10 +52456,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "미스터리 행상인",
                 ["TextMapId"] = "UI_Npc_Name_RougeLike_Shop2",
             },
-        }
-    end },
-    { MinKey = "UI_Npc_Name_RougeZhujue", MaxKey = "UI_Observe_Storm", Loader = function()
-        return {
             ["UI_Npc_Name_RougeZhujue"] = {
                 ["ContentKR"] = "나",
                 ["TextMapId"] = "UI_Npc_Name_RougeZhujue",
@@ -51742,7 +52641,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Npc_Name_Won5",
             },
             ["UI_Npc_Name_Wuzang"] = {
-                ["ContentKR"] = "뱀을 기르는 시종",
+                ["ContentKR"] = "뱀을 기르는 조수",
                 ["TextMapId"] = "UI_Npc_Name_Wuzang",
             },
             ["UI_Npc_Name_Wuzishibing"] = {
@@ -52313,6 +53212,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "변경을 지원하지 않는 <Highlight>%s </>에 사용되고 있습니다",
                 ["TextMapId"] = "UI_OPTION_ThisKeyIsUsed",
             },
+        }
+    end },
+    { MinKey = "UI_OPTION_TotalVolume", MaxKey = "UI_PlayerHead_Name_10013", Loader = function()
+        return {
             ["UI_OPTION_TotalVolume"] = {
                 ["ContentKR"] = "마스터 볼륨",
                 ["TextMapId"] = "UI_OPTION_TotalVolume",
@@ -52357,10 +53260,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "폭풍 관찰",
                 ["TextMapId"] = "UI_Observe_Storm",
             },
-        }
-    end },
-    { MinKey = "UI_Opition_ToCamera", MaxKey = "UI_Player_Level_Reward", Loader = function()
-        return {
             ["UI_Opition_ToCamera"] = {
                 ["ContentKR"] = "카메라 지향",
                 ["TextMapId"] = "UI_Opition_ToCamera",
@@ -52721,6 +53620,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "습득한 플레이어의 이동 속도X2 습득 범위X2(미구현)",
                 ["TextMapId"] = "UI_Party_MiniQuest_SpeedUp",
             },
+            ["UI_Party_Parkour_FinishingRate"] = {
+                ["ContentKR"] = "완료율",
+                ["TextMapId"] = "UI_Party_Parkour_FinishingRate",
+            },
+            ["UI_Party_Parkour_Ranking"] = {
+                ["ContentKR"] = "현재 순위",
+                ["TextMapId"] = "UI_Party_Parkour_Ranking",
+            },
             ["UI_Party_Parkour_Skill_01"] = {
                 ["ContentKR"] = "폭탄 배달",
                 ["TextMapId"] = "UI_Party_Parkour_Skill_01",
@@ -52762,7 +53669,8 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Party_RewardCoin_OnLimit_Toast",
             },
             ["UI_Party_RewardDetail"] = {
-                ["ContentKR"] = "영혼의 새 시련을 클리어해 처음으로 임의 별 등급을 달성하면 해당 별 등급의 보상을 받을 수 있습니다./n멀티 시련을 클리어하면 반복 클리어 보상을 받을 수 있으며, 참여 인원이 많을수록, 성적이 좋을수록 푸짐한 보상이 주어집니다. 반복 클리어 보상 횟수는 매일 초기화됩니다.",
+                ["ContentKR"] = "영혼의 새 시련을 클리어해 처음으로 임의 별 등급을 달성하면 해당 별 등급의 보상을 받을 수 있습니다.\
+멀티 시련을 클리어하면 반복 클리어 보상을 받을 수 있으며, 참여 인원이 많을수록, 성적이 좋을수록 푸짐한 보상이 주어집니다. 반복 클리어 보상 횟수는 매일 초기화됩니다.",
                 ["TextMapId"] = "UI_Party_RewardDetail",
             },
             ["UI_PatchFix_Popup"] = {
@@ -52898,11 +53806,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Pet_BreakLevelUp",
             },
             ["UI_Pet_CaptureFail"] = {
-                ["ContentKR"] = "포획 실패",
+                ["ContentKR"] = "먹이주기 실패",
                 ["TextMapId"] = "UI_Pet_CaptureFail",
             },
             ["UI_Pet_CaptureSucRate"] = {
-                ["ContentKR"] = "포획 성공 확률",
+                ["ContentKR"] = "마령과 친구 될 확률",
                 ["TextMapId"] = "UI_Pet_CaptureSucRate",
             },
             ["UI_Pet_CaptureSucRateColor"] = {
@@ -52910,7 +53818,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Pet_CaptureSucRateColor",
             },
             ["UI_Pet_CaptureSuccess"] = {
-                ["ContentKR"] = "포획 성공",
+                ["ContentKR"] = "먹이주기 성공",
                 ["TextMapId"] = "UI_Pet_CaptureSuccess",
             },
             ["UI_Pet_ChooseSnacks"] = {
@@ -52918,7 +53826,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Pet_ChooseSnacks",
             },
             ["UI_Pet_FoodLV0"] = {
-                ["ContentKR"] = "마령들이 먹을 수 있는 음식, 마령 포획에 사용됩니다",
+                ["ContentKR"] = "마령들이 먹을 수 있는 음식, 마령에게 먹이를 줄 때 사용할 수 있다.",
                 ["TextMapId"] = "UI_Pet_FoodLV0",
             },
             ["UI_Pet_FoodNotEnough"] = {
@@ -52926,7 +53834,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Pet_FoodNotEnough",
             },
             ["UI_Pet_Get"] = {
-                ["ContentKR"] = "마령 포획",
+                ["ContentKR"] = "마령 먹이주기",
                 ["TextMapId"] = "UI_Pet_Get",
             },
             ["UI_Pet_LevelUp"] = {
@@ -52938,7 +53846,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Pet_Locked",
             },
             ["UI_Pet_Popup_Quit"] = {
-                ["ContentKR"] = "마령 포획을 종료하시겠습니까?",
+                ["ContentKR"] = "마령 먹이주기를 종료하시겠습니까?",
                 ["TextMapId"] = "UI_Pet_Popup_Quit",
             },
             ["UI_Pet_Skill_CD"] = {
@@ -52954,11 +53862,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Pet_ThrowFood_Phone",
             },
             ["UI_Pet_Title"] = {
-                ["ContentKR"] = "마령 포획",
+                ["ContentKR"] = "마령 먹이주기",
                 ["TextMapId"] = "UI_Pet_Title",
             },
             ["UI_Pet_Toast_LowSuccRate"] = {
-                ["ContentKR"] = "포획 성공률이 너무 낮습니다. 더 좋은 통조림을 선택하세요.",
+                ["ContentKR"] = "마령과 친구 될 성공률이 너무 낮습니다. 더 좋은 통조림을 선택하세요.",
                 ["TextMapId"] = "UI_Pet_Toast_LowSuccRate",
             },
             ["UI_PickupExplore1"] = {
@@ -53109,6 +54017,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "연금술사의 초상화",
                 ["TextMapId"] = "UI_PlayerHead_Name_10013",
             },
+        }
+    end },
+    { MinKey = "UI_PlayerHead_Name_10014", MaxKey = "UI_Rouge_Shop_SubTab_Treasure", Loader = function()
+        return {
             ["UI_PlayerHead_Name_10014"] = {
                 ["ContentKR"] = "나이팅게일 양의 초상화",
                 ["TextMapId"] = "UI_PlayerHead_Name_10014",
@@ -53161,10 +54073,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "수련 레벨 보상",
                 ["TextMapId"] = "UI_Player_Level_Reward",
             },
-        }
-    end },
-    { MinKey = "UI_PowerSeat", MaxKey = "UI_Rougebag_BagSubTab_Name_0", Loader = function()
-        return {
             ["UI_PowerSeat"] = {
                 ["ContentKR"] = "앉기",
                 ["TextMapId"] = "UI_PowerSeat",
@@ -53313,6 +54221,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "완료",
                 ["TextMapId"] = "UI_QUEST_UNLOCKFINISH",
             },
+            ["UI_Quest_CanTakeQuest"] = {
+                ["ContentKR"] = "수락 가능",
+                ["TextMapId"] = "UI_Quest_CanTakeQuest",
+            },
             ["UI_Quest_TakeQuest"] = {
                 ["ContentKR"] = "퀘스트 수락",
                 ["TextMapId"] = "UI_Quest_TakeQuest",
@@ -53348,6 +54260,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_REGIONMAP_NAME_204"] = {
                 ["ContentKR"] = "히프노스의 집",
                 ["TextMapId"] = "UI_REGIONMAP_NAME_204",
+            },
+            ["UI_REGION_EXITONLINE_TIP"] = {
+                ["ContentKR"] = "온라인 모드에서 나갑니다.",
+                ["TextMapId"] = "UI_REGION_EXITONLINE_TIP",
             },
             ["UI_REGION_NAME_1001"] = {
                 ["ContentKR"] = "연옥도",
@@ -53388,6 +54304,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_REGION_NAME_1022"] = {
                 ["ContentKR"] = "황실 군교도소",
                 ["TextMapId"] = "UI_REGION_NAME_1022",
+            },
+            ["UI_REGION_NAME_1032"] = {
+                ["ContentKR"] = "소드 연금원",
+                ["TextMapId"] = "UI_REGION_NAME_1032",
             },
             ["UI_REGION_NAME_1041"] = {
                 ["ContentKR"] = "동쪽의 나라 1탄",
@@ -53901,6 +54821,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "유물",
                 ["TextMapId"] = "UI_Rouge_Shop_SubTab_Treasure",
             },
+        }
+    end },
+    { MinKey = "UI_Rouge_TalentSubTitle_CHARATK", MaxKey = "UI_Select_Price", Loader = function()
+        return {
             ["UI_Rouge_TalentSubTitle_CHARATK"] = {
                 ["ContentKR"] = "등불 덮개: 명예의 축복",
                 ["TextMapId"] = "UI_Rouge_TalentSubTitle_CHARATK",
@@ -53965,10 +54889,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "모두",
                 ["TextMapId"] = "UI_Rougebag_BagSubTab_Name_0",
             },
-        }
-    end },
-    { MinKey = "UI_Rougebag_BagSubTab_Name_101", MaxKey = "UI_Shop_Toast_Locked", Loader = function()
-        return {
             ["UI_Rougebag_BagSubTab_Name_101"] = {
                 ["ContentKR"] = "화롯불",
                 ["TextMapId"] = "UI_Rougebag_BagSubTab_Name_101",
@@ -54368,7 +55288,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_STAT_Bullets_Cost",
             },
             ["UI_STAT_Chest"] = {
-                ["ContentKR"] = "보물 상자 수량 열기",
+                ["ContentKR"] = "수납함 수량 열기",
                 ["TextMapId"] = "UI_STAT_Chest",
             },
             ["UI_STAT_Combo_Max"] = {
@@ -54663,6 +55583,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "???",
                 ["TextMapId"] = "UI_SUBREGION_NAME_102104",
             },
+            ["UI_SUBREGION_NAME_103201"] = {
+                ["ContentKR"] = "소드 연금원",
+                ["TextMapId"] = "UI_SUBREGION_NAME_103201",
+            },
             ["UI_SUBREGION_NAME_210101"] = {
                 ["ContentKR"] = "휴식처",
                 ["TextMapId"] = "UI_SUBREGION_NAME_210101",
@@ -54703,6 +55627,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "판매 가격",
                 ["TextMapId"] = "UI_Select_Price",
             },
+        }
+    end },
+    { MinKey = "UI_Select_Time", MaxKey = "UI_TEMPLE_FAILURE_LIFE", Loader = function()
+        return {
             ["UI_Select_Time"] = {
                 ["ContentKR"] = "출시 시간",
                 ["TextMapId"] = "UI_Select_Time",
@@ -54771,10 +55699,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "수련 레벨이 %s에 도달하면 해제",
                 ["TextMapId"] = "UI_Shop_Toast_Locked",
             },
-        }
-    end },
-    { MinKey = "UI_Shop_Toast_No_Coin", MaxKey = "UI_TEMPLE_STAR_2", Loader = function()
-        return {
             ["UI_Shop_Toast_No_Coin"] = {
                 ["ContentKR"] = "%s 부족, 구매 불가",
                 ["TextMapId"] = "UI_Shop_Toast_No_Coin",
@@ -54832,7 +55756,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Skin_Name_210102",
             },
             ["UI_Skin_Name_510101"] = {
-                ["ContentKR"] = "선샤인 방앗간",
+                ["ContentKR"] = "햇살 방앗간",
                 ["TextMapId"] = "UI_Skin_Name_510101",
             },
             ["UI_Skin_Name_530101"] = {
@@ -54844,11 +55768,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_SpecialQuest_GiveUp",
             },
             ["UI_Squad"] = {
-                ["ContentKR"] = "프리셋 진용",
+                ["ContentKR"] = "프리셋 편성",
                 ["TextMapId"] = "UI_Squad",
             },
             ["UI_SquadName_Change"] = {
-                ["ContentKR"] = "진용 프리셋 이름 변경",
+                ["ContentKR"] = "편성 프리셋 이름 변경",
                 ["TextMapId"] = "UI_SquadName_Change",
             },
             ["UI_Squad_Add"] = {
@@ -54856,7 +55780,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Squad_Add",
             },
             ["UI_Squad_Adjust_Sort"] = {
-                ["ContentKR"] = "진용을 누른 채 드래그하여 순서를 조정할 수 있습니다",
+                ["ContentKR"] = "편성을 누른 채 드래그하여 순서를 조정할 수 있습니다",
                 ["TextMapId"] = "UI_Squad_Adjust_Sort",
             },
             ["UI_Squad_Appearance_TITLE1"] = {
@@ -54884,7 +55808,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Squad_BattleWheel_TITLE3",
             },
             ["UI_Squad_DeleteReConfirm"] = {
-                ["ContentKR"] = "프리셋 진용: <highlight>%s</>을(를) 삭제하시겠습니까?",
+                ["ContentKR"] = "프리셋 편성: <highlight>%s</>을(를) 삭제하시겠습니까?",
                 ["TextMapId"] = "UI_Squad_DeleteReConfirm",
             },
             ["UI_Squad_DeleteSuccess"] = {
@@ -54896,15 +55820,15 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Squad_Edit",
             },
             ["UI_Squad_Essential_Miss"] = {
-                ["ContentKR"] = "필수 진용 구성 요소 결함",
+                ["ContentKR"] = "필수 편성 구성 요소 결함",
                 ["TextMapId"] = "UI_Squad_Essential_Miss",
             },
             ["UI_Squad_ExitReConfirm"] = {
-                ["ContentKR"] = "현재 프리셋 진용이 완전하게 설정되지 않았습니다. 저장하시겠습니까?",
+                ["ContentKR"] = "현재 프리셋 편성이 완전하게 설정되지 않았습니다. 저장하시겠습니까?",
                 ["TextMapId"] = "UI_Squad_ExitReConfirm",
             },
             ["UI_Squad_InputHint"] = {
-                ["ContentKR"] = "진용 프리셋 이름을 입력하세요",
+                ["ContentKR"] = "프리셋 편성 이름을 입력하세요",
                 ["TextMapId"] = "UI_Squad_InputHint",
             },
             ["UI_Squad_ListName"] = {
@@ -54916,15 +55840,15 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Squad_Max",
             },
             ["UI_Squad_Miss"] = {
-                ["ContentKR"] = "진용 구성 요소 결함",
+                ["ContentKR"] = "편성 구성 요소 결함",
                 ["TextMapId"] = "UI_Squad_Miss",
             },
             ["UI_Squad_Miss_Challenge"] = {
-                ["ContentKR"] = "진용 구성 요소 결함, 도전을 시작할 수 없습니다",
+                ["ContentKR"] = "편성 구성 요소 결함, 도전을 시작할 수 없습니다",
                 ["TextMapId"] = "UI_Squad_Miss_Challenge",
             },
             ["UI_Squad_Miss_Online"] = {
-                ["ContentKR"] = "플레이어 진용 구성 요소 결함이 있어, 도전을 시작할 수 없습니다(%s)",
+                ["ContentKR"] = "플레이어 편성 구성 요소 결함이 있어, 도전을 시작할 수 없습니다(%sP)",
                 ["TextMapId"] = "UI_Squad_Miss_Online",
             },
             ["UI_Squad_Miss_SigilWeapon"] = {
@@ -55509,6 +56433,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "남은 생명력 소진",
                 ["TextMapId"] = "UI_TEMPLE_FAILURE_LIFE",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_FAILURE_QUIT", MaxKey = "UI_WEAPON_DESC_10208", Loader = function()
+        return {
             ["UI_TEMPLE_FAILURE_QUIT"] = {
                 ["ContentKR"] = "먼저 시련 나가기",
                 ["TextMapId"] = "UI_TEMPLE_FAILURE_QUIT",
@@ -55577,10 +56505,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "★★: ",
                 ["TextMapId"] = "UI_TEMPLE_STAR_2",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_STAR_3", MaxKey = "UI_WEAPON_DESC_10599", Loader = function()
-        return {
             ["UI_TEMPLE_STAR_3"] = {
                 ["ContentKR"] = "★★★: ",
                 ["TextMapId"] = "UI_TEMPLE_STAR_3",
@@ -55602,7 +56526,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_TEMPLE_SUCRULE_COUNTDOWN_1",
             },
             ["UI_TEMPLE_SUCRULE_SCORE"] = {
-                ["ContentKR"] = "클리어 시 최소 획득 점수 ",
+                ["ContentKR"] = "클리어 시 최소 획득 점수",
                 ["TextMapId"] = "UI_TEMPLE_SUCRULE_SCORE",
             },
             ["UI_TEMPLE_SUCRULE_ZERO"] = {
@@ -55628,6 +56552,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_TEMPLE_TOTAL_TIME"] = {
                 ["ContentKR"] = "총 시간",
                 ["TextMapId"] = "UI_TEMPLE_TOTAL_TIME",
+            },
+            ["UI_TEXT_SOLDFISH"] = {
+                ["ContentKR"] = "낚은 물고기 판매",
+                ["TextMapId"] = "UI_TEXT_SOLDFISH",
             },
             ["UI_TIP_MP"] = {
                 ["ContentKR"] = "정신력이 부족합니다",
@@ -55826,7 +56754,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_Temple_MonsterIn",
             },
             ["UI_Temple_NormalPattern"] = {
-                ["ContentKR"] = "패턴 일치, 점수+1",
+                ["ContentKR"] = "패턴 일치, 점수 획득",
                 ["TextMapId"] = "UI_Temple_NormalPattern",
             },
             ["UI_Temple_QuickPattern"] = {
@@ -55888,6 +56816,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_Tips_CantSell"] = {
                 ["ContentKR"] = "판매 불가",
                 ["TextMapId"] = "UI_Tips_CantSell",
+            },
+            ["UI_Tips_Close"] = {
+                ["ContentKR"] = "돌아가기",
+                ["TextMapId"] = "UI_Tips_Close",
+            },
+            ["UI_Tips_Ensure"] = {
+                ["ContentKR"] = "확인",
+                ["TextMapId"] = "UI_Tips_Ensure",
             },
             ["UI_Tips_ModApplicationType"] = {
                 ["ContentKR"] = "적합한 유형: ",
@@ -56312,6 +57248,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "존엄을 지키기 위해 싸우는 흰 비둘기. 모든 깃털을 평화의 결실에 바치겠다고 맹세했다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10208",
             },
+        }
+    end },
+    { MinKey = "UI_WEAPON_DESC_10209", MaxKey = "UI_WeaponAccessory_Name_10006", Loader = function()
+        return {
             ["UI_WEAPON_DESC_10209"] = {
                 ["ContentKR"] = "피투성이의 날카로운 칼날은 이미 심장을 향했다. 뜨거운 용암이 식기 전이니 아직 도망칠 수 있다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10209",
@@ -56392,10 +57332,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "흔히 볼 수 있는 칼날 채찍. 가장 저렴한 금속으로 제작되어, 망가져도 전혀 아깝지 않다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10599",
             },
-        }
-    end },
-    { MinKey = "UI_WEAPON_DESC_10601", MaxKey = "UI_WeaponCardLevel_Popup_HaveMax", Loader = function()
-        return {
             ["UI_WEAPON_DESC_10601"] = {
                 ["ContentKR"] = "인기 비극 《홍엽 반토 비화》에서 등장하는 칼로, 매우 희귀한 형태를 가졌다. 칼자루에 붉은 점은 원래 주인이 군주를 찔러 죽일 때 남긴 피 얼룩이라고 한다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10601",
@@ -57121,6 +58057,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "리본·아이보리",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10006",
             },
+        }
+    end },
+    { MinKey = "UI_WeaponAccessory_Name_10007", MaxKey = "VoiceDes128", Loader = function()
+        return {
             ["UI_WeaponAccessory_Name_10007"] = {
                 ["ContentKR"] = "리본·러스트 레드",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10007",
@@ -57201,10 +58141,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "현재 선택한 무기 중 이미 용해된 무기가 있습니다. 이번 용해로 용해 레벨이 %s레벨까지 추가로 상승합니다. 계속 용해하시겠습니까?",
                 ["TextMapId"] = "UI_WeaponCardLevel_Popup_HaveMax",
             },
-        }
-    end },
-    { MinKey = "UI_WeaponCardLevel_Popup_HaveUpgraded", MaxKey = "WikiText_20100501", Loader = function()
-        return {
             ["UI_WeaponCardLevel_Popup_HaveUpgraded"] = {
                 ["ContentKR"] = "현재 선택한 무기 중 이미 레벨업된 무기가 있습니다. 계속 용해하시겠습니까?",
                 ["TextMapId"] = "UI_WeaponCardLevel_Popup_HaveUpgraded",
@@ -57222,31 +58158,38 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_WeaponCardLevel_Popup_PlayerEquiped",
             },
             ["UI_WeaponSkin_Des_3010101"] = {
-                ["ContentKR"] = "하루 종일 낚시를 한 용사는 결코 빈손으로 집에 돌아갈 수 없다. 다행히도 오늘 수산시장에서 할인가 80쿠퍼에 한 마리를 팔고 있다.",
+                ["ContentKR"] = "중검에 적합합니다.\
+하루 종일 낚시를 한 용사는 결코 빈손으로 집에 돌아갈 수 없다. 다행히도 오늘 수산시장에서 할인가 80쿠퍼에 한 마리를 팔고 있다.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010101",
             },
             ["UI_WeaponSkin_Des_3010102"] = {
-                ["ContentKR"] = "별들은 충돌하기 전에 작별 인사를 나눈다. 조각난 속삭임은 하늘 위의 불꽃이 되어, 마치 은하의 호흡처럼 보인다.",
+                ["ContentKR"] = "중검에 적합합니다.\
+별들은 충돌하기 전에 작별 인사를 나눈다. 조각난 속삭임은 하늘 위의 불꽃이 되어, 마치 은하의 호흡처럼 보인다.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010102",
             },
             ["UI_WeaponSkin_Des_3010201"] = {
-                ["ContentKR"] = "냉동 시 파워와 풍미를 모두 갖춘 설무늬어. 통조림과 랩의 유통기한이 지나더라도 이건 멀쩡할 거다.",
+                ["ContentKR"] = "한손검에 적합합니다.\
+냉동 시 파워와 풍미를 모두 갖춘 설무늬어. 통조림과 랩의 유통기한이 지나더라도 이건 멀쩡할 거다.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010201",
             },
             ["UI_WeaponSkin_Des_3010202"] = {
-                ["ContentKR"] = "다소 특이한 검. 아버지의 채찍… 아니, 아버지의 사랑을 상징한다.",
+                ["ContentKR"] = "한손검에 적합합니다.\
+다소 특이한 검. 아버지의 채찍… 아니, 아버지의 사랑을 상징한다.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010202",
             },
             ["UI_WeaponSkin_Des_3010301"] = {
-                ["ContentKR"] = "태양아, 태양아 어디에 있니? 태양은 우리의 손안에 있어.",
+                ["ContentKR"] = "활에 적합합니다.\
+태양아, 태양아 어디에 있니? 태양은 우리의 손안에 있어.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010301",
             },
             ["UI_WeaponSkin_Des_3010401"] = {
-                ["ContentKR"] = "청아한 목소리가 소녀의 얕은 꿈을 깨우고, 여름의 심금을 울린다.",
+                ["ContentKR"] = "활장병기에 적합합니다.\
+청아한 목소리가 소녀의 얕은 꿈을 깨우고, 여름의 심금을 울린다.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010401",
             },
             ["UI_WeaponSkin_Des_3010402"] = {
-                ["ContentKR"] = "물결은 춤추는 자의 발끝에서 넘실대고, 바닷바람은 온 여름의 정수를 감싸며 클라이맥스를 이곳에 새긴다.",
+                ["ContentKR"] = "활장병기에 적합합니다.\
+물결은 춤추는 자의 발끝에서 넘실대고, 바닷바람은 온 여름의 정수를 감싸며 클라이맥스를 이곳에 새긴다.",
                 ["TextMapId"] = "UI_WeaponSkin_Des_3010402",
             },
             ["UI_WeaponSkin_Name_3010101"] = {
@@ -57262,7 +58205,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UI_WeaponSkin_Name_3010201",
             },
             ["UI_WeaponSkin_Name_3010202"] = {
-                ["ContentKR"] = "아버지의 그늘",
+                ["ContentKR"] = "선조의 그늘",
                 ["TextMapId"] = "UI_WeaponSkin_Name_3010202",
             },
             ["UI_WeaponSkin_Name_3010301"] = {
@@ -57529,44 +58472,48 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "클리어·넷",
                 ["TextMapId"] = "VoiceDes027",
             },
+            ["VoiceDes028"] = {
+                ["ContentKR"] = "(기대해 주세요)",
+                ["TextMapId"] = "VoiceDes028",
+            },
             ["VoiceDes031"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·하나",
+                ["ContentKR"] = "·하나",
                 ["TextMapId"] = "VoiceDes031",
             },
             ["VoiceDes032"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·둘",
+                ["ContentKR"] = "·둘",
                 ["TextMapId"] = "VoiceDes032",
             },
             ["VoiceDes033"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·셋",
+                ["ContentKR"] = "·셋",
                 ["TextMapId"] = "VoiceDes033",
             },
             ["VoiceDes034"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·넷",
+                ["ContentKR"] = "·넷",
                 ["TextMapId"] = "VoiceDes034",
             },
             ["VoiceDes035"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·다섯",
+                ["ContentKR"] = "·다섯",
                 ["TextMapId"] = "VoiceDes035",
             },
             ["VoiceDes036"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·여섯",
+                ["ContentKR"] = "·여섯",
                 ["TextMapId"] = "VoiceDes036",
             },
             ["VoiceDes037"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·일곱",
+                ["ContentKR"] = "·일곱",
                 ["TextMapId"] = "VoiceDes037",
             },
             ["VoiceDes038"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·여덟",
+                ["ContentKR"] = "·여덟",
                 ["TextMapId"] = "VoiceDes038",
             },
             ["VoiceDes039"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·아홉",
+                ["ContentKR"] = "·아홉",
                 ["TextMapId"] = "VoiceDes039",
             },
             ["VoiceDes040"] = {
-                ["ContentKR"] = "월석 사냥꾼과 함께·열",
+                ["ContentKR"] = "·열",
                 ["TextMapId"] = "VoiceDes040",
             },
             ["VoiceDes041"] = {
@@ -57869,6 +58816,150 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "밤에 대해",
                 ["TextMapId"] = "VoiceDes115",
             },
+            ["VoiceDes116"] = {
+                ["ContentKR"] = "고향에 관하여",
+                ["TextMapId"] = "VoiceDes116",
+            },
+            ["VoiceDes117"] = {
+                ["ContentKR"] = "안개의 바다에 관하여",
+                ["TextMapId"] = "VoiceDes117",
+            },
+            ["VoiceDes118"] = {
+                ["ContentKR"] = "친구에 관하여",
+                ["TextMapId"] = "VoiceDes118",
+            },
+            ["VoiceDes119"] = {
+                ["ContentKR"] = "하모니카에 관하여",
+                ["TextMapId"] = "VoiceDes119",
+            },
+            ["VoiceDes120"] = {
+                ["ContentKR"] = "하모니카에 관하여",
+                ["TextMapId"] = "VoiceDes120",
+            },
+            ["VoiceDes121"] = {
+                ["ContentKR"] = "군단에 관하여",
+                ["TextMapId"] = "VoiceDes121",
+            },
+            ["VoiceDes122"] = {
+                ["ContentKR"] = "군단에 관하여",
+                ["TextMapId"] = "VoiceDes122",
+            },
+            ["VoiceDes123"] = {
+                ["ContentKR"] = "악마의 뿔에 관하여",
+                ["TextMapId"] = "VoiceDes123",
+            },
+            ["VoiceDes124"] = {
+                ["ContentKR"] = "블루스에 관하여",
+                ["TextMapId"] = "VoiceDes124",
+            },
+            ["VoiceDes125"] = {
+                ["ContentKR"] = "호칭에 관하여",
+                ["TextMapId"] = "VoiceDes125",
+            },
+            ["VoiceDes126"] = {
+                ["ContentKR"] = "공연에 관하여",
+                ["TextMapId"] = "VoiceDes126",
+            },
+            ["VoiceDes127"] = {
+                ["ContentKR"] = "극장에 관하여",
+                ["TextMapId"] = "VoiceDes127",
+            },
+            ["VoiceDes128"] = {
+                ["ContentKR"] = "의학에 관하여",
+                ["TextMapId"] = "VoiceDes128",
+            },
+        }
+    end },
+    { MinKey = "VoiceDes129", MaxKey = "voice_ch_char_Aote_vo_companio_01", Loader = function()
+        return {
+            ["VoiceDes129"] = {
+                ["ContentKR"] = "연금원에 관하여",
+                ["TextMapId"] = "VoiceDes129",
+            },
+            ["VoiceDes130"] = {
+                ["ContentKR"] = "가방에 관하여",
+                ["TextMapId"] = "VoiceDes130",
+            },
+            ["VoiceDes131"] = {
+                ["ContentKR"] = "훈련에 관하여",
+                ["TextMapId"] = "VoiceDes131",
+            },
+            ["VoiceDes132"] = {
+                ["ContentKR"] = "아버지에 관하여",
+                ["TextMapId"] = "VoiceDes132",
+            },
+            ["VoiceDes133"] = {
+                ["ContentKR"] = "검법에 관하여",
+                ["TextMapId"] = "VoiceDes133",
+            },
+            ["VoiceDes134"] = {
+                ["ContentKR"] = "반항에 관하여",
+                ["TextMapId"] = "VoiceDes134",
+            },
+            ["VoiceDes135"] = {
+                ["ContentKR"] = "무기에 관하여",
+                ["TextMapId"] = "VoiceDes135",
+            },
+            ["VoiceDes136"] = {
+                ["ContentKR"] = "·열 하나",
+                ["TextMapId"] = "VoiceDes136",
+            },
+            ["VoiceDes137"] = {
+                ["ContentKR"] = "부상·셋",
+                ["TextMapId"] = "VoiceDes137",
+            },
+            ["VoiceDes138"] = {
+                ["ContentKR"] = "부상·넷",
+                ["TextMapId"] = "VoiceDes138",
+            },
+            ["VoiceDes139"] = {
+                ["ContentKR"] = "스킬 시전·셋",
+                ["TextMapId"] = "VoiceDes139",
+            },
+            ["VoiceDes140"] = {
+                ["ContentKR"] = "스킬 시전·넷",
+                ["TextMapId"] = "VoiceDes140",
+            },
+            ["VoiceDes141"] = {
+                ["ContentKR"] = "스킬 시전·다섯",
+                ["TextMapId"] = "VoiceDes141",
+            },
+            ["VoiceDes142"] = {
+                ["ContentKR"] = "기술에 관하여",
+                ["TextMapId"] = "VoiceDes142",
+            },
+            ["VoiceDes143"] = {
+                ["ContentKR"] = "포세이큰 동맹에 관하여",
+                ["TextMapId"] = "VoiceDes143",
+            },
+            ["VoiceDes144"] = {
+                ["ContentKR"] = "상처에 관하여",
+                ["TextMapId"] = "VoiceDes144",
+            },
+            ["VoiceDes145"] = {
+                ["ContentKR"] = "생존에 관하여",
+                ["TextMapId"] = "VoiceDes145",
+            },
+            ["VoiceDes146"] = {
+                ["ContentKR"] = "보수에 관하여",
+                ["TextMapId"] = "VoiceDes146",
+            },
+            ["VoiceDes147"] = {
+                ["ContentKR"] = "대가에 관하여",
+                ["TextMapId"] = "VoiceDes147",
+            },
+            ["VoiceDes148"] = {
+                ["ContentKR"] = "사업에 관하여",
+                ["TextMapId"] = "VoiceDes148",
+            },
+            ["VoiceDes149"] = {
+                ["ContentKR"] = "공포에 관하여",
+                ["TextMapId"] = "VoiceDes149",
+            },
+            ["VoiceDes150"] = {
+                ["ContentKR"] = "종결 스킬 시전·넷",
+                ["TextMapId"] = "VoiceDes150",
+            },
             ["VoiceLocked_Dialogue"] = {
                 ["ContentKR"] = "캐릭터를 휴식처로 초대 후 대화하기",
                 ["TextMapId"] = "VoiceLocked_Dialogue",
@@ -58014,10 +59105,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "카밀라와 함께 {nickname}를(을) 구한 루나로, 카룬과 비슷한 악마의 뿔이 특징이다. 말투가 상당히 과장된 편이다.",
                 ["TextMapId"] = "WikiText_20100501",
             },
-        }
-    end },
-    { MinKey = "WikiText_20100502", MaxKey = "voice_ch_char_Baiheng_vo_topic_01_3", Loader = function()
-        return {
             ["WikiText_20100502"] = {
                 ["ContentKR"] = "스스로를 '순백의 구원자☆빛의 마왕님'이라 자칭하며 다른 루나들처럼 인간의 칭찬을 갈구하는 듯한 모습을 보이진 않지만, 실제 행동의 양상은 평범한 루나들과 별반 다르지 않다.",
                 ["TextMapId"] = "WikiText_20100502",
@@ -58201,7 +59288,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "WikiText_20102602",
             },
             ["WikiText_20400101"] = {
-                ["ContentKR"] = "{nickname}의 모래 바다 꿈에 등장하는 신비한 {性别2:소녀|소년}. {nickname}조차 모르는 진실을 알고 있는 듯하다.",
+                ["ContentKR"] = "{nickname}의 모래 바다 꿈에 등장하는 신비한 {性别2:소년|소녀}. {nickname}조차 모르는 진실을 알고 있는 듯하다.",
                 ["TextMapId"] = "WikiText_20400101",
             },
             ["WikiText_20400102"] = {
@@ -58637,6 +59724,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "왜 여기 있어? 몸은 괜찮아? 병은 나았고? 밥은? 휴... 필요한 거 있으면 나한테 말해. 아무 데나 돌아다니지 말고.",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_companio_01",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Aote_vo_companio_02_1", MaxKey = "voice_ch_char_Heitao_vo_companio_03", Loader = function()
+        return {
             ["voice_ch_char_Aote_vo_companio_02_1"] = {
                 ["ContentKR"] = "{nickname}, 그 녀석과 친하다는 그 여자아이구나... 몸이 약하다고 들었어. 앉아 좀 쉬고 있어.",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_companio_02_1",
@@ -58778,8 +59869,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_be_hit_r02",
             },
             ["voice_ch_char_Baiheng_vo_birthday"] = {
-                ["ContentKR"] = "오늘이 당신의 생일인가요? 어쩐지 몸에서 달콤한 향기가 느껴지더라니. 꿀에 절인 과일과 장수면을 많이 먹었기 때문이겠죠? 마침 여기에 소화를 위한 탕약이 있는데……\
-음? 여기는 장수면 말고 케…… 이크를 먹는다구요? 음…… 잠시만요, 탕약을 새로 끓여 올게요. 다른 사람들로부터 먹을 것을 이렇게 많이 받고 있는데 의원으로서 가만히 두고 볼 수만은 없죠.",
+                ["ContentKR"] = "오늘 당신의 생일이라는 걸 알아요. 작은 선물로 밖에서 쓸 수 있는 약을 준비했어요. 감기에 걸리거나, 가벼운 상처를 입게 된다면 요긴하게 사용할 수 있을 거예요. 하지만... 항상 무탈해서 이걸 쓸 일이 없다면 더욱 좋겠죠.",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_birthday",
             },
             ["voice_ch_char_Baiheng_vo_companio"] = {
@@ -58862,16 +59952,12 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "괜찮아요. 저도 그녀도 처음의 그 결정을 후회하지 않아요. 설령 그 대가가 다시는 만날 수 없는 이별이더라도요.",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_01_3",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Baiheng_vo_topic_02_1", MaxKey = "voice_ch_char_Kezhou_vo_topic_02_2", Loader = function()
-        return {
             ["voice_ch_char_Baiheng_vo_topic_02_1"] = {
                 ["ContentKR"] = "화서와 비교하면 휘페르보레아 제국은 무언가 다른 냄새가 나요. 같은 약초라도 피와 녹슨 쇠의 냄새가 더 강하게 느껴지네요.",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_02_1",
             },
             ["voice_ch_char_Baiheng_vo_topic_02_2"] = {
-                ["ContentKR"] = "쌍둥이라도 환경에 따라 성격이 전혀 다를 수 있어요. 식물도 똑같죠. 산지가 다르면, 약의 성질을 모두 검사해 봐야 해요.",
+                ["ContentKR"] = "당신 말처럼, 전... 심각한 병에 걸려 죽을뻔했던 적이 있어요. 만약 그런 시련을 다시 마주하게 된다면, 또 한 번 그때와 같은 선택을 할 수 있을진 모르겠네요.",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_02_2",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_1"] = {
@@ -58883,7 +59969,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_03_2",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_3"] = {
-                ["ContentKR"] = "환자뿐 아니라 살구나무 숲에서 노는 아이들도 있어요. 그러니 택생각은 그들이게는 놀이터 같은 곳이기도 하네요. 매년 나무에 부딪혀 다치는 아이들이 있긴 하지만요…… 올해는 어떨지 모르겠네요.",
+                ["ContentKR"] = "긴 잠에서 깨어난 뒤, 제 기억 속의 살구나무를 찾으러 간 적이 있어요. 하지만 그 자리엔 가차 없는 세월을 견뎌내지 못한 썩은 나무만이 남아있었죠. 비록 올봄은 따뜻했지만, 새싹은 트지 않았어요.",
                 ["TextMapId"] = "voice_ch_char_Baiheng_vo_topic_03_3",
             },
             ["voice_ch_char_Baiheng_vo_topic_03_4"] = {
@@ -59315,7 +60401,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Haier_vo_gain",
             },
             ["voice_ch_char_Haier_vo_idle"] = {
-                ["ContentKR"] = "세상 편하네…… 내 지옥불이 무섭지 않나? 하. 무지한 벌레 같으니, 곧 내 발 밑에 짓밟히고 후회하게 될 것이다.",
+                ["ContentKR"] = "세상 편하네... 내 지옥불이 무섭지 않나? 하. 무지한 벌레 같으니, 곧 내 발 밑에 짓밟히고 후회하게 될 것이다.",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_idle",
             },
             ["voice_ch_char_Haier_vo_lvup"] = {
@@ -59446,6 +60532,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "난 군단의 '제로'도 아니고, 네 장난감도 아니야. 당장 떠나든지, 아니면 내 시체와 함께 돌아가든지.",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_03",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Heitao_vo_companio_04_1", MaxKey = "voice_ch_char_Maer_vo_skill01_r02", Loader = function()
+        return {
             ["voice_ch_char_Heitao_vo_companio_04_1"] = {
                 ["ContentKR"] = "네가 뛰어난 미식가라던데 네 레시피를 좀 볼 수 있을까? 네가 한 음식은 항상 맛있다는 {nickname}의 칭찬이, 빈 말은 아닌 것 같았거든.",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_04_1",
@@ -59571,11 +60661,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_battlestart",
             },
             ["voice_ch_char_Kezhou_vo_be_hit_heavy_r01"] = {
-                ["ContentKR"] = "윽!",
+                ["ContentKR"] = "솜씨가 좋군!",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_be_hit_heavy_r01",
             },
             ["voice_ch_char_Kezhou_vo_be_hit_heavy_r02"] = {
-                ["ContentKR"] = "으!",
+                ["ContentKR"] = "근골은 다치지 않았다.",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_be_hit_heavy_r02",
             },
             ["voice_ch_char_Kezhou_vo_birthday"] = {
@@ -59674,10 +60764,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "어려서부터 자유로움에 익숙해져서 불의를 보면 검부터 뽑아드는, 사부님과 선배의 말도 듣고 싶은 말만 듣고 반쯤은 한쪽 귀로 흘려보내는데, 어떻게 율법 같은 것에 얽매일 수가 있더냐.",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_topic_02_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Kezhou_vo_topic_02_3", MaxKey = "voice_ch_char_Nifu_vo_topic_03_3", Loader = function()
-        return {
             ["voice_ch_char_Kezhou_vo_topic_02_3"] = {
                 ["ContentKR"] = "검객으로서의 걱정이랄까... 예를 들어주마, 검을 익힐 때 기초가 되는 것은 비급에 적힌 초식을 하나하나 익히는 것이지. 외우고 나면 일반적인 적수는 깊이 생각할 필요도 없이 순식간에 검을 뽑아 상대할 수 있게 되지.",
                 ["TextMapId"] = "voice_ch_char_Kezhou_vo_topic_02_3",
@@ -60041,7 +61127,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Lise_vo_gain_01",
             },
             ["voice_ch_char_Lise_vo_gain_02"] = {
-                ["ContentKR"] = "준위! 리듬 페실 보고드립니... 아, 당신이군요... 죄송해요. 또 잊어버렸네요. 전 이미 방위대의 일원이 아닙니다... 죄송합니다.",
+                ["ContentKR"] = "준위! 리듬 페실 보고드립니... 아, 당신이군요... 죄송해요. 또 잊어버렸네요. 전 이제 방위대의 일원이 아닙니다... 죄송합니다.",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_gain_02",
             },
             ["voice_ch_char_Lise_vo_idle"] = {
@@ -60065,11 +61151,11 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Lise_vo_skill01_r02",
             },
             ["voice_ch_char_Lise_vo_skill02_r01"] = {
-                ["ContentKR"] = "임무 곧 완료된다.",
+                ["ContentKR"] = "임무는 곧 완료됩니다.",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_skill02_r01",
             },
             ["voice_ch_char_Lise_vo_skill02_r02"] = {
-                ["ContentKR"] = "전류가 조용해지게 해줄거다.",
+                ["ContentKR"] = "전류가 조용하게 만들어 줄거다.",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_skill02_r02",
             },
             ["voice_ch_char_Lise_vo_skill02_r03"] = {
@@ -60256,6 +61342,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "재활용 불가!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_skill01_r02",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Maer_vo_skill02_r01", MaxKey = "voice_ch_char_Tuosi_vo_be_hit_heavy_r01", Loader = function()
+        return {
             ["voice_ch_char_Maer_vo_skill02_r01"] = {
                 ["ContentKR"] = "남는 쓰레기는 태워버릴 수밖에 없어요!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_skill02_r01",
@@ -60483,10 +61573,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "여행 중 가끔 짐승 무리와 싸워야 할 때도 있어. 그것들은 내게 상처도 남기고, 심지어 죽음의 위험까지도 가져다주었어.",
                 ["TextMapId"] = "voice_ch_char_Nifu_vo_topic_03_3",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Nifu_vo_topic_03_4", MaxKey = "voice_ch_char_Xibi_vo_companio_04", Loader = function()
-        return {
             ["voice_ch_char_Nifu_vo_topic_03_4"] = {
                 ["ContentKR"] = "밤이 되면 영원히 찾아오는 달도 매일 모습이 바뀌는데, 인간은 더욱 복잡하게 변화하는 법이지. 하물며 나처럼 보통 인간의 몇 배나 되는 세월을 지내온 사람은 어떻겠어?",
                 ["TextMapId"] = "voice_ch_char_Nifu_vo_topic_03_4",
@@ -60663,7 +61749,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Saiqi_vo_topic_02_2",
             },
             ["voice_ch_char_Saiqi_vo_topic_02_3"] = {
-                ["ContentKR"] = "사실 난 상상이 안 가…… 왜냐하면 내가 만났던 카론은 모두 인간들을 무서워했어. 인간 앞에서는 마법은커녕 말도 잘 못했고 아주 조심스럽게 행동했지.",
+                ["ContentKR"] = "솔직히 난 상상이 안 가... 내가 만났던 카론은 모두 솔라를 무서워해서 말조차 걸지 못했거든. 그들 앞에서는 마법은커녕 말도 잘 못했고 아주 조심스럽게 행동했지.",
                 ["TextMapId"] = "voice_ch_char_Saiqi_vo_topic_02_3",
             },
             ["voice_ch_char_Saiqi_vo_topic_02_4"] = {
@@ -61068,6 +62154,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "난 괜찮아.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_be_hit_heavy_r01",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Tuosi_vo_be_hit_heavy_r02", MaxKey = "voice_ch_char_Zhangyu_vo_birthday", Loader = function()
+        return {
             ["voice_ch_char_Tuosi_vo_be_hit_heavy_r02"] = {
                 ["ContentKR"] = "비극이네.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_be_hit_heavy_r02",
@@ -61076,7 +62166,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "생일 축하해, {nickname}. 초대해 줘서 고마워.\
 무대에서 쫓겨난 그날부터, 생일은 나한텐 그저 따끔하게 아픈 날이 되어버렸어. 마치 꺼져서 다시 고칠 수 없는 투광등 같았고, 쓰레기통에 버려져 사람들에게 잊히는 낡은 대본 같았지.\
 하지만 오늘은 오랜만에 보통 생일은 어땠는지 생각나네. 평범하고, 따뜻하고, 참여한 사람들만 아는 소중한 것글로 가득했어. 예를 들어서 조금은 투박한 수제 선물 상자, 양초를 꽂다가 실수로 생크림 꽃 반 송이를 떨어뜨린 케이크, 그리고...\
-...친구의 생일 축하 노래? 내 노래를 듣고 싶다는 거야? 좋아. 근데 네 고향에선 어떤 생일 축하 노래가 유행하는지 잘 몰라서 먼저 가르쳐 줘야 할 것 같아. 걱정하지 마, 난 빨리 배울 수 있으니까.",
+...친구의 생일 축하 노래? 내 노래를 듣고 싶다는 거야? 좋아. 근데 네 고향에선 어떤 생일 축하 노래가 유행하는지 잘 몰라서 먼저 가르쳐 줘야 할 것 같아. 걱정하지 마, 난 금방 배울 수 있으니까.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_birthday",
             },
             ["voice_ch_char_Tuosi_vo_companio_01"] = {
@@ -61194,7 +62284,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_topic_03_1",
             },
             ["voice_ch_char_Tuosi_vo_topic_03_3"] = {
-                ["ContentKR"] = "만약 언젠가 갈레아 극장에서 스승님 비올레타 여사님을 만나게 된다면 전해줘. 난 이미 이스엘에서 자리를 잡고 잘 지내니 걱정하지 말라고.",
+                ["ContentKR"] = "만약 언젠가 갈레아 극장에서 나의 스승님 비올레타 여사님을 만나게 된다면 전해줘. 난 이미 이스엘에서 자리를 잡고 잘 지내니 걱정하지 말라고.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_topic_03_3",
             },
             ["voice_ch_char_Tuosi_vo_topic_03_4"] = {
@@ -61297,10 +62387,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "네 위장이 완벽할수록, 어둠 속에서 송곳니를 더 날카롭게 갈았다는 걸 의미하겠지. 네 고삐가 풀릴 그날을 기다리마. 직접 네 이빨을 부러뜨려 줄테니.",
                 ["TextMapId"] = "voice_ch_char_Xibi_vo_companio_04",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Xibi_vo_companio_05", MaxKey = "voice_ch_char_Zhiliu_vo_topic_02_1", Loader = function()
-        return {
             ["voice_ch_char_Xibi_vo_companio_05"] = {
                 ["ContentKR"] = "최근 임무 내용, 작전 계획, 후방 보급, 손실 내역 정리는 다 끝냈나?\
 그래. 그럼 오늘은 나와 대외 홍보 문구 만들기, 내부 사례 분석, 황제에게 보낼 정기보고서랑 소드 연금원의 신무기 테스트를 마무리한다. 어차피 해야 할 일이니 무리하는 것으로 생각하지 마라.",
@@ -61751,7 +62837,8 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_be_hit_r02",
             },
             ["voice_ch_char_Yuming_vo_birthday"] = {
-                ["ContentKR"] = "생일이라고? 난 그런 걸 중요하게 여긴 적 없어. 대풍구장을 지키기로 한 순간부터 이미 삶과 죽음에 연연하지 않기로 했으니까. ...... 하지만, 너는 축하받는 걸 좋아하겠지. 생일 축하한다.",
+                ["ContentKR"] = "생일이라고? 난 그런 걸 중요하게 여긴 적 없어. 대풍구장을 지키기로 한 순간부터 이미 삶과 죽음에 연연하지 않기로 했으니까.\
+...하지만, 너는 축하받는 걸 좋아하겠지. 생일 축하한다.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_birthday",
             },
             ["voice_ch_char_Yuming_vo_companio_01"] = {
@@ -61775,7 +62862,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_die_r02",
             },
             ["voice_ch_char_Yuming_vo_fail"] = {
-                ["ContentKR"] = "…… 또 하나의 치욕이 추가되었군.",
+                ["ContentKR"] = "...또 하나의 치욕이 추가되었군.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_fail",
             },
             ["voice_ch_char_Yuming_vo_gain"] = {
@@ -61795,23 +62882,23 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_revive",
             },
             ["voice_ch_char_Yuming_vo_skill01_r01"] = {
-                ["ContentKR"] = "속박.",
+                ["ContentKR"] = "산이 무너진다.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r01",
             },
             ["voice_ch_char_Yuming_vo_skill01_r02"] = {
-                ["ContentKR"] = "울부짖어라",
+                ["ContentKR"] = "별이 지는구나.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r02",
             },
             ["voice_ch_char_Yuming_vo_skill02_r01"] = {
-                ["ContentKR"] = "내가 감당하지.",
+                ["ContentKR"] = "죄를 심판하겠다.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r01",
             },
             ["voice_ch_char_Yuming_vo_skill02_r02"] = {
-                ["ContentKR"] = "현교, 내 힘이 되어라.",
+                ["ContentKR"] = "현교, 함께 적진을 뚫는 거다.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r02",
             },
             ["voice_ch_char_Yuming_vo_skill02_r03"] = {
-                ["ContentKR"] = "그림자처럼……",
+                ["ContentKR"] = "내 칼에 모든 것을 맡기리라.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r03",
             },
             ["voice_ch_char_Yuming_vo_topic_01_1"] = {
@@ -61886,6 +62973,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "난 생일을 축하해 본 적이 없는데! 배부르게 밥 먹고 사는 것도 힘들거든! 그래서…… 넌 항상 배부르게 먹었으면 좋겠어…… 도둑질할 필요 없이!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_birthday",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Zhangyu_vo_companio_01", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Zhangyu_vo_companio_01"] = {
                 ["ContentKR"] = "나를 잡는다고? 난 나쁜 사람이 아니야! 그냥 좀 슬쩍한 것뿐이야. 그것도 도둑의 물건을……. 우앗, 너 오지 마! 덥다고!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_companio_01",
@@ -62018,6 +63109,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "빨리 끝내지.",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_battlestart",
             },
+            ["voice_ch_char_Zhiliu_vo_be_hit_heavy_r01"] = {
+                ["ContentKR"] = "흠... 벌을 줘야겠네!",
+                ["TextMapId"] = "voice_ch_char_Zhiliu_vo_be_hit_heavy_r01",
+            },
             ["voice_ch_char_Zhiliu_vo_birthday"] = {
                 ["ContentKR"] = "오늘은 당신의 생일이구나. 내가 작은 선물을 준비했으니, 조금 있다가 열어보자. \
 놀랐어? 전에 작은 꾀를 써서 알아낸 너의 정보인데, 그걸 항상 기억하고 있었지. \
@@ -62116,10 +63211,6 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "음... 일시적인 손익에 집착하지 말고, 아낌없이 베푸는 거지. 그리고 사람을 알아보고, 적재적소에 사람을 쓰고, 은혜를 베푸는 것도 배워야지. 사람들이 널 존경하고 중시하면서도, 동시에 두려워하도록 만드는 것도 중요하단다.",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_topic_02_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Zhiliu_vo_topic_02_2", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Zhiliu_vo_topic_02_2"] = {
                 ["ContentKR"] = "하하. 물건에는 가격표가 있지만, 인간관계에는 가격표가 없어. 작은 이익에 집착하는 사람은 결국 작은 세계 안에서만 머물게 되지. 인간관계를 잘 활용해야 더 넓은 세상으로 나아갈 수 있단다.",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_topic_02_2",
@@ -62129,7 +63220,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_topic_03_1",
             },
             ["voice_ch_char_Zhiliu_vo_topic_03_2"] = {
-                ["ContentKR"] = "만약 뜻밖에 반나절의 여유가 생긴다면... 아마 극을 보러 갈 것 같아. 화서의 설서나 평담, 제국의 오페라나 연극, 혹은 해외에서 새롭게 유행하는 영상극까지 모두 흥미가 있어.",
+                ["ContentKR"] = "만약 뜻밖에 반나절의 여유가 생긴다면... 아마 극을 보러 갈 것 같아. 화서의 설서나 평담, 제국의 오페라나 연극, 혹은 해외에서 새롭게 유행하는 영상극까지 모두 흥미가 있지.",
                 ["TextMapId"] = "voice_ch_char_Zhiliu_vo_topic_03_2",
             },
             ["voice_ch_char_Zhiliu_vo_topic_03_3"] = {

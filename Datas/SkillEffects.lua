@@ -33566,11 +33566,7 @@ return ReadOnly("SkillEffects", {
 		TargetFilter = "Self",
 		TaskEffects = {
 			[1] = {
-				Function = "ActiveStaticCreator",
-				StaticCreatorId = 1440065,
-			},
-			[2] = {
-				BuffId = 850312,
+				BuffId = 850313,
 				Function = "AddBuff",
 				LastTime = -1,
 			},
@@ -33600,9 +33596,13 @@ return ReadOnly("SkillEffects", {
 		TargetFilter = "Self",
 		TaskEffects = {
 			[1] = {
-				BuffId = 850313,
+				BuffId = 850312,
 				Function = "AddBuff",
 				LastTime = -1,
+			},
+			[2] = {
+				Function = "ActiveStaticCreator",
+				StaticCreatorId = 1440065,
 			},
 		},
 		TaskId = 8503203,
@@ -34244,7 +34244,7 @@ return ReadOnly("SkillEffects", {
 				BaseChar = "Target",
 				DamageType = "TrueDamage",
 				Function = "Damage",
-				Rate = 0.15,
+				Rate = 0.07,
 			},
 			[2] = T.RT_750,
 		},

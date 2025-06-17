@@ -352,6 +352,7 @@ return ReadOnly("SystemGuide", {
 		GuideEnd = 0,
 		GuideStoryline = "Guide/Guide_ModArchiveUI.story",
 		IsInRegion = 1,
+		OpenInterface = "BattleMain",
 		PlayerInControl = 1,
 		PreSysGuideId = 2022,
 		SysGuideId = 2061,

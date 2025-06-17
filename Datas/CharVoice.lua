@@ -8352,9 +8352,7 @@ return ReadOnly("CharVoice", {
 			UnitId = 84102,
 			VoiceDes = T.RT_25,
 			VoiceId = 10845,
-			VoiceRes = {
-				"companio_02_1",
-			},
+			VoiceRes = T.RT_23,
 			VoiceText = {
 				"voice_ch_char_Zhiliu_vo_companio_02_1",
 			},
@@ -8365,9 +8363,7 @@ return ReadOnly("CharVoice", {
 			UnitId = 84102,
 			VoiceDes = T.RT_25,
 			VoiceId = 10846,
-			VoiceRes = {
-				"companio_02_2",
-			},
+			VoiceRes = T.RT_24,
 			VoiceText = {
 				"voice_ch_char_Zhiliu_vo_companio_02_2",
 			},

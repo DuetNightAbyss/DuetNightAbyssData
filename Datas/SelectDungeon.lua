@@ -172,7 +172,7 @@ return ReadOnly("SelectDungeon", {
 		ChapterContent = "UI_DUNGEON_CONTENT_CAPTURE_1",
 		ChapterId = 9,
 		ChapterName = "UI_DUNGEON_TYPE_CAPTURE",
-		ChapterSubName = "UI_DUNGEON_DROP_SKILL_JOB",
+		ChapterSubName = "UI_DUNGEON_DROP_SKILL",
 		Condition = T.RT_3,
 		DungeonList = {
 			90307,
