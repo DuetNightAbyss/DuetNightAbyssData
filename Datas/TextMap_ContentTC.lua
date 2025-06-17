@@ -54434,7 +54434,7 @@ C區 阿妮塔\
             },
         }
     end },
-    { MinKey = "UI_PlayerHead_Des_10017", MaxKey = "UI_RougeLike_End_Success02", Loader = function()
+    { MinKey = "UI_PlayerHead_Des_10017", MaxKey = "UI_RougeLike_End_Success01", Loader = function()
         return {
             ["UI_PlayerHead_Des_10017"] = {
                 ["ContentTC"] = "可將頭像更換為瑪爾潔的形象。",
@@ -54687,6 +54687,10 @@ C區 阿妮塔\
             ["UI_QUEST_SUGGEST_LEVEL"] = {
                 ["ContentTC"] = "推薦角色等級",
                 ["TextMapId"] = "UI_QUEST_SUGGEST_LEVEL",
+            },
+            ["UI_QUEST_SpecialSlide"] = {
+                ["ContentTC"] = "特殊支線",
+                ["TextMapId"] = "UI_QUEST_SpecialSlide",
             },
             ["UI_QUEST_TOOHARD"] = {
                 ["ContentTC"] = "當前挑戰難度較大",
@@ -55232,14 +55236,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "探索成功",
                 ["TextMapId"] = "UI_RougeLike_End_Success01",
             },
+        }
+    end },
+    { MinKey = "UI_RougeLike_End_Success02", MaxKey = "UI_SUBREGION_NAME_101305", Loader = function()
+        return {
             ["UI_RougeLike_End_Success02"] = {
                 ["ContentTC"] = "探索成功",
                 ["TextMapId"] = "UI_RougeLike_End_Success02",
             },
-        }
-    end },
-    { MinKey = "UI_RougeLike_End_TalentPoints", MaxKey = "UI_SUBREGION_NAME_101401", Loader = function()
-        return {
             ["UI_RougeLike_End_TalentPoints"] = {
                 ["ContentTC"] = "琉璃",
                 ["TextMapId"] = "UI_RougeLike_End_TalentPoints",
@@ -56038,14 +56042,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "礦洞二",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101305",
             },
+        }
+    end },
+    { MinKey = "UI_SUBREGION_NAME_101401", MaxKey = "UI_TEMPLE_DES_80601", Loader = function()
+        return {
             ["UI_SUBREGION_NAME_101401"] = {
                 ["ContentTC"] = "？？？",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101401",
             },
-        }
-    end },
-    { MinKey = "UI_SUBREGION_NAME_101701", MaxKey = "UI_TEMPLE_DES_80602", Loader = function()
-        return {
             ["UI_SUBREGION_NAME_101701"] = {
                 ["ContentTC"] = "集水區",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101701",
@@ -56842,14 +56846,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "攻擊破壞機關可獲得額外時間",
                 ["TextMapId"] = "UI_TEMPLE_DES_80601",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_DES_80602", MaxKey = "UI_Vote_Retreat_Auto", Loader = function()
+        return {
             ["UI_TEMPLE_DES_80602"] = {
                 ["ContentTC"] = "穿過光環後，依順序攻擊破壞機關",
                 ["TextMapId"] = "UI_TEMPLE_DES_80602",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_DES_80701", MaxKey = "UI_Vote_Retreat_Current", Loader = function()
-        return {
             ["UI_TEMPLE_DES_80701"] = {
                 ["ContentTC"] = "踩踏機關，改變機關顏色，使其顏色與出口處圖案顏色一致",
                 ["TextMapId"] = "UI_TEMPLE_DES_80701",
@@ -57658,14 +57662,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "若未做選擇，倒計時結束後將自動撤離",
                 ["TextMapId"] = "UI_Vote_Retreat_Auto",
             },
+        }
+    end },
+    { MinKey = "UI_Vote_Retreat_Current", MaxKey = "UI_Walnut_Type_Name_1", Loader = function()
+        return {
             ["UI_Vote_Retreat_Current"] = {
                 ["ContentTC"] = "當前獲得",
                 ["TextMapId"] = "UI_Vote_Retreat_Current",
             },
-        }
-    end },
-    { MinKey = "UI_Vote_Retreat_Reward", MaxKey = "UI_Walnut_Type_Name_2", Loader = function()
-        return {
             ["UI_Vote_Retreat_Reward"] = {
                 ["ContentTC"] = "選擇撤離則直接結算當前獎勵",
                 ["TextMapId"] = "UI_Vote_Retreat_Reward",
@@ -58462,14 +58466,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "守序",
                 ["TextMapId"] = "UI_Walnut_Type_Name_1",
             },
+        }
+    end },
+    { MinKey = "UI_Walnut_Type_Name_2", MaxKey = "VoiceDes109", Loader = function()
+        return {
             ["UI_Walnut_Type_Name_2"] = {
                 ["ContentTC"] = "中立",
                 ["TextMapId"] = "UI_Walnut_Type_Name_2",
             },
-        }
-    end },
-    { MinKey = "UI_Walnut_Type_Name_3", MaxKey = "VoiceDes110", Loader = function()
-        return {
             ["UI_Walnut_Type_Name_3"] = {
                 ["ContentTC"] = "混亂",
                 ["TextMapId"] = "UI_Walnut_Type_Name_3",
@@ -59278,14 +59282,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "關於工作",
                 ["TextMapId"] = "VoiceDes109",
             },
+        }
+    end },
+    { MinKey = "VoiceDes110", MaxKey = "Zero", Loader = function()
+        return {
             ["VoiceDes110"] = {
                 ["ContentTC"] = "關於正義",
                 ["TextMapId"] = "VoiceDes110",
             },
-        }
-    end },
-    { MinKey = "VoiceDes111", MaxKey = "ZhiLiuEntrustText01", Loader = function()
-        return {
             ["VoiceDes111"] = {
                 ["ContentTC"] = "關於愛好",
                 ["TextMapId"] = "VoiceDes111",
@@ -60136,14 +60140,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "0.0",
                 ["TextMapId"] = "Zero",
             },
+        }
+    end },
+    { MinKey = "ZhiLiuEntrustText01", MaxKey = "voice_ch_char_Haier_vo_topic_02_2", Loader = function()
+        return {
             ["ZhiLiuEntrustText01"] = {
                 ["ContentTC"] = "這是今天的采購清單，可以幫我收集一些嗎？",
                 ["TextMapId"] = "ZhiLiuEntrustText01",
             },
-        }
-    end },
-    { MinKey = "ZhiLiuEntrustText02", MaxKey = "voice_ch_char_Haier_vo_topic_02_3", Loader = function()
-        return {
             ["ZhiLiuEntrustText02"] = {
                 ["ContentTC"] = "我需要這些穢獸掉落的甲殼，可以勞煩你去狩獵一些嗎？",
                 ["TextMapId"] = "ZhiLiuEntrustText02",
@@ -60944,14 +60948,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "而我與生俱來和先祖同樣的火紅膚色，就註定了我要拿起她留下的鐵鑄法典。所以並非是我選擇成為典獄長，而是典獄長的頭銜選擇了我。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_2",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Haier_vo_topic_02_3", MaxKey = "voice_ch_char_Maer_vo_battleidle", Loader = function()
+        return {
             ["voice_ch_char_Haier_vo_topic_02_3"] = {
                 ["ContentTC"] = "成為典獄長並非願望的終點，相反，這只是一個開始，它意味著我需要時刻保持戒備和警醒一一斬除帝國土地上孳生的任何不義，直到死亡將我熄滅。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_3",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Haier_vo_topic_03_1", MaxKey = "voice_ch_char_Maer_vo_battlestart", Loader = function()
-        return {
             ["voice_ch_char_Haier_vo_topic_03_1"] = {
                 ["ContentTC"] = "那當然，帝國監獄裡多的是難纏的犯人，審訊案件、查閱卷宗、防止那些狡猾的老鼠設法逃走都是典獄長的職責所在。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_03_1",
@@ -61754,14 +61758,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "還不夠！我還能撿更多！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_battleidle",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Maer_vo_battlestart", MaxKey = "voice_ch_char_Songlu_vo_topic_02_4", Loader = function()
+        return {
             ["voice_ch_char_Maer_vo_battlestart"] = {
                 ["ContentTC"] = "讓我看看有什麼好東西！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_battlestart",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Maer_vo_be_hit_heavy_r01", MaxKey = "voice_ch_char_Songlu_vo_topic_03_1", Loader = function()
-        return {
             ["voice_ch_char_Maer_vo_be_hit_heavy_r01"] = {
                 ["ContentTC"] = "下手太重了吧！",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_be_hit_heavy_r01",
@@ -62565,14 +62569,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "沒錯，誰讓人餓肚子，誰就遲早會被榛子撞飛！",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_4",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Songlu_vo_topic_03_1", MaxKey = "voice_ch_char_Yuming_vo_topic_01_1", Loader = function()
+        return {
             ["voice_ch_char_Songlu_vo_topic_03_1"] = {
                 ["ContentTC"] = "是不少啦，不過其實不用特別為她準備吃的，她會自己找的。哪怕隔著幾條小溪，榛子也能聞到熟透漿果的味道，然後馱著我飛奔過去，可能幹啦。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_03_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Songlu_vo_topic_03_2", MaxKey = "voice_ch_char_Yuming_vo_topic_01_2", Loader = function()
-        return {
             ["voice_ch_char_Songlu_vo_topic_03_2"] = {
                 ["ContentTC"] = "別擔心別擔心，榛子只會帶來食物，不會吃垮這裡的！所以，一定一定不要拿榛子開玩笑哦，她聽到的話會傷心的，我也會。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_03_2",
@@ -63384,14 +63388,14 @@ C區 阿妮塔\
                 ["ContentTC"] = "……這等閒聊，有更適合的人選吧。找那些販賣貨物的織星客吧，或者看看書也好。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_01_1",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Yuming_vo_topic_01_2", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Yuming_vo_topic_01_2"] = {
                 ["ContentTC"] = "我平素繁忙，所以眼見多有偏狹。你若是真的好奇，與其假他人言語，不如親自踏足那裡，如何？",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_01_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Yuming_vo_topic_02_1", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Yuming_vo_topic_02_1"] = {
                 ["ContentTC"] = "《大風九章》是華胥的律法，誰都不能違抗。但倘若真要有人倒反天命，那自然要有人去收拾亂局。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_topic_02_1",

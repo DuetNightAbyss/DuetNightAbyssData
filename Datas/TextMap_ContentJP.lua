@@ -54406,7 +54406,7 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             },
         }
     end },
-    { MinKey = "UI_PlayerHead_Des_10014", MaxKey = "UI_RougeLike_End_Fail02", Loader = function()
+    { MinKey = "UI_PlayerHead_Des_10014", MaxKey = "UI_RougeLike_End_Fail01", Loader = function()
         return {
             ["UI_PlayerHead_Des_10014"] = {
                 ["ContentJP"] = "フィーナのアイコンに変更できる。",
@@ -54671,6 +54671,10 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
             ["UI_QUEST_SUGGEST_LEVEL"] = {
                 ["ContentJP"] = "推奨キャラクターLv.",
                 ["TextMapId"] = "UI_QUEST_SUGGEST_LEVEL",
+            },
+            ["UI_QUEST_SpecialSlide"] = {
+                ["ContentJP"] = "特別サブクエスト",
+                ["TextMapId"] = "UI_QUEST_SpecialSlide",
             },
             ["UI_QUEST_TOOHARD"] = {
                 ["ContentJP"] = "難易度やや高",
@@ -55204,14 +55208,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "探索失敗",
                 ["TextMapId"] = "UI_RougeLike_End_Fail01",
             },
+        }
+    end },
+    { MinKey = "UI_RougeLike_End_Fail02", MaxKey = "UI_SUBREGION_NAME_101301", Loader = function()
+        return {
             ["UI_RougeLike_End_Fail02"] = {
                 ["ContentJP"] = "探索失敗",
                 ["TextMapId"] = "UI_RougeLike_End_Fail02",
             },
-        }
-    end },
-    { MinKey = "UI_RougeLike_End_NoMod", MaxKey = "UI_SUBREGION_NAME_101303", Loader = function()
-        return {
             ["UI_RougeLike_End_NoMod"] = {
                 ["ContentJP"] = "未獲得",
                 ["TextMapId"] = "UI_RougeLike_End_NoMod",
@@ -56010,14 +56014,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "鉱山 1",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101301",
             },
+        }
+    end },
+    { MinKey = "UI_SUBREGION_NAME_101303", MaxKey = "UI_TEMPLE_DES_80402", Loader = function()
+        return {
             ["UI_SUBREGION_NAME_101303"] = {
                 ["ContentJP"] = "鉱山 3",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101303",
             },
-        }
-    end },
-    { MinKey = "UI_SUBREGION_NAME_101304", MaxKey = "UI_TEMPLE_DES_80501", Loader = function()
-        return {
             ["UI_SUBREGION_NAME_101304"] = {
                 ["ContentJP"] = "鉱山 4",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101304",
@@ -56814,14 +56818,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "特定位置ではトラップの破壊がしやすくなる。",
                 ["TextMapId"] = "UI_TEMPLE_DES_80402",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_DES_80501", MaxKey = "UI_Vote_Finish_Retreat", Loader = function()
+        return {
             ["UI_TEMPLE_DES_80501"] = {
                 ["ContentJP"] = "動き続けながら、敵を狙うのに適した角度を探そう。",
                 ["TextMapId"] = "UI_TEMPLE_DES_80501",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_DES_80502", MaxKey = "UI_Vote_Finish_Retreated", Loader = function()
-        return {
             ["UI_TEMPLE_DES_80502"] = {
                 ["ContentJP"] = "ギミックを踏み続けて、遠隔攻撃で標的を破壊する",
                 ["TextMapId"] = "UI_TEMPLE_DES_80502",
@@ -57629,14 +57633,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "撤退",
                 ["TextMapId"] = "UI_Vote_Finish_Retreat",
             },
+        }
+    end },
+    { MinKey = "UI_Vote_Finish_Retreated", MaxKey = "UI_Walnut_Type_Des_1", Loader = function()
+        return {
             ["UI_Vote_Finish_Retreated"] = {
                 ["ContentJP"] = "撤退を選択済み",
                 ["TextMapId"] = "UI_Vote_Finish_Retreated",
             },
-        }
-    end },
-    { MinKey = "UI_Vote_Finish_Retreating", MaxKey = "UI_Walnut_Type_Des_2", Loader = function()
-        return {
             ["UI_Vote_Finish_Retreating"] = {
                 ["ContentJP"] = "まもなく撤退",
                 ["TextMapId"] = "UI_Vote_Finish_Retreating",
@@ -58434,14 +58438,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "秩序の密書",
                 ["TextMapId"] = "UI_Walnut_Type_Des_1",
             },
+        }
+    end },
+    { MinKey = "UI_Walnut_Type_Des_2", MaxKey = "VoiceDes106", Loader = function()
+        return {
             ["UI_Walnut_Type_Des_2"] = {
                 ["ContentJP"] = "中立の密書",
                 ["TextMapId"] = "UI_Walnut_Type_Des_2",
             },
-        }
-    end },
-    { MinKey = "UI_Walnut_Type_Des_3", MaxKey = "VoiceDes107", Loader = function()
-        return {
             ["UI_Walnut_Type_Des_3"] = {
                 ["ContentJP"] = "混沌の密書",
                 ["TextMapId"] = "UI_Walnut_Type_Des_3",
@@ -59250,14 +59254,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "お父さんとお母さん",
                 ["TextMapId"] = "VoiceDes106",
             },
+        }
+    end },
+    { MinKey = "VoiceDes107", MaxKey = "WikiText_40800901", Loader = function()
+        return {
             ["VoiceDes107"] = {
                 ["ContentJP"] = "アウトサイダーについて",
                 ["TextMapId"] = "VoiceDes107",
             },
-        }
-    end },
-    { MinKey = "VoiceDes108", MaxKey = "Wiki_RewardList_Content", Loader = function()
-        return {
             ["VoiceDes108"] = {
                 ["ContentJP"] = "肌の色について",
                 ["TextMapId"] = "VoiceDes108",
@@ -60103,14 +60107,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "皇都ディズマニアを横切る大河。かつては水上輸送の要として重要な役割を果たしていたが、現在では景勝地として知られ、多くの人々がその美しさに心を寄せている。雨季になると、絶え間なく降り注ぐ雨粒が川面を打ち、「しとしと」と優しく響くその音は、まるで耳元に寄り添うささやきのように感じられる。",
                 ["TextMapId"] = "WikiText_40800901",
             },
+        }
+    end },
+    { MinKey = "Wiki_RewardList_Content", MaxKey = "voice_ch_char_Haier_vo_topic_01_3", Loader = function()
+        return {
             ["Wiki_RewardList_Content"] = {
                 ["ContentJP"] = "用語解放進捗",
                 ["TextMapId"] = "Wiki_RewardList_Content",
             },
-        }
-    end },
-    { MinKey = "Wiki_RewardProgress", MaxKey = "voice_ch_char_Haier_vo_topic_01_4", Loader = function()
-        return {
             ["Wiki_RewardProgress"] = {
                 ["ContentJP"] = "コレクション進捗",
                 ["TextMapId"] = "Wiki_RewardProgress",
@@ -60912,14 +60916,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "少しだけな。木造の部屋に長期間の滞在はできないし、ベッドはもちろん鉄製を選ぶことになるが、まあ些末事だろう。代わりに火災現場でも臆せず犯罪者を法の前へ引っ張り出せるぞ。寒さに恐怖を抱かずともよくなるのも零幸いだ。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_01_3",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Haier_vo_topic_01_4", MaxKey = "voice_ch_char_Lise_vo_victory", Loader = function()
+        return {
             ["voice_ch_char_Haier_vo_topic_01_4"] = {
                 ["ContentJP"] = "外見が一般人と異なろうが私にとっては利点であるし、強いて不便を挙げるとすれば……アイスクリームというデザートを食せない点ぐらいか。味わってみたいのだが、手にした瞬間に溶けてしまう……",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_01_4",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Haier_vo_topic_02_1", MaxKey = "voice_ch_char_Lise_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Haier_vo_topic_02_1"] = {
                 ["ContentJP"] = "罪深き者どもの牢獄を立国から代々と管理してきただけだ。冤罪を清算して災いを断ち切るのが、私の家の役目である。",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_1",
@@ -61720,14 +61724,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "終わっちゃった……次の任務も私に任せて。あなたは戦果を上げられるし、私も時間を潰せるから一挙両得だわ。",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_victory",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Lise_vo_welcome", MaxKey = "voice_ch_char_Songlu_vo_topic_02_1", Loader = function()
+        return {
             ["voice_ch_char_Lise_vo_welcome"] = {
                 ["ContentJP"] = "ベースのパトロール完了。危険生物の痕跡なし、塀の損傷なし、すべて異常なしーー警戒体制を解除し、日常活動を承認する。以上。",
                 ["TextMapId"] = "voice_ch_char_Lise_vo_welcome",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Maer_vo_appear", MaxKey = "voice_ch_char_Songlu_vo_topic_02_2", Loader = function()
-        return {
             ["voice_ch_char_Maer_vo_appear"] = {
                 ["ContentJP"] = "今日はどこへ仕入れに行こっか？",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_appear",
@@ -62530,14 +62534,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "ふぇっ？それは痛いでしょうけど……あんまり気にしたことないや。だってヘーゼルが吹っ飛ばすのは喧嘩好きでギャーギャーうるさいヤツらばっかりだし！自業自得なのです！",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_1",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Songlu_vo_topic_02_2", MaxKey = "voice_ch_char_Yuming_vo_skill01_r01", Loader = function()
+        return {
             ["voice_ch_char_Songlu_vo_topic_02_2"] = {
                 ["ContentJP"] = "あいつら喧嘩した後いつもお腹すいた～って騒ぐんです。武器を振りまわす元気があるなら、畑を耕したらいいのに。そしたら、もっとたくさんの人がお腹いっぱいになれるのになぁ。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Songlu_vo_topic_02_3", MaxKey = "voice_ch_char_Yuming_vo_skill01_r02", Loader = function()
-        return {
             ["voice_ch_char_Songlu_vo_topic_02_3"] = {
                 ["ContentJP"] = "とーぜんっ！争いは飢餓の母、ワルモノです！戦争になるとみんなお腹ペコペコになっちゃうし。大っ嫌い！絶対に巻き込まれたくないよ。",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_3",
@@ -63349,14 +63353,14 @@ HPが15%を上回る場合、「羽化」状態では1秒ごとにHPが減少し
                 ["ContentJP"] = "玉山崩る。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r01",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Yuming_vo_skill01_r02", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Yuming_vo_skill01_r02"] = {
                 ["ContentJP"] = "星垂れる平野よ。",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill01_r02",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Yuming_vo_skill02_r01", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Yuming_vo_skill02_r01"] = {
                 ["ContentJP"] = "罪業ことごとくを、滅するべし！",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r01",

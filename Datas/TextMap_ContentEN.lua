@@ -54535,7 +54535,7 @@ Completing the trial in Co-Op Mode allows you to claim repeat-clear rewards. The
             },
         }
     end },
-    { MinKey = "UI_PlayerHead_Des_10016", MaxKey = "UI_RougeLike_End_Success01", Loader = function()
+    { MinKey = "UI_PlayerHead_Des_10016", MaxKey = "UI_RougeLike_End_NoMod", Loader = function()
         return {
             ["UI_PlayerHead_Des_10016"] = {
                 ["ContentEN"] = "Unlocks Rhythm as your avatar icon.",
@@ -54792,6 +54792,10 @@ Completing the trial in Co-Op Mode allows you to claim repeat-clear rewards. The
             ["UI_QUEST_SUGGEST_LEVEL"] = {
                 ["ContentEN"] = "Recommended Character Level",
                 ["TextMapId"] = "UI_QUEST_SUGGEST_LEVEL",
+            },
+            ["UI_QUEST_SpecialSlide"] = {
+                ["ContentEN"] = "Special Side Quest",
+                ["TextMapId"] = "UI_QUEST_SpecialSlide",
             },
             ["UI_QUEST_TOOHARD"] = {
                 ["ContentEN"] = "The current challenge is of high difficulty",
@@ -55333,14 +55337,14 @@ Completing the trial in Co-Op Mode allows you to claim repeat-clear rewards. The
                 ["ContentEN"] = "Did Not Gain Any",
                 ["TextMapId"] = "UI_RougeLike_End_NoMod",
             },
+        }
+    end },
+    { MinKey = "UI_RougeLike_End_Success01", MaxKey = "UI_SUBREGION_NAME_101304", Loader = function()
+        return {
             ["UI_RougeLike_End_Success01"] = {
                 ["ContentEN"] = "Exploration Success",
                 ["TextMapId"] = "UI_RougeLike_End_Success01",
             },
-        }
-    end },
-    { MinKey = "UI_RougeLike_End_Success02", MaxKey = "UI_SUBREGION_NAME_101305", Loader = function()
-        return {
             ["UI_RougeLike_End_Success02"] = {
                 ["ContentEN"] = "Exploration Success",
                 ["TextMapId"] = "UI_RougeLike_End_Success02",
@@ -56139,14 +56143,14 @@ Completing the trial in Co-Op Mode allows you to claim repeat-clear rewards. The
                 ["ContentEN"] = "Mine Ⅳ",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101304",
             },
+        }
+    end },
+    { MinKey = "UI_SUBREGION_NAME_101305", MaxKey = "UI_TEMPLE_DES_80502", Loader = function()
+        return {
             ["UI_SUBREGION_NAME_101305"] = {
                 ["ContentEN"] = "Mine Ⅱ",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101305",
             },
-        }
-    end },
-    { MinKey = "UI_SUBREGION_NAME_101401", MaxKey = "UI_TEMPLE_DES_80601", Loader = function()
-        return {
             ["UI_SUBREGION_NAME_101401"] = {
                 ["ContentEN"] = "???",
                 ["TextMapId"] = "UI_SUBREGION_NAME_101401",
@@ -56952,14 +56956,14 @@ within the time limit",
                 ["ContentEN"] = "Step on the tiles and destroy the targets with ranged attacks",
                 ["TextMapId"] = "UI_TEMPLE_DES_80502",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_DES_80601", MaxKey = "UI_Vote_Finish_Retreating", Loader = function()
+        return {
             ["UI_TEMPLE_DES_80601"] = {
                 ["ContentEN"] = "Destroy the mechanisms to gain extra time",
                 ["TextMapId"] = "UI_TEMPLE_DES_80601",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_DES_80602", MaxKey = "UI_Vote_Retreat_Auto", Loader = function()
-        return {
             ["UI_TEMPLE_DES_80602"] = {
                 ["ContentEN"] = "Pass through the light circle, then destroy the targets in order",
                 ["TextMapId"] = "UI_TEMPLE_DES_80602",
@@ -57767,14 +57771,14 @@ About Zones\
                 ["ContentEN"] = "In retreat",
                 ["TextMapId"] = "UI_Vote_Finish_Retreating",
             },
+        }
+    end },
+    { MinKey = "UI_Vote_Retreat_Auto", MaxKey = "UI_Walnut_Type_Des_3", Loader = function()
+        return {
             ["UI_Vote_Retreat_Auto"] = {
                 ["ContentEN"] = "You will automatically retreat if no selection is made before the countdown ends",
                 ["TextMapId"] = "UI_Vote_Retreat_Auto",
             },
-        }
-    end },
-    { MinKey = "UI_Vote_Retreat_Current", MaxKey = "UI_Walnut_Type_Name_1", Loader = function()
-        return {
             ["UI_Vote_Retreat_Current"] = {
                 ["ContentEN"] = "Current rewards",
                 ["TextMapId"] = "UI_Vote_Retreat_Current",
@@ -58571,14 +58575,14 @@ About Zones\
                 ["ContentEN"] = "Secret Letter: Chaos",
                 ["TextMapId"] = "UI_Walnut_Type_Des_3",
             },
+        }
+    end },
+    { MinKey = "UI_Walnut_Type_Name_1", MaxKey = "VoiceDes108", Loader = function()
+        return {
             ["UI_Walnut_Type_Name_1"] = {
                 ["ContentEN"] = "Order",
                 ["TextMapId"] = "UI_Walnut_Type_Name_1",
             },
-        }
-    end },
-    { MinKey = "UI_Walnut_Type_Name_2", MaxKey = "VoiceDes109", Loader = function()
-        return {
             ["UI_Walnut_Type_Name_2"] = {
                 ["ContentEN"] = "Neutral",
                 ["TextMapId"] = "UI_Walnut_Type_Name_2",
@@ -59387,14 +59391,14 @@ Waves leap beneath the dancer's steps — summer's rhythm crashing through the a
                 ["ContentEN"] = "About Your Skin",
                 ["TextMapId"] = "VoiceDes108",
             },
+        }
+    end },
+    { MinKey = "VoiceDes109", MaxKey = "Wiki_RewardProgress", Loader = function()
+        return {
             ["VoiceDes109"] = {
                 ["ContentEN"] = "About Work",
                 ["TextMapId"] = "VoiceDes109",
             },
-        }
-    end },
-    { MinKey = "VoiceDes110", MaxKey = "Zero", Loader = function()
-        return {
             ["VoiceDes110"] = {
                 ["ContentEN"] = "About Justice",
                 ["TextMapId"] = "VoiceDes110",
@@ -60303,14 +60307,14 @@ Founded during the Great Migration by Dis I, the Empire's first sovereign, Icela
                 ["ContentEN"] = "Collection Progress",
                 ["TextMapId"] = "Wiki_RewardProgress",
             },
+        }
+    end },
+    { MinKey = "Zero", MaxKey = "voice_ch_char_Haier_vo_topic_02_1", Loader = function()
+        return {
             ["Zero"] = {
                 ["ContentEN"] = "0.0",
                 ["TextMapId"] = "Zero",
             },
-        }
-    end },
-    { MinKey = "ZhiLiuEntrustText01", MaxKey = "voice_ch_char_Haier_vo_topic_02_2", Loader = function()
-        return {
             ["ZhiLiuEntrustText01"] = {
                 ["ContentEN"] = "Here's today's shopping list. Could you help gather these items?",
                 ["TextMapId"] = "ZhiLiuEntrustText01",
@@ -61111,14 +61115,14 @@ Hah, does receiving blessings make you happy, you simple creature? Tsk, well, ha
                 ["ContentEN"] = "Since the Empire's inception, my family has managed the prison that holds the most heinous criminals, correcting wrongs and neutralising threats.",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_1",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Haier_vo_topic_02_2", MaxKey = "voice_ch_char_Maer_vo_appear", Loader = function()
+        return {
             ["voice_ch_char_Haier_vo_topic_02_2"] = {
                 ["ContentEN"] = "My fiery red skin, a legacy from the first warden, predestined me to continue enforcing the iron-clad code she established. So it wasn't me who chose to become a warden; it was the mantle of warden that chose me.",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_2",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Haier_vo_topic_02_3", MaxKey = "voice_ch_char_Maer_vo_battleidle", Loader = function()
-        return {
             ["voice_ch_char_Haier_vo_topic_02_3"] = {
                 ["ContentEN"] = "Becoming a warden is merely the beginning. It compels me to remain vigilant, eradicating any injustice within the Empire until my final breath.",
                 ["TextMapId"] = "voice_ch_char_Haier_vo_topic_02_3",
@@ -61921,14 +61925,14 @@ Ah, I'm so sorry! I didn't mean to spoil the mood with my rambling on such a joy
                 ["ContentEN"] = "Where are we heading for today's haul?",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_appear",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Maer_vo_battleidle", MaxKey = "voice_ch_char_Songlu_vo_topic_02_3", Loader = function()
+        return {
             ["voice_ch_char_Maer_vo_battleidle"] = {
                 ["ContentEN"] = "Chop-chop! There's room for more!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_battleidle",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Maer_vo_battlestart", MaxKey = "voice_ch_char_Songlu_vo_topic_02_4", Loader = function()
-        return {
             ["voice_ch_char_Maer_vo_battlestart"] = {
                 ["ContentEN"] = "Let's see what we can find this time!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_battlestart",
@@ -62730,14 +62734,14 @@ After all, even if I gave you a thousand chances, I would still escape from your
                 ["ContentEN"] = "Absolutely! Fighting just leads to hunger — that's really awful! I've heard that in times of war, everyone ends up starving, which is just the worst! I hope I never have to see that.",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_3",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Songlu_vo_topic_02_4", MaxKey = "voice_ch_char_Yuming_vo_skill02_r01", Loader = function()
+        return {
             ["voice_ch_char_Songlu_vo_topic_02_4"] = {
                 ["ContentEN"] = "Right! Anyone who makes people go hungry will sooner or later get knocked over by Filbert!",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_02_4",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Songlu_vo_topic_03_1", MaxKey = "voice_ch_char_Yuming_vo_skill02_r02", Loader = function()
-        return {
             ["voice_ch_char_Songlu_vo_topic_03_1"] = {
                 ["ContentEN"] = "Yeah, she is! And you know what, even across several creeks, Filbert can sniff out ripe berries and then off we go charging! Pretty awesome, isn't she?",
                 ["TextMapId"] = "voice_ch_char_Songlu_vo_topic_03_1",
@@ -63549,14 +63553,14 @@ Yet, a kind wish can bring a smile, perhaps. ...Happy Birthday.",
                 ["ContentEN"] = "Judgment falls!",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r01",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Yuming_vo_skill02_r02", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Yuming_vo_skill02_r02"] = {
                 ["ContentEN"] = "Xuanjiao, rend the front.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r02",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Yuming_vo_skill02_r03", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Yuming_vo_skill02_r03"] = {
                 ["ContentEN"] = "Soul to steel.",
                 ["TextMapId"] = "voice_ch_char_Yuming_vo_skill02_r03",

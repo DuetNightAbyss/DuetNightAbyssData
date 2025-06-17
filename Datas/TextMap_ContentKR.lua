@@ -54019,7 +54019,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             },
         }
     end },
-    { MinKey = "UI_PlayerHead_Name_10012", MaxKey = "UI_Rouge_Shop_MainTab", Loader = function()
+    { MinKey = "UI_PlayerHead_Name_10012", MaxKey = "UI_Rouge_Event_ReviewESC", Loader = function()
         return {
             ["UI_PlayerHead_Name_10012"] = {
                 ["ContentKR"] = "악마대도의 초상화",
@@ -54208,6 +54208,10 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
             ["UI_QUEST_SUGGEST_LEVEL"] = {
                 ["ContentKR"] = "추천 캐릭터 레벨",
                 ["TextMapId"] = "UI_QUEST_SUGGEST_LEVEL",
+            },
+            ["UI_QUEST_SpecialSlide"] = {
+                ["ContentKR"] = "사이드 퀘스트",
+                ["TextMapId"] = "UI_QUEST_SpecialSlide",
             },
             ["UI_QUEST_TOOHARD"] = {
                 ["ContentKR"] = "현재 도전 난이도가 높습니다.",
@@ -54817,14 +54821,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "돌아가기",
                 ["TextMapId"] = "UI_Rouge_Event_ReviewESC",
             },
+        }
+    end },
+    { MinKey = "UI_Rouge_Shop_MainTab", MaxKey = "UI_Select_Kind", Loader = function()
+        return {
             ["UI_Rouge_Shop_MainTab"] = {
                 ["ContentKR"] = "미스터리 행상인",
                 ["TextMapId"] = "UI_Rouge_Shop_MainTab",
             },
-        }
-    end },
-    { MinKey = "UI_Rouge_Shop_SubTab_Blessing", MaxKey = "UI_Select_Level", Loader = function()
-        return {
             ["UI_Rouge_Shop_SubTab_Blessing"] = {
                 ["ContentKR"] = "심지",
                 ["TextMapId"] = "UI_Rouge_Shop_SubTab_Blessing",
@@ -55623,14 +55627,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "유형",
                 ["TextMapId"] = "UI_Select_Kind",
             },
+        }
+    end },
+    { MinKey = "UI_Select_Level", MaxKey = "UI_TEMPLE_DES_81102", Loader = function()
+        return {
             ["UI_Select_Level"] = {
                 ["ContentKR"] = "레벨",
                 ["TextMapId"] = "UI_Select_Level",
             },
-        }
-    end },
-    { MinKey = "UI_Select_Name", MaxKey = "UI_TEMPLE_DES_81103", Loader = function()
-        return {
             ["UI_Select_Name"] = {
                 ["ContentKR"] = "이름",
                 ["TextMapId"] = "UI_Select_Name",
@@ -56429,14 +56433,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "적의 시야를 피해 적 뒤에서 근접 공격하면 처치할 수 있습니다.",
                 ["TextMapId"] = "UI_TEMPLE_DES_81102",
             },
+        }
+    end },
+    { MinKey = "UI_TEMPLE_DES_81103", MaxKey = "UI_WEAPON_DESC_10205", Loader = function()
+        return {
             ["UI_TEMPLE_DES_81103"] = {
                 ["ContentKR"] = "적의 시야를 피해 적 뒤에서 근접 공격하면 처치할 수 있습니다.",
                 ["TextMapId"] = "UI_TEMPLE_DES_81103",
             },
-        }
-    end },
-    { MinKey = "UI_TEMPLE_FAILURE_FALL", MaxKey = "UI_WEAPON_DESC_10206", Loader = function()
-        return {
             ["UI_TEMPLE_FAILURE_FALL"] = {
                 ["ContentKR"] = "추락 횟수 초과",
                 ["TextMapId"] = "UI_TEMPLE_FAILURE_FALL",
@@ -57244,14 +57248,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "엘리시안 교회 신성 아이리스 기사단의 기사들이 사용하는 낫은 성스러움 그 자체로다! 나는 신께서 인간들을 불쌍히 여겨 빛을 내리니, 어리석은 자들이 길고 긴 어둠 속에서 나오는 것을 보았도다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10205",
             },
+        }
+    end },
+    { MinKey = "UI_WEAPON_DESC_10206", MaxKey = "UI_WeaponAccessory_Name_10003", Loader = function()
+        return {
             ["UI_WEAPON_DESC_10206"] = {
                 ["ContentKR"] = "부식은 생명의 끝이다. 그걸 품을 수 있어야 영원하고 고요한 항구로 향할 수 있다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10206",
             },
-        }
-    end },
-    { MinKey = "UI_WEAPON_DESC_10207", MaxKey = "UI_WeaponAccessory_Name_10004", Loader = function()
-        return {
             ["UI_WEAPON_DESC_10207"] = {
                 ["ContentKR"] = "푸른 수정 속에 바다의 세찬 물결이 봉인되어 있다. 적에게 용서를 비는 것은 불협화음의 음표이니, 물결이 쏟아져 나오기 전에 이 경계의 악보에 묻어버려야 한다.",
                 ["TextMapId"] = "UI_WEAPON_DESC_10207",
@@ -58053,14 +58057,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "음표·골드",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10003",
             },
+        }
+    end },
+    { MinKey = "UI_WeaponAccessory_Name_10004", MaxKey = "VoiceDes125", Loader = function()
+        return {
             ["UI_WeaponAccessory_Name_10004"] = {
                 ["ContentKR"] = "음표·화이트 사쿠라",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10004",
             },
-        }
-    end },
-    { MinKey = "UI_WeaponAccessory_Name_10005", MaxKey = "VoiceDes126", Loader = function()
-        return {
             ["UI_WeaponAccessory_Name_10005"] = {
                 ["ContentKR"] = "리본·제트 블랙",
                 ["TextMapId"] = "UI_WeaponAccessory_Name_10005",
@@ -58864,14 +58868,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "호칭에 관하여",
                 ["TextMapId"] = "VoiceDes125",
             },
+        }
+    end },
+    { MinKey = "VoiceDes126", MaxKey = "voice_ch_char_Aote_vo_be_hit_heavy_r01", Loader = function()
+        return {
             ["VoiceDes126"] = {
                 ["ContentKR"] = "공연에 관하여",
                 ["TextMapId"] = "VoiceDes126",
             },
-        }
-    end },
-    { MinKey = "VoiceDes127", MaxKey = "voice_ch_char_Aote_vo_be_hit_heavy_r02", Loader = function()
-        return {
             ["VoiceDes127"] = {
                 ["ContentKR"] = "극장에 관하여",
                 ["TextMapId"] = "VoiceDes127",
@@ -59720,14 +59724,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "방금 꿰맨 옷인데!",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_be_hit_heavy_r01",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Aote_vo_be_hit_heavy_r02", MaxKey = "voice_ch_char_Heitao_vo_companio_01", Loader = function()
+        return {
             ["voice_ch_char_Aote_vo_be_hit_heavy_r02"] = {
                 ["ContentKR"] = "스읍....",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_be_hit_heavy_r02",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Aote_vo_birthday", MaxKey = "voice_ch_char_Heitao_vo_companio_02_1", Loader = function()
-        return {
             ["voice_ch_char_Aote_vo_birthday"] = {
                 ["ContentKR"] = "생일 축하합니다! 생일 축하합니다... 아, 아. 우리가 처음 만난 것도 '생일' 때문이었던 게 생각나서. 서로를 의지하며 또 한 번의 '생일'을 맞게 되었다는 게 감격스러워. 예전에는 이런 건 생각도 못했는데, 운명이란 참 신기하다니까.",
                 ["TextMapId"] = "voice_ch_char_Aote_vo_birthday",
@@ -60528,14 +60532,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "그동안 그때 약속한 대로 {性别:그|그녀}를 잘 돌보았어, 나도 잘 지냈고…… 어렸을 때처럼 내 머리를 쓰다듬으면서 칭찬해 줄 수 있어? 그리고, 이젠 두 번 다시 우리 곁을 떠나지 마…… 알겠지?",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_01",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Heitao_vo_companio_02_1", MaxKey = "voice_ch_char_Maer_vo_lvup", Loader = function()
+        return {
             ["voice_ch_char_Heitao_vo_companio_02_1"] = {
                 ["ContentKR"] = "꼬마 트러플 아가씨. 그쪽 돼지…… 만져봐도 돼? 딱 한 번이면 돼. 그리고 도망갈 수도 있으니, 잠깐 잡아줄래? 동물들은 날 보면 항상 도망치거든.",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_02_1",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Heitao_vo_companio_02_2", MaxKey = "voice_ch_char_Maer_vo_revive", Loader = function()
-        return {
             ["voice_ch_char_Heitao_vo_companio_02_2"] = {
                 ["ContentKR"] = "고마워…… 아, 따뜻하고 털이 정말 복슬복슬한 게, 기분이 좋아지네……",
                 ["TextMapId"] = "voice_ch_char_Heitao_vo_companio_02_2",
@@ -61338,14 +61342,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "와! 물건을 담을 주머니가 더 커졌어요!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_lvup",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Maer_vo_revive", MaxKey = "voice_ch_char_Tuosi_vo_appear", Loader = function()
+        return {
             ["voice_ch_char_Maer_vo_revive"] = {
                 ["ContentKR"] = "완벽한 재활용!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_revive",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Maer_vo_skill01_r01", MaxKey = "voice_ch_char_Tuosi_vo_battleidle", Loader = function()
-        return {
             ["voice_ch_char_Maer_vo_skill01_r01"] = {
                 ["ContentKR"] = "재활용 가능!",
                 ["TextMapId"] = "voice_ch_char_Maer_vo_skill01_r01",
@@ -62150,14 +62154,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "날 위해 새로운 무대를 준비해 줬구나.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_appear",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Tuosi_vo_battleidle", MaxKey = "voice_ch_char_Zhangyu_vo_be_hit_heavy_r02", Loader = function()
+        return {
             ["voice_ch_char_Tuosi_vo_battleidle"] = {
                 ["ContentKR"] = "나는 원래 어떤 모습이었지...",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_battleidle",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Tuosi_vo_battlestart", MaxKey = "voice_ch_char_Zhangyu_vo_be_hit_r01", Loader = function()
-        return {
             ["voice_ch_char_Tuosi_vo_battlestart"] = {
                 ["ContentKR"] = "기대하시라, 이 로맨틱한 모험극을.",
                 ["TextMapId"] = "voice_ch_char_Tuosi_vo_battlestart",
@@ -62969,14 +62973,14 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["ContentKR"] = "괴롭히지 마!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_be_hit_heavy_r02",
             },
+        }
+    end },
+    { MinKey = "voice_ch_char_Zhangyu_vo_be_hit_r01", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
+        return {
             ["voice_ch_char_Zhangyu_vo_be_hit_r01"] = {
                 ["ContentKR"] = "아!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_be_hit_r01",
             },
-        }
-    end },
-    { MinKey = "voice_ch_char_Zhangyu_vo_be_hit_r02", MaxKey = "voice_ch_char_Zhiliu_vo_welcome", Loader = function()
-        return {
             ["voice_ch_char_Zhangyu_vo_be_hit_r02"] = {
                 ["ContentKR"] = "윽!",
                 ["TextMapId"] = "voice_ch_char_Zhangyu_vo_be_hit_r02",
