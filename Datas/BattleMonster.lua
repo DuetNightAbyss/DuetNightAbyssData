@@ -2957,7 +2957,6 @@ return ReadOnly("BattleMonster", {
 		CollisionLevel = 100,
 		DEF = 300,
 		DEFLevelGrow = "DEFMon",
-		FilterTargetWeight = 0,
 		MaxES = 0,
 		MaxESLevelGrow = "MaxESMon",
 		MaxHp = 1000,

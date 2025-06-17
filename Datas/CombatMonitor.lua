@@ -26,7 +26,7 @@ return ReadOnly("CombatMonitor", {
 		SubId = {
 			"Sabotage",
 		},
-		Value = 120,
+		Value = 50,
 	},
 	[4] = {
 		MonitorId = 4,
@@ -35,7 +35,7 @@ return ReadOnly("CombatMonitor", {
 		SubId = {
 			"Rescue",
 		},
-		Value = 120,
+		Value = 90,
 	},
 	[5] = {
 		MonitorId = 5,
@@ -53,7 +53,7 @@ return ReadOnly("CombatMonitor", {
 		SubId = {
 			"Hijack",
 		},
-		Value = 180,
+		Value = 120,
 	},
 	[8] = {
 		MonitorId = 8,
