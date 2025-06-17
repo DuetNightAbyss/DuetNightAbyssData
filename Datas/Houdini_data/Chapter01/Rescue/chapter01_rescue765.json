@@ -1,0 +1,431 @@
+{
+    "points": [
+      {
+        "P": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "level_center": [
+          -2500,
+          5820.99951171875,
+          -3500
+        ],
+        "rot": 0.0,
+        "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_Enter_03",
+        "enterLevel": 1,
+        "exitLevel": 0,
+        "door": [
+          {
+            "door_name": "BP_Arrow",
+            "door_state": 1,
+            "if_door": 1,
+            "near_door": "BP_Arrow",
+            "next_id": 6
+          },
+          {
+            "door_name": "BP_Arrow2",
+            "door_state": 1,
+            "if_door": 1,
+            "near_door": "BP_Arrow",
+            "next_id": 7
+          },
+          {
+            "door_name": "BP_Arrow3",
+            "door_state": 1,
+            "if_door": 1,
+            "near_door": "BP_Arrow2",
+            "next_id": 1
+          }
+        ],
+        "if_layout": 0,
+        "art_path": "/Game/Maps/Datas/Data_Art/Chapter01/Chapter01_Kuangkeng_Enter_02_Art",
+        "id": 0
+      },
+        {
+            "P": [
+                -17800.0,
+                -4020.9991455078125,
+                2399.9988555908203
+            ],
+            "level_center": [
+                500,
+                1200.0,
+                1500
+            ],
+            "rot": 180.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_Road_07",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 2
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 0
+                },
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 8
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 1
+        },
+        {
+            "P": [
+                -31000.0,
+                -4508.500671386719,
+                6800.001525878906
+            ],
+            "level_center": [
+                500,
+                1512.4992370605469,
+                -1500
+            ],
+            "rot": -180.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_Road_14",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow",
+                    "next_id": 1
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 3
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 2
+        },
+        {
+            "P": [
+                -43899.9755859375,
+                -5220.9991455078125,
+                7599.994659423828
+            ],
+            "level_center": [
+                -2500,
+                1500.0,
+                -1500
+            ],
+            "rot": 180.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_Road_06",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 2
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 4
+                },
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 9
+                },
+                {
+                    "door_name": "BP_Arrow4",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 10
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 3
+        },
+        {
+            "P": [
+                -55999.981689453125,
+                -5590.998840332031,
+                6386.020278930664
+            ],
+            "level_center": [
+                -500,
+                -20.000076293945312,
+                -3500
+            ],
+            "rot": -180.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_Road_05",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 3
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 11
+                },
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 5
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 4
+        },
+        {
+            "P": [
+                -57500.677490234375,
+                -4453.999328613281,
+                -8413.97933959961
+            ],
+            "level_center": [
+                500,
+                1167.0000076293945,
+                -500
+            ],
+            "rot": 89.99999237060547,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_Exit_01",
+            "enterLevel": 0,
+            "exitLevel": 1,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 4
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 0,
+                    "if_door": 1,
+                    "near_door": "",
+                    "next_id": -1
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 5
+        },
+        {
+            "P": [
+                17100.0,
+                -5320.9991455078125,
+                2900.000762939453
+            ],
+            "level_center": [
+                500,
+                2100.0,
+                500
+            ],
+            "rot": 90.00000762939453,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_Connector_03",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow",
+                    "next_id": 0
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 0,
+                    "if_door": 1,
+                    "near_door": "",
+                    "next_id": -1
+                },
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 0,
+                    "if_door": 1,
+                    "near_door": "",
+                    "next_id": -1
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 6
+        },
+        {
+            "P": [
+                -1199.9998092651367,
+                -4820.999526977539,
+                10600.0
+            ],
+            "level_center": [
+                500,
+                400.0,
+                500
+            ],
+            "rot": -90.00000762939453,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_DeadEnd_04",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 0
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 7
+        },
+        {
+            "P": [
+                -16500.0,
+                -4900.999450683594,
+                17549.998474121094
+            ],
+            "level_center": [
+                500,
+                0.0,
+                500
+            ],
+            "rot": -0.0,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_DeadEnd_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 1
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 8
+        },
+        {
+            "P": [
+                -45999.98779296875,
+                -7400.999450683594,
+                14649.98779296875
+            ],
+            "level_center": [
+                500,
+                0.0,
+                500
+            ],
+            "rot": -0.0,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_DeadEnd_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 3
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 9
+        },
+        {
+            "P": [
+                -42199.99084472656,
+                -6800.999450683594,
+                550.006914138794
+            ],
+            "level_center": [
+                500,
+                0.0,
+                500
+            ],
+            "rot": -180.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_DeadEnd_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow4",
+                    "next_id": 3
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 10
+        },
+        {
+            "P": [
+                -62899.981689453125,
+                -6120.9991455078125,
+                6370.005035400391
+            ],
+            "level_center": [
+                500,
+                400.0,
+                500
+            ],
+            "rot": -0.0,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Kuangkeng_DeadEnd_04",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 4
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 11
+        }
+    ]
+}

@@ -1,0 +1,502 @@
+{
+    "points": [
+        {
+            "P": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "level_center": [
+                4500,
+                300.0,
+                -500
+            ],
+            "rot": 0.0,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Enter_01",
+            "enterLevel": 1,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 1
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 0
+        },
+        {
+            "P": [
+                -13261.837768554688,
+                1.3591766357421875,
+                452.2686004638672
+            ],
+            "level_center": [
+                -9500,
+                300.0,
+                1500
+            ],
+            "rot": 180.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Connector_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 2
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow",
+                    "next_id": 0
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 1
+        },
+        {
+            "P": [
+                -26969.036865234375,
+                -1621.738052368164,
+                1503.0158996582031
+            ],
+            "level_center": [
+                -2500,
+                300.0,
+                -500
+            ],
+            "rot": -89.99999237060547,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Road_03",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow",
+                    "next_id": 1
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 3
+                },
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 6
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 2
+        },
+        {
+            "P": [
+                -30862.789916992188,
+                1233.355712890625,
+                14441.783142089844
+            ],
+            "level_center": [
+                -6500,
+                2100.0001907348633,
+                4500
+            ],
+            "rot": -89.99999237060547,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Enter_02",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 4
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 2
+                },
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 7
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 3
+        },
+        {
+            "P": [
+                -29214.443969726562,
+                633.9557647705078,
+                25980.233764648438
+            ],
+            "level_center": [
+                -3500,
+                300.0,
+                500
+            ],
+            "rot": 90.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Connector_02",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow",
+                    "next_id": 3
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 8
+                },
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 5
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 4
+        },
+        {
+            "P": [
+                -28130.377197265625,
+                1533.0558776855469,
+                41929.50439453125
+            ],
+            "level_center": [
+                4500,
+                1700.0,
+                -3500
+            ],
+            "rot": -89.99999237060547,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Exit_01",
+            "enterLevel": 0,
+            "exitLevel": 1,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow",
+                    "next_id": 4
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 5
+        },
+        {
+            "P": [
+                -27568.435668945312,
+                -2071.288299560547,
+                -10529.939270019531
+            ],
+            "level_center": [
+                -500,
+                300.0,
+                -7500
+            ],
+            "rot": 90.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_DeadEnd_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow",
+                    "next_id": 2
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 6
+        },
+        {
+            "P": [
+                -47837.799072265625,
+                -417.9915428161621,
+                10834.890747070312
+            ],
+            "level_center": [
+                1500,
+                400.0,
+                -500
+            ],
+            "rot": -89.99999237060547,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Road_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 3
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 9
+                },
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 10
+                },
+                {
+                    "door_name": "BP_Arrow4",
+                    "door_state": 0,
+                    "if_door": 1,
+                    "near_door": "",
+                    "next_id": -1
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 7
+        },
+        {
+            "P": [
+                -39658.45642089844,
+                -385.07652282714844,
+                27818.972778320312
+            ],
+            "level_center": [
+                -500,
+                300.0,
+                -7500
+            ],
+            "rot": -0.0,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_DeadEnd_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 4
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 8
+        },
+        {
+            "P": [
+                -46629.26025390625,
+                -867.54150390625,
+                -888.6241912841797
+            ],
+            "level_center": [
+                -500,
+                300.0,
+                -7500
+            ],
+            "rot": 90.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_DeadEnd_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 7
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 9
+        },
+        {
+            "P": [
+                -60167.4560546875,
+                4080.50537109375,
+                16539.678955078125
+            ],
+            "level_center": [
+                5500,
+                2600.0,
+                -4500
+            ],
+            "rot": 90.00001525878906,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Road_02",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 7
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 0,
+                    "if_door": 1,
+                    "near_door": "",
+                    "next_id": -1
+                },
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 12
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 10
+        },
+        {
+            "P": [
+                -69907.70874023438,
+                334.25559997558594,
+                15490.727233886719
+            ],
+            "level_center": [
+                -3500,
+                300.0,
+                500
+            ],
+            "rot": -0.0,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Connector_02",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow3",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 13
+                },
+                {
+                    "door_name": "BP_Arrow2",
+                    "door_state": 1,
+                    "if_door": 1,
+                    "near_door": "BP_Arrow",
+                    "next_id": 14
+                },
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 10
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 12
+        },
+        {
+            "P": [
+                -80397.21069335938,
+                -1463.9445304870605,
+                17588.626098632812
+            ],
+            "level_center": [
+                -500,
+                300.0,
+                -7500
+            ],
+            "rot": -0.0,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_DeadEnd_01",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow3",
+                    "next_id": 12
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 13
+        },
+        {
+            "P": [
+                -69593.46923828125,
+                849.4582176208496,
+                23976.541137695312
+            ],
+            "level_center": [
+                1500,
+                900.0,
+                5500
+            ],
+            "rot": 90.00000762939453,
+            "struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_DeadEnd_02",
+            "enterLevel": 0,
+            "exitLevel": 0,
+            "door": [
+                {
+                    "door_name": "BP_Arrow",
+                    "door_state": 0,
+                    "if_door": 0,
+                    "near_door": "BP_Arrow2",
+                    "next_id": 12
+                }
+            ],
+            "if_layout": 0,
+            "art_path": "",
+            "id": 14
+        }
+    ],
+    "attr": [
+        {
+            "capture_start_id": 2,
+            "capture_start_struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_Road_03",
+            "capture_end_id": 14,
+            "capture_end_struct": "/Game/Maps/Datas/Data_Design/Chapter01/Chapter01_Sew_DeadEnd_02"
+        }
+    ]
+}

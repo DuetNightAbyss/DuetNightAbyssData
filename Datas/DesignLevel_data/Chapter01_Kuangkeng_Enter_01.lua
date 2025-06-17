@@ -1,0 +1,17 @@
+return 
+{
+    ["StaticCreator"] = {
+    },
+    ["ManualItem"] = {
+    },
+    ["Explore"] = {
+    },
+    ["RandomRule"] = {
+        ["10403"] = {
+            ["RandomRuleId"] = 10403
+        },
+        ["10402"] = {
+            ["RandomRuleId"] = 10402
+        }
+    }
+}
