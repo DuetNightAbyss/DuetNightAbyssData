@@ -9,7 +9,7 @@ local Languages = {
 }
 
 -- 配置项开始
-local TextLanguage = Languages.JP -- 文本语言
+local TextLanguage = "JP" -- 文本语言
 local CharId = 5301 -- 角色ID
 local VoiceType = 2 -- 语音类型 1/闲谈 2/战斗
 -- 配置项结束
@@ -19,14 +19,15 @@ local CText = function(Text)
     return TextUtils:GetDisplayText(Text, Languages.CN)
 end
 local GText = function(Text)
-    return TextUtils:GetDisplayText(Text, TextLanguage)
+    return TextUtils:GetDisplayText(Text, Languages[TextLanguage])
 end
 
-local CharData = DataMgr.Char[CharId]
+local CharData = DataMgr.CharacterData[CharId]
 if not CharData then
     error("角色不存在")
 end
-print("角色名称:", CText(CharData.CharName))
+print(CText("UI_Chardata_Char_Name") .. ": " .. CText(CharData.CharName))
+print(CText("UI_Voice_Actor_" .. TextLanguage) .. ": " .. CText(CharData["Cv" .. TextLanguage .. "Name"] or ""))
 
 local CharVoiceDatas = DataMgr.CharVoice[CharId]
 
