@@ -11340,7 +11340,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_14",
             },
             ["Message_Guide_ChangeColor_15"] = {
-                ["ContentKR"] = "수련 화면의 <H>입문 가이드</>에서 기본 염료의 설계도를 획득할 수 있습니다.",
+                ["ContentKR"] = "수련 화면의 <H>입문 가이드</>에서 기본 염료의 설계도를 획득할 수 있어.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_15",
             },
             ["Message_Guide_ChangeColor_1_Pad"] = {
@@ -11372,7 +11372,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_ChangeColor_5",
             },
             ["Message_Guide_ChangeColor_6"] = {
-                ["ContentKR"] = "또한, 캐릭터 이미지의 색상을 조정할 수 있습니다.",
+                ["ContentKR"] = "또한, 캐릭터 이미지의 색상을 조정할 수 있어.",
                 ["TextMapId"] = "Message_Guide_ChangeColor_6",
             },
             ["Message_Guide_ChangeColor_7"] = {

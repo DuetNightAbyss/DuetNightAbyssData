@@ -4465,10 +4465,7 @@ return ReadOnly("Resource", {
 		Type = "Ordinary",
 	},
 	[20008] = {
-		AccessKey = {
-			"Forging",
-			"Text_Monster",
-		},
+		AccessKey = T.RT_42,
 		DetailDes = "RESOURCE_DESC_20008",
 		FunctionDes = "RESOURCE_FUNCTION_FORGE",
 		Icon = "/Game/UI/Texture/Dynamic/Atlas/Prop/Item/T_Resource_Ganran02.T_Resource_Ganran02",
