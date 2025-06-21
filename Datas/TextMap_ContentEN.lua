@@ -43158,8 +43158,7 @@ When night falls and the moonlight glimmers on the surface of the water, the bon
             ["UI_CHAR_DATA_TEXT_15020202"] = {
                 ["ContentEN"] = "At the heart of Aethyrie, the Free State, atop the towering canopy of Arcadia Academy's great tree, stands a gravestone bathed in the light of dawn. It marks the resting place of Lady Aletheia, the Academy's founder. Once every ten years, on the anniversary of her birth, a remembrance ceremony is held in her honour. Lady Aletheia was more than a teacher — she was a leader and a visionary. Through wisdom and resolve, she steered the Free State time and again along the knife's edge between the Empire and the Church, preserving its neutrality amidst an age of turmoil.\
 \
-Among the gathering of mourners, there is sometimes one figure who stands apart — a woman veiled in black. Unlike the others, she brings no flowers, speaks no words. She simply stands at a distance, silent,\
-her gaze fixed upon the name etched into stone.\
+Among the gathering of mourners, there is sometimes one figure who stands apart — a woman veiled in black. Unlike the others, she brings no flowers, speaks no words. She simply stands at a distance, silent, her gaze fixed upon the name etched into stone.\
 \
 Years pass. Generations come and go. The mourners change. But the veiled woman remains. Unaged. As if time itself has forgotten her.",
                 ["TextMapId"] = "UI_CHAR_DATA_TEXT_15020202",

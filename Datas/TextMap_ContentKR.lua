@@ -12108,7 +12108,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_RougeContract_6",
             },
             ["Message_Guide_RougeLantern_1"] = {
-                ["ContentKR"] = "랜턴을 수리하면 랜턴의 축복을 강화할 수 있으며 미로 탐색 시의 전투 능력을 강화할 수 있습니다.",
+                ["ContentKR"] = "랜턴을 수리하면 랜턴의 축복을 강화할 수 있으며 미로 탐색 시의 전투 능력도 강화할 수 있어.",
                 ["TextMapId"] = "Message_Guide_RougeLantern_1",
             },
             ["Message_Guide_RougeLantern_2"] = {
@@ -12140,7 +12140,7 @@ local Data = {
                 ["TextMapId"] = "Message_Guide_RougeLantern_7",
             },
             ["Message_Guide_RougeLantern_8"] = {
-                ["ContentKR"] = "<H>유리</>를 사용하여 랜턴을 수리하면 다양한 <H>축복</>을 받아 전투 능력을 강화할 수 있습니다.",
+                ["ContentKR"] = "<H>유리</>를 사용하여 랜턴을 수리하면 다양한 <H>축복</>을 받아 전투 능력을 강화할 수 있어.",
                 ["TextMapId"] = "Message_Guide_RougeLantern_8",
             },
             ["Message_Guide_RougeLantern_8_Pad"] = {
@@ -36436,7 +36436,7 @@ HP 비율이 15% 보다 높을 시, [허물 벗기] 상태에서 매초 HP가 �
                 ["TextMapId"] = "UIGuide_Sojourns_03_Pad",
             },
             ["UIGuide_Sojourns_04"] = {
-                ["ContentKR"] = "각 캐릭터는 서로 다른 이야기를 가지고 있습니다.",
+                ["ContentKR"] = "각 캐릭터는 서로 다른 이야기를 가지고 있어.",
                 ["TextMapId"] = "UIGuide_Sojourns_04",
             },
             ["UIGuide_Sojourns_04_Pad"] = {
