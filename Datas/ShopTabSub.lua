@@ -107,6 +107,13 @@ return ReadOnly("ShopTabSub", {
 		},
 		TabType = "Normal",
 	},
+	[1500] = {
+		MainTabId = 150,
+		SubName = "UI_SHOP_CBT3_PACK",
+		SubTabId = 1500,
+		TabCoin = T.RT_1,
+		TabType = "Item",
+	},
 	[1501] = {
 		MainTabId = 150,
 		SubName = "UI_SHOP_MAINTAB_ITEM",
