@@ -6813,7 +6813,7 @@ T.RT_749 = {
 		[5] = "$#TargetFilter[#SkillEffects[330124].TargetFilter].LuaFilterParaments.Radius/100$$GText(\"SKILL_DESC_Meter\")$",
 		[6] = "$#SkillEffects[330125].TaskEffects[1].Rate*100$%",
 		[7] = "$#TargetFilter[#SkillEffects[330125].TargetFilter].LuaFilterParaments.Radius/100$$GText(\"SKILL_DESC_Meter\")$",
-		[8] = "$#PassiveEffect[330101].Vars.Time$$GText(\"SKILL_DESC_Second\")$",
+		[8] = "$#SkillCreature[330112].TimeLife$$GText(\"SKILL_DESC_Second\")$",
 		[9] = "$#SkillEffects[330126].TaskEffects[1].Rate*100$%",
 		[10] = "$#TargetFilter[#SkillEffects[330126].TargetFilter].LuaFilterParaments.Radius/100$$GText(\"SKILL_DESC_Meter\")$",
 	}

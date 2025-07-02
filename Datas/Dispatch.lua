@@ -1261,9 +1261,9 @@ return ReadOnly("Dispatch", {
 		DispatchId = 106544,
 		DispatchPerson = 2,
 		DispatchType = "Social",
-		DispatchUIId = 206544,
+		DispatchUIId = 106544,
 		ExcId = {
-			206554,
+			106554,
 		},
 		PlayerLevel = T.RT_6,
 		Rarity = 1,
@@ -1309,9 +1309,9 @@ return ReadOnly("Dispatch", {
 		DispatchId = 106554,
 		DispatchPerson = 2,
 		DispatchType = "Social",
-		DispatchUIId = 206554,
+		DispatchUIId = 106554,
 		ExcId = {
-			206544,
+			106544,
 		},
 		PlayerLevel = T.RT_6,
 		Rarity = 1,

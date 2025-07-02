@@ -11454,6 +11454,12 @@ return ReadOnly("SkillEffects", {
 		TaskId = 330126,
 	},
 	[330127] = {
+		ReplaceEffectParam = {
+			Condition = 74,
+			SkillEffect = {
+				330131,
+			},
+		},
 		TargetFilter = "Target",
 		TaskEffects = {
 			[1] = {
@@ -11507,6 +11513,17 @@ return ReadOnly("SkillEffects", {
 			},
 		},
 		TaskId = 330130,
+	},
+	[330131] = {
+		TargetFilter = "Target",
+		TaskEffects = {
+			[1] = {
+				Condition = 330112,
+				CreatureId = 330115,
+				Function = "CreateSkillCreature",
+			},
+		},
+		TaskId = 330131,
 	},
 	[410111] = {
 		EffectExecuteTiming = "Enter",

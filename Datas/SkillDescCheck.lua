@@ -510,7 +510,6 @@ return ReadOnly("SkillDescCheck", {
 		},
 		[330101] = {
 			["Skill01Num"] = T.RT_22,
-			["Time"] = T.RT_21,
 		},
 		[410101] = {
 			["Passive1Per"] = {
@@ -600,6 +599,7 @@ return ReadOnly("SkillDescCheck", {
 	},
 	["SkillCreature"] = {
 		[110141] = T.RT_42,
+		[330112] = T.RT_21,
 		[410225] = T.RT_17,
 		[420202] = T.RT_13,
 		[430113] = T.RT_12,
